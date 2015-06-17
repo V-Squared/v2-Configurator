@@ -1,5 +1,7 @@
 #Functions
 
+Here are some cool function
+
 ##Organize
 
 Our configurator is fully organize and grouped
