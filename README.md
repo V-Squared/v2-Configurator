@@ -16,7 +16,7 @@ This function is work in progress
 #Team
 
 - ![Andrew](https://avatars2.githubusercontent.com/u/1152417?v=3&s=80) Andrew Bishara
-- Lukas Chen
+- ![Lukas](//lh3.googleusercontent.com/-cFhBtGfTo4g/AAAAAAAAAAI/AAAAAAAAAOI/wYcw7kC62bE/s120-c/photo.jpg)Lukas Chen
 
 # License
 GNU GPL v3
