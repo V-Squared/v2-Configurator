@@ -1,9 +1,3 @@
-<?php
-$conn = new mysqli("localhost","root","","test");
-if ($conn->connect_error) {
- die("Connection failed: " . $conn->connect_error);
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,42 +84,6 @@ if ($conn->connect_error) {
         </div>
         <!--End Configurator-->
     </div>
-
-    <div class="section">
-        <div class="container">
-            <div style="background-color:#FFF">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>CustomerID</th>
-                            <th>CustomerName</th>
-                            <th>ContactName</th>
-                            <th>Address</th>
-                            <th>City</th>
-                            <th>PostalCode</th>
-                            <th>Country</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                        $sql = "SELECT * FROM customers";
-                        $result = mysqli_query($conn,$sql);
-
-                        if (mysqli_num_rows($result) > 0) {
-                               // output data of each row
-                         while($row = mysqli_fetch_assoc($result)) {
-                             echo "<tr><td>". $row["CustomerID"]. "</td><td>". $row["CustomerName"]. "</td><td>". $row["ContactName"]. "</td><td>". $row["Address"]. "</td><td>". $row["City"]. "</td><td>". $row["PostalCode"]. "</td><td>". $row["Country"]. "</td></tr>";
-                             }
-                         } else {
-                             echo "0 results";
-                         }
-                         mysqli_close($conn);
-                         ?>
-                 </tbody>
-             </table>
-         </div>
-     </div>
- </div>
 
  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
  <script type="text/javascript" src="js/jquery-calx-1.1.8.min.js"></script>
