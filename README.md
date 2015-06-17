@@ -1,3 +1,7 @@
+#Table
+
+- [Function][#Functions]
+
 #Functions
 
 ##Caculate
