@@ -1,6 +1,6 @@
 #Table
 
-- [Function][#Functions]
+- [Function](#function)
 
 #Functions
 
