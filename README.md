@@ -1,8 +1,8 @@
-#Table
-
-- [Function](#function)
-
 #Functions
+
+##Organize
+
+Our configurator is fully organize and grouped
 
 ##Caculate
 
