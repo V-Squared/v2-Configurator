@@ -1,0 +1,443 @@
+/*================================================================================*/
+/*Font*/
+/*================================================================================*/
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Roboto-heading;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Roboto-heading;
+	font-weight: 500;
+}
+p {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/*================================================================================*/
+/*COMMON CSS CODE*/
+/*================================================================================*/
+
+
+body {
+	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+	color:#505656;
+	line-height: 1.625;
+}
+img {
+	display:block;
+	max-width: 100%;
+	height: auto;
+}
+::selection {
+	background-color: #07b;
+	color:#FFF;
+	border-radius: 30px;
+}
+::-moz-selection {
+	background-color: #07b;
+	color:#FFF;
+}
+a {
+	transition:all 0.2s;
+	-o-transition:all 0.2s;
+	-webkit-transition :all 0.2s;
+}
+form td {
+	padding:5px 10px;
+	vertical-align: bottom;
+}
+select {
+	max-width:100%;
+}
+label {
+	font-weight: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*================================================================================*/
+/*NAVBAR CSS CODE*/
+/*================================================================================*/
+
+
+ul.navbar-nav li a:hover,  ul.navbar-nav li:focus, ul.navbar-nav a:focus{
+	background-color: rgba(0,0,0,0.15);
+}
+body {
+	margin-top: 55px;
+}
+@media (min-width: 850px) {
+	ul.navbar-nav li a:hover,  ul.navbar-nav li:focus, ul.navbar-nav a:focus{
+		box-shadow :inset 0 -2px 0 #ffffff;
+		-webkit-box-shadow :inset 0 -2px 0 #ffffff;
+		background-color: transparent;
+		color:#FFF;
+	}
+	ul.navbar-nav li {
+		margin-left: 30px;
+	}
+	ul.navbar-nav .active {
+		box-shadow :inset 0 -2px 0 #ffffff;
+		-webkit-box-shadow :inset 0 -2px 0 #ffffff;
+		background-color: transparent;
+	}
+}
+ul.navbar-nav a {
+	color:#bbe6ff;
+	text-transform: uppercase;
+	padding-top: 19px;
+	padding-bottom:15px;
+}
+ul.navbar-nav .active {
+	color:#FFF;
+}
+ul.navbar-nav a:hover{
+	background-color:transparent;
+}
+#navbar{
+	background:#07b;
+	margin-bottom: 0;
+	border-bottom:1px solid #246489;
+	height:55px;
+}
+@media (max-width:850px){
+	#navbar .container {
+		width:100%;
+		padding:0;
+	}
+}
+@media (min-width: 992px){
+	#navbar .container {
+		width:750px;
+	}
+}
+@media (min-width: 1063px) {
+	#navbar .container {
+		width: 970px;
+	}
+}
+@media (max-width: 768px) {
+	#navbar .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media (min-width: 1200px) {
+	#navbar .container {
+		width: 1170px;
+	}
+}
+.navbar-collapse {
+	width:120%;
+}
+.navbar-brand{
+	color:#FFF;
+	background-color:rgba(0, 0, 0, 0.15);
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+@media(max-width: 850px){
+	.logo {
+		position: relative;
+		top:0;
+		left:55px;
+	}
+}
+.toggle-panel {
+	position: absolute;
+	top: 0;
+	left:0;
+	height:55px;
+	width: 50px;
+	background : transparent;
+	border-radius: 0;
+	border:none;
+	padding: 6px 12px;
+	box-shadow: none;
+}
+.toggle-panel:hover, .toggle-panel:focus {
+	background:rgba(0, 0, 0, 0.15);
+}
+.toggle-panel i{
+	text-align: center;
+	color:#bbe6ff;
+}
+.navbar-toggle {
+	border: 1px solid #FFF;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.navbar-toggle .icon-bar {
+	background:#FFF;
+}
+.navbar-toggle:hover {
+	background: #FFF;
+}
+.navbar-toggle:hover .icon-bar{
+	background: #07b;
+}
+@media (max-width: 850px){
+	.navbar-collapse {
+		background-color: #07b;
+		border-bottom:1px solid #246489;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*================================================================================*/
+/*JUMBOTRON CSS CODE*/
+/*================================================================================*/
+
+
+
+
+
+
+
+
+.jumbotron {
+	background-color:#07b;
+	color:#FFF;
+	margin-bottom:0;
+}
+.masthead {
+	padding: 100px 0;
+}
+@media (min-width: 768px){
+	.masthead h1{
+		font-size: 84px;
+		text-align: center;
+	}
+}
+.masthead h1{
+	text-align: center;
+}
+@media (min-width: 992px){
+	.masthead p{
+		font-size: 28px;
+	}
+}
+.masthead p{
+	color:#bbe6ff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.masthead .btn {
+	text-align: center;
+}
+.jumbotron .btn-primary {
+	background: #07b;
+	border: 1px solid #FFF;
+}
+.jumbotron .btn-primary:hover, .jumbotron .btn-primary:hover .btn-primary:focus {
+	background: #FFF;
+	color:#07b;
+}
+.jumbotron .btn-lg {
+	padding: 15px 40px;
+	font-size: 24px;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*================================================================================*/
+/*Content CSS CODE*/
+/*================================================================================*/
+
+
+.article h1{
+	margin-bottom: 30px;
+	padding-top: 60px;
+	border-top: 1px solid #e3e3e3;
+}
+.article h1:first-child{
+	padding-top:0;
+	border-top: 0px solid #e3e3e3;
+}
+.section {
+	padding: 80px 0px;
+}
+.section:nth-child(even) {
+	background-color: #f7f7f7;
+}
+.background-cover {
+	background-repeat: no-repeat;
+	background-size: center center;
+	background-size: cover;
+}
+.con-fig-header {
+	-webkit-user-select:none;
+}
+.con-fig-header h2, .con-fig-header h2:hover, .con-fig-header h2:focus {
+	color:#FFF;	
+	text-decoration: none;
+}
+.con-fig-header .fa{
+	font-size:8px;
+	position: relative;
+	bottom: 2px;
+}
+.panel {
+	border-radius: 0;
+}
+.panel-heading {
+	/*background-color: rgb(3, 155, 229) !important;*/
+	background-image:none !important;
+	border:none !important;
+	border-radius: 0;
+	cursor: pointer;
+}
+.price-sidebar.affix {
+	top:60px;
+}
+@media (max-width:992px) {
+	.price-sidebar.affix {
+		position: relative;
+		top: 0;
+	}
+}
+.panel {
+	margin-bottom: 10px;
+}
+input[type="radio"] {
+	margin: 3px 8px 0px 5px;
+}
+.center {
+	text-align: center;
+}
+.intel-show {
+	border-bottom: 3px solid #0071c5;
+}
+.AMD-show {
+	border-bottom: 3px solid #000;
+}
+.panel-body {
+	padding: 15px;
+}
+#radiocheckednumber {
+	margin-top:20px;
+}
+label {
+	cursor: pointer;
+}
+.shade {
+	-webkit-filter: grayscale(1);
+	  filter: grayscale(1);
+}
+.intel-AMD-button {
+	border:1px solid #aaa;
+	border-radius: 5px;
+	padding:5px;
+}
+.intel-AMD-button:hover {
+	border:1px solid #000;
+	cursor: pointer;
+}
+.side-table-heading {
+	text-align: right;
+}
+.fake-link {
+	cursor: pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+.block-link {
+	display: block;
+}
+.sub-sectionToggle {
+color: rgb(3, 155, 229) !important;
+}
+.table-left-title {
+	font-weight: bold;
+	text-align: right;
+}
+.readmore_button {
+	padding-bottom: 10px;
+	color:rgb(3, 155, 229) !important;
+}
+.fa-play {
+	font-size: inherit !important;
+}
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;	
+}
+.carousel-inner .thumb{
+	padding-right:20px;
+}
+.tableHeading {
+	background:#8bcbee !important;
+}
+.container .panel-default:nth-child(odd) {
+	margin-bottom: 20px;
+}
+
+.container .panel-default:last-child {
+	margin-bottom: 0px;
+}
+
+.container .panel-default:nth-child(2) .panel-heading,
+.container .panel-default:nth-child(3) .panel-heading {
+	background: #faf3d1 !important;
+}
+
+.container .panel-default:nth-child(4) .panel-heading,
+.container .panel-default:nth-child(5) .panel-heading {
+	background: #039be5 !important;
+}
+
+.container .panel-default:nth-child(6) .panel-heading,
+.container .panel-default:nth-child(7) .panel-heading {
+	background: #09ECFC !important;
+}
