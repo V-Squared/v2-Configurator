@@ -1,4 +1,3 @@
-var hello;
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
     $http.get('data.json')

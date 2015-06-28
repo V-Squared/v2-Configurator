@@ -1,5 +1,4 @@
 console.log('jQuery!');
-
     /*function hello (argument) {
         $('input[type="radio"]').each(function() {
           alert('hello');
@@ -10,15 +9,23 @@ console.log('jQuery!');
 
         prizeString = "";
 
-        $(this).attr('id','hello');
-
         if ($(this).val() != 0) {
             prizeString = $(this).val();
 
             $(this).next('span').prepend("$" + prizeString + " US - ");
         }
 
+
     });
+
+
+    var last_Id;
+    var last_Name;
+    var now_Id;
+    var now_Name;
+    var data_child;
+
+    
 
     $('input[type="radio"], select option').click(function() {
         var result = $('input[type=radio]:checked, select option:selected');
@@ -33,6 +40,7 @@ console.log('jQuery!');
             var findImg = $(this).closest('.col-sm-10').prev('.col-sm-2').find('img');
 
             result.each(function() {
+                
                 imageUrl = "";
                 //alert($(this).val());
                 total += parseInt($(this).val());
@@ -43,15 +51,20 @@ console.log('jQuery!');
                     var originalImg = findImg.attr('originalUrl');
                     findImg.attr('src',originalImg)
                 }
-
-                var hello = $(this).data('child');
-                angular.forEach(hello,function(value,index){
-                    alert(value);
-                });
-                $("#vicase-access").prop("disabled",true);
                 var selectedText = $(this).next('span').text();
+                
+                data_child = $(this).data('child');
+
+                //console.log(data_child);
+
+                angular.forEach(data_child,function (value, index) {
+                    $(value).find('input[type=radio]').prop( "disabled", true );
+                });
+
+                //$("#section-3-Button-0").find('input[type=radio]').prop( "disabled", true );
 
                 var Case = "";
+
 
 
                 /*$('input[class=case]:checked').each(function() {
@@ -92,7 +105,12 @@ console.log('jQuery!');
                     //$('#state').text(noneNumber);
                 }
 
+                
+
+
             });
+
+
 
             $('.village input[type=radio]:checked').each(function() {
                 villageSum += parseInt($(this).val());
@@ -117,6 +135,39 @@ console.log('jQuery!');
         }
     });
 
+/*$('input[type="radio"], select option').click(function() {
+    now_Id = $(this).closest('div').attr('id');
+    now_Name = $(this).attr('name');
+
+    if(now_Id != last_Id && now_Name == last_Name) {
+        alert('congruate');
+        var test2 = '#' + last_Id;
+        console.log(test2);
+        var test = $(test2).find('input[type=radio]').data('child');
+        console.log(test);
+        angular.forEach(test,function (value, index) {
+            $(value).find('input[type=radio]').prop( "disabled", false );
+        });
+    }
+
+    last_Id = $(this).closest('div').attr('id');
+    last_Name = $(this).attr('name');
+});*/
+
+$('input[type="radio"], select option').click(function() {
+
+    $('input[type=radio]').each(function(){
+        if($(this).is(':checked')){
+            
+        } else {
+            var test = $(this).data('child');
+            angular.forEach(test,function (value, index) {
+                $(value).find('input[type=radio]').prop( "disabled", false );
+            });
+            //$(test).find('input[type=radio]').prop( "disabled", false );
+        }
+    });
+});
 
     //-----------------------------------------------------
     //Read More

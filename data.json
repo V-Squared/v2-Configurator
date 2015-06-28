@@ -17,7 +17,9 @@
           {
             "name": "ViDock Mini 2L (Tiny)",
             "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
-            "Child_Name": ["#vicase-access"],
+            "Child_Name": [
+              "#section-3-Button-0"
+            ],
             "value": 77
           },
           {
@@ -555,8 +557,7 @@
           }
         ],
         "Logic": [
-          {
-          }
+          {}
         ]
       },
       {
@@ -1130,6 +1131,149 @@
               }
             ]
           }
+        ]
+      },
+      {
+        "name": "AC / DC Adapter",
+        "url": "",
+        "part": "AC-DC_Adapter",
+        "slide": "slide7",
+        "yourChoice": [
+          {
+            "name": "48W",
+            "Child_Name": [
+              "#section-6-Button-0",
+              "#section-6-Button-1"
+            ],
+            "value": 30
+          },
+          {
+            "name": "120W",
+            "value": 40
+          },
+          {
+            "name": "180W",
+            "value": 50
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "Adapter title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "Adapter title2"
+          },
+          {
+            "name": "Adapter title3"
+          },
+          {
+            "name": "Adapter title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "adapter row1",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          },
+          {
+            "title": "adapter row2",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          },
+          {
+            "title": "adapter row2",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          }
+        ],
+        "Advice": {
+          "heading": "Adapter",
+          "content": "Adapter"
+        },
+        "Gallery": [
+          {
+            "image": "Adapter-Black.jpg",
+            "title": "Adapter Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Cyan.jpg",
+            "title": "Adapter Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Red.jpg",
+            "title": "Adapter Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Silver.jpg",
+            "title": "Adapter Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "adapter button1",
+                "class": "active"
+              },
+              {
+                "name": "adapter button2"
+              },
+              {
+                "name": "adapter button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ]
+          }
         ],
         "Logic": {}
       },
@@ -1265,146 +1409,6 @@
               {
                 "name1": "power name1",
                 "name2": "power name2"
-              }
-            ]
-          }
-        ],
-        "Logic": {}
-      },
-      {
-        "name": "AC / DC Adapter",
-        "url": "",
-        "part": "AC-DC_Adapter",
-        "slide": "slide7",
-        "yourChoice": [
-          {
-            "name": "48W",
-            "value": 30
-          },
-          {
-            "name": "120W",
-            "value": 40
-          },
-          {
-            "name": "180W",
-            "value": 50
-          }
-        ],
-        "TableHeading": [
-          {
-            "name": "Adapter title1",
-            "class": "table-left-title"
-          },
-          {
-            "name": "Adapter title2"
-          },
-          {
-            "name": "Adapter title3"
-          },
-          {
-            "name": "Adapter title4"
-          }
-        ],
-        "TableBody": [
-          {
-            "title": "adapter row1",
-            "name2": "adapter data1",
-            "name3": "adapter data2",
-            "name4": "adapter data3"
-          },
-          {
-            "title": "adapter row2",
-            "name2": "adapter data1",
-            "name3": "adapter data2",
-            "name4": "adapter data3"
-          },
-          {
-            "title": "adapter row2",
-            "name2": "adapter data1",
-            "name3": "adapter data2",
-            "name4": "adapter data3"
-          }
-        ],
-        "Advice": {
-          "heading": "Adapter",
-          "content": "Adapter"
-        },
-        "Gallery": [
-          {
-            "image": "Adapter-Black.jpg",
-            "title": "Adapter Black",
-            "description": "This is a description"
-          },
-          {
-            "image": "Adapter-Cyan.jpg",
-            "title": "Adapter Cyan",
-            "description": "This is a description"
-          },
-          {
-            "image": "Adapter-Red.jpg",
-            "title": "Adapter Red",
-            "description": "This is a description"
-          },
-          {
-            "image": "Adapter-Silver.jpg",
-            "title": "Adapter Silver",
-            "description": "This is a description"
-          }
-        ],
-        "Datasheet": [
-          {
-            "button": [
-              {
-                "name": "adapter button1",
-                "class": "active"
-              },
-              {
-                "name": "adapter button2"
-              },
-              {
-                "name": "adapter button3"
-              }
-            ],
-            "table1": [
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              }
-            ],
-            "table2": [
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              }
-            ],
-            "table3": [
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
-              },
-              {
-                "name1": "adapter name1",
-                "name2": "adapter name2"
               }
             ]
           }
