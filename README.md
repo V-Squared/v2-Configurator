@@ -84,5 +84,6 @@ Common Configurations can be stored in Json by the admin. The user can create ve
    - You should be able to have your copy running after 10 minutes (without customization)
 4. All customization is done in one Json file. Changes can be done with a Jason Form Editor. Files are not very big.  No coding skills needed for customization.
 
-
+# Reference
+- [Trello►configurator-read-me-on-github](https://trello.com/c/5FJp4i9Y/66-configurator-read-me-on-github)
 
