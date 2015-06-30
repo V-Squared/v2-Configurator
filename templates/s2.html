@@ -1,14 +1,14 @@
 <div class="village" id="ViCase" ng-repeat="item in data[2].ViCase">
    <div class="col-sm-2">
-      <img originalUrl="{{item.url}}" src="{{item.url}}">
+      <img src="">
    </div>
    <div class="col-sm-10">
-      <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> {{item.name}}</h3>
+      <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.name}}</span></h3>
       <div class="readmore_group">
          <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
          <div class="readmore_area show-first open radio_button">
-            <div ng-repeat="choice in item.yourChoice">
-            <label><input type="radio" name="{{item.part}}" data-child='{{choice.Child_Name}}' id="{{buttonIdArray}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span>{{choice.name}}</span></label>
+            <div ng-repeat="choice in item.yourChoice" id="{{'section-'+$parent.$index+'-Button-'+$index }}">
+            <label><input type="radio" name="{{item.part}}" data-child='{{choice.Child_Name}}' imgAttr="{{choice.img}}" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
             </div>
             <div>
                <label><input type="radio" class="None" name="{{item.part}}" value="0"><span>None</span></label>
