@@ -73,6 +73,14 @@ var runjquery = function() {
             var now_Name;
             var data_child;
 
+            imageUrl = "";
+            imageUrl = $(this).attr('imgAttr');
+            if (!$(this).hasClass('None')) {
+                findImg.attr('src', imageUrl);
+            } else {
+                findImg.attr('src', '');
+            }
+
             $('input[type=radio]').each(function() {
 
 
@@ -81,7 +89,6 @@ var runjquery = function() {
                 //On change choice of Button in Parent
                 //Deselect choice of button in child
                 //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
-
 
 
                 if ($(this).is(':checked')) {
@@ -102,15 +109,9 @@ var runjquery = function() {
                 //    2. Update the Section Icon
                 //    3. Update enabling / disabling of child radio buttons
 
-                imageUrl = "";
                 //alert($(this).val());
                 total += parseInt($(this).val());
-                if (!$(this).hasClass('None')) {
-                    imageUrl = $(this).attr('imgAttr');
-                    findImg.attr('src', imageUrl);
-                } else {
-                    findImg.attr('src', '');
-                }
+
                 var selectedText = $(this).next('span').text();
 
                 data_child = $(this).data('child');
