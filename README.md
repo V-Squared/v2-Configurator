@@ -10,6 +10,8 @@ In the next days we will set up a full Demo on GitHub Pages.
 # What it does
 You want to assist your visitor in choosing configuration options. Each option may have lots of information, such as pictures, data sheet, recommendations, etc. Say some option have dependencies, e.g. you pick the small case and then the big heat sink option is disabled, as it does not fit. Say when the customer is done with the configuration, he wants to see his shopping list as a result. For convenience reason you may even include third party products if required to build a complete configuration.
 
+# License and Collaboration
+GNU GPL V2. It means you can use it for your private and commercial projects at no cost. You are encouraged to make improvements to the code. In the words of Linus Torvalds: You are invited to take from this Community and in return you need to give back. If you make improvements of general use, please be so kind to do so by GitHub Fork and subsequent Pull Request. We will work with you to include your new feature. This will also safe you time down the road. Once we come out with a new version and a feature you like, you do not need to add your improvement again.
 
 
 # Key Features
