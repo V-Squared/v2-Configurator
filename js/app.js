@@ -66,7 +66,7 @@ var runjquery = function() {
             var villageSum = 0;
             var thirdSum = 0;
             var imageUrl = "";
-            var findImg = $(this).closest('.col-sm-10').prev('.col-sm-2').find('img');
+            var findImg = $(this).closest('.col-sm-10').prev('.col-sm-2');
             var last_Id;
             var last_Name;
             var now_Id;
@@ -76,9 +76,18 @@ var runjquery = function() {
             imageUrl = "";
             imageUrl = $(this).attr('imgAttr');
             if (!$(this).hasClass('None')) {
-                findImg.attr('src', imageUrl);
+                if(findImg.hasClass('noImg')){
+
+                    findImg.removeClass('noImg');
+                    findImg.append('<img>');
+                    findImg.find('img').attr('src', imageUrl);
+                } else {
+
+                    findImg.find('img').attr('src', imageUrl);
+                }
             } else {
-                findImg.attr('src', '');
+                findImg.find('img').remove();
+                findImg.addClass('noImg');
             }
 
             $('input[type=radio]').each(function() {
@@ -132,6 +141,7 @@ var runjquery = function() {
                         $(value).find('span').attr('title',Choice_Tooltip);
                         if ($(value).find('input').is(':checked')) {
                             $(value).closest('.col-sm-10').prev().find('img').attr('src','images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+                            $(value).closest('.col-sm-10').prev().find('img.alert-image').attr('title','You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
                             $(value).closest('.readmore_area').find('.None').prop('checked', true);
                         }
                         if($(value).closest('.col-sm-10').prev().find('img').hasClass('alert-image')){
