@@ -1,8 +1,8 @@
 # v2-Configurator ReadMe
 This is to get you started. We are working on the WikiPages
 
-# Demo says more than 1000 words
-In the next days we will set up a full Demo on GitHub Pages.
+# A Demo says more than a 1000 words
+[Demo of V²Configurator on GitHub Pages](http://v-squared.github.io/v2-Configurator/)
 
 # Who needs it
 - Who runs a site selling stuff with customization options
