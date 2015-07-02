@@ -724,14 +724,17 @@
         "yourChoice": [
           {
             "name": "ViCase Feet",
+            "img": "http://placehold.it/142x80?text=ViCase-Feet",
             "value": 9
           },
           {
             "name": "ViCase VESA",
+            "img": "http://placehold.it/142x80?text=ViCase-VESA",
             "value": 9
           },
           {
             "name": "ViCase Stand",
+            "img": "http://placehold.it/142x80?text=ViCase-Stand",
             "value": 9
           }
         ],
@@ -866,10 +869,12 @@
         "yourChoice": [
           {
             "name": "ViCase Access",
+            "img":"http://placehold.it/142x80?text=ViCase-Access",
             "value": 20
           },
           {
             "name": "ViCase Access Plus",
+            "img":"http://placehold.it/142x80?text=ViCase-Access-Plus",
             "value": 20
           }
         ],
@@ -1003,11 +1008,13 @@
         "slide": "slide6",
         "yourChoice": [
           {
-            "name": "ViCase Cooler 25W - 2L",
+            "name": "ViCase Cooler 25W for 2L",
+            "img":"http://placehold.it/142x80?text=ViCase-Cooler-25W",
             "value": 29
           },
           {
-            "name": "ViCase Cooler 35W - 2L",
+            "name": "ViCase Cooler 65W for 4L and 6L",
+            "img":"http://placehold.it/142x80?text=ViCase-Cooler-65W",
             "value": 39
           }
         ],
@@ -1140,20 +1147,52 @@
         "slide": "slide7",
         "yourChoice": [
           {
-            "name": "48W",
+            "name": "48W Village",
+            "img":"http://placehold.it/142x80?text=48W-Village",
             "Child_Name": [
-              "#section-6-Button-0",
               "#section-6-Button-1"
             ],
             "value": 30
           },
           {
-            "name": "120W",
+            "name": "120W Village",
+            "img":"http://placehold.it/142x80?text=120W-Village",
+            "Child_Name": [
+              "#section-6-Button-1"
+            ],
             "value": 40
           },
           {
-            "name": "180W",
+            "name": "180W Village",
+            "img":"http://placehold.it/142x80?text=180W-Village",
+            "Child_Name": [
+              "#section-6-Button-0"
+            ],
             "value": 50
+          },
+          {
+            "name": "48W Third Party",
+            "img":"http://placehold.it/142x80?text=148W-Third-Party",
+            "Child_Name": [
+              "#section-6-Button-1"
+            ],
+            "value": 30
+          },
+          {
+            "name": "120W Third Party",
+            "img":"http://placehold.it/142x80?text=1200W-Third-Party",
+            "Child_Name": [
+              "#section-6-Button-1"
+            ],
+            "value": 40
+          },
+          {
+            "name": "180W Third Party",
+            "img":"http://placehold.it/142x80?text=180W-Third-Party",
+            "Child_Name": [
+              "#section-6-Button-0"
+            ],
+            "value": 40
           }
         ],
         "TableHeading": [
@@ -1285,10 +1324,12 @@
         "yourChoice": [
           {
             "name": "ViCase Power 120W",
+            "img":"http://placehold.it/142x80?text=ViCase-Power-120W",
             "value": 70
           },
           {
             "name": "ViCase Power 180W",
+            "img":"http://placehold.it/142x80?text=ViCase-Power-120W",
             "value": 70
           }
         ],

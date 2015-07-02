@@ -128,7 +128,6 @@ var runjquery = function() {
                 var Content_Active_Choice = $(this).next().text();
 
                 var Section_Name = $(this).closest('.col-sm-10').find('h3').find('span').text();
-                console.log(Section_Name);
 
 
                 //console.log(data_child);
