@@ -61,7 +61,7 @@
                             <h2><i class="fa fa-play"></i> {{item.name}}</h2>
                         </div>
                         <div class="panel-body" >
-                            <ng-include src="'./templates/s'+($index)+'.html'"></ng-include>
+                            <ng-include src="'./templates/s'+($index)+'.html'" id="{{'chapter-' + $index}}"></ng-include>
                         </div>
                     </div>
                 </div>
@@ -72,6 +72,16 @@
                         <p id="resultstring"></p>
                         <p style="color:#07b;"><b><span id="villageSum">$0 US</span> - Village (cart)</b></p>
                         <p><b><span id="thirdSum">$0 US</span> - Third Party</b></p>
+                        <hr>
+
+                        <h4 class="collapse-summary">ViCase</h4>
+                        <p id="ViCase-resultstring"></p>
+                        <h4 class="collapse-summary">ViDock</h4>
+                        <p id="ViDock-resultstring"></p>
+                        <h4 class="collapse-summary">PcPart</h4>
+                        <p id="PcPart-resultstring"></p>
+                        <h4 class="collapse-summary">OS</h4>
+                        <p id="OS-resultstring"></p>
                         <hr>
                         <h3>
                             <span style="color:#07b;" id="total">$0</span> <span style="color:#07b;">US</span>

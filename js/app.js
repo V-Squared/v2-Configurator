@@ -24,7 +24,10 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         });
 
     $scope.domloaded = function() {
-        runjquery();
+        setTimeout(function(){
+          runjquery();
+          // is this line of code clean ??
+        }, 10); 
     };
 
 
@@ -34,6 +37,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 var runjquery = function() {
     console.log('jQuery!');
+    $('#chapter-4').addClass('third');
     /*function hello (argument) {
         $('input[type="radio"]').each(function() {
           alert('hello');
@@ -197,6 +201,45 @@ var runjquery = function() {
 
             });
 
+            var resultString1 = "";
+            var resultString2 = "";
+            var resultString3 = "";
+            var resultString4 = "";
+
+            $('#chapter-2 input[type=radio]:checked').each(function () {
+                var selectedText = $(this).next('span').text();
+
+                if(!$(this).hasClass('None')) {
+                    resultString1 += selectedText + "<br/>";
+                }
+            });
+
+            $('#chapter-3 input[type=radio]:checked').each(function () {
+                var selectedText = $(this).next('span').text();
+
+                if(!$(this).hasClass('None')) {
+                    resultString2 += selectedText + "<br/>";
+                }
+
+            });
+
+            $('#chapter-4 input[type=radio]:checked').each(function () {
+                var selectedText = $(this).next('span').text();
+
+                if(!$(this).hasClass('None')) {
+                    resultString3 += selectedText + "<br/>";
+                }
+
+            });
+
+            $('#chapter-5 input[type=radio]:checked').each(function () {
+                var selectedText = $(this).next('span').text();
+
+                if(!$(this).hasClass('None')) {
+                    resultString4 += selectedText + "<br/>";
+                }
+            });
+
 
 
             $('.village input[type=radio]:checked').each(function() {
@@ -204,7 +247,7 @@ var runjquery = function() {
                 $('#villageSum').text('$' + villageSum + ' US');
             });
 
-            $('#third input[type=radio]:checked').each(function() {
+            $('.third input[type=radio]:checked').each(function() {
                 thirdSum += parseInt($(this).val());
                 $('#thirdSum').text('$' + thirdSum + ' US');
 
@@ -214,7 +257,13 @@ var runjquery = function() {
                 resultString += "<hr>";
             }
 
+            document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
+            document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
+            document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
+            document.querySelector('#OS-resultstring').innerHTML = resultString4;
+
             $('#resultstring').html(resultString);
+
             $('#radiocheckednumber').html(radioCheckedNumber);
             $('#total').html('$' + total);
         } else {
@@ -378,3 +427,8 @@ var runjquery = function() {
 
     //$('.hide-section').closest('.panel-default').hide();
 };
+
+
+$('.collapse-summary').click(function() {
+    $(this).next().slideToggle();
+});
