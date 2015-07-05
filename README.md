@@ -1,5 +1,5 @@
 # v2-Configurator ReadMe
-This is to get you started. We are working on the WikiPages
+This is to get you started. We are working on the WikiPages.
 
 # A Demo says more than a 1000 words
 [Demo of V²Configurator on GitHub Pages](http://v-squared.github.io/v2-Configurator/)
