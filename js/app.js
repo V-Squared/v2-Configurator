@@ -27,7 +27,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         setTimeout(function(){
           runjquery();
           // is this line of code clean ??
-        }, 10); 
+        }, 10);
     };
 
 
@@ -187,7 +187,7 @@ var runjquery = function() {
                 } else if ($(this).val() == 0 && $(this).hasClass('cover')) {
                     noneNumber += 0;
                     findImg.removeClass('shade');
-                } else if ($(this).val() == 0 && $(this).hasClass('None')) {
+                } else if ($(this).hasClass('None')) {
                     noneNumber += 0;
                 } else {
                     noneNumber += 1;
@@ -371,14 +371,19 @@ var runjquery = function() {
         $(parent).children('.tableSection.open').show();
     });
 
-    $('.sub-sectionToggle').click(function() {
-        $(this).next().slideToggle();
-        if (!$(this).find('i').hasClass('fa-rotate-90')) {
-            $(this).find('i').addClass('fa-rotate-90');
-        } else {
-            $(this).find('i').removeClass('fa-rotate-90');
-        }
-    });
+    $('.sub-sectionToggle').click(toggle);
+
+    $('.collapse-summary').click(toggle);
+
+    function toggle () {
+      $(this).next().slideToggle();
+      if (!$(this).find('i').hasClass('fa-rotate-90')) {
+          $(this).find('i').addClass('fa-rotate-90');
+      } else {
+          $(this).find('i').removeClass('fa-rotate-90');
+      }
+    }
+
 
 
 
@@ -427,8 +432,3 @@ var runjquery = function() {
 
     //$('.hide-section').closest('.panel-default').hide();
 };
-
-
-$('.collapse-summary').click(function() {
-    $(this).next().slideToggle();
-});

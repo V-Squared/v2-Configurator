@@ -317,7 +317,7 @@ ul.navbar-nav a:hover{
 	-webkit-user-select:none;
 }
 .con-fig-header h2, .con-fig-header h2:hover, .con-fig-header h2:focus {
-	color:#FFF;	
+	color:#FFF;
 	text-decoration: none;
 }
 .con-fig-header .fa{
@@ -337,6 +337,7 @@ ul.navbar-nav a:hover{
 }
 .price-sidebar.affix {
 	top:60px;
+	overflow-y: auto;
 }
 @media (max-width:992px) {
 	.price-sidebar.affix {
@@ -416,7 +417,7 @@ color: rgb(3, 155, 229) !important;
 	margin: 2px;
 }
 .item img {
-	width: 100%;	
+	width: 100%;
 }
 .carousel-inner .thumb{
 	padding-right:20px;
@@ -455,4 +456,10 @@ color: rgb(3, 155, 229) !important;
 .ghost {
 	opacity: .6;
 	cursor:not-allowed;
+}
+.collapse-summary {
+	color: rgb(3, 155, 229);
+}
+.resultstring {
+	font-size: 10px;
 }
