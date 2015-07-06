@@ -1,3 +1,4 @@
+var ready_config = "";
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
     $http.get('data.json')
@@ -5,7 +6,6 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
             $scope.data = res.data;
 
             var button_logic_Data = $scope.data[2].ViCase;
-
             $scope.buttonIdArray = [];
 
             angular.forEach(button_logic_Data, function(value, index) {
@@ -23,6 +23,12 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
             console.log($scope.buttonIdArray);
         });
 
+      $http.get('ready-config.json').then(function(res) {
+        $scope.config = res.data;
+        ready_config = $scope.config.buisness[1];
+      });
+
+
     $scope.domloaded = function() {
         setTimeout(function(){
           runjquery();
@@ -36,6 +42,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 var runjquery = function() {
+    alert(ready_config);
     console.log('jQuery!');
     $('#chapter-4').addClass('third');
     /*function hello (argument) {
@@ -432,3 +439,22 @@ var runjquery = function() {
 
     //$('.hide-section').closest('.panel-default').hide();
 };
+
+/*var btn = document.querySelectorAll('.collapse-summary');
+
+
+var number = 0;
+
+for (var i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click", function() {
+    if(number == 0) {
+        this.nextElementSibling.style.display = "none";
+        this.className += " hello";
+        number = 1;
+    } else {
+      this.nextElementSibling.style.display = "block";
+      number = 0;
+    }
+  });
+}
+*/
