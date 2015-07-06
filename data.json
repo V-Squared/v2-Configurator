@@ -1,6 +1,40 @@
 [
   {
-    "name": "Ready Config"
+    "name": "Ready Config",
+    "Config": [
+      {
+        "name": "ViCase Performance",
+        "url":"",
+        "part":"vicase-performance",
+        "slide":"slide-performance",
+        "yourChoice": [
+          {
+            "name":"Entry Level Performance",
+            "img":"",
+            "for":"Entry",
+            "value": 0
+          },
+          {
+            "name":"High Performance",
+            "img":"",
+            "for":"High",
+            "value": 0
+          },
+          {
+            "name":"Ultra Performance",
+            "img":"",
+            "for":"Ultra",
+            "value": 0
+          },
+          {
+            "name":"eXtreme Performance",
+            "img":"",
+            "for":"eXtreme",
+            "value": 0
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Performance"
@@ -18,7 +52,7 @@
             "name": "ViDock Mini 2L (Tiny)",
             "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
             "Child_Name": [
-              "#section-3-Button-0"
+              "#chapter-2-section-3-Button-0"
             ],
             "value": 77
           },
@@ -1150,7 +1184,7 @@
             "name": "48W Village",
             "img":"http://placehold.it/142x80?text=48W-Village",
             "Child_Name": [
-              "#section-6-Button-1"
+              "#chapter-2-section-6-Button-1"
             ],
             "value": 30
           },
@@ -1158,7 +1192,7 @@
             "name": "120W Village",
             "img":"http://placehold.it/142x80?text=120W-Village",
             "Child_Name": [
-              "#section-6-Button-1"
+              "#chapter-2-section-6-Button-1"
             ],
             "value": 40
           },
@@ -1166,7 +1200,7 @@
             "name": "180W Village",
             "img":"http://placehold.it/142x80?text=180W-Village",
             "Child_Name": [
-              "#section-6-Button-0"
+              "#chapter-2-section-6-Button-0"
             ],
             "value": 50
           },
@@ -1174,7 +1208,7 @@
             "name": "48W Third Party",
             "img":"http://placehold.it/142x80?text=148W-Third-Party",
             "Child_Name": [
-              "#section-6-Button-1"
+              "#chapter-2-section-6-Button-1"
             ],
             "value": 30
           },
@@ -1182,7 +1216,7 @@
             "name": "120W Third Party",
             "img":"http://placehold.it/142x80?text=1200W-Third-Party",
             "Child_Name": [
-              "#section-6-Button-1"
+              "#chapter-2-section-6-Button-1"
             ],
             "value": 40
           },
@@ -1190,7 +1224,7 @@
             "name": "180W Third Party",
             "img":"http://placehold.it/142x80?text=180W-Third-Party",
             "Child_Name": [
-              "#section-6-Button-0"
+              "#chapter-2-section-6-Button-0"
             ],
             "value": 40
           }

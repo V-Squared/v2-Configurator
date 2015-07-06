@@ -4,14 +4,16 @@
       <img src="{{item.url}}">
    </div>
    <div class="col-sm-10">
-      <h3>{{item.name}}</h3>
-      <a class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</a>
+      <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.name}}</span></h3>
+      <div class="readmore_group">
+      <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
       <div class="readmore_area show-first open radio_button">
-         <div ng-repeat="opt in item.options">
+         <div ng-repeat="opt in item.options" id="{{'chapter-3-' + 'section-'+$parent.$index+'-Button-'+$index }}">
             <label title="For PCIe Cards shorter than 230 mm"><input type="radio" name="{{item.part}}" value="{{opt.value}}"><span>{{opt.name}}</span></label>
          </div>
          <label><input type="radio" name="{{item.part}}" class="None" value="0"><span>None</span></label>
       </div>
+    </div>
    </div>
    <div class="clearfix"></div>
 </div>

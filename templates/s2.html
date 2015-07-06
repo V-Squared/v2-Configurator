@@ -6,7 +6,7 @@
       <div class="readmore_group">
          <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
          <div class="readmore_area show-first open radio_button">
-            <div ng-repeat="choice in item.yourChoice" id="{{'section-'+$parent.$index+'-Button-'+$index }}">
+            <div ng-repeat="choice in item.yourChoice" id="{{'chapter-2-' + 'section-'+$parent.$index+'-Button-'+$index }}">
             <label><input type="radio" name="{{item.part}}" data-child='{{choice.Child_Name}}' imgAttr="{{choice.img}}" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
             </div>
             <div>

@@ -1,4 +1,5 @@
-var ready_config = "";
+var ready_config_Entry = "";
+var ready_config_High = "";
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
     $http.get('data.json')
@@ -25,7 +26,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
       $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
-        ready_config = $scope.config.buisness[1];
+        ready_config_High = $scope.config.High;
+        ready_config_Entry = $scope.config.Entry;
       });
 
 
@@ -42,7 +44,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 var runjquery = function() {
-    alert(ready_config);
+    alert(ready_config_Entry);
     console.log('jQuery!');
     $('#chapter-4').addClass('third');
     /*function hello (argument) {
@@ -99,6 +101,18 @@ var runjquery = function() {
             } else {
                 findImg.find('img').remove();
                 findImg.addClass('noImg');
+            }
+
+            if($(this).attr('for') == "Entry") {
+              loopReadyConfig(ready_config_Entry);
+            } else if($(this).attr('for') == "High") {
+              loopReadyConfig(ready_config_High);
+            }
+
+            function loopReadyConfig (value) {
+              angular.forEach(value, function (value, index) {
+                $(value).find('input[type=radio]').prop('checked','true');
+              });
             }
 
             $('input[type=radio]').each(function() {
