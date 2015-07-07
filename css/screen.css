@@ -458,11 +458,15 @@ color: rgb(3, 155, 229) !important;
 	cursor:not-allowed;
 }
 .collapse-summary {
-	color: #039be5;
+	color: rgb(3, 155, 229);
 }
 .resultstring {
 	font-size: 13px;
 }
 .carousel-control {
 	width: 5%;
+}
+#check-me-out {
+	padding-top: 60px;
+	margin-top: -60px;
 }
