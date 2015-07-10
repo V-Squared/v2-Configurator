@@ -6,7 +6,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         .then(function(res) {
             $scope.data = res.data;
 
-            var button_logic_Data = $scope.data[2].ViCase;
+            /*var button_logic_Data = $scope.data[2].ViCase;
             $scope.buttonIdArray = [];
 
             angular.forEach(button_logic_Data, function(value, index) {
@@ -14,13 +14,13 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
                 angular.forEach(value.yourChoice, function(value, index) {
                     var buttonId = value.name.replace(/\s+/g, '-').toLowerCase();
                     $scope.buttonIdArray.push(buttonId);
-                });
+                });*/
                 /*angular.forEach(value.Logic,function(value,index){
                     console.log(value);
 
                     $scope.logic = value;
                 });*/
-            });
+            //});
             console.log($scope.buttonIdArray);
         });
 
@@ -32,9 +32,11 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
     $scope.domloaded = function() {
+      console.log('hello');
         setTimeout(function(){
           runjquery();
           // is this line of code clean ??
+
         }, 10);
     };
 
@@ -44,7 +46,6 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 var runjquery = function() {
-    alert(ready_config_Entry);
     console.log('jQuery!');
     $('#chapter-4').addClass('third');
     /*function hello (argument) {

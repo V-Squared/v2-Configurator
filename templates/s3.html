@@ -1,109 +1,137 @@
-<div class="village" ng-repeat="item in data[3].Expansion">
-   <hr ng-show='$index > 0'>
-   <div class="col-sm-2">
-      <img src="{{item.url}}">
-   </div>
-   <div class="col-sm-10">
-      <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.name}}</span></h3>
-      <div class="readmore_group">
-      <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
-      <div class="readmore_area show-first open radio_button">
-         <div ng-repeat="opt in item.options" id="{{'chapter-3-' + 'section-'+$parent.$index+'-Button-'+$index }}">
-            <label title="For PCIe Cards shorter than 230 mm"><input type="radio" name="{{item.part}}" value="{{opt.value}}"><span>{{opt.name}}</span></label>
-         </div>
-         <label><input type="radio" name="{{item.part}}" class="None" value="0"><span>None</span></label>
-      </div>
-      <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Comparison Table</h4>
-      <div class="readmore_area">
-        <div>
-           <table class="table table-striped">
-              <thead>
-                 <tr>
-                    <th ng-repeat="heading in item.TableHeading" class="{{heading.class}}">{{heading.name}}</th>
-                 </tr>
-              </thead>
-              <tbody>
-                 <tr ng-repeat="row in item.TableBody">
-                    <td class="table-left-title">{{row.title}}</td>
-                    <td>{{row.name2}}</td>
-                    <td>{{row.name3}}</td>
-                    <td>{{row.name4}}</td>
-                 </tr>
-              </tbody>
-           </table>
+<!--<div style="padding-top:0;" class="col-sm-12">
+    <h3 class="center">Choose Intel or AMD Platform</h3>
+</div>
+<div class="col-sm-2 col-sm-offset-2">
+    <div class="intel-AMD-button">
+        <img id="intel" style="margin:0;" src="images/expansion/config/intel.jpg">
+    </div>
+</div>
+<div class="col-sm-2 col-sm-offset-3">
+    <div class="intel-AMD-button">
+        <img id="AMD" src="images/expansion/config/AMD.jpg">
+    </div>
+</div>
+<div class="clearfix"></div>
+<br>
+<hr>
+<div class="alert alert-warning show-text">
+    <i class="fa fa-exclamation-triangle"></i> Click on AMD or Intel Logo to choose compatibility for: Motherboard, Processor and RAM. Select Intel for high performance and AMD for low cost
+</div>-->
+<!--<div ng-repeat="group in data[4].group" class="{{group.type}}-show">
+	<h1>{{group.name}}</h1>-->
+    <div ng-repeat="item in data[3].PC">
+
+        <div class="col-sm-2">
+            <img src="{{item.img}}">
+        </div>
+        <div class="col-sm-8">
+            <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.title}}</span></h3>
+            <div class="readmore_group">
+              <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
+              <div class="readmore_area show-first open radio_button">
+                <div ng-repeat="opt in item.options" id="{{'chapter-4-' + 'section-'+$parent.$index+'-Button-'+$index }}">
+                  <label><input  type="radio" name="{{item.label}}" value="{{opt.price}}"><span>{{opt.name}}</span></label>
+                </div>
+                <div>
+                  <label><input  type="radio" name="{{item.label}}" value="0"><span>None</span></label>
+                </div>
+              </div>
+              <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Comparison Table</h4>
+              <div class="readmore_area">
+                <div>
+                   <table class="table table-striped">
+                      <thead>
+                         <tr>
+                            <th ng-repeat="heading in item.TableHeading" class="{{heading.class}}">{{heading.name}}</th>
+                         </tr>
+                      </thead>
+                      <tbody>
+                         <tr ng-repeat="row in item.TableBody">
+                            <td class="table-left-title">{{row.title}}</td>
+                            <td>{{row.name2}}</td>
+                            <td>{{row.name3}}</td>
+                            <td>{{row.name4}}</td>
+                         </tr>
+                      </tbody>
+                   </table>
+                </div>
+              </div>
+              <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Advice</h4>
+              <div class="readmore_area">
+                 <div ng-repeat="advice in item.Advice">
+                    <h4>{{advice.heading}}</h4>
+                    <p>{{advice.content}}</p>
+                 </div>
+              </div>
+              <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
+              <div class="readmore_area">
+                 <div id="{{item.slide}}" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner GallerySlideshow">
+                      	<div ng-repeat="gallery in item.Gallery" class="item">
+                           <h4 style="font-weight:bold">{{gallery.title}}</h4>
+                           <p>{{gallery.description}}</p>
+     	                   <img src="images/expansion/config/ViCase/{{gallery.image}}">
+                         </div>
+                    </div>
+                 </div>
+                 <div class="clearfix">
+                    <div id="thumbcarousel" class="carousel slide" data-interval="false">
+                       <div class="carousel-inner GalleryThumbNail">
+                          <div data-target="#{{item.slide}}" data-slide-to="{{$index}}" class="thumb" ng-repeat="gallery in item.Gallery"><img src="images/expansion/config/ViCase/{{gallery.image}}"></div>
+                          <!-- /item -->
+                       </div>
+                       <!-- /carousel-inner -->
+                       <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                       <span class="glyphicon glyphicon-chevron-left"></span>
+                       </a>
+                       <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                       <span class="glyphicon glyphicon-chevron-right"></span>
+                       </a>
+                    </div>
+                    <!-- /thumbcarousel -->
+                 </div>
+                 <!-- /clearfix -->
+              </div>
+              <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
+              <div ng-repeat="datasheet in item.Datasheet" class="readmore_area radio-tables">
+                 <ul class="nav nav-tabs table-tab">
+                    <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a class="fake-link">{{buttons.name}}</a></li>
+                 </ul>
+                 <div class="tableSection open">
+                    <table class="table table-striped">
+                       <tbody>
+                          <tr ng-repeat="row in datasheet.table1" class="{{row.class}}">
+                             <td class="table-left-title">{{row.name1}}</td>
+                             <td>{{row.name2}}</td>
+                          </tr>
+                       </tbody>
+                    </table>
+                 </div>
+                 <div class="tableSection closed">
+                    <table class="table table-striped">
+                       <tbody>
+                          <tr ng-repeat="row in datasheet.table2" class="{{row.class}}">
+                             <td class="table-left-title">{{row.name1}}</td>
+                             <td>{{row.name2}}</td>
+                          </tr>
+                       </tbody>
+                    </table>
+                 </div>
+                 <div class="tableSection closed">
+                    <table class="table table-striped">
+                       <tr ng-repeat="row in datasheet.table3" class="{{row.class}}">
+                          <td class="table-left-title" style="width:20%">{{row.name1}}</td>
+                          <td>{{row.name2}}</td>
+                       </tr>
+                    </table>
+                 </div>
+              </div>
         </div>
       </div>
-      <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Advice</h4>
-      <div class="readmore_area">
-         <div ng-repeat="advice in item.Advice">
-            <h4>{{advice.heading}}</h4>
-            <p>{{advice.content}}</p>
-         </div>
+      <div class="col-sm-2">
+        <img src="{{item.img}}" alt="" />
       </div>
-      <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
-      <div class="readmore_area">
-         <div id="{{item.slide}}" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner GallerySlideshow">
-                <div ng-repeat="gallery in item.Gallery" class="item">
-                   <h4 style="font-weight:bold">{{gallery.title}}</h4>
-                   <p>{{gallery.description}}</p>
-                  <img src="images/expansion/config/ViCase/{{gallery.image}}">
-                 </div>
-            </div>
-         </div>
-         <div class="clearfix">
-            <div id="thumbcarousel" class="carousel slide" data-interval="false">
-               <div class="carousel-inner GalleryThumbNail">
-                  <div data-target="#{{item.slide}}" data-slide-to="{{$index}}" class="thumb" ng-repeat="gallery in item.Gallery"><img src="images/expansion/config/ViCase/{{gallery.image}}"></div>
-                  <!-- /item -->
-               </div>
-               <!-- /carousel-inner -->
-               <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
-               <span class="glyphicon glyphicon-chevron-left"></span>
-               </a>
-               <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
-               <span class="glyphicon glyphicon-chevron-right"></span>
-               </a>
-            </div>
-            <!-- /thumbcarousel -->
-         </div>
-         <!-- /clearfix -->
-      </div>
-      <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
-      <div ng-repeat="datasheet in item.Datasheet" class="readmore_area radio-tables">
-         <ul class="nav nav-tabs table-tab">
-            <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a class="fake-link">{{buttons.name}}</a></li>
-         </ul>
-         <div class="tableSection open">
-            <table class="table table-striped">
-               <tbody>
-                  <tr ng-repeat="row in datasheet.table1" class="{{row.class}}">
-                     <td class="table-left-title">{{row.name1}}</td>
-                     <td>{{row.name2}}</td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div class="tableSection closed">
-            <table class="table table-striped">
-               <tbody>
-                  <tr ng-repeat="row in datasheet.table2" class="{{row.class}}">
-                     <td class="table-left-title">{{row.name1}}</td>
-                     <td>{{row.name2}}</td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div class="tableSection closed">
-            <table class="table table-striped">
-               <tr ng-repeat="row in datasheet.table3" class="{{row.class}}">
-                  <td class="table-left-title" style="width:20%">{{row.name1}}</td>
-                  <td>{{row.name2}}</td>
-               </tr>
-            </table>
-         </div>
-      </div>
+        <div class="clearfix"></div>
+        <hr>
     </div>
-   </div>
-   <div class="clearfix"></div>
 </div>

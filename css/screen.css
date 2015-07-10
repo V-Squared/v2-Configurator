@@ -425,7 +425,8 @@ color: rgb(3, 155, 229) !important;
 .tableHeading {
 	background:#8bcbee !important;
 }
-.container .panel-default:nth-child(odd) {
+.container .panel-default:nth-child(2),
+.container .panel-default:nth-child(4) {
 	margin-bottom: 20px;
 }
 
@@ -433,18 +434,17 @@ color: rgb(3, 155, 229) !important;
 	margin-bottom: 0px;
 }
 
-.container .panel-default:nth-child(2) .panel-heading,
-.container .panel-default:nth-child(3) .panel-heading {
+.container .panel-default:nth-child(2) .panel-heading {
 	background: #ff7f00 !important;
 }
 
-.container .panel-default:nth-child(4) .panel-heading,
-.container .panel-default:nth-child(5) .panel-heading {
+.container .panel-default:nth-child(3) .panel-heading,
+.container .panel-default:nth-child(4) .panel-heading {
 	background: #039be5 !important;
 }
 
-.container .panel-default:nth-child(6) .panel-heading,
-.container .panel-default:nth-child(7) .panel-heading {
+.container .panel-default:nth-child(5) .panel-heading,
+.container .panel-default:nth-child(6) .panel-heading {
 	background: #09ECFC !important;
 }
 .footer {
