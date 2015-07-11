@@ -1,0 +1,1 @@
+{"mixinTypes":["contribution"],"builders":{"configs":{}},"runners":{"configs":{"system:/php/web/php56_apache2":{"ram":1000,"variables":{},"options":{}}},"default":"system:/php/web/php56_apache2"},"type":"php","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"],"language":["php"]}}
