@@ -80,7 +80,7 @@ var runjquery = function() {
             var villageSum = 0;
             var thirdSum = 0;
             var imageUrl = "";
-            var findImg = $(this).closest('.col-sm-10').prev('.col-sm-2');
+            var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
             var last_Id;
             var last_Name;
             var now_Id;
@@ -153,7 +153,7 @@ var runjquery = function() {
 
                 var Content_Active_Choice = $(this).next().text();
 
-                var Section_Name = $(this).closest('.col-sm-10').find('h3').find('span').text();
+                var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
 
 
                 //console.log(data_child);
@@ -165,11 +165,11 @@ var runjquery = function() {
                         // This ToolTip is shown when hovering over a choice in the Child Part
                         $(value).find('span').attr('title',Choice_Tooltip);
                         if ($(value).find('input').is(':checked')) {
-                            $(value).closest('.col-sm-10').prev().find('img').attr('src','images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
-                            $(value).closest('.col-sm-10').prev().find('img.alert-image').attr('title','You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
+                            $(value).closest('.col-sm-8').prev().find('img').attr('src','images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+                            $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title','You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
                             $(value).closest('.readmore_area').find('.None').prop('checked', true);
                         }
-                        if($(value).closest('.col-sm-10').prev().find('img').hasClass('alert-image')){
+                        if($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')){
 
                         }
                 });
