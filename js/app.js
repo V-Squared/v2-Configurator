@@ -454,6 +454,7 @@ var runjquery = function() {
 
     //$('.hide-section').closest('.panel-default').hide();
 };
+<<<<<<< Updated upstream
 
 /*var btn = document.querySelectorAll('.collapse-summary');
 
@@ -473,3 +474,5 @@ for (var i = 0; i < btn.length; i++) {
   });
 }
 */
+=======
+>>>>>>> Stashed changes
