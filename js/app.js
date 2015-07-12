@@ -228,7 +228,7 @@ var runjquery = function() {
             var resultString3 = "";
             var resultString4 = "";
 
-            $('#chapter-2 input[type=radio]:checked').each(function () {
+            $('#chapter-1 input[type=radio]:checked').each(function () {
                 var selectedText = $(this).next('span').text();
 
                 if(!$(this).hasClass('None')) {
@@ -236,7 +236,7 @@ var runjquery = function() {
                 }
             });
 
-            $('#chapter-3 input[type=radio]:checked').each(function () {
+            $('#chapter-2 input[type=radio]:checked').each(function () {
                 var selectedText = $(this).next('span').text();
 
                 if(!$(this).hasClass('None')) {
@@ -245,7 +245,7 @@ var runjquery = function() {
 
             });
 
-            $('#chapter-4 input[type=radio]:checked').each(function () {
+            $('#chapter-3 input[type=radio]:checked').each(function () {
                 var selectedText = $(this).next('span').text();
 
                 if(!$(this).hasClass('None')) {
@@ -254,7 +254,7 @@ var runjquery = function() {
 
             });
 
-            $('#chapter-5 input[type=radio]:checked').each(function () {
+            $('#chapter-4 input[type=radio]:checked').each(function () {
                 var selectedText = $(this).next('span').text();
 
                 if(!$(this).hasClass('None')) {
