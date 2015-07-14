@@ -31,14 +31,10 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
       });
 
 
-    $scope.domloaded = function() {
-      console.log('hello');
         setTimeout(function(){
           runjquery();
-          // is this line of code clean ??
 
-        }, 10);
-    };
+        }, 100);
 
 
 
@@ -47,7 +43,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 var runjquery = function() {
     console.log('jQuery!');
-    $('#chapter-4').addClass('third');
+    $('#chapter-1, #chapter-2').addClass('village');
+    $('#chapter-3, #chapter-4').addClass('third');
     /*function hello (argument) {
         $('input[type="radio"]').each(function() {
           alert('hello');

@@ -391,6 +391,8 @@ label {
 }
 .sub-sectionToggle {
 color: rgb(3, 155, 229) !important;
+cursor: pointer;
+-webkit-user-select: none;
 }
 .table-left-title {
 	font-weight: bold;

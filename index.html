@@ -1,131 +1,235 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Configurator</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/screen.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <style type="text/css">
-        #background-1 {
-            background-image: url();
-        }
-    </style>
-</head>
-
-<body>
-    <!--Begin nvbar-->
-    <div id="navbar" class="navbar navbar-fixed-top">
-        <!--button href="#" class="btn btn-default toggle-panel"><i class="fa fa-bars"></i></button>-->
-        <div class="container">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Configurator</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/screen.css">
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+      <style type="text/css">
+         #background-1 {
+         background-image: url();
+         }
+      </style>
+   </head>
+   <body>
+      <!--Begin nvbar-->
+      <div id="navbar" class="navbar navbar-fixed-top">
+         <!--button href="#" class="btn btn-default toggle-panel"><i class="fa fa-bars"></i></button>-->
+         <div class="container">
             <div class="navbar-header">
-                <div class="logo"><a href="/"><span class="navbar-brand">Home</span></a></div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+               <div class="logo"><a href="/"><span class="navbar-brand">Home</span></a></div>
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle Navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="http://v-squared.github.io/">Home</a></li>
-                    <li><a href="http://v-squared.github.io/v2-Configurator"class="active">Configurator</a></li>
-                </ul>
+               <ul class="nav navbar-nav">
+                  <li><a href="http://v-squared.github.io/">Home</a></li>
+                  <li><a href="http://v-squared.github.io/v2-Configurator"class="active">Configurator</a></li>
+               </ul>
             </div>
-        </div>
-    </div>
-    <!--End Navbar-->
-    <!--Begin Jumbotron-->
-    <div class="jumbotron jumbotron-primary masthead">
-        <div class="container">
+         </div>
+      </div>
+      <!--End Navbar-->
+      <!--Begin Jumbotron-->
+      <div class="jumbotron jumbotron-primary masthead">
+         <div class="container">
             <h1>V²Configurator</h1>
             <p>Powerful Configurator & Price Calculator with easy Config</p>
             <p>
-                <a href="#check-me-out" class="btn btn-primary btn-border btn-lg">GitHub Repo</a>
+               <a href="#check-me-out" class="btn btn-primary btn-border btn-lg">GitHub Repo</a>
             </p>
-        </div>
-    </div>
-    <!--End Jumbotron-->
-    <div class="section">
-        <!--Begin Configurator-->
-        <div class="container" ng-app="configApp" ng-controller="myCtrl">
+         </div>
+      </div>
+      <!--End Jumbotron-->
+      <div class="section">
+         <!--Begin Configurator-->
+         <div class="container" ng-app="configApp" ng-controller="myCtrl">
             <div class="row">
-                <div class="col-md-9">
-                    <h1 id="check-me-out">ViCase & ViDock Configuration</h1>
-                    <div ng-repeat="item in data" class="panel panel-default">
-                        <div class="panel-heading con-fig-header">
-                            <h2><i class="fa fa-play"></i> {{item.name}}</h2>
+               <div class="col-md-9">
+                  <h1 id="check-me-out">ViCase & ViDock Configuration</h1>
+                  <div ng-repeat="item in data" class="panel panel-default">
+                     <div class="panel-heading con-fig-header">
+                        <h2><i class="fa fa-play"></i> {{item.name}}</h2>
+                     </div>
+                     <div class="panel-body" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
+                        <div id="ViCase" ng-repeat="item in item.data">
+                           <div class="col-sm-2 noImg">
+                           </div>
+                           <div class="col-sm-8">
+                              <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.name}}</span></h3>
+                              <div class="readmore_group">
+                                 <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
+                                 <div class="readmore_area show-first open radio_button">
+                                    <div ng-repeat="choice in item.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                       <label><input type="radio" name="{{item.part}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                    </div>
+                                    <div>
+                                       <label><input type="radio" class="None" name="{{item.part}}" value="0"><span>None</span></label>
+                                    </div>
+                                 </div>
+                                 <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Comparison Table</h4>
+                                 <div class="readmore_area">
+                                    <div>
+                                       <table class="table table-striped">
+                                          <thead>
+                                             <tr>
+                                                <th ng-repeat="heading in item.TableHeading" class="{{heading.class}}">{{heading.name}}</th>
+                                             </tr>
+                                          </thead>
+                                          <tbody>
+                                             <tr ng-repeat="row in item.TableBody">
+                                                <td class="table-left-title">{{row.title}}</td>
+                                                <td>{{row.name2}}</td>
+                                                <td>{{row.name3}}</td>
+                                                <td>{{row.name4}}</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                                 <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Advice</h4>
+                                 <div class="readmore_area">
+                                    <div ng-repeat="advice in item.Advice">
+                                       <h4>{{advice.heading}}</h4>
+                                       <p>{{advice.content}}</p>
+                                    </div>
+                                 </div>
+                                 <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
+                                 <div class="readmore_area">
+                                    <div id="{{item.slide}}" class="carousel slide" data-ride="carousel">
+                                       <div class="carousel-inner GallerySlideshow">
+                                          <div ng-repeat="gallery in item.Gallery" class="item">
+                                             <h4 style="font-weight:bold">{{gallery.title}}</h4>
+                                             <p>{{gallery.description}}</p>
+                                             <img src="images/expansion/config/ViCase/{{gallery.image}}">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="clearfix">
+                                       <div id="thumbcarousel" class="carousel slide" data-interval="false">
+                                          <div class="carousel-inner GalleryThumbNail">
+                                             <div data-target="#{{item.slide}}" data-slide-to="{{$index}}" class="thumb" ng-repeat="gallery in item.Gallery"><img src="images/expansion/config/ViCase/{{gallery.image}}"></div>
+                                             <!-- /item -->
+                                          </div>
+                                          <!-- /carousel-inner -->
+                                          <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left"></span>
+                                          </a>
+                                          <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right"></span>
+                                          </a>
+                                       </div>
+                                       <!-- /thumbcarousel -->
+                                    </div>
+                                    <!-- /clearfix -->
+                                 </div>
+                                 <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
+                                 <div ng-repeat="datasheet in item.Datasheet" class="readmore_area radio-tables">
+                                    <ul class="nav nav-tabs table-tab">
+                                       <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a class="fake-link">{{buttons.name}}</a></li>
+                                    </ul>
+                                    <div class="tableSection open">
+                                       <table class="table table-striped">
+                                          <tbody>
+                                             <tr ng-repeat="row in datasheet.table1" class="{{row.class}}">
+                                                <td class="table-left-title">{{row.name1}}</td>
+                                                <td>{{row.name2}}</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                    <div class="tableSection closed">
+                                       <table class="table table-striped">
+                                          <tbody>
+                                             <tr ng-repeat="row in datasheet.table2" class="{{row.class}}">
+                                                <td class="table-left-title">{{row.name1}}</td>
+                                                <td>{{row.name2}}</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                    <div class="tableSection closed">
+                                       <table class="table table-striped">
+                                          <tr ng-repeat="row in datasheet.table3" class="{{row.class}}">
+                                             <td class="table-left-title" style="width:20%">{{row.name1}}</td>
+                                             <td>{{row.name2}}</td>
+                                          </tr>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-2">
+                              <img ng-src="{{item.url}}" alt="" />
+                           </div>
+                           <div class="clearfix"></div>
+                           <hr>
                         </div>
-                        <div class="panel-body" >
-                            <ng-include src="'./templates/s'+($index)+'.html'" id="{{'chapter-' + $index}}"></ng-include>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="price-sidebar" data-spy="affix" data-offset-top="520">
-                        <h3 style="color:#07b;" id="radiocheckednumber">0 items in cart</h3>
-                        <hr>
-
-                        <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViCase</h4>
-                        <p class="resultstring" id="ViCase-resultstring"></p>
-                        <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViDock</h4>
-                        <p class="resultstring" id="ViDock-resultstring"></p>
-                        <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> PC Parts</h4>
-                        <p class="resultstring" id="PcPart-resultstring"></p>
-                        <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> OS & Apps</h4>
-                        <p class="resultstring" id="OS-resultstring"></p>
-
-                        <hr>
-
-                        <p style="color:#07b;"><b><span id="villageSum">$0 US</span> - Village (cart)</b></p>
-                        <p><b><span id="thirdSum">$0 US</span> - Third Party</b></p>
-                        <hr>
-                        <h3>
-                            <span style="color:#07b;" id="total">$0</span> <span style="color:#07b;">US</span>
-                            <hr style="margin-bottom:2px">
-                            <hr style="margin-top:0;">
-                        </h3>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="price-sidebar" data-spy="affix" data-offset-top="520">
+                     <h3 style="color:#07b;" id="radiocheckednumber">0 items in cart</h3>
+                     <hr>
+                     <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViCase</h4>
+                     <p class="resultstring" id="ViCase-resultstring"></p>
+                     <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViDock</h4>
+                     <p class="resultstring" id="ViDock-resultstring"></p>
+                     <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> PC Parts</h4>
+                     <p class="resultstring" id="PcPart-resultstring"></p>
+                     <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> OS & Apps</h4>
+                     <p class="resultstring" id="OS-resultstring"></p>
+                     <hr>
+                     <p style="color:#07b;"><b><span id="villageSum">$0 US</span> - Village (cart)</b></p>
+                     <p><b><span id="thirdSum">$0 US</span> - Third Party</b></p>
+                     <hr>
+                     <h3>
+                        <span style="color:#07b;" id="total">$0</span> <span style="color:#07b;">US</span>
+                        <hr style="margin-bottom:2px">
+                        <hr style="margin-top:0;">
+                     </h3>
+                  </div>
+               </div>
             </div>
-        </div>
-        <!--End Configurator-->
-    </div>
-    <hr>
- <div class="section">
-     <div class="container">
-         <div class="row">
-             <div class="col-sm-12">
-                 <h1>Documentation</h1>
-                 <a href="https://github.com/V-Squared/v2-Configurator">Please visit the documentation github page</a>
-             </div>
          </div>
-     </div>
- </div>
-
- <div class="footer">
-     <div class="container">
-         <div class="row">
-             <div class="col-sm-12">
-                 <h3>V² Community</h3>
-                 <p>Open Source PCI Express Expansion: Cables, Host Ports and Boxes. Standards, Reference Designs, Manufacturing Kits, Documentation, Tools.</p>
-             </div>
+         <!--End Configurator-->
+      </div>
+      <hr>
+      <div class="section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1>Documentation</h1>
+                  <a href="https://github.com/V-Squared/v2-Configurator">Please visit the documentation github page</a>
+               </div>
+            </div>
          </div>
-     </div>
- </div>
-
- <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
- <script type="text/javascript" src="js/jquery-calx-1.1.8.min.js"></script>
- <script type="text/javascript" src="js/scotchPanels.min.js"></script>
- <script src="js/holder.js" type="text/javascript"></script>
- <script type="text/javascript" src="js/angular.min.js"></script>
- <script type="text/javascript" src="js/app.js"></script>
- <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-</body>
-
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h3>V² Community</h3>
+                  <p>Open Source PCI Express Expansion: Cables, Host Ports and Boxes. Standards, Reference Designs, Manufacturing Kits, Documentation, Tools.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-calx-1.1.8.min.js"></script>
+      <script type="text/javascript" src="js/scotchPanels.min.js"></script>
+      <script src="js/holder.js" type="text/javascript"></script>
+      <script type="text/javascript" src="js/angular.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   </body>
 </html>

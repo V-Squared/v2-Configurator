@@ -1,7 +1,7 @@
 [
    {
       "name":"Ready Config",
-      "Config":[
+      "data":[
          {
             "name":"ViCase Performance",
             "url":"",
@@ -38,7 +38,7 @@
    },
    {
       "name":"ViCase",
-      "ViCase":[
+      "data":[
          {
             "name":"ViCase Size",
             "url":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
@@ -1501,12 +1501,12 @@
    },
    {
       "name":"ViDock",
-      "Expansion":[
+      "data":[
          {
             "name":"ViDock SFF",
             "url":"",
             "part":"SFF",
-            "options":[
+            "yourChoice":[
                {
                   "name":"ViDock SFF, 250 mm length",
                   "value":"149"
@@ -1521,7 +1521,7 @@
             "name":"V²A.Card",
             "url":"",
             "part":"VA",
-            "options":[
+            "yourChoice":[
                {
                   "name":"V²A.Card",
                   "value":"29"
@@ -1532,7 +1532,7 @@
             "name":"AC Adapter",
             "url":"",
             "part":"ac-adapter",
-            "options":[
+            "yourChoice":[
                {
                   "name":"AC Adapter 12V - 48W",
                   "value":"15"
@@ -1551,7 +1551,7 @@
             "name":"ViDock Power",
             "url":"",
             "part":"power",
-            "options":[
+            "yourChoice":[
                {
                   "name":"ViDock Power 240W",
                   "value":"79"
@@ -1566,16 +1566,105 @@
    },
    {
       "name":"PC Parts",
-      "PC":[
+      "data":[
          {
-            "img":"images/expansion/config/mainBoard.jpg",
-            "title":"Intel MotherBoard",
-            "label":"intel-motherboard",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
+            "url":"images/expansion/config/mainBoard.jpg",
+            "name":"MotherBoard",
+            "part":"motherboard",
+
+            "yourChoice":[
                {
                   "name":"Intel MotherBoard1",
-                  "price":100
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-6",
+                     "#chapter-3-section-1-Button-7",
+                     "#chapter-3-section-1-Button-8",
+                     "#chapter-3-section-2-Button-4",
+                     "#chapter-3-section-2-Button-5",
+                     "#chapter-3-section-2-Button-6",
+                     "#chapter-3-section-2-Button-7"
+                  ],
+                  "value":100
+               },
+               {
+                  "name":"Intel MotherBoard 2",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-6",
+                     "#chapter-3-section-1-Button-7",
+                     "#chapter-3-section-1-Button-8",
+                     "#chapter-3-section-2-Button-4",
+                     "#chapter-3-section-2-Button-5",
+                     "#chapter-3-section-2-Button-6",
+                     "#chapter-3-section-2-Button-7"
+                  ],
+                  "value":200
+               },
+               {
+                  "name":"Intel MotherBoard 3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-6",
+                     "#chapter-3-section-1-Button-7",
+                     "#chapter-3-section-1-Button-8",
+                     "#chapter-3-section-2-Button-4",
+                     "#chapter-3-section-2-Button-5",
+                     "#chapter-3-section-2-Button-6",
+                     "#chapter-3-section-2-Button-7"
+                  ],
+                  "value":350
+               },
+               {
+                  "name":"AMD Motherboard 1",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-0",
+                     "#chapter-3-section-1-Button-1",
+                     "#chapter-3-section-1-Button-2",
+                     "#chapter-3-section-1-Button-3",
+                     "#chapter-3-section-1-Button-4",
+                     "#chapter-3-section-1-Button-5",
+                     "#chapter-3-section-2-Button-0",
+                     "#chapter-3-section-2-Button-1",
+                     "#chapter-3-section-2-Button-2",
+                     "#chapter-3-section-2-Button-3"
+                  ],
+                  "value":50
+               },
+               {
+                  "name":"AMD Motherboard 2",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-0",
+                     "#chapter-3-section-1-Button-1",
+                     "#chapter-3-section-1-Button-2",
+                     "#chapter-3-section-1-Button-3",
+                     "#chapter-3-section-1-Button-4",
+                     "#chapter-3-section-1-Button-5",
+                     "#chapter-3-section-2-Button-0",
+                     "#chapter-3-section-2-Button-1",
+                     "#chapter-3-section-2-Button-2",
+                     "#chapter-3-section-2-Button-3"
+                  ],
+                  "value":100
+               },
+               {
+                  "name":"AMD Motherboard 3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "Child_Name":[
+                     "#chapter-3-section-1-Button-0",
+                     "#chapter-3-section-1-Button-1",
+                     "#chapter-3-section-1-Button-2",
+                     "#chapter-3-section-1-Button-3",
+                     "#chapter-3-section-1-Button-4",
+                     "#chapter-3-section-1-Button-5",
+                     "#chapter-3-section-2-Button-0",
+                     "#chapter-3-section-2-Button-1",
+                     "#chapter-3-section-2-Button-2",
+                     "#chapter-3-section-2-Button-3"
+                  ],
+                  "value":150
                }
             ],
             "TableHeading":[
@@ -1608,177 +1697,173 @@
             ]
          },
          {
-            "img":"images/expansion/config/intel.png",
-            "title":"Intel Processer(CPU)",
-            "label":"proc",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
+            "url":"images/expansion/config/Intel-CPU.jpg",
+            "name":"Processer(CPU)",
+            "part":"proc",
+            "yourChoice":[
                {
                   "name":"Intel Celeron G1840",
-                  "price":50
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":50
                },
                {
                   "name":"Intel Pentium G3240",
-                  "price":89
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":89
                },
                {
                   "name":"Intel Core i3-4350T",
-                  "price":169
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":169
                },
                {
                   "name":"Intel Core i5-4690T",
-                  "price":249
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":249
                },
                {
                   "name":"Intel Core i7-4790T",
-                  "price":349
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":349
                },
                {
                   "name":"Intel i5-T",
-                  "price":400
-               }
-            ]
-         },
-         {
-            "img":"images/expansion/config/RAM.png",
-            "title":"Intel Memory (RAM)",
-            "label":"RAM",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
-               {
-                  "name":"Intel 2 GB DDR3",
-                  "price":60
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":400
                },
-               {
-                  "name":"Intel 4 GB DDR3",
-                  "price":120
-               },
-               {
-                  "name":"Intel 8 GB DDR3",
-                  "price":240
-               },
-               {
-                  "name":"Intel 16 GB DDR3",
-                  "price":300
-               }
-            ]
-         },
-         {
-            "img":"images/expansion/config/mainBoard.jpg",
-            "title":"AMD Motherboard",
-            "label":"AMDMother",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
-               {
-                  "name":"AMD Motherboard 1",
-                  "price":50
-               },
-               {
-                  "name":"AMD Motherboard 2",
-                  "price":100
-               },
-               {
-                  "name":"AMD Motherboard 3",
-                  "price":150
-               }
-            ]
-         },
-         {
-            "img":"images/expansion/config/mainBoard.jpg",
-            "title":"AMD Processer(CPU)",
-            "label":"AMDCPU",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
                {
                   "name":"AMD Processer 1",
-                  "price":25
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":25
                },
                {
                   "name":"AMD Processer 2",
-                  "price":100
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":100
                },
                {
                   "name":"AMD Processer 3",
-                  "price":150
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":150
                }
             ]
          },
          {
-            "img":"images/expansion/config/RAM.png",
-            "title":"AMD Memory (RAM)",
-            "label":"AMDMemory",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
+            "url":"images/expansion/config/RAM.png",
+            "name":"Memory (RAM)",
+            "part":"RAM",
+            "yourChoice":[
+               {
+                  "name":"Intel 2 GB DDR3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":60
+               },
+               {
+                  "name":"Intel 4 GB DDR3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+
+                  "value":120
+               },
+               {
+                  "name":"Intel 8 GB DDR3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+
+                  "value":240
+               },
+               {
+                  "name":"Intel 16 GB DDR3",
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+
+                  "value":300
+               },
                {
                   "name":"AMD 2 GB DDR3",
-                  "price":50
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+
+                  "value":50
                },
                {
                   "name":"AMD 4 GB DDR3",
-                  "price":100
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+
+                  "value":100
                },
                {
                   "name":"AMD 8 GB DDR3",
-                  "price":200
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+
+                  "value":200
                },
                {
                   "name":"AMD 16 GB DDR3",
-                  "price":300
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+
+                  "value":300
                }
             ]
          },
          {
-            "img":"images/expansion/config/mSATA-SSD.gif",
-            "title":"SSD (mSATA)",
-            "label":"mSATA",
+            "url":"images/expansion/config/mSATA-SSD.gif",
+            "name":"SSD (mSATA)",
+            "part":"mSATA",
             "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "options":[
+            "yourChoice":[
                {
                   "name":"Samsung SSD 840 EVO Series 120GB, mSATA 6Gb/s",
-                  "price":120
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":120
                },
                {
                   "name":"Samsung SSD 840 EVO Series 250GB, mSATA 6Gb/s",
-                  "price":250
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":250
                },
                {
                   "name":"Samsung SSD 840 EVO Series 500GB, mSATA 6Gb/",
-                  "price":500
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":500
                },
                {
                   "name":"Samsung SSD 840 EVO Series 1TB, mSATA 6Gb/",
-                  "price":1000
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":1000
                }
             ]
          },
          {
-            "img":"images/expansion/config/SSD.png",
-            "title":"SSD / Festplatte Nr.1 *",
-            "label":"SSD-1",
-            "options":[
+            "url":"images/expansion/config/SSD.png",
+            "name":"SSD / Festplatte Nr.1 *",
+            "part":"SSD-1",
+            "yourChoice":[
                {
                   "name":"HDD 2.5' 500 GB",
-                  "price":60
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":60
                },
                {
                   "name":"HDD 2.5' 1000 GB",
-                  "price":100
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":100
                },
                {
                   "name":"Samsung SSD 850 EVO 120GB",
-                  "price":120
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":120
                },
                {
                   "name":"Samsung SSD 850 EVO 250GB",
-                  "price":250
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "value":250
                },
                {
                   "name":"Samsung SSD 850 EVO 500GB",
-                  "price":500
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "value":500
                },
                {
                   "name":"Samsung SSD 850 EVO 1000GB",
-                  "price":1000
+                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "value":1000
                }
             ]
          }
@@ -1786,17 +1871,20 @@
    },
    {
       "name":"OS & Apps",
-      "OS":[
+      "data":[
          {
             "url":"images/expansion/config/windows-7-logo.png",
             "name":"Windows 7",
-            "options":[
+            "part":"OS",
+            "yourChoice":[
                {
                   "name":"Windows 7 Home Premium 150.00 32/64",
+                  "img":"images/expansion/config/windows-7-logo.png",
                   "value":"150"
                },
                {
                   "name":"Windows 7 Professional 200.00 32/64",
+                  "img":"images/expansion/config/windows-7-logo.png",
                   "value":"250"
                }
             ]
@@ -1804,13 +1892,16 @@
          {
             "url":"images/expansion/config/windows-8-logo.png",
             "name":"Windows 8.1",
-            "options":[
+            "part":"OS",
+            "yourChoice":[
                {
                   "name":"Windows 8.1 32/64",
+                  "img":"images/expansion/config/windows-8-logo.png",
                   "value":"250"
                },
                {
                   "name":"Windows 8.1 Pro 32/64",
+                  "img":"images/expansion/config/windows-8-logo.png",
                   "value":"350"
                }
             ]
@@ -1818,13 +1909,16 @@
          {
             "url":"images/expansion/config/linux-utanbu.jpg",
             "name":"Ubuntu - Linux",
-            "options":[
+            "part":"OS",
+            "yourChoice":[
                {
                   "name":"free - Linux Ubuntu 14.00 32/64",
+                  "img":"images/expansion/config/linux-utanbu.jpg",
                   "value":"0"
                },
                {
                   "name":"free - Linux Ubuntu 13.00 32/64",
+                  "img":"images/expansion/config/linux-utanbu.jpg",
                   "value":"0"
                }
             ]
