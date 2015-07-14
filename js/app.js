@@ -34,7 +34,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         setTimeout(function(){
           runjquery();
 
-        }, 100);
+        }, 4000);
 
 
 
