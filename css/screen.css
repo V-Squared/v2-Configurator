@@ -338,6 +338,8 @@ ul.navbar-nav a:hover{
 .price-sidebar.affix {
 	top:60px;
 	overflow-y: auto;
+	height:100%;
+	padding-bottom: 70px;
 }
 @media (max-width:992px) {
 	.price-sidebar.affix {

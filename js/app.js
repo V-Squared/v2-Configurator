@@ -34,7 +34,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         setTimeout(function(){
           runjquery();
 
-        }, 4000);
+        }, 1500);
 
 
 
@@ -72,6 +72,7 @@ var runjquery = function() {
         if (result.length > 0) {
             var radioCheckedNumber = result.length + " items in cart<br>";
             var resultString = "";
+            var checkoutResultString = "";
             var total = 0;
             var noneNumber = 0;
             var villageSum = 0;
@@ -101,17 +102,27 @@ var runjquery = function() {
                 findImg.addClass('noImg');
             }
 
+            function loopReadyConfig (value) {
+              angular.forEach(value, function (value, index) {
+                $(value).find('input[type=radio]').prop('checked','true');
+              });
+            }
+
             if($(this).attr('for') == "Entry") {
               loopReadyConfig(ready_config_Entry);
             } else if($(this).attr('for') == "High") {
               loopReadyConfig(ready_config_High);
             }
 
-            function loopReadyConfig (value) {
-              angular.forEach(value, function (value, index) {
-                $(value).find('input[type=radio]').prop('checked','true');
-              });
-            }
+
+
+/*            var test = $('#checkout-list p:contains(' + selectedText + ')').text();
+
+
+            if(!$(this).hasClass('None') && selectedText !=  test) {
+              alert(test);
+              $('#checkout-list').append('<p>' + selectedText + "</p>");
+            }*/
 
             $('input[type=radio]').each(function() {
 
@@ -143,8 +154,14 @@ var runjquery = function() {
 
                 //alert($(this).val());
                 total += parseInt($(this).val());
+                var seletedCheckoutLink = "";
+                if(!$(this).hasClass('None')) {
+                seletedCheckoutLink += $(this).attr('checkout');
+                }
 
                 var selectedText = $(this).next('span').text();
+
+
 
                 data_child = $(this).data('child');
 
@@ -200,6 +217,10 @@ var runjquery = function() {
                     });
                 });*/
 
+                if(!$(this).hasClass('None')) {
+                    checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
+                }
+
                 if ($(this).val() != 0) {
                     resultString += selectedText + "<br/>";
                     findImg.removeClass('shade');
@@ -219,6 +240,9 @@ var runjquery = function() {
 
 
             });
+
+            console.log(checkoutResultString);
+
 
             var resultString1 = "";
             var resultString2 = "";
@@ -276,10 +300,14 @@ var runjquery = function() {
                 resultString += "<hr>";
             }
 
+          console.log(resultString1);
+
             document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
             document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
             document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
             document.querySelector('#OS-resultstring').innerHTML = resultString4;
+
+            $('#checkout-list').html(checkoutResultString);
 
             $('#resultstring').html(resultString);
 
@@ -288,6 +316,30 @@ var runjquery = function() {
         } else {
             $('#divResult').html("No radio button is checked");
         }
+    });
+
+    var wWidth = $(window).width();
+
+    var dWidth = wWidth * 0.5;
+
+    dWidth = dWidth - 52;
+
+    $('.dialog').dialog({
+      modal: true,
+    	autoOpen: false,
+      show: 'slideDown',
+      hide: 'explode',
+      width: dWidth,
+      height:dWidth,
+      buttons : {
+        "Cancel" : function() {
+          $(this).dialog('close');
+        }
+      }
+    });
+
+    $('.checkout').click(function(){
+      $('.dialog').dialog('open');
     });
 
     /*$('input[type="radio"], select option').click(function() {
