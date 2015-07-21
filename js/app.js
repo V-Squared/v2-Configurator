@@ -1,11 +1,10 @@
-//these will go away when the jquery is removed.  This creates global variables which bypass the angular framework. 
+//these will go away when the jquery is removed.  This creates global variables which bypass the angular framework.
 var ready_config_Entry = "";
 var ready_config_High = "";
 
 
 
 
- 
 var wasAPresetSelected = function(element) {
     var runitem;
     if ($(element).attr('for') == "Entry") {
@@ -15,17 +14,17 @@ var wasAPresetSelected = function(element) {
     }
     console.log(runitem);
     angular.forEach(runitem, function(value, index) {
-        
-        
-       
-        // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!     
-        $(value).find('input[type=radio]').prop('checked', 'true').val(value).trigger('click');
-    
+
+
+
+        // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
+        $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+
     });
 };
 
 var updateClickedElementImage = function(element) {
-    //get the clicked radio button         
+    //get the clicked radio button
     var findImg = $(element).closest('.col-sm-8').prev('.col-sm-2');
     imageUrl = $(element).attr('imgAttr');
 
@@ -46,95 +45,61 @@ var updateClickedElementImage = function(element) {
 
 
 
-
-
-
+// This is the angular function
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
-    
+
+
+    //this get the json data for the buttons
     $http.get('data.json')
         .then(function(res) {
             $scope.data = res.data;
-
-            /*var button_logic_Data = $scope.data[2].ViCase;
-            $scope.buttonIdArray = [];
-
-            angular.forEach(button_logic_Data, function(value, index) {
-                var hello = value.yourChoice
-                angular.forEach(value.yourChoice, function(value, index) {
-                    var buttonId = value.name.replace(/\s+/g, '-').toLowerCase();
-                    $scope.buttonIdArray.push(buttonId);
-                });*/
-                /*angular.forEach(value.Logic,function(value,index){
-                    console.log(value);
-
-                    $scope.logic = value;
-                });*/
-            //});
             console.log($scope.buttonIdArray);
         });
 
-      
-      $http.get('ready-config.json').then(function(res) {
+
+    //this get the data for the ready-config for which button is selected depends on what
+    $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
         ready_config_High = $scope.config.High;
         ready_config_Entry = $scope.config.Entry;
-      });
+    });
 
 
-        setTimeout(function(){
-          runjquery();
+    //This is the function somewhat like windows.load
+    setTimeout(function() {
+        //this happen after the window is basiclly loaded.
+        runWindowLoad();
 
-        }, 1500);
+    }, 1500);
 
 
 
 });
 
- 
 
-var runjquery = function() {
-  
-    //What does this do? 
+
+var runWindowLoad = function() {
+
+    //This add the class village and thrid party
+    //I add the 2 classes because I have a function that caculate teh price either in the village sections and
+    //third party section. the function is in line 319 to 330
+
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
-  
-  
-    /*function hello (argument) {
-        $('input[type="radio"]').each(function() {
-          alert('hello');
-        });
-    };*/
-    var priceString = "";
-  
-   //a temp function to add price? to things.
-   //this should be removed by a tweak to the template.
-    $('input[type="radio"]').each(function() {
-        priceString = "";
-        if ($(this).val() != 0) {
-            priceString = $(this).val();
-            $(this).next('span').prepend("$" + priceString + " US - ");
-        }
-    });
 
 
 
-
-  
-  
-  
-  
-  
-  
-  
     //when a radio is clicked
     $('input[type="radio"], select option').click(function() {
-       
+
         //find all selected
         var result = $('input[type=radio]:checked, select option:selected');
-      
+
         if (result.length > 0) {
+            // this variable declare how many items in card
             var radioCheckedNumber = result.length + " items in cart<br>";
+            //this is the total text string you have selected
             var resultString = "";
             var checkoutResultString = "";
             var total = 0;
@@ -142,7 +107,7 @@ var runjquery = function() {
             var villageSum = 0;
             var thirdSum = 0;
             var imageUrl = "";
-              var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
+            var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
             var last_Id;
             var last_Name;
             var now_Id;
@@ -150,31 +115,11 @@ var runjquery = function() {
             var data_child;
 
             imageUrl = "";
-         
-               updateClickedElementImage(this);
-					wasAPresetSelected(this);
+
+            updateClickedElementImage(this);
+            wasAPresetSelected(this);
 
 
-          
-/*            var test = $('#checkout-list p:contains(' + selectedText + ')').text();
-
-
-            if(!$(this).hasClass('None') && selectedText !=  test) {
-              alert(test);
-              $('#checkout-list').append('<p>' + selectedText + "</p>");
-            }*/
-
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-         
             $('input[type=radio]').each(function() {
 
 
@@ -183,6 +128,12 @@ var runjquery = function() {
                 //On change choice of Button in Parent
                 //Deselect choice of button in child
                 //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
+
+                var priceString = "";
+                if ($(this).val() != 0) {
+                    priceString = $(this).val();
+                    $(this).next('span').prepend("$" + priceString + " US - ");
+                }
 
 
                 if ($(this).is(':checked')) {
@@ -197,34 +148,31 @@ var runjquery = function() {
                 }
             });
 
-          
-          
-          
-          
-          
-          
-          
-          
-          //split these out into a calculateCost,  update Icon,   refresh buttons functions please!    
-          
+
+
+
+            //split these out into a calculateCost,  update Icon,   refresh buttons functions please!
+
             result.each(function() {
                 // This function loops through all checked radio buttons. This function does a lot:
                 //    1. Calculate the cost summery
                 //    2. Update the Section Icon
                 //    3. Update enabling / disabling of child radio buttons
 
-                //alert($(this).val());
-                
-              
-              total += parseInt($(this).val());
+                //this caculate the total price
+                total += parseInt($(this).val());
+
+                //this part is to get the link for the checkout from the current radio button attribute
                 var seletedCheckoutLink = "";
-                if(!$(this).hasClass('None')) {
-                seletedCheckoutLink += $(this).attr('checkout');
+                if (!$(this).hasClass('None')) {
+                    seletedCheckoutLink += $(this).attr('checkout');
                 }
+
+                //this get the text of the currunt radio button
                 var selectedText = $(this).next('span').text();
 
 
-
+                //this get the
                 data_child = $(this).data('child');
 
                 var Content_Active_Choice = $(this).next().text();
@@ -232,22 +180,20 @@ var runjquery = function() {
                 var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
 
 
-                //console.log(data_child);
+                angular.forEach(data_child, function(value, index) {
+                    $(value).find('input[type=radio]').prop("disabled", true);
+                    $(value).find('span').addClass('ghost');
+                    var Choice_Tooltip = "To enable this item, please select a choice other than " + Content_Active_Choice + " in " + Section_Name;
+                    // This ToolTip is shown when hovering over a choice in the Child Part
+                    $(value).find('span').attr('title', Choice_Tooltip);
+                    if ($(value).find('input').is(':checked')) {
+                        $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+                        $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
+                        $(value).closest('.readmore_area').find('.None').prop('checked', true);
+                    }
+                    if ($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')) {
 
-                angular.forEach(data_child, function (value, index) {
-                        $(value).find('input[type=radio]').prop("disabled", true);
-                        $(value).find('span').addClass('ghost');
-                        var Choice_Tooltip = "To enable this item, please select a choice other than " + Content_Active_Choice + " in " + Section_Name;
-                        // This ToolTip is shown when hovering over a choice in the Child Part
-                        $(value).find('span').attr('title',Choice_Tooltip);
-                        if ($(value).find('input').is(':checked')) {
-                            $(value).closest('.col-sm-8').prev().find('img').attr('src','images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
-                            $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title','You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
-                            $(value).closest('.readmore_area').find('.None').prop('checked', true);
-                        }
-                        if($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')){
-
-                        }
+                    }
                 });
 
                 //$("#section-3-Button-0").find('input[type=radio]').prop( "disabled", true );
@@ -255,31 +201,7 @@ var runjquery = function() {
                 var Case = "";
 
 
-
-                /*$('input[class=case]:checked').each(function() {
-                    Case = $(this).attr('case');
-                    //alert(Case);
-
-                    $('input[class=cover]:checked').each(function() {
-
-                        if (Case == "2L") {
-                            var aimageUrl = $(this).attr('aimgAttr');
-                            //alert(aimageUrl);
-                            findImg.attr('src', aimageUrl);
-                        } else if (Case == "4L") {
-                            var bimageUrl = $(this).attr('bimgAttr');
-                            //alert(bimageUrl);
-                            findImg.attr('src', bimageUrl);
-                        } else if (Case == "6L") {
-                            var cimageUrl = $(this).attr('cimgAttr');
-                            //alert(cimageUrl);
-                            findImg.attr('src', cimageUrl);
-                        }
-
-                    });
-                });*/
-
-                if(!$(this).hasClass('None')) {
+                if (!$(this).hasClass('None')) {
                     checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
                 }
 
@@ -303,98 +225,90 @@ var runjquery = function() {
 
             });
 
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+
+
+
             console.log(checkoutResultString);
 
 
-          
-          
-          
-          
-    //-----------------------------------------------------
-    //What does this do?
-    //-----------------------------------------------------
- 
-          
-                                          var resultString1 = "";
-                                          var resultString2 = "";
-                                          var resultString3 = "";
-                                          var resultString4 = "";
-                                          $('#chapter-1 input[type=radio]:checked').each(function () {
-                                              var selectedText = $(this).next('span').text();
 
-                                              if(!$(this).hasClass('None')) {
-                                                  resultString1 += selectedText + "<br/>";
-                                              }
-                                          });
 
-                                          $('#chapter-2 input[type=radio]:checked').each(function () {
-                                              var selectedText = $(this).next('span').text();
+            //-----------------------------------------------------
+            //What does this do?
+            //-----------------------------------------------------
 
-                                              if(!$(this).hasClass('None')) {
-                                                  resultString2 += selectedText + "<br/>";
-                                              }
 
-                                          });
+            var resultString1 = "";
+            var resultString2 = "";
+            var resultString3 = "";
+            var resultString4 = "";
+            $('#chapter-1 input[type=radio]:checked').each(function() {
+                var selectedText = $(this).next('span').text();
 
-                                          $('#chapter-3 input[type=radio]:checked').each(function () {
-                                              var selectedText = $(this).next('span').text();
+                if (!$(this).hasClass('None')) {
+                    resultString1 += selectedText + "<br/>";
+                }
+            });
 
-                                              if(!$(this).hasClass('None')) {
-                                                  resultString3 += selectedText + "<br/>";
-                                              }
+            $('#chapter-2 input[type=radio]:checked').each(function() {
+                var selectedText = $(this).next('span').text();
 
-                                          });
+                if (!$(this).hasClass('None')) {
+                    resultString2 += selectedText + "<br/>";
+                }
 
-                                          $('#chapter-4 input[type=radio]:checked').each(function () {
-                                              var selectedText = $(this).next('span').text();
+            });
 
-                                              if(!$(this).hasClass('None')) {
-                                                  resultString4 += selectedText + "<br/>";
-                                              }
-                                          });
+            $('#chapter-3 input[type=radio]:checked').each(function() {
+                var selectedText = $(this).next('span').text();
 
-                                          $('.village input[type=radio]:checked').each(function() {
-                                              villageSum += parseInt($(this).val());
-                                              $('#villageSum').text('$' + villageSum + ' US');
-                                          });
+                if (!$(this).hasClass('None')) {
+                    resultString3 += selectedText + "<br/>";
+                }
 
-                                          $('.third input[type=radio]:checked').each(function() {
-                                              thirdSum += parseInt($(this).val());
-                                              $('#thirdSum').text('$' + thirdSum + ' US');
+            });
 
-                                          });
+            $('#chapter-4 input[type=radio]:checked').each(function() {
+                var selectedText = $(this).next('span').text();
 
-                                          if (resultString.length > 0) {
-                                              resultString += "<hr>";
-                                          }
+                if (!$(this).hasClass('None')) {
+                    resultString4 += selectedText + "<br/>";
+                }
+            });
 
-                                        console.log(resultString1);
+            $('.village input[type=radio]:checked').each(function() {
+                villageSum += parseInt($(this).val());
+                console.log(villageSum);
+                $('#villageSum').text('$' + villageSum + ' US');
+            });
 
-                                          document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
-                                          document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
-                                          document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
-                                          document.querySelector('#OS-resultstring').innerHTML = resultString4;
+            $('.third input[type=radio]:checked').each(function() {
+                thirdSum += parseInt($(this).val());
+                $('#thirdSum').text('$' + thirdSum + ' US');
 
-                                          $('#checkout-list').html(checkoutResultString);
+            });
 
-                                          $('#resultstring').html(resultString);
+            if (resultString.length > 0) {
+                resultString += "<hr>";
+            }
 
-                                          $('#radiocheckednumber').html(radioCheckedNumber);
-                                          $('#total').html('$' + total);
-                                      } else {
-                                          $('#divResult').html("No radio button is checked");
-                                      }
-   
+            console.log(resultString1);
+
+            document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
+            document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
+            document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
+            document.querySelector('#OS-resultstring').innerHTML = resultString4;
+
+            $('#checkout-list').html(checkoutResultString);
+
+            $('#resultstring').html(resultString);
+
+            $('#radiocheckednumber').html(radioCheckedNumber);
+            $('#total').html('$' + total);
+        } else {
+            $('#divResult').html("No radio button is checked");
+        }
+
     });
 
     var wWidth = $(window).width();
@@ -404,21 +318,21 @@ var runjquery = function() {
     dWidth = dWidth - 52;
 
     $('.dialog').dialog({
-      modal: true,
-    	autoOpen: false,
-      show: 'slideDown',
-      hide: 'explode',
-      width: dWidth,
-      height:dWidth,
-      buttons : {
-        "Cancel" : function() {
-          $(this).dialog('close');
+        modal: true,
+        autoOpen: false,
+        show: 'slideDown',
+        hide: 'explode',
+        width: dWidth,
+        height: dWidth,
+        buttons: {
+            "Cancel": function() {
+                $(this).dialog('close');
+            }
         }
-      }
     });
 
-    $('.checkout').click(function(){
-      $('.dialog').dialog('open');
+    $('.checkout').click(function() {
+        $('.dialog').dialog('open');
     });
 
     /*$('input[type="radio"], select option').click(function() {
@@ -439,13 +353,6 @@ var runjquery = function() {
         last_Id = $(this).closest('div').attr('id');
         last_Name = $(this).attr('name');
     });*/
-
-    $('input[type="radio"], select option').click(function() {
-
-        $('input[type=radio]').each(function() {
-
-        });
-    });
 
     //-----------------------------------------------------
     //Read More
@@ -525,15 +432,14 @@ var runjquery = function() {
 
     $('.collapse-summary').click(toggle);
 
-    function toggle () {
-      $(this).next().slideToggle();
-      if (!$(this).find('i').hasClass('fa-rotate-90')) {
-          $(this).find('i').addClass('fa-rotate-90');
-      } else {
-          $(this).find('i').removeClass('fa-rotate-90');
-      }
+    function toggle() {
+        $(this).next().slideToggle();
+        if (!$(this).find('i').hasClass('fa-rotate-90')) {
+            $(this).find('i').addClass('fa-rotate-90');
+        } else {
+            $(this).find('i').removeClass('fa-rotate-90');
+        }
     }
-
 
 
 

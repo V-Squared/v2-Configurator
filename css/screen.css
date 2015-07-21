@@ -474,3 +474,6 @@ cursor: pointer;
 	padding-top: 60px;
 	margin-top: -60px;
 }
+.ui-widget-content a {
+	color: #337ab7;
+}
