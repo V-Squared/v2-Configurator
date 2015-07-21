@@ -1,7 +1,57 @@
+//these will go away when the jquery is removed.  This creates global variables which bypass the angular framework. 
 var ready_config_Entry = "";
 var ready_config_High = "";
+
+
+
+
+ 
+var wasAPresetSelected = function(element) {
+    var runitem;
+    if ($(element).attr('for') == "Entry") {
+        runitem = ready_config_Entry;
+    } else if ($(element).attr('for') == "High") {
+        runitem = ready_config_High;
+    }
+    console.log(runitem);
+    angular.forEach(runitem, function(value, index) {
+        
+        
+       
+        // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!     
+        $(value).find('input[type=radio]').prop('checked', 'true').val(value).trigger('click');
+    
+    });
+};
+
+var updateClickedElementImage = function(element) {
+    //get the clicked radio button         
+    var findImg = $(element).closest('.col-sm-8').prev('.col-sm-2');
+    imageUrl = $(element).attr('imgAttr');
+
+    // this block seems unecassary.  why not just put the <img> tag in the template with a ng-if to hide it if image = null.
+    if (!$(element).hasClass('None')) {
+        if (findImg.hasClass('noImg')) {
+            findImg.removeClass('noImg');
+            findImg.append('<img>');
+            findImg.find('img').attr('src', imageUrl);
+        } else {
+            findImg.find('img').attr('src', imageUrl);
+        }
+    } else {
+        findImg.find('img').remove();
+        findImg.addClass('noImg');
+    }
+};
+
+
+
+
+
+
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
+    
     $http.get('data.json')
         .then(function(res) {
             $scope.data = res.data;
@@ -24,6 +74,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
             console.log($scope.buttonIdArray);
         });
 
+      
       $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
         ready_config_High = $scope.config.High;
@@ -40,35 +91,48 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 });
 
+ 
 
 var runjquery = function() {
-    console.log('jQuery!');
+  
+    //What does this do? 
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
+  
+  
     /*function hello (argument) {
         $('input[type="radio"]').each(function() {
           alert('hello');
         });
     };*/
-    var prizeString = "";
+    var priceString = "";
+  
+   //a temp function to add price? to things.
+   //this should be removed by a tweak to the template.
     $('input[type="radio"]').each(function() {
-
-        prizeString = "";
-
+        priceString = "";
         if ($(this).val() != 0) {
-            prizeString = $(this).val();
-
-            $(this).next('span').prepend("$" + prizeString + " US - ");
+            priceString = $(this).val();
+            $(this).next('span').prepend("$" + priceString + " US - ");
         }
-
     });
 
 
 
 
-
+  
+  
+  
+  
+  
+  
+  
+    //when a radio is clicked
     $('input[type="radio"], select option').click(function() {
+       
+        //find all selected
         var result = $('input[type=radio]:checked, select option:selected');
+      
         if (result.length > 0) {
             var radioCheckedNumber = result.length + " items in cart<br>";
             var resultString = "";
@@ -78,7 +142,7 @@ var runjquery = function() {
             var villageSum = 0;
             var thirdSum = 0;
             var imageUrl = "";
-            var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
+              var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
             var last_Id;
             var last_Name;
             var now_Id;
@@ -86,36 +150,12 @@ var runjquery = function() {
             var data_child;
 
             imageUrl = "";
-            imageUrl = $(this).attr('imgAttr');
-            if (!$(this).hasClass('None')) {
-                if(findImg.hasClass('noImg')){
-
-                    findImg.removeClass('noImg');
-                    findImg.append('<img>');
-                    findImg.find('img').attr('src', imageUrl);
-                } else {
-
-                    findImg.find('img').attr('src', imageUrl);
-                }
-            } else {
-                findImg.find('img').remove();
-                findImg.addClass('noImg');
-            }
-
-            function loopReadyConfig (value) {
-              angular.forEach(value, function (value, index) {
-                $(value).find('input[type=radio]').prop('checked','true');
-              });
-            }
-
-            if($(this).attr('for') == "Entry") {
-              loopReadyConfig(ready_config_Entry);
-            } else if($(this).attr('for') == "High") {
-              loopReadyConfig(ready_config_High);
-            }
+         
+               updateClickedElementImage(this);
+					wasAPresetSelected(this);
 
 
-
+          
 /*            var test = $('#checkout-list p:contains(' + selectedText + ')').text();
 
 
@@ -124,6 +164,17 @@ var runjquery = function() {
               $('#checkout-list').append('<p>' + selectedText + "</p>");
             }*/
 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+         
             $('input[type=radio]').each(function() {
 
 
@@ -146,6 +197,16 @@ var runjquery = function() {
                 }
             });
 
+          
+          
+          
+          
+          
+          
+          
+          
+          //split these out into a calculateCost,  update Icon,   refresh buttons functions please!    
+          
             result.each(function() {
                 // This function loops through all checked radio buttons. This function does a lot:
                 //    1. Calculate the cost summery
@@ -153,12 +214,13 @@ var runjquery = function() {
                 //    3. Update enabling / disabling of child radio buttons
 
                 //alert($(this).val());
-                total += parseInt($(this).val());
+                
+              
+              total += parseInt($(this).val());
                 var seletedCheckoutLink = "";
                 if(!$(this).hasClass('None')) {
                 seletedCheckoutLink += $(this).attr('checkout');
                 }
-
                 var selectedText = $(this).next('span').text();
 
 
@@ -241,81 +303,98 @@ var runjquery = function() {
 
             });
 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
             console.log(checkoutResultString);
 
 
-            var resultString1 = "";
-            var resultString2 = "";
-            var resultString3 = "";
-            var resultString4 = "";
+          
+          
+          
+          
+    //-----------------------------------------------------
+    //What does this do?
+    //-----------------------------------------------------
+ 
+          
+                                          var resultString1 = "";
+                                          var resultString2 = "";
+                                          var resultString3 = "";
+                                          var resultString4 = "";
+                                          $('#chapter-1 input[type=radio]:checked').each(function () {
+                                              var selectedText = $(this).next('span').text();
 
-            $('#chapter-1 input[type=radio]:checked').each(function () {
-                var selectedText = $(this).next('span').text();
+                                              if(!$(this).hasClass('None')) {
+                                                  resultString1 += selectedText + "<br/>";
+                                              }
+                                          });
 
-                if(!$(this).hasClass('None')) {
-                    resultString1 += selectedText + "<br/>";
-                }
-            });
+                                          $('#chapter-2 input[type=radio]:checked').each(function () {
+                                              var selectedText = $(this).next('span').text();
 
-            $('#chapter-2 input[type=radio]:checked').each(function () {
-                var selectedText = $(this).next('span').text();
+                                              if(!$(this).hasClass('None')) {
+                                                  resultString2 += selectedText + "<br/>";
+                                              }
 
-                if(!$(this).hasClass('None')) {
-                    resultString2 += selectedText + "<br/>";
-                }
+                                          });
 
-            });
+                                          $('#chapter-3 input[type=radio]:checked').each(function () {
+                                              var selectedText = $(this).next('span').text();
 
-            $('#chapter-3 input[type=radio]:checked').each(function () {
-                var selectedText = $(this).next('span').text();
+                                              if(!$(this).hasClass('None')) {
+                                                  resultString3 += selectedText + "<br/>";
+                                              }
 
-                if(!$(this).hasClass('None')) {
-                    resultString3 += selectedText + "<br/>";
-                }
+                                          });
 
-            });
+                                          $('#chapter-4 input[type=radio]:checked').each(function () {
+                                              var selectedText = $(this).next('span').text();
 
-            $('#chapter-4 input[type=radio]:checked').each(function () {
-                var selectedText = $(this).next('span').text();
+                                              if(!$(this).hasClass('None')) {
+                                                  resultString4 += selectedText + "<br/>";
+                                              }
+                                          });
 
-                if(!$(this).hasClass('None')) {
-                    resultString4 += selectedText + "<br/>";
-                }
-            });
+                                          $('.village input[type=radio]:checked').each(function() {
+                                              villageSum += parseInt($(this).val());
+                                              $('#villageSum').text('$' + villageSum + ' US');
+                                          });
 
+                                          $('.third input[type=radio]:checked').each(function() {
+                                              thirdSum += parseInt($(this).val());
+                                              $('#thirdSum').text('$' + thirdSum + ' US');
 
+                                          });
 
-            $('.village input[type=radio]:checked').each(function() {
-                villageSum += parseInt($(this).val());
-                $('#villageSum').text('$' + villageSum + ' US');
-            });
+                                          if (resultString.length > 0) {
+                                              resultString += "<hr>";
+                                          }
 
-            $('.third input[type=radio]:checked').each(function() {
-                thirdSum += parseInt($(this).val());
-                $('#thirdSum').text('$' + thirdSum + ' US');
+                                        console.log(resultString1);
 
-            });
+                                          document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
+                                          document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
+                                          document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
+                                          document.querySelector('#OS-resultstring').innerHTML = resultString4;
 
-            if (resultString.length > 0) {
-                resultString += "<hr>";
-            }
+                                          $('#checkout-list').html(checkoutResultString);
 
-          console.log(resultString1);
+                                          $('#resultstring').html(resultString);
 
-            document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
-            document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
-            document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
-            document.querySelector('#OS-resultstring').innerHTML = resultString4;
-
-            $('#checkout-list').html(checkoutResultString);
-
-            $('#resultstring').html(resultString);
-
-            $('#radiocheckednumber').html(radioCheckedNumber);
-            $('#total').html('$' + total);
-        } else {
-            $('#divResult').html("No radio button is checked");
-        }
+                                          $('#radiocheckednumber').html(radioCheckedNumber);
+                                          $('#total').html('$' + total);
+                                      } else {
+                                          $('#divResult').html("No radio button is checked");
+                                      }
+   
     });
 
     var wWidth = $(window).width();
