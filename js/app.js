@@ -45,20 +45,33 @@ var updateClickedElementImage = function(element) {
 
 
 
-// This is the angular function
+
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
-
-    //this get the json data for the buttons
     $http.get('data.json')
         .then(function(res) {
             $scope.data = res.data;
+
+            /*var button_logic_Data = $scope.data[2].ViCase;
+            $scope.buttonIdArray = [];
+
+            angular.forEach(button_logic_Data, function(value, index) {
+                var hello = value.yourChoice
+                angular.forEach(value.yourChoice, function(value, index) {
+                    var buttonId = value.name.replace(/\s+/g, '-').toLowerCase();
+                    $scope.buttonIdArray.push(buttonId);
+                });*/
+            /*angular.forEach(value.Logic,function(value,index){
+                console.log(value);
+
+                $scope.logic = value;
+            });*/
+            //});
             console.log($scope.buttonIdArray);
         });
 
 
-    //this get the data for the ready-config for which button is selected depends on what
     $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
         ready_config_High = $scope.config.High;
@@ -66,10 +79,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     });
 
 
-    //This is the function somewhat like windows.load
     setTimeout(function() {
-        //this happen after the window is basiclly loaded.
-        runWindowLoad();
+        runjquery();
 
     }, 1500);
 
@@ -79,14 +90,30 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 
-var runWindowLoad = function() {
+var runjquery = function() {
 
-    //This add the class village and thrid party
-    //I add the 2 classes because I have a function that caculate teh price either in the village sections and
-    //third party section. the function is in line 319 to 330
-
+    //What does this do?
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
+
+
+    /*function hello (argument) {
+        $('input[type="radio"]').each(function() {
+          alert('hello');
+        });
+    };*/
+    var priceString = "";
+
+    //a temp function to add price? to things.
+    //this should be removed by a tweak to the template.
+    $('input[type="radio"]').each(function() {
+        priceString = "";
+        if ($(this).val() != 0) {
+            priceString = $(this).val();
+            $(this).next('span').prepend("$" + priceString + " US - ");
+        }
+    });
+
 
 
 
@@ -97,9 +124,7 @@ var runWindowLoad = function() {
         var result = $('input[type=radio]:checked, select option:selected');
 
         if (result.length > 0) {
-            // this variable declare how many items in card
             var radioCheckedNumber = result.length + " items in cart<br>";
-            //this is the total text string you have selected
             var resultString = "";
             var checkoutResultString = "";
             var total = 0;
@@ -120,6 +145,18 @@ var runWindowLoad = function() {
             wasAPresetSelected(this);
 
 
+
+            /*            var test = $('#checkout-list p:contains(' + selectedText + ')').text();
+
+
+                        if(!$(this).hasClass('None') && selectedText !=  test) {
+                          alert(test);
+                          $('#checkout-list').append('<p>' + selectedText + "</p>");
+                        }*/
+
+
+
+
             $('input[type=radio]').each(function() {
 
 
@@ -128,12 +165,6 @@ var runWindowLoad = function() {
                 //On change choice of Button in Parent
                 //Deselect choice of button in child
                 //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
-
-                var priceString = "";
-                if ($(this).val() != 0) {
-                    priceString = $(this).val();
-                    $(this).next('span').prepend("$" + priceString + " US - ");
-                }
 
 
                 if ($(this).is(':checked')) {
@@ -159,26 +190,26 @@ var runWindowLoad = function() {
                 //    2. Update the Section Icon
                 //    3. Update enabling / disabling of child radio buttons
 
-                //this caculate the total price
-                total += parseInt($(this).val());
+                //alert($(this).val());
 
-                //this part is to get the link for the checkout from the current radio button attribute
+
+                total += parseInt($(this).val());
                 var seletedCheckoutLink = "";
                 if (!$(this).hasClass('None')) {
                     seletedCheckoutLink += $(this).attr('checkout');
                 }
-
-                //this get the text of the currunt radio button
                 var selectedText = $(this).next('span').text();
 
 
-                //this get the
+
                 data_child = $(this).data('child');
 
                 var Content_Active_Choice = $(this).next().text();
 
                 var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
 
+
+                //console.log(data_child);
 
                 angular.forEach(data_child, function(value, index) {
                     $(value).find('input[type=radio]').prop("disabled", true);
@@ -200,6 +231,30 @@ var runWindowLoad = function() {
 
                 var Case = "";
 
+
+
+                /*$('input[class=case]:checked').each(function() {
+                    Case = $(this).attr('case');
+                    //alert(Case);
+
+                    $('input[class=cover]:checked').each(function() {
+
+                        if (Case == "2L") {
+                            var aimageUrl = $(this).attr('aimgAttr');
+                            //alert(aimageUrl);
+                            findImg.attr('src', aimageUrl);
+                        } else if (Case == "4L") {
+                            var bimageUrl = $(this).attr('bimgAttr');
+                            //alert(bimageUrl);
+                            findImg.attr('src', bimageUrl);
+                        } else if (Case == "6L") {
+                            var cimageUrl = $(this).attr('cimgAttr');
+                            //alert(cimageUrl);
+                            findImg.attr('src', cimageUrl);
+                        }
+
+                    });
+                });*/
 
                 if (!$(this).hasClass('None')) {
                     checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
@@ -353,6 +408,13 @@ var runWindowLoad = function() {
         last_Id = $(this).closest('div').attr('id');
         last_Name = $(this).attr('name');
     });*/
+
+    $('input[type="radio"], select option').click(function() {
+
+        $('input[type=radio]').each(function() {
+
+        });
+    });
 
     //-----------------------------------------------------
     //Read More
