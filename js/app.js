@@ -85,7 +85,7 @@ var runjquery = function() {
 
     $('input[type="radio"]').each(function() {
          var priceString = "";
-        if ($(this).hasClass('None')) {
+        if (!$(this).hasClass('None')) {
             priceString = $(this).val();
             $(this).next('span').prepend("$" + priceString + " US - ");
         }
