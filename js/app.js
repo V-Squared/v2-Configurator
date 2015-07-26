@@ -49,28 +49,9 @@ var updateClickedElementImage = function(element) {
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
-    $http.get('data.json')
-        .then(function(res) {
-            $scope.data = res.data;
-
-            /*var button_logic_Data = $scope.data[2].ViCase;
-            $scope.buttonIdArray = [];
-
-            angular.forEach(button_logic_Data, function(value, index) {
-                var hello = value.yourChoice
-                angular.forEach(value.yourChoice, function(value, index) {
-                    var buttonId = value.name.replace(/\s+/g, '-').toLowerCase();
-                    $scope.buttonIdArray.push(buttonId);
-                });*/
-            /*angular.forEach(value.Logic,function(value,index){
-                console.log(value);
-
-                $scope.logic = value;
-            });*/
-            //});
-            console.log($scope.buttonIdArray);
-        });
-
+    $http.get('data.json').then(function(res) {
+        $scope.data = res.data;
+    });
 
     $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
@@ -92,30 +73,23 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 var runjquery = function() {
 
-    //What does this do?
+    //This add the the class village and third
+    //The function for this class is explained in [INSERT LINE HERE LUKAS CHEN YOU IDOIT OR WHAT EVER]
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
 
 
-    /*function hello (argument) {
-        $('input[type="radio"]').each(function() {
-          alert('hello');
-        });
-    };*/
-    var priceString = "";
-
     //a temp function to add price? to things.
     //this should be removed by a tweak to the template.
+
+
     $('input[type="radio"]').each(function() {
-        priceString = "";
-        if ($(this).val() != 0) {
+         var priceString = "";
+        if ($(this).hasClass('None')) {
             priceString = $(this).val();
             $(this).next('span').prepend("$" + priceString + " US - ");
         }
     });
-
-
-
 
     //when a radio is clicked
     $('input[type="radio"], select option').click(function() {
@@ -123,36 +97,30 @@ var runjquery = function() {
         //find all selected
         var result = $('input[type=radio]:checked, select option:selected');
 
+        //check the length if it is not zero
         if (result.length > 0) {
+            //this is the variable in that hold the value of how many items in card
             var radioCheckedNumber = result.length + " items in cart<br>";
-            var resultString = "";
+            // This is the summary string in the checkout
             var checkoutResultString = "";
+            //this is the total price
             var total = 0;
+            //I will explain this later
             var noneNumber = 0;
+            //this is the total price in the village part of the configurator
             var villageSum = 0;
+            //this is the total price in the thrid party part of the configurator
             var thirdSum = 0;
+            //This is the url of the image currently selected
             var imageUrl = "";
+            //this is the variable I created for convenience for finding the image
             var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
-            var last_Id;
-            var last_Name;
-            var now_Id;
-            var now_Name;
-            var data_child;
+            //this is the variable that store the value of which button will be disabled after the current button is selected
 
-            imageUrl = "";
 
             updateClickedElementImage(this);
             wasAPresetSelected(this);
 
-
-
-            /*            var test = $('#checkout-list p:contains(' + selectedText + ')').text();
-
-
-                        if(!$(this).hasClass('None') && selectedText !=  test) {
-                          alert(test);
-                          $('#checkout-list').append('<p>' + selectedText + "</p>");
-                        }*/
 
 
 
@@ -190,10 +158,12 @@ var runjquery = function() {
                 //    2. Update the Section Icon
                 //    3. Update enabling / disabling of child radio buttons
 
-                //alert($(this).val());
 
+                var data_child;
 
+                //this caculate the cost
                 total += parseInt($(this).val());
+                //
                 var seletedCheckoutLink = "";
                 if (!$(this).hasClass('None')) {
                     seletedCheckoutLink += $(this).attr('checkout');
@@ -260,10 +230,7 @@ var runjquery = function() {
                     checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
                 }
 
-                if ($(this).val() != 0) {
-                    resultString += selectedText + "<br/>";
-                    findImg.removeClass('shade');
-                } else if ($(this).val() == 0 && $(this).hasClass('cover')) {
+                if ($(this).val() == 0 && $(this).hasClass('cover')) {
                     noneNumber += 0;
                     findImg.removeClass('shade');
                 } else if ($(this).hasClass('None')) {
@@ -343,10 +310,6 @@ var runjquery = function() {
 
             });
 
-            if (resultString.length > 0) {
-                resultString += "<hr>";
-            }
-
             console.log(resultString1);
 
             document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
@@ -355,8 +318,6 @@ var runjquery = function() {
             document.querySelector('#OS-resultstring').innerHTML = resultString4;
 
             $('#checkout-list').html(checkoutResultString);
-
-            $('#resultstring').html(resultString);
 
             $('#radiocheckednumber').html(radioCheckedNumber);
             $('#total').html('$' + total);
