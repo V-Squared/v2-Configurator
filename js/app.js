@@ -74,7 +74,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 var runjquery = function() {
 
     //This add the the class village and third
-    //The function for this class is explained in [INSERT LINE HERE LUKAS CHEN YOU IDOIT OR WHAT EVER]
+    //The function for this class is explained in line 300
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
 
@@ -264,10 +264,16 @@ var runjquery = function() {
             var resultString2 = "";
             var resultString3 = "";
             var resultString4 = "";
+
+            //this are the functions that make the super summary
+            //I am going to make all of this one function
+
             $('#chapter-1 input[type=radio]:checked').each(function() {
+                //this get the text string for each chapter
                 var selectedText = $(this).next('span').text();
 
                 if (!$(this).hasClass('None')) {
+                    //this add a text string togetther
                     resultString1 += selectedText + "<br/>";
                 }
             });
@@ -298,6 +304,9 @@ var runjquery = function() {
                 }
             });
 
+            //this is where the class come in.
+            //there are the class that seperate the thrid party and village.
+            //And this 2 functions is caculate the total cost of village and thrid party
             $('.village input[type=radio]:checked').each(function() {
                 villageSum += parseInt($(this).val());
                 console.log(villageSum);
