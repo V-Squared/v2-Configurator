@@ -5,47 +5,6 @@ var ready_config_High = "";
 
 
 
-var wasAPresetSelected = function(element) {
-    var runitem;
-    if ($(element).attr('for') == "Entry") {
-        runitem = ready_config_Entry;
-    } else if ($(element).attr('for') == "High") {
-        runitem = ready_config_High;
-    }
-    console.log(runitem);
-    angular.forEach(runitem, function(value, index) {
-
-
-
-        // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-        $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
-
-    });
-};
-
-var updateClickedElementImage = function(element) {
-    //get the clicked radio button
-    var findImg = $(element).closest('.col-sm-8').prev('.col-sm-2');
-    imageUrl = $(element).attr('imgAttr');
-
-    // this block seems unecassary.  why not just put the <img> tag in the template with a ng-if to hide it if image = null.
-    if (!$(element).hasClass('None')) {
-        if (findImg.hasClass('noImg')) {
-            findImg.removeClass('noImg');
-            findImg.append('<img>');
-            findImg.find('img').attr('src', imageUrl);
-        } else {
-            findImg.find('img').attr('src', imageUrl);
-        }
-    } else {
-        findImg.find('img').remove();
-        findImg.addClass('noImg');
-    }
-};
-
-
-
-
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
@@ -69,6 +28,102 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 });
 
+var wasAPresetSelected = function(element) {
+    var runitem;
+    if ($(element).attr('for') == "Entry") {
+        runitem = ready_config_Entry;
+    } else if ($(element).attr('for') == "High") {
+        runitem = ready_config_High;
+    }
+    console.log(runitem);
+    angular.forEach(runitem, function(value, index) {
+      // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
+        $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+    });
+};
+
+var updateClickedElementImage = function(element) {
+    //get the clicked radio button
+    var findImg = $(element).closest('.col-sm-8').prev('.col-sm-2');
+    imageUrl = $(element).attr('imgAttr');
+
+    // this block seems unecassary.  why not just put the <img> tag in the template with a ng-if to hide it if image = null.
+    if (!$(element).hasClass('None')) {
+        if (findImg.hasClass('noImg')) {
+            findImg.removeClass('noImg');
+            findImg.append('<img>');
+            findImg.find('img').attr('src', imageUrl);
+        } else {
+            findImg.find('img').attr('src', imageUrl);
+        }
+    } else {
+        findImg.find('img').remove();
+        findImg.addClass('noImg');
+    }
+};
+
+function SetPricing (element) {
+ var priceString = "";
+ if (!$(element).hasClass('None')) {
+     priceString = $(element).val();
+     $(element).next('span').prepend("$" + priceString + " US - ");
+ }
+}
+
+function disableButtons (element, selectedText1, Section_Name1) {
+  var data_child = $(element).data('child');
+
+
+  angular.forEach(data_child, function(value, index) {
+      $(value).find('input[type=radio]').prop("disabled", true);
+      $(value).find('span').addClass('ghost');
+      var Choice_Tooltip = "To enable this item, please select a choice other than " + selectedText1 + " in " + Section_Name1;
+      // This ToolTip is shown when hovering over a choice in the Child Part
+      $(value).find('span').attr('title', Choice_Tooltip);
+      if ($(value).find('input').is(':checked')) {
+          $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+          $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
+          $(value).closest('.readmore_area').find('.None').prop('checked', true);
+      }
+      if ($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')) {
+
+      }
+  });
+}
+
+function enableButtons (element) {
+  $('input[type=radio]').each(function() {
+  if (!$(this).is(':checked')) {
+      var test = $(this).data('child');
+      angular.forEach(test, function(value, index) {
+          $(value).find('input[type=radio]').prop("disabled", false);
+          $(value).find('span').removeClass('ghost');
+      });
+      //$(test).find('input[type=radio]').prop( "disabled", false );
+  }
+});
+}
+
+function CaculateCost (element) {
+  var total = 0;
+  $('input[type=radio]:checked, select option:selected').each(function() {
+    total += parseInt($(this).val());
+  });
+  $('#total').html('$' + total);
+}
+
+function superSummary (chapter, variable) {
+  console.log($( chapter +' input[type=radio]:checked'));
+  $( chapter +' input[type=radio]:checked').each(function() {
+      var selectedText = $(this).next('span').text();
+
+      if (!$(this).hasClass('None')) {
+          variable += selectedText + "<br/>";
+          alert(variable);
+          return variable;
+      }
+  });
+}
 
 
 var runjquery = function() {
@@ -84,11 +139,7 @@ var runjquery = function() {
 
 
     $('input[type="radio"]').each(function() {
-         var priceString = "";
-        if (!$(this).hasClass('None')) {
-            priceString = $(this).val();
-            $(this).next('span').prepend("$" + priceString + " US - ");
-        }
+      SetPricing(this);
     });
 
     //when a radio is clicked
@@ -104,7 +155,6 @@ var runjquery = function() {
             // This is the summary string in the checkout
             var checkoutResultString = "";
             //this is the total price
-            var total = 0;
             //I will explain this later
             var noneNumber = 0;
             //this is the total price in the village part of the configurator
@@ -120,32 +170,16 @@ var runjquery = function() {
 
             updateClickedElementImage(this);
             wasAPresetSelected(this);
+            CaculateCost(this);
+            enableButtons(this);
 
 
+            //New Feature Child Button Deselect Logic
+            //On change choice of Button in Parent
+            //Deselect choice of button in child
+            //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
 
 
-
-            $('input[type=radio]').each(function() {
-
-
-
-                //New Feature Child Button Deselect Logic
-                //On change choice of Button in Parent
-                //Deselect choice of button in child
-                //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
-
-
-                if ($(this).is(':checked')) {
-
-                } else {
-                    var test = $(this).data('child');
-                    angular.forEach(test, function(value, index) {
-                        $(value).find('input[type=radio]').prop("disabled", false);
-                        $(value).find('span').removeClass('ghost');
-                    });
-                    //$(test).find('input[type=radio]').prop( "disabled", false );
-                }
-            });
 
 
 
@@ -153,96 +187,33 @@ var runjquery = function() {
             //split these out into a calculateCost,  update Icon,   refresh buttons functions please!
 
             result.each(function() {
-                // This function loops through all checked radio buttons. This function does a lot:
-                //    1. Calculate the cost summery
-                //    2. Update the Section Icon
-                //    3. Update enabling / disabling of child radio buttons
+              // This function loops through all checked radio buttons. This function does a lot:
+              //    1. Calculate the cost summery
+              //    2. Update the Section Icon
+              //    3. Update enabling / disabling of child radio buttons
+              var selectedText = $(this).next('span').text();
+
+              var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
+
+              //this caculate the cost
 
 
-                var data_child;
-
-                //this caculate the cost
-                total += parseInt($(this).val());
-                //
-                var seletedCheckoutLink = "";
-                if (!$(this).hasClass('None')) {
-                    seletedCheckoutLink += $(this).attr('checkout');
-                }
-                var selectedText = $(this).next('span').text();
+              var seletedCheckoutLink = "";
+              if (!$(this).hasClass('None')) {
+                  seletedCheckoutLink += $(this).attr('checkout');
+              }
 
 
-
-                data_child = $(this).data('child');
-
-                var Content_Active_Choice = $(this).next().text();
-
-                var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
+              disableButtons(this, selectedText, Section_Name);
 
 
-                //console.log(data_child);
+              if (!$(this).hasClass('None')) {
+                  checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
+                  noneNumber += 1;
+                  radioCheckedNumber = result.length - noneNumber + " items in cart";
+              }
 
-                angular.forEach(data_child, function(value, index) {
-                    $(value).find('input[type=radio]').prop("disabled", true);
-                    $(value).find('span').addClass('ghost');
-                    var Choice_Tooltip = "To enable this item, please select a choice other than " + Content_Active_Choice + " in " + Section_Name;
-                    // This ToolTip is shown when hovering over a choice in the Child Part
-                    $(value).find('span').attr('title', Choice_Tooltip);
-                    if ($(value).find('input').is(':checked')) {
-                        $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
-                        $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
-                        $(value).closest('.readmore_area').find('.None').prop('checked', true);
-                    }
-                    if ($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')) {
-
-                    }
-                });
-
-                //$("#section-3-Button-0").find('input[type=radio]').prop( "disabled", true );
-
-                var Case = "";
-
-
-
-                /*$('input[class=case]:checked').each(function() {
-                    Case = $(this).attr('case');
-                    //alert(Case);
-
-                    $('input[class=cover]:checked').each(function() {
-
-                        if (Case == "2L") {
-                            var aimageUrl = $(this).attr('aimgAttr');
-                            //alert(aimageUrl);
-                            findImg.attr('src', aimageUrl);
-                        } else if (Case == "4L") {
-                            var bimageUrl = $(this).attr('bimgAttr');
-                            //alert(bimageUrl);
-                            findImg.attr('src', bimageUrl);
-                        } else if (Case == "6L") {
-                            var cimageUrl = $(this).attr('cimgAttr');
-                            //alert(cimageUrl);
-                            findImg.attr('src', cimageUrl);
-                        }
-
-                    });
-                });*/
-
-                if (!$(this).hasClass('None')) {
-                    checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
-                }
-
-                if ($(this).val() == 0 && $(this).hasClass('cover')) {
-                    noneNumber += 0;
-                    findImg.removeClass('shade');
-                } else if ($(this).hasClass('None')) {
-                    noneNumber += 0;
-                } else {
-                    noneNumber += 1;
-                    radioCheckedNumber = result.length - noneNumber + " items in cart";
-                    findImg.addClass('shade');
-                    //$('#state').text(noneNumber);
-                }
-
-                imageUrl = "";
+              imageUrl = "";
 
 
             });
@@ -268,7 +239,7 @@ var runjquery = function() {
             //this are the functions that make the super summary
             //I am going to make all of this one function
 
-            $('#chapter-1 input[type=radio]:checked').each(function() {
+            /*$('#chapter-1 input[type=radio]:checked').each(function() {
                 //this get the text string for each chapter
                 var selectedText = $(this).next('span').text();
 
@@ -276,7 +247,7 @@ var runjquery = function() {
                     //this add a text string togetther
                     resultString1 += selectedText + "<br/>";
                 }
-            });
+            });*/
 
             $('#chapter-2 input[type=radio]:checked').each(function() {
                 var selectedText = $(this).next('span').text();
@@ -319,9 +290,12 @@ var runjquery = function() {
 
             });
 
-            console.log(resultString1);
+            var newTest = superSummary('#chapter-1',resultString1);
 
-            document.querySelector('#ViCase-resultstring').innerHTML = resultString1;
+            console.log(newTest);
+
+            //why this don't work
+            document.querySelector('#ViCase-resultstring').innerHTML = superSummary('#chapter-1',resultString1);
             document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
             document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
             document.querySelector('#OS-resultstring').innerHTML = resultString4;
@@ -329,7 +303,6 @@ var runjquery = function() {
             $('#checkout-list').html(checkoutResultString);
 
             $('#radiocheckednumber').html(radioCheckedNumber);
-            $('#total').html('$' + total);
         } else {
             $('#divResult').html("No radio button is checked");
         }
@@ -360,63 +333,10 @@ var runjquery = function() {
         $('.dialog').dialog('open');
     });
 
-    /*$('input[type="radio"], select option').click(function() {
-        now_Id = $(this).closest('div').attr('id');
-        now_Name = $(this).attr('name');
-
-        if(now_Id != last_Id && now_Name == last_Name) {
-            alert('congruate');
-            var test2 = '#' + last_Id;
-            console.log(test2);
-            var test = $(test2).find('input[type=radio]').data('child');
-            console.log(test);
-            angular.forEach(test,function (value, index) {
-                $(value).find('input[type=radio]').prop( "disabled", false );
-            });
-        }
-
-        last_Id = $(this).closest('div').attr('id');
-        last_Name = $(this).attr('name');
-    });*/
-
-    $('input[type="radio"], select option').click(function() {
-
-        $('input[type=radio]').each(function() {
-
-        });
-    });
 
     //-----------------------------------------------------
     //Read More
     //-----------------------------------------------------
-
-    /*$('.read-more-target1').hide();
-    $('.read-more-target2').hide();
-    var readMoreState1 = false;
-    var readMoreState2 = false;
-
-    $('.read-more1').click(function(){
-        $(this).next().next().slideToggle(0);
-        readMoreState1 = !readMoreState1;
-
-        if(readMoreState1 == true) {
-            $(this).find('i').addClass('fa-rotate-90');
-        } else {
-            $(this).find('i').removeClass('fa-rotate-90');
-        }
-    });
-
-
-    $('.read-more2').click(function(){
-        $(this).next().next().slideToggle();
-        readMoreState2 = !readMoreState2;
-
-        if(readMoreState2 == true) {
-            $(this).find('i').addClass('fa-rotate-90');
-        } else {
-            $(this).find('i').removeClass('fa-rotate-90');
-        }
-    });*/
 
     $('.readmore_area').hide();
     $('.readmore_area.show-first').show();
@@ -540,5 +460,3 @@ for (var i = 0; i < btn.length; i++) {
   });
 }
 */
-//=======
-//>>>>>>> Stashed changes
