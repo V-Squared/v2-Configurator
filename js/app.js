@@ -101,14 +101,15 @@ function disableButtons (element, selectedText, Section_Name) {
 }
 
 function enableButtons (element) {
+  //Loop through all the radio buttons (including the radio button that is not selected).
   $('input[type=radio]').each(function() {
+  //Find the radio button that is not checked
   if (!$(this).is(':checked')) {
-      var test = $(this).data('child');
-      angular.forEach(test, function(value, index) {
+      var disableButtons = $(this).data('child');
+      angular.forEach(disableButtons, function(value, index) {
           $(value).find('input[type=radio]').prop("disabled", false);
           $(value).find('span').removeClass('ghost');
       });
-      //$(test).find('input[type=radio]').prop( "disabled", false );
   }
 });
 }
@@ -182,6 +183,7 @@ var runjquery = function() {
             var thirdSum = 0;
             //This is the url of the image currently selected
             var imageUrl = "";
+            //This is the string for the check links.
             var checkoutResultString = "";
             //this is the variable I created for convenience for finding the image
             var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
@@ -210,11 +212,12 @@ var runjquery = function() {
               //    1. Calculate the cost summery
               //    2. Update the Section Icon
               //    3. Update enabling / disabling of child radio buttons
+
+              //This is the raido button name
               var selectedText = $(this).next('span').text();
 
+              //this is the section the raido button belongs to
               var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
-
-              //this caculate the cost
 
 
 
@@ -231,11 +234,6 @@ var runjquery = function() {
 
 
             });
-
-
-
-
-            console.log(checkoutResultString);
 
 
 
@@ -271,6 +269,13 @@ var runjquery = function() {
         }
 
     });
+
+
+    //-------------------------------------------------------------------------------------------------
+    //--------------------------------------------------------------------------------------------------
+    //I DID NOT REFACTOR THE CODE BELOW THIS, BECAUSE I DON'T NEED YOU TO DEBUG ANYTHING BELOW THIS.
+    //---------------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------------
 
     var wWidth = $(window).width();
 
