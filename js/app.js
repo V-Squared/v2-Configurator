@@ -70,23 +70,32 @@ function SetPricing (element) {
  }
 }
 
-function disableButtons (element, selectedText1, Section_Name1) {
-  var data_child = $(element).data('child');
+//This function disable buttons the radio buttons according to the radio button selected previosly
+function disableButtons (element, selectedText, Section_Name) {
+
+  //this get the array atribute from the current selected radio button.
+  //it is a array because It is possible sometimes I want to disable 2 radio buttons.
+  var disableButtons = $(element).data('child');
 
 
-  angular.forEach(data_child, function(value, index) {
+  //this loop through the array.
+  angular.forEach(disableButtons, function(value, index) {
+      //find the radio button and disable it
       $(value).find('input[type=radio]').prop("disabled", true);
+      //find the radio button and add class ghost to et the text also gray out
       $(value).find('span').addClass('ghost');
-      var Choice_Tooltip = "To enable this item, please select a choice other than " + selectedText1 + " in " + Section_Name1;
-      // This ToolTip is shown when hovering over a choice in the Child Part
+      //I add the tooltip so the customor will know what
+      var Choice_Tooltip = "To enable this item, please select a choice other than " + selectedText + " in " + Section_Name;
+      // This add the tooltip to the radio button that is disabled
       $(value).find('span').attr('title', Choice_Tooltip);
+      //this checked the condistion if the radio button i want to disabled is checked
       if ($(value).find('input').is(':checked')) {
+          //if it's checked, add the Phoenix-Sign image
           $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+          // I also add a tooltip for that image
           $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
+          //this checked none in that section
           $(value).closest('.readmore_area').find('.None').prop('checked', true);
-      }
-      if ($(value).closest('.col-sm-8').prev().find('img').hasClass('alert-image')) {
-
       }
   });
 }
@@ -104,12 +113,14 @@ function enableButtons (element) {
 });
 }
 
-function CaculateCost (element) {
+function CaculateCost (element,chapters) {
   var total = 0;
-  $('input[type=radio]:checked, select option:selected').each(function() {
+  $(chapters +' input[type=radio]:checked, select option:selected').each(function() {
     total += parseInt($(this).val());
   });
-  $('#total').html('$' + total);
+  var totalString = '$' + total;
+  return totalString;
+
 }
 
 function superSummary (chapter, variable) {
@@ -119,10 +130,18 @@ function superSummary (chapter, variable) {
 
       if (!$(this).hasClass('None')) {
           variable += selectedText + "<br/>";
-          alert(variable);
-          return variable;
       }
   });
+  return variable;
+}
+
+var seletedCheckoutLink = "";
+function Checkout (element,selectedText,checkoutResultString) {
+    if (!$(element).hasClass('None')) {
+        seletedCheckoutLink = $(element).attr('checkout');
+        checkoutResultString += '<a href="' + seletedCheckoutLink +'">' + selectedText + '</a>' + '<br/>';
+    }
+  return checkoutResultString;
 }
 
 
@@ -163,6 +182,7 @@ var runjquery = function() {
             var thirdSum = 0;
             //This is the url of the image currently selected
             var imageUrl = "";
+            var checkoutResultString = "";
             //this is the variable I created for convenience for finding the image
             var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
             //this is the variable that store the value of which button will be disabled after the current button is selected
@@ -170,7 +190,6 @@ var runjquery = function() {
 
             updateClickedElementImage(this);
             wasAPresetSelected(this);
-            CaculateCost(this);
             enableButtons(this);
 
 
@@ -198,17 +217,12 @@ var runjquery = function() {
               //this caculate the cost
 
 
-              var seletedCheckoutLink = "";
-              if (!$(this).hasClass('None')) {
-                  seletedCheckoutLink += $(this).attr('checkout');
-              }
 
-
+              checkoutResultString = Checkout(this,selectedText,checkoutResultString);
               disableButtons(this, selectedText, Section_Name);
 
 
               if (!$(this).hasClass('None')) {
-                  checkoutResultString += '<a href="">' + selectedText + '</a>' + '<br/>';
                   noneNumber += 1;
                   radioCheckedNumber = result.length - noneNumber + " items in cart";
               }
@@ -236,69 +250,18 @@ var runjquery = function() {
             var resultString3 = "";
             var resultString4 = "";
 
-            //this are the functions that make the super summary
-            //I am going to make all of this one function
-
-            /*$('#chapter-1 input[type=radio]:checked').each(function() {
-                //this get the text string for each chapter
-                var selectedText = $(this).next('span').text();
-
-                if (!$(this).hasClass('None')) {
-                    //this add a text string togetther
-                    resultString1 += selectedText + "<br/>";
-                }
-            });*/
-
-            $('#chapter-2 input[type=radio]:checked').each(function() {
-                var selectedText = $(this).next('span').text();
-
-                if (!$(this).hasClass('None')) {
-                    resultString2 += selectedText + "<br/>";
-                }
-
-            });
-
-            $('#chapter-3 input[type=radio]:checked').each(function() {
-                var selectedText = $(this).next('span').text();
-
-                if (!$(this).hasClass('None')) {
-                    resultString3 += selectedText + "<br/>";
-                }
-
-            });
-
-            $('#chapter-4 input[type=radio]:checked').each(function() {
-                var selectedText = $(this).next('span').text();
-
-                if (!$(this).hasClass('None')) {
-                    resultString4 += selectedText + "<br/>";
-                }
-            });
 
             //this is where the class come in.
             //there are the class that seperate the thrid party and village.
             //And this 2 functions is caculate the total cost of village and thrid party
-            $('.village input[type=radio]:checked').each(function() {
-                villageSum += parseInt($(this).val());
-                console.log(villageSum);
-                $('#villageSum').text('$' + villageSum + ' US');
-            });
 
-            $('.third input[type=radio]:checked').each(function() {
-                thirdSum += parseInt($(this).val());
-                $('#thirdSum').text('$' + thirdSum + ' US');
-
-            });
-
-            var newTest = superSummary('#chapter-1',resultString1);
-
-            console.log(newTest);
-
-            //why this don't work
+            $('#villageSum').text(CaculateCost(this,'.village'));
+            $('#thirdSum').text(CaculateCost(this,'.third'));
+            $('#total').html(CaculateCost(this,''));
             document.querySelector('#ViCase-resultstring').innerHTML = superSummary('#chapter-1',resultString1);
-            document.querySelector('#ViDock-resultstring').innerHTML = resultString2;
-            document.querySelector('#PcPart-resultstring').innerHTML = resultString3;
-            document.querySelector('#OS-resultstring').innerHTML = resultString4;
+            document.querySelector('#ViDock-resultstring').innerHTML = superSummary('#chapter-2',resultString2);
+            document.querySelector('#PcPart-resultstring').innerHTML = superSummary('#chapter-3',resultString3);
+            document.querySelector('#OS-resultstring').innerHTML = superSummary('#chapter-3',resultString4);
 
             $('#checkout-list').html(checkoutResultString);
 
