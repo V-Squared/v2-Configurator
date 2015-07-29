@@ -225,7 +225,7 @@ var runjquery = function() {
               disableButtons(this, selectedText, Section_Name);
 
 
-              if (!$(this).hasClass('None')) {
+              if ($(this).hasClass('None')) {
                   noneNumber += 1;
                   radioCheckedNumber = result.length - noneNumber + " items in cart";
               }
