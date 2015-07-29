@@ -38,7 +38,7 @@ var wasAPresetSelected = function(element) {
     console.log(runitem);
     angular.forEach(runitem, function(value, index) {
       // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-        $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+      $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
     });
 };
 
@@ -125,7 +125,6 @@ function CaculateCost (element,chapters) {
 }
 
 function superSummary (chapter, variable) {
-  console.log($( chapter +' input[type=radio]:checked'));
   $( chapter +' input[type=radio]:checked').each(function() {
       var selectedText = $(this).next('span').text();
 
@@ -263,6 +262,7 @@ var runjquery = function() {
 
             $('#checkout-list').html(checkoutResultString);
 
+            alert(radioCheckedNumber);
             $('#radiocheckednumber').html(radioCheckedNumber);
         } else {
             $('#divResult').html("No radio button is checked");
