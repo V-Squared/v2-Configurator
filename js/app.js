@@ -2,9 +2,6 @@
 var ready_config_Entry = "";
 var ready_config_High = "";
 
-
-
-
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
@@ -12,6 +9,20 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         $scope.data = res.data;
     });
 
+    $scope.cart = {
+        count: 0,
+        cost: 0,
+        thirdprtycost: 0,
+        vtcost: 0
+    }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
+
+    $scope.makeJSON=function(){
+     
+    var something=  window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
+                       "_blank");
+something.focus();
+    }
+  		
     $http.get('ready-config.json').then(function(res) {
         $scope.config = res.data;
         ready_config_High = $scope.config.High;
@@ -19,14 +30,94 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     });
 
 
+    $scope.initIndex = function(chapterIndex, parentIndex, values) { //this function builds object that stores selections. We can save/load this from json later
+        //console.log(arguments);
+        if (typeof $scope.cart[chapterIndex] === 'undefined') {
+            $scope.cart[chapterIndex] = {};
+            $scope.cart[chapterIndex].cost = 0; //chapter cost
+            $scope.cart[chapterIndex].count = 0; //chapter cost
+        }
+        if (typeof $scope.cart[chapterIndex][parentIndex] === 'undefined') {
+            $scope.cart[chapterIndex][parentIndex] = {};
+            $scope.cart[chapterIndex][parentIndex]["lastclicked"] = null;
+            $scope.cart[chapterIndex][parentIndex]["cost"] = 0;
+        }
+        if (typeof $scope.cart[chapterIndex][parentIndex]["data"] === 'undefined') {
+            $scope.cart[chapterIndex][parentIndex]["data"] = {}; //this is what the checkboxes bind to 
+        }
+        $scope.cart[chapterIndex][parentIndex]["data"][values] = false;
+    }
+
+    $scope.priceToNum = function(value) {
+        return Number(value.toString().replace(/[^0-9\.]+/g, ""));
+    }
+    $scope.radioClick = function(button, chapter, section, Item) {
+
+        //  console.log(arguments);
+        var price = 0,
+            cart = $scope.cart,
+            chap = $scope.cart[chapter],
+            sec = $scope.cart[chapter][section];
+        if (sec["lastclicked"] != Item) { //if different item clicked
+            if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
+
+                cart.count--; //remove old count
+                chap.count--; //remove old chapter count
+
+                cart.cost -= sec.cost; //remove old cost
+                chap.cost -= sec.cost; //remove old chapter cost
+            }
+
+            if (Item != "None") { //if not None
+              
+                price = $scope.priceToNum(button.choice.value);
+
+
+                cart.count++; //add back count
+                chap.count++; //add back count
+
+                cart.cost += price; //add new cost
+                chap.cost += price; //remove old chapter cost
+            }
+            //update the model 
+            sec.lastclicked = Item;
+            sec.cost = price;
+
+        }
+        //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
+        cart.vtcost = cart["ViCase"].cost + cart["ViDock"].cost;
+
+        //this should be done in a loop
+        cart.thirdprtycost = cart["OS & Apps"].cost + cart["PC Parts"].cost;
+
+        console.log(cart);
+    }
+
+
+
+    //kickoff angular stuff 
     setTimeout(function() {
-        runjquery();
+        runjquery($scope);
 
     }, 1500);
 
 
 
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var wasAPresetSelected = function(element) {
     var runitem;
@@ -37,9 +128,13 @@ var wasAPresetSelected = function(element) {
     }
     console.log(runitem);
     angular.forEach(runitem, function(value, index) {
-      // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-      $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+        // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
+        $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
     });
+    if (runitem.length > 0) {
+        return true;
+    }
+    return false;
 };
 
 var updateClickedElementImage = function(element) {
@@ -62,90 +157,195 @@ var updateClickedElementImage = function(element) {
     }
 };
 
-function SetPricing (element) {
- var priceString = "";
- if (!$(element).hasClass('None')) {
-     priceString = $(element).val();
-     $(element).next('span').prepend("$" + priceString + " US - ");
- }
+function SetPricing(element) {
+    var priceString = "";
+    if (!$(element).hasClass('None')) {
+        priceString = $(element).val();
+        $(element).next('span').prepend("$" + priceString + " US - ");
+    }
 }
 
 //This function disable buttons the radio buttons according to the radio button selected previosly
-function disableButtons (element, selectedText, Section_Name) {
+function disableButtons(element, selectedText, Section_Name) {
 
-  //this get the array atribute from the current selected radio button.
-  //it is a array because It is possible sometimes I want to disable 2 radio buttons.
-  var disableButtons = $(element).data('child');
+    //this get the array atribute from the current selected radio button.
+    //it is a array because It is possible sometimes I want to disable 2 radio buttons.
+    var disableButtons = $(element).data('child');
 
 
-  //this loop through the array.
-  angular.forEach(disableButtons, function(value, index) {
-      //find the radio button and disable it
-      $(value).find('input[type=radio]').prop("disabled", true);
-      //find the radio button and add class ghost to et the text also gray out
-      $(value).find('span').addClass('ghost');
-      //I add the tooltip so the customor will know what
-      var Choice_Tooltip = "To enable this item, please select a choice other than " + selectedText + " in " + Section_Name;
-      // This add the tooltip to the radio button that is disabled
-      $(value).find('span').attr('title', Choice_Tooltip);
-      //this checked the condistion if the radio button i want to disabled is checked
-      if ($(value).find('input').is(':checked')) {
-          //if it's checked, add the Phoenix-Sign image
-          $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
-          // I also add a tooltip for that image
-          $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
-          //this checked none in that section
-          $(value).closest('.readmore_area').find('.None').prop('checked', true);
-      }
-  });
+    //this loop through the array.
+    angular.forEach(disableButtons, function(value, index) {
+        //find the radio button and disable it
+        $(value).find('input[type=radio]').prop("disabled", true);
+        //find the radio button and add class ghost to et the text also gray out
+        $(value).find('span').addClass('ghost');
+        //I add the tooltip so the customor will know what
+        var Choice_Tooltip = "To enable this item, please select a choice other than " + selectedText + " in " + Section_Name;
+        // This add the tooltip to the radio button that is disabled
+        $(value).find('span').attr('title', Choice_Tooltip);
+        //this checked the condistion if the radio button i want to disabled is checked
+        if ($(value).find('input').is(':checked')) {
+            //if it's checked, add the Phoenix-Sign image
+            $(value).closest('.col-sm-8').prev().find('img').attr('src', 'images/expansion/Attention-Phoenix-Sign-tbg-h80px.png').addClass('alert-image');
+            // I also add a tooltip for that image
+            $(value).closest('.col-sm-8').prev().find('img.alert-image').attr('title', 'You changed your choice in another related part which was not compatible with your choice in this part. Please make new choice. Not available choices are ghosted. The tooltip of the ghosted choice will tell you why')
+                //this checked none in that section
+            $(value).closest('.readmore_area').find('.None').prop('checked', true);
+        }
+    });
 }
 
-function enableButtons (element) {
-  //Loop through all the radio buttons (including the radio button that is not selected).
-  $('input[type=radio]').each(function() {
-  //Find the radio button that is not checked
-  if (!$(this).is(':checked')) {
-      var disableButtons = $(this).data('child');
-      angular.forEach(disableButtons, function(value, index) {
-          $(value).find('input[type=radio]').prop("disabled", false);
-          $(value).find('span').removeClass('ghost');
-      });
-  }
-});
+function enableButtons(element) {
+    //Loop through all the radio buttons (including the radio button that is not selected).
+    $('input[type=radio]').each(function() {
+        //Find the radio button that is not checked
+        if (!$(this).is(':checked')) {
+            var disableButtons = $(this).data('child');
+            angular.forEach(disableButtons, function(value, index) {
+                $(value).find('input[type=radio]').prop("disabled", false);
+                $(value).find('span').removeClass('ghost');
+            });
+        }
+    });
 }
 
-function CaculateCost (element,chapters) {
-  var total = 0;
-  $(chapters +' input[type=radio]:checked, select option:selected').each(function() {
-    total += parseInt($(this).val());
-  });
-  var totalString = '$' + total;
-  return totalString;
+function CaculateCost(element, chapters) {
+    var total = 0;
+    $(chapters + ' input[type=radio]:checked, select option:selected').each(function() {
+        total += parseInt($(this).val());
+    });
+    var totalString = '$' + total;
+    return totalString;
 
 }
 
-function superSummary (chapter, variable) {
-  $( chapter +' input[type=radio]:checked').each(function() {
-      var selectedText = $(this).next('span').text();
+function superSummary(chapter, variable) {
+    $(chapter + ' input[type=radio]:checked').each(function() {
+        var selectedText = $(this).next('span').text();
 
-      if (!$(this).hasClass('None')) {
-          variable += selectedText + "<br/>";
-      }
-  });
-  return variable;
+        if (!$(this).hasClass('None')) {
+            variable += selectedText + "<br/>";
+        }
+    });
+    return variable;
 }
 
 var seletedCheckoutLink = "";
-function Checkout (element,selectedText,checkoutResultString) {
+
+function Checkout(element, selectedText, checkoutResultString) {
     if (!$(element).hasClass('None')) {
         seletedCheckoutLink = $(element).attr('checkout');
-        checkoutResultString += '<a href="' + seletedCheckoutLink +'">' + selectedText + '</a>' + '<br/>';
+        checkoutResultString += '<a href="' + seletedCheckoutLink + '">' + selectedText + '</a>' + '<br/>';
     }
-  return checkoutResultString;
+    return checkoutResultString;
+}
+
+function UpdateTotals(result) {
+    //find all selected
+
+
+    //check the length if it is not zero
+    if (result.length > 0) {
+        //this is the variable in that hold the value of how many items in card
+        var radioCheckedNumber = result.length + " items in cart<br>";
+        // This is the summary string in the checkout
+        var checkoutResultString = "";
+        //this is the total price
+        //I will explain this later
+        var noneNumber = 0;
+        //this is the total price in the village part of the configurator
+        var villageSum = 0;
+        //this is the total price in the thrid party part of the configurator
+        var thirdSum = 0;
+        //This is the url of the image currently selected
+        var imageUrl = "";
+        //This is the string for the check links.
+        var checkoutResultString = "";
+        //this is the variable I created for convenience for finding the image
+        var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
+        //this is the variable that store the value of which button will be disabled after the current button is selected
+
+
+        updateClickedElementImage(this);
+
+        enableButtons(this);
+
+
+        //New Feature Child Button Deselect Logic
+        //On change choice of Button in Parent
+        //Deselect choice of button in child
+        //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
+
+
+
+
+        //split these out into a calculateCost,  update Icon,   refresh buttons functions please!
+
+        result.each(function() {
+            // This function loops through all checked radio buttons. This function does a lot:
+            //    1. Calculate the cost summery
+            //    2. Update the Section Icon
+            //    3. Update enabling / disabling of child radio buttons
+
+            //This is the raido button name
+            var selectedText = $(this).next('span').text();
+
+            //this is the section the raido button belongs to
+            var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
+
+
+
+            checkoutResultString = Checkout(this, selectedText, checkoutResultString);
+            disableButtons(this, selectedText, Section_Name);
+
+
+            if ($(this).hasClass('None')) {
+                noneNumber += 1;
+                radioCheckedNumber = result.length - noneNumber + " items in cart";
+            }
+
+            imageUrl = "";
+
+
+        });
+
+
+
+
+        //-----------------------------------------------------
+        //What does this do?
+        //-----------------------------------------------------
+
+
+        var resultString1 = "";
+        var resultString2 = "";
+        var resultString3 = "";
+        var resultString4 = "";
+
+
+        //this is where the class come in.
+        //there are the class that seperate the thrid party and village.
+        //And this 2 functions is caculate the total cost of village and thrid party
+
+        $('#villageSum').text(CaculateCost(this, '.village'));
+        $('#thirdSum').text(CaculateCost(this, '.third'));
+        $('#total').html(CaculateCost(this, ''));
+        document.querySelector('#ViCase-resultstring').innerHTML = superSummary('#chapter-1', resultString1);
+        document.querySelector('#ViDock-resultstring').innerHTML = superSummary('#chapter-2', resultString2);
+        document.querySelector('#PcPart-resultstring').innerHTML = superSummary('#chapter-3', resultString3);
+        document.querySelector('#OS-resultstring').innerHTML = superSummary('#chapter-3', resultString4);
+
+        $('#checkout-list').html(checkoutResultString);
+
+        alert(radioCheckedNumber);
+        $('#radiocheckednumber').html(radioCheckedNumber);
+    } else {
+        $('#divResult').html("No radio button is checked");
+    }
 }
 
 
-var runjquery = function() {
+var runjquery = function($scope) {
 
     //This add the the class village and third
     //The function for this class is explained in line 300
@@ -158,116 +358,19 @@ var runjquery = function() {
 
 
     $('input[type="radio"]').each(function() {
-      SetPricing(this);
+        SetPricing(this);
     });
 
     //when a radio is clicked
-    $('input[type="radio"], select option').click(function() {
-
-        //find all selected
-        var result = $('input[type=radio]:checked, select option:selected');
-
-        //check the length if it is not zero
-        if (result.length > 0) {
-            //this is the variable in that hold the value of how many items in card
-            var radioCheckedNumber = result.length + " items in cart<br>";
-            // This is the summary string in the checkout
-            var checkoutResultString = "";
-            //this is the total price
-            //I will explain this later
-            var noneNumber = 0;
-            //this is the total price in the village part of the configurator
-            var villageSum = 0;
-            //this is the total price in the thrid party part of the configurator
-            var thirdSum = 0;
-            //This is the url of the image currently selected
-            var imageUrl = "";
-            //This is the string for the check links.
-            var checkoutResultString = "";
-            //this is the variable I created for convenience for finding the image
-            var findImg = $(this).closest('.col-sm-8').prev('.col-sm-2');
-            //this is the variable that store the value of which button will be disabled after the current button is selected
-
-
-            updateClickedElementImage(this);
-            wasAPresetSelected(this);
-            enableButtons(this);
-
-
-            //New Feature Child Button Deselect Logic
-            //On change choice of Button in Parent
-            //Deselect choice of button in child
-            //Change Section Icon of Child to: "Attention-Phoenix-Sign". → Attention-Phoenix-Sign
-
-
-
-
-
-
-            //split these out into a calculateCost,  update Icon,   refresh buttons functions please!
-
-            result.each(function() {
-              // This function loops through all checked radio buttons. This function does a lot:
-              //    1. Calculate the cost summery
-              //    2. Update the Section Icon
-              //    3. Update enabling / disabling of child radio buttons
-
-              //This is the raido button name
-              var selectedText = $(this).next('span').text();
-
-              //this is the section the raido button belongs to
-              var Section_Name = $(this).closest('.col-sm-8').find('h3').find('span').text();
-
-
-
-              checkoutResultString = Checkout(this,selectedText,checkoutResultString);
-              disableButtons(this, selectedText, Section_Name);
-
-
-              if ($(this).hasClass('None')) {
-                  noneNumber += 1;
-                  radioCheckedNumber = result.length - noneNumber + " items in cart";
-              }
-
-              imageUrl = "";
-
-
-            });
-
-
-
-
-            //-----------------------------------------------------
-            //What does this do?
-            //-----------------------------------------------------
-
-
-            var resultString1 = "";
-            var resultString2 = "";
-            var resultString3 = "";
-            var resultString4 = "";
-
-
-            //this is where the class come in.
-            //there are the class that seperate the thrid party and village.
-            //And this 2 functions is caculate the total cost of village and thrid party
-
-            $('#villageSum').text(CaculateCost(this,'.village'));
-            $('#thirdSum').text(CaculateCost(this,'.third'));
-            $('#total').html(CaculateCost(this,''));
-            document.querySelector('#ViCase-resultstring').innerHTML = superSummary('#chapter-1',resultString1);
-            document.querySelector('#ViDock-resultstring').innerHTML = superSummary('#chapter-2',resultString2);
-            document.querySelector('#PcPart-resultstring').innerHTML = superSummary('#chapter-3',resultString3);
-            document.querySelector('#OS-resultstring').innerHTML = superSummary('#chapter-3',resultString4);
-
-            $('#checkout-list').html(checkoutResultString);
-
-            alert(radioCheckedNumber);
-            $('#radiocheckednumber').html(radioCheckedNumber);
-        } else {
-            $('#divResult').html("No radio button is checked");
-        }
-
+    $('input[type="radio"], select option').click(function($scope) {
+        $scope.cartCount = 10;
+        /* alert(cartItems);
+         if(wasAPresetSelected(this)){  //If it was a preset
+           UpdateTotals($('input[type=radio]:checked, select option:selected')); //run a full update
+         }else if($(this).is(':checked')) { //else
+           UpdateTotals(this);//just run a single update for a button
+         }
+         */
     });
 
 

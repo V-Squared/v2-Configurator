@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<strong><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+
+  </body>
+</html><!DOCTYPE html>
 <html>
    <head>
       <meta charset="utf-8" />
@@ -65,19 +75,19 @@
                         <h2><i class="fa fa-play"></i> {{item.name}}</h2>
                      </div>
                      <div class="panel-body" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
-                        <div id="ViCase" ng-repeat="item in item.data">
+                        <div id="ViCase" ng-repeat="item2 in item.data">
                            <div class="col-sm-2 noImg">
                            </div>
                            <div class="col-sm-8">
-                              <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item.name}}</span></h3>
+                              <h3 class="sub-sectionToggle"><i class="fa fa-play"></i> <span>{{item2.name}}</span></h3>
                               <div class="readmore_group">
                                  <h4 class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                  <div class="readmore_area show-first open radio_button">
-                                    <div ng-repeat="choice in item.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
-                                       <label><input type="radio" name="{{item.part}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                    <div ng-repeat="choice in item2.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                       <label><input type="radio"  ng-init="initIndex(item.name,item2.name,choice.name)" ng-model="cart[item.name][item2.name]['data'][choice.name]"  ng-click="radioClick(this,item.name,item2.name,choice.name)" name="{{item.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                     </div>
                                     <div>
-                                       <label><input type="radio" class="None" name="{{item.part}}" value="0"><span>None</span></label>
+                                       <label><input type="radio"  ng-init="initIndex(item.name,item2.name,'None')" ng-model="cart[item.name][item2.name]['data'][choice.name]"   ng-click="radioClick(this,item.name,item2.name,'None')" class="None" name="{{item.name}}" value="0"><span>None</span></label>
                                     </div>
                                  </div>
                                  <h4 class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Comparison Table</h4>
@@ -183,8 +193,9 @@
                </div>
                <div class="col-md-3">
                   <div class="price-sidebar" data-spy="affix" data-offset-top="520">
-                     <h3 style="color:#07b;" id="radiocheckednumber">0 items in cart</h3>
+                     <h3 style="color:#07b;"  id="radiocheckednumber"><span ng-bind="cart.count"></span> items in cart</h3>
                      <hr>
+                    <button class="btn btn-primary " ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save to JSON</button>
                      <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViCase</h4>
                      <p class="resultstring" id="ViCase-resultstring"></p>
                      <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> ViDock</h4>
@@ -194,14 +205,14 @@
                      <h4 class="collapse-summary"><i class="fa fa-play fa-rotate-90"></i> OS & Apps</h4>
                      <p class="resultstring" id="OS-resultstring"></p>
                      <hr>
-                     <p style="color:#07b;"><b><span id="villageSum">$0</span><span> US</span> - Village (cart)</b></p>
+                     <p style="color:#07b;"><b><span ng-bind="cart.vtcost" id="villageSum"></span><span> US</span> - Village (cart)</b></p>
                      <button class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout</button>
                      <hr>
-                     <p><b><span id="thirdSum">$0</span><span> US</span> - Third Party</b></p>
+                     <p><b><span ng-bind="cart.thirdprtycost" id="thirdSum"></span><span> US</span> - Third Party</b></p>
                      <button class="btn btn-primary checkout"> <i class="fa fa-cart-arrow-down"></i> Checkout</button>
                      <hr>
                      <h3>
-                        <span style="color:#07b;" id="total">$0</span> <span style="color:#07b;">US</span>
+                        <span style="color:#07b;" ng-bind="cart.cost" id="total"></span> <span style="color:#07b;">US</span>
                         <hr style="margin-bottom:2px">
                         <hr style="margin-top:0;">
                      </h3>
@@ -239,3 +250,4 @@
       </div>
    </body>
 </html>
+</strong>
