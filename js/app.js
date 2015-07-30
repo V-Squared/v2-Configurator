@@ -1,14 +1,14 @@
-//these will go away when the jquery is removed.  This creates global variables which bypass the angular framework.
-var ready_config_Entry = "";
-var ready_config_High = "";
-
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
     $http.get('data.json').then(function(res) {
         $scope.data = res.data;
     });
-
+    $http.get('ready-config.json').then(function(res) {
+        $scope.config = res.data;
+        $scope.ready_config_High = $scope.config.High;
+        $scope.ready_config_Entry = $scope.config.Entry;
+    });
     $scope.cart = {
         count: 0,
         cost: 0,
@@ -16,19 +16,26 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         vtcost: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
 
-    $scope.makeJSON=function(){
-     
-    var something=  window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
-                       "_blank");
-something.focus();
+    $scope.makeJSON = function() {
+        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
+            "_blank");
+        something.focus();
     }
-  		
-    $http.get('ready-config.json').then(function(res) {
-        $scope.config = res.data;
-        ready_config_High = $scope.config.High;
-        ready_config_Entry = $scope.config.Entry;
-    });
 
+    $scope.readyConfig = function($event) {
+        
+       if ($($event.currentTarget).attr('for') == "Entry") {
+            var runitem = $scope.ready_config_Entry;
+        } else if ($($event.currentTarget).attr('for') == "High") {
+          runitem = $scope.ready_config_High;
+        }
+        angular.forEach(runitem, function(value, index) {
+            // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
+          setTimeout(function() { 
+          $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+            }, 0, false);
+        });
+    }
 
     $scope.initIndex = function(chapterIndex, parentIndex, values) { //this function builds object that stores selections. We can save/load this from json later
         //console.log(arguments);
@@ -47,23 +54,23 @@ something.focus();
         }
         $scope.cart[chapterIndex][parentIndex]["data"][values] = false;
     }
-    $scope.toggle=function($event){//accordions
-      var panel=$($event.currentTarget).next(".collapsable");
-      var endstate = $(panel).slideToggle("fast", function() {
-       if ($(panel).is(':visible')) {
-            $($event.currentTarget).find("i").addClass("fa-rotate-90");
-        } else {
-            $($event.currentTarget).find("i").removeClass("fa-rotate-90");
-        }
-    
-  }); 
+    $scope.toggle = function($event) { //accordions
+        var panel = $($event.currentTarget).next(".collapsable");
+        var endstate = $(panel).slideToggle("fast", function() {
+            if ($(panel).is(':visible')) {
+                $($event.currentTarget).find("i").addClass("fa-rotate-90");
+            } else {
+                $($event.currentTarget).find("i").removeClass("fa-rotate-90");
+            }
+
+        });
     }
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button,price,img,link, chapter, section, Item) {
+    $scope.radioClick = function(button, price, img, link, chapter, section, Item) {
         console.log(arguments);
-            cart = $scope.cart,
+        cart = $scope.cart,
             chap = $scope.cart[chapter],
             sec = $scope.cart[chapter][section];
         if (sec["lastclicked"] != Item) { //if different item clicked
@@ -77,7 +84,7 @@ something.focus();
             }
 
             if (Item != "None") { //if not None
-              
+
                 price = $scope.priceToNum(price);
 
 
@@ -89,8 +96,8 @@ something.focus();
             }
             //update the model 
             sec.lastclicked = Item;
-            sec.lastclickedImg=img;
-            sec.lastclickedLink=link;
+            sec.lastclickedImg = img;
+            sec.lastclickedLink = link;
             sec.cost = price;
 
         }
@@ -106,18 +113,15 @@ something.focus();
 
 
     //kickoff jquery stuff basically just the accordion 
- //   setTimeout(function() {
-   //     runjquery($scope);
+    //   setTimeout(function() {
+    //     runjquery($scope);
 
-  //  }, 1500);
+    //  }, 1500);
 
 
 
 
 });
-
- 
-
 
 
 
@@ -375,40 +379,40 @@ function UpdateTotals(result) {
 
 //var runjquery = function($scope) {
 
-  /*  
-  //This add the the class village and third
-    //The function for this class is explained in line 300
-    $('#chapter-1, #chapter-2').addClass('village');
-    $('#chapter-3, #chapter-4').addClass('third');
+/*  
+//This add the the class village and third
+  //The function for this class is explained in line 300
+  $('#chapter-1, #chapter-2').addClass('village');
+  $('#chapter-3, #chapter-4').addClass('third');
 
 
-    //a temp function to add price? to things.
-    //this should be removed by a tweak to the template.
+  //a temp function to add price? to things.
+  //this should be removed by a tweak to the template.
 
 
-    $('input[type="radio"]').each(function() {
-        SetPricing(this);
-    });
+  $('input[type="radio"]').each(function() {
+      SetPricing(this);
+  });
 
-    //when a radio is clicked
-    $('input[type="radio"], select option').click(function($scope) {
-        $scope.cartCount = 10;
-        /* alert(cartItems);
-         if(wasAPresetSelected(this)){  //If it was a preset
-           UpdateTotals($('input[type=radio]:checked, select option:selected')); //run a full update
-         }else if($(this).is(':checked')) { //else
-           UpdateTotals(this);//just run a single update for a button
-         }
-         */
-  /*   });
-*/
+  //when a radio is clicked
+  $('input[type="radio"], select option').click(function($scope) {
+      $scope.cartCount = 10;
+      /* alert(cartItems);
+       if(wasAPresetSelected(this)){  //If it was a preset
+         UpdateTotals($('input[type=radio]:checked, select option:selected')); //run a full update
+       }else if($(this).is(':checked')) { //else
+         UpdateTotals(this);//just run a single update for a button
+       }
+       */
+/*   });
+ */
 
-    //-------------------------------------------------------------------------------------------------
-    //--------------------------------------------------------------------------------------------------
-    //I DID NOT REFACTOR THE CODE BELOW THIS, BECAUSE I DON'T NEED YOU TO DEBUG ANYTHING BELOW THIS.
-    //---------------------------------------------------------------------------------------------------
-    //-------------------------------------------------------------------------------------------------
- /*
+//-------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------
+//I DID NOT REFACTOR THE CODE BELOW THIS, BECAUSE I DON'T NEED YOU TO DEBUG ANYTHING BELOW THIS.
+//---------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------
+/*
     var wWidth = $(window).width();
 
     var dWidth = wWidth * 0.5;
@@ -496,9 +500,9 @@ function UpdateTotals(result) {
 
 */
 
-    //------------------------------------------------------
-    //Acodrian
-    //------------------------------------------------------
+//------------------------------------------------------
+//Acodrian
+//------------------------------------------------------
 /*
 
     $('.collapsable').next('.panel-body').hide();

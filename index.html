@@ -65,6 +65,7 @@
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{item.name}}</h2>
                         </div>
+                      
                         <div class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
                             <div id="ViCase" ng-repeat="item2 in item.data">
                                 <div class="col-sm-2 ">
@@ -76,11 +77,22 @@
                                         <!-- your choice -->
                                         <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                         <div class="readmore_area show-first open radio_button collapsable">
-                                            <div ng-repeat="choice in item2.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                            
+                                					<!-- readyconfig -->
+                                            <div ng-if="item.name=='Ready Config'" ng-repeat="choice in item2.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                                <label>
+                                                    <input type="radio" ng-init="initIndex(item.name,item2.name,choice.name)" ng-model="cart[item.name][item2.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,item.name,item2.name,choice.name);readyConfig($event);" name="{{item.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                            </div>
+                                            
+                                            <div ng-if="item.name!='Ready Config'" ng-repeat="choice in item2.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(item.name,item2.name,choice.name)" ng-model="cart[item.name][item2.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,item.name,item2.name,choice.name)" name="{{item.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
-                                            <div>
+                                            
+                                          
+                                          
+                                          
+                                            <div ng-if="item.name!='Ready Config'">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(item.name,item2.name,'None')" ng-model="cart[item.name][item2.name]['data'][choice.name]" ng-click="radioClick(this,0,null,null,item.name,item2.name,'None')" class="None" name="{{item.name}}" value="0"><span>None</span></label>
                                             </div>
