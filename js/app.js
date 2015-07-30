@@ -23,7 +23,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     }
 
     $scope.readyConfig = function($event) {
-        
+
        if ($($event.currentTarget).attr('for') == "Entry") {
             var runitem = $scope.ready_config_Entry;
         } else if ($($event.currentTarget).attr('for') == "High") {
@@ -31,7 +31,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         }
         angular.forEach(runitem, function(value, index) {
             // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-          setTimeout(function() { 
+          setTimeout(function() {
           $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
             }, 0, false);
         });
@@ -50,7 +50,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][parentIndex]["cost"] = 0;
         }
         if (typeof $scope.cart[chapterIndex][parentIndex]["data"] === 'undefined') {
-            $scope.cart[chapterIndex][parentIndex]["data"] = {}; //this is what the checkboxes bind to 
+            $scope.cart[chapterIndex][parentIndex]["data"] = {}; //this is what the checkboxes bind to
         }
         $scope.cart[chapterIndex][parentIndex]["data"][values] = false;
     }
@@ -94,7 +94,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
                 cart.cost += price; //add new cost
                 chap.cost += price; //remove old chapter cost
             }
-            //update the model 
+            //update the model
             sec.lastclicked = Item;
             sec.lastclickedImg = img;
             sec.lastclickedLink = link;
@@ -112,7 +112,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 
-    //kickoff jquery stuff basically just the accordion 
+    //kickoff jquery stuff basically just the accordion
     //   setTimeout(function() {
     //     runjquery($scope);
 
@@ -379,7 +379,7 @@ function UpdateTotals(result) {
 
 //var runjquery = function($scope) {
 
-/*  
+/*
 //This add the the class village and third
   //The function for this class is explained in line 300
   $('#chapter-1, #chapter-2').addClass('village');
@@ -538,7 +538,7 @@ function UpdateTotals(result) {
     for (var i = 0, l = children.length; i < l; i += 4) {
         children.slice(i, i + 4).wrapAll('<div class="item"></div>');
     }
- 
+
     $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
     $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
 

@@ -764,12 +764,12 @@
                },
                {
                   "name":"ViCase VESA",
-                  "img":"http://placehold.it/142x80?text=ViCase-VESA",
+                  "img":"images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg",
                   "value":9
                },
                {
                   "name":"ViCase Stand",
-                  "img":"http://placehold.it/142x80?text=ViCase-Stand",
+                  "img":"images/expansion/config/ViCase/ViCase-Tiny-Side-Stand-640x480.jpg",
                   "value":9
                }
             ],
@@ -1577,7 +1577,7 @@
             "yourChoice":[
                {
                   "name":"Intel MotherBoard1",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-6",
                      "#chapter-3-section-1-Button-7",
@@ -1591,7 +1591,7 @@
                },
                {
                   "name":"Intel MotherBoard 2",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-6",
                      "#chapter-3-section-1-Button-7",
@@ -1605,7 +1605,7 @@
                },
                {
                   "name":"Intel MotherBoard 3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-6",
                      "#chapter-3-section-1-Button-7",
@@ -1619,7 +1619,7 @@
                },
                {
                   "name":"AMD Motherboard 1",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-0",
                      "#chapter-3-section-1-Button-1",
@@ -1636,7 +1636,7 @@
                },
                {
                   "name":"AMD Motherboard 2",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-0",
                      "#chapter-3-section-1-Button-1",
@@ -1653,7 +1653,7 @@
                },
                {
                   "name":"AMD Motherboard 3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-motherboard.jpg",
                   "Child_Name":[
                      "#chapter-3-section-1-Button-0",
                      "#chapter-3-section-1-Button-1",
@@ -1705,47 +1705,42 @@
             "yourChoice":[
                {
                   "name":"Intel Celeron G1840",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-CPU-Celeron.png",
                   "value":50
                },
                {
                   "name":"Intel Pentium G3240",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-CPU-Pentium.jpg",
                   "value":89
                },
                {
                   "name":"Intel Core i3-4350T",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-CPU-i3.png",
                   "value":169
                },
                {
                   "name":"Intel Core i5-4690T",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-CPU-i5.png",
                   "value":249
                },
                {
                   "name":"Intel Core i7-4790T",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-CPU-i7.png",
                   "value":349
                },
                {
-                  "name":"Intel i5-T",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
-                  "value":400
-               },
-               {
                   "name":"AMD Processer 1",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-CPU.jpg",
                   "value":25
                },
                {
                   "name":"AMD Processer 2",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-CPU.jpg",
                   "value":100
                },
                {
                   "name":"AMD Processer 3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-CPU.jpg",
                   "value":150
                }
             ]
@@ -1757,48 +1752,48 @@
             "yourChoice":[
                {
                   "name":"Intel 2 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-Memory.jpg",
                   "value":60
                },
                {
                   "name":"Intel 4 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-Memory.jpg",
 
                   "value":120
                },
                {
                   "name":"Intel 8 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-Memory.jpg",
 
                   "value":240
                },
                {
                   "name":"Intel 16 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/Intel-Memory.jpg",
 
                   "value":300
                },
                {
                   "name":"AMD 2 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-Memory.jpg",
 
                   "value":50
                },
                {
                   "name":"AMD 4 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-Memory.jpg",
 
                   "value":100
                },
                {
                   "name":"AMD 8 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-Memory.jpg",
 
                   "value":200
                },
                {
                   "name":"AMD 16 GB DDR3",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/AMD-Memory.jpg",
 
                   "value":300
                }
@@ -1812,22 +1807,22 @@
             "yourChoice":[
                {
                   "name":"Samsung SSD 840 EVO Series 120GB, mSATA 6Gb/s",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/mSATA.jpg",
                   "value":120
                },
                {
                   "name":"Samsung SSD 840 EVO Series 250GB, mSATA 6Gb/s",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/mSATA.jpg",
                   "value":250
                },
                {
                   "name":"Samsung SSD 840 EVO Series 500GB, mSATA 6Gb/",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/mSATA.jpg",
                   "value":500
                },
                {
                   "name":"Samsung SSD 840 EVO Series 1TB, mSATA 6Gb/",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/mSATA.jpg",
                   "value":1000
                }
             ]
@@ -1839,32 +1834,32 @@
             "yourChoice":[
                {
                   "name":"HDD 2.5' 500 GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":60
                },
                {
                   "name":"HDD 2.5' 1000 GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":100
                },
                {
                   "name":"Samsung SSD 850 EVO 120GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":120
                },
                {
                   "name":"Samsung SSD 850 EVO 250GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":250
                },
                {
                   "name":"Samsung SSD 850 EVO 500GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":500
                },
                {
                   "name":"Samsung SSD 850 EVO 1000GB",
-                  "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                  "img":"images/expansion/config/Third-party/SSD.jpg",
                   "value":1000
                }
             ]
