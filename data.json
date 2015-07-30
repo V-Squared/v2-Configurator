@@ -48,6 +48,7 @@
                {
                   "name":"ViDock Mini 2L (Tiny)",
                   "img":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+                  "link":"http://placekitten.com/200/300",
                   "Child_Name":[
                      "#chapter-1-section-3-Button-0"
                   ],
@@ -61,6 +62,7 @@
                {
                   "name":"ViDock Mini 6L (Ultra Small Form Factor)",
                   "img":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+                 "link":"http://placekitten.com/200/300",
                   "value":99
                }
             ],

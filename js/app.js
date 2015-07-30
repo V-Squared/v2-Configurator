@@ -51,10 +51,8 @@ something.focus();
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button, chapter, section, Item) {
-
-        //  console.log(arguments);
-        var price = 0,
+    $scope.radioClick = function(button,price,img,link, chapter, section, Item) {
+        console.log(arguments);
             cart = $scope.cart,
             chap = $scope.cart[chapter],
             sec = $scope.cart[chapter][section];
@@ -70,7 +68,7 @@ something.focus();
 
             if (Item != "None") { //if not None
               
-                price = $scope.priceToNum(button.choice.value);
+                price = $scope.priceToNum(price);
 
 
                 cart.count++; //add back count
@@ -81,6 +79,8 @@ something.focus();
             }
             //update the model 
             sec.lastclicked = Item;
+            sec.lastclickedImg=img;
+            sec.lastclickedLink=link;
             sec.cost = price;
 
         }
@@ -95,7 +95,7 @@ something.focus();
 
 
 
-    //kickoff angular stuff 
+    //kickoff jquery stuff basically just the accordion 
     setTimeout(function() {
         runjquery($scope);
 
@@ -116,8 +116,30 @@ something.focus();
 
 
 
+/*
 
-
+               .               ,.
+                  T."-._..---.._,-"/|
+                  l|"-.  _.v._   (" |
+                  [l /.'_ \; _~"-.`-t
+                  Y " _(o} _{o)._ ^.|
+                  j  T  ,-<v>-.  T  ]
+                  \  l ( /-^-\ ) !  !
+                   \. \.  "~"  ./  /c-..,__
+                     ^r- .._ .- .-"  `- .  ~"--.
+                      > \.                      \
+                      ]   ^.                     \
+                      3  .  ">            .       Y  -Sorry for commenting out the the jquery :(  - Andrew
+         ,.__.--._   _j   \ ~   .         ;       |
+        (    ~"-._~"^._\   ^.    ^._      I     . l
+         "-._ ___ ~"-,_7    .Z-._   7"   Y      ;  \        _
+            /"   "~-(r r  _/_--._~-/    /      /,.--^-._   / Y
+            "-._    '"~~~>-._~]>--^---./____,.^~        ^.^  !
+                ~--._    '   Y---.                        \./
+                     ~~--._  l_   )                        \
+                           ~-._~~~---._,____..---           \
+                               ~----"~       \
+                                              \
 
 var wasAPresetSelected = function(element) {
     var runitem;
@@ -164,7 +186,7 @@ function SetPricing(element) {
         $(element).next('span').prepend("$" + priceString + " US - ");
     }
 }
-
+/*
 //This function disable buttons the radio buttons according to the radio button selected previosly
 function disableButtons(element, selectedText, Section_Name) {
 
@@ -343,11 +365,12 @@ function UpdateTotals(result) {
         $('#divResult').html("No radio button is checked");
     }
 }
-
+*/
 
 var runjquery = function($scope) {
 
-    //This add the the class village and third
+  /*  
+  //This add the the class village and third
     //The function for this class is explained in line 300
     $('#chapter-1, #chapter-2').addClass('village');
     $('#chapter-3, #chapter-4').addClass('third');
@@ -371,15 +394,15 @@ var runjquery = function($scope) {
            UpdateTotals(this);//just run a single update for a button
          }
          */
-    });
-
+  /*   });
+*/
 
     //-------------------------------------------------------------------------------------------------
     //--------------------------------------------------------------------------------------------------
     //I DID NOT REFACTOR THE CODE BELOW THIS, BECAUSE I DON'T NEED YOU TO DEBUG ANYTHING BELOW THIS.
     //---------------------------------------------------------------------------------------------------
     //-------------------------------------------------------------------------------------------------
-
+ /*
     var wWidth = $(window).width();
 
     var dWidth = wWidth * 0.5;
@@ -465,7 +488,7 @@ var runjquery = function($scope) {
     }
 
 
-
+*/
 
     //------------------------------------------------------
     //Acodrian
