@@ -47,7 +47,17 @@ something.focus();
         }
         $scope.cart[chapterIndex][parentIndex]["data"][values] = false;
     }
-
+    $scope.toggle=function($event){//accordions
+      var panel=$($event.currentTarget).next(".collapsable");
+      var endstate = $(panel).slideToggle("fast", function() {
+       if ($(panel).is(':visible')) {
+            $($event.currentTarget).find("i").addClass("fa-rotate-90");
+        } else {
+            $($event.currentTarget).find("i").removeClass("fa-rotate-90");
+        }
+    
+  }); 
+    }
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
@@ -96,21 +106,17 @@ something.focus();
 
 
     //kickoff jquery stuff basically just the accordion 
-    setTimeout(function() {
-        runjquery($scope);
+ //   setTimeout(function() {
+   //     runjquery($scope);
 
-    }, 1500);
+  //  }, 1500);
 
 
 
 
 });
 
-
-
-
-
-
+ 
 
 
 
@@ -367,7 +373,7 @@ function UpdateTotals(result) {
 }
 */
 
-var runjquery = function($scope) {
+//var runjquery = function($scope) {
 
   /*  
   //This add the the class village and third
@@ -493,12 +499,12 @@ var runjquery = function($scope) {
     //------------------------------------------------------
     //Acodrian
     //------------------------------------------------------
+/*
+
+    $('.collapsable').next('.panel-body').hide();
 
 
-    $('.con-fig-header').next('.panel-body').hide();
-
-
-    $('.con-fig-header').click(function() {
+    $('.collapsable').click(function() {
         $(this).next(".panel-body").slideToggle();
 
         if (!$(this).find("i").hasClass("fa-rotate-90")) {
@@ -523,12 +529,12 @@ var runjquery = function($scope) {
 
         $(".intel-show").hide();
     });
-
+/*
     var children = $('.GalleryThumbNail > .thumb');
     for (var i = 0, l = children.length; i < l; i += 4) {
         children.slice(i, i + 4).wrapAll('<div class="item"></div>');
     }
-
+ 
     $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
     $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
 
