@@ -1,7 +1,7 @@
 angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
-    $http.get('data.json').then(function(res) {
+    $http.get('products.json').then(function(res) {
         $scope.data = res.data;
     });
     $http.get('ready-config.json').then(function(res) {
