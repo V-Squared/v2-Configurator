@@ -16,6 +16,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         vtcost: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
 
+
     $scope.makeJSON = function() {
         var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
             "_blank");
@@ -27,7 +28,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
        if ($($event.currentTarget).attr('for') == "Entry") {
             var runitem = $scope.ready_config_Entry;
         } else if ($($event.currentTarget).attr('for') == "High") {
-          runitem = $scope.ready_config_High;
+            var runitem = $scope.ready_config_High;
         }
         angular.forEach(runitem, function(value, index) {
             // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
@@ -37,22 +38,28 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         });
     }
 
-    $scope.initIndex = function(chapterIndex, parentIndex, values) { //this function builds object that stores selections. We can save/load this from json later
+    $scope.initIndex = function(chapterIndex, SectionIndex, values) { //this function builds object that stores selections. We can save/load this from json later
         //console.log(arguments);
+
+        //chapterIndex = chapter
+        //SectionIndex = Section
+        //values = radio button
+
         if (typeof $scope.cart[chapterIndex] === 'undefined') {
             $scope.cart[chapterIndex] = {};
             $scope.cart[chapterIndex].cost = 0; //chapter cost
             $scope.cart[chapterIndex].count = 0; //chapter cost
         }
-        if (typeof $scope.cart[chapterIndex][parentIndex] === 'undefined') {
-            $scope.cart[chapterIndex][parentIndex] = {};
-            $scope.cart[chapterIndex][parentIndex]["lastclicked"] = null;
-            $scope.cart[chapterIndex][parentIndex]["cost"] = 0;
+        if (typeof $scope.cart[chapterIndex][SectionIndex] === 'undefined') {
+            $scope.cart[chapterIndex][SectionIndex] = {};
+            $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
+            $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
         }
-        if (typeof $scope.cart[chapterIndex][parentIndex]["data"] === 'undefined') {
-            $scope.cart[chapterIndex][parentIndex]["data"] = {}; //this is what the checkboxes bind to
+        if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
+            $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
         }
-        $scope.cart[chapterIndex][parentIndex]["data"][values] = false;
+        $scope.cart[chapterIndex][SectionIndex]["data"][values] = false;
+        console.log($scope.cart);
     }
     $scope.toggle = function($event) { //accordions
         var panel = $($event.currentTarget).next(".collapsable");
@@ -69,8 +76,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
     $scope.radioClick = function(button, price, img, link, chapter, section, Item) {
-        console.log(arguments);
-        cart = $scope.cart,
+        //console.log(arguments);
+        var cart = $scope.cart,
             chap = $scope.cart[chapter],
             sec = $scope.cart[chapter][section];
         if (sec["lastclicked"] != Item) { //if different item clicked
@@ -107,7 +114,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
         //this should be done in a loop
         cart.thirdprtycost = cart["OS & Apps"].cost + cart["PC Parts"].cost;
 
-        console.log(cart);
+        //console.log(cart);
+        console.log($scope.cart);
     }
 
 
