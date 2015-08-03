@@ -1,6 +1,6 @@
 [
    {
-      "name":"Ready Config",
+      "name":"1. Ready Config",
       "data":[
          {
             "name":"ViCase Performance",
@@ -37,7 +37,7 @@
       ]
    },
    {
-      "name":"ViCase",
+      "name":"2. ViCase",
       "data":[
          {
             "name":"ViCase Size",
@@ -1502,7 +1502,7 @@
       ]
    },
    {
-      "name":"ViDock",
+      "name":"3. ViDock",
       "data":[
          {
             "name":"ViDock SFF",
@@ -1567,7 +1567,7 @@
       ]
    },
    {
-      "name":"PC Parts",
+      "name":"4. PC Parts",
       "data":[
          {
             "url":"images/expansion/config/mainBoard.jpg",
@@ -1867,7 +1867,7 @@
       ]
    },
    {
-      "name":"OS & Apps",
+      "name":"5. OS & Apps",
       "data":[
          {
             "url":"images/expansion/config/windows-7-logo.png",
