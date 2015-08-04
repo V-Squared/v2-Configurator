@@ -1,4 +1,33 @@
-angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
+var app = angular.module('configApp', []);
+
+app.directive('navbar',function() {
+    return {
+        restrict: "E",
+        templateUrl:"templates/navbar.html"
+    }
+});
+
+app.directive('jumbotron',function() {
+    return {
+        restrict: "E",
+        templateUrl:"templates/jumbotron.html"
+    }
+});
+
+
+app.directive('buttondir',function() {
+    return {
+        restrict: 'A',
+        controller : function ($scope, $element, $timeout) {
+            var price = $scope.choice.value;
+            $timeout(function() {
+                $($element).next().prepend("$" + price + " US - ");
+            });
+        }
+    }
+});
+
+app.controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
     $http.get('products.json').then(function(res) {
@@ -120,6 +149,7 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 
+
     //kickoff jquery stuff basically just the accordion
     //   setTimeout(function() {
     //     runjquery($scope);
@@ -130,6 +160,8 @@ angular.module('configApp', []).controller('myCtrl', function($scope, $http) {
 
 
 });
+
+
 
 
 
