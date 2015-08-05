@@ -67,6 +67,25 @@ app.controller('myCtrl', function($scope, $http) {
         });
     }
 
+    $scope.dialogFunction = function () {
+        $('.dialog').dialog({
+            modal: true,
+            autoOpen: false,
+            width: 500,
+            show: 'slideDown',
+            hide: 'explode',
+            buttons: {
+                "Cancel": function() {
+                    $(this).dialog('close');
+                }
+            }
+        });
+    }
+
+    $scope.dialogOpen = function () {
+        $('.dialog').dialog('open');
+    }
+
     $scope.initIndex = function(chapterIndex, SectionIndex, values) { //this function builds object that stores selections. We can save/load this from json later
         //console.log(arguments);
 
@@ -88,6 +107,8 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
         }
         $scope.cart[chapterIndex][SectionIndex]["data"][values] = false;
+
+
         //console.log($scope.cart);
     }
     $scope.toggle = function($event) { //accordions
@@ -101,6 +122,7 @@ app.controller('myCtrl', function($scope, $http) {
 
         });
     }
+
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
@@ -138,6 +160,9 @@ app.controller('myCtrl', function($scope, $http) {
             sec.cost = price;
 
         }
+
+
+
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
         cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
 
