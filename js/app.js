@@ -26,6 +26,14 @@ app.directive('buttondir',function() {
         controller : function ($scope, $element, $timeout) {
             $timeout(function(){
                 $($element).next().prepend('$' + $scope.directiveData[0] + " US - ");
+
+                var children = $('.GalleryThumbNail > .thumb');
+                for (var i = 0, l = children.length; i < l; i += 4) {
+                    children.slice(i, i + 4).wrapAll('<div class="item"></div>');
+                }
+
+                $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
+                $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
             });
         }
     }
@@ -145,6 +153,8 @@ app.controller('myCtrl', function($scope, $http) {
 
         //console.log($scope.cart);
     }
+
+
 
     $scope.dialogOpen = function () {
         $('.dialog').dialog('open');

@@ -85,7 +85,7 @@
                                                 </tr>
                                              </thead>
                                              <tbody>
-                                                <tr ng-repeat="row in item.TableBody">
+                                                <tr ng-repeat="row in Section.TableBody">
                                                    <td class="table-left-title">{{row.title}}</td>
                                                    <td>{{row.name2}}</td>
                                                    <td>{{row.name3}}</td>
@@ -110,7 +110,7 @@
                                  <div ng-if="Section.Gallery">
                                     <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
                                     <div style="display: none;" class="readmore_area collapsable"  height="200px">
-                                       <div id="{{Section.slide}}" class="carousel slide"     data-ride="carousel">
+                                       <div id="{{Section.slide}}" class="carousel slide"  data-ride="carousel">
                                           <div class="carousel-inner GallerySlideshow"  >
                                              <div ng-repeat="gallery in Section.Gallery" class="item">
                                                 <h4 style="font-weight:bold">{{gallery.title}}</h4>
@@ -123,10 +123,17 @@
                                  </div>
                                  <!-- carousel -->
                                  <div ng-if="Section.Gallery">
-                                    <!-- should add carousel to data element -->
-                                    <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i>Carousel</h4>
-                                    <div style="display: none;" class="collapsable">
-                                       <div id="thumbcarousel" class=" carousel slide" data-interval="false">
+                                    <div id="{{Section.slide}}" class="carousel slide" data-ride="carousel">
+                                       <div class="carousel-inner GallerySlideshow">
+                                          <div ng-repeat="gallery in Section.Gallery" class="item">
+                                             <h4 style="font-weight:bold">{{gallery.title}}</h4>
+                                             <p>{{gallery.description}}</p>
+                                             <img ng-src="images/expansion/config/ViCase/{{gallery.image}}">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="clearfix">
+                                       <div id="thumbcarousel" class="carousel slide" data-interval="false">
                                           <div class="carousel-inner GalleryThumbNail">
                                              <div data-target="#{{Section.slide}}" data-slide-to="{{$index}}" class="thumb" ng-repeat="gallery in Section.Gallery"><img ng-src="images/expansion/config/ViCase/{{gallery.image}}"></div>
                                              <!-- /item -->
@@ -139,17 +146,19 @@
                                           <span class="glyphicon glyphicon-chevron-right"></span>
                                           </a>
                                        </div>
+                                       <!-- /thumbcarousel -->
                                     </div>
+                                    <!-- /clearfix -->
                                  </div>
                                  <!-- datasheet -->
                                  <div ng-init="tabs = 0" ng-if="Section.Datasheet">
                                     <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
                                     <div ng-repeat="datasheet in Section.Datasheet" style="display: none;" class="collapsable readmore_area radio-tables">
                                        <ul class="nav nav-tabs table-tab">
-                                          <li ng-repeat="buttons in datasheet.button" ng-class="{active: tabs == 'pages'}" ng-click="tabs = 'pages'" class="{{buttons.class}}"><a class="fake-link" datasheettabsdir directiveData="tabs">{{buttons.name}}</a></li>
+                                          <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a data-toggle="tab" href="#tabSection{{$index+1}}"  class="fake-link">{{buttons.name}}</a></li>
                                        </ul>
-                                       <div ng-switch="tabs">
-                                       <div ng-switch-when="pages" class="tableSection open">
+                                       <div class="tab-content">
+                                       <div id="tabSection1" class="tableSection tab-pane fade in active">
                                           <table class="table table-striped">
                                              <tbody>
                                                 <tr ng-repeat="row in datasheet.table1" class="{{row.class}}">
@@ -159,7 +168,7 @@
                                              </tbody>
                                           </table>
                                        </div>
-                                       <div ng-switch-when="page2s" class="tableSection closed">
+                                       <div id="tabSection2" class="tableSection tab-pane fade">
                                           <table class="table table-striped">
                                              <tbody>
                                                 <tr ng-repeat="row in datasheet.table2" class="{{row.class}}">
@@ -169,7 +178,7 @@
                                              </tbody>
                                           </table>
                                        </div>
-                                       <div ng-switch-when="page1s" class="tableSection closed">
+                                       <div id="tabSection3" class="tableSection tab-pane fade">
                                           <table class="table table-striped">
                                              <tr ng-repeat="row in datasheet.table3" class="{{row.class}}">
                                                 <td class="table-left-title" style="width:20%">{{row.name1}}</td>
