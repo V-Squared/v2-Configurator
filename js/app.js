@@ -90,7 +90,13 @@ app.controller('myCtrl', function($scope, $http) {
         thirdprtycost: 0,
         vtcost: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
-
+    $scope.initGallery=function(galid){//inits the gallary
+      console.log("startging" +galid);
+      setTimeout(function(){
+       $($("#"+galid).find(".item")[0]).addClass("active");
+     	 $("#"+galid).carousel();
+      },1000);
+    }
 
     $scope.makeJSON = function() {
         var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
