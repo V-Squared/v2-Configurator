@@ -1269,10 +1269,12 @@
                   "name4":"adapter data3"
                }
             ],
-            "Advice":{
-               "heading":"Adapter",
-               "content":"Adapter"
-            },
+            "Advice":[
+               {
+                  "heading":"Adapter",
+                  "content":"Adapter"
+               }
+            ],
             "Gallery":[
                {
                   "image":"Adapter-Black.jpg",

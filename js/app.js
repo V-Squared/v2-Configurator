@@ -3,6 +3,7 @@ var app = angular.module('configApp', []);
 app.directive('navbar',function() {
     return {
         restrict: "E",
+        replace: true,
         templateUrl:"templates/navbar.html"
     }
 });
@@ -10,6 +11,7 @@ app.directive('navbar',function() {
 app.directive('jumbotron',function() {
     return {
         restrict: "E",
+        replace: true,
         templateUrl:"templates/jumbotron.html"
     }
 });
@@ -18,17 +20,53 @@ app.directive('jumbotron',function() {
 app.directive('buttondir',function() {
     return {
         restrict: 'A',
+        scope : {
+            directiveData : '=directivedata'
+        },
         controller : function ($scope, $element, $timeout) {
-            var price = $scope.choice.value;
-            $timeout(function() {
-                $($element).next().prepend("$" + price + " US - ");
+            $timeout(function(){
+                $($element).next().prepend('$' + $scope.directiveData[0] + " US - ");
             });
         }
     }
 });
 
+/*app.directive('datasheettabsdir', function() {
+    return {
+        restrict: 'A',
+        scope : {
+            directiveData : '=directivedata'
+        },
+        controller : function ($scope, $element, $timeout) {
+
+            $timeout(function() {
+                $element.bind('click',function() {
+                    $scope.directiveData = 3;
+                    alert($scope.directiveData);
+                });
+            });
+
+            setTimeout(function() {
+                alert($scope.directiveData);
+            },10000);
+
+
+            /*$timeout(function(){
+
+                $scope.test = function(tabs) {
+                    tabs +=1;
+                    alert(tabs);
+                    return tabs;
+                }
+            });
+        }
+    }
+});*/
+
+
 app.controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
+
 
     $http.get('products.json').then(function(res) {
         $scope.data = res.data;
@@ -82,11 +120,7 @@ app.controller('myCtrl', function($scope, $http) {
         });
     }
 
-    $scope.dialogOpen = function () {
-        $('.dialog').dialog('open');
-    }
-
-    $scope.initIndex = function(chapterIndex, SectionIndex, values) { //this function builds object that stores selections. We can save/load this from json later
+    $scope.initIndex = function(chapterIndex, SectionIndex, values) {
         //console.log(arguments);
 
         //chapterIndex = chapter
@@ -110,6 +144,10 @@ app.controller('myCtrl', function($scope, $http) {
 
 
         //console.log($scope.cart);
+    }
+
+    $scope.dialogOpen = function () {
+        $('.dialog').dialog('open');
     }
     $scope.toggle = function($event) { //accordions
         var panel = $($event.currentTarget).next(".collapsable");
@@ -170,6 +208,10 @@ app.controller('myCtrl', function($scope, $http) {
         cart.thirdprtycost = cart["5. OS & Apps"].cost + cart["4. PC Parts"].cost;
 
         //console.log(cart);
+    }
+
+    if($scope.tabs !== undefined){
+    alert($scope.tabs);
     }
 
 
