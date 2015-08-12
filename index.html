@@ -108,89 +108,41 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Gallery/Carousel -->
-                                        <div ng-if="Section.Gallery">
-                                            <h4 ng-click="toggle($event)"  class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
-                                            <div class="collapsable readmore_area" ng-init="initGallery('section-'+$parent.$index+'-gallary-'+$index)"  style="display: none;" >
-                                                <div id="{{'section-'+$parent.$index+'-gallary-'+$index}}" class="carousel slide" data-ride="carousel">
-                                                    <!-- Indicators 
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#{{'section-'+$parent.$index+'-gallary-'+$index}}" data-slide-to="0" class="active"></li>
-                                                    <li data-target="#{{'section-'+$parent.$index+'-gallary-'+$index}}" data-slide-to="1"></li>
-                                                    <li data-target="#{{'section-'+$parent.$index+'-gallary-'+$index}}" data-slide-to="2"></li>
-                                                </ol>-->
-                                                    <!-- Wrapper for slides -->
-                                                    <div  class="carousel-inner" role="listbox">
-                                                        <div  ng-repeat="gallery in Section.Gallery" class="item">
-                                                        		<h4 style="font-weight:bold">{{gallery.title}}</h4>
-                                            						<p>{{gallery.description}}</p>
-                                                          	<img ng-src="images/expansion/config/ViCase/{{gallery.image}}" alt="...">
+                                        <!-- Gallery/Carousel  -->
+                                             <div ng-if="Section.Gallery">
+                                                <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
+                                                <div class="collapsable readmore_area" ng-init="initGallery('section-'+$parent.$index+'-gallary-'+$index)" style="display: none;">
+                                                    <div id="{{'section-'+$parent.$index+'-gallary-'+$index}}" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner">
+                                                            <div ng-repeat="gallery in Section.Gallery" class="item">
+                                                                <h4 style="font-weight:bold">{{gallery.title}}</h4>
+                                            							 <p>{{gallery.description}}</p>
+                                                                <img ng-src="images/expansion/config/ViCase/{{gallery.image}}">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <!-- Controls -->
-                                                    <a class="left carousel-control" href="{{'#section-'+$parent.$index+'-gallary-'+$index}}" role="button" data-slide="prev">
-                                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                                        <span class="sr-only">Previous</span>
-                                                    </a>
-                                                    <a class="right carousel-control" href="{{'#section-'+$parent.$index+'-gallary-'+$index}}" role="button" data-slide="next">
-                                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                                        <span class="sr-only">Next</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                        <!-- carousel old 
-                                 <div ng-if="Section.Gallery">
-                                    <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
-                                    <div style="display: none;" class="readmore_area collapsable"  height="200px">
-                                       <div id="{{Section.slide}}" class="carousel slide"  data-ride="carousel">
-                                          <div class="carousel-inner GallerySlideshow"  >
-                                             <div ng-repeat="gallery in Section.Gallery" class="item">
-                                                <h4 style="font-weight:bold">{{gallery.title}}</h4>
-                                                <p>{{gallery.description}}</p>
-                                                <img ng-src="images/expansion/config/ViCase/{{gallery.image}}">
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                            
-                                 <div ng-if="Section.Gallery">
-                                    <div id="{{Section.slide}}" class="carousel slide" data-ride="carousel">
-                                       <div class="carousel-inner GallerySlideshow">
-                                          <div ng-repeat="gallery in Section.Gallery" class="item">
-                                             <h4 style="font-weight:bold">{{gallery.title}}</h4>
-                                             <p>{{gallery.description}}</p>
-                                             <img ng-src="images/expansion/config/ViCase/{{gallery.image}}">
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="clearfix">
-                                       <div id="thumbcarousel" class="carousel slide" data-interval="false">
-                                          <div class="carousel-inner GalleryThumbNail">
-                                             <div data-target="#{{Section.slide}}" data-slide-to="{{$index}}" class="thumb" ng-repeat="gallery in Section.Gallery"><img ng-src="images/expansion/config/ViCase/{{gallery.image}}"></div>
-                                           
-                                          </div>
-                                          
-                                          <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
-                                          <span class="glyphicon glyphicon-chevron-left"></span>
-                                          </a>
-                                          <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
-                                          <span class="glyphicon glyphicon-chevron-right"></span>
-                                          </a>
-                                       </div>
-                                     
-                                    </div>
-                                    
-                                 </div> -->
-                                      
-                                      
-                                      
+                                                    <div class="clearfix">
+                                                        <div id="{{'section-'+$parent.$index+'-gallary-'+$index+'thumb'}}"  ng-init="initGallery('section-'+$parent.$index+'-gallary-'+$index+'thumb')" class="carousel slide" data-interval="false">
+                                                            <div class="carousel-inner">
+                                                                <div ng-repeat="gallery in Section.Gallery" ng-if="$index%4==0" class="item">
+                                                                  <div data-target="{{'#section-'+$parent.$parent.$index+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index}}" class="thumb"><img ng-src="images/expansion/config/ViCase/{{Section.Gallery[$index].image}}"></div>
+																						<div data-target="{{'#section-'+$parent.$parent.$index+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index+1}}" class="thumb"><img ng-src="images/expansion/config/ViCase/{{Section.Gallery[$index+1].image}}"></div>
+                                                                  <div data-target="{{'#section-'+$parent.$parent.$index+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index+2}}" class="thumb"><img ng-src="images/expansion/config/ViCase/{{Section.Gallery[$index+2].image}}"></div>
+                                                                  <div data-target="{{'#section-'+$parent.$parent.$index+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index+3}}" class="thumb"><img ng-src="images/expansion/config/ViCase/{{Section.Gallery[$index+3].image}}"></div>
+                                                              </div>
+                                                                 <!-- /item -->
+                                                           </div>
+                                                            <!-- /carousel-inner -->
+                                                            <a class="left carousel-control" href="{{'#section-'+$parent.$index+'-gallary-'+$index+'thumb'}}" role="button" data-slide="prev">
+                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                            </a>
+                                                            <a class="right carousel-control" href="{{'#section-'+$parent.$index+'-gallary-'+$index+'thumb'}}" role="button" data-slide="next">
+                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                     
+                                      </div>    
                                         <!-- datasheet -->
                                         <div ng-init="tabs = 0" ng-if="Section.Datasheet">
                                             <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
