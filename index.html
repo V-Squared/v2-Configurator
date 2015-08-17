@@ -206,17 +206,17 @@
                            <div class="collapsable">
                               <span   ng-repeat="(sections, svalue) in cart[chapters]">
                               <img width="50px" height="50px" ng-if="cart[chapters][sections].lastclickedImg" ng-src="{{cart[chapters][sections].lastclickedImg}}" />
-                              <span>{{cart[chapters][sections].lastclicked}}</span>
+                              <span ng-if="cart[chapters][sections].lastclicked != 'None'">{{cart[chapters][sections].lastclicked}}</span>
                             </span>
                         </div>
                         </span>
                     </div>
                     <hr>
                     <p style="color:#07b;"><b><span ng-bind="cart.vtcost" id="villageSum"></span><span> US</span> - Village (cart)</b></p>
-                    <button ng-click="dialogOpen()" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout</button>
+                    <button data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout</button>
                     <hr>
                     <p><b><span ng-bind="cart.thirdprtycost" id="thirdSum"></span><span> US</span> - Third Party</b></p>
-                    <button ng-init="dialogFunction()" ng-click="dialogOpen()" class="btn btn-primary checkout"> <i class="fa fa-cart-arrow-down"></i> Checkout</button>
+                    <button data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-primary checkout"> <i class="fa fa-cart-arrow-down"></i> Checkout</button>
                     <hr>
                     <h3>
                         <span style="color:#07b;" ng-bind="cart.cost" id="total"></span> <span style="color:#07b;">US</span>
@@ -231,14 +231,6 @@
     <!--End Configurator-->
     <hr>
     <!--This is the jQuery ui dialog box-->
-    <div class="dialog" title="This is a dialog">
-        <div ng-repeat="(chapters, cvalue) in cart">
-            <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'">
-                <h2>{{chapters}}</h2>
-                <p ng-repeat="(sections, svalue) in cart[chapters]" class="checkout-list">{{cart[chapters][sections].lastclicked}}</p>
-            </div>
-        </div>
-    </div>
     <!--End Dialog-->
     <div class="section">
         <div class="container">
@@ -259,6 +251,50 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="modal fade" id="ThirdPartyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <div ng-repeat="(chapters, cvalue) in cart">
+                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='3. ViDock'&&chapters!='2. ViCase'&&chapters!='1. Ready Config'">
+                    <h2>{{chapters}}</h2>
+                    <p ng-repeat="(sections, svalue) in cart[chapters]" class="checkout-list">{{cart[chapters][sections].lastclicked}}</p>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="VillageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <div ng-repeat="(chapters, cvalue) in cart">
+                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='4. PC Parts'&&chapters!='5. OS & Apps'&&chapters!='1. Ready Config'">
+                    <h2>{{chapters}}</h2>
+                    <p ng-repeat="(sections, svalue) in cart[chapters]" class="checkout-list">{{cart[chapters][sections].lastclicked}}</p>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>

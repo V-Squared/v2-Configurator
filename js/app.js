@@ -119,21 +119,6 @@ app.controller('myCtrl', function($scope, $http) {
         });
     }
 
-    $scope.dialogFunction = function () {
-        $('.dialog').dialog({
-            modal: true,
-            autoOpen: false,
-            width: 500,
-            show: 'slideDown',
-            hide: 'explode',
-            buttons: {
-                "Cancel": function() {
-                    $(this).dialog('close');
-                }
-            }
-        });
-    }
-
     $scope.initIndex = function(chapterIndex, SectionIndex, values) {
         //console.log(arguments);
 
@@ -161,10 +146,6 @@ app.controller('myCtrl', function($scope, $http) {
     }
 
 
-
-    $scope.dialogOpen = function () {
-        $('.dialog').dialog('open');
-    }
     $scope.toggle = function($event) { //accordions
         var panel = $($event.currentTarget).next(".collapsable");
         var endstate = $(panel).slideToggle("fast", function() {
