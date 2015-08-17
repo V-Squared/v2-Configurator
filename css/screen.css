@@ -64,6 +64,7 @@ select {
 }
 label {
 	font-weight: inherit;
+	padding-left:20px;
 }
 
 
@@ -476,4 +477,26 @@ cursor: pointer;
 }
 .ui-widget-content a {
 	color: #337ab7;
+}
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + span[type="button"] {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    text-align: center;
+}
+input[type="radio"]:checked + span[type="button"]{
+     border-color: #07b;
+     background-color: #07b;
+}
+label:hover span[type="button"]{
+     border-color:#07b;
 }
