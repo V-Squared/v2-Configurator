@@ -206,7 +206,7 @@
                            <div class="collapsable">
                               <span   ng-repeat="(sections, svalue) in cart[chapters]">
                               <!--<img width="50px" height="50px" ng-if="cart[chapters][sections].lastclickedImg" ng-src="{{cart[chapters][sections].lastclickedImg}}" />-->
-                              <div ng-if="cart[chapters][sections].lastclicked != 'None'">{{cart[chapters][sections].lastclicked}}</div>
+                              <div ng-if="cart[chapters][sections].lastclicked != 'None'"><span ng-if="cart[chapters][sections].cost != 0 && cart[chapters][sections].cost != null">$ {{cart[chapters][sections].cost}} US - </span>{{cart[chapters][sections].lastclicked}}</div>
                             </span>
                         </div>
                         </span>
