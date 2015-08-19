@@ -59,7 +59,7 @@
                                             <!-- readyconfig -->
                                             <div ng-if="Chapter.name=='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name);readyConfig($event);" name="{{Chapter.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
                                             <!--End ReadyConfig-->
 
@@ -68,11 +68,11 @@
                                             <!--Normal Choice-->
                                             <div ng-if="Chapter.name!='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
                                                 <label>
-                                                    <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
                                             <div ng-if="Chapter.name!='1. Ready Config'">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None')" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,0,null,null,Chapter.name,Section.name,'None')" class="None" name="{{Chapter.name}}" value="0"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None')" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,0,null,null,Chapter.name,Section.name,'None')" class="None" name="{{Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>
