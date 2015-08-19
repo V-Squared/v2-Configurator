@@ -79,14 +79,11 @@ app.controller('myCtrl', function($scope, $http) {
     $http.get('products.json').then(function(res) {
         $scope.data = res.data;
     });
-    var hello = "";
     $http.get('ready-config.json').then(function(res) {
-        $scope.config = res.data;
-        $scope.ready_config_High = $scope.config.High;
-        hello = res.data.Entry;
-
-    });
-    console.log(hello);
+           $scope.config = res.data;
+           $scope.ready_config_High = $scope.config.High;
+           $scope.ready_config_Entry = $scope.config.Entry;
+       });
     $scope.cart = {
         count: 0,
         cost: 0,
@@ -109,19 +106,19 @@ app.controller('myCtrl', function($scope, $http) {
 
     $scope.readyConfig = function($event) {
 
-        var runitem;
-
-       /*if ($($event.currentTarget).attr('for') == "Entry") {
-            runitem = $scope.ready_config_Entry;
-        } else if ($($event.currentTarget).attr('for') == "High") {
-            runitem = $scope.ready_config_High;
-        }*/
-        angular.forEach($scope.ready_config_Entry, function(value, index) {
-            // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-            alert(value);
-          $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
-        });
-    }
+           if ($($event.currentTarget).attr('for') == "Entry") {
+                var runitem = $scope.ready_config_Entry;
+            } else if ($($event.currentTarget).attr('for') == "High") {
+                var runitem = $scope.ready_config_High;
+            }
+            angular.forEach(runitem, function(value, index) {
+                // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
+              setTimeout(function() {
+                alert(value);
+              $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
+                }, 0, false);
+            });
+        }
 
     $scope.initIndex = function(chapterIndex, SectionIndex, values) {
         //console.log(arguments);
