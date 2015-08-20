@@ -42,7 +42,7 @@
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
                         </div>
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
-                            <div id="ViCase" ng-repeat="Section in Chapter.data">
+                            <div id="ViCase" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
                                 <div class="col-sm-2 ">
                                     <img ng-if="cart[Chapter.name][Section.name].lastclickedImg" ng-src="{{cart[Chapter.name][Section.name].lastclickedImg}}">
                                 </div>
@@ -57,7 +57,7 @@
                                         <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                         <div class="readmore_area show-first open radio_button collapsable">
                                             <!-- readyconfig -->
-                                            <div ng-if="Chapter.name=='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                            <div ng-if="Chapter.name=='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
@@ -66,7 +66,7 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Chapter.name!='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+$parent.$index+'-Button-'+$index}}">
+                                            <div ng-if="Chapter.name!='1. Ready Config'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
                                                 <label>
                                                     <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
