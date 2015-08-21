@@ -1568,7 +1568,7 @@
                 "yourChoice": [
                     {
                         "name": "Intel MotherBoard1",
-                        "img": "images/expansion/config/Third-party/Intel-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-6",
                             "#chapter-3-section-1-Button-7",
@@ -1582,7 +1582,7 @@
                     },
                     {
                         "name": "Intel MotherBoard 2",
-                        "img": "images/expansion/config/Third-party/Intel-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-6",
                             "#chapter-3-section-1-Button-7",
@@ -1596,7 +1596,7 @@
                     },
                     {
                         "name": "Intel MotherBoard 3",
-                        "img": "images/expansion/config/Third-party/Intel-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-6",
                             "#chapter-3-section-1-Button-7",
@@ -1610,7 +1610,7 @@
                     },
                     {
                         "name": "AMD Motherboard 1",
-                        "img": "images/expansion/config/Third-party/AMD-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-0",
                             "#chapter-3-section-1-Button-1",
@@ -1627,7 +1627,7 @@
                     },
                     {
                         "name": "AMD Motherboard 2",
-                        "img": "images/expansion/config/Third-party/AMD-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-0",
                             "#chapter-3-section-1-Button-1",
@@ -1644,7 +1644,7 @@
                     },
                     {
                         "name": "AMD Motherboard 3",
-                        "img": "images/expansion/config/Third-party/AMD-motherboard.jpg",
+                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
                         "Child_Name": [
                             "#chapter-3-section-1-Button-0",
                             "#chapter-3-section-1-Button-1",
