@@ -200,9 +200,9 @@
                         <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save to JSON</button>
                         <h3 style="color:#07b;" id="radiocheckednumber"><span ng-bind="cart.count"></span> items in cart</h3>
                         <hr>
-                        <div ng-repeat="(chapters, cvalue) in cart">
+                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'">
-                           <h4 class="collapse-summary" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{chapters}}</h4>
+                           <h4 class="collapse-summary-heading" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{chapters}}</h4>
                            <div class="collapsable">
                               <span   ng-repeat="(sections, svalue) in cart[chapters]">
                               <!--<img width="50px" height="50px" ng-if="cart[chapters][sections].lastclickedImg" ng-src="{{cart[chapters][sections].lastclickedImg}}" />-->
