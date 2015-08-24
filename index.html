@@ -31,6 +31,10 @@
     <jumbotron></jumbotron>
     <!--End Jumbotron-->
 
+    <!--[if lte IE 8]>
+        <script>alert(IE 8)</script>
+    <![endif]-->
+
     <div class="section">
         <!--Begin Configurator-->
         <div class="container">
@@ -50,7 +54,7 @@
                                Chapter = chapters
                                Section = Sections
                            -->
-                                <div class="col-sm-8">
+                                <div class="col-sm-10">
                                     <h3 ng-click="toggle($event)" class="sub-sectionToggle"><span><i class="fa fa-play"></i> {{Section.name}}</span></h3>
                                     <div class="collapsable" style="display:none">
                                         <!-- your choice -->
@@ -185,9 +189,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-2">
-                                    <img ng-src="{{item.url}}" alt="" />
-                                </div>
                                 <div class="clearfix"></div>
                                 <hr>
                             </div>
@@ -197,7 +198,6 @@
                 <!--               sidebar -->
                 <div class="col-md-3">
                     <div class="price-sidebar" data-spy="affix" data-offset-top="520">
-                        <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save to JSON</button>
                         <h3 style="color:#07b;" id="radiocheckednumber"><span ng-bind="cart.count"></span> items in cart</h3>
                         <hr>
                         <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'">
@@ -223,6 +223,7 @@
                         <hr style="margin-bottom:2px">
                         <hr style="margin-top:0;">
                      </h3>
+                     <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save to JSON</button>
                 </div>
             </div>
         </div>
@@ -256,13 +257,13 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header" id="ThirdPartyHeader">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
             <h4 class="modal-title" id="myModalLabel">Checkout Thirld Party Parts</h4>
           </div>
           <div class="modal-body">
             <div ng-repeat="(chapters, cvalue) in cart">
                 <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='3. ViDock'&&chapters!='2. ViCase'&&chapters!='1. Ready Config'">
-                    <h2>{{chapters}}</h2>
+                    <h4>{{chapters}}</h4>
                     <a ng-repeat="(sections, svalue) in cart[chapters]" class="checkout-list" ng-href="{{cart[chapters][sections].lastclickedLink}}">{{cart[chapters][sections].lastclicked}}</a><br>
                 </div>
             </div>
@@ -277,13 +278,13 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
             <h4 class="modal-title" id="myModalLabel">Checkout Village Parts</h4>
           </div>
           <div class="modal-body">
             <div ng-repeat="(chapters, cvalue) in cart">
                 <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='4. PC Parts'&&chapters!='5. OS & Apps'&&chapters!='1. Ready Config'">
-                    <h2>{{chapters}}</h2>
+                    <h4>{{chapters}}</h4>
                     <div ng-repeat="(sections, svalue) in cart[chapters]"><a class="checkout-list" ng-href="{{cart[chapters][sections].lastclickedLink}}">{{cart[chapters][sections].lastclicked}}</a></div>
                 </div>
             </div>

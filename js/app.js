@@ -114,7 +114,6 @@ app.controller('myCtrl', function($scope, $http) {
             angular.forEach(runitem, function(value, index) {
                 // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
               setTimeout(function() {
-                alert(value);
               $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
                 }, 0, false);
             });

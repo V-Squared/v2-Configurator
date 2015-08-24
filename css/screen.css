@@ -110,7 +110,6 @@ body {
 }
 ul.navbar-nav a {
 	color:#505656;
-	text-transform: uppercase;
 	padding-right:26px;
 	padding-left: 26px;
 	padding-top: 19px;
@@ -349,6 +348,7 @@ ul.navbar-nav a:hover{
 	background-image:none !important;
 	border:none !important;
 	border-radius: 0;
+	border:0 !important;
 	cursor: pointer;
 }
 .price-sidebar.affix {
@@ -356,6 +356,7 @@ ul.navbar-nav a:hover{
 	overflow-y: auto;
 	height:100%;
 	padding-bottom: 70px;
+	width: 262.5px;
 }
 @media (max-width:992px) {
 	.price-sidebar.affix {
@@ -380,6 +381,7 @@ input[type="radio"] {
 }
 .panel-body {
 	padding: 15px;
+	border: 1px solid #ddd;
 }
 #radiocheckednumber {
 	margin-top:20px;
@@ -444,6 +446,9 @@ cursor: pointer;
 }
 .tableHeading {
 	background:#8bcbee !important;
+}
+.panel-default {
+	border:0 !important;
 }
 .container .panel-default:nth-child(2),
 .container .panel-default:nth-child(4) {
@@ -557,4 +562,7 @@ label:hover span[type="button"]{
 .collapse-summary:nth-of-type(4) .collapse-summary-heading,
 .collapse-summary:nth-of-type(5) .collapse-summary-heading{
 	color:#5bc0de;
+}
+.close {
+	opacity: 1;
 }
