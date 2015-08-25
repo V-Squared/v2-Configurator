@@ -566,3 +566,6 @@ label:hover span[type="button"]{
 .close {
 	opacity: 1;
 }
+.btn-primary {
+	background-color: #3491CE;
+}

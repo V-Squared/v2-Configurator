@@ -1691,7 +1691,7 @@
             },
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
-                "name": "Processer(CPU)",
+                "name": "Processor(CPU)",
                 "part": "proc",
                 "yourChoice": [
                     {
@@ -1720,17 +1720,17 @@
                         "value": 349
                     },
                     {
-                        "name": "AMD Processer 1",
+                        "name": "AMD Processor 1",
                         "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
                         "value": 25
                     },
                     {
-                        "name": "AMD Processer 2",
+                        "name": "AMD Processor 2",
                         "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
                         "value": 100
                     },
                     {
-                        "name": "AMD Processer 3",
+                        "name": "AMD Processor 3",
                         "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
                         "value": 150
                     }
