@@ -207,7 +207,7 @@ app.controller('myCtrl', function($scope, $http) {
         cart.thirdprtycost = cart["5. OS"].cost + cart["4. PC Parts"].cost;
 
         cart.vtcount = cart["2. ViCase"].count + cart ["3. ViDock"].count;
-        cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. OS"].count;
+        cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. Accessories"].count;
         console.log(cart);
     }
  });
