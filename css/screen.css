@@ -31,6 +31,7 @@ html {
 
 
 
+
 /*================================================================================*/
 /*COMMON CSS CODE*/
 /*================================================================================*/
@@ -70,6 +71,27 @@ select {
 label {
 	font-weight: inherit;
 	padding-left:20px;
+	cursor: pointer;
+}
+.fake-link {
+	cursor: pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+.block-link {
+	display: block;
+}
+.theme-color {
+	color:#3491CE;
+}
+.background-theme-color{
+	background-color: #3491CE;
+}
+.info-color {
+	color:#5BC0DE;
+}
+.float-right {
+	float:right;
 }
 
 
@@ -95,38 +117,36 @@ body {
 }
 @media (min-width: 850px) {
 	ul.navbar-nav li a:hover,  ul.navbar-nav li:focus, ul.navbar-nav a:focus{
-		background-color: #eeeeee;
-		color:#505656;
+		box-shadow :inset 0 -2px 0 #ffffff;
+		-webkit-box-shadow :inset 0 -2px 0 #ffffff;
+		background-color: transparent;
+		color:#FFF;
 	}
 	ul.navbar-nav li {
-		margin-left: 0px;
-		border-left: 1px solid #ecf0f1;
+		margin-left: 30px;
 	}
 	ul.navbar-nav .active {
-		background-color: #eeeeee;
-		font-weight: 700;
-		font-family: Roboto-Bold;
+		box-shadow :inset 0 -2px 0 #ffffff;
+		-webkit-box-shadow :inset 0 -2px 0 #ffffff;
+		background-color: transparent;
 	}
 }
 ul.navbar-nav a {
-	color:#505656;
-	padding-right:26px;
-	padding-left: 26px;
+	color:#bbe6ff;
+	text-transform: uppercase;
 	padding-top: 19px;
 	padding-bottom:15px;
-	letter-spacing: 1px;
 }
 ul.navbar-nav .active {
-	color:#505656;
-	text-shadow: 0;
+	color:#FFF;
 }
 ul.navbar-nav a:hover{
 	background-color:transparent;
 }
 #navbar{
-	background:rgba(255,255,255,0.97);
+	background:#3491CE;
 	margin-bottom: 0;
-	border-bottom:1px solid #eeeeee;
+	border-bottom:1px solid #246489;
 	height:55px;
 }
 @media (max-width:850px){
@@ -160,12 +180,11 @@ ul.navbar-nav a:hover{
 	width:120%;
 }
 .navbar-brand{
-	color:#505656;
+	color:#FFF;
+	background-color:rgba(0, 0, 0, 0.15);
 	text-transform: uppercase;
 	padding-top: 20px;
 	padding-bottom: 35px;
-	font-weight: 700;
-	letter-spacing: 1px;
 }
 @media(max-width: 850px){
 	.logo {
@@ -285,7 +304,10 @@ ul.navbar-nav a:hover{
 	border:0;
 }
 
-
+#check-me-out {
+	padding-top: 60px;
+	margin-top: -60px;
+}
 
 
 
@@ -328,6 +350,15 @@ ul.navbar-nav a:hover{
 	background-size: center center;
 	background-size: cover;
 }
+
+
+
+
+/*-------------------------------------------------*/
+/*CONFIGURATOR CHAPTER CSS CODE*/
+/*-------------------------------------------------*/
+
+
 .con-fig-header {
 	-webkit-user-select:none;
 }
@@ -367,85 +398,13 @@ ul.navbar-nav a:hover{
 .panel {
 	margin-bottom: 10px;
 }
-input[type="radio"] {
-	margin: 3px 8px 0px 5px;
-}
-.center {
-	text-align: center;
-}
-.intel-show {
-	border-bottom: 3px solid #0071c5;
-}
-.AMD-show {
-	border-bottom: 3px solid #000;
-}
-.panel-body {
-	padding: 15px;
-	border: 1px solid #ddd;
-}
-#radiocheckednumber {
-	margin-top:20px;
-}
-label {
-	cursor: pointer;
-}
-.intel-AMD-button {
-	border:1px solid #aaa;
-	border-radius: 5px;
-	padding:5px;
-}
-.intel-AMD-button:hover {
-	border:1px solid #000;
-	cursor: pointer;
-}
-.side-table-heading {
-	text-align: right;
-}
-.fake-link {
-	cursor: pointer;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-}
-.block-link {
-	display: block;
-}
 .sub-sectionToggle {
 color: #3491CE;
 cursor: pointer;
 -webkit-user-select: none;
 }
-.table-left-title {
-	font-weight: bold;
-	text-align: right;
-}
-.readmore_button {
-	padding-bottom: 10px;
-	color:#3491CE;
-}
 .fa-play {
 	font-size: inherit !important;
-}
-/* CSS used here will be applied after bootstrap.css */
-.carousel {
-    margin-top: 20px;
-}
-.item .thumb {
-	width: 25%;
-	cursor: pointer;
-	float: left;
-}
-.item .thumb img {
-	width: 100%;
-	margin: 2px;
-}
-.item img {
-	width: 100%;
-}
-.carousel-inner .thumb{
-	padding-right:20px;
-}
-.tableHeading {
-	background:#8bcbee !important;
 }
 .panel-default {
 	border:0 !important;
@@ -472,28 +431,37 @@ cursor: pointer;
 .container .panel-default:nth-child(6) .panel-heading {
 	background: #5bc0de !important;
 }
-.footer {
-	background-color: #333;
-	color:white;
-	padding-top:20px;
-	padding-bottom:20px;
+.panel-body {
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+
+
+
+/*----------------------------------------------*/
+/*CONFIGURATOR SECTION CSS CODE*/
+/*----------------------------------------------*/
+
+.readmore_button {
+	padding-bottom: 10px;
+	color:#3491CE;
+}
+
+
+
+
+
+/*----------------------------------------------*/
+/*CONFIGURATOR SECTION YOUR CHOICE CSS CODE*/
+/*----------------------------------------------*/
+
+
+input[type="radio"] {
+	margin: 3px 8px 0px 5px;
 }
 .ghost {
 	opacity: .6;
 	cursor:not-allowed;
-}
-.resultstring {
-	font-size: 13px;
-}
-.carousel-control {
-	width: 5%;
-}
-#check-me-out {
-	padding-top: 60px;
-	margin-top: -60px;
-}
-.ui-widget-content a {
-	color: #337ab7;
 }
 input[type="radio"] {
     display:none;
@@ -518,6 +486,82 @@ input[type="radio"]:checked + span[type="button"]{
 label:hover span[type="button"]{
      border-color:#3491CE;
 }
+
+
+
+/*----------------------------------------------*/
+/*CONFIGURATOR SECTION COMPARISOM TABLE CSS CODE*/
+/*----------------------------------------------*/
+
+
+.center {
+	text-align: center;
+}
+
+.side-table-heading {
+	text-align: right;
+}
+.table-left-title {
+	font-weight: bold;
+	text-align: right;
+}
+.tableHeading {
+	background:#8bcbee !important;
+}
+#right-button-column {
+	padding-left:0;
+}
+#right-button-column {
+	padding-left:0;
+}
+
+/*----------------------------------------------*/
+/*CONFIGURATOR SECTION GALLERY CSS CODE*/
+/*----------------------------------------------*/
+
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;
+}
+.carousel-inner .thumb{
+	padding-right:20px;
+}
+.carousel-control {
+	width: 5%;
+}
+
+/*----------------------------------------------*/
+/*CONFIGURATOR SIDEBAR AND FOOTER CODE*/
+/*----------------------------------------------*/
+
+.resultstring {
+	font-size: 13px;
+}
+.footer {
+	background-color: #333;
+	color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
+/*----------------------------------------------*/
+/*CONFIGURATOR COLOR THEME CODE*/
+/*----------------------------------------------*/
+
 #VillageHeader {
 	background-color: #3491CE;
 	color:#FFF;
@@ -526,6 +570,7 @@ label:hover span[type="button"]{
 	background-color: #09ECFC;
 	color:#FFF;
 }
+
 #chapter-0 .sub-sectionToggle,
 #chapter-0 .readmore_button {
 	color:#f3950f !important;
@@ -551,9 +596,6 @@ label:hover span[type="button"]{
 #chapter-3 input[type="radio"]:hover + span[type="button"],
 #chapter-4 input[type="radio"]:hover + span[type="button"]{
 	border-color:#5bc0de !important;
-}
-.collapse-summary:nth-of-type(1) .collapse-summary-heading{
-	color:#f3950f;
 }
 .collapse-summary:nth-of-type(2) .collapse-summary-heading,
 .collapse-summary:nth-of-type(3) .collapse-summary-heading{

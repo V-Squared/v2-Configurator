@@ -88,7 +88,9 @@ app.controller('myCtrl', function($scope, $http) {
         count: 0,
         cost: 0,
         thirdprtycost: 0,
-        vtcost: 0
+        vtcost: 0,
+        vtcount: 0,
+        thirdprtycount: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
     $scope.initGallery=function(galid){//inits the gallary
       //console.log("startging" +galid);
@@ -204,7 +206,9 @@ app.controller('myCtrl', function($scope, $http) {
         //this should be done in a loop
         cart.thirdprtycost = cart["5. OS"].cost + cart["4. PC Parts"].cost;
 
-        //console.log(cart);
+        cart.vtcount = cart["2. ViCase"].count + cart ["3. ViDock"].count;
+        cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. OS"].count;
+        console.log(cart);
     }
  });
 
