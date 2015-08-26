@@ -90,6 +90,10 @@ label {
 .info-color {
 	color:#5BC0DE;
 }
+.background-info-color {
+	background-color:#5BC0DE;
+	color:#FFF;
+}
 .float-right {
 	float:right;
 }
@@ -384,7 +388,6 @@ ul.navbar-nav a:hover{
 }
 .price-sidebar.affix {
 	top:60px;
-	overflow-y: auto;
 	height:100%;
 	padding-bottom: 70px;
 	width: 262.5px;

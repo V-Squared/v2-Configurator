@@ -66,7 +66,9 @@
                                                     <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" value="{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                                 </div>
-                                                <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save to JSON</button>
+                                                <div ng-if="Section.name == 'Save and Load My Config'">
+                                                    <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button>
+                                                </div>
                                             </div>
                                             <!--End ReadyConfig-->
 
@@ -206,7 +208,7 @@
                         <button style="display:block" data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout Village</button>
                     </div>
                     <div class="col-sm-5" id="right-button-column">
-                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-primary checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
+                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
                     </div>
                     </div>
                         <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Ready Config'">
@@ -220,12 +222,13 @@
                         </div>
                         </span>
                     </div>
-                    <hr>
-                    <h3>
+                    <hr  style="margin-bottom:0">
+                    <h3 class="float-right">
                         <span style="color:#07b;" ng-bind="cart.cost" id="total"></span> <span style="color:#07b;">US</span>
-                        <hr style="margin-bottom:2px">
-                        <hr style="margin-top:0;">
                      </h3>
+                     <div class="clearfix"></div>
+                     <hr style="margin-bottom:2px;margin-top:0">
+                     <hr style="margin-top:0;">
                 </div>
             </div>
         </div>
@@ -260,7 +263,7 @@
         <div class="modal-content">
           <div class="modal-header" id="ThirdPartyHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Checkout Thirld Party Parts (<span ng-bind="cart.thirdprtycount"></span>)</h4>
+            <h4 class="modal-title" id="myModalLabel">Checkout Thirld Party Parts (<span>{{cart.thirdprtycount}} items</span>)</h4>
           </div>
           <div class="modal-body clearfix">
             <div ng-repeat="(chapters, cvalue) in cart">
@@ -284,7 +287,7 @@
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Checkout Village Parts (<span ng-bind="cart.vtcount"></span>)</h4>
+            <h4 class="modal-title" id="myModalLabel">Checkout Village Parts (<span>{{cart.vtcount}} items</span>)</h4>
           </div>
           <div class="modal-body clearfix">
             <div ng-repeat="(chapters, cvalue) in cart">
