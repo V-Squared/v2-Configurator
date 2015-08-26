@@ -204,7 +204,7 @@ app.controller('myCtrl', function($scope, $http) {
         cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
 
         //this should be done in a loop
-        cart.thirdprtycost = cart["5. OS"].cost + cart["4. PC Parts"].cost;
+        cart.thirdprtycost = cart["5. Accessories"].cost + cart["4. PC Parts"].cost;
 
         cart.vtcount = cart["2. ViCase"].count + cart ["3. ViDock"].count;
         cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. Accessories"].count;
