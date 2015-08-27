@@ -25,7 +25,7 @@ app.directive('buttondir',function() {
         },
         controller : function ($scope, $element, $timeout) {
             $timeout(function(){
-                $($element).next().next().prepend('$' + $scope.directiveData[0] + " US - ");
+                $($element).next().next().append(' — $' + $scope.directiveData[0] + ' US');
 
                 var children = $('.GalleryThumbNail > .thumb');
                 for (var i = 0, l = children.length; i < l; i += 4) {

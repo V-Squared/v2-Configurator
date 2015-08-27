@@ -51,7 +51,7 @@
                 "slide": "slide1",
                 "yourChoice": [
                     {
-                        "name": "ViCase Tiny",
+                        "name": "ViCase-Tiny",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
                         "link": "http://placekitten.com/200/300",
                         "Child_Name": [
@@ -60,12 +60,12 @@
                         "value": 77
                     },
                     {
-                        "name": "ViCase Mini",
+                        "name": "ViCase-Mini",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
                         "value": 88
                     },
                     {
-                        "name": "ViCase Ultra",
+                        "name": "ViCase-Ultra",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 99
@@ -605,25 +605,25 @@
                 "slide": "slide2",
                 "yourChoice": [
                     {
-                        "name": "ViCase Black",
+                        "name": "ViCase-Black",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "ViCase Red",
+                        "name": "ViCase-Red",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Silver-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "ViCase Cyan",
+                        "name": "ViCase-Cyan",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "ViCase Silver",
+                        "name": "ViCase-Silver",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Red-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
@@ -761,17 +761,17 @@
                 "slide": "slide3",
                 "yourChoice": [
                     {
-                        "name": "ViCase Feet",
+                        "name": "ViCase-Feet",
                         "img": "http://placehold.it/142x80?text=ViCase-Feet",
                         "value": 9
                     },
                     {
-                        "name": "ViCase VESA",
+                        "name": "ViCase-VESA",
                         "img": "images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg",
                         "value": 9
                     },
                     {
-                        "name": "ViCase Stand",
+                        "name": "ViCase-Stand",
                         "img": "images/expansion/config/ViCase/ViCase-Tiny-Side-Stand-640x480.jpg",
                         "value": 9
                     }
@@ -906,12 +906,12 @@
                 "slide": "slide4",
                 "yourChoice": [
                     {
-                        "name": "ViCase Access",
+                        "name": "ViCase-Access",
                         "img": "http://placehold.it/142x80?text=ViCase-Access",
                         "value": 20
                     },
                     {
-                        "name": "ViCase Access Plus",
+                        "name": "ViCase-Access-Plus",
                         "img": "http://placehold.it/142x80?text=ViCase-Access-Plus",
                         "value": 20
                     }
@@ -1046,27 +1046,27 @@
                 "slide": "slide6",
                 "yourChoice": [
                     {
-                        "name": "ViCase Cooler SS",
+                        "name": "ViCase-Cooler-SS",
                         "img": "http://placehold.it/142x80?text=ViCase-Cooler-25W",
                         "value": 29
                     },
                     {
-                        "name": "ViCase Cooler S",
+                        "name": "ViCase-Cooler-S",
                         "img": "http://placehold.it/142x80?text=ViCase-Cooler-65W",
                         "value": 39
                     },
                     {
-                        "name":"ViCase Cooler M",
+                        "name":"ViCase-Cooler-M",
                         "img":"",
                         "value":29
                     },
                     {
-                        "name":"ViCase Cooler L",
+                        "name":"ViCase-Cooler-L",
                         "img":"",
                         "value":39
                     },
                     {
-                        "name":"ViCase Cooler XL",
+                        "name":"ViCase-Cooler-XL",
                         "img":"",
                         "value":29
                     }
@@ -1200,7 +1200,7 @@
                 "slide": "slide7",
                 "yourChoice": [
                     {
-                        "name": "V²P 12V 48W",
+                        "name": "V²P-12V-48W",
                         "img": "http://placehold.it/142x80?text=48W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1208,7 +1208,7 @@
                         "value": 30
                     },
                     {
-                        "name": "V²P 12V 120W",
+                        "name": "V²P-12V-120W",
                         "img": "http://placehold.it/142x80?text=120W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1216,7 +1216,7 @@
                         "value": 40
                     },
                     {
-                        "name": "V²P 12V 180W",
+                        "name": "V²P-12V-180W",
                         "img": "http://placehold.it/142x80?text=180W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
@@ -1224,7 +1224,7 @@
                         "value": 50
                     },
                     {
-                        "name": "12V/48W Third Party",
+                        "name": "12V/48W-Third-Party",
                         "img": "http://placehold.it/142x80?text=148W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1232,7 +1232,7 @@
                         "value": 30
                     },
                     {
-                        "name": "12V/120W Third Party",
+                        "name": "12V/120W-Third-Party",
                         "img": "http://placehold.it/142x80?text=1200W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1240,7 +1240,7 @@
                         "value": 40
                     },
                     {
-                        "name": "12V/180W Third Party",
+                        "name": "12V/180W-Third-Party",
                         "img": "http://placehold.it/142x80?text=180W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
@@ -1378,12 +1378,12 @@
                 "slide": "slide5",
                 "yourChoice": [
                     {
-                        "name": "V²P pATX 120W",
+                        "name": "V²P-pATX-120W",
                         "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
                         "value": 70
                     },
                     {
-                        "name": "V²P pATX 180W",
+                        "name": "V²P-pATX-180W",
                         "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
                         "value": 70
                     }
@@ -1522,19 +1522,19 @@
                 "part": "SFF",
                 "yourChoice": [
                     {
-                        "name": "ViDock PCIe L",
+                        "name": "ViDock-PCIe-L",
                         "value": "149"
                     },
                     {
-                        "name": "ViDock PCIe S",
+                        "name": "ViDock-PCIe-S",
                         "value": "149"
                     },
                     {
-                        "name": "ViDock GPU",
+                        "name": "ViDock-GPU",
                         "value": "149"
                     },
                     {
-                        "name": "ViDock GPU Cheapo",
+                        "name": "ViDock-GPU-Cheapo",
                         "value": "149"
                     }
                 ]
