@@ -1522,11 +1522,11 @@
                 "part": "SFF",
                 "yourChoice": [
                     {
-                        "name": "ViDock-PCIe-L",
+                        "name": "ViDock-PCIe-S",
                         "value": "149"
                     },
                     {
-                        "name": "ViDock-PCIe-S",
+                        "name": "ViDock-PCIe-L",
                         "value": "149"
                     },
                     {
