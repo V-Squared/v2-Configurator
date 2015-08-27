@@ -1,6 +1,6 @@
 [
     {
-        "name": "1. Ready Config",
+        "name": "1. Ready Configs",
         "data": [
             {
                 "name": "Ready Config",
@@ -51,7 +51,7 @@
                 "slide": "slide1",
                 "yourChoice": [
                     {
-                        "name": "ViDock Mini 2L (Tiny)",
+                        "name": "ViCase Tiny",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
                         "link": "http://placekitten.com/200/300",
                         "Child_Name": [
@@ -60,12 +60,12 @@
                         "value": 77
                     },
                     {
-                        "name": "ViDock Mini 4L (Tiny)",
+                        "name": "ViCase Mini",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
                         "value": 88
                     },
                     {
-                        "name": "ViDock Mini 6L (Ultra Small Form Factor)",
+                        "name": "ViCase Ultra",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 99
@@ -605,25 +605,25 @@
                 "slide": "slide2",
                 "yourChoice": [
                     {
-                        "name": "Black",
+                        "name": "ViCase Black",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "Silver",
+                        "name": "ViCase Red",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Silver-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "Cyan",
+                        "name": "ViCase Cyan",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
-                        "name": "Red",
+                        "name": "ViCase Silver",
                         "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Red-142x80.jpg",
                         "value": 0,
                         "class": "No-None"
@@ -1046,14 +1046,29 @@
                 "slide": "slide6",
                 "yourChoice": [
                     {
-                        "name": "ViCase Cooler 25W for 2L",
+                        "name": "ViCase Cooler SS",
                         "img": "http://placehold.it/142x80?text=ViCase-Cooler-25W",
                         "value": 29
                     },
                     {
-                        "name": "ViCase Cooler 65W for 4L and 6L",
+                        "name": "ViCase Cooler S",
                         "img": "http://placehold.it/142x80?text=ViCase-Cooler-65W",
                         "value": 39
+                    },
+                    {
+                        "name":"ViCase Cooler M",
+                        "img":"",
+                        "value":29
+                    },
+                    {
+                        "name":"ViCase Cooler L",
+                        "img":"",
+                        "value":39
+                    },
+                    {
+                        "name":"ViCase Cooler XL",
+                        "img":"",
+                        "value":29
                     }
                 ],
                 "TableHeading": [
@@ -1185,7 +1200,7 @@
                 "slide": "slide7",
                 "yourChoice": [
                     {
-                        "name": "48W Village",
+                        "name": "V²P 12V 48W",
                         "img": "http://placehold.it/142x80?text=48W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1193,7 +1208,7 @@
                         "value": 30
                     },
                     {
-                        "name": "120W Village",
+                        "name": "V²P 12V 120W",
                         "img": "http://placehold.it/142x80?text=120W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1201,7 +1216,7 @@
                         "value": 40
                     },
                     {
-                        "name": "180W Village",
+                        "name": "V²P 12V 180W",
                         "img": "http://placehold.it/142x80?text=180W-Village",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
@@ -1209,7 +1224,7 @@
                         "value": 50
                     },
                     {
-                        "name": "48W Third Party",
+                        "name": "12V/48W Third Party",
                         "img": "http://placehold.it/142x80?text=148W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1217,7 +1232,7 @@
                         "value": 30
                     },
                     {
-                        "name": "120W Third Party",
+                        "name": "12V/120W Third Party",
                         "img": "http://placehold.it/142x80?text=1200W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
@@ -1225,7 +1240,7 @@
                         "value": 40
                     },
                     {
-                        "name": "180W Third Party",
+                        "name": "12V/180W Third Party",
                         "img": "http://placehold.it/142x80?text=180W-Third-Party",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
@@ -1363,12 +1378,12 @@
                 "slide": "slide5",
                 "yourChoice": [
                     {
-                        "name": "ViCase Power 120W",
+                        "name": "V²P pATX 120W",
                         "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
                         "value": 70
                     },
                     {
-                        "name": "ViCase Power 180W",
+                        "name": "V²P pATX 180W",
                         "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
                         "value": 70
                     }
@@ -1507,11 +1522,19 @@
                 "part": "SFF",
                 "yourChoice": [
                     {
-                        "name": "ViDock, 250 mm length",
+                        "name": "ViDock PCIe L",
                         "value": "149"
                     },
                     {
-                        "name": "ViDock, 312 mm length",
+                        "name": "ViDock PCIe S",
+                        "value": "149"
+                    },
+                    {
+                        "name": "ViDock GPU",
+                        "value": "149"
+                    },
+                    {
+                        "name": "ViDock GPU Cheapo",
                         "value": "149"
                     }
                 ]
@@ -1522,27 +1545,12 @@
                 "part": "VA",
                 "yourChoice": [
                     {
-                        "name": "V²A.Adapter",
-                        "value": "29"
-                    }
-                ]
-            },
-            {
-                "name": "V²P Power",
-                "url": "",
-                "part": "ac-adapter",
-                "yourChoice": [
-                    {
-                        "name": "V²P Power 12V - 48W",
-                        "value": "15"
-                    },
-                    {
-                        "name": "V²P Power 12V - 120W",
+                        "name": "V²A.Card",
                         "value": "29"
                     },
                     {
-                        "name": "V²P Power 12V - 200W",
-                        "value": "49"
+                        "name": "V²A.Nano",
+                        "value": "29"
                     }
                 ]
             },
@@ -1552,12 +1560,35 @@
                 "part": "v2c-cables",
                 "yourChoice": [
                     {
-                        "name": "V²C Cables radio1",
+                        "name": "V²C.Card",
                         "value": 1
                     },
                     {
-                        "name": "V²C Cables radio 2",
+                        "name": "V²C.Mini",
                         "value": 1
+                    },
+                    {
+                        "name": "V²C.Nano",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "name": "V²P Power",
+                "url": "",
+                "part": "ac-adapter",
+                "yourChoice": [
+                    {
+                        "name": "V²P-12V-120W",
+                        "value": "15"
+                    },
+                    {
+                        "name": "V²P-ATX-250W",
+                        "value": "29"
+                    },
+                    {
+                        "name": "V²P-ATX-500W",
+                        "value": "49"
                     }
                 ]
             }
