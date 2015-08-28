@@ -19,18 +19,6 @@
                         "img": "",
                         "for": "High",
                         "value": 0
-                    },
-                    {
-                        "name": "Ultra Performance",
-                        "img": "",
-                        "for": "Ultra",
-                        "value": 0
-                    },
-                    {
-                        "name": "eXtreme Performance",
-                        "img": "",
-                        "for": "eXtreme",
-                        "value": 0
                     }
                 ]
             },

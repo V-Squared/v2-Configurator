@@ -1,41 +1,492 @@
 {
-  "Entry": [
-     "#chapter-1-section-0-Button-0",
-     "#chapter-1-section-1-Button-0",
-     "#chapter-1-section-2-Button-0",
-     "#chapter-1-section-3-Button-1",
-     "#chapter-1-section-4-Button-0",
-     "#chapter-1-section-5-Button-0",
-     "#chapter-1-section-6-Button-0",
-     "#chapter-2-section-0-Button-0",
-     "#chapter-2-section-1-Button-0",
-     "#chapter-2-section-2-Button-0",
-     "#chapter-2-section-3-Button-0",
-     "#chapter-3-section-0-Button-0",
-     "#chapter-3-section-1-Button-0",
-     "#chapter-3-section-2-Button-0",
-     "#chapter-3-section-3-Button-0",
-     "#chapter-3-section-4-Button-0",
-     "#chapter-4-section-2-Button-0"
-  ],
-  "High": [
-    "#chapter-1-section-0-Button-1",
-    "#chapter-1-section-1-Button-1",
-    "#chapter-1-section-2-Button-1",
-    "#chapter-1-section-3-Button-0",
-    "#chapter-1-section-4-Button-1",
-    "#chapter-1-section-5-Button-1",
-    "#chapter-1-section-6-Button-1",
-    "#chapter-2-section-0-Button-1",
-    "#chapter-2-section-0-Button-1",
-    "#chapter-2-section-1-Button-1",
-    "#chapter-2-section-2-Button-1",
-    "#chapter-2-section-3-Button-1",
-    "#chapter-3-section-0-Button-1",
-    "#chapter-3-section-1-Button-1",
-    "#chapter-3-section-2-Button-1",
-    "#chapter-3-section-3-Button-1",
-    "#chapter-3-section-4-Button-1",
-    "#chapter-4-section-1-Button-1"
-  ]
+  "Entry": {
+   "count":16,
+   "cost":819,
+   "thirdprtycost":390,
+   "vtcost":429,
+   "vtcount":11,
+   "thirdprtycount":5,
+   "1. Ready Configs":{
+      "cost":0,
+      "count":0,
+      "Ready Config":{
+         "lastclicked":null,
+         "cost":0,
+         "data":{
+            "Entry Level Performance":"{{choice.value}}",
+            "High Performance":"{{choice.value}}"
+         }
+      }
+   },
+   "2. ViCase":{
+      "cost":235,
+      "count":7,
+      "ViCase Size":{
+         "lastclicked":"ViCase-Tiny",
+         "cost":77,
+         "data":{
+            "None":false,
+            "ViCase-Tiny":"77",
+            "ViCase-Mini":"88",
+            "ViCase-Ultra":false
+         },
+         "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+         "lastclickedLink":"http://placekitten.com/200/300"
+      },
+      "ViCase Color":{
+         "lastclicked":"ViCase-Black",
+         "cost":0,
+         "data":{
+            "None":false,
+            "ViCase-Black":"0",
+            "ViCase-Red":"0",
+            "ViCase-Cyan":false,
+            "ViCase-Silver":false
+         },
+         "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg"
+      },
+      "ViCase Placement":{
+         "lastclicked":"ViCase-Feet",
+         "cost":9,
+         "data":{
+            "None":false,
+            "ViCase-Feet":"9",
+            "ViCase-VESA":"9",
+            "ViCase-Stand":false
+         },
+         "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Feet"
+      },
+      "ViCase Access":{
+         "lastclicked":"ViCase-Access-Plus",
+         "cost":20,
+         "data":{
+            "None":false,
+            "ViCase-Access":"20",
+            "ViCase-Access-Plus":"20"
+         },
+         "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Access-Plus"
+      },
+      "ViCase Cooler":{
+         "lastclicked":"ViCase-Cooler-SS",
+         "cost":29,
+         "data":{
+            "None":false,
+            "ViCase-Cooler-SS":"29",
+            "ViCase-Cooler-S":"39",
+            "ViCase-Cooler-M":false,
+            "ViCase-Cooler-L":false,
+            "ViCase-Cooler-XL":false
+         },
+         "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Cooler-25W"
+      },
+      "AC / DC Adapter":{
+         "lastclicked":"VÃ‚Â²P-12V-48W",
+         "cost":30,
+         "data":{
+            "None":false,
+            "VÃ‚Â²P-12V-48W":"30",
+            "VÃ‚Â²P-12V-120W":"40",
+            "VÃ‚Â²P-12V-180W":false,
+            "12V/48W-Third-Party":false,
+            "12V/120W-Third-Party":false,
+            "12V/180W-Third-Party":false
+         },
+         "lastclickedImg":"http://placehold.it/142x80?text=48W-Village"
+      },
+      "ViCase Power":{
+         "lastclicked":"VÃ‚Â²P-pATX-120W",
+         "cost":70,
+         "data":{
+            "None":false,
+            "VÃ‚Â²P-pATX-120W":"70",
+            "VÃ‚Â²P-pATX-180W":"70"
+         },
+         "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Power-120W"
+      }
+   },
+   "3. ViDock":{
+      "cost":194,
+      "count":4,
+      "ViDock":{
+         "lastclicked":"ViDock-PCIe-S",
+         "cost":149,
+         "data":{
+            "None":false,
+            "ViDock-PCIe-S":"149",
+            "ViDock-PCIe-L":"149",
+            "ViDock-GPU":false,
+            "ViDock-GPU-Cheapo":false
+         }
+      },
+      "VÃ‚Â²A Adapter":{
+         "lastclicked":"VÃ‚Â²A.Card",
+         "cost":29,
+         "data":{
+            "None":false,
+            "VÃ‚Â²A.Card":"29",
+            "VÃ‚Â²A.Nano":"29"
+         }
+      },
+      "VÃ‚Â²C Cables":{
+         "lastclicked":"VÃ‚Â²C.Card",
+         "cost":1,
+         "data":{
+            "None":false,
+            "VÃ‚Â²C.Card":"1",
+            "VÃ‚Â²C.Mini":"1",
+            "VÃ‚Â²C.Nano":false
+         }
+      },
+      "VÃ‚Â²P Power":{
+         "lastclicked":"VÃ‚Â²P-12V-120W",
+         "cost":15,
+         "data":{
+            "None":false,
+            "VÃ‚Â²P-12V-120W":"15",
+            "VÃ‚Â²P-ATX-250W (3rd Party)":"29",
+            "VÃ‚Â²P-ATX-500W (3rd Party)":false
+         }
+      }
+   },
+   "4. PC Parts":{
+      "cost":390,
+      "count":5,
+      "Motherboard":{
+         "lastclicked":"Intel MotherBoard1",
+         "cost":100,
+         "data":{
+            "None":false,
+            "Intel MotherBoard1":"100",
+            "Intel MotherBoard 2":"200",
+            "Intel MotherBoard 3":false,
+            "AMD Motherboard 1":false,
+            "AMD Motherboard 2":false,
+            "AMD Motherboard 3":false
+         },
+         "lastclickedImg":"images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png"
+      },
+      "Processor(CPU)":{
+         "lastclicked":"Intel Celeron G1840",
+         "cost":50,
+         "data":{
+            "None":false,
+            "Intel Celeron G1840":"50",
+            "Intel Pentium G3240":"89",
+            "Intel Core i3-4350T":false,
+            "Intel Core i5-4690T":false,
+            "Intel Core i7-4790T":false,
+            "AMD Processor 1":false,
+            "AMD Processor 2":false,
+            "AMD Processor 3":false
+         },
+         "lastclickedImg":"images/expansion/config/Third-party/Intel-CPU-Celeron.png"
+      },
+      "Memory (RAM)":{
+         "lastclicked":"Intel 2 GB DDR3",
+         "cost":60,
+         "data":{
+            "None":false,
+            "Intel 2 GB DDR3":"60",
+            "Intel 4 GB DDR3":"120",
+            "Intel 8 GB DDR3":false,
+            "Intel 16 GB DDR3":false,
+            "AMD 2 GB DDR3":false,
+            "AMD 4 GB DDR3":false,
+            "AMD 8 GB DDR3":false,
+            "AMD 16 GB DDR3":false
+         },
+         "lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"
+      },
+      "Boot Disk":{
+         "lastclicked":"Samsung SSD 840 120 GB",
+         "cost":120,
+         "data":{
+            "None":false,
+            "Samsung SSD 840 120 GB":"120",
+            "Samsung SSD 840 250 GB":"250",
+            "Samsung SSD 840 500 GB":false,
+            "Samsung SSD 840 1TB GB":false
+         },
+         "lastclickedImg":"images/expansion/config/Third-party/mSATA.jpg"
+      },
+      "Data Disk (RAID)":{
+         "lastclicked":"HDD 2.5' 500 GB",
+         "cost":60,
+         "data":{
+            "None":false,
+            "HDD 2.5' 500 GB":"60",
+            "HDD 2.5' 1000 GB":"100",
+            "Samsung SSD 850 EVO 120GB":false,
+            "Samsung SSD 850 EVO 250GB":false,
+            "Samsung SSD 850 EVO 500GB":false,
+            "Samsung SSD 850 EVO 1000GB":false
+         },
+         "lastclickedImg":"images/expansion/config/Third-party/SSD.jpg"
+      }
+   },
+   "5. Accessories":{
+      "cost":0,
+      "count":0,
+      "OS":{
+         "lastclicked":null,
+         "cost":0,
+         "data":{
+            "None":false,
+            "Windows 7 Home Premium 150.00 32/64":false,
+            "Windows 7 Professional 200.00 32/64":false,
+            "Windows 8.1 32/64":false,
+            "Windows 8.1 Pro 32/64":false,
+            "Windows 10":false,
+            "free - Linux Ubuntu 14.04 32/64":false,
+            "free - Linux Ubuntu 15.04 32/64":false
+         }
+      }
+   }
+    },
+  "High": {
+    "count":16,
+    "cost":99999,
+    "thirdprtycost":390,
+    "vtcost":429,
+    "vtcount":11,
+    "thirdprtycount":5,
+    "1. Ready Configs":{
+       "cost":0,
+       "count":0,
+       "Ready Config":{
+          "lastclicked":null,
+          "cost":0,
+          "data":{
+             "Entry Level Performance":"{choice.value}}",
+             "High Performance":"{choice.value}}",
+             "Ultra Performance":false,
+             "eXtreme Performance":false
+          }
+       }
+    },
+    "2. ViCase":{
+       "cost":235,
+       "count":7,
+       "ViCase Size":{
+          "lastclicked":"ViCase-Tiny",
+          "cost":77,
+          "data":{
+             "None":false,
+             "ViCase-Tiny":"77",
+             "ViCase-Mini":"88",
+             "ViCase-Ultra":false
+          },
+          "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+          "lastclickedLink":"http://placekitten.com/200/300"
+       },
+       "ViCase Color":{
+          "lastclicked":"ViCase-Black",
+          "cost":0,
+          "data":{
+             "None":false,
+             "ViCase-Black":"0",
+             "ViCase-Red":"0",
+             "ViCase-Cyan":false,
+             "ViCase-Silver":false
+          },
+          "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg"
+       },
+       "ViCase Placement":{
+          "lastclicked":"ViCase-Feet",
+          "cost":9,
+          "data":{
+             "None":false,
+             "ViCase-Feet":"9",
+             "ViCase-VESA":"9",
+             "ViCase-Stand":false
+          },
+          "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Feet"
+       },
+       "ViCase Access":{
+          "lastclicked":"ViCase-Access-Plus",
+          "cost":20,
+          "data":{
+             "None":false,
+             "ViCase-Access":"20",
+             "ViCase-Access-Plus":"20"
+          },
+          "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Access-Plus"
+       },
+       "ViCase Cooler":{
+          "lastclicked":"ViCase-Cooler-SS",
+          "cost":29,
+          "data":{
+             "None":false,
+             "ViCase-Cooler-SS":"29",
+             "ViCase-Cooler-S":"39",
+             "ViCase-Cooler-M":false,
+             "ViCase-Cooler-L":false,
+             "ViCase-Cooler-XL":false
+          },
+          "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Cooler-25W"
+       },
+       "AC / DC Adapter":{
+          "lastclicked":"VÂ²P-12V-48W",
+          "cost":30,
+          "data":{
+             "None":false,
+             "VÂ²P-12V-48W":"30",
+             "VÂ²P-12V-120W":"40",
+             "VÂ²P-12V-180W":false,
+             "12V/48W-Third-Party":false,
+             "12V/120W-Third-Party":false,
+             "12V/180W-Third-Party":false
+          },
+          "lastclickedImg":"http://placehold.it/142x80?text=48W-Village"
+       },
+       "ViCase Power":{
+          "lastclicked":"VÂ²P-pATX-120W",
+          "cost":70,
+          "data":{
+             "None":false,
+             "VÂ²P-pATX-120W":"70",
+             "VÂ²P-pATX-180W":"70"
+          },
+          "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Power-120W"
+       }
+    },
+    "3. ViDock":{
+       "cost":194,
+       "count":4,
+       "ViDock":{
+          "lastclicked":"ViDock-PCIe-S",
+          "cost":149,
+          "data":{
+             "None":false,
+             "ViDock-PCIe-S":"149",
+             "ViDock-PCIe-L":"149",
+             "ViDock-GPU":false,
+             "ViDock-GPU-Cheapo":false
+          }
+       },
+       "VÂ²A Adapter":{
+          "lastclicked":"VÂ²A.Card",
+          "cost":29,
+          "data":{
+             "None":false,
+             "VÂ²A.Card":"29",
+             "VÂ²A.Nano":"29"
+          }
+       },
+       "VÂ²C Cables":{
+          "lastclicked":"VÂ²C.Card",
+          "cost":1,
+          "data":{
+             "None":false,
+             "VÂ²C.Card":"1",
+             "VÂ²C.Mini":"1",
+             "VÂ²C.Nano":false
+          }
+       },
+       "VÂ²P Power":{
+          "lastclicked":"VÂ²P-12V-120W",
+          "cost":15,
+          "data":{
+             "None":false,
+             "VÂ²P-12V-120W":"15",
+             "VÂ²P-ATX-250W (3rd Party)":"29",
+             "VÂ²P-ATX-500W (3rd Party)":false
+          }
+       }
+    },
+    "4. PC Parts":{
+       "cost":390,
+       "count":5,
+       "Motherboard":{
+          "lastclicked":"Intel MotherBoard1",
+          "cost":100,
+          "data":{
+             "None":false,
+             "Intel MotherBoard1":"100",
+             "Intel MotherBoard 2":"200",
+             "Intel MotherBoard 3":false,
+             "AMD Motherboard 1":false,
+             "AMD Motherboard 2":false,
+             "AMD Motherboard 3":false
+          },
+          "lastclickedImg":"images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png"
+       },
+       "Processor(CPU)":{
+          "lastclicked":"Intel Celeron G1840",
+          "cost":50,
+          "data":{
+             "None":false,
+             "Intel Celeron G1840":"50",
+             "Intel Pentium G3240":"89",
+             "Intel Core i3-4350T":false,
+             "Intel Core i5-4690T":false,
+             "Intel Core i7-4790T":false,
+             "AMD Processor 1":false,
+             "AMD Processor 2":false,
+             "AMD Processor 3":false
+          },
+          "lastclickedImg":"images/expansion/config/Third-party/Intel-CPU-Celeron.png"
+       },
+       "Memory (RAM)":{
+          "lastclicked":"Intel 2 GB DDR3",
+          "cost":60,
+          "data":{
+             "None":false,
+             "Intel 2 GB DDR3":"60",
+             "Intel 4 GB DDR3":"120",
+             "Intel 8 GB DDR3":false,
+             "Intel 16 GB DDR3":false,
+             "AMD 2 GB DDR3":false,
+             "AMD 4 GB DDR3":false,
+             "AMD 8 GB DDR3":false,
+             "AMD 16 GB DDR3":false
+          },
+          "lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"
+       },
+       "Boot Disk":{
+          "lastclicked":"Samsung SSD 840 120 GB",
+          "cost":120,
+          "data":{
+             "None":false,
+             "Samsung SSD 840 120 GB":"120",
+             "Samsung SSD 840 250 GB":"250",
+             "Samsung SSD 840 500 GB":false,
+             "Samsung SSD 840 1TB GB":false
+          },
+          "lastclickedImg":"images/expansion/config/Third-party/mSATA.jpg"
+       },
+       "Data Disk (RAID)":{
+          "lastclicked":"HDD 2.5' 500 GB",
+          "cost":60,
+          "data":{
+             "None":false,
+             "HDD 2.5' 500 GB":"60",
+             "HDD 2.5' 1000 GB":"100",
+             "Samsung SSD 850 EVO 120GB":false,
+             "Samsung SSD 850 EVO 250GB":false,
+             "Samsung SSD 850 EVO 500GB":false,
+             "Samsung SSD 850 EVO 1000GB":false
+          },
+          "lastclickedImg":"images/expansion/config/Third-party/SSD.jpg"
+       }
+    },
+    "5. Accessories":{
+       "cost":0,
+       "count":0,
+       "OS":{
+          "lastclicked":null,
+          "cost":0,
+          "data":{
+             "None":false,
+             "Windows 7 Home Premium 150.00 32/64":false,
+             "Windows 7 Professional 200.00 32/64":false,
+             "Windows 8.1 32/64":false,
+             "Windows 8.1 Pro 32/64":false,
+             "Windows 10":false,
+             "free - Linux Ubuntu 14.04 32/64":false,
+             "free - Linux Ubuntu 15.04 32/64":false
+          }
+       }
+    }
+  }
 }
