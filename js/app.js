@@ -114,6 +114,7 @@ app.controller('myCtrl', function($scope, $http) {
                 var runitem = $scope.ready_config_High;
             }
             $scope.cart = runitem;
+            //$($event.currentTarget).addClass('ng-valid-parse');
             console.log($scope.cart);
             //$($event.currentTarget).prop('checked','true');
             /*angular.forEach(runitem, function(value, index) {

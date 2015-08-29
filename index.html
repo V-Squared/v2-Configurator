@@ -64,7 +64,7 @@
                                             <div ng-if="Chapter.name=='1. Ready Configs'">
                                                 <div ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
                                                     <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' fors="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' fors="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                                 </div>
                                                 <div ng-if="Section.name == 'Save and Load My Config'">
                                                     <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button>
