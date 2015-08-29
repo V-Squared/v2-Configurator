@@ -108,17 +108,21 @@ app.controller('myCtrl', function($scope, $http) {
 
     $scope.readyConfig = function($event) {
 
-           if ($($event.currentTarget).attr('for') == "Entry") {
+           if ($($event.currentTarget).attr('fors') == "Entry") {
                 var runitem = $scope.ready_config_Entry;
-            } else if ($($event.currentTarget).attr('for') == "High") {
+            } else if ($($event.currentTarget).attr('fors') == "High") {
                 var runitem = $scope.ready_config_High;
             }
-            angular.forEach(runitem, function(value, index) {
+            $scope.cart = runitem;
+            //$($event.currentTarget).addClass('ng-valid-parse');
+            console.log($scope.cart);
+            //$($event.currentTarget).prop('checked','true');
+            /*angular.forEach(runitem, function(value, index) {
                 // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
               setTimeout(function() {
               $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
                 }, 0, false);
-            });
+            });*/
         }
 
     $scope.initIndex = function(chapterIndex, SectionIndex, values) {
