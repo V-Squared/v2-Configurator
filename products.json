@@ -12,13 +12,13 @@
                         "name": "Entry Level Performance",
                         "img": "",
                         "for": "Entry",
-                        "value": 1
+                        "value": 0
                     },
                     {
                         "name": "High Performance",
                         "img": "",
                         "for": "High",
-                        "value": 1
+                        "value": 0
                     }
                 ]
             },
