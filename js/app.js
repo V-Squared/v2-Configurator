@@ -10,12 +10,10 @@ app.directive('navbar',function() {
 
 app.directive('jumbotron',function() {
     return {
-        restrict: "E",
         replace: true,
         templateUrl:"templates/jumbotron.html"
     }
 });
-
 
 app.directive('buttondir',function() {
     return {
@@ -101,16 +99,10 @@ app.controller('myCtrl', function($scope, $http) {
     }
 
     $scope.makeJSON = function() {
-        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
+        var something = window.open("data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify($scope.cart)),
             "_blank");
         something.focus();
     }
-	$scope.checkForZero = function(val) {
-     if(val==0){
-       return "zero";
-     }
-     return val;
-   }
     $scope.readyConfig = function($event) {
 
            if ($($event.currentTarget).attr('fors') == "Entry") {
@@ -147,12 +139,14 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][SectionIndex] = {};
             $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
             $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
+          
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
+            $scope.cart[chapterIndex][SectionIndex]["data"]['None'] = null;
         }
         $scope.cart[chapterIndex][SectionIndex]["data"][values] = false;
-
+		
 
         //console.log($scope.cart);
     }
@@ -174,9 +168,7 @@ app.controller('myCtrl', function($scope, $http) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
     $scope.radioClick = function(button, price, img, link, chapter, section, Item) {
-      if(price=="zero"){
-        price=0;
-      }
+      
         //console.log(arguments);
         cart = $scope.cart,
         chap = $scope.cart[chapter],

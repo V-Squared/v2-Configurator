@@ -64,7 +64,7 @@
                                             <div ng-if="Chapter.name=='1. Ready Configs'">
                                                 <div ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
                                                     <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' fors="{{choice.for}}" imgAttr="{{choice.img}}" value="{{checkForZero(choice.value)}}"  ><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' fors="{{choice.for}}" imgAttr="{{choice.img}}"  ><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                                 </div>
                                                 <div ng-if="Section.name == 'Save and Load My Config'">
                                                     <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button>
@@ -77,11 +77,11 @@
                                             <!--Normal Choice-->
                                             <div ng-if="Chapter.name!='1. Ready Configs'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
                                                 <label>
-                                                    <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="checked=false;initIndex(Chapter.name,Section.name,choice.name)"    ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" value="{{checkForZero(choice.value)}}" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" ><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="checked=false;initIndex(Chapter.name,Section.name,choice.name)"    ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" ><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
                                             <div>
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None')" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,0,null,null,Chapter.name,Section.name,'None')" class="None" name="{{Chapter.name + Section.name}}" ng-init="checked=true"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-model="cart[Chapter.name][Section.name]['data']['None']" ng-click="radioClick(this,0,null,null,Chapter.name,Section.name,'None')" class="None" name="{{Chapter.name + Section.name}}"   ><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>
