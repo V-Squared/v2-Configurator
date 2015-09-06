@@ -1,1924 +1,2153 @@
-[
-    {
-        "name": "1. Ready Configs",
-        "data": [
-            {
-                "name": "Ready Config",
-                "url": "",
-                "part": "vicase-performance",
-                "slide": "slide-performance",
-                "yourChoice": [
-                    {
-                        "name": "Entry Level Performance",
-                        "img": "",
-                        "for": "Entry",
-                        "value": 1
-                    },
-                    {
-                        "name": "High Performance",
-                        "img": "",
-                        "for": "High",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "name":"Save and Load My Config",
-                "url":"",
-                "slide":"save-config"
-            }
+﻿[
+  {
+    "name": "1. Ready Configs",
+    "data": [
+      {
+        "name": "Ready Config",
+        "url": "",
+        "part": "vicase-performance",
+        "slide": "slide-performance",
+        "yourChoice": [
+          {
+            "name": "Entry Level Performance",
+            "img": "",
+            "for": "Entry",
+            "value": 1
+          },
+          {
+            "name": "High Performance",
+            "img": "",
+            "for": "High",
+            "value": 0
+          }
         ]
-    },
-    {
-        "name": "2. ViCase",
-        "data": [
-            {
-                "name": "ViCase Size",
-                "url": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
-                "part": "case-size",
-                "slide": "slide1",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Tiny",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
-                        "link": "http://placekitten.com/200/300",
-                        "Child_Name": [
-                            "#chapter-1-section-3-Button-0"
-                        ],
-                        "value": 77
-                    },
-                    {
-                        "name": "ViCase-Mini",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
-                        "value": 88
-                    },
-                    {
-                        "name": "ViCase-Ultra",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
-                        "link": "http://placekitten.com/200/300",
-                        "value": 99
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "Feature",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "Tiny"
-                    },
-                    {
-                        "name": "Mini"
-                    },
-                    {
-                        "name": "Small"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "Size [Liters]",
-                        "name2": "2L",
-                        "name3": "4L",
-                        "name4": "6L"
-                    },
-                    {
-                        "title": "Form Factor",
-                        "name2": "Mini-ITX",
-                        "name3": "Mini-ITX",
-                        "name4": "Mini-ITX"
-                    },
-                    {
-                        "title": "Modular Expansion",
-                        "name2": "yes",
-                        "name3": "yes",
-                        "name4": "yes"
-                    },
-                    {
-                        "title": "ViCase-Access Plus",
-                        "name2": "yes",
-                        "name3": "yes",
-                        "name4": "yes"
-                    },
-                    {
-                        "title": "ViCase-Access",
-                        "name2": "no",
-                        "name3": "yes",
-                        "name4": "yes"
-                    },
-                    {
-                        "title": "MAX CPU Power",
-                        "name2": "35W",
-                        "name3": "65W",
-                        "name4": "88W"
-                    },
-                    {
-                        "title": "mSATA Disk",
-                        "name2": "1",
-                        "name3": "Up to 2",
-                        "name4": "Up to 2"
-                    },
-                    {
-                        "title": "2.5'",
-                        "name2": "-",
-                        "name3": "up to 2",
-                        "name4": "up to 8"
-                    },
-                    {
-                        "title": "3.5'",
-                        "name2": "-",
-                        "name3": "-",
-                        "name4": "up tp 3"
-                    },
-                    {
-                        "title": "PCIe Slot",
-                        "name2": "-",
-                        "name3": "-",
-                        "name4": "Low Profile"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "ViCase Tiny: When space is premium",
-                        "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display on the table, consider ViCase Mini. It is taller, but you would not be able to see that anyways and for the same money you will get more options."
-                    },
-                    {
-                        "heading": "ViCase Mini: The default choice",
-                        "content": "This is the standard housing that gets most jobs done. With 4L it is still tiny, yet offers lots of upgradeability options. ViCase Mini supports up to i7 quad core and two 2.5i drives. More than enough for most use cases."
-                    },
-                    {
-                        "heading": "ViCase Ultra: The powerhouse",
-                        "content": "For the ultimate performance ViCase Ultra offers all of ViCase Mini with the following Step-Up Features"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "ThreeCases-CokeCan-640x480.jpg",
-                        "title": "Three Cases CokeCan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Black-Front.jpg",
-                        "title": "ViCase Mini Black Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Rear-Front.jpg",
-                        "title": "ViCase-Mini-Rear-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Color-Black-640x480.jpg",
-                        "title": "ViCase-Color-Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Color-Cyan-640x480.jpg",
-                        "title": "Vicase Color Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Color-Red-640x480.jpg",
-                        "title": "Vicase Color Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Color-Silver-640x480.jpg",
-                        "title": "Vicase Color Silver",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Assy-Step1-640x480.jpg",
-                        "title": "Vicase Mini Assy Step1",
-                        "description": "This is description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Assy-Step2-640x480.jpg",
-                        "title": "Vicase Mini Assy Step2",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Assy-Step3-640x480.jpg",
-                        "title": "Vicase Mini Assy Step3",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Assy-Step4-640x480.jpg",
-                        "title": "Vicase Mini Assy Step4",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Behind-Stand-Front-640x480.jpg",
-                        "title": "Vicase Mini Behind Stand Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Behind-VESA-640x480.jpg",
-                        "title": "Viccase Mini Behind VESA",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Behind-VESA-Front-640x480.jpg",
-                        "title": "ViCase-Mini-Behind-VESA-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Behind-VESA-v2-640x480.jpg",
-                        "title": "ViCase-Mini-Behind-VESA-v2",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Black-Front.jpg",
-                        "title": "ViCase-Mini-Black-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-CokeCan-640x480.jpg",
-                        "title": "ViCase-Mini-CokeCan-640x480",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Display-Standard-640x480.jpg",
-                        "title": "ViCase-Mini-Display-Standard",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Mini-Rear-Front.jpg",
-                        "title": "ViCase-Mini-Rear-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-Behind-Stand-640x480.jpg",
-                        "title": "ViCase-Tiny-Behind-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-Black-Front-640x480.jpg",
-                        "title": "ViCase-Tiny-Black-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-Black-Rear-640x480.jpg",
-                        "title": "ViCase-Tiny-Black-Rear",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-CokeCan-640x480.jpg",
-                        "title": "ViCase-Tiny-CokeCan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-Display-Standard-640x480.jpg",
-                        "title": "ViCase-Tiny-Display-Standard",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Tiny-Side-Stand-640x480.jpg",
-                        "title": "ViCase-Tiny-Side-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Ultra-Behind-Stand-640x480.jpg",
-                        "title": "ViCase-Ultra-Behind-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Ultra-Behind-VESA-640x480.jpg",
-                        "title": "ViCase-Ultra-Behind-VESA",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "ViCase-Ultra-Black-Front-640x480.jpg",
-                        "title": "ViCase-Ultra-Black-Front",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "ViCase Tiny",
-                                "class": "active"
-                            },
-                            {
-                                "name": "ViCase Mini"
-                            },
-                            {
-                                "name": "ViCase Ultra"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "Heading No.1",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Motherboard",
-                                "name2": "Mini-ITX"
-                            },
-                            {
-                                "name1": "CPU Cooler",
-                                "name2": "Height: 36 mm"
-                            },
-                            {
-                                "name1": "Power Button",
-                                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
-                            },
-                            {
-                                "name1": "DC Input",
-                                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
-                            },
-                            {
-                                "name1": "Material",
-                                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
-                            },
-                            {
-                                "name1": "Finish",
-                                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
-                            },
-                            {
-                                "name1": "Size [mm]",
-                                "name2": "191 (width) x 205 (depth) x 60 (height)"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1 kg"
-                            },
-                            {
-                                "name1": "Compatible Mounting Option",
-                                "name2": "ViCase-VESA and ViCase-Stand 1"
-                            },
-                            {
-                                "name1": "Heading No.2",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Compatible ViCase-Access",
-                                "name2": "Max CPU Thermal Design Power (TDP)"
-                            },
-                            {
-                                "name1": "Max CPU Cooler Height",
-                                "name2": "36 mm"
-                            },
-                            {
-                                "name1": "Modular (PCIe) Expansion",
-                                "name2": "Yes, using V²A.Nano and ViDock G6"
-                            },
-                            {
-                                "name1": "Heading No.3",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Space for Disks",
-                                "name2": "One mSATA SSD also known as Mini-SATA. Necessary mSATA Adapter, SATA Data Cable and SATA Power cable are included."
-                            },
-                            {
-                                "name1": "Disk Shock Absorption System",
-                                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
-                            },
-                            {
-                                "name1": "Disk Cooling",
-                                "name2": "mSATA mounting comes with thermal conductive double faced taped sponge. Heat of mSATA drive is transferred to Aluminum bottom cover that doubles as heat sink."
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "Heading No.1",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Motherboard",
-                                "name2": "Mini-ITX"
-                            },
-                            {
-                                "name1": "CPU Cooler",
-                                "name2": "Height: 75"
-                            },
-                            {
-                                "name1": "Power Button",
-                                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
-                            },
-                            {
-                                "name1": "DC Input",
-                                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
-                            },
-                            {
-                                "name1": "Heading No.2",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Audio Panel",
-                                "name2": "Stereo Audio Out and Microphone Audio Input. Connected to Front Audio Panel on Motherboard"
-                            },
-                            {
-                                "name1": "ViCase Access Port",
-                                "name2": "Takes the connector of ViCase Access option"
-                            },
-                            {
-                                "name1": "Antenna Ports",
-                                "name2": "If your mainboard supports WiFi these two holes can take the WiFi Antennae."
-                            },
-                            {
-                                "name1": "Kensington Lock",
-                                "name2": "Compatible slot to secure the computer."
-                            },
-                            {
-                                "name1": "Material",
-                                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
-                            },
-                            {
-                                "name1": "Finish",
-                                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
-                            },
-                            {
-                                "name1": "Heading No.3",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Size [mm]",
-                                "name2": "191 (width) x 205 (depth) x 103 (height)"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1 kg"
-                            },
-                            {
-                                "name1": "Compatible Mounting Option",
-                                "name2": "ViCase-VESA and ViCase-Stand 2"
-                            },
-                            {
-                                "name1": "Compatible ViCase-Access",
-                                "name2": "ViCase-Access and ViCase-Access Plus"
-                            },
-                            {
-                                "name1": "Max CPU Thermal Design Power (TDP)",
-                                "name2": "65W"
-                            },
-                            {
-                                "name1": "Heading No.4",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Max CPU Cooler Height",
-                                "name2": "57 mm"
-                            },
-                            {
-                                "name1": "PCIe Slot",
-                                "name2": "Low Profile Height, Single Bracket width"
-                            },
-                            {
-                                "name1": "Modular (PCIe) Expansion",
-                                "name2": "Yes, both V²A Adapter with ViDock Nano G2 ... G6 and V²A.Nano with ViDock G6"
-                            },
-                            {
-                                "name1": "Space for Disks",
-                                "name2": "2 Bays 2.5\" Each bay can be populated either with mSATA Adapter or 2.5\" Disk. Two SATA Data and two SATA Power Cables included. mSATA Adapter is optional."
-                            },
-                            {
-                                "name1": "Disk Shock Absorption System",
-                                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
-                            },
-                            {
-                                "name1": "Disk Cooling",
-                                "name2": "Case comes with thermal conductive sponge that transfers heat of disks to Aluminum bottom cover that doubles as heat sink."
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "Heading No.1",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Motherboard",
-                                "name2": "Mini-ITX"
-                            },
-                            {
-                                "name1": "CPU Cooler",
-                                "name2": "Height: 75 mm"
-                            },
-                            {
-                                "name1": "Power Button",
-                                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
-                            },
-                            {
-                                "name1": "DC Input",
-                                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
-                            },
-                            {
-                                "name1": "Audio Panel",
-                                "name2": "Stereo Audio Out and Microphone Audio Input. Connected to Front Audio Panel on Motherboard"
-                            },
-                            {
-                                "name1": "ViCase Access Port",
-                                "name2": "Takes the connector of ViCase Access option"
-                            },
-                            {
-                                "name1": "Antenna Ports",
-                                "name2": "If your mainboard supports WiFi these two holes can take the WiFi Antennae."
-                            },
-                            {
-                                "name1": "Kensington Lock",
-                                "name2": "Compatible slot to secure the computer."
-                            },
-                            {
-                                "name1": "Heading No.2",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Material",
-                                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
-                            },
-                            {
-                                "name1": "Finish",
-                                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
-                            },
-                            {
-                                "name1": "Size [mm]",
-                                "name2": "191 (width) x 205 (depth) x 60 (height)"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1 kg"
-                            },
-                            {
-                                "name1": "Compatible Mounting Option",
-                                "name2": "ViCase-VESA and ViCase-Stand"
-                            },
-                            {
-                                "name1": "Compatible ViCase-Access",
-                                "name2": "ViCase-Access Plus"
-                            },
-                            {
-                                "name1": "Max CPU Thermal Design Power (TDP)",
-                                "name2": "88W"
-                            },
-                            {
-                                "name1": "Heading No.3",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Max CPU Cooler Height",
-                                "name2": "57 mm"
-                            },
-                            {
-                                "name1": "PCIe Slot",
-                                "name2": "Low Profile Height, Triple Bracket width"
-                            },
-                            {
-                                "name1": "Modular (PCIe) Expansion",
-                                "name2": "Yes, both V²A Adapter with ViDock Nano G2 ... G6 and V²A.Nano with ViDock G6"
-                            },
-                            {
-                                "name1": "Space for Disks",
-                                "name2": "Maximum number of 8 Bays. Each of the two bays under the Motherboard can be populated with either mSATA Adapter or 2.5\" Disks.Two optional Disk Carrier are available. The 2.5\" Disk Carrier can take up to 6 Disks. The 3.5\" Disk carrier supports up to 3 disks."
-                            },
-                            {
-                                "name1": "Disk Shock Absorption System",
-                                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
-                            },
-                            {
-                                "name1": "Disk Cooling",
-                                "name2": "The two bay systems have two methods of cooling: 1) The disks under motherboard are use thermal conductive sponge that transfers heat of disks to Aluminum bottom cover that doubles as heat sink. 2) The Disk Carrier System comes with its own Fan and airflow guides. Fan speed can be regulated and monitored."
-                            }
-                        ]
-                    }
-                ],
-                "Logic": [
-                    {}
-                ]
-            },
-            {
-                "name": "ViCase Color",
-                "url": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
-                "part": "vicase-color",
-                "slide": "slide2",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Black",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
-                        "value": 0,
-                        "class": "No-None"
-                    },
-                    {
-                        "name": "ViCase-Red",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Silver-142x80.jpg",
-                        "value": 0,
-                        "class": "No-None"
-                    },
-                    {
-                        "name": "ViCase-Cyan",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg",
-                        "value": 0,
-                        "class": "No-None"
-                    },
-                    {
-                        "name": "ViCase-Silver",
-                        "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Red-142x80.jpg",
-                        "value": 0,
-                        "class": "No-None"
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "color-title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "color-title2"
-                    },
-                    {
-                        "name": "color-title3"
-                    },
-                    {
-                        "name": "color-title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "color row 1",
-                        "name2": "color name2",
-                        "name3": "color name3",
-                        "name4": "color name4"
-                    },
-                    {
-                        "title": "color row 2",
-                        "name2": "color name2",
-                        "name3": "color name3",
-                        "name4": "color name4"
-                    },
-                    {
-                        "title": "color row 3",
-                        "name2": "color name2",
-                        "name3": "color name3",
-                        "name4": "color name4"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "Color",
-                        "content": "Color text"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Color-Black.jpg",
-                        "title": "Color Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Color-Cyan.jpg",
-                        "title": "Color Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Color-Red.jpg",
-                        "title": "Color Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Color-Silver.jpg",
-                        "title": "Color Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "color button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "color button2"
-                            },
-                            {
-                                "name": "color button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            },
-                            {
-                                "name1": "color name1",
-                                "name2": "color name2"
-                            }
-                        ]
-                    }
-                ],
-                "Logic": {
-                    "": ""
-                }
-            },
-            {
-                "name": "ViCase Placement",
-                "url": "",
-                "part": "vicase-placement",
-                "slide": "slide3",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Feet",
-                        "img": "http://placehold.it/142x80?text=ViCase-Feet",
-                        "value": 9
-                    },
-                    {
-                        "name": "ViCase-VESA",
-                        "img": "images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg",
-                        "value": 9
-                    },
-                    {
-                        "name": "ViCase-Stand",
-                        "img": "images/expansion/config/ViCase/ViCase-Tiny-Side-Stand-640x480.jpg",
-                        "value": 9
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "placement title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "placement title2"
-                    },
-                    {
-                        "name": "placement title3"
-                    },
-                    {
-                        "name": "placement title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "placement row 1",
-                        "name2": "placement name2",
-                        "name3": "placement name3",
-                        "name4": "placement name4"
-                    },
-                    {
-                        "title": "placement row 2",
-                        "name2": "placement name2",
-                        "name3": "placement name3",
-                        "name4": "placement name4"
-                    },
-                    {
-                        "title": "placement row 3",
-                        "name2": "placement name2",
-                        "name3": "placement name3",
-                        "name4": "placement name4"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "placement",
-                        "content": "placement"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Placement-Black.jpg",
-                        "title": "Placement Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Placement-Cyan.jpg",
-                        "title": "Placement Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Placement-red.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Placement-Silver.jpg",
-                        "title": "Placement Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "placement button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "placement button2"
-                            },
-                            {
-                                "name": "placement button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            },
-                            {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
-                            }
-                        ]
-                    }
-                ],
-                "Logic": {}
-            },
-            {
-                "name": "ViCase Access",
-                "url": "",
-                "part": "vicase-access",
-                "slide": "slide4",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Access",
-                        "img": "http://placehold.it/142x80?text=ViCase-Access",
-                        "value": 20
-                    },
-                    {
-                        "name": "ViCase-Access-Plus",
-                        "img": "http://placehold.it/142x80?text=ViCase-Access-Plus",
-                        "value": 20
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "access title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "access title2"
-                    },
-                    {
-                        "name": "access title3"
-                    },
-                    {
-                        "name": "access title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "access row 1",
-                        "name2": "access name2",
-                        "name3": "access name3",
-                        "name4": "access name4"
-                    },
-                    {
-                        "title": "access row 2",
-                        "name2": "access name2",
-                        "name3": "access name3",
-                        "name4": "access name4"
-                    },
-                    {
-                        "title": "access row 3",
-                        "name2": "access name2",
-                        "name3": "access name3",
-                        "name4": "access name4"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "Access",
-                        "content": "access"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Access-Black.jpg",
-                        "title": "Access Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Access-Cyan.jpg",
-                        "title": "Access Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Access-red.jpg",
-                        "title": "Access Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Access-Silver.jpg",
-                        "title": "Access Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "access button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "access button2"
-                            },
-                            {
-                                "name": "access button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ]
-                    }
-                ],
-                "Logic": {}
-            },
-            {
-                "name": "ViCase Cooler",
-                "url": "",
-                "part": "cooler",
-                "slide": "slide6",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Cooler-SS",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-25W",
-                        "value": 29
-                    },
-                    {
-                        "name": "ViCase-Cooler-S",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-65W",
-                        "value": 39
-                    },
-                    {
-                        "name":"ViCase-Cooler-M",
-                        "img":"",
-                        "value":29
-                    },
-                    {
-                        "name":"ViCase-Cooler-L",
-                        "img":"",
-                        "value":39
-                    },
-                    {
-                        "name":"ViCase-Cooler-XL",
-                        "img":"",
-                        "value":29
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "cooler title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "cooler title2"
-                    },
-                    {
-                        "name": "cooler title3"
-                    },
-                    {
-                        "name": "cooler title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "cooler row1",
-                        "name2": "cooler data1",
-                        "name3": "cooler data2",
-                        "name4": "cooler data3"
-                    },
-                    {
-                        "title": "cooler row2",
-                        "name2": "cooler data1",
-                        "name3": "cooler data2",
-                        "name4": "cooler data3"
-                    },
-                    {
-                        "title": "cooler row2",
-                        "name2": "cooler data1",
-                        "name3": "cooler data2",
-                        "name4": "cooler data3"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "Cooler",
-                        "content": "cooler"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Cooler-Black.jpg",
-                        "title": "Cooler Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Cooler-Cyan.jpg",
-                        "title": "Cooler Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Cooler-Red.jpg",
-                        "title": "Cooler Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Cooler-Silver.jpg",
-                        "title": "Cooler Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "cooler button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "cooler button2"
-                            },
-                            {
-                                "name": "cooler button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AC / DC Adapter",
-                "url": "",
-                "part": "AC-DC_Adapter",
-                "slide": "slide7",
-                "yourChoice": [
-                    {
-                        "name": "V²P-12V-48W",
-                        "img": "http://placehold.it/142x80?text=48W-Village",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-1"
-                        ],
-                        "value": 30
-                    },
-                    {
-                        "name": "V²P-12V-120W",
-                        "img": "http://placehold.it/142x80?text=120W-Village",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-1"
-                        ],
-                        "value": 40
-                    },
-                    {
-                        "name": "V²P-12V-180W",
-                        "img": "http://placehold.it/142x80?text=180W-Village",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-0"
-                        ],
-                        "value": 50
-                    },
-                    {
-                        "name": "12V/48W-Third-Party",
-                        "img": "http://placehold.it/142x80?text=148W-Third-Party",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-1"
-                        ],
-                        "value": 30
-                    },
-                    {
-                        "name": "12V/120W-Third-Party",
-                        "img": "http://placehold.it/142x80?text=1200W-Third-Party",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-1"
-                        ],
-                        "value": 40
-                    },
-                    {
-                        "name": "12V/180W-Third-Party",
-                        "img": "http://placehold.it/142x80?text=180W-Third-Party",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-0"
-                        ],
-                        "value": 40
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "Adapter title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "Adapter title2"
-                    },
-                    {
-                        "name": "Adapter title3"
-                    },
-                    {
-                        "name": "Adapter title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "adapter row1",
-                        "name2": "adapter data1",
-                        "name3": "adapter data2",
-                        "name4": "adapter data3"
-                    },
-                    {
-                        "title": "adapter row2",
-                        "name2": "adapter data1",
-                        "name3": "adapter data2",
-                        "name4": "adapter data3"
-                    },
-                    {
-                        "title": "adapter row2",
-                        "name2": "adapter data1",
-                        "name3": "adapter data2",
-                        "name4": "adapter data3"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "Adapter",
-                        "content": "Adapter"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Adapter-Black.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Adapter-Cyan.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Adapter-Red.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Adapter-Silver.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "adapter button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "adapter button2"
-                            },
-                            {
-                                "name": "adapter button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ]
-                    }
-                ],
-                "Logic": {}
-            },
-            {
-                "name": "ViCase Power",
-                "url": "",
-                "part": "vicase-power",
-                "slide": "slide5",
-                "yourChoice": [
-                    {
-                        "name": "V²P-pATX-120W",
-                        "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
-                        "value": 70
-                    },
-                    {
-                        "name": "V²P-pATX-180W",
-                        "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
-                        "value": 70
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "power title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "power title2"
-                    },
-                    {
-                        "name": "power title3"
-                    },
-                    {
-                        "name": "power title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "power row 1",
-                        "name2": "power name2",
-                        "name3": "power name3",
-                        "name4": "power name4"
-                    },
-                    {
-                        "title": "power row 2",
-                        "name2": "power name2",
-                        "name3": "power name3",
-                        "name4": "power name4"
-                    },
-                    {
-                        "title": "power row 3",
-                        "name2": "power name2",
-                        "name3": "power name3",
-                        "name4": "power name4"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "Power",
-                        "content": "power"
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "Power-Black.jpg",
-                        "title": "Power Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Power-Cyan.jpg",
-                        "title": "Power Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Power-Red.jpg",
-                        "title": "Power Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "Power-Silver.jpg",
-                        "title": "Power Silver",
-                        "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "power button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "power button2"
-                            },
-                            {
-                                "name": "power button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ]
-                    }
-                ],
-                "Logic": {}
-            }
+      },
+      {
+        "name": "Save and Load My Config",
+        "url": "",
+        "slide": "save-config"
+      }
+    ]
+  },
+  {
+    "name": "2. ViCase",
+    "data": [
+      {
+        "name": "ViCase Size",
+        "url": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+        "part": "case-size",
+        "slide": "slide1",
+        "yourChoice": [
+          {
+            "name": "ViCase-Tiny",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+            "link": "http://placekitten.com/200/300",
+            "Child_Name": [
+              "#chapter-1-section-3-Button-0"
+            ],
+            "value": 77
+          },
+          {
+            "name": "ViCase-Mini",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Mni-142x80.jpg",
+            "value": 88
+          },
+          {
+            "name": "ViCase-Ultra",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+            "link": "http://placekitten.com/200/300",
+            "value": 99
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "Feature",
+            "class": "table-left-title"
+          },
+          {
+            "name": "Tiny"
+          },
+          {
+            "name": "Mini"
+          },
+          {
+            "name": "Small"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "Size [Liters]",
+            "name2": "2L",
+            "name3": "4L",
+            "name4": "6L"
+          },
+          {
+            "title": "Form Factor",
+            "name2": "Mini-ITX",
+            "name3": "Mini-ITX",
+            "name4": "Mini-ITX"
+          },
+          {
+            "title": "Modular Expansion",
+            "name2": "yes",
+            "name3": "yes",
+            "name4": "yes"
+          },
+          {
+            "title": "ViCase-Access Plus",
+            "name2": "yes",
+            "name3": "yes",
+            "name4": "yes"
+          },
+          {
+            "title": "ViCase-Access",
+            "name2": "no",
+            "name3": "yes",
+            "name4": "yes"
+          },
+          {
+            "title": "MAX CPU Power",
+            "name2": "35W",
+            "name3": "65W",
+            "name4": "88W"
+          },
+          {
+            "title": "mSATA Disk",
+            "name2": "1",
+            "name3": "Up to 2",
+            "name4": "Up to 2"
+          },
+          {
+            "title": "2.5'",
+            "name2": "-",
+            "name3": "up to 2",
+            "name4": "up to 8"
+          },
+          {
+            "title": "3.5'",
+            "name2": "-",
+            "name3": "-",
+            "name4": "up tp 3"
+          },
+          {
+            "title": "PCIe Slot",
+            "name2": "-",
+            "name3": "-",
+            "name4": "Low Profile"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "ViCase Tiny: When space is premium",
+            "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display on the table, consider ViCase Mini. It is taller, but you would not be able to see that anyways and for the same money you will get more options."
+          },
+          {
+            "heading": "ViCase Mini: The default choice",
+            "content": "This is the standard housing that gets most jobs done. With 4L it is still tiny, yet offers lots of upgradeability options. ViCase Mini supports up to i7 quad core and two 2.5i drives. More than enough for most use cases."
+          },
+          {
+            "heading": "ViCase Ultra: The powerhouse",
+            "content": "For the ultimate performance ViCase Ultra offers all of ViCase Mini with the following Step-Up Features"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "ThreeCases-CokeCan-640x480.jpg",
+            "title": "Three Cases CokeCan",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Black-Front.jpg",
+            "title": "ViCase Mini Black Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Rear-Front.jpg",
+            "title": "ViCase-Mini-Rear-Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Color-Black-640x480.jpg",
+            "title": "ViCase-Color-Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Color-Cyan-640x480.jpg",
+            "title": "Vicase Color Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Color-Red-640x480.jpg",
+            "title": "Vicase Color Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Color-Silver-640x480.jpg",
+            "title": "Vicase Color Silver",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Assy-Step1-640x480.jpg",
+            "title": "Vicase Mini Assy Step1",
+            "description": "This is description"
+          },
+          {
+            "image": "ViCase-Mini-Assy-Step2-640x480.jpg",
+            "title": "Vicase Mini Assy Step2",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Assy-Step3-640x480.jpg",
+            "title": "Vicase Mini Assy Step3",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Assy-Step4-640x480.jpg",
+            "title": "Vicase Mini Assy Step4",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Behind-Stand-Front-640x480.jpg",
+            "title": "Vicase Mini Behind Stand Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Behind-VESA-640x480.jpg",
+            "title": "Viccase Mini Behind VESA",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Behind-VESA-Front-640x480.jpg",
+            "title": "ViCase-Mini-Behind-VESA-Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Behind-VESA-v2-640x480.jpg",
+            "title": "ViCase-Mini-Behind-VESA-v2",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Black-Front.jpg",
+            "title": "ViCase-Mini-Black-Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-CokeCan-640x480.jpg",
+            "title": "ViCase-Mini-CokeCan-640x480",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Display-Standard-640x480.jpg",
+            "title": "ViCase-Mini-Display-Standard",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Mini-Rear-Front.jpg",
+            "title": "ViCase-Mini-Rear-Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Behind-Stand-640x480.jpg",
+            "title": "ViCase-Tiny-Behind-Stand",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Black-Front-640x480.jpg",
+            "title": "ViCase-Tiny-Black-Front",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Black-Rear-640x480.jpg",
+            "title": "ViCase-Tiny-Black-Rear",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-CokeCan-640x480.jpg",
+            "title": "ViCase-Tiny-CokeCan",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Display-Standard-640x480.jpg",
+            "title": "ViCase-Tiny-Display-Standard",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Side-Stand-640x480.jpg",
+            "title": "ViCase-Tiny-Side-Stand",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Ultra-Behind-Stand-640x480.jpg",
+            "title": "ViCase-Ultra-Behind-Stand",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Ultra-Behind-VESA-640x480.jpg",
+            "title": "ViCase-Ultra-Behind-VESA",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Ultra-Black-Front-640x480.jpg",
+            "title": "ViCase-Ultra-Black-Front",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "ViCase Tiny",
+                "class": "active"
+              },
+              {
+                "name": "ViCase Mini"
+              },
+              {
+                "name": "ViCase Ultra"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "Heading No.1",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Motherboard",
+                "name2": "Mini-ITX"
+              },
+              {
+                "name1": "CPU Cooler",
+                "name2": "Height: 36 mm"
+              },
+              {
+                "name1": "Power Button",
+                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
+              },
+              {
+                "name1": "DC Input",
+                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
+              },
+              {
+                "name1": "Material",
+                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
+              },
+              {
+                "name1": "Finish",
+                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
+              },
+              {
+                "name1": "Size [mm]",
+                "name2": "191 (width) x 205 (depth) x 60 (height)"
+              },
+              {
+                "name1": "Weight",
+                "name2": "1 kg"
+              },
+              {
+                "name1": "Compatible Mounting Option",
+                "name2": "ViCase-VESA and ViCase-Stand 1"
+              },
+              {
+                "name1": "Heading No.2",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Compatible ViCase-Access",
+                "name2": "Max CPU Thermal Design Power (TDP)"
+              },
+              {
+                "name1": "Max CPU Cooler Height",
+                "name2": "36 mm"
+              },
+              {
+                "name1": "Modular (PCIe) Expansion",
+                "name2": "Yes, using V²A.Nano and ViDock G6"
+              },
+              {
+                "name1": "Heading No.3",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Space for Disks",
+                "name2": "One mSATA SSD also known as Mini-SATA. Necessary mSATA Adapter, SATA Data Cable and SATA Power cable are included."
+              },
+              {
+                "name1": "Disk Shock Absorption System",
+                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
+              },
+              {
+                "name1": "Disk Cooling",
+                "name2": "mSATA mounting comes with thermal conductive double faced taped sponge. Heat of mSATA drive is transferred to Aluminum bottom cover that doubles as heat sink."
+              }
+            ],
+            "table2": [
+              {
+                "name1": "Heading No.1",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Motherboard",
+                "name2": "Mini-ITX"
+              },
+              {
+                "name1": "CPU Cooler",
+                "name2": "Height: 75"
+              },
+              {
+                "name1": "Power Button",
+                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
+              },
+              {
+                "name1": "DC Input",
+                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
+              },
+              {
+                "name1": "Heading No.2",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Audio Panel",
+                "name2": "Stereo Audio Out and Microphone Audio Input. Connected to Front Audio Panel on Motherboard"
+              },
+              {
+                "name1": "ViCase Access Port",
+                "name2": "Takes the connector of ViCase Access option"
+              },
+              {
+                "name1": "Antenna Ports",
+                "name2": "If your mainboard supports WiFi these two holes can take the WiFi Antennae."
+              },
+              {
+                "name1": "Kensington Lock",
+                "name2": "Compatible slot to secure the computer."
+              },
+              {
+                "name1": "Material",
+                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
+              },
+              {
+                "name1": "Finish",
+                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
+              },
+              {
+                "name1": "Heading No.3",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Size [mm]",
+                "name2": "191 (width) x 205 (depth) x 103 (height)"
+              },
+              {
+                "name1": "Weight",
+                "name2": "1 kg"
+              },
+              {
+                "name1": "Compatible Mounting Option",
+                "name2": "ViCase-VESA and ViCase-Stand 2"
+              },
+              {
+                "name1": "Compatible ViCase-Access",
+                "name2": "ViCase-Access and ViCase-Access Plus"
+              },
+              {
+                "name1": "Max CPU Thermal Design Power (TDP)",
+                "name2": "65W"
+              },
+              {
+                "name1": "Heading No.4",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Max CPU Cooler Height",
+                "name2": "57 mm"
+              },
+              {
+                "name1": "PCIe Slot",
+                "name2": "Low Profile Height, Single Bracket width"
+              },
+              {
+                "name1": "Modular (PCIe) Expansion",
+                "name2": "Yes, both V²A Adapter with ViDock Nano G2 ... G6 and V²A.Nano with ViDock G6"
+              },
+              {
+                "name1": "Space for Disks",
+                "name2": "2 Bays 2.5\" Each bay can be populated either with mSATA Adapter or 2.5\" Disk. Two SATA Data and two SATA Power Cables included. mSATA Adapter is optional."
+              },
+              {
+                "name1": "Disk Shock Absorption System",
+                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
+              },
+              {
+                "name1": "Disk Cooling",
+                "name2": "Case comes with thermal conductive sponge that transfers heat of disks to Aluminum bottom cover that doubles as heat sink."
+              }
+            ],
+            "table3": [
+              {
+                "name1": "Heading No.1",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Motherboard",
+                "name2": "Mini-ITX"
+              },
+              {
+                "name1": "CPU Cooler",
+                "name2": "Height: 75 mm"
+              },
+              {
+                "name1": "Power Button",
+                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
+              },
+              {
+                "name1": "DC Input",
+                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
+              },
+              {
+                "name1": "Audio Panel",
+                "name2": "Stereo Audio Out and Microphone Audio Input. Connected to Front Audio Panel on Motherboard"
+              },
+              {
+                "name1": "ViCase Access Port",
+                "name2": "Takes the connector of ViCase Access option"
+              },
+              {
+                "name1": "Antenna Ports",
+                "name2": "If your mainboard supports WiFi these two holes can take the WiFi Antennae."
+              },
+              {
+                "name1": "Kensington Lock",
+                "name2": "Compatible slot to secure the computer."
+              },
+              {
+                "name1": "Heading No.2",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Material",
+                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
+              },
+              {
+                "name1": "Finish",
+                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
+              },
+              {
+                "name1": "Size [mm]",
+                "name2": "191 (width) x 205 (depth) x 60 (height)"
+              },
+              {
+                "name1": "Weight",
+                "name2": "1 kg"
+              },
+              {
+                "name1": "Compatible Mounting Option",
+                "name2": "ViCase-VESA and ViCase-Stand"
+              },
+              {
+                "name1": "Compatible ViCase-Access",
+                "name2": "ViCase-Access Plus"
+              },
+              {
+                "name1": "Max CPU Thermal Design Power (TDP)",
+                "name2": "88W"
+              },
+              {
+                "name1": "Heading No.3",
+                "class": "tableHeading"
+              },
+              {
+                "name1": "Max CPU Cooler Height",
+                "name2": "57 mm"
+              },
+              {
+                "name1": "PCIe Slot",
+                "name2": "Low Profile Height, Triple Bracket width"
+              },
+              {
+                "name1": "Modular (PCIe) Expansion",
+                "name2": "Yes, both V²A Adapter with ViDock Nano G2 ... G6 and V²A.Nano with ViDock G6"
+              },
+              {
+                "name1": "Space for Disks",
+                "name2": "Maximum number of 8 Bays. Each of the two bays under the Motherboard can be populated with either mSATA Adapter or 2.5\" Disks.Two optional Disk Carrier are available. The 2.5\" Disk Carrier can take up to 6 Disks. The 3.5\" Disk carrier supports up to 3 disks."
+              },
+              {
+                "name1": "Disk Shock Absorption System",
+                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
+              },
+              {
+                "name1": "Disk Cooling",
+                "name2": "The two bay systems have two methods of cooling: 1) The disks under motherboard are use thermal conductive sponge that transfers heat of disks to Aluminum bottom cover that doubles as heat sink. 2) The Disk Carrier System comes with its own Fan and airflow guides. Fan speed can be regulated and monitored."
+              }
+            ]
+          }
+        ],
+        "Logic": [
+          {}
         ]
-    },
-    {
-        "name": "3. ViDock",
-        "data": [
-            {
-                "name": "ViDock",
-                "url": "",
-                "part": "SFF",
-                "yourChoice": [
-                    {
-                        "name": "ViDock-PCIe-S",
-                        "value": "149"
-                    },
-                    {
-                        "name": "ViDock-PCIe-L",
-                        "value": "149"
-                    },
-                    {
-                        "name": "ViDock-GPU",
-                        "value": "149"
-                    },
-                    {
-                        "name": "ViDock-GPU-Cheapo",
-                        "value": "149"
-                    }
-                ]
-            },
-            {
-                "name": "V²A Adapter",
-                "url": "",
-                "part": "VA",
-                "yourChoice": [
-                    {
-                        "name": "V²A.Card",
-                        "value": "29"
-                    },
-                    {
-                        "name": "V²A.Nano",
-                        "value": "29"
-                    }
-                ]
-            },
-            {
-                "name": "V²C Cables",
-                "url": "",
-                "part": "v2c-cables",
-                "yourChoice": [
-                    {
-                        "name": "V²C.Card",
-                        "value": 1
-                    },
-                    {
-                        "name": "V²C.Mini",
-                        "value": 1
-                    },
-                    {
-                        "name": "V²C.Nano",
-                        "value": 1
-                    }
-                ]
-            },
-            {
-                "name": "V²P Power",
-                "url": "",
-                "part": "ac-adapter",
-                "yourChoice": [
-                    {
-                        "name": "V²P-12V-120W",
-                        "value": "15"
-                    },
-                    {
-                        "name": "V²P-ATX-250W (3rd Party)",
-                        "value": "29"
-                    },
-                    {
-                        "name": "V²P-ATX-500W (3rd Party)",
-                        "value": "49"
-                    }
-                ]
-            }
+      },
+      {
+        "name": "ViCase Color",
+        "url": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
+        "part": "vicase-color",
+        "slide": "slide2",
+        "yourChoice": [
+          {
+            "name": "ViCase-Black",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
+            "value": 0,
+            "class": "No-None"
+          },
+          {
+            "name": "ViCase-Red",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Silver-142x80.jpg",
+            "value": 0,
+            "class": "No-None"
+          },
+          {
+            "name": "ViCase-Cyan",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg",
+            "value": 0,
+            "class": "No-None"
+          },
+          {
+            "name": "ViCase-Silver",
+            "img": "images/expansion/config/ViCase/Icon/ViCase-Color-Red-142x80.jpg",
+            "value": 0,
+            "class": "No-None"
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "color-title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "color-title2"
+          },
+          {
+            "name": "color-title3"
+          },
+          {
+            "name": "color-title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "color row 1",
+            "name2": "color name2",
+            "name3": "color name3",
+            "name4": "color name4"
+          },
+          {
+            "title": "color row 2",
+            "name2": "color name2",
+            "name3": "color name3",
+            "name4": "color name4"
+          },
+          {
+            "title": "color row 3",
+            "name2": "color name2",
+            "name3": "color name3",
+            "name4": "color name4"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Color",
+            "content": "Color text"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Color-Black.jpg",
+            "title": "Color Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Color-Cyan.jpg",
+            "title": "Color Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Color-Red.jpg",
+            "title": "Color Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Color-Silver.jpg",
+            "title": "Color Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "color button1",
+                "class": "active"
+              },
+              {
+                "name": "color button2"
+              },
+              {
+                "name": "color button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              },
+              {
+                "name1": "color name1",
+                "name2": "color name2"
+              }
+            ]
+          }
+        ],
+        "Logic": {
+          "": ""
+        }
+      },
+      {
+        "name": "ViCase Placement",
+        "url": "",
+        "part": "vicase-placement",
+        "slide": "slide3",
+        "yourChoice": [
+          {
+            "name": "ViCase-Feet",
+            "img": "http://placehold.it/142x80?text=ViCase-Feet",
+            "value": 9
+          },
+          {
+            "name": "ViCase-VESA",
+            "img": "images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg",
+            "value": 9
+          },
+          {
+            "name": "ViCase-Stand",
+            "img": "images/expansion/config/ViCase/ViCase-Tiny-Side-Stand-640x480.jpg",
+            "value": 9
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "placement title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "placement title2"
+          },
+          {
+            "name": "placement title3"
+          },
+          {
+            "name": "placement title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "placement row 1",
+            "name2": "placement name2",
+            "name3": "placement name3",
+            "name4": "placement name4"
+          },
+          {
+            "title": "placement row 2",
+            "name2": "placement name2",
+            "name3": "placement name3",
+            "name4": "placement name4"
+          },
+          {
+            "title": "placement row 3",
+            "name2": "placement name2",
+            "name3": "placement name3",
+            "name4": "placement name4"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "placement",
+            "content": "placement"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Placement-Black.jpg",
+            "title": "Placement Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Placement-Cyan.jpg",
+            "title": "Placement Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Placement-red.jpg",
+            "title": "Placement red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Placement-Silver.jpg",
+            "title": "Placement Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "placement button1",
+                "class": "active"
+              },
+              {
+                "name": "placement button2"
+              },
+              {
+                "name": "placement button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              },
+              {
+                "name1": "placement name1",
+                "name2": "placement name2"
+              }
+            ]
+          }
+        ],
+        "Logic": {}
+      },
+      {
+        "name": "ViCase Access",
+        "url": "",
+        "part": "vicase-access",
+        "slide": "slide4",
+        "yourChoice": [
+          {
+            "name": "ViCase-Access",
+            "img": "http://placehold.it/142x80?text=ViCase-Access",
+            "value": 20
+          },
+          {
+            "name": "ViCase-Access-Plus",
+            "img": "http://placehold.it/142x80?text=ViCase-Access-Plus",
+            "value": 20
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "access title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "access title2"
+          },
+          {
+            "name": "access title3"
+          },
+          {
+            "name": "access title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "access row 1",
+            "name2": "access name2",
+            "name3": "access name3",
+            "name4": "access name4"
+          },
+          {
+            "title": "access row 2",
+            "name2": "access name2",
+            "name3": "access name3",
+            "name4": "access name4"
+          },
+          {
+            "title": "access row 3",
+            "name2": "access name2",
+            "name3": "access name3",
+            "name4": "access name4"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Access",
+            "content": "access"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Access-Black.jpg",
+            "title": "Access Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Access-Cyan.jpg",
+            "title": "Access Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Access-red.jpg",
+            "title": "Access Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Access-Silver.jpg",
+            "title": "Access Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "access button1",
+                "class": "active"
+              },
+              {
+                "name": "access button2"
+              },
+              {
+                "name": "access button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              },
+              {
+                "name1": "access name1",
+                "name2": "access name2"
+              }
+            ]
+          }
+        ],
+        "Logic": {}
+      },
+      {
+        "name": "ViCase Cooler",
+        "url": "",
+        "part": "cooler",
+        "slide": "slide6",
+        "yourChoice": [
+          {
+            "name": "ViCase-Cooler-SS",
+            "img": "http://placehold.it/142x80?text=ViCase-Cooler-25W",
+            "value": 29
+          },
+          {
+            "name": "ViCase-Cooler-S",
+            "img": "http://placehold.it/142x80?text=ViCase-Cooler-65W",
+            "value": 39
+          },
+          {
+            "name": "ViCase-Cooler-M",
+            "img": "",
+            "value": 29
+          },
+          {
+            "name": "ViCase-Cooler-L",
+            "img": "",
+            "value": 39
+          },
+          {
+            "name": "ViCase-Cooler-XL",
+            "img": "",
+            "value": 29
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "cooler title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "cooler title2"
+          },
+          {
+            "name": "cooler title3"
+          },
+          {
+            "name": "cooler title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "cooler row1",
+            "name2": "cooler data1",
+            "name3": "cooler data2",
+            "name4": "cooler data3"
+          },
+          {
+            "title": "cooler row2",
+            "name2": "cooler data1",
+            "name3": "cooler data2",
+            "name4": "cooler data3"
+          },
+          {
+            "title": "cooler row2",
+            "name2": "cooler data1",
+            "name3": "cooler data2",
+            "name4": "cooler data3"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Cooler",
+            "content": "cooler"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Cooler-Black.jpg",
+            "title": "Cooler Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Cooler-Cyan.jpg",
+            "title": "Cooler Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Cooler-Red.jpg",
+            "title": "Cooler Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Cooler-Silver.jpg",
+            "title": "Cooler Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "cooler button1",
+                "class": "active"
+              },
+              {
+                "name": "cooler button2"
+              },
+              {
+                "name": "cooler button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              },
+              {
+                "name1": "cooler name1",
+                "name2": "cooler name2"
+              }
+            ]
+          }
         ]
-    },
-    {
-        "name": "4. PC Parts",
-        "data": [
-            {
-                "url": "images/expansion/config/mainBoard.jpg",
-                "name": "Motherboard",
-                "part": "motherboard",
-                "yourChoice": [
-                    {
-                        "name": "Intel MotherBoard1",
-                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-6",
-                            "#chapter-3-section-1-Button-7",
-                            "#chapter-3-section-1-Button-8",
-                            "#chapter-3-section-2-Button-4",
-                            "#chapter-3-section-2-Button-5",
-                            "#chapter-3-section-2-Button-6",
-                            "#chapter-3-section-2-Button-7"
-                        ],
-                        "value": 100
-                    },
-                    {
-                        "name": "Intel MotherBoard 2",
-                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-6",
-                            "#chapter-3-section-1-Button-7",
-                            "#chapter-3-section-1-Button-8",
-                            "#chapter-3-section-2-Button-4",
-                            "#chapter-3-section-2-Button-5",
-                            "#chapter-3-section-2-Button-6",
-                            "#chapter-3-section-2-Button-7"
-                        ],
-                        "value": 200
-                    },
-                    {
-                        "name": "Intel MotherBoard 3",
-                        "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-6",
-                            "#chapter-3-section-1-Button-7",
-                            "#chapter-3-section-1-Button-8",
-                            "#chapter-3-section-2-Button-4",
-                            "#chapter-3-section-2-Button-5",
-                            "#chapter-3-section-2-Button-6",
-                            "#chapter-3-section-2-Button-7"
-                        ],
-                        "value": 350
-                    },
-                    {
-                        "name": "AMD Motherboard 1",
-                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-0",
-                            "#chapter-3-section-1-Button-1",
-                            "#chapter-3-section-1-Button-2",
-                            "#chapter-3-section-1-Button-3",
-                            "#chapter-3-section-1-Button-4",
-                            "#chapter-3-section-1-Button-5",
-                            "#chapter-3-section-2-Button-0",
-                            "#chapter-3-section-2-Button-1",
-                            "#chapter-3-section-2-Button-2",
-                            "#chapter-3-section-2-Button-3"
-                        ],
-                        "value": 50
-                    },
-                    {
-                        "name": "AMD Motherboard 2",
-                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-0",
-                            "#chapter-3-section-1-Button-1",
-                            "#chapter-3-section-1-Button-2",
-                            "#chapter-3-section-1-Button-3",
-                            "#chapter-3-section-1-Button-4",
-                            "#chapter-3-section-1-Button-5",
-                            "#chapter-3-section-2-Button-0",
-                            "#chapter-3-section-2-Button-1",
-                            "#chapter-3-section-2-Button-2",
-                            "#chapter-3-section-2-Button-3"
-                        ],
-                        "value": 100
-                    },
-                    {
-                        "name": "AMD Motherboard 3",
-                        "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-0",
-                            "#chapter-3-section-1-Button-1",
-                            "#chapter-3-section-1-Button-2",
-                            "#chapter-3-section-1-Button-3",
-                            "#chapter-3-section-1-Button-4",
-                            "#chapter-3-section-1-Button-5",
-                            "#chapter-3-section-2-Button-0",
-                            "#chapter-3-section-2-Button-1",
-                            "#chapter-3-section-2-Button-2",
-                            "#chapter-3-section-2-Button-3"
-                        ],
-                        "value": 150
-                    }
-                ],
-                "TableHeading": [
-                    {
-                        "name": "intel-motherboard1"
-                    },
-                    {
-                        "name": "intel-motherboard2"
-                    },
-                    {
-                        "name": "intel-motherboard3"
-                    },
-                    {
-                        "name": "intel-motherboard4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "intel-motherboard1",
-                        "name2": "intel-motherboard1",
-                        "name3": "intel-motherboard1",
-                        "name4": "intel-motherboard1"
-                    },
-                    {
-                        "title": "intel-motherboard2",
-                        "name2": "intel-motherboard2",
-                        "name3": "intel-motherboard2",
-                        "name4": "intel-motherboard2"
-                    }
-                ]
-            },
-            {
-                "url": "images/expansion/config/Intel-CPU.jpg",
-                "name": "Processor(CPU)",
-                "part": "proc",
-                "yourChoice": [
-                    {
-                        "name": "Intel Celeron G1840",
-                        "img": "images/expansion/config/Third-party/Intel-CPU-Celeron.png",
-                        "value": 50
-                    },
-                    {
-                        "name": "Intel Pentium G3240",
-                        "img": "images/expansion/config/Third-party/Intel-CPU-Pentium.jpg",
-                        "value": 89
-                    },
-                    {
-                        "name": "Intel Core i3-4350T",
-                        "img": "images/expansion/config/Third-party/Intel-CPU-i3.png",
-                        "value": 169
-                    },
-                    {
-                        "name": "Intel Core i5-4690T",
-                        "img": "images/expansion/config/Third-party/Intel-CPU-i5.png",
-                        "value": 249
-                    },
-                    {
-                        "name": "Intel Core i7-4790T",
-                        "img": "images/expansion/config/Third-party/Intel-CPU-i7.png",
-                        "value": 349
-                    },
-                    {
-                        "name": "AMD Processor 1",
-                        "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
-                        "value": 25
-                    },
-                    {
-                        "name": "AMD Processor 2",
-                        "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
-                        "value": 100
-                    },
-                    {
-                        "name": "AMD Processor 3",
-                        "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
-                        "value": 150
-                    }
-                ]
-            },
-            {
-                "url": "images/expansion/config/RAM.png",
-                "name": "Memory (RAM)",
-                "part": "RAM",
-                "yourChoice": [
-                    {
-                        "name": "Intel 2 GB DDR3",
-                        "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
-                        "value": 60
-                    },
-                    {
-                        "name": "Intel 4 GB DDR3",
-                        "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
-                        "value": 120
-                    },
-                    {
-                        "name": "Intel 8 GB DDR3",
-                        "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
-                        "value": 240
-                    },
-                    {
-                        "name": "Intel 16 GB DDR3",
-                        "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
-                        "value": 300
-                    },
-                    {
-                        "name": "AMD 2 GB DDR3",
-                        "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
-                        "value": 50
-                    },
-                    {
-                        "name": "AMD 4 GB DDR3",
-                        "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
-                        "value": 100
-                    },
-                    {
-                        "name": "AMD 8 GB DDR3",
-                        "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
-                        "value": 200
-                    },
-                    {
-                        "name": "AMD 16 GB DDR3",
-                        "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
-                        "value": 300
-                    }
-                ]
-            },
-            {
-                "url": "images/expansion/config/mSATA-SSD.gif",
-                "name": "Boot Disk",
-                "part": "mSATA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "yourChoice": [
-                    {
-                        "name": "Samsung SSD 840 120 GB",
-                        "img": "images/expansion/config/Third-party/mSATA.jpg",
-                        "value": 120
-                    },
-                    {
-                        "name": "Samsung SSD 840 250 GB",
-                        "img": "images/expansion/config/Third-party/mSATA.jpg",
-                        "value": 250
-                    },
-                    {
-                        "name": "Samsung SSD 840 500 GB",
-                        "img": "images/expansion/config/Third-party/mSATA.jpg",
-                        "value": 500
-                    },
-                    {
-                        "name": "Samsung SSD 840 1TB GB",
-                        "img": "images/expansion/config/Third-party/mSATA.jpg",
-                        "value": 1000
-                    }
-                ]
-            },
-            {
-                "url": "images/expansion/config/SSD.png",
-                "name": "Data Disk (RAID)",
-                "part": "SSD-1",
-                "yourChoice": [
-                    {
-                        "name": "HDD 2.5' 500 GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 60
-                    },
-                    {
-                        "name": "HDD 2.5' 1000 GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 100
-                    },
-                    {
-                        "name": "Samsung SSD 850 EVO 120GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 120
-                    },
-                    {
-                        "name": "Samsung SSD 850 EVO 250GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 250
-                    },
-                    {
-                        "name": "Samsung SSD 850 EVO 500GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 500
-                    },
-                    {
-                        "name": "Samsung SSD 850 EVO 1000GB",
-                        "img": "images/expansion/config/Third-party/SSD.jpg",
-                        "value": 1000
-                    }
-                ]
-            }
+      },
+      {
+        "name": "AC / DC Adapter",
+        "url": "",
+        "part": "AC-DC_Adapter",
+        "slide": "slide7",
+        "yourChoice": [
+          {
+            "name": "V²P-12V-48W",
+            "img": "http://placehold.it/142x80?text=48W-Village",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-1"
+            ],
+            "value": 30
+          },
+          {
+            "name": "V²P-12V-120W",
+            "img": "http://placehold.it/142x80?text=120W-Village",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-1"
+            ],
+            "value": 40
+          },
+          {
+            "name": "V²P-12V-180W",
+            "img": "http://placehold.it/142x80?text=180W-Village",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-0"
+            ],
+            "value": 50
+          },
+          {
+            "name": "12V/48W-Third-Party",
+            "img": "http://placehold.it/142x80?text=148W-Third-Party",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-1"
+            ],
+            "value": 30
+          },
+          {
+            "name": "12V/120W-Third-Party",
+            "img": "http://placehold.it/142x80?text=1200W-Third-Party",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-1"
+            ],
+            "value": 40
+          },
+          {
+            "name": "12V/180W-Third-Party",
+            "img": "http://placehold.it/142x80?text=180W-Third-Party",
+            "Child_Name": [
+              "#chapter-2-section-6-Button-0"
+            ],
+            "value": 40
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "Adapter title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "Adapter title2"
+          },
+          {
+            "name": "Adapter title3"
+          },
+          {
+            "name": "Adapter title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "adapter row1",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          },
+          {
+            "title": "adapter row2",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          },
+          {
+            "title": "adapter row2",
+            "name2": "adapter data1",
+            "name3": "adapter data2",
+            "name4": "adapter data3"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Adapter",
+            "content": "Adapter"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Adapter-Black.jpg",
+            "title": "Adapter Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Cyan.jpg",
+            "title": "Adapter Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Red.jpg",
+            "title": "Adapter Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Adapter-Silver.jpg",
+            "title": "Adapter Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "adapter button1",
+                "class": "active"
+              },
+              {
+                "name": "adapter button2"
+              },
+              {
+                "name": "adapter button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              },
+              {
+                "name1": "adapter name1",
+                "name2": "adapter name2"
+              }
+            ]
+          }
+        ],
+        "Logic": {}
+      },
+      {
+        "name": "ViCase Power",
+        "url": "",
+        "part": "vicase-power",
+        "slide": "slide5",
+        "yourChoice": [
+          {
+            "name": "V²P-pATX-120W",
+            "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
+            "value": 70
+          },
+          {
+            "name": "V²P-pATX-180W",
+            "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
+            "value": 70
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "power title1",
+            "class": "table-left-title"
+          },
+          {
+            "name": "power title2"
+          },
+          {
+            "name": "power title3"
+          },
+          {
+            "name": "power title4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "power row 1",
+            "name2": "power name2",
+            "name3": "power name3",
+            "name4": "power name4"
+          },
+          {
+            "title": "power row 2",
+            "name2": "power name2",
+            "name3": "power name3",
+            "name4": "power name4"
+          },
+          {
+            "title": "power row 3",
+            "name2": "power name2",
+            "name3": "power name3",
+            "name4": "power name4"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Power",
+            "content": "power"
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Power-Black.jpg",
+            "title": "Power Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "Power-Cyan.jpg",
+            "title": "Power Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "Power-Red.jpg",
+            "title": "Power Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "Power-Silver.jpg",
+            "title": "Power Silver",
+            "description": "This is a description"
+          }
+        ],
+        "Datasheet": [
+          {
+            "button": [
+              {
+                "name": "power button1",
+                "class": "active"
+              },
+              {
+                "name": "power button2"
+              },
+              {
+                "name": "power button3"
+              }
+            ],
+            "table1": [
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              }
+            ],
+            "table2": [
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              }
+            ],
+            "table3": [
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              },
+              {
+                "name1": "power name1",
+                "name2": "power name2"
+              }
+            ]
+          }
+        ],
+        "Logic": {}
+      }
+    ]
+  },
+  {
+    "name": "3. ViDock",
+    "data": [
+      {
+        "name": "ViDock",
+        "url": "",
+        "part": "SFF",
+        "yourChoice": [
+          {
+            "name": "ViDock-PCIe-S",
+            "value": "149"
+          },
+          {
+            "name": "ViDock-PCIe-L",
+            "value": "149"
+          },
+          {
+            "name": "ViDock-GPU",
+            "value": "149"
+          },
+          {
+            "name": "ViDock-GPU-Cheapo",
+            "value": "149"
+          }
         ]
-    },
-    {
-        "name": "5. Accessories",
-        "data": [
-            {
-                "url": "images/expansion/config/windows-7-logo.png",
-                "name": "OS",
-                "part": "OS",
-                "yourChoice": [
-                    {
-                        "name": "Windows 7 Home Premium 150.00 32/64",
-                        "img": "images/expansion/config/windows-7-logo.png",
-                        "value": "150"
-                    },
-                    {
-                        "name": "Windows 7 Professional 200.00 32/64",
-                        "img": "images/expansion/config/windows-7-logo.png",
-                        "value": "250"
-                    },
-                    {
-                        "name": "Windows 8.1 32/64",
-                        "img": "images/expansion/config/windows-8-logo.png",
-                        "value": "250"
-                    },
-                    {
-                        "name": "Windows 8.1 Pro 32/64",
-                        "img": "images/expansion/config/windows-8-logo.png",
-                        "value": "350"
-                    },
-                    {
-                        "name": "Windows 10",
-                        "img": "",
-                        "value": 1
-                    },
-                    {
-                        "name": "free - Linux Ubuntu 14.04 32/64",
-                        "img": "images/expansion/config/linux-utanbu.jpg",
-                        "value": "0"
-                    },
-                    {
-                        "name": "free - Linux Ubuntu 15.04 32/64",
-                        "img": "images/expansion/config/linux-utanbu.jpg",
-                        "value": "0"
-                    }
-                ]
-            }
+      },
+      {
+        "name": "V²A Adapter",
+        "url": "",
+        "part": "VA",
+        "yourChoice": [
+          {
+            "name": "V²A.Card",
+            "value": "29"
+          },
+          {
+            "name": "V²A.Nano",
+            "value": "29"
+          }
         ]
-    }
+      },
+      {
+        "name": "V²C Cables",
+        "url": "",
+        "part": "v2c-cables",
+        "yourChoice": [
+          {
+            "name": "V²C.Card",
+            "value": 1
+          },
+          {
+            "name": "V²C.Mini",
+            "value": 1
+          },
+          {
+            "name": "V²C.Nano",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "V²P Power",
+        "url": "",
+        "part": "ac-adapter",
+        "yourChoice": [
+          {
+            "name": "V²P-12V-120W",
+            "value": "15"
+          },
+          {
+            "name": "V²P-ATX-250W (3rd Party)",
+            "value": "29"
+          },
+          {
+            "name": "V²P-ATX-500W (3rd Party)",
+            "value": "49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "4. PC Parts",
+    "data": [
+      {
+        "url": "images/expansion/config/mainBoard.jpg",
+        "name": "Motherboard",
+        "part": "motherboard",
+        "yourChoice": [
+          {
+            "name": "Entry AMD",
+            "img": "images/expansion/config/Third-party/MoBo-AMD-Shade.png",
+            "Child_Name": [
+              "#chapter-3-section-1-Button-6",
+              "#chapter-3-section-1-Button-7",
+              "#chapter-3-section-1-Button-8",
+              "#chapter-3-section-2-Button-4",
+              "#chapter-3-section-2-Button-5",
+              "#chapter-3-section-2-Button-6",
+              "#chapter-3-section-2-Button-7"
+            ],
+            "value": 35
+          },
+          {
+            "name": "Entry Intel",
+            "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
+            "Child_Name": [
+              "#chapter-3-section-1-Button-6",
+              "#chapter-3-section-1-Button-7",
+              "#chapter-3-section-1-Button-8",
+              "#chapter-3-section-2-Button-4",
+              "#chapter-3-section-2-Button-5",
+              "#chapter-3-section-2-Button-6",
+              "#chapter-3-section-2-Button-7"
+            ],
+            "value": 55
+          },
+          {
+            "name": "Mid Range",
+            "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
+            "Child_Name": [
+              "#chapter-3-section-1-Button-6",
+              "#chapter-3-section-1-Button-7",
+              "#chapter-3-section-1-Button-8",
+              "#chapter-3-section-2-Button-4",
+              "#chapter-3-section-2-Button-5",
+              "#chapter-3-section-2-Button-6",
+              "#chapter-3-section-2-Button-7"
+            ],
+            "value": 96
+          },
+          {
+            "name": "High End",
+            "img": "images/expansion/config/Third-party/MoBo-Intel-Snap-Shade-v2.png",
+            "Child_Name": [
+              "#chapter-3-section-1-Button-0",
+              "#chapter-3-section-1-Button-1",
+              "#chapter-3-section-1-Button-2",
+              "#chapter-3-section-1-Button-3",
+              "#chapter-3-section-1-Button-4",
+              "#chapter-3-section-1-Button-5",
+              "#chapter-3-section-2-Button-0",
+              "#chapter-3-section-2-Button-1",
+              "#chapter-3-section-2-Button-2",
+              "#chapter-3-section-2-Button-3"
+            ],
+            "value": 130
+          }
+        ],
+        "TableHeading": [
+          {
+            "name": "MoBo Feature"
+          },
+          {
+            "name": "MoBo 1"
+          },
+          {
+            "name": "MoBo 2"
+          },
+          {
+            "name": "MoBo 3"
+          },
+          {
+            "name": "MoBo 4"
+          }
+        ],
+        "TableBody": [
+          {
+            "title": "MoBo►Name",
+            "name2": "MSI AM1",
+            "name3": "H81M-ITX",
+            "name4": "H97M-ITX/ac",
+            "name5": "Z97E-ITX/ac"
+          },
+          {
+            "title": "MoBo►Brand",
+            "name2": "MSI",
+            "name3": "ASRock",
+            "name4": "ASRock",
+            "name5": "ASRock"
+          },
+          {
+            "title": "MoBo►Form Factor",
+            "name2": "Mini-ITX",
+            "name3": "Mini-ITX",
+            "name4": "Mini-ITX",
+            "name5": "Mini-ITX"
+          },
+          {
+            "title": "MoBo►Class",
+            "name2": "Entry",
+            "name3": "Entry",
+            "name4": "Mid Range",
+            "name5": "High End"
+          },
+          {
+            "title": "MoBo►Chip",
+            "name2": "N/A (*1)",
+            "name3": "H81",
+            "name4": "H97",
+            "name5": "Z97"
+          },
+          {
+            "title": "MoBo►Price",
+            "name2": "$30",
+            "name3": "$56",
+            "name4": "$90",
+            "name5": "$130"
+          },
+          {
+            "title": "CPU►intel/AMD",
+            "name2": "AMD",
+            "name3": "Intel",
+            "name4": "Intel",
+            "name5": "Intel"
+          },
+          {
+            "title": "CPU►Max Benchmark",
+            "name2": "",
+            "name3": "",
+            "name4": "",
+            "name5": ""
+          },
+          {
+            "title": "CPU►Socket Name",
+            "name2": "AM1 (*2)",
+            "name3": "LGA 1150 (*3)",
+            "name4": "LGA 1150",
+            "name5": "LGA 1150"
+          },
+          {
+            "title": "CPU►Overclock",
+            "name2": "No",
+            "name3": "No",
+            "name4": "No",
+            "name5": "Yes"
+          },
+          {
+            "title": "Disk►Hybrid Disk",
+            "name2": "No",
+            "name3": "No",
+            "name4": "Yes",
+            "name5": "Yes"
+          },
+          {
+            "title": "Disk►RAID5",
+            "name2": "No",
+            "name3": "No",
+            "name4": "Yes",
+            "name5": "Yes"
+          },
+          {
+            "title": "Disk►Qty SATA Ports",
+            "name2": "2",
+            "name3": "2",
+            "name4": "5",
+            "name5": "6"
+          },
+          {
+            "title": "Disk►M2",
+            "name2": "No",
+            "name3": "No",
+            "name4": "No",
+            "name5": "Yes"
+          },
+          {
+            "title": "Mem►Max size",
+            "name2": "32 GB",
+            "name3": "16 GB",
+            "name4": "16 GB",
+            "name5": "16 GB"
+          },
+          {
+            "title": "Mem►Speed",
+            "name2": "1600 MHz",
+            "name3": "1600 MHz",
+            "name4": "1600 MHz",
+            "name5": "3200 MHz"
+          },
+          {
+            "title": "I/O►WLan",
+            "name2": "No",
+            "name3": "No",
+            "name4": "Yes",
+            "name5": "Yes"
+          },
+          {
+            "title": "I/O►mPCIe socket",
+            "name2": "Yes",
+            "name3": "No",
+            "name4": "Yes (*4)",
+            "name5": "Yes (*4)"
+          },
+          {
+            "title": "I/O►No USB ports",
+            "name2": "4",
+            "name3": "6",
+            "name4": "6",
+            "name5": "6"
+          },
+          {
+            "title": "Display►No Ports",
+            "name2": "3",
+            "name3": "3",
+            "name4": "3",
+            "name5": "3"
+          },
+          {
+            "title": "Display►UHD (*5) Support",
+            "name2": "UHD@30Hz",
+            "name3": "1080p@60Hz",
+            "name4": "1080p@60Hz",
+            "name5": "UHD@60Hz"
+          }
+        ],
+        "Advice": [
+          {
+            "heading": "Entry AMD",
+            "content": "AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet."
+          },
+          {
+            "heading": "Entry Intel",
+            "content": "It works with 4th generation Intel Core processors in LGA 1150 architecture"
+          },
+          {
+            "heading": "Mid Range",
+            "content": "It have RAID5 and mPCIE which can connect wifi card"
+          },
+          {
+            "heading": "High End",
+            "content": "It have CPU overclock and M2 Disk,  this will have huge improvement for the PC performance "
+          }
+        ],
+        "Gallery": [
+          {
+            "image": "Entry-AMD-OverView.jpg",
+            "title": "Entry AMD OverView",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-AMD-IO.jpg",
+            "title": "Entry AMD IO",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-AMD-Top.jpg",
+            "title": "Entry AMD Top",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-AMD-Bottom.jpg",
+            "title": "Entry AMD Bottom",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-AMD-Accessory.jpg",
+            "title": "Entry AMD Accessory",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-Intel-OverView.jpg",
+            "title": "Entry Intel OverView",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-Intel-IO.jpg",
+            "title": "Entry Intel IO",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-Intel-Top.jpg",
+            "title": "Entry Intel Top",
+            "description": "This is description"
+          },
+          {
+            "image": "Entry-Intel-Bottom.jpg",
+            "title": "Entry Intel Bottom",
+            "description": "This is a description"
+          },
+          {
+            "image": "Entry-Intel-Accessory.jpg",
+            "title": "Entry Intel Accessory",
+            "description": "This is a description"
+          },
+          {
+            "image": "MidRange-OverView.jpg",
+            "title": "MidRange OverView",
+            "description": "This is a description"
+          },
+          {
+            "image": "MidRange-IO.jpg",
+            "title": "MidRange IO",
+            "description": "This is a description"
+          },
+          {
+            "image": "MidRange-Top.jpg",
+            "title": "MidRange Top",
+            "description": "This is a description"
+          },
+          {
+            "image": "MidRange-Bottom.jpg",
+            "title": "MidRange Bottom",
+            "description": "This is a description"
+          },
+          {
+            "image": "MidRange-Accessory.jpg",
+            "title": "MidRange Accessory",
+            "description": "This is a description"
+          },
+          {
+            "image": "HighEnd-OverView.jpg",
+            "title": "HighEnd OverView",
+            "description": "This is a description"
+          },
+          {
+            "image": "HighEnd-IO.jpg",
+            "title": "HighEnd IO",
+            "description": "This is a description"
+          },
+          {
+            "image": "HighEnd-Top.jpg",
+            "title": "HighEnd Top",
+            "description": "This is a description"
+          },
+          {
+            "image": "HighEnd-Bottom.jpg",
+            "title": "HighEnd Bottom",
+            "description": "This is a description"
+          },
+          {
+            "image": "ViCase-Tiny-Behind-Stand-640x480.jpg",
+            "title": "ViCase-Tiny-Behind-Stand",
+            "description": "This is a description"
+          },
+          {
+            "image": "HighEnd-Accessory.jpg",
+            "title": "HighEnd Accessory",
+            "description": "This is a description"
+          }
+        ]
+      },
+      {
+        "url": "images/expansion/config/Intel-CPU.jpg",
+        "name": "Processor(CPU)",
+        "part": "proc",
+        "yourChoice": [
+          {
+            "name": "Intel Celeron G1840",
+            "img": "images/expansion/config/Third-party/Intel-CPU-Celeron.png",
+            "value": 50
+          },
+          {
+            "name": "Intel Pentium G3240",
+            "img": "images/expansion/config/Third-party/Intel-CPU-Pentium.jpg",
+            "value": 89
+          },
+          {
+            "name": "Intel Core i3-4350T",
+            "img": "images/expansion/config/Third-party/Intel-CPU-i3.png",
+            "value": 169
+          },
+          {
+            "name": "Intel Core i5-4690T",
+            "img": "images/expansion/config/Third-party/Intel-CPU-i5.png",
+            "value": 249
+          },
+          {
+            "name": "Intel Core i7-4790T",
+            "img": "images/expansion/config/Third-party/Intel-CPU-i7.png",
+            "value": 349
+          },
+          {
+            "name": "AMD Processor 1",
+            "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
+            "value": 25
+          },
+          {
+            "name": "AMD Processor 2",
+            "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
+            "value": 100
+          },
+          {
+            "name": "AMD Processor 3",
+            "img": "images/expansion/config/Third-party/AMD-CPU.jpg",
+            "value": 150
+          }
+        ]
+      },
+      {
+        "url": "images/expansion/config/RAM.png",
+        "name": "Memory (RAM)",
+        "part": "RAM",
+        "yourChoice": [
+          {
+            "name": "Intel 2 GB DDR3",
+            "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
+            "value": 60
+          },
+          {
+            "name": "Intel 4 GB DDR3",
+            "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
+            "value": 120
+          },
+          {
+            "name": "Intel 8 GB DDR3",
+            "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
+            "value": 240
+          },
+          {
+            "name": "Intel 16 GB DDR3",
+            "img": "images/expansion/config/Third-party/Intel-Memory.jpg",
+            "value": 300
+          },
+          {
+            "name": "AMD 2 GB DDR3",
+            "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
+            "value": 50
+          },
+          {
+            "name": "AMD 4 GB DDR3",
+            "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
+            "value": 100
+          },
+          {
+            "name": "AMD 8 GB DDR3",
+            "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
+            "value": 200
+          },
+          {
+            "name": "AMD 16 GB DDR3",
+            "img": "images/expansion/config/Third-party/AMD-Memory.jpg",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "url": "images/expansion/config/mSATA-SSD.gif",
+        "name": "Boot Disk",
+        "part": "mSATA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "yourChoice": [
+          {
+            "name": "Samsung SSD 840 120 GB",
+            "img": "images/expansion/config/Third-party/mSATA.jpg",
+            "value": 120
+          },
+          {
+            "name": "Samsung SSD 840 250 GB",
+            "img": "images/expansion/config/Third-party/mSATA.jpg",
+            "value": 250
+          },
+          {
+            "name": "Samsung SSD 840 500 GB",
+            "img": "images/expansion/config/Third-party/mSATA.jpg",
+            "value": 500
+          },
+          {
+            "name": "Samsung SSD 840 1TB GB",
+            "img": "images/expansion/config/Third-party/mSATA.jpg",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "url": "images/expansion/config/SSD.png",
+        "name": "Data Disk (RAID)",
+        "part": "SSD-1",
+        "yourChoice": [
+          {
+            "name": "HDD 2.5' 500 GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 60
+          },
+          {
+            "name": "HDD 2.5' 1000 GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 100
+          },
+          {
+            "name": "Samsung SSD 850 EVO 120GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 120
+          },
+          {
+            "name": "Samsung SSD 850 EVO 250GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 250
+          },
+          {
+            "name": "Samsung SSD 850 EVO 500GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 500
+          },
+          {
+            "name": "Samsung SSD 850 EVO 1000GB",
+            "img": "images/expansion/config/Third-party/SSD.jpg",
+            "value": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5. Accessories",
+    "data": [
+      {
+        "url": "images/expansion/config/windows-7-logo.png",
+        "name": "OS",
+        "part": "OS",
+        "yourChoice": [
+          {
+            "name": "Windows 7 Home Premium 150.00 32/64",
+            "img": "images/expansion/config/windows-7-logo.png",
+            "value": "150"
+          },
+          {
+            "name": "Windows 7 Professional 200.00 32/64",
+            "img": "images/expansion/config/windows-7-logo.png",
+            "value": "250"
+          },
+          {
+            "name": "Windows 8.1 32/64",
+            "img": "images/expansion/config/windows-8-logo.png",
+            "value": "250"
+          },
+          {
+            "name": "Windows 8.1 Pro 32/64",
+            "img": "images/expansion/config/windows-8-logo.png",
+            "value": "350"
+          },
+          {
+            "name": "Windows 10",
+            "img": "",
+            "value": 1
+          },
+          {
+            "name": "free - Linux Ubuntu 14.04 32/64",
+            "img": "images/expansion/config/linux-utanbu.jpg",
+            "value": "0"
+          },
+          {
+            "name": "free - Linux Ubuntu 15.04 32/64",
+            "img": "images/expansion/config/linux-utanbu.jpg",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  }
 ]
