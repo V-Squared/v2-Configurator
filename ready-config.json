@@ -1,6 +1,501 @@
 {
-  "Entry": {"count":7,"cost":814,"thirdprtycost":550,"vtcost":264,"vtcount":5,"thirdprtycount":2,"1. Ready Configs":{"cost":0,"count":0,"Ready Config":{"lastclicked":null,"cost":0,"data":{"None":false,"High Performance":"High Performance"}},"Save and Load My Config":{"lastclicked":null,"cost":0,"data":{"None":false}}},"2. ViCase":{"cost":86,"count":3,"ViCase Size":{"lastclicked":"ViCase-Tiny","cost":77,"data":{"None":false,"ViCase-Mini":false,"ViCase-Ultra":"ViCase-Ultra"},"lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg","lastclickedLink":"http://placekitten.com/200/300"},"ViCase Color":{"lastclicked":"ViCase-Black","cost":0,"data":{"None":false,"ViCase-Red":"ViCase-Red","ViCase-Cyan":"ViCase-Cyan","ViCase-Silver":"ViCase-Silver"},"lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg"},"ViCase Placement":{"lastclicked":"ViCase-Feet","cost":9,"data":{"None":false,"ViCase-VESA":"ViCase-VESA","ViCase-Stand":false},"lastclickedImg":"http://placehold.it/142x80?text=ViCase-Feet"},"ViCase Access":{"lastclicked":"None","cost":0,"data":{"None":false,"ViCase-Access":"ViCase-Access","ViCase-Access-Plus":false},"lastclickedImg":null,"lastclickedLink":null},"ViCase Cooler":{"lastclicked":"None","cost":0,"data":{"None":false,"ViCase-Cooler-SS":false,"ViCase-Cooler-S":"ViCase-Cooler-S","ViCase-Cooler-M":false,"ViCase-Cooler-L":false,"ViCase-Cooler-XL":false},"lastclickedImg":null,"lastclickedLink":null},"AC / DC Adapter":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²P-12V-48W":false,"VÃ‚Â²P-12V-120W":false,"VÃ‚Â²P-12V-180W":false,"12V/48W-Third-Party":false,"12V/120W-Third-Party":false,"12V/180W-Third-Party":false}},"ViCase Power":{"lastclicked":"None","cost":0,"data":{"None":false,"VÃ‚Â²P-pATX-120W":false,"VÃ‚Â²P-pATX-180W":false,"V²P-pATX-120W":"V²P-pATX-120W"},"lastclickedImg":null,"lastclickedLink":null}},"3. ViDock":{"cost":178,"count":2,"ViDock":{"lastclicked":"ViDock-PCIe-L","cost":149,"data":{"None":false,"ViDock-PCIe-S":false,"ViDock-PCIe-L":"ViDock-PCIe-L","ViDock-GPU":false,"ViDock-GPU-Cheapo":false}},"VÃ‚Â²A Adapter":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²A.Card":false,"VÃ‚Â²A.Nano":false}},"VÃ‚Â²C Cables":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²C.Card":false,"VÃ‚Â²C.Mini":false,"VÃ‚Â²C.Nano":false}},"VÃ‚Â²P Power":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²P-12V-120W":false,"VÃ‚Â²P-ATX-250W (3rd Party)":false,"VÃ‚Â²P-ATX-500W (3rd Party)":false}},"V²A Adapter":{"data":{"V²A.Card":"V²A.Card"},"lastclicked":"V²A.Card","cost":29}},"4. PC Parts":{"cost":300,"count":1,"Motherboard":{"lastclicked":null,"cost":0,"data":{"None":false,"Intel MotherBoard1":false,"Intel MotherBoard 2":false,"Intel MotherBoard 3":false,"AMD Motherboard 1":false,"AMD Motherboard 2":false,"AMD Motherboard 3":false}},"Processor(CPU)":{"lastclicked":null,"cost":0,"data":{"None":false,"Intel Celeron G1840":false,"Intel Pentium G3240":false,"Intel Core i3-4350T":false,"Intel Core i5-4690T":false,"Intel Core i7-4790T":false,"AMD Processor 1":false,"AMD Processor 2":false,"AMD Processor 3":false}},"Memory (RAM)":{"lastclicked":"Intel 16 GB DDR3","cost":300,"data":{"None":false,"Intel 2 GB DDR3":false,"Intel 4 GB DDR3":false,"Intel 8 GB DDR3":false,"Intel 16 GB DDR3":"Intel 16 GB DDR3","AMD 2 GB DDR3":false,"AMD 4 GB DDR3":false,"AMD 8 GB DDR3":false,"AMD 16 GB DDR3":false},"lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"},"Boot Disk":{"lastclicked":null,"cost":0,"data":{"None":false,"Samsung SSD 840 120 GB":false,"Samsung SSD 840 250 GB":false,"Samsung SSD 840 500 GB":false,"Samsung SSD 840 1TB GB":false}},"Data Disk (RAID)":{"lastclicked":null,"cost":0,"data":{"None":false,"HDD 2.5' 500 GB":false,"HDD 2.5' 1000 GB":false,"Samsung SSD 850 EVO 120GB":false,"Samsung SSD 850 EVO 250GB":false,"Samsung SSD 850 EVO 500GB":false,"Samsung SSD 850 EVO 1000GB":false}}},"5. Accessories":{"cost":250,"count":1,"OS":{"lastclicked":"Windows 7 Professional 200.00 32/64","cost":250,"data":{"None":false,"Windows 7 Home Premium 150.00 32/64":false,"Windows 7 Professional 200.00 32/64":"Windows 7 Professional 200.00 32/64","Windows 8.1 32/64":false,"Windows 8.1 Pro 32/64":false,"Windows 10":false,"free - Linux Ubuntu 14.04 32/64":false,"free - Linux Ubuntu 15.04 32/64":false},"lastclickedImg":"images/expansion/config/windows-7-logo.png"}}}
-  
-  ,
-  "High":{"count":15,"cost":2314,"thirdprtycost":1869,"vtcost":445,"vtcount":9,"thirdprtycount":6,"1. Ready Configs":{"cost":0,"count":0,"Ready Config":{"lastclicked":null,"cost":0,"data":{"None":false,"Entry Level Performance":false}},"Save and Load My Config":{"lastclicked":null,"cost":0,"data":{"None":false}}},"2. ViCase":{"cost":267,"count":7,"ViCase Size":{"lastclicked":"ViCase-Ultra","cost":99,"data":{"None":false,"ViCase-Tiny":"ViCase-Tiny","ViCase-Mini":false},"lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg","lastclickedLink":"http://placekitten.com/200/300"},"ViCase Color":{"lastclicked":"ViCase-Cyan","cost":0,"data":{"None":false,"ViCase-Black":false},"lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg"},"ViCase Placement":{"lastclicked":"ViCase-VESA","cost":9,"data":{"None":false,"ViCase-Feet":false,"ViCase-Stand":false},"lastclickedImg":"images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg"},"ViCase Access":{"lastclicked":"ViCase-Access-Plus","cost":20,"data":{"None":false,"ViCase-Access":"ViCase-Access"},"lastclickedImg":"http://placehold.it/142x80?text=ViCase-Access-Plus"},"ViCase Cooler":{"lastclicked":"ViCase-Cooler-S","cost":39,"data":{"None":false,"ViCase-Cooler-SS":false,"ViCase-Cooler-M":false,"ViCase-Cooler-L":false,"ViCase-Cooler-XL":false},"lastclickedImg":"http://placehold.it/142x80?text=ViCase-Cooler-65W"},"AC / DC Adapter":{"lastclicked":"12V/48W-Third-Party","cost":30,"data":{"None":false,"VÃ‚Â²P-12V-48W":false,"VÃ‚Â²P-12V-120W":false,"VÃ‚Â²P-12V-180W":false,"12V/120W-Third-Party":false,"12V/180W-Third-Party":false},"lastclickedImg":"http://placehold.it/142x80?text=148W-Third-Party"},"ViCase Power":{"lastclicked":"V²P-pATX-120W","cost":70,"data":{"None":false,"VÃ‚Â²P-pATX-120W":false,"VÃ‚Â²P-pATX-180W":false},"lastclickedImg":"http://placehold.it/142x80?text=ViCase-Power-120W"}},"3. ViDock":{"cost":178,"count":2,"ViDock":{"lastclicked":"ViDock-PCIe-L","cost":149,"data":{"None":false,"ViDock-PCIe-S":false,"ViDock-GPU":false,"ViDock-GPU-Cheapo":false}},"VÃ‚Â²A Adapter":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²A.Card":false,"VÃ‚Â²A.Nano":false}},"VÃ‚Â²C Cables":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²C.Card":false,"VÃ‚Â²C.Mini":false,"VÃ‚Â²C.Nano":false}},"VÃ‚Â²P Power":{"lastclicked":null,"cost":0,"data":{"None":false,"VÃ‚Â²P-12V-120W":false,"VÃ‚Â²P-ATX-250W (3rd Party)":false,"VÃ‚Â²P-ATX-500W (3rd Party)":false}},"V²A Adapter":{"data":{"V²A.Card":"V²A.Card"},"lastclicked":"V²A.Nano","cost":29}},"4. PC Parts":{"cost":1519,"count":5,"Motherboard":{"lastclicked":"AMD Motherboard 1","cost":50,"data":{"None":false,"Intel MotherBoard1":false,"Intel MotherBoard 2":false,"Intel MotherBoard 3":false,"AMD Motherboard 2":false,"AMD Motherboard 3":false},"lastclickedImg":"images/expansion/config/Third-party/MoBo-AMD-Shade.png"},"Processor(CPU)":{"lastclicked":"Intel Core i3-4350T","cost":169,"data":{"None":false,"Intel Celeron G1840":false,"Intel Pentium G3240":false,"Intel Core i5-4690T":false,"Intel Core i7-4790T":false,"AMD Processor 1":false,"AMD Processor 2":false,"AMD Processor 3":false},"lastclickedImg":"images/expansion/config/Third-party/Intel-CPU-i3.png"},"Memory (RAM)":{"lastclicked":"Intel 16 GB DDR3","cost":300,"data":{"None":false,"Intel 2 GB DDR3":false,"Intel 4 GB DDR3":false,"Intel 8 GB DDR3":false,"AMD 2 GB DDR3":false,"AMD 4 GB DDR3":false,"AMD 8 GB DDR3":false,"AMD 16 GB DDR3":false},"lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"},"Boot Disk":{"lastclicked":"Samsung SSD 840 500 GB","cost":500,"data":{"None":false,"Samsung SSD 840 120 GB":false,"Samsung SSD 840 250 GB":false,"Samsung SSD 840 1TB GB":false},"lastclickedImg":"images/expansion/config/Third-party/mSATA.jpg"},"Data Disk (RAID)":{"lastclicked":"Samsung SSD 850 EVO 500GB","cost":500,"data":{"None":false,"HDD 2.5' 500 GB":false,"HDD 2.5' 1000 GB":false,"Samsung SSD 850 EVO 120GB":false,"Samsung SSD 850 EVO 250GB":false,"Samsung SSD 850 EVO 1000GB":false},"lastclickedImg":"images/expansion/config/Third-party/SSD.jpg"}},"5. Accessories":{"cost":350,"count":1,"OS":{"lastclicked":"Windows 8.1 Pro 32/64","cost":350,"data":{"None":false,"Windows 7 Home Premium 150.00 32/64":false,"Windows 7 Professional 200.00 32/64":"Windows 7 Professional 200.00 32/64","Windows 8.1 32/64":false,"Windows 10":false,"free - Linux Ubuntu 14.04 32/64":false,"free - Linux Ubuntu 15.04 32/64":false},"lastclickedImg":"images/expansion/config/windows-8-logo.png"}}} 
+   "Entry":{
+      "count":7,
+      "cost":814,
+      "thirdprtycost":550,
+      "vtcost":264,
+      "vtcount":5,
+      "thirdprtycount":2,
+      "1. Ready Configs":{
+         "cost":0,
+         "count":0,
+         "Ready Config":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "High Performance":"High Performance"
+            }
+         },
+         "Save and Load My Config":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false
+            }
+         }
+      },
+      "2. ViCase":{
+         "cost":86,
+         "count":3,
+         "ViCase Size":{
+            "lastclicked":"ViCase-Tiny",
+            "cost":77,
+            "data":{
+               "None":false,
+               "ViCase-Mini":false,
+               "ViCase-Ultra":"ViCase-Ultra"
+            },
+            "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
+            "lastclickedLink":"http://placekitten.com/200/300"
+         },
+         "ViCase Color":{
+            "lastclicked":"ViCase-Black",
+            "cost":0,
+            "data":{
+               "None":false,
+               "ViCase-Red":"ViCase-Red",
+               "ViCase-Cyan":"ViCase-Cyan",
+               "ViCase-Silver":"ViCase-Silver"
+            },
+            "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg"
+         },
+         "ViCase Placement":{
+            "lastclicked":"ViCase-Feet",
+            "cost":9,
+            "data":{
+               "None":false,
+               "ViCase-VESA":"ViCase-VESA",
+               "ViCase-Stand":false
+            },
+            "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Feet"
+         },
+         "ViCase Access":{
+            "lastclicked":"None",
+            "cost":0,
+            "data":{
+               "None":false,
+               "ViCase-Access":"ViCase-Access",
+               "ViCase-Access-Plus":false
+            },
+            "lastclickedImg":null,
+            "lastclickedLink":null
+         },
+         "ViCase Cooler":{
+            "lastclicked":"None",
+            "cost":0,
+            "data":{
+               "None":false,
+               "ViCase-Cooler-SS":false,
+               "ViCase-Cooler-S":"ViCase-Cooler-S",
+               "ViCase-Cooler-M":false,
+               "ViCase-Cooler-L":false,
+               "ViCase-Cooler-XL":false
+            },
+            "lastclickedImg":null,
+            "lastclickedLink":null
+         },
+         "AC / DC Adapter":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-12V-48W":false,
+               "VÃ‚Â²P-12V-120W":false,
+               "VÃ‚Â²P-12V-180W":false,
+               "12V/48W-Third-Party":false,
+               "12V/120W-Third-Party":false,
+               "12V/180W-Third-Party":false
+            }
+         },
+         "ViCase Power":{
+            "lastclicked":"None",
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-pATX-120W":false,
+               "VÃ‚Â²P-pATX-180W":false,
+               "V²P-pATX-120W":"V²P-pATX-120W"
+            },
+            "lastclickedImg":null,
+            "lastclickedLink":null
+         }
+      },
+      "3. ViDock":{
+         "cost":178,
+         "count":2,
+         "ViDock":{
+            "lastclicked":"ViDock-PCIe-L",
+            "cost":149,
+            "data":{
+               "None":false,
+               "ViDock-PCIe-S":false,
+               "ViDock-PCIe-L":"ViDock-PCIe-L",
+               "ViDock-GPU":false,
+               "ViDock-GPU-Cheapo":false
+            }
+         },
+         "VÃ‚Â²A Adapter":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²A.Card":false,
+               "VÃ‚Â²A.Nano":false
+            }
+         },
+         "VÃ‚Â²C Cables":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²C.Card":false,
+               "VÃ‚Â²C.Mini":false,
+               "VÃ‚Â²C.Nano":false
+            }
+         },
+         "VÃ‚Â²P Power":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-12V-120W":false,
+               "VÃ‚Â²P-ATX-250W (3rd Party)":false,
+               "VÃ‚Â²P-ATX-500W (3rd Party)":false
+            }
+         },
+         "V²A Adapter":{
+            "data":{
+               "V²A.Card":"V²A.Card"
+            },
+            "lastclicked":"V²A.Card",
+            "cost":29
+         }
+      },
+      "4. PC Parts":{
+         "cost":300,
+         "count":1,
+         "Motherboard":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "Intel MotherBoard1":false,
+               "Intel MotherBoard 2":false,
+               "Intel MotherBoard 3":false,
+               "AMD Motherboard 1":false,
+               "AMD Motherboard 2":false,
+               "AMD Motherboard 3":false
+            }
+         },
+         "Processor(CPU)":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "Intel Celeron G1840":false,
+               "Intel Pentium G3240":false,
+               "Intel Core i3-4350T":false,
+               "Intel Core i5-4690T":false,
+               "Intel Core i7-4790T":false,
+               "AMD Processor 1":false,
+               "AMD Processor 2":false,
+               "AMD Processor 3":false
+            }
+         },
+         "Memory (RAM)":{
+            "lastclicked":"Intel 16 GB DDR3",
+            "cost":300,
+            "data":{
+               "None":false,
+               "Intel 2 GB DDR3":false,
+               "Intel 4 GB DDR3":false,
+               "Intel 8 GB DDR3":false,
+               "Intel 16 GB DDR3":"Intel 16 GB DDR3",
+               "AMD 2 GB DDR3":false,
+               "AMD 4 GB DDR3":false,
+               "AMD 8 GB DDR3":false,
+               "AMD 16 GB DDR3":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"
+         },
+         "Boot Disk":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "Samsung SSD 840 120 GB":false,
+               "Samsung SSD 840 250 GB":false,
+               "Samsung SSD 840 500 GB":false,
+               "Samsung SSD 840 1TB GB":false
+            }
+         },
+         "Data Disk (RAID)":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "HDD 2.5' 500 GB":false,
+               "HDD 2.5' 1000 GB":false,
+               "Samsung SSD 850 EVO 120GB":false,
+               "Samsung SSD 850 EVO 250GB":false,
+               "Samsung SSD 850 EVO 500GB":false,
+               "Samsung SSD 850 EVO 1000GB":false
+            }
+         }
+      },
+      "5. Accessories":{
+         "cost":250,
+         "count":1,
+         "OS":{
+            "lastclicked":"Windows 7 Professional 200.00 32/64",
+            "cost":250,
+            "data":{
+               "None":false,
+               "Windows 7 Home Premium 150.00 32/64":false,
+               "Windows 7 Professional 200.00 32/64":"Windows 7 Professional 200.00 32/64",
+               "Windows 8.1 32/64":false,
+               "Windows 8.1 Pro 32/64":false,
+               "Windows 10":false,
+               "free - Linux Ubuntu 14.04 32/64":false,
+               "free - Linux Ubuntu 15.04 32/64":false
+            },
+            "lastclickedImg":"images/expansion/config/windows-7-logo.png"
+         }
+      }
+   },
+   "High":{
+      "count":15,
+      "cost":2314,
+      "thirdprtycost":1869,
+      "vtcost":445,
+      "vtcount":9,
+      "thirdprtycount":6,
+      "1. Ready Configs":{
+         "cost":0,
+         "count":0,
+         "Ready Config":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "Entry Level Performance":false
+            }
+         },
+         "Save and Load My Config":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false
+            }
+         }
+      },
+      "2. ViCase":{
+         "cost":267,
+         "count":7,
+         "ViCase Size":{
+            "lastclicked":"ViCase-Ultra",
+            "cost":99,
+            "data":{
+               "None":false,
+               "ViCase-Tiny":"ViCase-Tiny",
+               "ViCase-Mini":false
+            },
+            "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Ultra-142x80.jpg",
+            "lastclickedLink":"http://placekitten.com/200/300"
+         },
+         "ViCase Color":{
+            "lastclicked":"ViCase-Cyan",
+            "cost":0,
+            "data":{
+               "None":false,
+               "ViCase-Black":false
+            },
+            "lastclickedImg":"images/expansion/config/ViCase/Icon/ViCase-Color-Cyan-142x80.jpg"
+         },
+         "ViCase Placement":{
+            "lastclicked":"ViCase-VESA",
+            "cost":9,
+            "data":{
+               "None":false,
+               "ViCase-Feet":false,
+               "ViCase-Stand":false
+            },
+            "lastclickedImg":"images/expansion/config/ViCase/ViCase-Mini-Behind-VESA-v2-640x480.jpg"
+         },
+         "ViCase Access":{
+            "lastclicked":"ViCase-Access-Plus",
+            "cost":20,
+            "data":{
+               "None":false,
+               "ViCase-Access":"ViCase-Access"
+            },
+            "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Access-Plus"
+         },
+         "ViCase Cooler":{
+            "lastclicked":"ViCase-Cooler-S",
+            "cost":39,
+            "data":{
+               "None":false,
+               "ViCase-Cooler-SS":false,
+               "ViCase-Cooler-M":false,
+               "ViCase-Cooler-L":false,
+               "ViCase-Cooler-XL":false
+            },
+            "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Cooler-65W"
+         },
+         "AC / DC Adapter":{
+            "lastclicked":"12V/48W-Third-Party",
+            "cost":30,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-12V-48W":false,
+               "VÃ‚Â²P-12V-120W":false,
+               "VÃ‚Â²P-12V-180W":false,
+               "12V/120W-Third-Party":false,
+               "12V/180W-Third-Party":false
+            },
+            "lastclickedImg":"http://placehold.it/142x80?text=148W-Third-Party"
+         },
+         "ViCase Power":{
+            "lastclicked":"V²P-pATX-120W",
+            "cost":70,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-pATX-120W":false,
+               "VÃ‚Â²P-pATX-180W":false
+            },
+            "lastclickedImg":"http://placehold.it/142x80?text=ViCase-Power-120W"
+         }
+      },
+      "3. ViDock":{
+         "cost":178,
+         "count":2,
+         "ViDock":{
+            "lastclicked":"ViDock-PCIe-L",
+            "cost":149,
+            "data":{
+               "None":false,
+               "ViDock-PCIe-S":false,
+               "ViDock-GPU":false,
+               "ViDock-GPU-Cheapo":false
+            }
+         },
+         "VÃ‚Â²A Adapter":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²A.Card":false,
+               "VÃ‚Â²A.Nano":false
+            }
+         },
+         "VÃ‚Â²C Cables":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²C.Card":false,
+               "VÃ‚Â²C.Mini":false,
+               "VÃ‚Â²C.Nano":false
+            }
+         },
+         "VÃ‚Â²P Power":{
+            "lastclicked":null,
+            "cost":0,
+            "data":{
+               "None":false,
+               "VÃ‚Â²P-12V-120W":false,
+               "VÃ‚Â²P-ATX-250W (3rd Party)":false,
+               "VÃ‚Â²P-ATX-500W (3rd Party)":false
+            }
+         },
+         "V²A Adapter":{
+            "data":{
+               "V²A.Card":"V²A.Card"
+            },
+            "lastclicked":"V²A.Nano",
+            "cost":29
+         }
+      },
+      "4. PC Parts":{
+         "cost":1519,
+         "count":5,
+         "Motherboard":{
+            "lastclicked":"AMD Motherboard 1",
+            "cost":50,
+            "data":{
+               "None":false,
+               "Intel MotherBoard1":false,
+               "Intel MotherBoard 2":false,
+               "Intel MotherBoard 3":false,
+               "AMD Motherboard 2":false,
+               "AMD Motherboard 3":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/MoBo-AMD-Shade.png"
+         },
+         "Processor(CPU)":{
+            "lastclicked":"Intel Core i3-4350T",
+            "cost":169,
+            "data":{
+               "None":false,
+               "Intel Celeron G1840":false,
+               "Intel Pentium G3240":false,
+               "Intel Core i5-4690T":false,
+               "Intel Core i7-4790T":false,
+               "AMD Processor 1":false,
+               "AMD Processor 2":false,
+               "AMD Processor 3":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/Intel-CPU-i3.png"
+         },
+         "Memory (RAM)":{
+            "lastclicked":"Intel 16 GB DDR3",
+            "cost":300,
+            "data":{
+               "None":false,
+               "Intel 2 GB DDR3":false,
+               "Intel 4 GB DDR3":false,
+               "Intel 8 GB DDR3":false,
+               "AMD 2 GB DDR3":false,
+               "AMD 4 GB DDR3":false,
+               "AMD 8 GB DDR3":false,
+               "AMD 16 GB DDR3":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/Intel-Memory.jpg"
+         },
+         "Boot Disk":{
+            "lastclicked":"Samsung SSD 840 500 GB",
+            "cost":500,
+            "data":{
+               "None":false,
+               "Samsung SSD 840 120 GB":false,
+               "Samsung SSD 840 250 GB":false,
+               "Samsung SSD 840 1TB GB":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/mSATA.jpg"
+         },
+         "Data Disk (RAID)":{
+            "lastclicked":"Samsung SSD 850 EVO 500GB",
+            "cost":500,
+            "data":{
+               "None":false,
+               "HDD 2.5' 500 GB":false,
+               "HDD 2.5' 1000 GB":false,
+               "Samsung SSD 850 EVO 120GB":false,
+               "Samsung SSD 850 EVO 250GB":false,
+               "Samsung SSD 850 EVO 1000GB":false
+            },
+            "lastclickedImg":"images/expansion/config/Third-party/SSD.jpg"
+         }
+      },
+      "5. Accessories":{
+         "cost":350,
+         "count":1,
+         "OS":{
+            "lastclicked":"Windows 8.1 Pro 32/64",
+            "cost":350,
+            "data":{
+               "None":false,
+               "Windows 7 Home Premium 150.00 32/64":false,
+               "Windows 7 Professional 200.00 32/64":"Windows 7 Professional 200.00 32/64",
+               "Windows 8.1 32/64":false,
+               "Windows 10":false,
+               "free - Linux Ubuntu 14.04 32/64":false,
+               "free - Linux Ubuntu 15.04 32/64":false
+            },
+            "lastclickedImg":"images/expansion/config/windows-8-logo.png"
+         }
+      }
+   }
 }

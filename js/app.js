@@ -90,6 +90,10 @@ app.controller('myCtrl', function($scope, $http) {
         vtcount: 0,
         thirdprtycount: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
+
+    $scope.testObject = {
+        
+    }
     $scope.initGallery=function(galid){//inits the gallary
       //console.log("startging" +galid);
       setTimeout(function(){
