@@ -1836,102 +1836,102 @@
         ],
         "Gallery": [
           {
-            "image": "images/expansion/config/Third-party/Entry-AMD-Bottom.jpg",
+            "image": "Entry-AMD-Bottom.jpg",
             "title": "Entry AMD OverView",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-AMD-IO.jpg",
+            "image": "Entry-AMD-IO.jpg",
             "title": "Entry AMD IO",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-AMD-Top.jpg",
+            "image": "Entry-AMD-Top.jpg",
             "title": "Entry AMD Top",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-AMD-Bottom.jpg",
+            "image": "Entry-AMD-Bottom.jpg",
             "title": "Entry AMD Bottom",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-AMD-Accessory.jpg",
+            "image": "Entry-AMD-Accessory.jpg",
             "title": "Entry AMD Accessory",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-Intel-OverView.jpg",
+            "image": "Entry-Intel-OverView.jpg",
             "title": "Entry Intel OverView",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-Intel-IO.jpg",
+            "image": "Entry-Intel-IO.jpg",
             "title": "Entry Intel IO",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-Intel-Top.jpg",
+            "image": "Entry-Intel-Top.jpg",
             "title": "Entry Intel Top",
             "description": "This is description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-Intel-Bottom.jpg",
+            "image": "Entry-Intel-Bottom.jpg",
             "title": "Entry Intel Bottom",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/Entry-Intel-Accessory.jpg",
+            "image": "Entry-Intel-Accessory.jpg",
             "title": "Entry Intel Accessory",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/MidRange-OverView.jpg",
+            "image": "MidRange-OverView.jpg",
             "title": "MidRange OverView",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/MidRange-IO.jpg",
+            "image": "MidRange-IO.jpg",
             "title": "MidRange IO",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/MidRange-Top.jpg",
+            "image": "MidRange-Top.jpg",
             "title": "MidRange Top",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/MidRange-Bottom.jpg",
+            "image": "MidRange-Bottom.jpg",
             "title": "MidRange Bottom",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/MidRange-Accessory.jpg",
+            "image": "MidRange-Accessory.jpg",
             "title": "MidRange Accessory",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/HighEnd-OverView.jpg",
+            "image": "HighEnd-OverView.jpg",
             "title": "HighEnd OverView",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/HighEnd-IO.jpg",
+            "image": "HighEnd-IO.jpg",
             "title": "HighEnd IO",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/HighEnd-Top.jpg",
+            "image": "HighEnd-Top.jpg",
             "title": "HighEnd Top",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/HighEnd-Bottom.jpg",
+            "image": "HighEnd-Bottom.jpg",
             "title": "HighEnd Bottom",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/Third-party/HighEnd-Accessory.jpg",
+            "image": "HighEnd-Accessory.jpg",
             "title": "HighEnd Accessory",
             "description": "This is a description"
           }
