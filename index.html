@@ -97,11 +97,9 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr ng-repeat="row in Section.TableBody">
-                                                                <td class="table-left-title">{{row.title}}</td>
-                                                                <td>{{row.name2}}</td>
-                                                                <td>{{row.name3}}</td>
-                                                                <td>{{row.name4}}</td>
+                                                            <tr ng-repeat="hi in Section.TableBody">
+                                                                <td class="table-left-title">{{hi.title}}</td>
+                                                                <td ng-repeat="rows in hi.row track by $index">{{rows}}</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
