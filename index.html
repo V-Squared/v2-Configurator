@@ -62,7 +62,7 @@
                                         <div class="readmore_area show-first open radio_button collapsable">
                                             <!-- readyconfig -->
                                             <div ng-if="Chapter.name=='1. Ready Configs'">
-                                                <div ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
+                                                <div ng-repeat="choice in Section.yourChoice" id="{{choice.id}}">
                                                     <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="readyConfig($event);radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' fors="{{choice.for}}" imgAttr="{{choice.img}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                                 </div>
@@ -75,7 +75,7 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Chapter.name!='1. Ready Configs'" ng-repeat="choice in Section.yourChoice" id="chapter-{{chapterIndex}}-{{'section-'+sectionIndex+'-Button-'+$index}}">
+                                            <div ng-if="Chapter.name!='1. Ready Configs'" ng-repeat="choice in Section.yourChoice" id="{{choice.id}}">
                                                 <label>
                                                     <input buttondir directivedata="[choice.value]" class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice.name)" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" ng-click="radioClick(this,choice.value,choice.img,choice.link,Chapter.name,Section.name,choice.name)" name="{{Chapter.name + Section.name}}" data-child='{{choice.Child_Name}}' for="{{choice.for}}" imgAttr="{{choice.img}}" checkout="https://www.indiegogo.com/projects/allbe1-your-all-in-one-personal-security-guardian/contributions/new/#/contribute?perk_amt=49&perk_id=3008633" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                             </div>
