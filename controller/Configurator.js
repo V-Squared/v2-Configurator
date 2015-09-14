@@ -17,61 +17,6 @@ app.directive('jumbotron',function() {
 });
 
 
-app.directive('buttondir',function() {
-    return {
-        restrict: 'A',
-        scope : {
-            directiveData : '=directivedata'
-        },
-        controller : function ($scope, $element, $timeout) {
-            $timeout(function(){
-                $($element).next().next().append(' — $' + $scope.directiveData[0] + ' US');
-
-                var children = $('.GalleryThumbNail > .thumb');
-                for (var i = 0, l = children.length; i < l; i += 4) {
-                    children.slice(i, i + 4).wrapAll('<div class="item"></div>');
-                }
-
-                $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
-                $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
-            });
-        }
-    }
-});
-
-/*app.directive('datasheettabsdir', function() {
-    return {
-        restrict: 'A',
-        scope : {
-            directiveData : '=directivedata'
-        },
-        controller : function ($scope, $element, $timeout) {
-
-            $timeout(function() {
-                $element.bind('click',function() {
-                    $scope.directiveData = 3;
-                    alert($scope.directiveData);
-                });
-            });
-
-            setTimeout(function() {
-                alert($scope.directiveData);
-            },10000);
-
-
-            /*$timeout(function(){
-
-                $scope.test = function(tabs) {
-                    tabs +=1;
-                    alert(tabs);
-                    return tabs;
-                }
-            });
-        }
-    }
-});*/
-
-
 app.controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
@@ -81,8 +26,6 @@ app.controller('myCtrl', function($scope, $http) {
     });
     $http.get('ready-config.json').then(function(res) {
            $scope.config = res.data;
-           $scope.ready_config_High = $scope.config.High;
-           $scope.ready_config_Entry = $scope.config.Entry;
        });
     $scope.cart = {
         count: 0,
@@ -97,6 +40,14 @@ app.controller('myCtrl', function($scope, $http) {
       setTimeout(function(){
        $($("#"+galid).find(".item")[0]).addClass("active");
      	 $("#"+galid).carousel();
+
+         var children = $('.GalleryThumbNail > .thumb');
+         for (var i = 0, l = children.length; i < l; i += 4) {
+             children.slice(i, i + 4).wrapAll('<div class="item"></div>');
+         }
+
+         $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
+         $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
       },1000);
     }
 
@@ -108,24 +59,25 @@ app.controller('myCtrl', function($scope, $http) {
 
     $scope.readyConfig = function($event) {
 
-           if ($($event.currentTarget).attr('fors') == "Entry") {
-                var runitem = $scope.ready_config_Entry;
-            } else if ($($event.currentTarget).attr('fors') == "High") {
-                var runitem = $scope.ready_config_High;
-            }
-            $scope.cart = runitem;
-            //$($event.currentTarget).addClass('ng-valid-parse');
-            console.log($scope.cart);
-            //$($event.currentTarget).prop('checked','true');
-            /*angular.forEach(runitem, function(value, index) {
-                // so this is your fix.  Because angular.js uses bound models to know when to update.  Your mixing in jquery which is looking for a .click event.  So I added a line to trigger a onclick event on each radio that is updated!
-              setTimeout(function() {
-              $(value).find('input[type=radio]').prop('checked', 'true').trigger('click');
-                }, 0, false);
-            });*/
+            var runitem;
+
+           //if ($($event.currentTarget).attr('fors') == "Entry") {
+                runitem = $scope.config.A1;
+            /*} else if ($($event.currentTarget).attr('fors') == "High") {
+                runitem = $scope.config.A2;
+            }*/
+
+            alert(runitem);
+
+            angular.forEach($scope.config.A1, function(value, index) {
+                alert(value);
+                console.log($(value))
+                //$('#A2').prop('checked');
+                $(value).prop('checked','true');
+            });
         }
 
-    $scope.initIndex = function(chapterIndex, SectionIndex, values) {
+    $scope.initIndex = function(chapterIndex, SectionIndex, item) {
         //console.log(arguments);
 
         //chapterIndex = chapter
@@ -145,7 +97,9 @@ app.controller('myCtrl', function($scope, $http) {
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
         }
-        $scope.cart[chapterIndex][SectionIndex]["data"][values] = false;
+        $scope.cart[chapterIndex][SectionIndex]["data"][item.name] = item.value;
+
+        //console.log($scope.cart);
 
 
         //console.log($scope.cart);
@@ -167,13 +121,13 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button, price, img, link, chapter, section, Item) {
+    $scope.radioClick = function(button,chapter, section) {
         //console.log(arguments);
         cart = $scope.cart,
         chap = $scope.cart[chapter],
         sec = $scope.cart[chapter][section];
 
-        if (sec["lastclicked"] != Item) { //if different item clicked
+        if (sec["lastclicked"] != button.name) { //if different item clicked
             if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
 
                 cart.count--; //remove old count
@@ -183,22 +137,22 @@ app.controller('myCtrl', function($scope, $http) {
                 chap.cost -= sec.cost; //remove old chapter cost
             }
 
-            if (Item != "None") { //if not None
+            if (button.name != "None") { //if not None
 
-                price = $scope.priceToNum(price);
+                button.value = $scope.priceToNum(button.value);
 
 
                 cart.count++; //add back count
                 chap.count++; //add back count
 
-                cart.cost += price; //add new cost
-                chap.cost += price; //remove old chapter cost
+                cart.cost += button.value; //add new cost
+                chap.cost += button.value; //remove old chapter cost
             }
             //update the model
-            sec.lastclicked = Item;
-            sec.lastclickedImg = img;
-            sec.lastclickedLink = link;
-            sec.cost = price;
+            sec.lastclicked = button.name;
+            sec.lastclickedImg = button.img;
+            sec.lastclickedLink = button.link;
+            sec.cost = button.value;
 
         }
 
