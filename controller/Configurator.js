@@ -21,11 +21,12 @@ app.controller('myCtrl', function($scope, $http) {
     //this can be pulled and put into a angular service
 
 
-    $http.get('products.json').then(function(res) {
+    $http.get('init.json').then(function(res) {
         $scope.data = res.data;
     });
     $http.get('ready-config.json').then(function(res) {
            $scope.config = res.data;
+           console.log(res.data.A1)
        });
     $scope.cart = {
         count: 0,
@@ -52,7 +53,22 @@ app.controller('myCtrl', function($scope, $http) {
     }
 
     $scope.makeJSON = function() {
-        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
+        /*var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify($scope.cart)),
+            "_blank");
+        something.focus();*/
+
+        var config = [];
+
+        $('input[type=radio]:checked').each(function(i) {
+            if(!$(this).hasClass('None')) {
+                var stuff = $(this).attr('id');
+                var id = '#' + stuff;
+                config.push(id);
+                console.log(config);
+            }
+        });
+        //config.splice(0,1);
+        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify(config)),
             "_blank");
         something.focus();
     }
@@ -61,19 +77,22 @@ app.controller('myCtrl', function($scope, $http) {
 
             var runitem;
 
-           //if ($($event.currentTarget).attr('fors') == "Entry") {
+           if ($($event.currentTarget).attr('for') == "Entry") {
                 runitem = $scope.config.A1;
-            /*} else if ($($event.currentTarget).attr('fors') == "High") {
+                //alert('tets');
+           } else if ($($event.currentTarget).attr('for') == "High") {
                 runitem = $scope.config.A2;
-            }*/
+            }
 
-            alert(runitem);
+            //alert(runitem);
 
-            angular.forEach($scope.config.A1, function(value, index) {
-                alert(value);
+            angular.forEach(runitem, function(value, index) {
+                //alert(value);
                 console.log($(value))
                 //$('#A2').prop('checked');
-                $(value).prop('checked','true');
+                setTimeout(function() {
+                    $(value).trigger( "click" );
+                },0,false);
             });
         }
 
