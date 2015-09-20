@@ -116,13 +116,14 @@ app.controller('myCtrl', function($scope, $http) {
         if (typeof $scope.cart[chapterIndex][SectionIndex] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex] = {};
             $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
+            $scope.cart[chapterIndex][SectionIndex]["lastclickedChildren"] = null;
             $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
         }
         $scope.cart[chapterIndex][SectionIndex]["data"][item.name] = item.value;
-
+ 
         //console.log($scope.cart);
 
 
@@ -145,15 +146,17 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button,chapter, section) {
-        //console.log(arguments);
+    $scope.radioClick = function(button,chapter, section,Child_Name) {
+      //console.log(Child_Name);
+        console.log(arguments);
         cart = $scope.cart,
         chap = $scope.cart[chapter],
         sec = $scope.cart[chapter][section];
-
+        
         if (sec["lastclicked"] != button.name) { //if different item clicked
             if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
 
+              	 $scope.enableButton(sec.lastclickedChildren); //enable old buttons
                 cart.count--; //remove old count
                 chap.count--; //remove old chapter count
 
@@ -173,18 +176,19 @@ app.controller('myCtrl', function($scope, $http) {
                 chap.cost += button.value; //remove old chapter cost
             }
             //update the model
+            sec.lastclickedChildren=Child_Name;
             sec.lastclicked = button.name;
             sec.lastclickedImg = button.img;
             sec.lastclickedLink = button.link;
             sec.cost = button.value;
 
-            $scope.disableButton(button);
+            $scope.disableButton(Child_Name);
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
         cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
 
-        $scope.enableButton();
+        
         //this should be done in a loop
         cart.thirdprtycost = cart["5. Accessories"].cost + cart["4. PC Parts"].cost;
 
@@ -192,16 +196,47 @@ app.controller('myCtrl', function($scope, $http) {
         cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. Accessories"].count;
         console.log(cart.vtcount);
     }
-
+    $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
 
     $scope.disableButton = function(button) {
-        angular.forEach(button.Child_Name, function(value) {
-            $(value).prop('disabled',true);
-            alert(value);
+        angular.forEach(button, function(value) {
+           
+           if($(value).is(':checked')) { 
+                alert("uncheck "+value);
+               setTimeout(function() {
+                   $("#ID-11").closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
+              },0,false); 
+           }  
+           $(value).prop('disabled',true);
+            alert("disable "+value);
+         
+          if(typeof $scope.disabledButtons[value] == 'undefined' ){//as buttons get disabled count how many options are disabling them
+            $scope.disabledButtons[value]=1
+          }else{
+          	$scope.disabledButtons[value]+=1;
+          }
         });
     }
 
-    $scope.enableButton = function() {
+    $scope.enableButton = function(button) {
+         //$scope.cart[chapterIndex][SectionIndex]["lastclicked"]     
+         
+         angular.forEach(button, function(value, index) {
+                 if($scope.disabledButtons[value]>0){
+                   alert(value+ " Remains disabled for now");
+                   $scope.disabledButtons[value]-=1; 
+                 }else{
+                  $scope.disabledButtons[value]=0;
+                  alert("enable "+value);
+                  $(value).prop("disabled", false);
+                  alert(value);//$(value).find('span').removeClass('ghost');
+                 }
+                 
+                 
+           			
+         });
+      
+      /*
          $('.well').each(function() {
           //Find the radio button that is not checked
           if (!$(this).is(':checked')) {
@@ -214,6 +249,6 @@ app.controller('myCtrl', function($scope, $http) {
                   //$(value).find('span').removeClass('ghost');
               });
           }
-        });
+        });*/
     }
  });
