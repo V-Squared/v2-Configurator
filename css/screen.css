@@ -632,3 +632,6 @@ label:hover span[type="button"]{
 .item img {
 	width: 100%;	
 }
+.useCase {
+	cursor: pointer;
+}

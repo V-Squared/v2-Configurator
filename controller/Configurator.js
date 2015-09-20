@@ -59,8 +59,8 @@ app.controller('myCtrl', function($scope, $http) {
 
         var config = [];
 
-        $('input[type=radio]:checked').each(function(i) {
-            if(!$(this).hasClass('None')) {
+        $('#configurator input[type=radio]:checked').each(function(i) {
+            if(!$(this).hasClass('None') && $(this).attr('id') != undefined) {
                 var stuff = $(this).attr('id');
                 var id = '#' + stuff;
                 config.push(id);
@@ -71,6 +71,11 @@ app.controller('myCtrl', function($scope, $http) {
         var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify(config)),
             "_blank");
         something.focus();
+    }
+
+    $scope.useCase = function(choice) {
+        $scope.disableButton(choice);
+        $scope.enableButton();
     }
 
     $scope.readyConfig = function($event) {
@@ -173,13 +178,13 @@ app.controller('myCtrl', function($scope, $http) {
             sec.lastclickedLink = button.link;
             sec.cost = button.value;
 
+            $scope.disableButton(button);
         }
-
-
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
         cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
 
+        $scope.enableButton();
         //this should be done in a loop
         cart.thirdprtycost = cart["5. Accessories"].cost + cart["4. PC Parts"].cost;
 
@@ -187,8 +192,28 @@ app.controller('myCtrl', function($scope, $http) {
         cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. Accessories"].count;
         console.log(cart.vtcount);
     }
+
+
+    $scope.disableButton = function(button) {
+        angular.forEach(button.Child_Name, function(value) {
+            $(value).prop('disabled',true);
+            alert(value);
+        });
+    }
+
+    $scope.enableButton = function() {
+         $('.well').each(function() {
+          //Find the radio button that is not checked
+          if (!$(this).is(':checked')) {
+              alert('test2');
+              var disableButtons = $(this).data('child');
+              console.log(disableButtons);
+              angular.forEach(disableButtons, function(value, index) {
+                  //alert('test');
+                  $(value).prop("disabled", false);
+                  //$(value).find('span').removeClass('ghost');
+              });
+          }
+        });
+    }
  });
-
-
-
- 
