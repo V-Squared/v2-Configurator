@@ -222,7 +222,7 @@ app.controller('myCtrl', function($scope, $http) {
          //$scope.cart[chapterIndex][SectionIndex]["lastclicked"]     
          
          angular.forEach(button, function(value, index) {
-                 if($scope.disabledButtons[value]>0){
+                 if($scope.disabledButtons[value]>1){
                    alert(value+ " Remains disabled for now");
                    $scope.disabledButtons[value]-=1; 
                  }else{
