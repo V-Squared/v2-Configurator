@@ -73,21 +73,13 @@ app.controller('myCtrl', function($scope, $http) {
         something.focus();
     }
 
-    $scope.useCase = function(choice) {
-        $scope.disableButton(choice);
-        $scope.enableButton();
-    }
-
     $scope.readyConfig = function($event) {
 
-            var runitem;
+            var runitem = "",
+                test = $($event.target).attr('for');
 
-           if ($($event.currentTarget).attr('for') == "Entry") {
-                runitem = $scope.config.A1;
+                runitem = $scope.config[test];
                 //alert('tets');
-           } else if ($($event.currentTarget).attr('for') == "High") {
-                runitem = $scope.config.A2;
-            }
 
             //alert(runitem);
 
@@ -146,7 +138,7 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button,chapter, section,Child_Name) {
+    $scope.radioClick = function(button,chapter, section,Child_Name,state) {
       //console.log(Child_Name);
         console.log(arguments);
         cart = $scope.cart,
@@ -156,7 +148,8 @@ app.controller('myCtrl', function($scope, $http) {
         if (sec["lastclicked"] != button.name) { //if different item clicked
             if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
 
-              	 $scope.enableButton(sec.lastclickedChildren); //enable old buttons
+                state == false ? $scope.enableButton(sec.lastclickedChildren,false) : $scope.enableButton(sec.lastclickedChildren,true);
+                 //enable old buttons
                 cart.count--; //remove old count
                 chap.count--; //remove old chapter count
 
@@ -182,7 +175,8 @@ app.controller('myCtrl', function($scope, $http) {
             sec.lastclickedLink = button.link;
             sec.cost = button.value;
 
-            $scope.disableButton(Child_Name);
+            state == false ? $scope.disableButton(Child_Name,false) : $scope.disableButton(Child_Name,true);
+            
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
@@ -198,17 +192,21 @@ app.controller('myCtrl', function($scope, $http) {
     }
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
 
-    $scope.disableButton = function(button) {
+    $scope.disableButton = function(button,state) {
         angular.forEach(button, function(value) {
            
            if($(value).is(':checked')) { 
-                alert("uncheck "+value);
+                //alert("uncheck "+value);
                setTimeout(function() {
-                   $("#ID-11").closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
+                   $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
               },0,false); 
            }  
-           $(value).prop('disabled',true);
-            alert("disable "+value);
+           if(state == false) {
+            $(value).prop('disabled',true);
+           } else {
+            $(value).closest('div').hide();
+           }
+            //alert("disable "+value);
          
           if(typeof $scope.disabledButtons[value] == 'undefined' ){//as buttons get disabled count how many options are disabling them
             $scope.disabledButtons[value]=1
@@ -218,18 +216,25 @@ app.controller('myCtrl', function($scope, $http) {
         });
     }
 
-    $scope.enableButton = function(button) {
+    $scope.enableButton = function(button,state) {
          //$scope.cart[chapterIndex][SectionIndex]["lastclicked"]     
          
          angular.forEach(button, function(value, index) {
                  if($scope.disabledButtons[value]>1){
-                   alert(value+ " Remains disabled for now");
+                   //alert(value+ " Remains disabled for now");
                    $scope.disabledButtons[value]-=1; 
                  }else{
                   $scope.disabledButtons[value]=0;
-                  alert("enable "+value);
+                 // alert("enable "+value);
+
+                 if(state == false) {
                   $(value).prop("disabled", false);
-                  alert(value);//$(value).find('span').removeClass('ghost');
+                  //alert("enable "+value);
+                 } else {
+                  $(value).closest('div').show();
+                 }
+                  
+                  //alert(value);//$(value).find('span').removeClass('ghost');
                  }
                  
                  

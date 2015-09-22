@@ -55,8 +55,11 @@
                                         <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                         <div class="readmore_area show-first open radio_button collapsable">
                                             <div ng-if="Section.name=='Use Case'">
-                                                <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase" ng-click="useCase(choice)">
-                                                    {{ choice.name }}
+                                                <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase">
+                                                    <label>
+                                                        <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,true)"> 
+                                                        {{ choice.name }}
+                                                    </label>
                                                 </div>
                                             </div>
                                             <!-- readyconfig -->
@@ -76,11 +79,11 @@
                                             <!--Normal Choice-->
                                             <div ng-if="Section.name!='Ready Config' && Section.name!='Use Case'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
-                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value | currency}}</span></span></label>
+                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value | currency}}</span></span></label>
                                             </div>
                                             <div ng-if="Section.name!='Ready Config' && Section.name!='Use Case'">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None');choice.name = 'None'" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" data-child="{{ choice.Child_Name }}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None');choice.name = 'None'" ng-model="cart[Chapter.name][Section.name]['data'][choice.name]" data-child="{{ choice.Child_Name }}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>

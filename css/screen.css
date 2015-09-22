@@ -486,11 +486,16 @@ input[type="radio"] + span[type="button"] {
     text-align: center;
 }
 input[type="radio"]:checked + span[type="button"]{
-     border-color: #3491CE;
+     border-color: rgb(52,145,206);
      background-color: #3491CE;
 }
 label:hover span[type="button"]{
      border-color:#3491CE;
+}
+
+input[type="radio"]:disabled + span[type="button"]{
+     border-color: rgba(204,204,204,0.5);
+     cursor: not-allowed;
 }
 
 

@@ -7,42 +7,61 @@
         "url":"",
         "yourChoice": [
           {
-            "name":"test",
+            "name":"Gaming",
             "Child_Name":[
-              "#ID-80",
-              "#ID-81"
+              "#ID-84",
+              "#ID-85",
+              "#ID-86",
+              "#ID-87"
             ],
             "img":"",
-            "value":1
+            "value":0
           },
           {
-            "name":"test2",
+            "name":"Home Theater",
             "img":"",
             "Child_Name":[
+              "#ID-80",
+              "#ID-81",
               "#ID-82",
               "#ID-83"
             ],
-            "value":1
+            "value":0
           },
           {
-            "name":"test3",
+            "name":"Presentation",
             "img":"",
-            "value":1
+            "value":0
           },
           {
-            "name":"test4",
+            "name":"Photo & Video Editing",
             "img":"",
-            "value":1
+            "value":0
           },
           {
-            "name":"test5",
+            "name":"3D & Creative Design",
             "img":"",
-            "value":1
+            "value":0
           },
           {
-            "name":"test6",
+            "name":"Audio Editing",
             "img":"",
-            "value":1
+            "value":0
+          },
+          {
+            "name":"Office & General PC",
+            "img":"",
+            "value":0
+          },
+          {
+            "name":"Server & NAS",
+            "img":"",
+            "value":0
+          },
+          {
+            "name":"CNC & Industrial",
+            "img":"",
+            "value":0
           }
         ]
       },
@@ -53,30 +72,58 @@
         "slide": "slide-performance",
         "yourChoice": [
           {
-            "name": "Entry Level Performance",
+            "name": "Game Entry",
             "img": "",
             "id":"ID-80",
             "for": "Entry",
             "value": 1
           },
           {
-            "name": "High Performance",
+            "name": "Game High",
             "img": "",
             "id":"ID-81",
             "for": "High",
             "value": 0
           },
           {
-            "name": "Ultra Performance",
+            "name": "Game Ultra",
             "img": "",
             "id":"ID-82",
             "for": "Entry",
             "value": 1
           },
           {
-            "name": "eXtreme Performance",
+            "name": "Game eXtreme",
             "img": "",
-            "id":"ID-80",
+            "id":"ID-83",
+            "for": "High",
+            "value": 0
+          },
+          {
+            "name": "Home Theater Entry",
+            "img": "",
+            "id":"ID-84",
+            "for": "Entry",
+            "value": 1
+          },
+          {
+            "name": "Home Theater High",
+            "img": "",
+            "id":"ID-85",
+            "for": "High",
+            "value": 0
+          },
+          {
+            "name": "Home Theater Ultra",
+            "img": "",
+            "id":"ID-86",
+            "for": "Entry",
+            "value": 1
+          },
+          {
+            "name": "Home Theater eXtreme",
+            "img": "",
+            "id":"ID-87",
             "for": "High",
             "value": 0
           }
