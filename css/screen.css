@@ -640,3 +640,6 @@ input[type="radio"]:disabled + span[type="button"]{
 .useCase {
 	cursor: pointer;
 }
+.displayNone {
+	display:none;
+}

@@ -75,16 +75,19 @@ app.controller('myCtrl', function($scope, $http) {
 
     $scope.readyConfig = function($event) {
 
-            var runitem = "",
-                test = $($event.target).attr('for');
-
-                runitem = $scope.config[test];
-                //alert('tets');
+            var runitem = $scope.config[$($event.target).attr('for')];
 
             //alert(runitem);
 
+            setTimeout(function() {
+              $('.panel-default:nth-child(2) input[type=radio]').each(function() {
+                $(this).closest(".readmore_area").find(".None").find('input').trigger( "click" );
+                alert('test');
+              });
+            },0,false);
+
             angular.forEach(runitem, function(value, index) {
-                //alert(value);
+                alert(value);
                 console.log($(value))
                 //$('#A2').prop('checked');
                 setTimeout(function() {
@@ -193,17 +196,22 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
 
     $scope.disableButton = function(button,state) {
+        if(state == true){
+          $('.readyConfig').show();
+        }
         angular.forEach(button, function(value) {
-           
+          if(state == false) {
            if($(value).is(':checked')) { 
                 //alert("uncheck "+value);
                setTimeout(function() {
                    $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
               },0,false); 
            }  
+         }
            if(state == false) {
             $(value).prop('disabled',true);
            } else {
+            //alert(value);
             $(value).closest('div').hide();
            }
             //alert("disable "+value);

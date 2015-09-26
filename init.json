@@ -76,7 +76,7 @@
             "img": "",
             "id":"ID-80",
             "for": "Entry",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Game High",
@@ -86,14 +86,14 @@
             "value": 0
           },
           {
-            "name": "Game Ultra",
+            "name": "Game eXtreme",
             "img": "",
             "id":"ID-82",
             "for": "Entry",
-            "value": 1
+            "value": 0
           },
           {
-            "name": "Game eXtreme",
+            "name": "Game Server",
             "img": "",
             "id":"ID-83",
             "for": "High",
@@ -104,7 +104,7 @@
             "img": "",
             "id":"ID-84",
             "for": "Entry",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Home Theater High",
@@ -114,14 +114,14 @@
             "value": 0
           },
           {
-            "name": "Home Theater Ultra",
+            "name": "Home Theater eXtreme",
             "img": "",
             "id":"ID-86",
             "for": "Entry",
-            "value": 1
+            "value": 0
           },
           {
-            "name": "Home Theater eXtreme",
+            "name": "Home Theater Server",
             "img": "",
             "id":"ID-87",
             "for": "High",
@@ -130,10 +130,53 @@
         ]
       },
       {
-        "name":"Form Factor"
+        "name":"Form Factor",
+        "url":"",
+        "yourChoice": [
+          {
+            "name":"Mini",
+            "id":"ID-120",
+            "value":0,
+            "img":""
+          },
+          {
+            "name":"All-In-One",
+            "id":"ID-121",
+            "value":0,
+            "img":""
+          },
+          {
+            "name":"Mini behind Display",
+            "id":"ID-122",
+            "value":0,
+            "img":""
+          }  
+        ]
       },
       {
-        "name":"Displays"
+        "name":"Number of Displays",
+        "url":"",
+        "noNone":true,
+        "yourChoice":[
+          {
+            "name":"1 Display",
+            "id":"ID-100",
+            "value":0,
+            "img":""
+          },
+          {
+            "name":"2 Displays",
+            "id":"ID-101",
+            "value":0,
+            "img":""
+          },
+          {
+            "name":"3 Displays",
+            "id":"ID-102",
+            "value":0,
+            "img":""
+          }
+        ]
       },
       {
         "name":"Preview"
@@ -153,6 +196,7 @@
         "url": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
         "part": "case-size",
         "slide": "slide1",
+        "noNone":true,
         "yourChoice": [
           {
             "name": "ViCase-Tiny",
@@ -689,6 +733,7 @@
         "name": "ViCase Color",
         "url": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
         "part": "vicase-color",
+        "noNone":true,
         "slide": "slide2",
         "yourChoice": [
           {
@@ -2191,6 +2236,31 @@
             "id":"ID-74",
             "img": "images/expansion/config/linux-utanbu.jpg",
             "value": "0"
+          }
+        ]
+      },
+      {
+        "name":"Display Size",
+        "url":"",
+        "noNone":true,
+        "yourChoice":[
+          {
+            "name":"19 \"",
+            "img":"",
+            "id":"ID-88",
+            "value":0
+          },
+          {
+            "name":"22 \"",
+            "img":"",
+            "id":"ID-89",
+            "value":0
+          },
+          {
+            "name":"27 \"",
+            "img":"",
+            "id":"ID-90",
+            "value":0
           }
         ]
       }
