@@ -78,12 +78,10 @@ app.controller('myCtrl', function($scope, $http) {
 
        //alert(runitem);
 
-       $scope.counter = $('.panel-default:nth-child(2) input[type=radio]').length;
- 
+       $scope.counter = $(".panel:not(:first)").find(".None").length;
        setTimeout(function() {
-           $('.panel-default:nth-child(2) input[type=radio]').each(function() {     
-               $(this).closest(".readmore_area").find(".None").find('input').trigger("click");
-               alert('test');
+          $(".panel:not(:first)").find(".None").each(function() {//Reset App     
+               $(this).trigger("click");
                console.log($scope.counter);
                if ($scope.counter <= 1) {//once everything is set to none then start ready now
                    console.log("run now!");
