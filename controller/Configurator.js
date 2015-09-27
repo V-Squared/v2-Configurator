@@ -72,30 +72,32 @@ app.controller('myCtrl', function($scope, $http) {
             "_blank");
         something.focus();
     }
+   $scope.readyConfig = function($event) {
 
-    $scope.readyConfig = function($event) {
+       var runitem = $scope.config[$($event.target).attr('for')];
 
-            var runitem = $scope.config[$($event.target).attr('for')];
+       //alert(runitem);
 
-            //alert(runitem);
+       $scope.counter = $('.panel-default:nth-child(2) input[type=radio]').length;
+ 
+       setTimeout(function() {
+           $('.panel-default:nth-child(2) input[type=radio]').each(function() {     
+               $(this).closest(".readmore_area").find(".None").find('input').trigger("click");
+               alert('test');
+               console.log($scope.counter);
+               if ($scope.counter <= 1) {//once everything is set to none then start ready now
+                   console.log("run now!");
+                   angular.forEach(runitem, function(value, index) {
+                           $(value).trigger("click");
+                   });
+               }
+               --$scope.counter;
+           });
+       }, 0, false);
 
-            setTimeout(function() {
-              $('.panel-default:nth-child(2) input[type=radio]').each(function() {
-                $(this).closest(".readmore_area").find(".None").find('input').trigger( "click" );
-                alert('test');
-              });
-            },0,false);
 
-            angular.forEach(runitem, function(value, index) {
-                alert(value);
-                console.log($(value))
-                //$('#A2').prop('checked');
-                setTimeout(function() {
-                    $(value).trigger( "click" );
-                },0,false);
-            });
-        }
-
+   }
+ 
     $scope.initIndex = function(chapterIndex, SectionIndex, item) {
         //console.log(arguments);
 
