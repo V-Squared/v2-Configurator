@@ -72,9 +72,11 @@ app.controller('myCtrl', function($scope, $http) {
             "_blank");
         something.focus();
     }
-   $scope.readyConfig = function($event) {
+   $scope.readyConfig = function($event,state) {
 
-       var runitem = $scope.config[$($event.target).attr('for')];
+      if(state == true){
+
+       var runitem = $scope.config.Performance[$($event.target).attr('for')];
 
        //alert(runitem);
 
@@ -93,7 +95,26 @@ app.controller('myCtrl', function($scope, $http) {
            });
        }, 0, false);
 
+     } else {
+      var runitem = $scope.config.Form_Factor[$($event.target).attr('for')];
 
+      angular.forEach(runitem, function(value, index) {
+          setTimeout(function() {
+            $(value).trigger("click");
+          },0,false);
+      });
+     }
+
+
+   }
+
+   $scope.Preview = function() {
+    var caseSize = $scope.cart["2. ViCase"]["ViCase Size"].lastclicked;
+    var FormFactor = $scope.cart["1. Ready Configs"]["Form Factor"].lastclicked;
+    var Display_Number = $scope.cart["1. Ready Configs"]["Number of Displays"].lastclicked;
+    $scope.img1 = caseSize + "-" + FormFactor + "-" + Display_Number + "-Front.jpg";
+    $scope.img2 = caseSize + "-" + FormFactor + "-" + Display_Number + "-Rear.jpg";
+    console.log($scope.img1);
    }
  
     $scope.initIndex = function(chapterIndex, SectionIndex, item) {
@@ -122,7 +143,7 @@ app.controller('myCtrl', function($scope, $http) {
         //console.log($scope.cart);
 
 
-        //console.log($scope.cart);
+        console.log($scope.cart);
     }
 
 

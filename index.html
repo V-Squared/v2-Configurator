@@ -66,12 +66,24 @@
                                             <div ng-if="Section.name=='Performance'">
                                                 <div style="display:none" class="readyConfig" ng-repeat="choice in Section.yourChoice">
                                                     <label>
-                                                    <input type="radio" ng-click="readyConfig($event)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                </div>
+                                                </div>
+                                                <div ng-if="Section.name == 'Form Factor'">
+                                                    <div ng-repeat="choice in Section.yourChoice">
+                                                    <label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="readyConfig($event,false);radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    </div>
+                                                </div>
+                                                <div ng-if="Section.name == 'Preview'">
+                                                    <button class="btn btn-success" ng-click="Preview()">Render Prewiew</button>
+                                                    <div>
+                                                        <img ng-src="images/Preview/{{img1}}">
+                                                    </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Save and Load My Config'">
                                                     <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button>
                                                 </div>
-                                            </div>
 
                                             
                                             <!--End ReadyConfig-->
@@ -79,13 +91,13 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases'" ng-repeat="choice in Section.yourChoice">
+                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
                                                     <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value | currency}}</span></span></label>
                                             </div>
-                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases'" ng-class="{'displayNone' : Section.noNone == true}">
+                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>

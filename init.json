@@ -136,18 +136,21 @@
           {
             "name":"Mini",
             "id":"ID-120",
+            "for":"sample1",
             "value":0,
             "img":""
           },
           {
             "name":"All-In-One",
             "id":"ID-121",
+            "for":"sample2",
             "value":0,
             "img":""
           },
           {
             "name":"Mini behind Display",
             "id":"ID-122",
+            "for":"sample3",
             "value":0,
             "img":""
           }  
@@ -159,19 +162,19 @@
         "noNone":true,
         "yourChoice":[
           {
-            "name":"1 Display",
+            "name":"1-Display",
             "id":"ID-100",
             "value":0,
             "img":""
           },
           {
-            "name":"2 Displays",
+            "name":"2-Displays",
             "id":"ID-101",
             "value":0,
             "img":""
           },
           {
-            "name":"3 Displays",
+            "name":"3-Displays",
             "id":"ID-102",
             "value":0,
             "img":""
@@ -889,6 +892,7 @@
         "url": "",
         "part": "vicase-placement",
         "slide": "slide3",
+        "NoneID":"ID-130",
         "yourChoice": [
           {
             "name": "ViCase-Feet",
@@ -1031,6 +1035,7 @@
         "url": "",
         "part": "vicase-access",
         "slide": "slide4",
+        "NoneID":"ID-131",
         "yourChoice": [
           {
             "name": "ViCase-Access",
