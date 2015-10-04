@@ -111,10 +111,10 @@ app.controller('myCtrl', function($scope, $http) {
    $scope.Preview = function() {
     var caseSize = $scope.cart["2. ViCase"]["ViCase Size"].lastclicked;
     var FormFactor = $scope.cart["1. Ready Configs"]["Form Factor"].lastclicked;
-    var Display_Number = $scope.cart["1. Ready Configs"]["Number of Displays"].lastclicked;
-    $scope.img1 = caseSize + "-" + FormFactor + "-" + Display_Number + "-Front.jpg";
-    $scope.img2 = caseSize + "-" + FormFactor + "-" + Display_Number + "-Rear.jpg";
-    console.log($scope.img1);
+    $scope.Display_Number = $scope.cart["1. Ready Configs"]["Number of Displays"].lastclicked;
+    $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
+    $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
+    console.log($scope.img2);
    }
  
     $scope.initIndex = function(chapterIndex, SectionIndex, item) {
