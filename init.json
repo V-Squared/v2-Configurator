@@ -1674,12 +1674,12 @@
           {
             "name": "V²A.Card",
             "id":"ID-30",
-            "value": "29"
+            "value": 19
           },
           {
             "name": "V²A.Nano",
             "id":"ID-31",
-            "value": "29"
+            "value": "9"
           }
         ]
       },
@@ -1691,17 +1691,17 @@
           {
             "name": "V²C.Card",
             "id":"ID-32",
-            "value": 1
+            "value": 19
           },
           {
             "name": "V²C.Mini",
             "id":"ID-33",
-            "value": 1
+            "value": 19
           },
           {
             "name": "V²C.Nano",
             "id":"ID-34",
-            "value": 1
+            "value": 9
           }
         ]
       },
@@ -1711,19 +1711,14 @@
         "part": "ac-adapter",
         "yourChoice": [
           {
-            "name": "V²P-12V-120W",
+            "name":"V²P-48W",
+            "id":"ID-130",
+            "value":14
+          },
+          {
+            "name": "V²P-120W",
             "id":"ID-35",
-            "value": "15"
-          },
-          {
-            "name": "V²P-ATX-250W (3rd Party)",
-            "id":"ID-36",
-            "value": "29"
-          },
-          {
-            "name": "V²P-ATX-500W (3rd Party)",
-            "id":"ID-37",
-            "value": "49"
+            "value": 29
           }
         ]
       }

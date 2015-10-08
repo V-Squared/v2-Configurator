@@ -106,7 +106,7 @@
                                             <!--Normal Choice-->
                                             <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
-                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value | currency}}</span></span></label>
+                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - {{choice.value | currency}}</span></span></label>
                                             </div>
                                             <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor' && Section.name != 'Preview'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
