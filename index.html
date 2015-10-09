@@ -38,6 +38,7 @@
                     <div ng-repeat="Chapter in data" class="panel panel-default">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
+                            <p style="color:#FFF" ng-if="Chapter.name == '1. Ready Configs'">Choose your Use Case, Performance, Form Factor and Number of Displays and press "Render Preview"</p>
                         </div>
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
                             <div id="ViCase" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
