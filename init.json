@@ -1405,7 +1405,7 @@
                     {
                         "name": "V²P.12V-48W",
                         "id": "ID-18",
-                        "img": "http://placehold.it/142x80?text=48W-Village",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -1414,7 +1414,7 @@
                     {
                         "name": "V²P.12V-120W",
                         "id": "ID-19",
-                        "img": "http://placehold.it/142x80?text=120W-Village",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-120W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -1423,7 +1423,7 @@
                     {
                         "name": "V²P.12V-180W",
                         "id": "ID-20",
-                        "img": "http://placehold.it/142x80?text=180W-Village",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
                         ],
@@ -1432,7 +1432,7 @@
                     {
                         "name": "12V/48W-Third-Party",
                         "id": "ID-21",
-                        "img": "http://placehold.it/142x80?text=148W-Third-Party",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -1441,7 +1441,7 @@
                     {
                         "name": "12V/120W-Third-Party",
                         "id": "ID-22",
-                        "img": "http://placehold.it/142x80?text=1200W-Third-Party",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-120W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -1450,7 +1450,7 @@
                     {
                         "name": "12V/180W-Third-Party",
                         "id": "ID-23",
-                        "img": "http://placehold.it/142x80?text=180W-Third-Party",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
                         ],
@@ -1595,13 +1595,13 @@
                     {
                         "name": "V²P.pATX-120W",
                         "id": "ID-24",
-                        "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
+                        "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-120W.jpg",
                         "value": 70
                     },
                     {
                         "name": "V²P.pATX-180W",
                         "id": "ID-25",
-                        "img": "http://placehold.it/142x80?text=ViCase-Power-120W",
+                        "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-180W.jpg",
                         "value": 70
                     }
                 ],
@@ -1747,21 +1747,25 @@
                     {
                         "name": "ViDock-PCIe-S",
                         "id": "ID-26",
+                        "img":"images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
                         "value": "149"
                     },
                     {
                         "name": "ViDock-PCIe-L",
+                        "img":"images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
                         "id": "ID-27",
                         "value": "149"
                     },
                     {
                         "name": "ViDock-GPU",
                         "id": "ID-28",
+                        "img":"images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
                         "value": "149"
                     },
                     {
                         "name": "ViDock-GPU-Cheapo",
                         "id": "ID-29",
+                        "img":"images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
                         "value": "149"
                     }
                 ]
@@ -1774,10 +1778,12 @@
                     {
                         "name": "V²A.Card",
                         "id": "ID-30",
+                        "img":"images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
                         "value": 19
                     },
                     {
                         "name": "V²A.Nano",
+                        "img":"images/expansion/config/ViDock/V2A-Adapter/V2A-Nano.jpg",
                         "id": "ID-31",
                         "value": "9"
                     }
@@ -1790,17 +1796,20 @@
                 "yourChoice": [
                     {
                         "name": "V²C.Card",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Card.jpg",
                         "id": "ID-32",
                         "value": 19
                     },
                     {
                         "name": "V²C.Mini",
                         "id": "ID-33",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Mini.jpg",
                         "value": 19
                     },
                     {
                         "name": "V²C.Nano",
                         "id": "ID-34",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Nano.jpg",
                         "value": 9
                     }
                 ]
@@ -1813,11 +1822,13 @@
                     {
                         "name": "V²P.12V-48W",
                         "id": "ID-130",
+                        "img":"images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
                         "value": 14
                     },
                     {
                         "name": "V²P.12V-120W",
                         "id": "ID-35",
+                        "img":"images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
                         "value": 29
                     }
                 ]
@@ -2263,49 +2274,49 @@
                     {
                         "name": "Intel 2 GB DDR3",
                         "id": "ID-50",
-                        "img": "images/expansion/config/Third-party/Memory/AMD-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 60
                     },
                     {
                         "name": "Intel 4 GB DDR3",
                         "id": "ID-51",
-                        "img": "images/expansion/config/Third-party/Memory/Intel-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 120
                     },
                     {
                         "name": "Intel 8 GB DDR3",
                         "id": "ID-52",
-                        "img": "images/expansion/config/Third-party/Memory/Intel-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 240
                     },
                     {
                         "name": "Intel 16 GB DDR3",
                         "id": "ID-53",
-                        "img": "images/expansion/config/Third-party/Memory/Intel-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 300
                     },
                     {
                         "name": "AMD 2 GB DDR3",
                         "id": "ID-54",
-                        "img": "images/expansion/config/Third-party/Memory/AMD-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 50
                     },
                     {
                         "name": "AMD 4 GB DDR3",
                         "id": "ID-55",
-                        "img": "images/expansion/config/Third-party/Memory/AMD-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 100
                     },
                     {
                         "name": "AMD 8 GB DDR3",
                         "id": "ID-56",
-                        "img": "images/expansion/config/Third-party/Memory/AMD-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 200
                     },
                     {
                         "name": "AMD 16 GB DDR3",
                         "id": "ID-57",
-                        "img": "images/expansion/config/Third-party/Memory/AMD-Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 300
                     }
                 ]
@@ -2348,39 +2359,39 @@
                 "part": "SSD-1",
                 "yourChoice": [
                     {
-                        "name": "HDD 2.5' 500 GB",
+                        "name": "HDD 2.5' 7509 GB",
                         "id": "ID-62",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
                         "value": 60
                     },
                     {
-                        "name": "HDD 2.5' 1000 GB",
+                        "name": "HDD 2.5' 1TB GB",
                         "id": "ID-63",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
                         "value": 100
                     },
                     {
-                        "name": "Samsung SSD 850 EVO 120GB",
+                        "name": "HDD 2.5' 2TB GB",
                         "id": "ID-64",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-2TB.jpg",
                         "value": 120
                     },
                     {
-                        "name": "Samsung SSD 850 EVO 250GB",
+                        "name": "HDD 3.5' 4TB black GB",
                         "id": "ID-65",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 250
                     },
                     {
-                        "name": "Samsung SSD 850 EVO 500GB",
+                        "name": "HDD 3.5' 4TB red GB",
                         "id": "ID-66",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 500
                     },
                     {
-                        "name": "Samsung SSD 850 EVO 1000GB",
+                        "name": "HDD 3.5' 4TB green GB",
                         "id": "ID-67",
-                        "img": "images/expansion/config/Third-party/Data-Disk/SSD.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 1000
                     }
                 ]
