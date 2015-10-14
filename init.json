@@ -1230,13 +1230,13 @@
                     {
                         "name": "ViCase-Cooler-SS",
                         "id": "ID-13",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-SS",
+                        "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-SS-90P.jpg",
                         "value": 29
                     },
                     {
                         "name": "ViCase-Cooler-S",
                         "id": "ID-14",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-S",
+                        "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-S-90P.jpg",
                         "value": 39
                     },
                     {
@@ -1248,13 +1248,13 @@
                     {
                         "name": "ViCase-Cooler-L",
                         "id": "ID-16",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-L",
+                        "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-L-90P.jpg",
                         "value": 39
                     },
                     {
                         "name": "ViCase-Cooler-XL",
                         "id": "ID-17",
-                        "img": "http://placehold.it/142x80?text=ViCase-Cooler-XL",
+                        "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-XL-90P.jpg",
                         "value": 29
                     }
                 ],
