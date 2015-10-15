@@ -204,7 +204,7 @@
                     {
                         "name": "ViCase-Tiny",
                         "id": "ID-1",
-                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Tiny-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Tiny-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "Child_Name": [
                             "#ID-11"
@@ -214,13 +214,13 @@
                     {
                         "name": "ViCase-Mini",
                         "id": "ID-2",
-                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "value": 88
                     },
                     {
                         "name": "ViCase-Ultra",
                         "id": "ID-3",
-                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 99
                     }
@@ -762,28 +762,28 @@
                     {
                         "name": "ViCase-Black",
                         "id": "ID-4",
-                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Black-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Black.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
                         "name": "ViCase-Red",
                         "id": "ID-5",
-                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Red-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Red.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
                         "name": "ViCase-Cyan",
                         "id": "ID-6",
-                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Cyan-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Cyan.jpg",
                         "value": 0,
                         "class": "No-None"
                     },
                     {
                         "name": "ViCase-Silver",
                         "id": "ID-7",
-                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Silver-142x80.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Silver.jpg",
                         "value": 0,
                         "class": "No-None"
                     }
