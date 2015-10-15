@@ -1088,7 +1088,7 @@
                     {
                         "name": "ViCase-Access-Plus",
                         "id": "ID-12",
-                        "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus160x90.jpg",
+                        "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus-160x90.jpg",
                         "value": 20
                     }
                 ],
@@ -1312,18 +1312,8 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Back.jpg",
-                        "title": "Cooler M Back",
-                        "description": "This is a description"
-                    },
-                    {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Bottom.jpg",
                         "title": "Cooler M Bottom",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Front.jpg",
-                        "title": "Cooler M Front",
                         "description": "This is a description"
                     },
                     {
@@ -1796,20 +1786,20 @@
                 "yourChoice": [
                     {
                         "name": "V²C.Card",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Card.jpg",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
                         "id": "ID-32",
                         "value": 19
                     },
                     {
                         "name": "V²C.Mini",
                         "id": "ID-33",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Mini.jpg",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
                         "value": 19
                     },
                     {
                         "name": "V²C.Nano",
                         "id": "ID-34",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Nano.jpg",
+                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
                         "value": 9
                     }
                 ]
