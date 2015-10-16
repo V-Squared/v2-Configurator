@@ -338,12 +338,32 @@
                 ],
                 "Gallery": [
                     {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-1.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-2.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-3.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-4.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
                         "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Front.jpg",
                         "title":"standard Front",
                         "description":"This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
                         "title":"standard Front",
                         "description":"This is a description"
                     },
@@ -353,7 +373,47 @@
                         "description":"This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Rear.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Front-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Top-Top.jpg",
                         "title":"standard Front",
                         "description":"This is a description"
                     }
