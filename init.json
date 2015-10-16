@@ -338,124 +338,24 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ThreeCases-CokeCan-640x480.jpg",
-                        "title": "Three Cases CokeCan",
-                        "description": "This is a description"
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Black-Front.jpg",
-                        "title": "ViCase Mini Black Front",
-                        "description": "This is a description"
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Rear-Front.jpg",
-                        "title": "ViCase-Mini-Rear-Front",
-                        "description": "This is a description"
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Front-Front.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Assy-Step1-640x480.jpg",
-                        "title": "Vicase Mini Assy Step1",
-                        "description": "This is description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Assy-Step2-640x480.jpg",
-                        "title": "Vicase Mini Assy Step2",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Assy-Step3-640x480.jpg",
-                        "title": "Vicase Mini Assy Step3",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Assy-Step4-640x480.jpg",
-                        "title": "Vicase Mini Assy Step4",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Behind-Stand-Front-640x480.jpg",
-                        "title": "Vicase Mini Behind Stand Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Behind-VESA-640x480.jpg",
-                        "title": "Viccase Mini Behind VESA",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Behind-VESA-Front-640x480.jpg",
-                        "title": "ViCase-Mini-Behind-VESA-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Behind-VESA-v2-640x480.jpg",
-                        "title": "ViCase-Mini-Behind-VESA-v2",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Black-Front.jpg",
-                        "title": "ViCase-Mini-Black-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-CokeCan-640x480.jpg",
-                        "title": "ViCase-Mini-CokeCan-640x480",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Display-Standard-640x480.jpg",
-                        "title": "ViCase-Mini-Display-Standard",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Rear-Front.jpg",
-                        "title": "ViCase-Mini-Rear-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Behind-Stand-640x480.jpg",
-                        "title": "ViCase-Tiny-Behind-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Black-Front-640x480.jpg",
-                        "title": "ViCase-Tiny-Black-Front",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Black-Rear-640x480.jpg",
-                        "title": "ViCase-Tiny-Black-Rear",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-CokeCan-640x480.jpg",
-                        "title": "ViCase-Tiny-CokeCan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Display-Standard-640x480.jpg",
-                        "title": "ViCase-Tiny-Display-Standard",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Side-Stand-640x480.jpg",
-                        "title": "ViCase-Tiny-Side-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Behind-Stand-640x480.jpg",
-                        "title": "ViCase-Ultra-Behind-Stand",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Behind-VESA-640x480.jpg",
-                        "title": "ViCase-Ultra-Behind-VESA",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Black-Front-640x480.jpg",
-                        "title": "ViCase-Ultra-Black-Front",
-                        "description": "This is a description"
+                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
+                        "title":"standard Front",
+                        "description":"This is a description"
                     }
                 ],
                 "Datasheet": [
@@ -1307,6 +1207,46 @@
                 ],
                 "Gallery": [
                     {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS.jpg",
+                        "title": "Cooler M",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-Bottom.jpg",
+                        "title": "Cooler M Bottom",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-side.jpg",
+                        "title": "Cooler M Side",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-Top.jpg",
+                        "title": "Cooler M Top",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S.jpg",
+                        "title": "Cooler M",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-Bottom.jpg",
+                        "title": "Cooler M Bottom",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-side.jpg",
+                        "title": "Cooler M Side",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-Top.jpg",
+                        "title": "Cooler M Top",
+                        "description": "This is a description"
+                    },
+                    {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M.jpg",
                         "title": "Cooler M",
                         "description": "This is a description"
@@ -1323,6 +1263,46 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Top.jpg",
+                        "title": "Cooler M Top",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L.jpg",
+                        "title": "Cooler M",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Bottom.jpg",
+                        "title": "Cooler M Bottom",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-side.jpg",
+                        "title": "Cooler M Side",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Top.jpg",
+                        "title": "Cooler M Top",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL.jpg",
+                        "title": "Cooler M",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Bottom.jpg",
+                        "title": "Cooler M Bottom",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-side.jpg",
+                        "title": "Cooler M Side",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Top.jpg",
                         "title": "Cooler M Top",
                         "description": "This is a description"
                     }

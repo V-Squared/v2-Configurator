@@ -160,7 +160,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="clearfix">
-                                                        <div id="{{'section-'+chapterIndex+'-gallary-'+$index+'thumb'}}"  ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index+'thumb')" class="carousel slide" data-interval="false">
+                                                        <div id="{{'section-'+chapterIndex+'-gallary-'+$index+'thumb'}}"  ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index+'thumb')" class="carousel slide">
                                                             <div class="carousel-inner">
                                                                 <div ng-repeat="gallery in Section.Gallery" ng-if="$index%4==0" class="item">
                                                                   <div data-target="{{'#section-'+chapterIndex+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index}}" class="thumb"><img ng-src="{{Section.Gallery[$index].image}}"></div>
