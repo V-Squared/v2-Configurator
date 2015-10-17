@@ -948,6 +948,14 @@
                     {
                         "heading": "ViCase-VESA",
                         "content": "The default choice to build an All-In-One computer. For only $3 US you can hang your ViCase behind your Display. Make sure a) Your Display has a VESA Mount b) The VESA Mount is not occupied by the Display's foot."
+                    },
+                    {
+                        "heading": "ViCase-Stand",
+                        "content": "Choose ViCase-Stand to build a Luxury All-In-One Computer. It is CNC carved from 6 mm solid Aluminum. Sandblasted and anodized to match your ViCase. Your Display gains height and angle adjustment. If you need more space on your desk ViCase-Stand can park your keyboard. And a carry grip makes it easy to bring your ViCase All-In-One computer. Now it is comfortable to attend a LAN Party or work in the garden. Make sure your Display has VESA mount."
+                    },
+                    {
+                        "heading": "ViCase-Feet",
+                        "content": "Choose ViCase-Feet if you want the appearance of an All-In-One Computer, but your Display has no VESA mount. Simply place ViCase into ViCase-Stand and place it behind your Display."
                     }
                 ],
                 "Gallery": [
@@ -1090,8 +1098,16 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "Access",
-                        "content": "access"
+                        "heading": "ViCase-Access",
+                        "content": "Choose ViCase-Access if you placed your ViCase out of sight (e.g. behind your Display) yet you wish easy access to Status LEDs, Power Button and USB ports. Compatible to ViCase Mini and Ultra."
+                    },
+                    {
+                        "heading": "ViCase-Access-Plus",
+                        "content": "Same function as ViCase-Access with the step up features: a) Housing made of Aluminum, sandblasted and anodized to match ViCase. b) One port is USB3. c) Compatible to all ViCase Models including ViCase Tiny."
+                    },
+                    {
+                        "heading": "None",
+                        "content": "Choose None if you place ViCase beside or under your Display, as you can easily access it's power switch or USB ports. You also have an option to get away without ViCase-Access when mounting ViCase behind your Display: You can mount ViCase so that the rear panel is facing up. Then it is easy to access the power switch and IO Ports when leaning over the top of the display. This works well if the display is placed in front of the wall, as in this mounting option the cable management is not so beautiful as with ViCase Rear panel facing down."
                     }
                 ],
                 "Gallery": [
@@ -1276,8 +1292,28 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "Cooler",
-                        "content": "cooler"
+                        "heading": "ViCase-Cooler-SS",
+                        "content": "Choose ViCase-Cooler-SS to build a passively cooled Mini PC. This option is not available for Intel CPUs, but only for the AMD Entry Level CPUs. Ideal for PCs that need to run maintenance free for many years. Compatible with all ViCase."
+                    },
+                    {
+                        "heading": "ViCase-Cooler-S",
+                        "content": "Choose ViCase-Cooler-S to build a Mini PC using the Tiny housing with AMD Entry CPU. More cooling power than the passive cooler. As with all fan based CPU cooler, fan noise will increase with fan speed. Same for your cleaning intervals. You can set ViCase-Cooler-S to be inaudible for normal operation."
+                    },
+                    {
+                        "heading": "ViCase-Cooler-M",
+                        "content": "Choose ViCase-Cooler-M if you want to use an Intel CPU in ViCase Tiny. Two heat-pipes manage to cool even an Intel i7 Dual Core up to 55W TDP with thermal cycling."
+                    },
+                    {
+                        "heading": "ViCase-Cooler-L",
+                        "content": "This is the default choice for ViCase-Mini. Very low cost combined with high cooling power and very low noise. This cooler is also most easy to clean. This cooler only needs 1200 RPM to cool an i3 under constant full load and is practically inaudible. Cools up to 65W TDP without thermal cycling."
+                    },
+                    {
+                        "heading": "ViCase-Cooler-XL",
+                        "content": "This is the most powerful CPU cooler that fits into ViCase Mini / ViCase Ultra. 5 heat-pipes and a fan with 120 mm Ø provide cooling of even an i7 Quad Core without thermal cycling at the rated 88W TDP. In normal operation the fan speed can be reduced to 900 RPM and is inaudible for all intents and purposes."
+                    },
+                    {
+                        "heading": "None",
+                        "content": "Choose None if you already have a cooler or if you want to use the boxed cooler that comes with the CPU. Please note that the boxed cooler will be louder at same thermal cooling capacity than ViCase-Cooler-M for ViCase-Tiny or ViCase-Cooler-M or ViCase-Cooler-XL for Mini."
                     }
                 ],
                 "Gallery": [
@@ -1491,15 +1527,6 @@
                             "#chapter-2-section-6-Button-1"
                         ],
                         "value": 0
-                    },
-                    {
-                        "name": "12V/180W-Third-Party",
-                        "id": "ID-23",
-                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
-                        "Child_Name": [
-                            "#chapter-2-section-6-Button-0"
-                        ],
-                        "value": 0
                     }
                 ],
                 "TableHeading": [
@@ -1545,8 +1572,36 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "Adapter",
-                        "content": "Adapter"
+                        "heading": "V²P.12V-48W",
+                        "content": "Choose V²P.12V-48W if you are using AMD Entry Level CPU"
+                    },
+                    {
+                        "heading": "V²P.12V-120W",
+                        "content": "Choose V²P.12V-120W if you are using an Intel CPU not bigger than 65W TDP and no GPU"
+                    },
+                    {
+                        "heading": "V²P.12V-240W-Center",
+                        "content": "Choose V²P.12V-240W-Center if you are using a very powerful CPU over 65W TDP and / or a GPU PCIe Add In Card. Another reason to choose this option is safety and convenience. The integrated Surge Protection keeps your ViCase and Displays safe. The integrated power distribution cleans up the cable mess."
+                    },
+                    {
+                        "heading": "12V/48W-Already-Owned",
+                        "content": "Choose 12V/48W-Already-Owned if you already own a 12V / 48W AC/DC Adapter and you want to use AMD Entry Level, e.g. any ViDock G3 or higher AC/DC Adapter will work. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
+                    },
+                    {
+                        "heading": "12V/75W-Already-Owned",
+                        "content": "Choose 12V/75W-Already-Owned if you already own a 12V / 75W AC/DC Adapter, e.g. from a ViDock G3 or higher. 75W is powerful enough for AMD Entry Level or Intel 35W TDP CPU. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
+                    },
+                    {
+                        "heading": "12V/120W-Already-Owned",
+                        "content": "Choose 12V/120W-Already-Owned if you already own a 12V / 120W AC/DC Adapter, e.g. from a ViDock G3 or higher. 120W is powerful enough for Intel CPUs up to 65W TDP. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
+                    },
+                    {
+                        "heading": "12V/150W-Already-Owned",
+                        "content": "Choose 12V/150W-Already-Owned if you already own a 12V / 150W AC/DC Adapter, e.g. from a ViDock G3 or higher. 150W is powerful enough for Intel CPUs up to 88W TDP or for the combination 35W CPU + GPU. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring. Also make sure it has a Twin-DC Jack. This much power over a single DC Jack is a fire hazard. All Village Tronic 150W AC/DC Adapter have Twin DC Jacks."
+                    },
+                    {
+                        "heading": "12V/200W-Already-Owned",
+                        "content": "Choose 12V/150W-Already-Owned if you already own a 12V / 200W AC/DC Adapter, e.g. from a ViDock G3 or higher. 200W is powerful enough for Intel CPUs up to 88W TDP or for the combination 88W CPU + GPU. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring. Also make sure it has a Twin-DC Jack. This much power over a single DC Jack is a fire hazard. All Village Tronic 200W AC/DC Adapter have Twin DC Jacks."
                     }
                 ],
                 "Gallery": [
@@ -1693,8 +1748,12 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "Power",
-                        "content": "power"
+                        "heading": "V²P.pATX-120W",
+                        "content": "Choose V²P.pATX-120W for CPUs up to 65W TDP and no GPU."
+                    },
+                    {
+                        "heading": "V²P.pATX-200W",
+                        "content": "Choose V²P.pATX-200W if you want to use a GPU or a CPU with more power than 65W TDP."
                     }
                 ],
                 "Gallery": [
