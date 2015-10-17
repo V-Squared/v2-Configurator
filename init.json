@@ -237,7 +237,7 @@
                         "name": "Mini"
                     },
                     {
-                        "name": "Small"
+                        "name": "Ultra"
                     }
                 ],
                 "TableBody": [
@@ -245,7 +245,7 @@
                         "title": "Size (Liters)",
                         "row": [
                             "3L",
-                            "4L",
+                            "5L",
                             "7L"
                         ]
                     },
@@ -285,7 +285,7 @@
                         "title": "MAX CPU Power",
                         "row": [
                             "55W",
-                            "8W",
+                            "88W",
                             "88W"
                         ]
                     },
@@ -294,14 +294,14 @@
                         "row": [
                             "Up to 2",
                             "Up to 4",
-                            "Up to 8"
+                            "Up to 2"
                         ]
                     },
                     {
                         "title": "2.5'",
                         "row": [
-                            "-",
                             "up to 2",
+                            "up to 4",
                             "up to 8"
                         ]
                     },
