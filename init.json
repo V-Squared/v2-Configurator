@@ -894,7 +894,7 @@
                         "name": "ViCase-VESA",
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
-                        "value": 4
+                        "value": 3
                     },
                     {
                         "name": "ViCase-Stand",
