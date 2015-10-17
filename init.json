@@ -209,13 +209,13 @@
                         "Child_Name": [
                             "#ID-11"
                         ],
-                        "value": 77
+                        "value": 79
                     },
                     {
                         "name": "ViCase-Mini",
                         "id": "ID-2",
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
-                        "value": 88
+                        "value": 89
                     },
                     {
                         "name": "ViCase-Ultra",
@@ -338,84 +338,84 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-1.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-1.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-2.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-2.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-3.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-3.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-4.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Overview-4.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Front-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Front-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Rear.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Rear.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Front-Front.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Front-Front.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Top-Top.jpg",
-                        "title":"standard Front",
-                        "description":"This is a description"
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Top-Top.jpg",
+                        "title": "standard Front",
+                        "description": "This is a description"
                     }
                 ],
                 "Datasheet": [
@@ -894,13 +894,13 @@
                         "name": "ViCase-VESA",
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
-                        "value": 9
+                        "value": 4
                     },
                     {
                         "name": "ViCase-Stand",
                         "id": "ID-10",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Tiny-Side-Stand-160x90.jpg",
-                        "value": 9
+                        "value": 49
                     }
                 ],
                 "TableHeading": [
@@ -1043,13 +1043,13 @@
                         "name": "ViCase-Access",
                         "id": "ID-11",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-160x90.jpg",
-                        "value": 20
+                        "value": 9
                     },
                     {
                         "name": "ViCase-Access-Plus",
                         "id": "ID-12",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus-160x90.jpg",
-                        "value": 20
+                        "value": 29
                     }
                 ],
                 "TableHeading": [
@@ -1191,13 +1191,13 @@
                         "name": "ViCase-Cooler-SS",
                         "id": "ID-13",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-SS-90P.jpg",
-                        "value": 29
+                        "value": 14
                     },
                     {
                         "name": "ViCase-Cooler-S",
                         "id": "ID-14",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-S-90P.jpg",
-                        "value": 39
+                        "value": 19
                     },
                     {
                         "name": "ViCase-Cooler-M",
@@ -1209,13 +1209,13 @@
                         "name": "ViCase-Cooler-L",
                         "id": "ID-16",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-L-90P.jpg",
-                        "value": 39
+                        "value": 19
                     },
                     {
                         "name": "ViCase-Cooler-XL",
                         "id": "ID-17",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-XL-90P.jpg",
-                        "value": 29
+                        "value": 49
                     }
                 ],
                 "TableHeading": [
@@ -1439,7 +1439,7 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 30
+                        "value": 9
                     },
                     {
                         "name": "V²P.12V-120W",
@@ -1448,16 +1448,16 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 40
+                        "value": 29
                     },
                     {
-                        "name": "V²P.12V-180W",
+                        "name": "V²P.12V-240W-Center",
                         "id": "ID-20",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
                         ],
-                        "value": 50
+                        "value": 59
                     },
                     {
                         "name": "12V/48W-Third-Party",
@@ -1466,7 +1466,7 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 30
+                        "value": 0
                     },
                     {
                         "name": "12V/120W-Third-Party",
@@ -1475,7 +1475,7 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 40
+                        "value": 0
                     },
                     {
                         "name": "12V/180W-Third-Party",
@@ -1484,7 +1484,7 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
                         ],
-                        "value": 40
+                        "value": 0
                     }
                 ],
                 "TableHeading": [
@@ -1626,13 +1626,13 @@
                         "name": "V²P.pATX-120W",
                         "id": "ID-24",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-120W.jpg",
-                        "value": 70
+                        "value": 29
                     },
                     {
-                        "name": "V²P.pATX-180W",
+                        "name": "V²P.pATX-200W",
                         "id": "ID-25",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-180W.jpg",
-                        "value": 70
+                        "value": 49
                     }
                 ],
                 "TableHeading": [
@@ -1777,39 +1777,39 @@
                     {
                         "name": "ViDock-PCIe-S",
                         "id": "ID-26",
-                        "img":"images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
-                        "value": "149"
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
+                        "value": "69"
                     },
                     {
                         "name": "ViDock-PCIe-L",
-                        "img":"images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
                         "id": "ID-27",
-                        "value": "149"
+                        "value": "69"
                     },
                     {
                         "name": "ViDock-GPU",
                         "id": "ID-28",
-                        "img":"images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
-                        "value": "149"
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
+                        "value": "99"
                     },
                     {
                         "name": "ViDock-GPU-Cheapo",
                         "id": "ID-29",
-                        "img":"images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
-                        "value": "149"
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
+                        "value": "49"
                     },
-		    {
-			"name": "ViDock-GPU-OEM",
+                    {
+                        "name": "ViDock-GPU-OEM",
                         "id": "ID-140",
-                        "img":"",
+                        "img": "",
                         "value": 29
- 		    },
-		    {
-			"name": "ViDock-GPU-Motherboard",
+                    },
+                    {
+                        "name": "ViDock-GPU-Motherboard",
                         "id": "ID-141",
-                        "img":"",
+                        "img": "",
                         "value": 15
- 		    }
+                    }
                 ]
             },
             {
@@ -1820,12 +1820,12 @@
                     {
                         "name": "V²A.Card",
                         "id": "ID-30",
-                        "img":"images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
+                        "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
                         "value": 19
                     },
                     {
                         "name": "V²A.Nano",
-                        "img":"images/expansion/config/ViDock/V2A-Adapter/V2A-Nano.jpg",
+                        "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-Nano.jpg",
                         "id": "ID-31",
                         "value": "9"
                     }
@@ -1838,21 +1838,21 @@
                 "yourChoice": [
                     {
                         "name": "V²C.Card",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
+                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
                         "id": "ID-32",
                         "value": 19
                     },
                     {
                         "name": "V²C.Mini",
                         "id": "ID-33",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
+                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
                         "value": 19
                     },
                     {
                         "name": "V²C.Nano",
                         "id": "ID-34",
-                        "img":"images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
-                        "value": 9
+                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
+                        "value": 19
                     }
                 ]
             },
@@ -1864,13 +1864,13 @@
                     {
                         "name": "V²P.12V-48W",
                         "id": "ID-130",
-                        "img":"images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
+                        "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
                         "value": 14
                     },
                     {
                         "name": "V²P.12V-120W",
                         "id": "ID-35",
-                        "img":"images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
+                        "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
                         "value": 29
                     }
                 ]
