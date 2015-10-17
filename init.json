@@ -885,16 +885,16 @@
                 "NoneID": "ID-130",
                 "yourChoice": [
                     {
-                        "name": "ViCase-Feet",
-                        "id": "ID-8",
-                        "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
-                        "value": 9
-                    },
-                    {
                         "name": "ViCase-VESA",
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
                         "value": 3
+                    },
+                    {
+                        "name": "ViCase-Feet",
+                        "id": "ID-8",
+                        "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
+                        "value": 9
                     },
                     {
                         "name": "ViCase-Stand",
@@ -956,6 +956,10 @@
                     {
                         "heading": "ViCase-Feet",
                         "content": "Choose ViCase-Feet if you want the appearance of an All-In-One Computer, but your Display has no VESA mount. Simply place ViCase into ViCase-Stand and place it behind your Display."
+                    },
+                    {
+                        "heading": "None",
+                        "content": "Choose None if you want to place your ViCase flat on the table."
                     }
                 ],
                 "Gallery": [
