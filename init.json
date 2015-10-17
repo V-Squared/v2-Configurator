@@ -1813,7 +1813,7 @@
                 ]
             },
             {
-                "name": "V²A Adapter",
+                "name": "V²A (Adapter)",
                 "url": "",
                 "part": "VA",
                 "yourChoice": [
@@ -1832,7 +1832,7 @@
                 ]
             },
             {
-                "name": "V²C Cables",
+                "name": "V²C (Cables)",
                 "url": "",
                 "part": "v2c-cables",
                 "yourChoice": [
@@ -1857,7 +1857,7 @@
                 ]
             },
             {
-                "name": "V²P Power",
+                "name": "V²P (Power)",
                 "url": "",
                 "part": "ac-adapter",
                 "yourChoice": [
