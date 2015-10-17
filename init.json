@@ -1112,42 +1112,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/Access-Black.jpg",
                         "title": "Access Black",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Front.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/Access-Cyan.jpg",
                         "title": "Access Cyan",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Top.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/Access-red.jpg",
                         "title": "Access Red",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Rear.jpg",
-                        "title": "Access Silver",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus.jpg",
-                        "title": "Access Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Front.jpg",
-                        "title": "Access Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Top.jpg",
-                        "title": "Access Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Rear.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/Access-Silver.jpg",
                         "title": "Access Silver",
                         "description": "This is a description"
                     }
