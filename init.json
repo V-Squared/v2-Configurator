@@ -316,8 +316,8 @@
                     {
                         "title": "PCIe Slot",
                         "row": [
-                            "-",
-                            "-",
+                            "Ultra Low Profile",
+                            "Low Profile",
                             "Low Profile"
                         ]
                     }
