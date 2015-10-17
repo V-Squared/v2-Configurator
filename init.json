@@ -365,7 +365,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
                         "title": "ViCase Tiny",
-                        "description": "Rear View: Lots of connections. Your choice of ITX Motherboard will determine your exact connectors."
+                        "description": "Rear View: Lots of connections. Your choice of ITX Motherboard will determine your exact connectors. V²A.Nano is inserted in PCIe Slot to connect a ViDock."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Front-Front.jpg",
@@ -375,7 +375,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
                         "title": "ViCase Tiny",
-                        "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase. V²A.Nano is inserted in PCIe Slot to connect a ViDock."
+                        "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
