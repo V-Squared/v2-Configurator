@@ -1297,7 +1297,7 @@
                     },
                     {
                         "heading": "None",
-                        "content": "Choose None if you already have a cooler or if you want to use the boxed cooler that comes with the CPU. Please note that the boxed cooler will be louder at same thermal cooling capacity than ViCase-Cooler-M for ViCase-Tiny or ViCase-Cooler-M or ViCase-Cooler-XL for Mini."
+                        "content": "Choose None if you already have a cooler or if you want to use the boxed cooler that comes with the CPU. Please note that the boxed cooler will be louder at same thermal cooling capacity than ViCase-Cooler-M for ViCase-Tiny or ViCase-Cooler-L or ViCase-Cooler-XL for Mini."
                     }
                 ],
                 "Gallery": [
@@ -1495,7 +1495,7 @@
                         "value": 59
                     },
                     {
-                        "name": "12V/48W-Third-Party",
+                        "name": "12V/48W-Already-Owned",
                         "id": "ID-21",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "Child_Name": [
@@ -1504,12 +1504,27 @@
                         "value": 0
                     },
                     {
-                        "name": "12V/120W-Third-Party",
+                        "name": "12V/75W-Already-Owned",
                         "id": "ID-22",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-120W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
+                        "value": 0
+                    },
+                    {
+                        "name": "12V/120W-Already-Owned",
+                        "id": "ID-144",
+                        "value": 0
+                    },
+                    {
+                        "name": "12V/150W-Already-Owned",
+                        "id": "ID-145",
+                        "value": 0
+                    },
+                    {
+                        "name": "12V/200W-Already-Owned",
+                        "id": "ID-146",
                         "value": 0
                     }
                 ],
