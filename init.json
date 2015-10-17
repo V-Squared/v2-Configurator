@@ -952,23 +952,18 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/Placement-Black.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
                         "title": "Placement Black",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/Placement-Cyan.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Tiny-All-In-One-1-Display-Front.jpg",
                         "title": "Placement Cyan",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/Placement-red.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Tiny-All-In-One-1-Display-Rear.jpg",
                         "title": "Placement red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/Placement-Silver.jpg",
-                        "title": "Placement Silver",
                         "description": "This is a description"
                     }
                 ],
