@@ -244,9 +244,9 @@
                     {
                         "title": "Size (Liters)",
                         "row": [
-                            "2L",
+                            "3L",
                             "4L",
-                            "6L"
+                            "7L"
                         ]
                     },
                     {
@@ -284,17 +284,17 @@
                     {
                         "title": "MAX CPU Power",
                         "row": [
-                            "35W",
-                            "65W",
+                            "55W",
+                            "8W",
                             "88W"
                         ]
                     },
                     {
                         "title": "mSATA Disk",
                         "row": [
-                            "1",
                             "Up to 2",
-                            "Up to 2"
+                            "Up to 4",
+                            "Up to 8"
                         ]
                     },
                     {
@@ -310,7 +310,7 @@
                         "row": [
                             "-",
                             "-",
-                            "up tp 3"
+                            "Up tp 3"
                         ]
                     },
                     {
@@ -325,15 +325,15 @@
                 "Advice": [
                     {
                         "heading": "ViCase Tiny: When space is premium",
-                        "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display on the table, consider ViCase Mini. It is taller, but you would not be able to see that anyways and for the same money you will get more options."
+                        "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display, consider ViCase Mini. It is taller, but you would not be able to see that anyways."
                     },
                     {
                         "heading": "ViCase Mini: The default choice",
-                        "content": "This is the standard housing that gets most jobs done. With 4L it is still tiny, yet offers lots of upgradeability options. ViCase Mini supports up to i7 quad core and two 2.5i drives. More than enough for most use cases."
+                        "content": "This is the standard housing that gets most jobs done. With 5L it is still tiny, yet offers lots of upgradeability options, such as support for up to i7 quad core, Low Profile PCIe Cards (including GTX 750 Ti) and 3 x 2.5\" disk in RAID 5. More than enough for most use cases."
                     },
                     {
                         "heading": "ViCase Ultra: The powerhouse",
-                        "content": "For the ultimate performance ViCase Ultra offers all of ViCase Mini with the following Step-Up Features"
+                        "content": "For the ultimate performance ViCase Ultra offers all of ViCase Mini with the step up features that you can use up to 3 x 3.5\" Disks. This is ideal if you need a power workstation with RAID 5 and disk capacity > 6 TB or if you want to build a powerful but quiet and small Server. With only 7 Liters in size ViCase Ultra can still be mounted behind your Display."
                     }
                 ],
                 "Gallery": [
