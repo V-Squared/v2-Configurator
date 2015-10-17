@@ -1797,7 +1797,19 @@
                         "id": "ID-29",
                         "img":"images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
                         "value": "149"
-                    }
+                    },
+		    {
+			"name": "ViDock-GPU-OEM",
+                        "id": "ID-140",
+                        "img":"",
+                        "value": 29
+ 		    },
+		    {
+			"name": "ViDock-GPU-Motherboard",
+                        "id": "ID-141",
+                        "img":"",
+                        "value": 15
+ 		    }
                 ]
             },
             {
