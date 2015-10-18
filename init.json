@@ -219,6 +219,13 @@
             "value": 89
           },
           {
+            "name": "ViCase-Mini-Value",
+            "id": "ID-146",
+            "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
+            "link": "http://placekitten.com/200/300",
+            "value": 59
+          },
+          {
             "name": "ViCase-Ultra",
             "id": "ID-3",
             "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x801.jpg",
@@ -331,6 +338,10 @@
           {
             "heading": "ViCase Mini: The default choice",
             "content": "This is the standard housing that gets most jobs done. With 5L it is still mini in size, yet offers lots of upgradeability options, such as support for up to i7 quad core, Low Profile PCIe Cards (including GTX 750 Ti) and 3 x 2.5\" disk in RAID 5. More than enough for most use cases."
+          },
+          {
+            "heading":"ViCase Mini Value: Best value",
+            "content":"Exact same housing, except all inside housing parts are made of strong black plastic. The top cover remains CNC cut, sandblasted and anodized aluminum. After ViCase-Mini-Value is assembled, it is virtually indistinguishable from ViCase-Mini."
           },
           {
             "heading": "ViCase Ultra: The powerhouse",
