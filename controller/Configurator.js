@@ -113,7 +113,7 @@ app.controller('myCtrl', function($scope, $http) {
    $scope.Preview = function() {
     var caseSize = $scope.cart["2. ViCase"]["ViCase Size"].lastclicked;
     var FormFactor = $scope.cart["1. Configure your Computer"]["Form Factor"].lastclicked;
-    $scope.Display_Number = $scope.cart["1. Configure your Computer"]["Number of Displays"];
+    $scope.Display_Number = $scope.cart["1. Configure your Computer"]["Number of Displays"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     console.log($scope.img2);
