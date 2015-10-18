@@ -116,7 +116,8 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.Display_Number = $scope.cart["1. Configure your Computer"]["Number of Displays"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
-    console.log($scope.img2);
+    
+    console.log($scope.Display_Number);
    }
  
     $scope.initIndex = function(chapterIndex, SectionIndex, item) {
