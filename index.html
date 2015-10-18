@@ -239,7 +239,7 @@
                         <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
                     </div>
                     </div>
-                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Configurator'">
+                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Configure your Computer'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount'">
                            <h4 class="collapse-summary-heading" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{chapters}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
                            <div class="collapsable">
