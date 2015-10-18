@@ -38,7 +38,7 @@
                     <div ng-repeat="Chapter in data" class="panel panel-default">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
-                            <p style="color:#FFF" ng-if="Chapter.name == '1. Ready Configs'">Choose your Use Case, Performance, Form Factor and Number of Displays and press "Render Preview"</p>
+                            <p style="color:#FFF" ng-if="Chapter.id == 150">Tell how you use your PC and we create the optimal configuration</p>
                         </div>
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
                             <div id="ViCase" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
@@ -55,7 +55,7 @@
                                         <!-- your choice -->
                                         <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                         <div class="readmore_area show-first open radio_button collapsable">
-                                            <div ng-if="Section.name=='Use Cases'">
+                                            <div ng-if="Section.name=='Field'">
                                                 <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase">
                                                     <label>
                                                         <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,true)"> 
@@ -64,7 +64,7 @@
                                                 </div>
                                             </div>
                                             <!-- readyconfig -->
-                                            <div ng-if="Section.name=='Performance'">
+                                            <div ng-if="Section.name=='Use'">
                                                 <div style="display:none" class="readyConfig" ng-repeat="choice in Section.yourChoice">
                                                     <label>
                                                     <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
@@ -105,11 +105,11 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
+                                            <div ng-if="Section.name!='Use' && Section.name!='Field' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
                                                     <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span>{{choice.name}}<span ng-if="choice.value!= 0"> - {{choice.value | currency}}</span></span></label>
                                             </div>
-                                            <div ng-if="Section.name!='Performance' && Section.name!='Use Cases' && Section.name != 'Form Factor' && Section.name != 'Preview'" ng-class="{'displayNone' : Section.noNone == true}">
+                                            <div ng-if="Section.name!='Use' && Section.name!='Field' && Section.name != 'Form Factor' && Section.name != 'Preview'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.name,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
@@ -239,7 +239,7 @@
                         <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
                     </div>
                     </div>
-                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Ready Configs'">
+                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Configurator'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount'">
                            <h4 class="collapse-summary-heading" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{chapters}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
                            <div class="collapsable">
