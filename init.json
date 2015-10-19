@@ -1592,16 +1592,19 @@
                     {
                         "name": "12V/120W-Already-Owned",
                         "id": "ID-144",
+                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "value": 0
                     },
                     {
                         "name": "12V/150W-Already-Owned",
                         "id": "ID-145",
+                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-120W-90P.jpg",
                         "value": 0
                     },
                     {
                         "name": "12V/200W-Already-Owned",
                         "id": "ID-146",
+                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "value": 0
                     }
                 ],
