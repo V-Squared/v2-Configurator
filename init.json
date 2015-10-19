@@ -4,7 +4,7 @@
         "id": "150",
         "data": [
             {
-                "name": "Field",
+                "name": "Field of Application",
                 "url": "",
                 "yourChoice": [
                     {
@@ -885,47 +885,6 @@
                         "class": "No-None"
                     }
                 ],
-                "TableHeading": [
-                    {
-                        "name": "color-title1",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "color-title2"
-                    },
-                    {
-                        "name": "color-title3"
-                    },
-                    {
-                        "name": "color-title4"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "color row 1",
-                        "row": [
-                            "color name2",
-                            "color name3",
-                            "color name4"
-                        ]
-                    },
-                    {
-                        "title": "color row 2",
-                        "row": [
-                            "color name2",
-                            "color name3",
-                            "color name4"
-                        ]
-                    },
-                    {
-                        "title": "color row 3",
-                        "row": [
-                            "color name2",
-                            "color name3",
-                            "color name4"
-                        ]
-                    }
-                ],
                 "Advice": [
                     {
                         "heading": "Express Yourself!",
@@ -1015,7 +974,7 @@
                 "Logic": {}
             },
             {
-                "name": "ViCase Placement",
+                "name": "ViCase All-Form-Factor",
                 "url": "",
                 "part": "vicase-placement",
                 "slide": "slide3",
