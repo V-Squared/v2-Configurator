@@ -2246,15 +2246,39 @@
                     },
                     {
                         "name": "V²P.12V-120W",
-                        "id": "ID-35",
+                        "id": "ID-150",
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
                         "value": 29
+                    },
+                    {
+                        "name": "12V/48W-Already-Owned",
+                        "id": "ID-151",
+                        "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
+                        "value": 0
+                    },
+                    {
+                        "name": "12V/120W-Already-Owned",
+                        "id": "ID-152",
+                        "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
+                        "value": 0
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "hi",
-                        "content": "hi"
+                        "heading": "V²P.12V-48W",
+                        "content": "Choose V²P.12V-48W if you are using x1 or x4 PCIe cards in your ViDock. Or if you have a x8 or x16 PCIe card, which datasheet states a less than 48W power consumption"
+                    },
+                    {
+                        "heading": "V²P.12V-120W",
+                        "content": "Choose V²P.12V-120W if you are using a x16 PCIe card that needs more than 48W. E.g. a GPU card."
+                    },
+                    {
+                        "heading": "12V/48W-Already-Owned",
+                        "content": "Choose 12V/48W-Already-Owned if you already own a 12V / 48W AC/DC Adapter e.g. any ViDock G3 or higher AC/DC Adapter will work. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
+                    },
+                    {
+                        "heading": "12V/120W-Already-Owned",
+                        "content": "Choose 12V/120W-Already-Owned if you already own a 12V / 120W AC/DC Adapter, e.g. from a ViDock G3 or higher. If you own the 150W or 200W ViDock Adapter, they will work too. 120W is powerful enough for GPU cards that do not require an additional PCIe Aux Power cable. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
                     }
                 ],
                 "Gallery": [
