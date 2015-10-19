@@ -2021,13 +2021,13 @@
                     {
                         "name": "ViDock-GPU-OEM",
                         "id": "ID-140",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-OEM.jpg",
                         "value": 29
                     },
                     {
                         "name": "ViDock-GPU-Motherboard",
                         "id": "ID-141",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Motherboard.jpg",
                         "value": 15
                     }
                 ],
@@ -2082,10 +2082,25 @@
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
                     },
                     {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-side.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Bottom.jpg"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-side.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
                 ]
             },
