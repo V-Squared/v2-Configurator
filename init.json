@@ -2072,7 +2072,19 @@
             },
             {
                 "name": "ViCase Parallel Port",
-                "tag": "Add Parallel Port for CNC Machine or old Printer",
+                "yourChoice": [
+                    {
+                        "name": "ViCase-Tiny",
+                        "id": "ID-155",
+                        "img": "",
+                        "link": "",
+                        "Child_Name": [
+                            "#ID-11"
+                        ],
+                        "tag": "Add Parallel Port for CNC Machine or old Printer",
+                        "value": 0
+                    }
+                ],
                 "TableHeading": [],
                 "TableBody": [],
                 "Advice": [],
@@ -2911,7 +2923,15 @@
             },
             {
                 "name": "ViCase-mSATA",
-                "tag": "Adapter to use mSATA Disk with SATA cable"
+                "yourChoice": [
+                    {
+                        "name": "ViCase-mSATA",
+                        "id": "ID-157",
+                        "img": "",
+                        "value": 0,
+                        "tag": "Adapter to use mSATA Disk with SATA cable"
+                    }
+                ]
             }
         ]
     },
