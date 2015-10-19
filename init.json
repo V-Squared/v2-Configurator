@@ -2189,18 +2189,18 @@
                 "part": "v2c-cables",
                 "yourChoice": [
                     {
-                        "": {
-                            "name": "V²C.Nano",
-                            "id": "ID-34",
-                            "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
-                            "": {
-                                "name": "V²C.Mini",
-                                "id": "ID-33",
-                                "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
-                                "value": 19
-                            },
-                            "value": 19
-                        },
+                        "name": "V²C.Nano",
+                        "id": "ID-34",
+                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
+                        "value": 19
+                    },
+                    {
+                        "name": "V²C.Mini",
+                        "id": "ID-33",
+                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
+                        "value": 19
+                    },
+                    {
                         "name": "V²C.Card",
                         "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
                         "id": "ID-32",
