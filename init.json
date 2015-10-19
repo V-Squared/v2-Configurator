@@ -1,6 +1,6 @@
 [
   {
-    "name": "1. Configure your Computer",
+    "name": "1. Wizard",
     "id":"150",
     "data": [
       {
@@ -1874,22 +1874,42 @@
         ],
         "Gallery": [
           {
-            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/Power-Black.jpg",
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W.jpg",
             "title": "Power Black",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/Power-Cyan.jpg",
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Front.jpg",
             "title": "Power Cyan",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/Power-Red.jpg",
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Top.jpg",
             "title": "Power Red",
             "description": "This is a description"
           },
           {
-            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/Power-Silver.jpg",
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Rear.jpg",
+            "title": "Power Silver",
+            "description": "This is a description"
+          },
+          {
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W.jpg",
+            "title": "Power Black",
+            "description": "This is a description"
+          },
+          {
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Front.jpg",
+            "title": "Power Cyan",
+            "description": "This is a description"
+          },
+          {
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Top.jpg",
+            "title": "Power Red",
+            "description": "This is a description"
+          },
+          {
+            "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Rear.jpg",
             "title": "Power Silver",
             "description": "This is a description"
           }
@@ -2003,8 +2023,31 @@
         ],
         "Advice": [
             {
-                "heading":"",
-                "content":""
+                "heading":"hi",
+                "content":"hi"
+            }
+        ],
+        "Gallery":[
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Cheapo.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg"
             }
         ]
       },
@@ -2025,6 +2068,20 @@
             "id": "ID-31",
             "value": "9"
           }
+        ],
+        "Advice": [
+            {
+                "heading":"hi",
+                "content":"hi"
+            }
+        ],
+        "Gallery": [
+            {
+                "image":"images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano.jpg"
+            }
         ]
       },
       {
@@ -2050,6 +2107,23 @@
             "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
             "value": 19
           }
+        ],
+        "Advice": [
+            {
+                "heading":"hi",
+                "content":"hi"
+            }
+        ],
+        "Gallery" : [
+            {
+                "image":"images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
+            },
+            {
+                "image":"images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg"
+            }
         ]
       },
       {
@@ -2069,6 +2143,23 @@
             "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
             "value": 29
           }
+        ],
+        "Advice": [
+            {
+                "heading":"hi",
+                "content":"hi"
+            }
+        ],
+        "Gallery": [
+            {
+                "image": "images/expansion/config/ViDock/V2P-Power/12W-48.jpg"
+            },
+            {
+                "image": "images/expansion/config/ViDock/V2P-Power/12W-120.jpg"
+            },
+            {
+                "image": "images/expansion/config/ViDock/V2P-Power/V²P-ATX-250W.jpg"
+            }
         ]
       }
     ]

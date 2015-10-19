@@ -34,11 +34,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-9" id="configurator">
-                    <h1 id="check-me-out">ViCase & ViDock Configuration</h1>
+                    <h1 id="check-me-out">Configuration</h1>
                     <div ng-repeat="Chapter in data" class="panel panel-default">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
-                            <p style="color:#FFF" ng-if="Chapter.id == 150">Tell how you use your PC and we create the optimal configuration</p>
                         </div>
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
                             <div id="ViCase" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
@@ -231,15 +230,8 @@
                 <!--               sidebar -->
                 <div class="col-md-4 col-lg-3">
                     <div class="price-sidebar" data-spy="affix" data-offset-top="560">
-                    <div class="row">
-                    <div class="col-sm-7">
-                        <button style="display:block" data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout Village</button>
-                    </div>
-                    <div class="col-sm-5" id="right-button-column">
-                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
-                    </div>
-                    </div>
-                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Configure your Computer'">
+                    <h1>Summary</h1>
+                        <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='1. Wizard'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount'">
                            <h4 class="collapse-summary-heading" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{chapters}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
                            <div class="collapsable">
@@ -249,13 +241,16 @@
                         </div>
                         </span>
                     </div>
-                    <hr  style="margin-bottom:0">
-                    <h3 class="float-right">
-                        <span style="color:#07b;" ng-bind="cart.cost" id="total"></span> <span style="color:#07b;">US</span>
-                     </h3>
+                    <hr>
+                    <div class="row">
+                    <div class="col-sm-7">
+                        <button style="display:block" data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout Village</button>
+                    </div>
+                    <div class="col-sm-5" id="right-button-column">
+                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
+                    </div>
+                    </div>
                      <div class="clearfix"></div>
-                     <hr style="margin-bottom:2px;margin-top:0">
-                     <hr style="margin-top:0;">
                 </div>
             </div>
         </div>
