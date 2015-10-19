@@ -945,16 +945,16 @@
                         "value": 3
                     },
                     {
-                        "name": "ViCase-Feet",
-                        "id": "ID-8",
-                        "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
-                        "value": 9
-                    },
-                    {
                         "name": "ViCase-Stand",
                         "id": "ID-10",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Tiny-Side-Stand-160x90.jpg",
                         "value": 49
+                    },
+                    {
+                        "name": "ViCase-Feet",
+                        "id": "ID-8",
+                        "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
+                        "value": 9
                     }
                 ],
                 "TableHeading": [
