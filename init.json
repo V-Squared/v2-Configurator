@@ -1977,7 +1977,12 @@
                 ]
             },
             {
-                "name":"ViCase Parallel Port"   
+                "name":"ViCase Parallel Port",
+                "TableHeading":[],
+                "TableBody":[],
+                "Advice":[],
+                "Gallery":[],
+                "Datasheet":[]
             }
         ]
     },
