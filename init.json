@@ -2189,28 +2189,36 @@
                 "part": "v2c-cables",
                 "yourChoice": [
                     {
+                        "": {
+                            "name": "V²C.Nano",
+                            "id": "ID-34",
+                            "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
+                            "": {
+                                "name": "V²C.Mini",
+                                "id": "ID-33",
+                                "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
+                                "value": 19
+                            },
+                            "value": 19
+                        },
                         "name": "V²C.Card",
                         "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
                         "id": "ID-32",
-                        "value": 19
-                    },
-                    {
-                        "name": "V²C.Mini",
-                        "id": "ID-33",
-                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
-                        "value": 19
-                    },
-                    {
-                        "name": "V²C.Nano",
-                        "id": "ID-34",
-                        "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
                         "value": 19
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "hi",
-                        "content": "hi"
+                        "heading": "V²C.Nano",
+                        "content": "The default choice of cable to connect your ViDock G6 to your PC with V²A.Nano port. V²C.Nano is the latest V²C Technology with a fast x4 PCIe connection."
+                    },
+                    {
+                        "heading": "V²C.Mini",
+                        "content": "Choose V²C.Mini to connect ViDock G6 to your Mini Computer, All-In-One PC or Low Cost Desktop PC that have a mPCIe aka Mini PCI Express bay. This is a semi permanent connection, as such it does not work for Notebooks. mPCIe is an older PCIe connector with a x1 connection. It will be sufficient for most GPU application when paired with an nVidia GTX card or for Audio DSP cards or RAID for up to 5 drives."
+                    },
+                    {
+                        "heading": "V²C.Card",
+                        "content": "Choose V²C.Card to connect ViDock G6 to your Notebook with an ExpressCard Slot, or if your PC only has a x1 PCIe Slot and you use V²A.Card. ExpressCard is an older PCIe connector with a x1 connection. It will be sufficient for most GPU application when paired with an nVidia GTX card or for Audio DSP cards or RAID for up to 5 drives."
                     }
                 ],
                 "Gallery": [
