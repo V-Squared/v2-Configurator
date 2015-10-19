@@ -220,28 +220,31 @@
                         "Child_Name": [
                             "#ID-11"
                         ],
-                        "tag": "This is a Tag Line",
+                        "tag": "Mini-ITX Case: up to i7 Dual, 2 Disks, ViDock compatible",
                         "value": 79
                     },
                     {
                         "name": "ViCase-Mini",
                         "id": "ID-2",
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
-                        "value": 89
+                        "value": 89,
+                        "tag": "Mini-ITX Case: up to i7Quad, 4 Disks, PCIe Slot with GPU Support"
                     },
                     {
                         "name": "ViCase-Mini-Value",
                         "id": "ID-146",
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
-                        "value": 59
+                        "value": 59,
+                        "tag": "ViCase Mini, but all inside parts made of plastic"
                     },
                     {
                         "name": "ViCase-Ultra",
                         "id": "ID-3",
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
-                        "value": 99
+                        "value": 99,
+                        "tag": "Mini-ITX Case: up to i7Quad, 8 Disks, PCIe Slot with GPU Support"
                     }
                 ],
                 "TableHeading": [
@@ -1022,19 +1025,22 @@
                         "name": "ViCase-VESA",
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
-                        "value": 3
+                        "value": 3,
+                        "tag": "VESA Bracket to mount ViCase to Display or Wall"
                     },
                     {
                         "name": "ViCase-Stand",
                         "id": "ID-10",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Tiny-Side-Stand-160x90.jpg",
-                        "value": 49
+                        "value": 49,
+                        "tag": "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
                     },
                     {
                         "name": "ViCase-Feet",
                         "id": "ID-8",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
-                        "value": 9
+                        "value": 9,
+                        "tag": "Accessory to place ViCase vertical to save space"
                     }
                 ],
                 "TableHeading": [
@@ -1229,13 +1235,15 @@
                         "name": "ViCase-Access",
                         "id": "ID-11",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-160x90.jpg",
-                        "value": 9
+                        "value": 9,
+                        "tag": "Remote Access of Power Button, USB ports and Status LED"
                     },
                     {
                         "name": "ViCase-Access-Plus",
                         "id": "ID-12",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus-160x90.jpg",
-                        "value": 29
+                        "value": 29,
+                        "tag": "Remote Access of Power Button, USB2 ports and Status LED for ViCase"
                     }
                 ],
                 "TableHeading": [
@@ -1405,31 +1413,36 @@
                         "name": "ViCase-Cooler-SS",
                         "id": "ID-13",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-SS-90P.jpg",
-                        "value": 14
+                        "value": 14,
+                        "tag": "Passive CPU Cooler, 25W TDP with thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-S",
                         "id": "ID-14",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-S-90P.jpg",
-                        "value": 19
+                        "value": 19,
+                        "tag": "Active CPU Cooler, 35W TDP with thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-M",
                         "id": "ID-15",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-M160x90.jpg",
-                        "value": 29
+                        "value": 29,
+                        "tag": "Active CPU Cooler, 55W TDP with thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-L",
                         "id": "ID-16",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-L-90P.jpg",
-                        "value": 19
+                        "value": 19,
+                        "tag": "Active CPU Cooler, 65W TDP without thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-XL",
                         "id": "ID-17",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-XL-90P.jpg",
-                        "value": 49
+                        "value": 49,
+                        "tag": "Active CPU Cooler, 95W TDP without thermal cycling"
                     }
                 ],
                 "TableHeading": [
@@ -2100,6 +2113,7 @@
             },
             {
                 "name": "ViCase Parallel Port",
+                "tag": "Add Parallel Port for CNC Machine or old Printer",
                 "TableHeading": [],
                 "TableBody": [],
                 "Advice": [],
@@ -2937,7 +2951,8 @@
                 ]
             },
             {
-                "name": "ViCase-mSATA"
+                "name": "ViCase-mSATA",
+                "tag": "Adapter to use mSATA Disk with SATA cable"
             }
         ]
     },
