@@ -1514,64 +1514,6 @@
                         "title": "Cooler M Top",
                         "description": "This is a description"
                     }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "cooler button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "cooler button2"
-                            },
-                            {
-                                "name": "cooler button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            },
-                            {
-                                "name1": "cooler name1",
-                                "name2": "cooler name2"
-                            }
-                        ]
-                    }
                 ]
             },
             {
