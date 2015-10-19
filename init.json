@@ -2061,13 +2061,37 @@
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S.jpg"
                     },
                     {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Rear.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Top.jpg"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Rear.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Rear.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU.jpg"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Cheapo.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Rear.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Top.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
@@ -2128,7 +2152,25 @@
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card.jpg"
                     },
                     {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side-left.jpg"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-left.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
                     }
                 ]
             },
@@ -2175,10 +2217,37 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg"
                     },
                     {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top-Whole.jpg"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
                     },
                     {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg"
                     }
                 ]
             },
@@ -2232,13 +2301,64 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViDock/V2P-Power/12W-48.jpg"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48.jpg",
+                        "title": "Adapter Black",
+                        "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2P-Power/12W-120.jpg"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Front.jpg",
+                        "title": "Adapter Cyan",
+                        "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2P-Power/V²P-ATX-250W.jpg"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Top.jpg",
+                        "title": "Adapter Red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Side.jpg",
+                        "title": "Adapter Silver",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120.jpg",
+                        "title": "Adapter Black",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Front.jpg",
+                        "title": "Adapter Cyan",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Top.jpg",
+                        "title": "Adapter Red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-side.jpg",
+                        "title": "Adapter Silver",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240.jpg",
+                        "title": "Adapter Black",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Front.jpg",
+                        "title": "Adapter Cyan",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Rear.jpg",
+                        "title": "Adapter Red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
+                        "title": "Adapter Silver",
+                        "description": "This is a description"
                     }
                 ]
             }
