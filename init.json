@@ -253,10 +253,10 @@
                         "name": "Tiny"
                     },
                     {
-                        "name": "Mini-Value"
+                        "name": "Mini"
                     },
                     {
-                        "name": "Mini"
+                        "name": "Mini-Value"
                     },
                     {
                         "name": "Ultra"
@@ -359,7 +359,7 @@
                             "-",
                             "-",
                             "-",
-                            "Up tp 3"
+                            "Up to 3"
                         ]
                     },
                     {
@@ -636,7 +636,7 @@
                                 "name2": ""
                             },
                             {
-                                "name1": "ViCase-Access",
+                                "name1": "",
                                 "name2": ""
                             }
                         ],
