@@ -1201,7 +1201,7 @@
                         "name": "ViCase-Access-Plus",
                         "id": "ID-12",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus-160x90.jpg",
-                        "value": 29,
+                        "value": 19,
                         "tag": "Remote Access of Power Button, USB2 ports and Status LED for ViCase"
                     }
                 ],
@@ -1302,64 +1302,6 @@
                         "description": "This is a description"
                     }
                 ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "access button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "access button2"
-                            },
-                            {
-                                "name": "access button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            },
-                            {
-                                "name1": "access name1",
-                                "name2": "access name2"
-                            }
-                        ]
-                    }
-                ],
                 "Logic": {}
             },
             {
@@ -1369,7 +1311,7 @@
                 "slide": "slide6",
                 "yourChoice": [
                     {
-                        "name": "ViCase-Cooler-XS",
+                        "name": "ViCase-Cooler-SS",
                         "id": "ID-13",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-SS-90P.jpg",
                         "value": 14,
