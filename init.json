@@ -1974,8 +1974,10 @@
                             }
                         ]
                     }
-                ],
-                "Logic": {}
+                ]
+            },
+            {
+                "name":"ViCase Parallel Port"   
             }
         ]
     },
