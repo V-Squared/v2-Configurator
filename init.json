@@ -1592,19 +1592,19 @@
                     {
                         "name": "12V/120W-Already-Owned",
                         "id": "ID-144",
-                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0
                     },
                     {
                         "name": "12V/150W-Already-Owned",
                         "id": "ID-145",
-                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0
                     },
                     {
                         "name": "12V/200W-Already-Owned",
                         "id": "ID-146",
-                        "img":"images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0
                     }
                 ],
@@ -1977,12 +1977,12 @@
                 ]
             },
             {
-                "name":"ViCase Parallel Port",
-                "TableHeading":[],
-                "TableBody":[],
-                "Advice":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "name": "ViCase Parallel Port",
+                "TableHeading": [],
+                "TableBody": [],
+                "Advice": [],
+                "Gallery": [],
+                "Datasheet": []
             }
         ]
     },
@@ -2046,23 +2046,23 @@
                     },
                     {
                         "heading": "ViDock-PCIe-L",
-                        "content": ""
+                        "content": "Choose ViDock-PCIe-L if your PCIe card is longer than 9.5\". Otherwise ViDock-PCIe-L has same features as ViDock-PCIe-S."
                     },
                     {
                         "heading": "ViDock-GPU",
-                        "content": ""
+                        "content": "Choose ViDock-GPU for GPU cards that need PCIe Aux Power. The ViDock-GPU case is much larger than the ViDock-PCIe Case in order to support GPU cards with over sized coolers. You will provide the ATX Power Supply. Make sure the power requirements of your GPU matches that of your ATX Power Supply. The case is made of high quality Aluminum. CNC carved, sand blasted and anodized."
                     },
                     {
                         "heading": "ViDock-GPU-Cheapo",
-                        "content": ""
+                        "content": "Choose ViDock-GPU-Cheapo, if you want all the goodness of ViDock-GPU, yet you want to save money. The Case of ViDock-GPU-Cheapo is made of industrial sandwich plastic. It does not look great, but it works. The material is similar to wood. Ideal if you plan to make modifications to the housing. ViDock-GPU-Cheapo is ideal of you are on a budget, if you want to hack your ViDock or if you want to build a GPU farm with many GPUs connected to one PC."
                     },
                     {
                         "heading": "ViDock-G6-OEM",
-                        "content": ""
+                        "content": "ViDock-G6-OEM is the PCB Kit of ViDock-GPU. Ideal for OEM projects or if you simply want to build your own housing or do not need one."
                     },
                     {
                         "heading": "ViDock-G6-Motherboard",
-                        "content": ""
+                        "content": "This is the Motherboard PCB only. Including the ViDock CPU, who manages power status. By the time ViDock-G6-Motherboard ships, we will have published in Open Source the IO PCB, so you can design and build your own. Ideal for Industrial and OEM projects. The IO PCB is of simple design with only 2 Layers."
                     }
                 ],
                 "Gallery": [
