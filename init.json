@@ -2152,22 +2152,26 @@
                 "part": "VA",
                 "yourChoice": [
                     {
-                        "name": "V²A.Card",
-                        "id": "ID-30",
-                        "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
-                        "value": 19
-                    },
-                    {
                         "name": "V²A.Nano",
                         "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-Nano.jpg",
                         "id": "ID-31",
                         "value": "9"
+                    },
+                    {
+                        "name": "V²A.Card",
+                        "id": "ID-30",
+                        "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
+                        "value": 19
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "hi",
-                        "content": "hi"
+                        "heading": "V²A.Nano",
+                        "content": "V²A.Nano is the default choice to connect your ViDock G6 with your PC. It is lower cost than V²A.Card and has 400% more PCIe Bandwidth. Compatible with all ViCase Models."
+                    },
+                    {
+                        "heading": "V²A.Card",
+                        "content": "Choose V²A.Card if you want to connect an older Generation ViDock (G1 ... G5) or if your PC has only a x1 PCIe Slot. Compatible with ViCase Mini and ViCase Ultra."
                     }
                 ],
                 "Gallery": [
