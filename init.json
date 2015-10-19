@@ -253,6 +253,9 @@
                         "name": "Tiny"
                     },
                     {
+                        "name": "Mini-Value"
+                    },
+                    {
                         "name": "Mini"
                     },
                     {
@@ -265,12 +268,32 @@
                         "row": [
                             "3L",
                             "5L",
+                            "5L",
                             "7L"
+                        ]
+                    },
+                    {
+                        "title": "Case Top Cover",
+                        "row": [
+                            "Aluminum",
+                            "Aluminum",
+                            "Aluminum",
+                            "Aluminum"
+                        ]
+                    },
+                    {
+                        "title": "Case Material",
+                        "row": [
+                            " Aluminum",
+                            " Aluminum",
+                            "Plastic",
+                            " Aluminum"
                         ]
                     },
                     {
                         "title": "Form Factor",
                         "row": [
+                            "Mini-ITX",
                             "Mini-ITX",
                             "Mini-ITX",
                             "Mini-ITX"
@@ -281,12 +304,14 @@
                         "row": [
                             "Yes",
                             "Yes",
+                            "Yes",
                             "Yes"
                         ]
                     },
                     {
                         "title": "ViCase-Access Plus",
                         "row": [
+                            "Yes",
                             "Yes",
                             "Yes",
                             "Yes"
@@ -297,6 +322,7 @@
                         "row": [
                             "No",
                             "Yes",
+                            "Yes",
                             "Yes"
                         ]
                     },
@@ -304,6 +330,7 @@
                         "title": "MAX CPU Power",
                         "row": [
                             "55W",
+                            "88W",
                             "88W",
                             "88W"
                         ]
@@ -313,6 +340,7 @@
                         "row": [
                             "Up to 2",
                             "Up to 4",
+                            "Up to 4",
                             "Up to 2"
                         ]
                     },
@@ -320,13 +348,15 @@
                         "title": "2.5'",
                         "row": [
                             "up to 2",
-                            "up to 4",
+                            "up to 3",
+                            "up to 3",
                             "up to 8"
                         ]
                     },
                     {
                         "title": "3.5'",
                         "row": [
+                            "-",
                             "-",
                             "-",
                             "Up tp 3"
@@ -336,6 +366,7 @@
                         "title": "PCIe Slot",
                         "row": [
                             "Ultra Low Profile",
+                            "Low Profile",
                             "Low Profile",
                             "Low Profile"
                         ]
