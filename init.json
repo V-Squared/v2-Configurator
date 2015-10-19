@@ -67,8 +67,12 @@
                 ],
                 "Advice": [
                     {
-                        "heading":"hi",
-                        "content":"hi"
+                        "heading": "Getting more speed for your money",
+                        "content": "Different application simply demand for different computer builds. It is not as simple as choose a bigger CPU and more RAM for a bigger app such as Video Editing. You also need to consider other components, such as Disk RAIDS or GPUs. A computer architect expert knows how to balance the performance of all computer parts to give you the best speed for your money. This is exactly the value of ViCase with its V²Configurator. Our team of experts and community members has developed 30+ Configurations tailed for corresponding Use Cases."
+                    },
+                    {
+                        "heading": "How the V²Configurator works",
+                        "content": "You configure your PC in the left Pane \"Configuration\". The right pane \"Summary\" shows you a complete list of all parts that make up your PC. On the bottom of Summary you find two check out buttons. One for parts you will buy with us and one for Off the Shelf computer parts you buy with 3rd. Party. You begin configuration by walking through the \"Wizard\" making choices how you will use your computer and the wizard will build a custom configuration optimized for you. Preview shows you how your finished computer will look with a front and rear view. Your Computer Configuration is divided into the 4 Categories: ViCase, ViDock, PC Parts and Accessories. You can unfold each Category and dive into more details of its parts. You also can make changes and further customize your PC. When you are happy with the configuration you check out your parts using the two checkout buttons."
                     }
                 ]
             },
@@ -216,7 +220,7 @@
                         "Child_Name": [
                             "#ID-11"
                         ],
-                        "tag":"This is a Tag Line",
+                        "tag": "This is a Tag Line",
                         "value": 79
                     },
                     {
