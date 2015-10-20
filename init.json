@@ -501,6 +501,13 @@
                                         "row": [
                                             ""
                                         ]
+                                    },
+                                    {
+                                        "title": "Motherboard",
+                                        "class": "",
+                                        "row": [
+                                            "Mini-ITX Form Factor"
+                                        ]
                                     }
                                 ]
                             },
