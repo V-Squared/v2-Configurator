@@ -1781,26 +1781,6 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet.jpg",
-                        "title": "Placement Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Tiny.jpg",
-                        "title": "Placement Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Mini.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Ultra.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
-                    },
-                    {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
                         "title": "Placement Black",
                         "description": "This is a description"
@@ -1817,6 +1797,26 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear-Mini.jpg",
+                        "title": "Placement red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet.jpg",
+                        "title": "Placement Black",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Tiny.jpg",
+                        "title": "Placement Cyan",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Mini.jpg",
+                        "title": "Placement red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Ultra.jpg",
                         "title": "Placement red",
                         "description": "This is a description"
                     }
