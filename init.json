@@ -2932,7 +2932,7 @@
                         "name": "ViCase-mSATA",
                         "id": "ID-157",
                         "img": "images/expansion/config/Third-party/ViCase-mSATA/ViCase-mSATA.jpg",
-                        "value": 1,
+                        "value": 5,
                         "tag": "Adapter to use mSATA Disk with SATA cable"
                     }
                 ],
