@@ -1624,18 +1624,31 @@
                                 "class": "active"
                             }
                         ],
-                        "table1": [
+                        "tables": [
                             {
-                                "name1": "Top Cover",
-                                "name2": "One solid piece of 3 mm Aluminum. CNC cut."
-                            },
-                            {
-                                "name1": "Surface Finish",
-                                "name2": "Aluminum, sand blasted and anodized"
-                            },
-                            {
-                                "name1": "Available Colors",
-                                "name2": "Black, Aluminum Natural aka Silver, Cyan (light blue) and Deep Red."
+                                "table": [
+                                    {
+                                        "title": "Top Cover",
+                                        "class": "",
+                                        "row": [
+                                            "One solid piece of 3 mm Aluminum. CNC cut."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Surface Finish",
+                                        "class": "",
+                                        "row": [
+                                            "Aluminum, sand blasted and anodized"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Available Colors",
+                                        "class": "",
+                                        "row": [
+                                            "Black, Aluminum Natural aka Silver, Cyan (light blue) and Deep Red."
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
