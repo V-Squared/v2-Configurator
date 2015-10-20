@@ -1378,15 +1378,13 @@
                                 "class": "active"
                             },
                             {
-                                "name": "ViCase Feet",
-                                "class": "active"
+                                "name": "ViCase Feet"
                             },
                             {
-                                "name": "ViCase Stand",
-                                "class": "active"
+                                "name": "ViCase Stand"
                             }
                         ],
-                        "table1": [
+                        "table0": [
                             {
                                 "name1": "Size",
                                 "name2": "220 x 30 mm"
@@ -1404,7 +1402,7 @@
                                 "name2": "Zinc Plating"
                             }
                         ],
-                        "table2": [
+                        "table1": [
                             {
                                 "name1": "Size Packaged",
                                 "name2": "50 x 220 x 10 mm"
@@ -1422,7 +1420,7 @@
                                 "name2": "Sandblasted and Anodized"
                             }
                         ],
-                        "table3": [
+                        "table2": [
                             {
                                 "name1": "Size Packaged",
                                 "name2": "400 x 300 x 25 mm"
