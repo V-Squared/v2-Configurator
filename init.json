@@ -642,7 +642,7 @@
                                 "name2": ""
                             },
                             {
-                                "name1": "",
+                                "name1": "ViCase-Access",
                                 "name2": ""
                             }
                         ],
@@ -653,31 +653,31 @@
                             },
                             {
                                 "name1": "Motherboard",
-                                "name2": "Mini-ITX Form Factor"
+                                "name2": ""
                             },
                             {
                                 "name1": "Case Material",
-                                "name2": "CNC Grade Aluminum. 6 mm thickness for case frame. Cover 3 mm thickness."
+                                "name2": ""
                             },
                             {
                                 "name1": "Threads",
-                                "name2": "All threads are high quality CNC cut Brass Inserts"
+                                "name2": ""
                             },
                             {
                                 "name1": "Finish",
-                                "name2": "Sandblasted and Anodized"
+                                "name2": ""
                             },
                             {
                                 "name1": "Size",
-                                "name2": "210 x 210 x 70 mm = 3 Liters"
+                                "name2": ""
                             },
                             {
                                 "name1": "Weight",
-                                "name2": "1kg"
+                                "name2": ""
                             },
                             {
                                 "name1": "Mounting Options",
-                                "name2": "1) Place on table 2) Standing up via ViCase-Stand 3) Mount to wall with ViCase-VESA 4) Mount to Display with ViCase-VESA, 5) Rear mount All-In-One using ViCase-Stand."
+                                "name2": ""
                             },
                             {
                                 "name1": "I/O Panel",
@@ -685,23 +685,23 @@
                             },
                             {
                                 "name1": "DC Input Jack",
-                                "name2": "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                "name2": ""
                             },
                             {
                                 "name1": "Power Button",
-                                "name2": "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place."
+                                "name2": ""
                             },
                             {
                                 "name1": "Audio Out",
-                                "name2": "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                "name2": ""
                             },
                             {
                                 "name1": "Red LED",
-                                "name2": "HDD Status"
+                                "name2": ""
                             },
                             {
                                 "name1": "Blue LED",
-                                "name2": "Power Status"
+                                "name2": ""
                             },
                             {
                                 "name1": "Disks",
@@ -709,15 +709,15 @@
                             },
                             {
                                 "name1": "2.5\" Bays",
-                                "name2": "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                "name2": ""
                             },
                             {
                                 "name1": "mSATA Bay",
-                                "name2": "You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA."
+                                "name2": ""
                             },
                             {
                                 "name1": "Disk Protection",
-                                "name2": "HDD are mounted with vibration and shock absorbing rubber grommets."
+                                "name2": ""
                             },
                             {
                                 "name1": "CPU",
@@ -725,11 +725,11 @@
                             },
                             {
                                 "name1": "Max CPU TDP",
-                                "name2": "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                "name2": ""
                             },
                             {
                                 "name1": "Max CPU Cooler Height",
-                                "name2": "28 mm"
+                                "name2": ""
                             },
                             {
                                 "name1": "PCIe",
@@ -737,15 +737,15 @@
                             },
                             {
                                 "name1": "Number of PCIe Slots",
-                                "name2": 1
+                                "name2": ""
                             },
                             {
                                 "name1": "Slot Height",
-                                "name2": "Ultra Low Profile"
+                                "name2": ""
                             },
                             {
                                 "name1": "ViDock (V²) Compatible",
-                                "name2": "Yes. Via V²A.Nano"
+                                "name2": ""
                             },
                             {
                                 "name1": "Accessories",
@@ -757,7 +757,7 @@
                             },
                             {
                                 "name1": "Color Option",
-                                "name2": "If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
+                                "name2": ""
                             },
                             {
                                 "name1": "ViCase-VESA",
@@ -796,315 +796,7 @@
                                 "name2": ""
                             },
                             {
-                                "name1": "",
-                                "name2": ""
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "Case",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Motherboard",
-                                "name2": "Mini-ITX Form Factor"
-                            },
-                            {
-                                "name1": "Case Material",
-                                "name2": "CNC Grade Aluminum. 6 mm thickness for case frame. Cover 3 mm thickness."
-                            },
-                            {
-                                "name1": "Threads",
-                                "name2": "All threads are high quality CNC cut Brass Inserts"
-                            },
-                            {
-                                "name1": "Finish",
-                                "name2": "Sandblasted and Anodized"
-                            },
-                            {
-                                "name1": "Size",
-                                "name2": "210 x 210 x 70 mm = 3 Liters"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1kg"
-                            },
-                            {
-                                "name1": "Mounting Options",
-                                "name2": "1) Place on table 2) Standing up via ViCase-Stand 3) Mount to wall with ViCase-VESA 4) Mount to Display with ViCase-VESA, 5) Rear mount All-In-One using ViCase-Stand."
-                            },
-                            {
-                                "name1": "I/O Panel",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "DC Input Jack",
-                                "name2": "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
-                            },
-                            {
-                                "name1": "Power Button",
-                                "name2": "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place."
-                            },
-                            {
-                                "name1": "Audio Out",
-                                "name2": "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
-                            },
-                            {
-                                "name1": "Red LED",
-                                "name2": "HDD Status"
-                            },
-                            {
-                                "name1": "Blue LED",
-                                "name2": "Power Status"
-                            },
-                            {
-                                "name1": "Disks",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "2.5\" Bays",
-                                "name2": "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
-                            },
-                            {
-                                "name1": "mSATA Bay",
-                                "name2": "You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA."
-                            },
-                            {
-                                "name1": "Disk Protection",
-                                "name2": "HDD are mounted with vibration and shock absorbing rubber grommets."
-                            },
-                            {
-                                "name1": "CPU",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Max CPU TDP",
-                                "name2": "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
-                            },
-                            {
-                                "name1": "Max CPU Cooler Height",
-                                "name2": "28 mm"
-                            },
-                            {
-                                "name1": "PCIe",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Number of PCIe Slots",
-                                "name2": 1
-                            },
-                            {
-                                "name1": "Slot Height",
-                                "name2": "Ultra Low Profile"
-                            },
-                            {
-                                "name1": "ViDock (V²) Compatible",
-                                "name2": "Yes. Via V²A.Nano"
-                            },
-                            {
-                                "name1": "Accessories",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "ViCase-Access-Plus",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "Color Option",
-                                "name2": "If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
-                            },
-                            {
-                                "name1": "ViCase-VESA",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Feet",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Stand",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-XS",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-S",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-M",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-mSATA",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "V²A.Nano",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Remote",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "",
-                                "name2": ""
-                            }
-                        ],
-                        "table4": [
-                            {
-                                "name1": "Case",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Motherboard",
-                                "name2": "Mini-ITX Form Factor"
-                            },
-                            {
-                                "name1": "Case Material",
-                                "name2": "CNC Grade Aluminum. 6 mm thickness for case frame. Cover 3 mm thickness."
-                            },
-                            {
-                                "name1": "Threads",
-                                "name2": "All threads are high quality CNC cut Brass Inserts"
-                            },
-                            {
-                                "name1": "Finish",
-                                "name2": "Sandblasted and Anodized"
-                            },
-                            {
-                                "name1": "Size",
-                                "name2": "210 x 210 x 70 mm = 3 Liters"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1kg"
-                            },
-                            {
-                                "name1": "Mounting Options",
-                                "name2": "1) Place on table 2) Standing up via ViCase-Stand 3) Mount to wall with ViCase-VESA 4) Mount to Display with ViCase-VESA, 5) Rear mount All-In-One using ViCase-Stand."
-                            },
-                            {
-                                "name1": "I/O Panel",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "DC Input Jack",
-                                "name2": "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
-                            },
-                            {
-                                "name1": "Power Button",
-                                "name2": "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place."
-                            },
-                            {
-                                "name1": "Audio Out",
-                                "name2": "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
-                            },
-                            {
-                                "name1": "Red LED",
-                                "name2": "HDD Status"
-                            },
-                            {
-                                "name1": "Blue LED",
-                                "name2": "Power Status"
-                            },
-                            {
-                                "name1": "Disks",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "2.5\" Bays",
-                                "name2": "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
-                            },
-                            {
-                                "name1": "mSATA Bay",
-                                "name2": "You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA."
-                            },
-                            {
-                                "name1": "Disk Protection",
-                                "name2": "HDD are mounted with vibration and shock absorbing rubber grommets."
-                            },
-                            {
-                                "name1": "CPU",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Max CPU TDP",
-                                "name2": "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
-                            },
-                            {
-                                "name1": "Max CPU Cooler Height",
-                                "name2": "28 mm"
-                            },
-                            {
-                                "name1": "PCIe",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "Number of PCIe Slots",
-                                "name2": 1
-                            },
-                            {
-                                "name1": "Slot Height",
-                                "name2": "Ultra Low Profile"
-                            },
-                            {
-                                "name1": "ViDock (V²) Compatible",
-                                "name2": "Yes. Via V²A.Nano"
-                            },
-                            {
-                                "name1": "Accessories",
-                                "class": "tableHeading"
-                            },
-                            {
-                                "name1": "ViCase-Access-Plus",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "Color Option",
-                                "name2": "If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
-                            },
-                            {
-                                "name1": "ViCase-VESA",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Feet",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Stand",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-XS",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-S",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Cooler-M",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-mSATA",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "V²A.Nano",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "ViCase-Remote",
-                                "name2": ""
-                            },
-                            {
-                                "name1": "",
+                                "name1": "ViCase-Access",
                                 "name2": ""
                             }
                         ]
