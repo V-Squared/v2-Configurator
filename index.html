@@ -181,14 +181,14 @@
                                                 </div>                                     
                                       </div>    
                                         <!-- datasheet -->
-                                        <div ng-init="tabs = 0" ng-if="Section.Datasheet">
-                                            <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
+                                        <div ng-if="Section.Datasheet">
+                                            <h4 ng-click="toggle($event);" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
                                             <div ng-repeat="datasheet in Section.Datasheet" style="display: none;" class="collapsable readmore_area radio-tables">
                                                 <ul class="nav nav-tabs table-tab">
-                                                    <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a data-toggle="tab" href="#tabSection{{$index+1}}" class="fake-link">{{buttons.name}}</a></li>
+                                                    <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a data-toggle="tab" ng-click="addTabs($index);" class="fake-link">{{buttons.name}}</a></li>
                                                 </ul>
                                                 <div class="tab-content">
-                                                    <div id="tabSection1" class="tableSection tab-pane fade in active">
+                                                    <div ng-if="tabs == 0" class="tableSection">
                                                         <table class="table table-striped">
                                                             <tbody>
                                                                 <tr ng-repeat="row in datasheet.table1" class="{{row.class}}">
@@ -198,7 +198,7 @@
                                                             </tbody>
                                                         </table>
                                                     </div>
-                                                    <div id="tabSection2" class="tableSection tab-pane fade">
+                                                    <div ng-if="tabs == 1" class="tableSection">
                                                         <table class="table table-striped">
                                                             <tbody>
                                                                 <tr ng-repeat="row in datasheet.table2" class="{{row.class}}">
@@ -208,7 +208,7 @@
                                                             </tbody>
                                                         </table>
                                                     </div>
-                                                    <div id="tabSection3" class="tableSection tab-pane fade">
+                                                    <div ng-if="tabs == 2" class="tableSection">
                                                         <table class="table table-striped">
                                                             <tr ng-repeat="row in datasheet.table3" class="{{row.class}}">
                                                                 <td class="table-left-title" style="width:20%">{{row.name1}}</td>

@@ -28,6 +28,9 @@ app.controller('myCtrl', function($scope, $http) {
            $scope.config = res.data;
            console.log(res.data.A1)
        });
+
+    $scope.tabs = 0;
+
     $scope.cart = {
         count: 0,
         cost: 0,
@@ -52,6 +55,10 @@ app.controller('myCtrl', function($scope, $http) {
          $('.GallerySlideshow > .item:nth-child(1)').addClass('active');
          $('.GalleryThumbNail > .item:nth-child(1)').addClass('active');
       },1000);
+    }
+
+    $scope.addTabs = function(index) {
+      $scope.tabs = index;
     }
 
     $scope.makeJSON = function() {
