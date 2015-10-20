@@ -2800,6 +2800,68 @@
                         "value": 15
                     }
                 ],
+                "TableHeading": [
+                    {
+                        "name": "PCIe-S",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "PCIe-L"
+                    },
+                    {
+                        "name": "GPU"
+                    },
+                    {
+                        "name": "Cheapo"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Case Material",
+                        "row": [
+                            "Alu",
+                            "Alu",
+                            "Alu",
+                            "Plastic"
+                        ]
+                    },
+                    {
+                        "title": "Short PCIe Cards",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Long PCIe Cards",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Oversized PCIe Cards",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "PCIe Aux Power",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    }
+                ],
                 "Advice": [
                     {
                         "heading": "Why to choose a ViDock",
