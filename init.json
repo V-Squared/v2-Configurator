@@ -1235,42 +1235,58 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "placement title1",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
-                        "name": "placement title2"
+                        "name": "ViCase-VESA"
                     },
                     {
-                        "name": "placement title3"
+                        "name": "ViCase-Feet"
                     },
                     {
-                        "name": "placement title4"
+                        "name": "ViCase-Stand"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "placement row 1",
+                        "title": "Need free VESA mount when Display feet is mounted",
                         "row": [
-                            "placement name2",
-                            "placement name3",
-                            "placement name4"
+                            "Yes",
+                            "No",
+                            "No"
                         ]
                     },
                     {
-                        "title": "placement row 2",
+                        "title": "Need Display with VESA Mount ",
                         "row": [
-                            "placement name2",
-                            "placement name3",
-                            "placement name4"
+                            "Yes",
+                            "No",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "placement row 3",
+                        "title": "Carry Grip",
                         "row": [
-                            "placement name2",
-                            "placement name3",
-                            "placement name4"
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Keyboard Shelf",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Price",
+                        "row": [
+                            "$3US",
+                            "$9US",
+                            "$49US"
                         ]
                     }
                 ],
@@ -1358,56 +1374,68 @@
                     {
                         "button": [
                             {
-                                "name": "placement button1",
+                                "name": "ViCase VESA",
                                 "class": "active"
                             },
                             {
-                                "name": "placement button2"
+                                "name": "ViCase Feet"
                             },
                             {
-                                "name": "placement button3"
+                                "name": "ViCase Stand"
                             }
                         ],
                         "table1": [
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Size",
+                                "name2": "220 x 30 mm"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Weight ",
+                                "name2": "10g"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Material",
+                                "name2": "Steel"
+                            },
+                            {
+                                "name1": "Surface",
+                                "name2": "Zinc Plating"
                             }
                         ],
                         "table2": [
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Size Packaged",
+                                "name2": "50 x 220 x 10 mm"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Weight",
+                                "name2": "90g"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Material",
+                                "name2": "6 mm strong Aluminum, CNC cut"
+                            },
+                            {
+                                "name1": "Surface",
+                                "name2": "Sandblasted and Anodized"
                             }
                         ],
                         "table3": [
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Size Packaged",
+                                "name2": "400 x 300 x 25 mm"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Weight",
+                                "name2": "1 kg"
                             },
                             {
-                                "name1": "placement name1",
-                                "name2": "placement name2"
+                                "name1": "Material",
+                                "name2": "6 mm strong Aluminum, CNC cut"
+                            },
+                            {
+                                "name1": "Surface",
+                                "name2": "Sandblasted and Anodized"
                             }
                         ]
                     }
