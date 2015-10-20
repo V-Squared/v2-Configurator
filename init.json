@@ -552,231 +552,203 @@
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "I/O Panel",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "DC Input Jack",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Power Button",
+                                        "class": "",
+                                        "row": [
+                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Audio Out",
+                                        "class": "",
+                                        "row": [
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Red LED",
+                                        "class": "",
+                                        "row": [
+                                            "HDD Status"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Blue LED",
+                                        "class": "",
+                                        "row": [
+                                            "Power Status"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Disks",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "2.5\" Bays",
+                                        "class": "",
+                                        "row": [
+                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "title": "mSATA Bay",
+                                        "class": "",
+                                        "row": [
+                                            " You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA.\nDisk Protection HDD are mounted with vibration and shock absorbing rubber grommets."
+                                        ]
+                                    },
+                                    {
+                                        "title": "CPU",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max CPU TDP",
+                                        "class": "",
+                                        "row": [
+                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max CPU Cooler Height",
+                                        "class": "",
+                                        "row": [
+                                            "28 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "Number of PCIe Slots",
+                                        "class": "",
+                                        "row": [
+                                            1
+                                        ]
+                                    },
+                                    {
+                                        "title": "Slot Height",
+                                        "class": "",
+                                        "row": [
+                                            "Ultra Low Profile"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock (V²) Compatible",
+                                        "class": "",
+                                        "row": [
+                                            "Yes. Via V²A.Nano"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Accessories",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access-Plus",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "Color Option",
+                                        "class": "",
+                                        "row": [
+                                            " If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-VESA",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Feet",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Stand",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Cooler-XS",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Cooler-S",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Cooler-M",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-mSATA",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "ViCase-Remote",
                                         "class": "",
                                         "row": [
                                             ""
                                         ]
                                     },
                                     {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
+                                        "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
                                             ""
