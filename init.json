@@ -1588,6 +1588,8 @@
                         "class": "No-None"
                     }
                 ],
+                "tableHeading":[],
+                "TableBody":[],
                 "Advice": [
                     {
                         "heading": "Express Yourself!",
@@ -2078,6 +2080,7 @@
                         "description": "This is a description"
                     }
                 ],
+                "Datasheet":[],
                 "Logic": {}
             },
             {
@@ -2369,7 +2372,8 @@
                         "title": "Cooler M Top",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "AC / DC Adapter",
@@ -2602,7 +2606,7 @@
                         "description": "This is a description"
                     }
                 ],
-                "Logic": {}
+                "Datasheet":[]
             },
             {
                 "name": "ViCase Power",
@@ -2730,7 +2734,8 @@
                         "title": "Power Silver",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "ViCase Parallel Port",
@@ -2738,7 +2743,7 @@
                     {
                         "name": "ViCase Parallel Port",
                         "id": "ID-155",
-                        "img": "",
+                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
                         "link": "",
                         "Child_Name": [
                             "#ID-11"
@@ -2750,7 +2755,20 @@
                 "TableHeading": [],
                 "TableBody": [],
                 "Advice": [],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
+                    }
+                ],
                 "Datasheet": []
             }
         ]
@@ -2960,7 +2978,8 @@
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "V²A (Adapter)",
@@ -3071,7 +3090,8 @@
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "V²C (Cables)",
@@ -3097,6 +3117,8 @@
                         "value": 19
                     }
                 ],
+                "tableHeading":[],
+                "TableBody":[],
                 "Advice": [
                     {
                         "heading": "V²C.Nano",
@@ -3148,7 +3170,8 @@
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "V²P (Power)",
@@ -3287,7 +3310,8 @@
                         "title": "Adapter Silver",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             }
         ]
     },
@@ -3665,7 +3689,8 @@
                         "title": "HighEnd",
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
@@ -3720,7 +3745,12 @@
                         "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
                         "value": 150
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/RAM.png",
@@ -3775,7 +3805,12 @@
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 300
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/mSATA-SSD.gif",
@@ -3807,7 +3842,12 @@
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 1000
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/SSD.png",
@@ -3850,7 +3890,12 @@
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 1000
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "name": "ViCase-mSATA",
@@ -3863,6 +3908,10 @@
                         "tag": "Adapter to use mSATA Disk with SATA cable"
                     }
                 ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Datasheet":[],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
@@ -3930,7 +3979,12 @@
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
                         "value": "0"
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "name": "Display Size",
@@ -3955,7 +4009,12 @@
                         "id": "ID-90",
                         "value": 0
                     }
-                ]
+                ],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             }
         ]
     }
