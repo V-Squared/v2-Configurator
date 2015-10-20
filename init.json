@@ -2931,9 +2931,23 @@
                     {
                         "name": "ViCase-mSATA",
                         "id": "ID-157",
-                        "img": "",
+                        "img": "images/expansion/config/Third-party/ViCase-mSATA/ViCase-mSATA.jpg",
                         "value": 0,
                         "tag": "Adapter to use mSATA Disk with SATA cable"
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Side.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
                     }
                 ]
             }
