@@ -1829,64 +1829,108 @@
                                 "class": "active"
                             },
                             {
-                                "name": "ViCase Feet"
-                            },
-                            {
                                 "name": "ViCase Stand"
+                            },
+                            {
+                                "name": "ViCase Feet"
                             }
                         ],
-                        "table0": [
+                        "tables": [
                             {
-                                "name1": "Size",
-                                "name2": "220 x 30 mm"
+                                "table": [
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "220 x 30 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "10g"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Material",
+                                        "class": "",
+                                        "row": [
+                                            "Steel"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Surface",
+                                        "class": "",
+                                        "row": [
+                                            "Zinc Plating"
+                                        ]
+                                    }
+                                ]
                             },
                             {
-                                "name1": "Weight ",
-                                "name2": "10g"
+                                "table": [
+                                    {
+                                        "title": "Size Packaged",
+                                        "class": "",
+                                        "row": [
+                                            "400 x 300 x 25 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "1 kg"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Material",
+                                        "class": "",
+                                        "row": [
+                                            "6 mm strong Aluminum, CNC cut"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Surface",
+                                        "class": "",
+                                        "row": [
+                                            " Sandblasted and Anodized"
+                                        ]
+                                    }
+                                ]
                             },
                             {
-                                "name1": "Material",
-                                "name2": "Steel"
-                            },
-                            {
-                                "name1": "Surface",
-                                "name2": "Zinc Plating"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "Size Packaged",
-                                "name2": "50 x 220 x 10 mm"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "90g"
-                            },
-                            {
-                                "name1": "Material",
-                                "name2": "6 mm strong Aluminum, CNC cut"
-                            },
-                            {
-                                "name1": "Surface",
-                                "name2": "Sandblasted and Anodized"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "Size Packaged",
-                                "name2": "400 x 300 x 25 mm"
-                            },
-                            {
-                                "name1": "Weight",
-                                "name2": "1 kg"
-                            },
-                            {
-                                "name1": "Material",
-                                "name2": "6 mm strong Aluminum, CNC cut"
-                            },
-                            {
-                                "name1": "Surface",
-                                "name2": "Sandblasted and Anodized"
+                                "table": [
+                                    {
+                                        "title": "Size Packaged",
+                                        "class": "",
+                                        "row": [
+                                            "50 x 220 x 10 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "90g"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Material",
+                                        "class": "",
+                                        "row": [
+                                            "6 mm strong Aluminum, CNC cut"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Surface",
+                                        "class": "",
+                                        "row": [
+                                            "Sandblasted and Anodized"
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
