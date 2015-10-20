@@ -1466,42 +1466,64 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "access title1",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
-                        "name": "access title2"
+                        "name": "ViCase Access"
                     },
                     {
-                        "name": "access title3"
-                    },
-                    {
-                        "name": "access title4"
+                        "name": "ViCase Access Plus"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "access row 1",
+                        "title": "ViCase Tiny Compatible",
                         "row": [
-                            "access name2",
-                            "access name3",
-                            "access name4"
+                            "No",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "access row 2",
+                        "title": "ViCase Mini Compatible",
                         "row": [
-                            "access name2",
-                            "access name3",
-                            "access name4"
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "access row 3",
+                        "title": "ViCase Ultra Compatible",
                         "row": [
-                            "access name2",
-                            "access name3",
-                            "access name4"
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "USB 2 Ports",
+                        "row": [
+                            2,
+                            2
+                        ]
+                    },
+                    {
+                        "title": "USB 3 Ports",
+                        "row": [
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "title": "Material",
+                        "row": [
+                            "Plastic",
+                            "Aluminum"
+                        ]
+                    },
+                    {
+                        "title": "Price",
+                        "row": [
+                            "$9US",
+                            "$19US"
                         ]
                     }
                 ],
