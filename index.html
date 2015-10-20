@@ -191,7 +191,7 @@
                                                     <div ng-if="tabs == $index" ng-repeat="table in datasheet.tables">
                                                         <table class="table table-striped">
                                                             <tbody>
-                                                                <tr ng-repeat="tablerow in table.table" class="">
+                                                                <tr ng-repeat="tablerow in table.table" class="{{tablerow.class}}">
                                                                     <td class="table-left-title">{{tablerow.title}}</td>
                                                                     <td ng-repeat="row in tablerow.row track by $index">{{row}}</td>
                                                                 </tr>

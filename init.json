@@ -504,8 +504,13 @@
                             {
                                 "table": [
                                     {
-                                        "title": "1",
-                                        "row":["2","3","4"]
+                                        "title": "Case",
+                                        "row":[],
+                                        "class":"tableHeading"
+                                    },
+                                    {
+                                        "title":"Motherboard",
+                                        "row":["Mini-ITX Form Factor"]
                                     }
                                 ]
                             }
