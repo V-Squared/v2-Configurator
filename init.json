@@ -2625,42 +2625,57 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "power title1",
+                        "name": "power title1Feature",
                         "class": "table-left-title"
                     },
                     {
-                        "name": "power title2"
+                        "name": "120W"
                     },
                     {
-                        "name": "power title3"
-                    },
-                    {
-                        "name": "power title4"
+                        "name": "200W"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "power row 1",
+                        "title": "Max Power",
                         "row": [
-                            "power name2",
-                            "power name3",
-                            "power name4"
+                            "120W",
+                            "200W"
                         ]
                     },
                     {
-                        "title": "power row 2",
+                        "title": "Size [mm]",
                         "row": [
-                            "power name2",
-                            "power name3",
-                            "power name4"
+                            "35 x 56 x 15",
+                            "38 x 56 x 15"
                         ]
                     },
                     {
-                        "title": "power row 3",
+                        "title": "ATX ",
                         "row": [
-                            "power name2",
-                            "power name3",
-                            "power name4"
+                            "24 Pins",
+                            "24 Pins"
+                        ]
+                    },
+                    {
+                        "title": "Motherboard Power",
+                        "row": [
+                            "4 Pins",
+                            "4 Pins"
+                        ]
+                    },
+                    {
+                        "title": "Efficiency",
+                        "row": [
+                            "92%",
+                            "92%"
+                        ]
+                    },
+                    {
+                        "title": "Cost [$US] ",
+                        "row": [
+                            "$29",
+                            "$49"
                         ]
                     }
                 ],
@@ -2714,64 +2729,6 @@
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Rear.jpg",
                         "title": "Power Silver",
                         "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "power button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "power button2"
-                            },
-                            {
-                                "name": "power button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            },
-                            {
-                                "name1": "power name1",
-                                "name2": "power name2"
-                            }
-                        ]
                     }
                 ]
             },
