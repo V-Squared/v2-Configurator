@@ -1378,10 +1378,12 @@
                                 "class": "active"
                             },
                             {
-                                "name": "ViCase Feet"
+                                "name": "ViCase Feet",
+                                "class": "active"
                             },
                             {
-                                "name": "ViCase Stand"
+                                "name": "ViCase Stand",
+                                "class": "active"
                             }
                         ],
                         "table1": [
