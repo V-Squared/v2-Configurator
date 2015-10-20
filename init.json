@@ -2802,8 +2802,11 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "PCIe-S",
+                        "name": "Feature",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": "PCIe-S"
                     },
                     {
                         "name": "PCIe-L"
