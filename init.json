@@ -486,6 +486,9 @@
                                 "name": "ViCase Mini"
                             },
                             {
+                                "name": "ViCase Mini-Value"
+                            },
+                            {
                                 "name": "ViCase Ultra"
                             }
                         ],
@@ -548,7 +551,7 @@
                             },
                             {
                                 "name1": "Disks",
-                                "class": "Disks"
+                                "class": "tableHeading"
                             },
                             {
                                 "name1": "2.5\" Bays",
@@ -592,7 +595,7 @@
                             },
                             {
                                 "name1": "Accessories",
-                                "class": "Accessories"
+                                "class": "tableHeading"
                             },
                             {
                                 "name1": "ViCase-Access-Plus",
@@ -746,6 +749,108 @@
                             }
                         ],
                         "table3": [
+                            {
+                                "name1": "Heading No.1",
+                                "class": "tableHeading"
+                            },
+                            {
+                                "name1": "Motherboard",
+                                "name2": "Mini-ITX"
+                            },
+                            {
+                                "name1": "CPU Cooler",
+                                "name2": "Height: 75"
+                            },
+                            {
+                                "name1": "Power Button",
+                                "name2": "Build in with remote control option via ViCase Access and ViCase Access Plus"
+                            },
+                            {
+                                "name1": "DC Input",
+                                "name2": "3 x DC Jack for 5.5 / 2.5 mm plug. Minus on outside. 12V. Current rating depends on the Pico Power you choose"
+                            },
+                            {
+                                "name1": "Heading No.2",
+                                "class": "tableHeading"
+                            },
+                            {
+                                "name1": "Audio Panel",
+                                "name2": "Stereo Audio Out and Microphone Audio Input. Connected to Front Audio Panel on Motherboard"
+                            },
+                            {
+                                "name1": "ViCase Access Port",
+                                "name2": "Takes the connector of ViCase Access option"
+                            },
+                            {
+                                "name1": "Antenna Ports",
+                                "name2": "If your mainboard supports WiFi these two holes can take the WiFi Antennae."
+                            },
+                            {
+                                "name1": "Kensington Lock",
+                                "name2": "Compatible slot to secure the computer."
+                            },
+                            {
+                                "name1": "Material",
+                                "name2": "CNC Grade Aluminum 6 mm thickness for case frame. Cover 2 mm thickness. All threads CNC cut Brass Inserts"
+                            },
+                            {
+                                "name1": "Finish",
+                                "name2": "Sandblasted, then anodized. 4 Colors available: Black, Natural, Blue, Red."
+                            },
+                            {
+                                "name1": "Heading No.3",
+                                "class": "tableHeading"
+                            },
+                            {
+                                "name1": "Size [mm]",
+                                "name2": "191 (width) x 205 (depth) x 103 (height)"
+                            },
+                            {
+                                "name1": "Weight",
+                                "name2": "1 kg"
+                            },
+                            {
+                                "name1": "Compatible Mounting Option",
+                                "name2": "ViCase-VESA and ViCase-Stand 2"
+                            },
+                            {
+                                "name1": "Compatible ViCase-Access",
+                                "name2": "ViCase-Access and ViCase-Access Plus"
+                            },
+                            {
+                                "name1": "Max CPU Thermal Design Power (TDP)",
+                                "name2": "65W"
+                            },
+                            {
+                                "name1": "Heading No.4",
+                                "class": "tableHeading"
+                            },
+                            {
+                                "name1": "Max CPU Cooler Height",
+                                "name2": "57 mm"
+                            },
+                            {
+                                "name1": "PCIe Slot",
+                                "name2": "Low Profile Height, Single Bracket width"
+                            },
+                            {
+                                "name1": "Modular (PCIe) Expansion",
+                                "name2": "Yes, both V²A Adapter with ViDock Nano G2 ... G6 and V²A.Nano with ViDock G6"
+                            },
+                            {
+                                "name1": "Space for Disks",
+                                "name2": "2 Bays 2.5\" Each bay can be populated either with mSATA Adapter or 2.5\" Disk. Two SATA Data and two SATA Power Cables included. mSATA Adapter is optional."
+                            },
+                            {
+                                "name1": "Disk Shock Absorption System",
+                                "name2": "HDD are mounted with vibration and shock insulating rubber grommets."
+                            },
+                            {
+                                "name1": "Disk Cooling",
+                                "name2": "Case comes with thermal conductive sponge that transfers heat of disks to Aluminum bottom cover that doubles as heat sink."
+                            }
+                        ],
+                        "table4": [
                             {
                                 "name1": "Heading No.1",
                                 "class": "tableHeading"
@@ -2938,16 +3043,16 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Side.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Side.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
                     }
                 ]
             }
