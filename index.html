@@ -183,7 +183,7 @@
                                         <!-- datasheet -->
                                         <div ng-if="Section.Datasheet">
                                             <h4 ng-click="toggle($event);" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Datasheet</h4>
-                                            <div ng-repeat="datasheet in Section.Datasheet" style="display: none;" class="collapsable readmore_area radio-tables">
+                                            <div datasheet ng-repeat="datasheet in Section.Datasheet" style="display: none;" class="collapsable readmore_area radio-tables">
                                                 <ul class="nav nav-tabs table-tab">
                                                     <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a data-toggle="tab" ng-click="addTabs($index);" class="fake-link">{{buttons.name}}</a></li>
                                                 </ul>
