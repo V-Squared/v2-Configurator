@@ -2443,42 +2443,66 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "Adapter title1",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
-                        "name": "Adapter title2"
+                        "name": "48W"
                     },
                     {
-                        "name": "Adapter title3"
+                        "name": "120W"
                     },
                     {
-                        "name": "Adapter title4"
+                        "name": "240W"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "adapter row1",
+                        "title": "DC Plugs",
                         "row": [
-                            "adapter data1",
-                            "adapter data2",
-                            "adapter data3"
+                            1,
+                            1,
+                            3
                         ]
                     },
                     {
-                        "title": "adapter row2",
+                        "title": "Max Power",
                         "row": [
-                            "adapter data1",
-                            "adapter data2",
-                            "adapter data3"
+                            "48W",
+                            "120W",
+                            "240W"
                         ]
                     },
                     {
-                        "title": "adapter row2",
+                        "title": "Surge Protection",
                         "row": [
-                            "adapter data1",
-                            "adapter data2",
-                            "adapter data3"
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power Distribution",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Case Material",
+                        "row": [
+                            "Plastic",
+                            "Plastic",
+                            "Aluminum"
+                        ]
+                    },
+                    {
+                        "title": "Cost [$US]",
+                        "row": [
+                            "$9",
+                            "$29",
+                            "$59"
                         ]
                     }
                 ],
@@ -2576,64 +2600,6 @@
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
                         "title": "Adapter Silver",
                         "description": "This is a description"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "adapter button1",
-                                "class": "active"
-                            },
-                            {
-                                "name": "adapter button2"
-                            },
-                            {
-                                "name": "adapter button3"
-                            }
-                        ],
-                        "table1": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ],
-                        "table2": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ],
-                        "table3": [
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            },
-                            {
-                                "name1": "adapter name1",
-                                "name2": "adapter name2"
-                            }
-                        ]
                     }
                 ],
                 "Logic": {}
