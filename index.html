@@ -187,7 +187,7 @@
                                                 <ul class="nav nav-tabs">
                                                     <li ng-repeat="buttons in datasheet.button" class="{{buttons.class}}"><a  ng-click="addTabs($index);" data-toggle="tab" class="fake-link">{{buttons.name}}</a></li>
                                                 </ul>
-                                                <div class="">
+                                                <div>
                                                     <div ng-if="tabs == $index" ng-repeat="table in datasheet.tables">
                                                         <table class="table table-striped">
                                                             <tbody>
