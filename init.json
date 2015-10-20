@@ -492,6 +492,24 @@
                                 "name": "ViCase Ultra"
                             }
                         ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "test",
+                                        "row":["test1","test2","test3"]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "1",
+                                        "row":["2","3","4"]
+                                    }
+                                ]
+                            }
+                        ],
                         "table1": [
                             {
                                 "name1": "Case",
@@ -518,7 +536,7 @@
                                 "name2": "210 x 210 x 70 mm = 3 Liters"
                             },
                             {
-                                "name1": "Weight",
+                                "name1": "Weaight",
                                 "name2": "1kg"
                             },
                             {

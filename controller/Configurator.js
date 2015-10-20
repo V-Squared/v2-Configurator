@@ -19,10 +19,11 @@ app.directive('jumbotron',function() {
 app.directive('datasheet',function() {
   return {
     restrict: "A",
-    controller : function($scope) {
-      $scope.tabs = 0;
-      $scope.addTabs = function(index) {
-        $scope.tabs = index;
+    link : function(scope) {
+      scope.tabs = 0;
+      scope.addTabs = function(index) {
+        scope.tabs = index;
+        //alert($scope.tabs);
       }
     }
   }
