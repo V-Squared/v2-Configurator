@@ -3115,6 +3115,34 @@
                         "value": 0
                     }
                 ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "48W"
+                    },
+                    {
+                        "name": "120W"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Power for x1 or x4 Cards",
+                        "row": [
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power for x8 or x16 Cards",
+                        "row": [
+                            "No",
+                            "Yes"
+                        ]
+                    }
+                ],
                 "Advice": [
                     {
                         "heading": "V²P.12V-48W",
