@@ -1502,7 +1502,7 @@
                         "title": "USB 2 Ports",
                         "row": [
                             2,
-                            2
+                            1
                         ]
                     },
                     {
@@ -1629,42 +1629,121 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "cooler title1",
+                        "name": "XS",
                         "class": "table-left-title"
                     },
                     {
-                        "name": "cooler title2"
+                        "name": " S"
                     },
                     {
-                        "name": "cooler title3"
+                        "name": "M"
                     },
                     {
-                        "name": "cooler title4"
+                        "name": " L"
+                    },
+                    {
+                        "name": " XL"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "cooler row1",
+                        "title": "Max Power TDP w/o Thermal Cycling",
                         "row": [
-                            "cooler data1",
-                            "cooler data2",
-                            "cooler data3"
+                            "15W",
+                            "25W",
+                            "40W",
+                            "88W",
+                            "95W"
                         ]
                     },
                     {
-                        "title": "cooler row2",
+                        "title": "Recommended max CPU TDP",
                         "row": [
-                            "cooler data1",
-                            "cooler data2",
-                            "cooler data3"
+                            "25W",
+                            "40W",
+                            "55W",
+                            "65W",
+                            "95W"
                         ]
                     },
                     {
-                        "title": "cooler row2",
+                        "title": "Height",
                         "row": [
-                            "cooler data1",
-                            "cooler data2",
-                            "cooler data3"
+                            "28mm",
+                            "28mm",
+                            "28mm",
+                            "59mm",
+                            "57mm"
+                        ]
+                    },
+                    {
+                        "title": "For ViCase Tiny",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "No",
+                            "No"
+                        ]
+                    },
+                    {
+                        "title": "For ViCase Mini / Ultra",
+                        "row": [
+                            "No",
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Fan Ø",
+                        "row": [
+                            "Passive Cooling",
+                            "80mm",
+                            "80mm",
+                            "90mm",
+                            "120mm"
+                        ]
+                    },
+                    {
+                        "title": "Lowest Fan Speed",
+                        "row": [
+                            "N/A",
+                            800,
+                            800,
+                            1000,
+                            600
+                        ]
+                    },
+                    {
+                        "title": "Fastest Fan Speed",
+                        "row": [
+                            "N/A",
+                            2700,
+                            2700,
+                            2200,
+                            1600
+                        ]
+                    },
+                    {
+                        "title": "No of Heat Pipes",
+                        "row": [
+                            "N/A",
+                            "N/A",
+                            2,
+                            "N/A",
+                            5
+                        ]
+                    },
+                    {
+                        "title": "Cost [$US]",
+                        "row": [
+                            "$14",
+                            "$19",
+                            "$29",
+                            "$19",
+                            "$29"
                         ]
                     }
                 ],
