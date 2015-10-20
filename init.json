@@ -2915,6 +2915,62 @@
                         "value": 19
                     }
                 ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "V²A.Nano"
+                    },
+                    {
+                        "name": "V²A.Card"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "PCIe Lanes",
+                        "row": [
+                            "x4",
+                            "x1"
+                        ]
+                    },
+                    {
+                        "title": "ViDock Compatibility",
+                        "row": [
+                            "G6",
+                            "G1 ... G6"
+                        ]
+                    },
+                    {
+                        "title": "Ultra Low Profile (Tiny)",
+                        "row": [
+                            "Yes",
+                            "No"
+                        ]
+                    },
+                    {
+                        "title": "Low Profile (Mini)",
+                        "row": [
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Standard Profile (Desktop)",
+                        "row": [
+                            " Yes",
+                            " Yes"
+                        ]
+                    },
+                    {
+                        "title": "Cost [$US]",
+                        "row": [
+                            "$9US",
+                            "$19US"
+                        ]
+                    }
+                ],
                 "Advice": [
                     {
                         "heading": "V²A.Nano",
