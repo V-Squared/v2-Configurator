@@ -3106,22 +3106,10 @@
                         "value": "99"
                     },
                     {
-                        "name": "ViDock-GPU-Cheapo",
-                        "id": "ID-29",
-                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
-                        "value": "49"
-                    },
-                    {
                         "name": "ViDock-GPU-OEM",
                         "id": "ID-140",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-OEM.jpg",
                         "value": 29
-                    },
-                    {
-                        "name": "ViDock-GPU-Motherboard",
-                        "id": "ID-141",
-                        "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-Motherboard.jpg",
-                        "value": 15
                     }
                 ],
                 "TableHeading": [
@@ -3259,30 +3247,6 @@
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Top.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Top.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-side.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Bottom.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-side.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
                 ],
                 "Datasheet": [
@@ -3972,6 +3936,105 @@
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
                         "title": "Adapter Silver",
                         "description": "This is a description"
+                    }
+                ]
+            },
+            {
+                "name": "V²B (Boards)",
+                "url": "",
+                "part": "V²B-Boards",
+                "yourChoice": [
+                    {
+                        "name": "ViDock-GPU-Cheapo",
+                        "id": "ID-29",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
+                        "value": "49"
+                    },
+                    {
+                        "name": "ViDock-GPU-Motherboard",
+                        "id": "ID-141",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-Motherboard.jpg",
+                        "value": 15
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "Mobo-1 + IO-1"
+                    },
+                    {
+                        "name": "Mobo-1 + IO-2"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Power Supply",
+                        "row": [
+                            "12V DC external",
+                            "ATX-24P internal"
+                        ]
+                    },
+                    {
+                        "title": "Needed Enclosure Size",
+                        "row": [
+                            "Small",
+                            "Big"
+                        ]
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Who Board Products are for",
+                        "content": "You want to develop your own PCIe Expansion Product(s). By choosing the V² PCIe Expansion System, you get ready made: 1) Host Port Support for: PCIe-Slot, mPCIe Slot, ExpressCard, V²C.Card, V²C.Nano, Thunderbolt 2) PCIe Expansion Mother Board 3) PCIe Expansion IO Board 4) PCIe Cables. 5) Box Control Interface. 6) Micro Controller Programming."
+                    },
+                    {
+                        "heading": "V²B.Mobo-1",
+                        "content": "Choose V²B.Mobo-1 if you want to build PCIe Expansion Products with a x1, x2 or x4 PCIe cable connection supporting all PCIe Cards up to x16. You have three choices for your IO Board: 1) IO-1 to connect to DC 12V Power, IO-2 to connect to ATX Power Supply 3) Build your own IO Board. The IO Board is a simple design, requiring only 2 Layers. We will publish an Open Source Development Kit for the V²B.IO-2 by the time V²B.Mobo-1 ships. Availability of the V²B.IO-2 in Open Source will NOT depend on any Stretch Goal."
+                    },
+                    {
+                        "heading": "V²B.IO-1",
+                        "content": "Choose V²B.IO-1 if you want to connect your PCIe Expansion to 12V DC Power."
+                    },
+                    {
+                        "heading": "V²B.IO-2",
+                        "content": "Choose V²B.IO-2 if you want to connect your PCIe Expansion to a standard PC ATX Power Supply with ATX-24P connector."
+                    },
+                    {
+                        "heading": "V²B.Mobo-1 + V²B.IO-1",
+                        "content": "Choose both PCBs if you want to build a product similar to ViDock-PCIe."
+                    },
+                    {
+                        "heading": "V²B.Mobo-1 + V²B.IO-2",
+                        "content": "Choose both PCBs if you want to build a product similar to ViDock-GPU."
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-side.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Bottom.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-side.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
                 ]
             }
