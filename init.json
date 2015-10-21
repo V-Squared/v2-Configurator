@@ -562,14 +562,14 @@
                                         "title": "DC Input Jack",
                                         "class": "",
                                         "row": [
-                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. Two DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
                                         ]
                                     },
                                     {
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place"
+                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
@@ -604,7 +604,7 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase-Mini"
+                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini."
                                         ]
                                     },
                                     {
@@ -632,7 +632,7 @@
                                         "title": "Max CPU TDP",
                                         "class": "",
                                         "row": [
-                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M."
                                         ]
                                     },
                                     {
@@ -678,10 +678,17 @@
                                         ]
                                     },
                                     {
-                                        "title": "Color Option",
+                                        "title": "ViCase-Color",
                                         "class": "",
                                         "row": [
-                                            "If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
+                                            "Color option for the ViCase Lid. If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access-Plus",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Access of Power Button, USB2 port, USB3 port and Status LED for ViCase"
                                         ]
                                     },
                                     {
@@ -692,17 +699,17 @@
                                         ]
                                     },
                                     {
-                                        "title": "ViCase-Feet",
-                                        "class": "",
-                                        "row": [
-                                            "Accessory to place ViCase vertical to save space"
-                                        ]
-                                    },
-                                    {
                                         "title": "ViCase-Stand",
                                         "class": "",
                                         "row": [
                                             "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Feet",
+                                        "class": "",
+                                        "row": [
+                                            "Accessory to place ViCase vertical to save space"
                                         ]
                                     },
                                     {
@@ -727,10 +734,24 @@
                                         ]
                                     },
                                     {
+                                        "title": "ViCase-Cooler-L",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 65W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-XL",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 95W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
                                         "title": "ViCase-mSATA",
                                         "class": "",
                                         "row": [
-                                            "Adapter to use mSATA Disk with SATA cable"
+                                            "Adapter to use mSATA Disk with SATA cables"
                                         ]
                                     },
                                     {
@@ -745,6 +766,55 @@
                                         "class": "",
                                         "row": [
                                             "Remote Control for Media Applications"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-48W",
+                                        "class": "",
+                                        "row": [
+                                            "48W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-120W",
+                                        "class": "",
+                                        "row": [
+                                            "120W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-120W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 120W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-S",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-L",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU-Cheapo",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                                         ]
                                     }
                                 ]
@@ -1638,7 +1708,14 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Three bays for HDD or SSD. Maximum height 13 mm."
+                                            "Eight bays for HDD or SSD. Maximum height 13 mm."
+                                        ]
+                                    },
+                                    {
+                                        "title": "3.5\" Bays",
+                                        "class": "",
+                                        "row": [
+                                            "You can add three 3.5\" bays by using six 2.5\" Bays"
                                         ]
                                     },
                                     {
