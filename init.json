@@ -2021,13 +2021,13 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Cyan.jpg",
-                        "title": "Color Cyan",
+                        "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Red.jpg",
+                        "title": "Color Red",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Red.jpg",
-                        "title": "Color Red",
+                        "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Cyan.jpg",
+                        "title": "Color Cyan",
                         "description": "This is a description"
                     },
                     {
@@ -2065,7 +2065,7 @@
                                         "title": "Available Colors",
                                         "class": "",
                                         "row": [
-                                            "Black, Aluminum Natural aka Silver, Cyan (light blue) and Deep Red."
+                                            "Black, Deep Red,Cyan (light blue) and Aluminum Natural aka Silver ."
                                         ]
                                     }
                                 ]
