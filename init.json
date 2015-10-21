@@ -236,7 +236,7 @@
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 59,
-                        "tag": "ViCase Mini, but all inside parts made of plastic"
+                        "tag": "ViCase-Mini, but all inside parts made of plastic"
                     },
                     {
                         "name": "ViCase-Ultra",
@@ -377,20 +377,20 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "ViCase Tiny: When space is premium",
-                        "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display, consider ViCase Mini. It is taller, but you would not be able to see that anyways."
+                        "heading": "ViCase-Tiny: When space is premium",
+                        "content": "Choose this case only when space is at an absolute premium. Examples would be wall-mount presentation screens where you mount ViCase-Tiny between display and wall or under the screen. If you plan to place your ViCase behind your display, consider ViCase-Mini. It is taller, but you would not be able to see that anyways."
                     },
                     {
-                        "heading": "ViCase Mini: The default choice",
+                        "heading": "ViCase-Mini: The default choice",
                         "content": "This is the standard housing that gets most jobs done. With 5L it is still mini in size, yet offers lots of upgradeability options, such as support for up to i7 quad core, Low Profile PCIe Cards (including GTX 750 Ti) and 3 x 2.5\" disk in RAID 5. More than enough for most use cases."
                     },
                     {
-                        "heading": "ViCase Mini Value: Best value",
+                        "heading": "ViCase-Mini-Value: Best value",
                         "content": "Exact same housing, except all inside housing parts are made of strong black plastic. The top cover remains CNC cut, sandblasted and anodized aluminum. After ViCase-Mini-Value is assembled, it is virtually indistinguishable from ViCase-Mini."
                     },
                     {
-                        "heading": "ViCase Ultra: The powerhouse",
-                        "content": "For the ultimate performance ViCase Ultra offers all of ViCase Mini with the but with more space for 3.5\" Disks. This is ideal if you need a power workstation with RAID 5 and disk capacity > 6 TB or if you want to build a powerful but quiet and small Server. With only 7 Liters in size ViCase Ultra can still be mounted behind your Display."
+                        "heading": "ViCase-Ultra: The powerhouse",
+                        "content": "For the ultimate performance ViCase-Ultra offers all of ViCase-Mini with the but with more space for 3.5\" Disks. This is ideal if you need a power workstation with RAID 5 and disk capacity > 6 TB or if you want to build a powerful but quiet and small Server. With only 7 Liters in size ViCase-Ultra can still be mounted behind your Display."
                     }
                 ],
                 "Gallery": [
@@ -416,62 +416,62 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Front.jpg",
-                        "title": "ViCase Tiny",
+                        "title": "ViCase-Tiny",
                         "description": "Tiny DIY Mini Computer build with Desktop parts"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Standard-Rear.jpg",
-                        "title": "ViCase Tiny",
+                        "title": "ViCase-Tiny",
                         "description": "Rear View: Lots of connections. Your choice of ITX Motherboard will determine your exact connectors. V²A.Nano is inserted in PCIe Slot to connect a ViDock."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Front-Front.jpg",
-                        "title": "ViCase Tiny",
+                        "title": "ViCase-Tiny",
                         "description": "Front View. Simply elegant."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Tiny-Top-Top.jpg",
-                        "title": "ViCase Tiny",
+                        "title": "ViCase-Tiny",
                         "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
-                        "title": "ViCase Mini",
+                        "title": "ViCase-Mini",
                         "description": "Small & Powerful DIY Mini Computer build with Desktop parts"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
-                        "title": "ViCase Mini",
+                        "title": "ViCase-Mini",
                         "description": "Rear View: Lots of connections. Your choice of ITX Motherboard will determine your exact connectors. A GTX 750 Ti is inserted in the PCIe Slot."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
-                        "title": "ViCase Mini",
+                        "title": "ViCase-Mini",
                         "description": "Front View. Simply elegant."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
-                        "title": "ViCase Mini",
+                        "title": "ViCase-Mini",
                         "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
-                        "title": "ViCase Ultra",
+                        "title": "ViCase-Ultra",
                         "description": "Powerhouse DIY Mini Computer build with Desktop parts"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Rear.jpg",
-                        "title": "ViCase Ultra",
+                        "title": "ViCase-Ultra",
                         "description": "Rear View: Lots of connections. Your choice of ITX Motherboard will determine your exact connectors. A GTX 750 Ti is inserted in the PCIe Slot."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Front-Front.jpg",
-                        "title": "ViCase Ultra",
+                        "title": "ViCase-Ultra",
                         "description": "Front View. Simply elegant."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Top-Top.jpg",
-                        "title": "ViCase Ultra",
+                        "title": "ViCase-Ultra",
                         "description": "Top View"
                     }
                 ],
@@ -479,17 +479,17 @@
                     {
                         "button": [
                             {
-                                "name": "ViCase Tiny",
+                                "name": "ViCase-Tiny",
                                 "class": "active"
                             },
                             {
-                                "name": "ViCase Mini"
+                                "name": "ViCase-Mini"
                             },
                             {
                                 "name": "ViCase Mini-Value"
                             },
                             {
-                                "name": "ViCase Ultra"
+                                "name": "ViCase-Ultra"
                             }
                         ],
                         "tables": [
@@ -604,7 +604,7 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase-Mini"
                                         ]
                                     },
                                     {
@@ -881,7 +881,7 @@
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
+                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase-Mini."
                                         ]
                                     },
                                     {
@@ -1263,7 +1263,7 @@
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
+                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase-Mini."
                                         ]
                                     },
                                     {
@@ -2316,21 +2316,21 @@
                 ],
                 "TableBody": [
                     {
-                        "title": "ViCase Tiny Compatible",
+                        "title": "ViCase-Tiny Compatible",
                         "row": [
                             "No",
                             "Yes"
                         ]
                     },
                     {
-                        "title": "ViCase Mini Compatible",
+                        "title": "ViCase-Mini Compatible",
                         "row": [
                             "Yes",
                             "Yes"
                         ]
                     },
                     {
-                        "title": "ViCase Ultra Compatible",
+                        "title": "ViCase-Ultra Compatible",
                         "row": [
                             "Yes",
                             "Yes"
@@ -2368,7 +2368,7 @@
                 "Advice": [
                     {
                         "heading": "ViCase-Access",
-                        "content": "Choose ViCase-Access if you placed your ViCase out of sight (e.g. behind your Display) yet you wish easy access to Status LEDs, Power Button and USB ports. Compatible to ViCase Mini and Ultra."
+                        "content": "Choose ViCase-Access if you placed your ViCase out of sight (e.g. behind your Display) yet you wish easy access to Status LEDs, Power Button and USB ports. Compatible to ViCase-Mini and-Ultra."
                     },
                     {
                         "heading": "ViCase-Access-Plus",
@@ -2518,7 +2518,7 @@
                         ]
                     },
                     {
-                        "title": "For ViCase Tiny",
+                        "title": "For ViCase-Tiny",
                         "row": [
                             "Yes",
                             "Yes",
@@ -2528,7 +2528,7 @@
                         ]
                     },
                     {
-                        "title": "For ViCase Mini / Ultra",
+                        "title": "For ViCase-Mini / Ultra",
                         "row": [
                             "No",
                             "No",
@@ -2607,7 +2607,7 @@
                     },
                     {
                         "heading": "ViCase-Cooler-XL",
-                        "content": "This is the most powerful CPU cooler that fits into ViCase Mini / ViCase Ultra. 5 heat-pipes and a fan with 120 mm Ø provide cooling of even an i7 Quad Core without thermal cycling at the rated 88W TDP. In normal operation the fan speed can be reduced to 900 RPM and is inaudible for all intents and purposes."
+                        "content": "This is the most powerful CPU cooler that fits into ViCase-Mini / ViCase-Ultra. 5 heat-pipes and a fan with 120 mm Ø provide cooling of even an i7 Quad Core without thermal cycling at the rated 88W TDP. In normal operation the fan speed can be reduced to 900 RPM and is inaudible for all intents and purposes."
                     },
                     {
                         "heading": "None",
@@ -3196,11 +3196,11 @@
                     },
                     {
                         "heading": "When not to choose a ViDock",
-                        "content": "ViCase Mini and ViCase Tiny come with a Low Profile PCIe Slot with double bracket being supported. A lot of PCIe Add In Cards are available in Low Profile. In such case"
+                        "content": "ViCase-Mini and ViCase-Tiny come with a Low Profile PCIe Slot with double bracket being supported. A lot of PCIe Add In Cards are available in Low Profile. In such case"
                     },
                     {
                         "heading": "ViDock-PCIe-S",
-                        "content": "Choose ViDock-PCIe-S if you want to connect a Full Profile PCIe Add In Card to your ViCase or any other compatible PC. All PCIe cards are supported, as long as all dimensions match PCIe Specs and the PCIe card is shorter than 240 mm / 9.5\". No PCIe Aux power is supported. If you are using ViCase Mini or ViCase Tiny try to find the PCIe Card in Low Profile, then you do not need the ViDock."
+                        "content": "Choose ViDock-PCIe-S if you want to connect a Full Profile PCIe Add In Card to your ViCase or any other compatible PC. All PCIe cards are supported, as long as all dimensions match PCIe Specs and the PCIe card is shorter than 240 mm / 9.5\". No PCIe Aux power is supported. If you are using ViCase-Mini or ViCase-Tiny try to find the PCIe Card in Low Profile, then you do not need the ViDock."
                     },
                     {
                         "heading": "ViDock-PCIe-L",
@@ -3574,7 +3574,7 @@
                     },
                     {
                         "heading": "V²A.Card",
-                        "content": "Choose V²A.Card if you want to connect an older Generation ViDock (G1 ... G5) or if your PC has only a x1 PCIe Slot. Compatible with ViCase Mini and ViCase Ultra."
+                        "content": "Choose V²A.Card if you want to connect an older Generation ViDock (G1 ... G5) or if your PC has only a x1 PCIe Slot. Compatible with ViCase-Mini and ViCase-Ultra."
                     }
                 ],
                 "Gallery": [
@@ -4696,7 +4696,7 @@
                 "Advice": [
                     {
                         "heading": "When to use ( CNC )",
-                        "content": "Use ViCase-Parallel to add a Parallel Port to ViCase Mini or ViCase Ultra to connect to devices that need a parallel port and they depend on proper timing of the signals. The most common example would be the use in combination with the CNC controller MACH3, MACH4 or LinuxCNC. We used ViCase-Parallel in ViCase to control our CNC machine that made the prototype housings for ViCase and ViDock."
+                        "content": "Use ViCase-Parallel to add a Parallel Port to ViCase-Mini or ViCase-Ultra to connect to devices that need a parallel port and they depend on proper timing of the signals. The most common example would be the use in combination with the CNC controller MACH3, MACH4 or LinuxCNC. We used ViCase-Parallel in ViCase to control our CNC machine that made the prototype housings for ViCase and ViDock."
                     },
                     {
                         "heading": "When not to use",
@@ -4746,7 +4746,7 @@
                                         "title": "Low Profile Bracket",
                                         "class": "",
                                         "row": [
-                                            "Mounted as default. Compatible to ViCase Mini and Ultra"
+                                            "Mounted as default. Compatible to ViCase-Mini-and Ultra"
                                         ]
                                     },
                                     {
