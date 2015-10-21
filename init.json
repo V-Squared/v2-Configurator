@@ -2391,10 +2391,10 @@
                         "class": "table-left-title"
                     },
                     {
-                        "name": "ViCase Access"
+                        "name": "ViCase-Access"
                     },
                     {
-                        "name": "ViCase Access Plus"
+                        "name": "ViCase-Access-Plus"
                     }
                 ],
                 "TableBody": [
@@ -2451,11 +2451,11 @@
                 "Advice": [
                     {
                         "heading": "ViCase-Access",
-                        "content": "Choose ViCase-Access if you placed your ViCase out of sight (e.g. behind your Display) yet you wish easy access to Status LEDs, Power Button and USB ports. Compatible to ViCase-Mini and-Ultra."
+                        "content": "Choose ViCase-Access if you placed your ViCase out of sight (e.g. behind your Display) yet you wish easy access to Status LEDs, Power Button and USB ports. Compatible to ViCase-Mini and ViCase-Ultra."
                     },
                     {
                         "heading": "ViCase-Access-Plus",
-                        "content": "Same function as ViCase-Access with the step up features: a) Housing made of Aluminum, sandblasted and anodized to match ViCase. b) One port is USB3. c) Compatible to all ViCase Models including ViCase Tiny."
+                        "content": "Same function as ViCase-Access with the step up features: a) Housing made of Aluminum, sandblasted and anodized to match ViCase. b) One port is USB3. c) Compatible to all ViCase Models including ViCase-Tiny."
                     },
                     {
                         "heading": "None",
