@@ -2524,7 +2524,7 @@
                         "id": "ID-14",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-S-90P.jpg",
                         "value": 19,
-                        "tag": "Active CPU Cooler, 35W TDP with thermal cycling"
+                        "tag": "Active CPU Cooler, 25W TDP without thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-M",
@@ -2538,14 +2538,14 @@
                         "id": "ID-16",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-L-90P.jpg",
                         "value": 19,
-                        "tag": "Active CPU Cooler, 65W TDP without thermal cycling"
+                        "tag": "Active CPU Cooler, 80W TDP without thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-XL",
                         "id": "ID-17",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-XL-90P.jpg",
                         "value": 49,
-                        "tag": "Active CPU Cooler, 95W TDP without thermal cycling"
+                        "tag": "Active CPU Cooler, 100W TDP without thermal cycling"
                     }
                 ],
                 "TableHeading": [
@@ -2577,14 +2577,14 @@
                             "25W",
                             "40W",
                             "88W",
-                            "95W"
+                            "100W"
                         ]
                     },
                     {
                         "title": "Recommended max CPU TDP",
                         "row": [
                             "25W",
-                            "40W",
+                            "25W",
                             "55W",
                             "65W",
                             "95W"
@@ -2667,7 +2667,7 @@
                             "$19",
                             "$29",
                             "$19",
-                            "$29"
+                            "$49"
                         ]
                     }
                 ],
