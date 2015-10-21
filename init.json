@@ -4350,9 +4350,16 @@
                         "value": 0
                     }
                 ],
-                "TableHeading": [],
-                "TableBody": [],
-                "Advice": [],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    },
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
