@@ -287,10 +287,10 @@
                     {
                         "title": "Case Material",
                         "row": [
-                            " Aluminum",
-                            " Aluminum",
+                            "Aluminum",
+                            "Aluminum",
                             "Plastic",
-                            " Aluminum"
+                            "Aluminum"
                         ]
                     },
                     {
@@ -333,9 +333,9 @@
                         "title": "MAX CPU Power",
                         "row": [
                             "55W",
-                            "88W",
-                            "88W",
-                            "88W"
+                            "95W",
+                            "95W",
+                            "95W"
                         ]
                     },
                     {
@@ -350,10 +350,10 @@
                     {
                         "title": "2.5'",
                         "row": [
-                            "up to 2",
-                            "up to 3",
-                            "up to 3",
-                            "up to 8"
+                            "Up to 2",
+                            "Up to 3",
+                            "Up to 3",
+                            "Up to 8"
                         ]
                     },
                     {
