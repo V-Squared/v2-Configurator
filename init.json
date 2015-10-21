@@ -4378,7 +4378,7 @@
                     {
                         "button": [
                             {
-                                "name": "If you have on old style printer, then use a USB to Parallel Port Cable. They work great. You can buy them local and they cost less. And they do not block your PCIe Port.",
+                                "name": "ViCase-Parallel",
                                 "class": "active"
                             }
                         ],
