@@ -754,20 +754,6 @@
                                         ]
                                     },
                                     {
-                                        "title": "ViCase-Cooler-L",
-                                        "class": "",
-                                        "row": [
-                                            "Active CPU Cooler, 65W TDP without thermal cycling"
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-XL",
-                                        "class": "",
-                                        "row": [
-                                            "Active CPU Cooler, 95W TDP without thermal cycling"
-                                        ]
-                                    },
-                                    {
                                         "title": "ViCase-mSATA",
                                         "class": "",
                                         "row": [
