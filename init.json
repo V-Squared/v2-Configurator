@@ -3285,7 +3285,7 @@
                         "value": 19
                     }
                 ],
-                "tableHeading": [
+                "TableHeading": [
                     {
                         "name": "Feature",
                         "class": "table-left-title"
@@ -3297,7 +3297,7 @@
                         "name": "V²C.Mini"
                     },
                     {
-                        "name": "V²C.Card-1"
+                        "name": "V²C.Card"
                     }
                 ],
                 "TableBody": [
