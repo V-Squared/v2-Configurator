@@ -2124,8 +2124,11 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "XS",
+                        "name": "Feature",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": " XS"
                     },
                     {
                         "name": " S"
@@ -2244,7 +2247,7 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "ViCase-Cooler-SS",
+                        "heading": "ViCase-Cooler-XS",
                         "content": "Choose ViCase-Cooler-SS to build a passively cooled Mini PC. This option is not available for Intel CPUs, but only for the AMD Entry Level CPUs. Ideal for PCs that need to run maintenance free for many years. Compatible with all ViCase."
                     },
                     {
@@ -2730,40 +2733,6 @@
                         "description": "This is a description"
                     }
                 ]
-            },
-            {
-                "name": "ViCase Parallel Port",
-                "yourChoice": [
-                    {
-                        "name": "ViCase Parallel Port",
-                        "id": "ID-155",
-                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
-                        "link": "",
-                        "Child_Name": [
-                            "#ID-11"
-                        ],
-                        "tag": "Add Parallel Port for CNC Machine or old Printer",
-                        "value": 0
-                    }
-                ],
-                "TableHeading": [],
-                "TableBody": [],
-                "Advice": [],
-                "Gallery": [
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
-                    }
-                ],
-                "Datasheet": []
             }
         ]
     },
@@ -4008,6 +3977,40 @@
                 "tableHeading": [],
                 "TableBody": [],
                 "Gallery": [],
+                "Datasheet": []
+            },
+            {
+                "name": "ViCase Parallel Port",
+                "yourChoice": [
+                    {
+                        "name": "ViCase Parallel Port",
+                        "id": "ID-155",
+                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
+                        "link": "",
+                        "Child_Name": [
+                            "#ID-11"
+                        ],
+                        "tag": "Add Parallel Port for CNC Machine or old Printer",
+                        "value": 0
+                    }
+                ],
+                "TableHeading": [],
+                "TableBody": [],
+                "Advice": [],
+                "Gallery": [
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
+                    }
+                ],
                 "Datasheet": []
             }
         ]
