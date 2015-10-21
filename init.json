@@ -688,49 +688,49 @@
                                         "title": "ViCase-VESA",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "VESA Bracket to mount ViCase to Display or Wall"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Feet",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Accessory to place ViCase vertical to save space"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Stand",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-XS",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Passive CPU Cooler, 25W TDP with thermal cycling"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-S",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Active CPU Cooler, 35W TDP with thermal cycling"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-M",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Active CPU Cooler, 55W TDP with thermal cycling"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-mSATA",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Adapter to use mSATA Disk with SATA cable"
                                         ]
                                     },
                                     {
@@ -751,7 +751,7 @@
                                         "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Remote Access of Power Button, USB ports and Status LED"
                                         ]
                                     }
                                 ]
