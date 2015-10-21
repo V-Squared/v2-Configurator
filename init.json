@@ -2382,7 +2382,7 @@
                         "id": "ID-12",
                         "img": "images/expansion/config/ViCase/ViCase-Access/ViCase-Access-Plus-160x90.jpg",
                         "value": 19,
-                        "tag": "Remote Access of Power Button, USB2 port, USB3 port and Status LED for ViCase"
+                        "tag": "Remote Access of Power Button, USB2 port, USB3 port and Status LED "
                     }
                 ],
                 "TableHeading": [
