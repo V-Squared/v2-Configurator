@@ -839,14 +839,21 @@
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
+                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Audio In",
+                                        "class": "",
+                                        "row": [
+                                            "Second Analog Audio In (Pink Ring)"
                                         ]
                                     },
                                     {
@@ -1214,14 +1221,21 @@
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
+                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Audio In",
+                                        "class": "",
+                                        "row": [
+                                            "Second Analog Audio In (Pink Ring)"
                                         ]
                                     },
                                     {
@@ -1589,14 +1603,21 @@
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
+                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Audio In",
+                                        "class": "",
+                                        "row": [
+                                            "Second Analog Audio In (Pink Ring)"
                                         ]
                                     },
                                     {
