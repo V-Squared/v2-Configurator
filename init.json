@@ -688,49 +688,49 @@
                                         "title": "ViCase-VESA",
                                         "class": "",
                                         "row": [
-                                            "VESA Bracket to mount ViCase to Display or Wall"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Feet",
                                         "class": "",
                                         "row": [
-                                            "Accessory to place ViCase vertical to save space"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Stand",
                                         "class": "",
                                         "row": [
-                                            "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-XS",
                                         "class": "",
                                         "row": [
-                                            "Passive CPU Cooler, 25W TDP with thermal cycling"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-S",
                                         "class": "",
                                         "row": [
-                                            "Active CPU Cooler, 35W TDP with thermal cycling"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Cooler-M",
                                         "class": "",
                                         "row": [
-                                            "Active CPU Cooler, 55W TDP with thermal cycling"
+                                            ""
                                         ]
                                     },
                                     {
                                         "title": "ViCase-mSATA",
                                         "class": "",
                                         "row": [
-                                            "Adapter to use mSATA Disk with SATA cable"
+                                            ""
                                         ]
                                     },
                                     {
@@ -751,7 +751,7 @@
                                         "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
-                                            "Remote Access of Power Button, USB ports and Status LED"
+                                            ""
                                         ]
                                     }
                                 ]
@@ -1588,6 +1588,8 @@
                         "class": "No-None"
                     }
                 ],
+                "tableHeading":[],
+                "TableBody":[],
                 "Advice": [
                     {
                         "heading": "Express Yourself!",
@@ -2078,6 +2080,7 @@
                         "description": "This is a description"
                     }
                 ],
+                "Datasheet":[],
                 "Logic": {}
             },
             {
@@ -2124,11 +2127,8 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "Feature",
+                        "name": "XS",
                         "class": "table-left-title"
-                    },
-                    {
-                        "name": " XS"
                     },
                     {
                         "name": " S"
@@ -2247,7 +2247,7 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "ViCase-Cooler-XS",
+                        "heading": "ViCase-Cooler-SS",
                         "content": "Choose ViCase-Cooler-SS to build a passively cooled Mini PC. This option is not available for Intel CPUs, but only for the AMD Entry Level CPUs. Ideal for PCs that need to run maintenance free for many years. Compatible with all ViCase."
                     },
                     {
@@ -2372,7 +2372,8 @@
                         "title": "Cooler M Top",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "AC / DC Adapter",
@@ -2604,7 +2605,8 @@
                         "title": "Adapter Silver",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "ViCase Power",
@@ -2732,7 +2734,42 @@
                         "title": "Power Silver",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
+            },
+            {
+                "name": "ViCase Parallel Port",
+                "yourChoice": [
+                    {
+                        "name": "ViCase Parallel Port",
+                        "id": "ID-155",
+                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
+                        "link": "",
+                        "Child_Name": [
+                            "#ID-11"
+                        ],
+                        "tag": "Add Parallel Port for CNC Machine or old Printer",
+                        "value": 0
+                    }
+                ],
+                "TableHeading": [],
+                "TableBody": [],
+                "Advice": [],
+                "Gallery": [
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
+                    }
+                ],
+                "Datasheet": []
             }
         ]
     },
@@ -2900,7 +2937,7 @@
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Front.jpg"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Rear.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Top.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Rear.jpg"
@@ -2942,213 +2979,7 @@
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
                 ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "ViDock-PCIe-S",
-                                "class": "active"
-                            },
-                            {
-                                "name": "ViDock-PCIe-L"
-                            },
-                            {
-                                "name": "ViDock-GPU"
-                            },
-                            {
-                                "name": "ViDock-GPU-Cheapo"
-                            }
-                        ],
-                        "tables": [
-                            {
-                                "table": [
-                                    {
-                                        "title": "Case",
-                                        "class": "tableHeading",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "Mother Board",
-                                        "class": "",
-                                        "row": [
-                                            "V²B.Mobo-1"
-                                        ]
-                                    },
-                                    {
-                                        "title": "IO Board",
-                                        "class": "",
-                                        "row": [
-                                            "V²B.IO-2"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Case Material",
-                                        "class": "",
-                                        "row": [
-                                            "CNC Grade Aluminum. 6 mm thickness for case frame. Cover 3 mm thickness."
-                                        ]
-                                    },
-                                    {
-                                        "title": "Threads",
-                                        "class": "",
-                                        "row": [
-                                            "All threads are high quality CNC cut Brass Inserts"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Finish",
-                                        "class": "",
-                                        "row": [
-                                            "Sandblasted and Anodized"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Size",
-                                        "class": "",
-                                        "row": [
-                                            "210 x 210 x 70 mm = 3 Liters"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Weight",
-                                        "class": "",
-                                        "row": [
-                                            "1kg"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Mechanical Specs",
-                                        "class": "tableHeading",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card Bracket",
-                                        "class": "",
-                                        "row": [
-                                            "PCIe Cards with Single or Double Bracket will fit"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card length",
-                                        "class": "",
-                                        "row": [
-                                            "< 9.5\" / < 240 mm length"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card Top Component Height",
-                                        "class": "",
-                                        "row": [
-                                            "Cards with a maximum component height of ??? mm will fit"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card Bottom Component Height",
-                                        "class": "",
-                                        "row": [
-                                            "Cards with a maximum component height of 7 mm will fit"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card Height",
-                                        "class": "",
-                                        "row": [
-                                            "Cards with a maximum height of ??? mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Connectors Mother Board",
-                                        "class": "tableHeading",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²C.Mini",
-                                        "class": "",
-                                        "row": [
-                                            "One connector to carry signals of the four buses: x4 PCIe + USB2 + V²O + Power. Specifications will be made available Open Source if the ViDock Indiegogo Campaign reaches the corresponding stretch goal"
-                                        ]
-                                    },
-                                    {
-                                        "title": "x16 PCIe Slot",
-                                        "class": "",
-                                        "row": [
-                                            "Regular PCIe Slot, same as found in a desktop. Mechanically all PCIe Card will fit. Electrically all PCIe Cards that follow PCIe Spec should work. Electrical connection width is x4 PCIe."
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²B.IO",
-                                        "class": "",
-                                        "row": [
-                                            "Connector to connect Mother Board to IO Board"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Connectors IO Board",
-                                        "class": "tableHeading",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²B.IO",
-                                        "class": "",
-                                        "row": [
-                                            "Connector to connect Mother Board to IO Board"
-                                        ]
-                                    },
-                                    {
-                                        "title": "USB",
-                                        "class": "",
-                                        "row": [
-                                            "One USB 2 connector, on bracket,"
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²C.IO",
-                                        "class": "",
-                                        "row": [
-                                            "Connects Mother Board to IO Board"
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²C.P1",
-                                        "class": "",
-                                        "row": [
-                                            "DC Jack Input. 5.5/2.5 mm Ø, Minus on Outside Ring. 12V / 10A"
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²O.a",
-                                        "class": "",
-                                        "row": [
-                                            "V²O is the Box Control Bus of V²A. The Bus is included in the V²C cable, but can be transferred separately also for greater flexibility. V²O.a is a Host Port to daisy chain other V²O devices. Located at the bracket. V²O is compatible with all MCU, including Arduino. Full specs will be published in Open Source when the ViDock Campaign reaches the corresponding Stretch Goal."
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²O.b",
-                                        "class": "",
-                                        "row": [
-                                            "V²O Target Port. Located at the bracket"
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²O.c",
-                                        "class": "",
-                                        "row": [
-                                            "V²O Host Port. Located inside the box. To easily connect other MCU to expand functionality of ViDock."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "Datasheet":[]
             },
             {
                 "name": "V²A (Adapter)",
@@ -3259,7 +3090,8 @@
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
                     }
-                ]
+                ],
+                "Datasheet":[]
             },
             {
                 "name": "V²C (Cables)",
@@ -3285,47 +3117,8 @@
                         "value": 19
                     }
                 ],
-                "TableHeading": [
-                    {
-                        "name": "Feature",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "V²C.Nano"
-                    },
-                    {
-                        "name": "V²C.Mini"
-                    },
-                    {
-                        "name": "V²C.Card"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "PCIe Lanes",
-                        "row": [
-                            "x4",
-                            "x1",
-                            "x1"
-                        ]
-                    },
-                    {
-                        "title": "Host Port",
-                        "row": [
-                            "V²C.Nano",
-                            "mPCIe / Mini PCI Express",
-                            "V²C.Card / ExpressCard"
-                        ]
-                    },
-                    {
-                        "title": "Host Port Adapter Options",
-                        "row": [
-                            "V²A.Nano",
-                            "N/A",
-                            "V²A.Card - Thunderbolt to ExpressCard"
-                        ]
-                    }
-                ],
+                "tableHeading":[],
+                "TableBody":[],
                 "Advice": [
                     {
                         "heading": "V²C.Nano",
@@ -3378,120 +3171,7 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     }
                 ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "V²C.Nano",
-                                "class": "active"
-                            },
-                            {
-                                "name": "V²C.Mini"
-                            },
-                            {
-                                "name": "V²C.Card"
-                            }
-                        ],
-                        "tables": [
-                            {
-                                "table": [
-                                    {
-                                        "title": "Host Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Nano"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Target Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Micro"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Bus Signals",
-                                        "class": "",
-                                        "row": [
-                                            "PCIe x4, USB2, V²O"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Length",
-                                        "class": "",
-                                        "row": [
-                                            "40 cm"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "title": "Host Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Mini"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Target Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Micro"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Bus Signals",
-                                        "class": "",
-                                        "row": [
-                                            "PCIe x1, USB2, V²O"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Length",
-                                        "class": "",
-                                        "row": [
-                                            "40 cm"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "title": "Host Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Card"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Target Connector",
-                                        "class": "",
-                                        "row": [
-                                            "V²C.Micro"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Bus Signals",
-                                        "class": "",
-                                        "row": [
-                                            "PCIe x1, USB2, V²O"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Length",
-                                        "class": "",
-                                        "row": [
-                                            "40 cm"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "Datasheet":[]
             },
             {
                 "name": "V²P (Power)",
@@ -3630,7 +3310,8 @@
                         "title": "Adapter Silver",
                         "description": "This is a description"
                     }
-                ]
+                ],
+                "Datasheet":[]
             }
         ]
     },
@@ -4009,7 +3690,7 @@
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     }
                 ],
-                "Datasheet": []
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
@@ -4065,11 +3746,11 @@
                         "value": 150
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/RAM.png",
@@ -4125,11 +3806,11 @@
                         "value": 300
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/mSATA-SSD.gif",
@@ -4162,11 +3843,11 @@
                         "value": 1000
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "url": "images/expansion/config/SSD.png",
@@ -4210,11 +3891,11 @@
                         "value": 1000
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "name": "ViCase-mSATA",
@@ -4227,10 +3908,10 @@
                         "tag": "Adapter to use mSATA Disk with SATA cable"
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Datasheet": [],
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Datasheet":[],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
@@ -4299,11 +3980,11 @@
                         "value": "0"
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             },
             {
                 "name": "Display Size",
@@ -4329,52 +4010,11 @@
                         "value": 0
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
-            },
-            {
-                "name": "ViCase-Parallel",
-                "yourChoice": [
-                    {
-                        "name": "ViCase Parallel Port",
-                        "id": "ID-155",
-                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
-                        "link": "",
-                        "Child_Name": [
-                            "#ID-11"
-                        ],
-                        "tag": "Add Parallel Port for CNC Machine or old Printer",
-                        "value": 0
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "",
-                        "content": ""
-                    },
-                    {
-                        "heading": "",
-                        "content": ""
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
-                    }
-                ],
-                "Datasheet": []
+                "Advice":[],
+                "tableHeading":[],
+                "TableBody":[],
+                "Gallery":[],
+                "Datasheet":[]
             }
         ]
     }
