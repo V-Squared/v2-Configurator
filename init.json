@@ -3090,9 +3090,9 @@
                                     },
                                     {
                                         "title": "Connectors IO Board",
-                                        "class": "",
+                                        "class": "tableHeading",
                                         "row": [
-                                            "tableHeading"
+                                            ""
                                         ]
                                     },
                                     {
