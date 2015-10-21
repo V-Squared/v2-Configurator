@@ -797,14 +797,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "210 x 210 x 70 mm = 3 Liters"
+                                            "227 x 227 x 107 mm = 5 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1kg"
+                                            "1.2kg"
                                         ]
                                     },
                                     {
@@ -825,21 +825,28 @@
                                         "title": "DC Input Jack",
                                         "class": "",
                                         "row": [
-                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. Two DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                        ]
+                                    },
+                                    {
+                                        "title": "DC Output Jack",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring. Used to power another Accessory, e.g. ViDock"
                                         ]
                                     },
                                     {
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place"
+                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
                                         ]
                                     },
                                     {
@@ -867,14 +874,28 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                            "Three bays for HDD or SSD. Maximum height 13 mm."
                                         ]
                                     },
                                     {
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            " You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA.\nDisk Protection HDD are mounted with vibration and shock absorbing rubber grommets."
+                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max Disk Configuration",
+                                        "class": "",
+                                        "row": [
+                                            "One mSATA Boot Disk and three 2.5\" Disk (RAID 5 is supported with corresponding mother board."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Disk Protection",
+                                        "class": "",
+                                        "row": [
+                                            "HDD are mounted with vibration and shock absorbing rubber grommets."
                                         ]
                                     },
                                     {
@@ -888,14 +909,14 @@
                                         "title": "Max CPU TDP",
                                         "class": "",
                                         "row": [
-                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                            "95W without thermal cycling when using ViCase-Cooler-XL"
                                         ]
                                     },
                                     {
                                         "title": "Max CPU Cooler Height",
                                         "class": "",
                                         "row": [
-                                            "28 mm"
+                                            "60 mm"
                                         ]
                                     },
                                     {
@@ -916,14 +937,35 @@
                                         "title": "Slot Height",
                                         "class": "",
                                         "row": [
-                                            "Ultra Low Profile"
+                                            "Low Profile"
                                         ]
                                     },
                                     {
                                         "title": "ViDock (V²) Compatible",
                                         "class": "",
                                         "row": [
-                                            "Yes. Via V²A.Nano"
+                                            "Yes. Via V²A.Nano or V²A.Card"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bracket width",
+                                        "class": "",
+                                        "row": [
+                                            "2 Slots aka double bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max GPU Power Budget",
+                                        "class": "",
+                                        "row": [
+                                            "75W, depending on your CPU and PSU configuration"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max known GPU to fit",
+                                        "class": "",
+                                        "row": [
+                                            "At the time of writing: GTX 750 TI"
                                         ]
                                     },
                                     {
@@ -934,87 +976,157 @@
                                         ]
                                     },
                                     {
-                                        "title": "ViCase-Access-Plus",
+                                        "title": "ViCase-Color",
                                         "class": "",
                                         "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "Color Option",
-                                        "class": "",
-                                        "row": [
-                                            " If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-VESA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Feet",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Stand",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-XS",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-S",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-M",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-mSATA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²A.Nano",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Remote",
-                                        "class": "",
-                                        "row": [
-                                            ""
+                                            "Color option for the ViCase Lid. If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Remote Access of Power Button, USB ports and Status LED"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access-Plus",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Access of Power Button, USB2 port, USB3 port and Status LED for ViCase"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-VESA",
+                                        "class": "",
+                                        "row": [
+                                            "VESA Bracket to mount ViCase to Display or Wall"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Stand",
+                                        "class": "",
+                                        "row": [
+                                            "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Feet",
+                                        "class": "",
+                                        "row": [
+                                            "Accessory to place ViCase vertical to save space"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-L",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 65W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-XL",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 95W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-mSATA",
+                                        "class": "",
+                                        "row": [
+                                            "Adapter to use mSATA Disk with SATA cables"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Card",
+                                        "class": "",
+                                        "row": [
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Nano",
+                                        "class": "",
+                                        "row": [
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Remote",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Control for Media Applications"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Parallel",
+                                        "class": "",
+                                        "row": [
+                                            "Add Parallel Port for CNC Machine or old Printer"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-48W",
+                                        "class": "",
+                                        "row": [
+                                            "48W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-120W",
+                                        "class": "",
+                                        "row": [
+                                            "120W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-240W-Center",
+                                        "class": "",
+                                        "row": [
+                                            "240W Power Center: Power + Surge Protection + Power Distribution"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-120W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 120W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-200W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 200W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-S",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-L",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU-Cheapo",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                                         ]
                                     }
                                 ]
@@ -1060,14 +1172,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "210 x 210 x 70 mm = 3 Liters"
+                                            "227 x 227 x 107 mm = 5 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1kg"
+                                            "1.2kg"
                                         ]
                                     },
                                     {
@@ -1088,21 +1200,28 @@
                                         "title": "DC Input Jack",
                                         "class": "",
                                         "row": [
-                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. Two DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                        ]
+                                    },
+                                    {
+                                        "title": "DC Output Jack",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring. Used to power another Accessory, e.g. ViDock"
                                         ]
                                     },
                                     {
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place"
+                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
                                         ]
                                     },
                                     {
@@ -1130,14 +1249,28 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                            "Three bays for HDD or SSD. Maximum height 13 mm."
                                         ]
                                     },
                                     {
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            " You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA.\nDisk Protection HDD are mounted with vibration and shock absorbing rubber grommets."
+                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max Disk Configuration",
+                                        "class": "",
+                                        "row": [
+                                            "One mSATA Boot Disk and three 2.5\" Disk (RAID 5 is supported with corresponding mother board."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Disk Protection",
+                                        "class": "",
+                                        "row": [
+                                            "HDD are mounted with vibration and shock absorbing rubber grommets."
                                         ]
                                     },
                                     {
@@ -1151,14 +1284,14 @@
                                         "title": "Max CPU TDP",
                                         "class": "",
                                         "row": [
-                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                            "95W without thermal cycling when using ViCase-Cooler-XL"
                                         ]
                                     },
                                     {
                                         "title": "Max CPU Cooler Height",
                                         "class": "",
                                         "row": [
-                                            "28 mm"
+                                            "60 mm"
                                         ]
                                     },
                                     {
@@ -1179,14 +1312,35 @@
                                         "title": "Slot Height",
                                         "class": "",
                                         "row": [
-                                            "Ultra Low Profile"
+                                            "Low Profile"
                                         ]
                                     },
                                     {
                                         "title": "ViDock (V²) Compatible",
                                         "class": "",
                                         "row": [
-                                            "Yes. Via V²A.Nano"
+                                            "Yes. Via V²A.Nano or V²A.Card"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bracket width",
+                                        "class": "",
+                                        "row": [
+                                            "2 Slots aka double bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max GPU Power Budget",
+                                        "class": "",
+                                        "row": [
+                                            "75W, depending on your CPU and PSU configuration"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max known GPU to fit",
+                                        "class": "",
+                                        "row": [
+                                            "At the time of writing: GTX 750 TI"
                                         ]
                                     },
                                     {
@@ -1197,87 +1351,157 @@
                                         ]
                                     },
                                     {
-                                        "title": "ViCase-Access-Plus",
+                                        "title": "ViCase-Color",
                                         "class": "",
                                         "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "Color Option",
-                                        "class": "",
-                                        "row": [
-                                            " If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-VESA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Feet",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Stand",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-XS",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-S",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-M",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-mSATA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²A.Nano",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Remote",
-                                        "class": "",
-                                        "row": [
-                                            ""
+                                            "Color option for the ViCase Lid. If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Remote Access of Power Button, USB ports and Status LED"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access-Plus",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Access of Power Button, USB2 port, USB3 port and Status LED for ViCase"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-VESA",
+                                        "class": "",
+                                        "row": [
+                                            "VESA Bracket to mount ViCase to Display or Wall"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Stand",
+                                        "class": "",
+                                        "row": [
+                                            "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Feet",
+                                        "class": "",
+                                        "row": [
+                                            "Accessory to place ViCase vertical to save space"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-L",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 65W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-XL",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 95W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-mSATA",
+                                        "class": "",
+                                        "row": [
+                                            "Adapter to use mSATA Disk with SATA cables"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Card",
+                                        "class": "",
+                                        "row": [
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Nano",
+                                        "class": "",
+                                        "row": [
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Remote",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Control for Media Applications"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Parallel",
+                                        "class": "",
+                                        "row": [
+                                            "Add Parallel Port for CNC Machine or old Printer"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-48W",
+                                        "class": "",
+                                        "row": [
+                                            "48W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-120W",
+                                        "class": "",
+                                        "row": [
+                                            "120W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-240W-Center",
+                                        "class": "",
+                                        "row": [
+                                            "240W Power Center: Power + Surge Protection + Power Distribution"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-120W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 120W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-200W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 200W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-S",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-L",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU-Cheapo",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                                         ]
                                     }
                                 ]
@@ -1323,14 +1547,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "210 x 210 x 70 mm = 3 Liters"
+                                            "227 x 227 x 107 mm = 5 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1kg"
+                                            "1.2kg"
                                         ]
                                     },
                                     {
@@ -1351,21 +1575,28 @@
                                         "title": "DC Input Jack",
                                         "class": "",
                                         "row": [
-                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. Two DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring."
+                                        ]
+                                    },
+                                    {
+                                        "title": "DC Output Jack",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC. Up to 10A. Absolute maximum ratings: 11V ...13.2V. One DC Jack. 5.5 / 2.5 mm Ø. Minus on outside Ring. Used to power another Accessory, e.g. ViDock"
                                         ]
                                     },
                                     {
                                         "title": "Power Button",
                                         "class": "",
                                         "row": [
-                                            "Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access-Plus to add an additional Power Button in a more convenient place"
+                                            " Build in Power Button to turn ViCase on or off. Alternatively you can connect ViCase-Access or ViCase-Access-Plus to add an additional Power Button in a more convenient place."
                                         ]
                                     },
                                     {
                                         "title": "Audio Out",
                                         "class": "",
                                         "row": [
-                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately."
+                                            "Second Analog Audio Out (Green Ring). You can simultaneously connect Head Set and Speaker and can adjust volume for both separately.\n-Audio In Second Analog Audio In (Pink Ring)."
                                         ]
                                     },
                                     {
@@ -1393,14 +1624,28 @@
                                         "title": "2.5\" Bays",
                                         "class": "",
                                         "row": [
-                                            "Two bays for HDD or SSD. Maximum height 9.5 mm. If you need space for 13 mm then choose ViCase Mini"
+                                            "Three bays for HDD or SSD. Maximum height 13 mm."
                                         ]
                                     },
                                     {
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            " You can add one mSATA bay per 2.5\" Bay using ViCase-mSATA.\nDisk Protection HDD are mounted with vibration and shock absorbing rubber grommets."
+                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max Disk Configuration",
+                                        "class": "",
+                                        "row": [
+                                            "One mSATA Boot Disk and three 2.5\" Disk (RAID 5 is supported with corresponding mother board."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Disk Protection",
+                                        "class": "",
+                                        "row": [
+                                            "HDD are mounted with vibration and shock absorbing rubber grommets."
                                         ]
                                     },
                                     {
@@ -1414,14 +1659,14 @@
                                         "title": "Max CPU TDP",
                                         "class": "",
                                         "row": [
-                                            "40W without thermal cycling, 55W with thermal cycling, when using ViCase-Cooler-M"
+                                            "95W without thermal cycling when using ViCase-Cooler-XL"
                                         ]
                                     },
                                     {
                                         "title": "Max CPU Cooler Height",
                                         "class": "",
                                         "row": [
-                                            "28 mm"
+                                            "60 mm"
                                         ]
                                     },
                                     {
@@ -1442,14 +1687,35 @@
                                         "title": "Slot Height",
                                         "class": "",
                                         "row": [
-                                            "Ultra Low Profile"
+                                            "Low Profile"
                                         ]
                                     },
                                     {
                                         "title": "ViDock (V²) Compatible",
                                         "class": "",
                                         "row": [
-                                            "Yes. Via V²A.Nano"
+                                            "Yes. Via V²A.Nano or V²A.Card"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bracket width",
+                                        "class": "",
+                                        "row": [
+                                            "2 Slots aka double bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max GPU Power Budget",
+                                        "class": "",
+                                        "row": [
+                                            "75W, depending on your CPU and PSU configuration"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Max known GPU to fit",
+                                        "class": "",
+                                        "row": [
+                                            "At the time of writing: GTX 750 TI"
                                         ]
                                     },
                                     {
@@ -1460,87 +1726,157 @@
                                         ]
                                     },
                                     {
-                                        "title": "ViCase-Access-Plus",
+                                        "title": "ViCase-Color",
                                         "class": "",
                                         "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "Color Option",
-                                        "class": "",
-                                        "row": [
-                                            " If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-VESA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Feet",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Stand",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-XS",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-S",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Cooler-M",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-mSATA",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "V²A.Nano",
-                                        "class": "",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Remote",
-                                        "class": "",
-                                        "row": [
-                                            ""
+                                            "Color option for the ViCase Lid. If the ViCase Campaign reaches the corresponding Stretch Goal you can choose between 4 colors."
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Access",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "Remote Access of Power Button, USB ports and Status LED"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access-Plus",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Access of Power Button, USB2 port, USB3 port and Status LED for ViCase"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-VESA",
+                                        "class": "",
+                                        "row": [
+                                            "VESA Bracket to mount ViCase to Display or Wall"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Stand",
+                                        "class": "",
+                                        "row": [
+                                            "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Feet",
+                                        "class": "",
+                                        "row": [
+                                            "Accessory to place ViCase vertical to save space"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-L",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 65W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Cooler-XL",
+                                        "class": "",
+                                        "row": [
+                                            "Active CPU Cooler, 95W TDP without thermal cycling"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-mSATA",
+                                        "class": "",
+                                        "row": [
+                                            "Adapter to use mSATA Disk with SATA cables"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Card",
+                                        "class": "",
+                                        "row": [
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²A.Nano",
+                                        "class": "",
+                                        "row": [
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Remote",
+                                        "class": "",
+                                        "row": [
+                                            "Remote Control for Media Applications"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Parallel",
+                                        "class": "",
+                                        "row": [
+                                            "Add Parallel Port for CNC Machine or old Printer"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-48W",
+                                        "class": "",
+                                        "row": [
+                                            "48W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-120W",
+                                        "class": "",
+                                        "row": [
+                                            "120W 12V AC/DC adapter"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.12V-240W-Center",
+                                        "class": "",
+                                        "row": [
+                                            "240W Power Center: Power + Surge Protection + Power Distribution"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-120W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 120W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²P.pATX-200W",
+                                        "class": "",
+                                        "row": [
+                                            "12V DC Input to ATX Power Supply. 200W. Very small!"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-S",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-PCIe-L",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViDock-GPU-Cheapo",
+                                        "class": "",
+                                        "row": [
+                                            "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                                         ]
                                     }
                                 ]
