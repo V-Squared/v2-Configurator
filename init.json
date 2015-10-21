@@ -615,6 +615,13 @@
                                         ]
                                     },
                                     {
+                                        "title": "Disk Protection",
+                                        "class": "",
+                                        "row": [
+                                            "HDD are mounted with vibration and shock absorbing rubber grommets."
+                                        ]
+                                    },
+                                    {
                                         "title": "CPU",
                                         "class": "tableHeading",
                                         "row": [
@@ -666,13 +673,6 @@
                                     {
                                         "title": "Accessories",
                                         "class": "tableHeading",
-                                        "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Access-Plus",
-                                        "class": "",
                                         "row": [
                                             ""
                                         ]
@@ -737,21 +737,14 @@
                                         "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
-                                            ""
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
                                         ]
                                     },
                                     {
                                         "title": "ViCase-Remote",
                                         "class": "",
                                         "row": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "title": "ViCase-Access",
-                                        "class": "",
-                                        "row": [
-                                            "Remote Access of Power Button, USB ports and Status LED"
+                                            "Remote Control for Media Applications"
                                         ]
                                     }
                                 ]
