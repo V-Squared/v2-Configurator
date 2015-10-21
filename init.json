@@ -4352,12 +4352,12 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "When to use ( CNC )",
+                        "content": "Use ViCase-Parallel to add a Parallel Port to ViCase Mini or ViCase Ultra to connect to devices that need a parallel port and they depend on proper timing of the signals. The most common example would be the use in combination with the CNC controller MACH3, MACH4 or LinuxCNC. We used ViCase-Parallel in ViCase to control our CNC machine that made the prototype housings for ViCase and ViDock."
                     },
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "When not to use",
+                        "content": "If you have on old style printer, then use a USB to Parallel Port Cable. They work great. You can buy them local and they cost less. And they do not block your PCIe Port."
                     }
                 ],
                 "Gallery": [
@@ -4374,7 +4374,57 @@
                         "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
                     }
                 ],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "If you have on old style printer, then use a USB to Parallel Port Cable. They work great. You can buy them local and they cost less. And they do not block your PCIe Port.",
+                                "class": "active"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Parallel Port Connector",
+                                        "class": "",
+                                        "row": [
+                                            "DB-25"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card",
+                                        "class": "",
+                                        "row": [
+                                            "x1 PCIe, Low Profile, Short Length"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Low Profile Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "Mounted as default. Compatible to ViCase Mini and Ultra"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Standard Profile Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "Included. You can easily change it. Needed if you want to use ViCase-Parallel in a standard Desktop"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Chip",
+                                        "class": "",
+                                        "row": [
+                                            "WCH382L"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
