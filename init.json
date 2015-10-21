@@ -1588,8 +1588,6 @@
                         "class": "No-None"
                     }
                 ],
-                "tableHeading":[],
-                "TableBody":[],
                 "Advice": [
                     {
                         "heading": "Express Yourself!",
@@ -2080,7 +2078,6 @@
                         "description": "This is a description"
                     }
                 ],
-                "Datasheet":[],
                 "Logic": {}
             },
             {
@@ -2372,8 +2369,7 @@
                         "title": "Cooler M Top",
                         "description": "This is a description"
                     }
-                ],
-                "Datasheet":[]
+                ]
             },
             {
                 "name": "AC / DC Adapter",
@@ -2605,8 +2601,7 @@
                         "title": "Adapter Silver",
                         "description": "This is a description"
                     }
-                ],
-                "Datasheet":[]
+                ]
             },
             {
                 "name": "ViCase Power",
@@ -2734,8 +2729,7 @@
                         "title": "Power Silver",
                         "description": "This is a description"
                     }
-                ],
-                "Datasheet":[]
+                ]
             },
             {
                 "name": "ViCase Parallel Port",
@@ -2757,16 +2751,16 @@
                 "Advice": [],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
                     },
                     {
-                        "image":"images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
                     }
                 ],
                 "Datasheet": []
@@ -2979,7 +2973,7 @@
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
                     }
                 ],
-                "Datasheet":[]
+                "Datasheet": []
             },
             {
                 "name": "V²A (Adapter)",
@@ -3091,7 +3085,7 @@
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
                     }
                 ],
-                "Datasheet":[]
+                "Datasheet": []
             },
             {
                 "name": "V²C (Cables)",
@@ -3117,8 +3111,8 @@
                         "value": 19
                     }
                 ],
-                "tableHeading":[],
-                "TableBody":[],
+                "tableHeading": [],
+                "TableBody": [],
                 "Advice": [
                     {
                         "heading": "V²C.Nano",
@@ -3171,7 +3165,7 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     }
                 ],
-                "Datasheet":[]
+                "Datasheet": []
             },
             {
                 "name": "V²P (Power)",
@@ -3311,7 +3305,7 @@
                         "description": "This is a description"
                     }
                 ],
-                "Datasheet":[]
+                "Datasheet": []
             }
         ]
     },
@@ -3690,7 +3684,7 @@
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     }
                 ],
-                "Datasheet":[]
+                "Datasheet": []
             },
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
@@ -3746,11 +3740,11 @@
                         "value": 150
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             },
             {
                 "url": "images/expansion/config/RAM.png",
@@ -3806,11 +3800,11 @@
                         "value": 300
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             },
             {
                 "url": "images/expansion/config/mSATA-SSD.gif",
@@ -3843,11 +3837,11 @@
                         "value": 1000
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             },
             {
                 "url": "images/expansion/config/SSD.png",
@@ -3891,11 +3885,11 @@
                         "value": 1000
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             },
             {
                 "name": "ViCase-mSATA",
@@ -3908,10 +3902,10 @@
                         "tag": "Adapter to use mSATA Disk with SATA cable"
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Datasheet":[],
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Datasheet": [],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
@@ -3980,11 +3974,11 @@
                         "value": "0"
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             },
             {
                 "name": "Display Size",
@@ -4010,11 +4004,11 @@
                         "value": 0
                     }
                 ],
-                "Advice":[],
-                "tableHeading":[],
-                "TableBody":[],
-                "Gallery":[],
-                "Datasheet":[]
+                "Advice": [],
+                "tableHeading": [],
+                "TableBody": [],
+                "Gallery": [],
+                "Datasheet": []
             }
         ]
     }
