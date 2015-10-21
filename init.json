@@ -1554,14 +1554,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "227 x 227 x 107 mm = 5 Liters"
+                                            "227 x 320 x 107 mm = 7 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1.2kg"
+                                            "1.5kg"
                                         ]
                                     },
                                     {
@@ -1645,14 +1645,7 @@
                                         "title": "mSATA Bay",
                                         "class": "",
                                         "row": [
-                                            "One dedicated mSATA Bay. If you want to use it, you need the ViCase-mSATA Adapter. This adapter will also fit the 2.5\" Bay, making for a maximum of four mSATA Bays for ViCase Mini."
-                                        ]
-                                    },
-                                    {
-                                        "title": "Max Disk Configuration",
-                                        "class": "",
-                                        "row": [
-                                            "One mSATA Boot Disk and three 2.5\" Disk (RAID 5 is supported with corresponding mother board."
+                                            "You can add two mSATA bays by using two 2.5\" Bays with ViCase-mSATA."
                                         ]
                                     },
                                     {
