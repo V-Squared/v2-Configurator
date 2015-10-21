@@ -2251,14 +2251,14 @@
                     {
                         "button": [
                             {
-                                "name": "ViCase VESA",
+                                "name": "ViCase-VESA",
                                 "class": "active"
                             },
                             {
-                                "name": "ViCase Stand"
+                                "name": "ViCase-Stand"
                             },
                             {
-                                "name": "ViCase Feet"
+                                "name": "ViCase-Feet"
                             }
                         ],
                         "tables": [
