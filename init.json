@@ -2944,22 +2944,22 @@
                 ],
                 "Datasheet": [
                     [
+                        [
+                            {
+                                "name": "ViDock-PCIe-S",
+                                "class": "active"
+                            },
+                            {
+                                "name": "ViDock-PCIe-L"
+                            },
+                            {
+                                "name": "ViDock-GPU"
+                            },
+                            {
+                                "name": "ViDock-GPU-Cheapo"
+                            }
+                        ],
                         {
-                            "button": [
-                                {
-                                    "name": "ViDock-PCIe-S",
-                                    "class": "active"
-                                },
-                                {
-                                    "name": "ViDock-PCIe-L"
-                                },
-                                {
-                                    "name": "ViDock-GPU"
-                                },
-                                {
-                                    "name": "ViDock-GPU-Cheapo"
-                                }
-                            ],
                             "tables": [
                                 {
                                     "table": [
