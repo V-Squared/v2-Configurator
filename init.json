@@ -3259,8 +3259,7 @@
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
                     }
-                ],
-                "Datasheet": []
+                ]
             },
             {
                 "name": "V²C (Cables)",
@@ -3286,8 +3285,47 @@
                         "value": 19
                     }
                 ],
-                "tableHeading": [],
-                "TableBody": [],
+                "tableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "V²C.Nano"
+                    },
+                    {
+                        "name": "V²C.Mini"
+                    },
+                    {
+                        "name": "V²C.Card"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "PCIe Lanes",
+                        "row": [
+                            "x4",
+                            "x1",
+                            "x1"
+                        ]
+                    },
+                    {
+                        "title": "Host Port",
+                        "row": [
+                            "V²C.Nano",
+                            "mPCIe / Mini PCI Express",
+                            "V²C.Card / ExpressCard"
+                        ]
+                    },
+                    {
+                        "title": "Host Port Adapter Options",
+                        "row": [
+                            "V²A.Nano",
+                            "N/A",
+                            "V²A.Card - Thunderbolt to ExpressCard"
+                        ]
+                    }
+                ],
                 "Advice": [
                     {
                         "heading": "V²C.Nano",
@@ -3340,7 +3378,120 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     }
                 ],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "V²C.Nano",
+                                "class": "active"
+                            },
+                            {
+                                "name": "V²C.Mini"
+                            },
+                            {
+                                "name": "V²C.Card"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Host Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Nano"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Target Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Micro"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bus Signals",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe x4, USB2, V²O"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Length",
+                                        "class": "",
+                                        "row": [
+                                            "40 cm"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Host Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Mini"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Target Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Micro"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bus Signals",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe x1, USB2, V²O"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Length",
+                                        "class": "",
+                                        "row": [
+                                            "40 cm"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Host Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Card"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Target Connector",
+                                        "class": "",
+                                        "row": [
+                                            "V²C.Micro"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Bus Signals",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe x1, USB2, V²O"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Length",
+                                        "class": "",
+                                        "row": [
+                                            "40 cm"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "V²P (Power)",
