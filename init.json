@@ -2197,14 +2197,14 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Rear.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
-                    },
-                    {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Mini.jpg",
                         "title": "Placement red",
-                        "description": "This is a description"
+                        "description": "This is a description",
+                        "": {
+                            "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Rear.jpg",
+                            "title": "Placement red",
+                            "description": "This is a description"
+                        }
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
@@ -2217,12 +2217,12 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear-Mini.jpg",
                         "title": "Placement red",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear-Mini.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
                         "title": "Placement red",
                         "description": "This is a description"
                     },
