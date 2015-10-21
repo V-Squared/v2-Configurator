@@ -455,6 +455,26 @@
                         "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
                     },
                     {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
                         "title": "ViCase-Ultra",
                         "description": "Powerhouse DIY Mini Computer build with Desktop parts"
