@@ -140,7 +140,7 @@
                                             <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Advice</h4>
                                             <div class="collapsable readmore_area" style="display: none;">
                                                 <div ng-repeat="advice in Section.Advice">
-                                                    <h4>{{advice.heading}}</h4>
+                                                    <h4 style="color:#bbb;font-weight:600;">{{advice.heading}}</h4>
                                                     <p>{{advice.content}}</p>
                                                 </div>
                                             </div>
@@ -152,7 +152,7 @@
                                                     <div id="{{'section-'+chapterIndex+'-gallary-'+$index}}" class="carousel slide" data-ride="carousel">
                                                         <div class="carousel-inner">
                                                             <div ng-repeat="gallery in Section.Gallery" class="item">
-                                                                <h4 style="font-weight:bold">{{gallery.title}}</h4>
+                                                                <h4 style="font-weight:600;color:#bbb">{{gallery.title}}</h4>
                                             							 <p>{{gallery.description}}</p>
                                                                 <img ng-src="{{gallery.image}}">
                                                             </div>
