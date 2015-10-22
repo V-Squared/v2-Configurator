@@ -3373,7 +3373,7 @@
                                         "title": "IO Board",
                                         "class": "",
                                         "row": [
-                                            "V²B.IO-2"
+                                            "V²B.IO-1"
                                         ]
                                     },
                                     {
@@ -3401,14 +3401,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "329 x 135 x 55 mm = 2.5 Liters"
+                                            "250 x 135 x 55 mm = 2 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "???kg"
+                                            "1kg"
                                         ]
                                     },
                                     {
@@ -3429,7 +3429,7 @@
                                         "title": "PCIe Card length",
                                         "class": "",
                                         "row": [
-                                            "< 12.5\" / < 319 mm length"
+                                            "< 9.5\" / < 240 mm length"
                                         ]
                                     },
                                     {
@@ -3587,14 +3587,14 @@
                                         "title": "Size",
                                         "class": "",
                                         "row": [
-                                            "210 x 210 x 70 mm = 3 Liters"
+                                            "329 x 135 x 55 mm = 2.5 Liters"
                                         ]
                                     },
                                     {
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1kg"
+                                            "???kg"
                                         ]
                                     },
                                     {
@@ -3615,14 +3615,14 @@
                                         "title": "PCIe Card length",
                                         "class": "",
                                         "row": [
-                                            "< 9.5\" / < 240 mm length"
+                                            "< 12.5\" / < 319 mm length"
                                         ]
                                     },
                                     {
                                         "title": "PCIe Card Top Component Height",
                                         "class": "",
                                         "row": [
-                                            "Cards with a maximum component height of ??? mm will fit"
+                                            "Cards with a maximum component height of 34 mm will fit"
                                         ]
                                     },
                                     {
