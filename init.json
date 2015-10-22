@@ -3442,30 +3442,12 @@
                         ]
                     },
                     {
-                        "title": "Short PCIe Cards",
+                        "title": "PCIe Card Length",
                         "row": [
-                            "Yes",
-                            "Yes",
-                            "Yes",
-                            "Yes"
-                        ]
-                    },
-                    {
-                        "title": "Long PCIe Cards",
-                        "row": [
-                            "No",
-                            "Yes",
-                            "Yes",
-                            "Yes"
-                        ]
-                    },
-                    {
-                        "title": "Oversized PCIe Cards",
-                        "row": [
-                            "No",
-                            "No",
-                            "Yes",
-                            "Yes"
+                            " < 240 mm / 0.5\"",
+                            "all lengths",
+                            "< 240 mm / 0.5\"",
+                            "< 240 mm / 0.5\""
                         ]
                     },
                     {
@@ -3587,7 +3569,7 @@
                                         "title": "Case Material",
                                         "class": "",
                                         "row": [
-                                            "???"
+                                            "Aluminum"
                                         ]
                                     },
                                     {
@@ -3773,7 +3755,7 @@
                                         "title": "Case Material",
                                         "class": "",
                                         "row": [
-                                            "???"
+                                            "Aluminum"
                                         ]
                                     },
                                     {
@@ -3801,7 +3783,7 @@
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "???kg"
+                                            "1kg"
                                         ]
                                     },
                                     {
@@ -3822,7 +3804,7 @@
                                         "title": "PCIe Card length",
                                         "class": "",
                                         "row": [
-                                            "< 12.5\" / < 319 mm length"
+                                            "All length fit"
                                         ]
                                     },
                                     {
@@ -3987,7 +3969,7 @@
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "???kg"
+                                            "1.5kg"
                                         ]
                                     },
                                     {
@@ -4180,7 +4162,7 @@
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "???kg"
+                                            "1.5kg"
                                         ]
                                     },
                                     {
