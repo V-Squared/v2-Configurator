@@ -2126,21 +2126,21 @@
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
                         "value": 3,
-                        "tag": "VESA Bracket to mount ViCase to Display or Wall"
+                        "tag": "$3 Converts ViCase into All-In-One with a VESA Mount Display"
                     },
                     {
                         "name": "ViCase-Stand",
                         "id": "ID-10",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Tiny-Side-Stand-160x90.jpg",
                         "value": 49,
-                        "tag": "All-In-One Stand. Holds: 17\" ... 30\" Displays, ViCase, Keyboard"
+                        "tag": "$49 Converts ViCase into Luxury All-In-One with a VESA Mount Display"
                     },
                     {
                         "name": "ViCase-Feet",
                         "id": "ID-8",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
                         "value": 9,
-                        "tag": "Accessory to place ViCase vertical to save space"
+                        "tag": "$9 Converts ViCase into All-In-One with any kind of Display"
                     }
                 ],
                 "TableHeading": [
@@ -2290,6 +2290,56 @@
                             {
                                 "table": [
                                     {
+                                        "title": "Features",
+                                        "class": "tableHeading"
+                                    },
+                                    {
+                                        "title": "All-In-One Converter",
+                                        "class": "",
+                                        "row": [
+                                            "Converts your ViCase into an All-In-One Computer by hanging it behind your Display using its VESA Mount."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Two Mounting directions",
+                                        "class": "",
+                                        "row": [
+                                            "1) Connectors up. This makes it very convenient to access the I/O Panel. 2) Connectors down. This makes for easy and clean organizing of wires. Use ViCase-Access to regain easy access to I/O Panel."
+                                        ]
+                                    },
+                                    {
+                                        "title": "VESA Mount",
+                                        "class": "",
+                                        "row": [
+                                            "Works with all VESA mount (Standardized Screw Holes with 75 mm and 100 mm spacing)"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Display Compatibility",
+                                        "class": "",
+                                        "row": [
+                                            "Work with all Display with any VESA Mount, which do not use the Display to mount their Display foot. In other words, the VESA Mount must be available when the Display foot is attached. See Gallery."
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase Mount",
+                                        "class": "",
+                                        "row": [
+                                            "Works with all ViCase (Standardized Twin-Hooks)"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Cable Tie Slot",
+                                        "class": "",
+                                        "row": [
+                                            "Ships with 20 mm Magic Tape Cable ties. If you mount your ViCase with connectors up you can use them to tie up your cables."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mechanical",
+                                        "class": "tableHeading"
+                                    },
+                                    {
                                         "title": "Size",
                                         "class": "",
                                         "row": [
@@ -2322,6 +2372,70 @@
                             {
                                 "table": [
                                     {
+                                        "title": "Features",
+                                        "class": "tableHeading"
+                                    },
+                                    {
+                                        "title": "All-In-One Converter",
+                                        "class": "",
+                                        "row": [
+                                            "Converts your ViCase and your Display with VESA Mount and turns it into a luxury All-In-One Computer with Carry Grip and Keyboard Shelf."
+                                        ]
+                                    },
+                                    {
+                                        "title": "VESA Mount",
+                                        "class": "",
+                                        "row": [
+                                            "Works with all VESA mount (Standardized Screw Holes with 75 mm and 100 mm spacing)"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Display Compatibility",
+                                        "class": "",
+                                        "row": [
+                                            "Works with every Display that has any VESA Mount"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Height Adjustment",
+                                        "class": "",
+                                        "row": [
+                                            "Display Height is chosen when mounting the Display to Stand"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Angle Adjustment",
+                                        "class": "",
+                                        "row": [
+                                            "Display viewing Angle is adjustable at any time: -3° / + 10°"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Carry Grip",
+                                        "class": "",
+                                        "row": [
+                                            "25 mm strong yet soft Nylon Belt"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Keyboard Shelf",
+                                        "class": "",
+                                        "row": [
+                                            "Fits all Keyboard sizes. Park your Keyboard when you need more space on your Desk or carry your All-In-One Computer"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Ships Flat",
+                                        "class": "",
+                                        "row": [
+                                            "Ships flat to save shipping cost. Assembled with 4 Philips screws"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mechanical",
+                                        "class": "tableHeading"
+                                    },
+                                    {
                                         "title": "Size Packaged",
                                         "class": "",
                                         "row": [
@@ -2332,7 +2446,7 @@
                                         "title": "Weight",
                                         "class": "",
                                         "row": [
-                                            "1 kg"
+                                            "1Kg"
                                         ]
                                     },
                                     {
@@ -2346,7 +2460,7 @@
                                         "title": "Surface",
                                         "class": "",
                                         "row": [
-                                            " Sandblasted and Anodized"
+                                            "Sandblasted and Anodized"
                                         ]
                                     }
                                 ]
@@ -2354,10 +2468,46 @@
                             {
                                 "table": [
                                     {
+                                        "title": "Features",
+                                        "class": "tableHeading"
+                                    },
+                                    {
+                                        "title": "All-In-One Converter",
+                                        "class": "",
+                                        "row": [
+                                            "Converts your ViCase into an All-In-One Computer by placing your ViCase out of sight behind the Display using ViCase-Feet. Ideal if your Display has no VESA Mount."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Three Versions",
+                                        "class": "",
+                                        "row": [
+                                            "Each ViCase has a ViCase-Feet size that fits. We will automatically ship the corresponding size matching your ViCase order."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Ships Flat",
+                                        "class": "",
+                                        "row": [
+                                            "Ships flat to save shipping cost. Clip together without screws when use"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase Mount",
+                                        "class": "",
+                                        "row": [
+                                            "Works with all ViCase (Standardized Twin-Hooks)"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mechanical",
+                                        "class": "tableHeading"
+                                    },
+                                    {
                                         "title": "Size Packaged",
                                         "class": "",
                                         "row": [
-                                            "50 x 220 x 10 mm"
+                                            "130 x 260 x 10 mm"
                                         ]
                                     },
                                     {
