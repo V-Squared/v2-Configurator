@@ -2194,16 +2194,20 @@
                 ],
                 "Advice": [
                     {
+                        "heading": "ViCase Modular All-In-One",
+                        "content": "ViCase offers you three methods to convert your ViCase Mini Computer into an All-In-One Computer using a regular Display. We call this new concept All-Form-Factor, because you get to keep the best of the three stationary Form Factors: 1) High Performance and Upgradeability of the Desktop, 2) Small size of the Mini and 3) Good looks and space savings of the All-In-One. Find more details on each of the 3 methods below:"
+                    },
+                    {
                         "heading": "ViCase-VESA",
-                        "content": "The default choice to build an All-In-One computer. For only $3 US you can hang your ViCase behind your Display. Make sure a) Your Display has a VESA Mount b) The VESA Mount is not occupied by the Display's foot."
+                        "content": "The default choice to build an All-In-One computer with ViCase. For only $3 US you can hang your ViCase behind your Display. For more details, check the Gallery and Data Sheet.."
                     },
                     {
                         "heading": "ViCase-Stand",
-                        "content": "Choose ViCase-Stand to build a Luxury All-In-One Computer. It is CNC carved from 6 mm solid Aluminum. Sandblasted and anodized to match your ViCase. Your Display gains height and angle adjustment. If you need more space on your desk ViCase-Stand can park your keyboard. And a carry grip makes it easy to bring your ViCase All-In-One computer. Now it is comfortable to attend a LAN Party or work in the garden. Make sure your Display has VESA mount."
+                        "content": "Choose ViCase-Stand to build a Luxury All-In-One Computer. It is CNC carved from 6 mm solid Aluminum. Sandblasted and anodized to match your ViCase. Your Display gains height and angle adjustment. If you need more space on your desk ViCase-Stand can park your keyboard. And a carry grip makes it easy to bring your ViCase All-In-One computer. Now it is comfortable to attend a LAN Party or work in the garden. For more details, check the Gallery and Data Sheet."
                     },
                     {
                         "heading": "ViCase-Feet",
-                        "content": "Choose ViCase-Feet if you want the appearance of an All-In-One Computer, but your Display has no VESA mount. Simply place ViCase into ViCase-Stand and place it behind your Display."
+                        "content": "Choose ViCase-Feet if you want the appearance of an All-In-One Computer, but your Display has no VESA mount. Simply place ViCase into ViCase-Stand and place it behind your Display. For more details, check the Gallery and Data Sheet."
                     },
                     {
                         "heading": "None",
@@ -2213,63 +2217,63 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Rear.jpg",
-                        "title": "Placement Black",
-                        "description": "This is a description"
+                        "title": "All-In-One Front View",
+                        "description": "All-In-One build with ViCase-VESA"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Mini.jpg",
-                        "title": "Placement Cyan",
-                        "description": "This is a description"
+                        "title": "All-In-One Rear View",
+                        "description": "ViCase is fastened to the display via ViCase-VESA bracket"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "Bracket",
+                        "description": "The hooks of ViCase-VESA hold ViCase. Screw Holes in VESA Mount spacing."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Front.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "Fastened to Display",
+                        "description": "ViCase-VESA mounted to Display with VESA mount threads, using M4 screws."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Front.jpg",
-                        "title": "Placement Black",
-                        "description": "This is a description"
+                        "title": "All-In-One Front View",
+                        "description": "All-In-One build with ViCase-Stand.Notice the keyboard is parked in the stand."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear-Mini.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "All-In-One Rear View ",
+                        "description": "ViCase is fastened to the display via the included ViCase-VESA bracket"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "Stand",
+                        "description": "(1) Carry Grip (2) Various Height Display Mount Holes (3) Keyboard Shelf (4) Mounting holes ViCase-VESA (5) Angle Adjustment Hinge"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
-                        "title": "Placement Cyan",
-                        "description": "This is a description"
+                        "title": "Stand with Display and Bracket",
+                        "description": "Complete ViCase-Stand All-In-One assembled, except the ViCase is not mounted yet."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Front.jpg",
-                        "title": "Placement Black",
-                        "description": "This is a description"
+                        "title": "All-In-One Front View",
+                        "description": "All-In-One build with ViCase-Feet"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Rear.jpg",
-                        "title": "Placement Cyan",
-                        "description": "This is a description"
+                        "title": "All-In-One Rear View",
+                        "description": "ViCase is simply placed behind the Display. This is how it is compatible with all Displays."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "Feet",
+                        "description": "Assembled ViCase Feet"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Tiny.jpg",
-                        "title": "Placement red",
-                        "description": "This is a description"
+                        "title": "Feet with ViCase",
+                        "description": "ViCase Tiny placed in ViCase Feet. There are three Feet sizes matching the three ViCase sizes."
                     }
                 ],
                 "Datasheet": [
