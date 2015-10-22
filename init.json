@@ -2232,13 +2232,8 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Front.jpg",
                         "title": "Placement Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
-                        "title": "Placement red",
                         "description": "This is a description"
                     },
                     {
@@ -2247,7 +2242,12 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Front.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
+                        "title": "Placement red",
+                        "description": "This is a description"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
                         "title": "Placement Cyan",
                         "description": "This is a description"
                     },
