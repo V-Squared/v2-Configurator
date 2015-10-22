@@ -2258,43 +2258,43 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Front.jpg",
-                        "title": "ViCase Stand►All-In-One Front View",
+                        "title": "ViCase-Stand►All-In-One Front View",
                         "description": "All-In-One build with ViCase-Stand.Notice the keyboard is parked in the stand."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear-Mini.jpg",
-                        "title": "ViCase Stand►All-In-One Rear View",
+                        "title": "ViCase-Stand►All-In-One Rear View",
                         "description": "ViCase is fastened to the display via the included ViCase-VESA bracket"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand.jpg",
-                        "title": "ViCase Stand►Stand",
+                        "title": "ViCase-Stand►Stand",
                         "description": "(1) Carry Grip (2) Various Height Display Mount Holes (3) Keyboard Shelf (4) Mounting holes ViCase-VESA (5) Angle Adjustment Hinge"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Stand-Rear.jpg",
-                        "title": "ViCase Stand►Stand with Display and Bracket",
+                        "title": "ViCase-Stand►Stand with Display and Bracket",
                         "description": "Complete ViCase-Stand All-In-One assembled, except the ViCase is not mounted yet."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Front.jpg",
-                        "title": "ViCase Feet►All-In-One Front View",
+                        "title": "ViCase-Feet►All-In-One Front View",
                         "description": "All-In-One build with ViCase-Feet"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Rear.jpg",
-                        "title": "ViCase Feet►All-In-One Rear View",
+                        "title": "ViCase-Feet►All-In-One Rear View",
                         "description": "ViCase is simply placed behind the Display. This is how it is compatible with all Displays."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet.jpg",
-                        "title": "ViCase Feet►Feet Assembled",
-                        "description": "Assembled ViCase Feet"
+                        "title": "ViCase-Feet►Feet Assembled",
+                        "description": "Assembled ViCase-Feet"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-Feet-Tiny.jpg",
-                        "title": "ViCase Feet►Feet with ViCase",
-                        "description": "ViCase Tiny placed in ViCase Feet. There are three Feet sizes matching the three ViCase sizes."
+                        "title": "ViCase-Feet►Feet with ViCase",
+                        "description": "ViCase-Tiny placed in ViCase-Feet. There are three Feet sizes matching the three ViCase sizes."
                     }
                 ],
                 "Datasheet": [
@@ -2676,42 +2676,42 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access.jpg",
-                        "title": "ViCase Access",
+                        "title": "ViCase-Access",
                         "description": "Remote Access to Power Button, USB 2 Ports, Power and HDD LEDs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Front.jpg",
-                        "title": "ViCase Access►USB 2 Ports",
+                        "title": "ViCase-Access►USB 2 Ports",
                         "description": "Two USB 2 ports easy accessible"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Rear.jpg",
-                        "title": "ViCase Access►Plastic",
+                        "title": "ViCase-Access►Plastic",
                         "description": "Curved plastic enclosure"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Top.jpg",
-                        "title": "ViCase Access►Big Switch",
+                        "title": "ViCase-Access►Big Switch",
                         "description": "Easy to power on"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus.jpg",
-                        "title": "ViCase Access Plus",
+                        "title": "ViCase-Access-Plus",
                         "description": "Remote Access to Power Button, USB 2 + USB 3 Port, Power and HDD LEDs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Front.jpg",
-                        "title": "ViCase Access Plus►USB 3",
+                        "title": "ViCase-Access-Plus►USB 3",
                         "description": "The blue colored port marks the USB 3"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Rear.jpg",
-                        "title": "ViCase Access Plus►Aluminum",
+                        "title": "ViCase-Access Plus►Aluminum",
                         "description": "Enclosure made of CNC Cut Aluminum, sandblasted and anodized to match ViCase"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Top.jpg",
-                        "title": "ViCase Access Plus►Big Switch",
+                        "title": "ViCase-Access-Plus►Big Switch",
                         "description": "Easy to power on"
                     }
                 ],
