@@ -2646,43 +2646,43 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access.jpg",
-                        "title": "Access Black",
-                        "description": "This is a description"
+                        "title": "ViCase Access",
+                        "description": "Remote Access to Power Button, USB 2 Ports, Power and HDD LEDs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Front.jpg",
-                        "title": "Access Cyan",
-                        "description": "This is a description"
+                        "title": "ViCase Access►USB 2 Ports",
+                        "description": "Two USB 2 ports easy accessible"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Rear.jpg",
-                        "title": "Access Red",
-                        "description": "This is a description"
+                        "title": "ViCase Access►Plastic",
+                        "description": "Curved plastic enclosure"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Top.jpg",
-                        "title": "Access Silver",
-                        "description": "This is a description"
+                        "title": "ViCase Access►Big Switch",
+                        "description": "Easy to power on"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus.jpg",
-                        "title": "Access Black",
-                        "description": "This is a description"
+                        "title": "ViCase Access Plus",
+                        "description": "Remote Access to Power Button, USB 2 + USB 3 Port, Power and HDD LEDs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Front.jpg",
-                        "title": "Access Cyan",
-                        "description": "This is a description"
+                        "title": "ViCase Access Plus►USB 3",
+                        "description": "The blue colored port marks the USB 3"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Rear.jpg",
-                        "title": "Access Red",
-                        "description": "This is a description"
+                        "title": "ViCase Access Plus►Aluminum",
+                        "description": "Enclosure made of CNC Cut Aluminum, sandblasted and anodized to match ViCase"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Access/Gallery/ViCase-Access-Plus-Top.jpg",
-                        "title": "Access Silver",
-                        "description": "This is a description"
+                        "title": "ViCase Access Plus►Big Switch",
+                        "description": "Easy to power on"
                     }
                 ],
                 "Logic": {}
