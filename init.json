@@ -3380,7 +3380,193 @@
                                         "title": "Case Material",
                                         "class": "",
                                         "row": [
-                                            "CNC Grade Aluminum. 6 mm thickness for case frame. Cover 3 mm thickness."
+                                            "???"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Threads",
+                                        "class": "",
+                                        "row": [
+                                            "All threads are high quality CNC cut Brass Inserts"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Finish",
+                                        "class": "",
+                                        "row": [
+                                            "Sandblasted and Anodized"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "329 x 135 x 55 mm = 2.5 Liters"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "???kg"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Mechanical Specs",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe Cards with Single or Double Bracket will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card length",
+                                        "class": "",
+                                        "row": [
+                                            "< 12.5\" / < 319 mm length"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Top Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 34 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bottom Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 7 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum height of 112 mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors Mother Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.Mini",
+                                        "class": "",
+                                        "row": [
+                                            "One connector to carry signals of the four buses: x4 PCIe + USB2 + V²O + Power. Specifications will be made available Open Source if the ViDock Indiegogo Campaign reaches the corresponding stretch goal"
+                                        ]
+                                    },
+                                    {
+                                        "title": "x16 PCIe Slot",
+                                        "class": "",
+                                        "row": [
+                                            "Regular PCIe Slot, same as found in a desktop. Mechanically all PCIe Card will fit. Electrically all PCIe Cards that follow PCIe Spec should work. Electrical connection width is x4 PCIe."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²B.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connector to connect Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors IO Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "USB",
+                                        "class": "",
+                                        "row": [
+                                            "One USB 2 connector, on bracket,"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connects Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P1",
+                                        "class": "",
+                                        "row": [
+                                            "DC Jack Input. 5.5/2.5 mm Ø, Minus on Outside Ring. 12V / 10A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P2",
+                                        "class": "",
+                                        "row": [
+                                            "DC Jack Output. 12V / 3A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.a",
+                                        "class": "",
+                                        "row": [
+                                            "V²O is the Box Control Bus of V²A. The Bus is included in the V²C cable, but can be transferred separately also for greater flexibility. V²O.a is a Host Port to daisy chain other V²O devices. Located at the bracket. V²O is compatible with all MCU, including Arduino. Full specs will be published in Open Source when the ViDock Campaign reaches the corresponding Stretch Goal."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.b",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Target Port. Located at the bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.c",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Host Port. Located inside the box. To easily connect other MCU to expand functionality of ViDock."
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Case",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mother Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.Mobo-1"
+                                        ]
+                                    },
+                                    {
+                                        "title": "IO Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.IO-1"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Case Material",
+                                        "class": "",
+                                        "row": [
+                                            "???"
                                         ]
                                     },
                                     {
@@ -3450,7 +3636,7 @@
                                         "title": "PCIe Card Height",
                                         "class": "",
                                         "row": [
-                                            "Cards with a maximum height of ??? mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
+                                            "Cards with a maximum height of 112 mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
                                         ]
                                     },
                                     {
@@ -3489,13 +3675,6 @@
                                         ]
                                     },
                                     {
-                                        "title": "V²B.IO",
-                                        "class": "",
-                                        "row": [
-                                            "Connector to connect Mother Board to IO Board"
-                                        ]
-                                    },
-                                    {
                                         "title": "USB",
                                         "class": "",
                                         "row": [
@@ -3514,6 +3693,399 @@
                                         "class": "",
                                         "row": [
                                             "DC Jack Input. 5.5/2.5 mm Ø, Minus on Outside Ring. 12V / 10A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P2",
+                                        "class": "",
+                                        "row": [
+                                            "DC Jack Output. 12V / 3A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.a",
+                                        "class": "",
+                                        "row": [
+                                            "V²O is the Box Control Bus of V²A. The Bus is included in the V²C cable, but can be transferred separately also for greater flexibility. V²O.a is a Host Port to daisy chain other V²O devices. Located at the bracket. V²O is compatible with all MCU, including Arduino. Full specs will be published in Open Source when the ViDock Campaign reaches the corresponding Stretch Goal."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.b",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Target Port. Located at the bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.c",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Host Port. Located inside the box. To easily connect other MCU to expand functionality of ViDock."
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Case",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mother Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.Mobo-1"
+                                        ]
+                                    },
+                                    {
+                                        "title": "IO Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.IO-2"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Case Material",
+                                        "class": "",
+                                        "row": [
+                                            "CNC Grade Aluminum."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Threads",
+                                        "class": "",
+                                        "row": [
+                                            "All threads are high quality CNC cut Brass Inserts"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Finish",
+                                        "class": "",
+                                        "row": [
+                                            "Sandblasted and Anodized"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "290 x 178 x 190 mm = 10 Liters"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "???kg"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Mechanical Specs",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe Cards with Single or Double Bracket will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card length",
+                                        "class": "",
+                                        "row": [
+                                            "< 9.5\" / < 240 mm length"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Top Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 50 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bottom Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 7 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum height of 140 mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors Mother Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.Mini",
+                                        "class": "",
+                                        "row": [
+                                            "One connector to carry signals of the four buses: x4 PCIe + USB2 + V²O + Power. Specifications will be made available Open Source if the ViDock Indiegogo Campaign reaches the corresponding stretch goal"
+                                        ]
+                                    },
+                                    {
+                                        "title": "x16 PCIe Slot",
+                                        "class": "",
+                                        "row": [
+                                            "Regular PCIe Slot, same as found in a desktop. Mechanically all PCIe Card will fit. Electrically all PCIe Cards that follow PCIe Spec should work. Electrical connection width is x4 PCIe."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²B.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connector to connect Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors IO Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "USB",
+                                        "class": "",
+                                        "row": [
+                                            "One USB 2 connector, on bracket,"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connects Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ATX-24P",
+                                        "class": "",
+                                        "row": [
+                                            "ATX Power connector to connect to a standard PC ATX Power Supply"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P2",
+                                        "class": "",
+                                        "row": [
+                                            "DC Jack Output. 12V / 3A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P3",
+                                        "class": "",
+                                        "row": [
+                                            "Small ATX Connector. Part of V² Specs."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.a",
+                                        "class": "",
+                                        "row": [
+                                            "V²O is the Box Control Bus of V²A. The Bus is included in the V²C cable, but can be transferred separately also for greater flexibility. V²O.a is a Host Port to daisy chain other V²O devices. Located at the bracket. V²O is compatible with all MCU, including Arduino. Full specs will be published in Open Source when the ViDock Campaign reaches the corresponding Stretch Goal."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.b",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Target Port. Located at the bracket"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²O.c",
+                                        "class": "",
+                                        "row": [
+                                            "V²O Host Port. Located inside the box. To easily connect other MCU to expand functionality of ViDock."
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Case",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "Mother Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.Mobo-1"
+                                        ]
+                                    },
+                                    {
+                                        "title": "IO Board",
+                                        "class": "",
+                                        "row": [
+                                            "V²B.IO-2"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Case Material",
+                                        "class": "",
+                                        "row": [
+                                            "Industrial plastic."
+                                        ]
+                                    },
+                                    {
+                                        "title": "Threads",
+                                        "class": "",
+                                        "row": [
+                                            "All threads are high quality CNC cut Brass Inserts"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Finish",
+                                        "class": "",
+                                        "row": [
+                                            "No finish, has scuff marks"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "290 x 178 x 190 mm = 10 Liters"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Weight",
+                                        "class": "",
+                                        "row": [
+                                            "???kg"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Mechanical Specs",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "PCIe Cards with Single or Double Bracket will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card length",
+                                        "class": "",
+                                        "row": [
+                                            "< 9.5\" / < 240 mm length"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Top Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 50 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Bottom Component Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum component height of 7 mm will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card Height",
+                                        "class": "",
+                                        "row": [
+                                            "Cards with a maximum height of 140 mm ( measured from the tip of the PCIe Slot to the top of the card ) will fit"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors Mother Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.Mini",
+                                        "class": "",
+                                        "row": [
+                                            "One connector to carry signals of the four buses: x4 PCIe + USB2 + V²O + Power. Specifications will be made available Open Source if the ViDock Indiegogo Campaign reaches the corresponding stretch goal"
+                                        ]
+                                    },
+                                    {
+                                        "title": "x16 PCIe Slot",
+                                        "class": "",
+                                        "row": [
+                                            "Regular PCIe Slot, same as found in a desktop. Mechanically all PCIe Card will fit. Electrically all PCIe Cards that follow PCIe Spec should work. Electrical connection width is x4 PCIe."
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²B.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connector to connect Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Connectors IO Board",
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "USB",
+                                        "class": "",
+                                        "row": [
+                                            "One USB 2 connector, on bracket,"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.IO",
+                                        "class": "",
+                                        "row": [
+                                            "Connects Mother Board to IO Board"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ATX-24P",
+                                        "class": "",
+                                        "row": [
+                                            "ATX Power connector to connect to a standard PC ATX Power Supply"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P2",
+                                        "class": "",
+                                        "row": [
+                                            "DC Jack Output. 12V / 3A"
+                                        ]
+                                    },
+                                    {
+                                        "title": "V²C.P3",
+                                        "class": "",
+                                        "row": [
+                                            "Small ATX Connector. Part of V² Specs."
                                         ]
                                     },
                                     {
