@@ -2115,7 +2115,7 @@
                 "Logic": {}
             },
             {
-                "name": "ViCase All-Form-Factor",
+                "name": "ViCase All-In-Oner",
                 "url": "",
                 "part": "vicase-placement",
                 "slide": "slide3",
@@ -2160,19 +2160,11 @@
                 ],
                 "TableBody": [
                     {
-                        "title": "Need free VESA mount when Display feet is mounted",
+                        "title": "Works with every Display",
                         "row": [
-                            "Yes",
                             "No",
-                            "No"
-                        ]
-                    },
-                    {
-                        "title": "Need Display with VESA Mount ",
-                        "row": [
-                            "Yes",
-                            "Yes",
-                            "No"
+                            "No",
+                            "Yes"
                         ]
                     },
                     {
