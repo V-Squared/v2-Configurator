@@ -2126,21 +2126,21 @@
                         "id": "ID-9",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-VESA-v2-142x80.jpg",
                         "value": 3,
-                        "tag": "$3 Converts ViCase into All-In-One with a VESA Mount Display"
+                        "tag": "Converts ViCase into All-In-One with a VESA Mount Display"
                     },
                     {
                         "name": "ViCase-Stand",
                         "id": "ID-10",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Tiny-Side-Stand-160x90.jpg",
                         "value": 49,
-                        "tag": "$49 Converts ViCase into Luxury All-In-One with a VESA Mount Display"
+                        "tag": "Converts ViCase into Luxury All-In-One with a VESA Mount Display"
                     },
                     {
                         "name": "ViCase-Feet",
                         "id": "ID-8",
                         "img": "images/expansion/config/ViCase/ViCase-Placement/ViCase-Feet-142x80.jpg",
                         "value": 9,
-                        "tag": "$9 Converts ViCase into All-In-One with any kind of Display"
+                        "tag": "Converts ViCase into All-In-One with any kind of Display"
                     }
                 ],
                 "TableHeading": [
