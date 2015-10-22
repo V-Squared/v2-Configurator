@@ -436,8 +436,8 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
-                        "title": "ViCase-Mini",
-                        "description": "Small & Powerful DIY Mini Computer build with Desktop parts"
+                        "title": "ViCase Mini & ViCase Mini Value",
+                        "description": "Small & Powerful DIY Mini Computer build with Desktop parts. Both look the same on the outside. The difference is the inside, → Advice."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
@@ -453,26 +453,6 @@
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
                         "title": "ViCase-Mini",
                         "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
-                        "title": "ViCase-Mini-Value",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
-                        "title": "ViCase-Mini-Value",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
-                        "title": "ViCase-Mini-Value",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
-                        "title": "ViCase-Mini-Value",
-                        "description": ""
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
@@ -2813,7 +2793,8 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 9
+                        "value": 9,
+                        "tag": "48W 12V AC/DC adapter"
                     },
                     {
                         "name": "V²P.12V-120W",
@@ -2822,7 +2803,8 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
-                        "value": 29
+                        "value": 29,
+                        "tag": "120W 12V AC/DC adapter"
                     },
                     {
                         "name": "V²P.12V-240W-Center",
@@ -2831,7 +2813,8 @@
                         "Child_Name": [
                             "#chapter-2-section-6-Button-0"
                         ],
-                        "value": 59
+                        "value": 59,
+                        "tag": "240W Power Center: Power + Surge Protection + Power Distribution"
                     },
                     {
                         "name": "12V/48W-Already-Owned",
@@ -2882,7 +2865,7 @@
                         "name": "120W"
                     },
                     {
-                        "name": "240W"
+                        "name": "240W-Center"
                     }
                 ],
                 "TableBody": [
@@ -2966,7 +2949,7 @@
                     },
                     {
                         "heading": "12V/200W-Already-Owned",
-                        "content": "Choose 12V/150W-Already-Owned if you already own a 12V / 200W AC/DC Adapter, e.g. from a ViDock G3 or higher. 200W is powerful enough for Intel CPUs up to 88W TDP or for the combination 88W CPU + GPU. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring. Also make sure it has a Twin-DC Jack. This much power over a single DC Jack is a fire hazard. All Village Tronic 200W AC/DC Adapter have Twin DC Jacks."
+                        "content": "Choose 12V/200W-Already-Owned if you already own a 12V / 200W AC/DC Adapter, e.g. from a ViDock G3 or higher. 200W is powerful enough for Intel CPUs up to 88W TDP or for the combination 88W CPU + GPU. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring. Also make sure it has a Twin-DC Jack. This much power over a single DC Jack is a fire hazard. All Village Tronic 200W AC/DC Adapter have Twin DC Jacks."
                     }
                 ],
                 "Gallery": [
@@ -3016,13 +2999,13 @@
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Front.jpg",
-                        "title": "Adapter Cyan",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Rear.jpg",
+                        "title": "Adapter Red",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Rear.jpg",
-                        "title": "Adapter Red",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Front.jpg",
+                        "title": "Adapter Cyan",
                         "description": "This is a description"
                     },
                     {
@@ -3042,18 +3025,20 @@
                         "name": "V²P.pATX-120W",
                         "id": "ID-24",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-120W.jpg",
-                        "value": 29
+                        "value": 29,
+                        "tag": "12V DC Input to ATX Power Supply. 120W. Very small!"
                     },
                     {
                         "name": "V²P.pATX-200W",
                         "id": "ID-25",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-180W.jpg",
-                        "value": 49
+                        "value": 49,
+                        "tag": "12V DC Input to ATX Power Supply. 200W. Very small!"
                     }
                 ],
                 "TableHeading": [
                     {
-                        "name": "power title1Feature",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
