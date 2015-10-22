@@ -2922,7 +2922,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-side.jpg",
                         "title": "Cooler XS",
-                        "description": "Side View. The low height makes it fit into ViCase Tiny"
+                        "description": "Side View. The low height makes it fit into ViCase-Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-Top.jpg",
@@ -2942,7 +2942,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-side.jpg",
                         "title": "Cooler S",
-                        "description": "Side View. The low height makes it fit into ViCase Tiny"
+                        "description": "Side View. The low height makes it fit into ViCase-Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-Top.jpg",
@@ -2952,7 +2952,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M.jpg",
                         "title": "Cooler M",
-                        "description": "Active CPU Cooler. 55W TDP. Supports Intel Mid Range CPUs in ViCase Tiny"
+                        "description": "Active CPU Cooler. 55W TDP. Supports Intel Mid Range CPUs in ViCase-Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Bottom.jpg",
@@ -2962,7 +2962,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-side.jpg",
                         "title": "Cooler M",
-                        "description": "Side View. The low height makes it fit into ViCase Tiny"
+                        "description": "Side View. The low height makes it fit into ViCase-Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Top.jpg",
@@ -2982,7 +2982,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-side.jpg",
                         "title": "Cooler L",
-                        "description": "Side View. 59 mm height requires ViCase Mini or ViCase Ultra"
+                        "description": "Side View. 59 mm height requires ViCase-Mini or ViCase-Ultra"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Top.jpg",
@@ -3002,7 +3002,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-side.jpg",
                         "title": "Cooler XL",
-                        "description": "Side View. 59 mm height requires ViCase Mini or ViCase Ultra"
+                        "description": "Side View. 59 mm height requires ViCase-Mini or ViCase-Ultra"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Top.jpg",
