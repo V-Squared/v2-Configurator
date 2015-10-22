@@ -3278,7 +3278,7 @@
                     },
                     {
                         "heading": "When not to choose a ViDock",
-                        "content": "ViCase-Mini and ViCase-Tiny come with a Low Profile PCIe Slot with double bracket being supported. A lot of PCIe Add In Cards are available in Low Profile. In such case"
+                        "content": "ViCase Mini and ViCase Tiny come with a Low Profile PCIe Slot with double bracket being supported. A lot of PCIe Add In Cards are available in Low Profile. In such case inserting a PCIe Card into ViCase instead of ViDock is lower cost."
                     },
                     {
                         "heading": "ViDock-PCIe-S",
@@ -4472,12 +4472,14 @@
                         "name": "V²P.12V-48W",
                         "id": "ID-130",
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
+                        "tag": "48W 12V AC/DC adapter",
                         "value": 9
                     },
                     {
                         "name": "V²P.12V-120W",
                         "id": "ID-150",
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
+                        "tag": "120W 12V AC/DC adapter",
                         "value": 29
                     },
                     {
@@ -4611,12 +4613,14 @@
                         "name": "ViDock-GPU-Motherboard",
                         "id": "ID-141",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-Motherboard.jpg",
+                        "tag": "tagline",
                         "value": 15
                     },
                     {
                         "name": "ViDock-GPU-OEM",
                         "id": "ID-140",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-OEM.jpg",
+                        "tag": "tagline",
                         "value": 29
                     }
                 ],
