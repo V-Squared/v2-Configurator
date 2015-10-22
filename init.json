@@ -436,8 +436,8 @@
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
-                        "title": "ViCase Mini & ViCase Mini Value",
-                        "description": "Small & Powerful DIY Mini Computer build with Desktop parts. Both look the same on the outside. The difference is the inside, → Advice."
+                        "title": "ViCase-Mini",
+                        "description": "Small & Powerful DIY Mini Computer build with Desktop parts"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
@@ -453,6 +453,26 @@
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
                         "title": "ViCase-Mini",
                         "description": "Top View: Attention to detail: You can mount the Lid in all 4 directions depending on how you place your ViCase."
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Front.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Front-Front.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Top-Top.jpg",
+                        "title": "ViCase-Mini-Value",
+                        "description": ""
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Ultra-Standard-Front.jpg",
@@ -1970,6 +1990,7 @@
                         "id": "ID-4",
                         "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Black.jpg",
                         "value": 0,
+                        "tag": "Black Top Cover, Anodized and Sandblasted Aluminum",
                         "class": "No-None"
                     },
                     {
@@ -1977,6 +1998,7 @@
                         "id": "ID-5",
                         "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Red.jpg",
                         "value": 0,
+                        "tag": "Red Top Cover, Anodized and Sandblasted Aluminum",
                         "class": "No-None"
                     },
                     {
@@ -1984,6 +2006,7 @@
                         "id": "ID-6",
                         "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Cyan.jpg",
                         "value": 0,
+                        "tag": "Cyan Top Cover, Anodized and Sandblasted Aluminum",
                         "class": "No-None"
                     },
                     {
@@ -1991,6 +2014,7 @@
                         "id": "ID-7",
                         "img": "images/expansion/config/ViCase/ViCase-Color/ViCase-Color-Silver.jpg",
                         "value": 0,
+                        "tag": "Silver Top Cover, Anodized and Sandblasted Aluminum",
                         "class": "No-None"
                     }
                 ],
@@ -3025,20 +3049,18 @@
                         "name": "V²P.pATX-120W",
                         "id": "ID-24",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-120W.jpg",
-                        "value": 29,
-                        "tag": "12V DC Input to ATX Power Supply. 120W. Very small!"
+                        "value": 29
                     },
                     {
                         "name": "V²P.pATX-200W",
                         "id": "ID-25",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-180W.jpg",
-                        "value": 49,
-                        "tag": "12V DC Input to ATX Power Supply. 200W. Very small!"
+                        "value": 49
                     }
                 ],
                 "TableHeading": [
                     {
-                        "name": "Feature",
+                        "name": "power title1Feature",
                         "class": "table-left-title"
                     },
                     {
@@ -3159,25 +3181,29 @@
                         "name": "ViDock-PCIe-S",
                         "id": "ID-26",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
-                        "value": "69"
+                        "value": "69",
+                        "tag": "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
                     },
                     {
                         "name": "ViDock-PCIe-L",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
                         "id": "ID-27",
-                        "value": "69"
+                        "value": "69",
+                        "tag": "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
                     },
                     {
                         "name": "ViDock-GPU",
                         "id": "ID-28",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
-                        "value": "99"
+                        "value": "99",
+                        "tag": "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
                     },
                     {
-                        "name": "ViDock-GPU-OEM",
-                        "id": "ID-140",
-                        "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-OEM.jpg",
-                        "value": 29
+                        "name": "ViDock-GPU-Cheapo",
+                        "id": "ID-29",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
+                        "value": "49",
+                        "tag": "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                     }
                 ],
                 "TableHeading": [
@@ -3269,14 +3295,6 @@
                     {
                         "heading": "ViDock-GPU-Cheapo",
                         "content": "Choose ViDock-GPU-Cheapo, if you want all the goodness of ViDock-GPU, yet you want to save money. The Case of ViDock-GPU-Cheapo is made of industrial sandwich plastic. It does not look great, but it works. The material is similar to wood. Ideal if you plan to make modifications to the housing. ViDock-GPU-Cheapo is ideal of you are on a budget, if you want to hack your ViDock or if you want to build a GPU farm with many GPUs connected to one PC."
-                    },
-                    {
-                        "heading": "ViDock-G6-OEM",
-                        "content": "ViDock-G6-OEM is the PCB Kit of ViDock-GPU. Ideal for OEM projects or if you simply want to build your own housing or do not need one."
-                    },
-                    {
-                        "heading": "ViDock-G6-Motherboard",
-                        "content": "This is the Motherboard PCB only. Including the ViDock CPU, who manages power status. By the time ViDock-G6-Motherboard ships, we will have published in Open Source the IO PCB, so you can design and build your own. Ideal for Industrial and OEM projects. The IO PCB is of simple design with only 2 Layers."
                     }
                 ],
                 "Gallery": [
@@ -4013,16 +4031,16 @@
                 "part": "V²B-Boards",
                 "yourChoice": [
                     {
-                        "name": "ViDock-GPU-Cheapo",
-                        "id": "ID-29",
-                        "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
-                        "value": "49"
-                    },
-                    {
                         "name": "ViDock-GPU-Motherboard",
                         "id": "ID-141",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-Motherboard.jpg",
                         "value": 15
+                    },
+                    {
+                        "name": "ViDock-GPU-OEM",
+                        "id": "ID-140",
+                        "img": "images/expansion/config/ViDock/ViDock/ViDock-G6-OEM.jpg",
+                        "value": 29
                     }
                 ],
                 "TableHeading": [
