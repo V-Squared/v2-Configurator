@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is a index.html</title>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script>
+    	angular.module('idApp',[])
+    	.controller('idController', function ($scope,$http) {
+
+    		$scope.data = {};
+
+    		$http.get('init.json').then(function(res) {
+    		    $scope.data = res.data;
+    		    //console.log($scope.data);
+    		    $scope.buttonIdList = [];
+
+    		    $scope.buttonNumber = 0;
+
+    		    angular.forEach($scope.data,function(chapter) {
+    		    	angular.forEach(chapter.data,function(section) {
+    		    		angular.forEach(section.yourChoice, function(choice) {
+    		    			if(choice.id) {
+	    		    			console.log(choice.id);
+	    		    			$scope.buttonIdList.push(choice.id)
+	    		    			$scope.buttonNumber++;
+	    		    		}
+    		    		});
+    		    	});
+    		    });
+    		});
+    	})
+    </script>
+</head>
+<body ng-app="idApp" ng-controller="idController">
+	<h2>button {{buttonNumber}}</h2>
+	<ul>
+		<li ng-repeat="buttonId in buttonIdList track by $index | number">{{buttonId}}</li>
+	</ul>
+	<h2>yourChoice {{sectionNumber}}</h2>
+</body>
+</html>
