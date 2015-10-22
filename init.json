@@ -2344,7 +2344,10 @@
                                     },
                                     {
                                         "title": "Mechanical",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "Size",
@@ -2443,7 +2446,10 @@
                                     },
                                     {
                                         "title": "Mechanical",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "Size Packaged",
@@ -2507,7 +2513,10 @@
                                     },
                                     {
                                         "title": "Mechanical",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "Size Packaged",
@@ -2947,7 +2956,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Bottom.jpg",
                         "title": "Cooler L",
-                        "description": "This is a descriptionBottom View: Very efficient design enables high cooling power without heat pipes at minimum noise"
+                        "description": "Bottom View: Very efficient design enables high cooling power without heat pipes at minimum noise"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-side.jpg",
@@ -2977,7 +2986,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Top.jpg",
                         "title": "Cooler XL",
-                        "description": "This is a descriptionTop View. 120 mm fan allows high volume air flow at medium fan speed, keeping the fan noise quiet."
+                        "description": "Top View. 120 mm fan allows high volume air flow at medium fan speed, keeping the fan noise quiet."
                     }
                 ]
             },
