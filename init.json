@@ -4124,12 +4124,14 @@
                         "name": "V²A.Nano",
                         "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-Nano.jpg",
                         "id": "ID-31",
+                        "tag": "x4 PCIe Add In Card. Add V²A.Nano Port to connect  ViDock",
                         "value": "9"
                     },
                     {
                         "name": "V²A.Card",
                         "id": "ID-30",
                         "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
+                        "tag": "x1 PCIe cable. Connects ViDock G6 to PC with ExpressCard Port",
                         "value": 19
                     }
                 ],
