@@ -243,7 +243,7 @@ app.controller('myCtrl', function($scope, $http) {
                 //alert("uncheck "+value);
                setTimeout(function() {
                    $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
-                   $(value).closest(".configirator-section").find('.col-sm-2').append('<img title="" class="chicken" src="images/expansion/Attention-Phoenix-Sign-tbg-h80px.png">');
+                   $(value).closest(".configirator-section").find('.col-sm-2').append('<img title="Top of the morning to y ladies" class="chicken" src="images/expansion/Attention-Phoenix-Sign-tbg-h80px.png">');
               },0,false); 
            }
          }
