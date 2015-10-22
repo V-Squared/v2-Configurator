@@ -751,7 +751,7 @@
                                         "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
-                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock G6\"  // needs to be changed in all Tag lines. Do a find and replace by hand."
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock G6\""
                                         ]
                                     },
                                     {
@@ -1119,7 +1119,7 @@
                                         "title": "V²A.Card",
                                         "class": "",
                                         "row": [
-                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock G1 ... G6\"  // needs to be changed in all Tag lines. Do a find and replace by hand."
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock G1 ... G6\""
                                         ]
                                     },
                                     {
