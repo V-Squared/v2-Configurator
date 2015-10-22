@@ -2212,22 +2212,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Rear.jpg",
                         "title": "Placement Black",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Front.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Mini.jpg",
                         "title": "Placement Cyan",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Mini.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA.jpg",
                         "title": "Placement red",
                         "description": "This is a description"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Rear.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Placement/Gallery/ViCase-VESA-Standard-Front.jpg",
                         "title": "Placement red",
                         "description": "This is a description"
                     },
