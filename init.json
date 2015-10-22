@@ -4237,18 +4237,21 @@
                         "name": "V²C.Nano",
                         "id": "ID-34",
                         "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Nano1.jpg",
+                        "tag": "x4 PCIe cable. Connects ViDock G6 to PC with V²C.Nano Port",
                         "value": 19
                     },
                     {
                         "name": "V²C.Mini",
                         "id": "ID-33",
                         "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Mini1.jpg",
+                        "tag": "x1 PCIe cable. Connects ViDock G6 to PC with internal mPCIe bay",
                         "value": 19
                     },
                     {
                         "name": "V²C.Card",
                         "img": "images/expansion/config/ViDock/V2C-Cables/V2C-Card1.jpg",
                         "id": "ID-32",
+                        "tag": "x1 PCIe cable. Connects ViDock G6 to PC with ExpressCard Port",
                         "value": 19
                     }
                 ],
