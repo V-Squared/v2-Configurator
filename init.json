@@ -1126,7 +1126,7 @@
                                         "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
-                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock G6"
                                         ]
                                     },
                                     {
@@ -1515,14 +1515,14 @@
                                         "title": "V²A.Card",
                                         "class": "",
                                         "row": [
-                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock G1 ... G6"
                                         ]
                                     },
                                     {
                                         "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
-                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock G6"
                                         ]
                                     },
                                     {
@@ -1911,14 +1911,14 @@
                                         "title": "V²A.Card",
                                         "class": "",
                                         "row": [
-                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
+                                            "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock G1 ... G6"
                                         ]
                                     },
                                     {
                                         "title": "V²A.Nano",
                                         "class": "",
                                         "row": [
-                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
+                                            "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock G6"
                                         ]
                                     },
                                     {
@@ -2881,103 +2881,103 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS.jpg",
-                        "title": "Cooler M",
-                        "description": "This is a description"
+                        "title": "Cooler XS",
+                        "description": "Passive CPU Cooler (as in no fan) for AMD Entry CPUs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-Bottom.jpg",
-                        "title": "Cooler M Bottom",
-                        "description": "This is a description"
+                        "title": "Cooler XS",
+                        "description": "Bottom View"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-side.jpg",
-                        "title": "Cooler M Side",
-                        "description": "This is a description"
+                        "title": "Cooler XS",
+                        "description": "Side View. The low height makes it fit into ViCase Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-SS-Top.jpg",
-                        "title": "Cooler M Top",
-                        "description": "This is a description"
+                        "title": "Cooler XS",
+                        "description": "Top View"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S.jpg",
-                        "title": "Cooler M",
-                        "description": "This is a description"
+                        "title": "Cooler S",
+                        "description": "Active CPU Cooler for AMD Entry CPUs."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-Bottom.jpg",
-                        "title": "Cooler M Bottom",
-                        "description": "This is a description"
+                        "title": "Cooler S",
+                        "description": "Bottom View"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-side.jpg",
-                        "title": "Cooler M Side",
-                        "description": "This is a description"
+                        "title": "Cooler S",
+                        "description": "Side View. The low height makes it fit into ViCase Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-S-Top.jpg",
-                        "title": "Cooler M Top",
-                        "description": "This is a description"
+                        "title": "Cooler S",
+                        "description": "Top View"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M.jpg",
                         "title": "Cooler M",
-                        "description": "This is a description"
+                        "description": "Active CPU Cooler. 55W TDP. Supports Intel Mid Range CPUs in ViCase Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Bottom.jpg",
-                        "title": "Cooler M Bottom",
-                        "description": "This is a description"
+                        "title": "Cooler M",
+                        "description": "Bottom View: Two heat pipes enable this much cooling in so small size"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-side.jpg",
-                        "title": "Cooler M Side",
-                        "description": "This is a description"
+                        "title": "Cooler M",
+                        "description": "Side View. The low height makes it fit into ViCase Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Top.jpg",
-                        "title": "Cooler M Top",
-                        "description": "This is a description"
+                        "title": "Cooler M",
+                        "description": "Top View"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L.jpg",
-                        "title": "Cooler M",
-                        "description": "This is a description"
+                        "title": "Cooler L",
+                        "description": "Active CPU Cooler. 65W TDP recommended. Supports Intel Mid Range CPUs in ViCase Mini without thermal cycling and yet remains virtually inaudible."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Bottom.jpg",
-                        "title": "Cooler M Bottom",
-                        "description": "This is a description"
+                        "title": "Cooler L",
+                        "description": "This is a descriptionBottom View: Very efficient design enables high cooling power without heat pipes at minimum noise"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-side.jpg",
-                        "title": "Cooler M Side",
-                        "description": "This is a description"
+                        "title": "Cooler L",
+                        "description": "Side View. 59 mm height requires ViCase Mini or ViCase Ultra"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Top.jpg",
-                        "title": "Cooler M Top",
-                        "description": "This is a description"
+                        "title": "Cooler L",
+                        "description": "Top View."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL.jpg",
-                        "title": "Cooler M",
-                        "description": "This is a description"
+                        "title": "Cooler XL",
+                        "description": "Active CPU Cooler. 95W TDP recommended. Supports Intel High End CPUs in ViCase Mini without thermal cycling and yet remains quiet."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Bottom.jpg",
-                        "title": "Cooler M Bottom",
-                        "description": "This is a description"
+                        "title": "Cooler XL",
+                        "description": "Bottom View: 5 heat pipes transport the heat to the cooling fins, making this cooler the most effective and most expensive one"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-side.jpg",
-                        "title": "Cooler M Side",
-                        "description": "This is a description"
+                        "title": "Cooler XL",
+                        "description": "Side View. 59 mm height requires ViCase Mini or ViCase Ultra"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Top.jpg",
-                        "title": "Cooler M Top",
-                        "description": "This is a description"
+                        "title": "Cooler XL",
+                        "description": "This is a descriptionTop View. 120 mm fan allows high volume air flow at medium fan speed, keeping the fan noise quiet."
                     }
                 ]
             },
