@@ -941,6 +941,13 @@
                                         ]
                                     },
                                     {
+                                        "title": "ViCase-Access",
+                                        "class": "",
+                                        "row": [
+                                            "Mounting holes to fix optional ViCase-Access-Port"
+                                        ]
+                                    },
+                                    {
                                         "title": "Disks",
                                         "class": "tableHeading",
                                         "row": [
@@ -1337,6 +1344,13 @@
                                         ]
                                     },
                                     {
+                                        "title": "ViCase-Access",
+                                        "class": "",
+                                        "row": [
+                                            "Mounting holes to fix optional ViCase-Access-Port"
+                                        ]
+                                    },
+                                    {
                                         "title": "Disks",
                                         "class": "tableHeading",
                                         "row": [
@@ -1730,6 +1744,13 @@
                                         "class": "",
                                         "row": [
                                             "Two mounting holes to fix Wifi Antennas"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ViCase-Access",
+                                        "class": "",
+                                        "row": [
+                                            "Mounting holes to fix optional ViCase-Access-Port"
                                         ]
                                     },
                                     {
