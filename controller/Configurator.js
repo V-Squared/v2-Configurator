@@ -223,7 +223,7 @@ app.controller('myCtrl', function($scope, $http) {
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
         cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
 
-        
+        $('.chicken').remove();
         //this should be done in a loop
         cart.thirdprtycost = cart["5. Accessories"].cost + cart["4. PC Parts"].cost;
 
@@ -243,8 +243,9 @@ app.controller('myCtrl', function($scope, $http) {
                 //alert("uncheck "+value);
                setTimeout(function() {
                    $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
+                   $(value).closest(".configirator-section").find('.col-sm-2').append('<img title="" class="chicken" src="images/expansion/Attention-Phoenix-Sign-tbg-h80px.png">');
               },0,false); 
-           }  
+           }
          }
            if(state == false) {
             $(value).prop('disabled',true);

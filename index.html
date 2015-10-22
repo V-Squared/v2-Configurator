@@ -40,7 +40,7 @@
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
                         </div>
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
-                            <div id="ViCase" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
+                            <div id="ViCase" class="configirator-section" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
                                 <div class="col-sm-2 ">
                                     <img ng-if="cart[Chapter.name][Section.name].lastclickedImg" ng-src="{{cart[Chapter.name][Section.name].lastclickedImg}}">
                                 </div>
