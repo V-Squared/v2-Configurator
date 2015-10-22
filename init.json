@@ -2295,7 +2295,10 @@
                                 "table": [
                                     {
                                         "title": "Features",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "All-In-One Converter",
@@ -2377,7 +2380,10 @@
                                 "table": [
                                     {
                                         "title": "Features",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "All-In-One Converter",
@@ -2473,7 +2479,10 @@
                                 "table": [
                                     {
                                         "title": "Features",
-                                        "class": "tableHeading"
+                                        "class": "tableHeading",
+                                        "row": [
+                                            ""
+                                        ]
                                     },
                                     {
                                         "title": "All-In-One Converter",
