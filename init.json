@@ -3275,9 +3275,9 @@
                         "description": "Simple design with high quality Aluminum housing, sandblasted and anodized to match ViCase, ViStand and ViDock."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-cable.jpg",
-                        "title": "Adapter SilverV²P.12V-240W-Center►Standard DC Connector",
-                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/GeneralInformation1.jpg",
+                        "title": "V²P.12V-240W-Center►Size",
+                        "description": "Considering all integrated features plus 240W passively cooled PSU, this housing is very compact."
                     }
                 ]
             },
@@ -4676,6 +4676,26 @@
                     }
                 ],
                 "Gallery": [
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size1.jpg",
+                        "title": "V²C►Size Comparison",
+                        "description": "Left to right: V²C.Nano, V²C.Mini, V²C.Card, USB"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size2.jpg",
+                        "title": "V²C►All Host Ports",
+                        "description": "Left to right: PCI Express, Mini PCI Express, ExpressCard, Thunderbolt, V²C.Nano, V²C.Mini, V²C.Card"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size3.jpg",
+                        "title": "V²C►Micro: One size fits all",
+                        "description": "Every V²C cable uses the V²C.Micro connector on the Target Side. It fits all V² Expansion / Docking Stations Products, such as ViDock."
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size4.jpg",
+                        "title": "V²C►Future",
+                        "description": "After the ViDock Campaign reaches the corresponding Stretch Goals we will launch Indiegogo Campaigns for Thunderbolt and WiGig Adapters."
+                    },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg",
                         "title": "V²C►Size Comparison",
