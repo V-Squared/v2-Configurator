@@ -5110,28 +5110,84 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM.jpg",
+                        "title": "V²B►Size",
+                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Top.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Top.jpg",
+                        "title": "V²B►Open Source",
+                        "description": "V²B.IO-2 will be published Open Source ongithub.com/V-Squared by the time these boards are shipping. Other boards will be Open Source by the time the corresponding Stretch Goals are met."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-side.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-side.jpg",
+                        "title": "V²B►Arduino",
+                        "description": "The V²B.MCU is an Arduino compatible Hybrid IC. Circuit and Firmware will be published in Open Source when corresponding Stretch Goal is met"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Bottom.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-OEM-Bottom.jpg",
+                        "title": "V²B►Fritzing & KiCAD",
+                        "description": "IO PCBs are 2 Layer made in Fritzing and KiCAD, MoBo PCB is made in 4 Layer in KiCAD. This makes it easy and low cost to customize your own PCBs"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard.jpg",
+                        "title": "V²B.Mobo-1",
+                        "description": "x4 PCIe Expansion Motherboard with V² Power Management MCU"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Top.jpg",
+                        "title": "V²B.Mobo-1►Open PCIe Slot",
+                        "description": "The open x4 PCIe slot allows insertion of x8 and x16 PCIe Cards."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-side.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-side.jpg",
+                        "title": "V²B.Mobo-1►V²C.Micro",
+                        "description": "The standardized V²C.Micro connector is compatible with all V²C cables. → V²C (Cables)."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg"
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-G6-Motherboard-Rear.jpg",
+                        "title": "V²B.Mobo-1►V²C.IO",
+                        "description": "The standardized V²C.IO connector interfaces to different IO PCBs, such as V²B.IO-1, V²B.IO-2 or your custom design."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-1",
+                        "description": "IO Board for V²C.P1 (12V DC Jack)"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-1►Standard Bracket",
+                        "description": "Standardized bracket for IO Panel of Low Profile PCIe Expansion Boxes"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-1►Standard V²P1 Power",
+                        "description": "Power provided by standardized 12V 10 A DC Jack"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-1►Inserted in Mobo-1",
+                        "description": "IO-1 PCB inserted in Mother Board"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-2",
+                        "description": "IO Board for ATX-24P Power"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-2►Standard Bracket",
+                        "description": "Standardized bracket for IO Panel of Desktop sized PCIe Expansion Boxes"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-2►Standard ATX Power",
+                        "description": "Power provided by standardized ATX 24 Pin Power connector"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²B.IO-2►Inserted in Mobo-1",
+                        "description": "IO-2 PCB inserted in Mother Board"
                     }
                 ],
                 "Datasheet": [
