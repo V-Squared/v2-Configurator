@@ -5090,6 +5090,26 @@
                 ],
                 "Gallery": [
                     {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/General1.jpg",
+                        "title": "V²B►Size",
+                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/blank.jpg",
+                        "title": "V²B►Size",
+                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/General2.jpg",
+                        "title": "V²B►Size",
+                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/blank.jpg",
+                        "title": "V²B►Size",
+                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1.jpg",
                         "title": "V²B►Size",
                         "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
