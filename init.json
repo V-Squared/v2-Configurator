@@ -4531,37 +4531,53 @@
                 "Advice": [
                     {
                         "heading": "V²A.Nano",
-                        "content": "V²A.Nano is the default choice to connect your ViDock G6 with your PC. It is lower cost than V²A.Card and has 400% more PCIe Bandwidth. Compatible with all ViCase Models."
+                        "content": "V²A.Nano is the default choice to connect your ViDock G6 with your PC. It is lower cost than V²A.Card and has 400% more PCIe Bandwidth. Compatible with all ViCase Models and Desktop PCs with x4 PCIe Slot."
                     },
                     {
                         "heading": "V²A.Card",
-                        "content": "Choose V²A.Card if you want to connect an older Generation ViDock (G1 ... G5) or if your PC has only a x1 PCIe Slot. Compatible with ViCase-Mini and ViCase-Ultra."
+                        "content": "Choose V²A.Card if you want to connect an older Generation ViDock (G1 ... G5) or if your PC has only a x1 PCIe Slot. Compatible with ViCase Mini and ViCase Ultra and Desktop PCs with x1 PCIe Slot."
                     }
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano.jpg",
+                        "title": "V²A.Nano",
+                        "description": "x4 PCIe Add In Card. Add V²A.Nano Port to connect ViDock"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-Front.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-Front.jpg",
+                        "title": "V²A.Nano►Size",
+                        "description": "Back to Front: PCIe GPU Card, V²A.Card, V²A.Nano"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-left.jpg",
+                        "title": "V²A.Nano►Three Brackets",
+                        "description": "V²A.Nano comes with three Brackets: Standard, Low and Ultra Low Profile"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side-left.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg",
+                        "title": "V²A.Nano►In ViCase",
+                        "description": "V²A.Nano fits in all PC with x4 PCIe Slot, including ViCase. The Image shows ViCase.Nano with Ultra Low Profile bracket in ViCase Tiny."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card.jpg",
+                        "title": "V²A.Card",
+                        "description": "x1 PCIe Add In Card. Add V²A.Card Port to connect ViDock"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-Front.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-Front.jpg",
+                        "title": "V²A.Card►Size",
+                        "description": "Back to Front: PCIe GPU Card, V²A.Card, V²A.Nano"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-left.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side-left.jpg",
+                        "title": "V²A.Card►Two Brackets",
+                        "description": "V²A.Card comes with two Brackets: Standard and Low Profile"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side-right.jpg"
+                        "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-side.jpg",
+                        "title": "V²A.Card►In ViCase",
+                        "description": "V²A.Card fits in all PC with x1 PCIe Slot, including ViCase. The Image shows ViCase.Card with Low Profile bracket in ViCase Mini."
                     }
                 ]
             },
