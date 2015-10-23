@@ -3360,43 +3360,43 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W.jpg",
-                        "title": "Power Black",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-120W",
+                        "description": "To squeeze so much power and so many power rails into so few space, the V²P.pATX-120W contains high density circuits with double sided assembly."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Front.jpg",
-                        "title": "Power Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-120W►ATX Mother Board Connector",
+                        "description": "24 Pins contain all the many power rail that a Desktop Mother Board needs to work."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Top.jpg",
-                        "title": "Power Red",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-120W►How it works",
+                        "description": "The two wires only bring in 12V DC, which the many power circuits turn into many power rails, directly soldered to the ATX connector, doing away with bulky cables."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Rear.jpg",
-                        "title": "Power Silver",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-120W►Plugged into Mother Board",
+                        "description": "V²P.pATX-120W plugged into Mini-ITX Motherboard"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W.jpg",
-                        "title": "Power Black",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-200W",
+                        "description": "To squeeze so much power and so many power rails into so few space, the V²P.pATX-200W contains high density circuits with double sided assembly."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Front.jpg",
-                        "title": "Power Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-200W►ATX Mother Board Connector",
+                        "description": "24 Pins contain all the many power rail that a Desktop Mother Board needs to work."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Top.jpg",
-                        "title": "Power Red",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-200W►How it works",
+                        "description": "The two wires only bring in 12V DC, which the many power circuits turn into many power rails, directly soldered to the ATX connector, doing away with bulky cables."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Rear.jpg",
-                        "title": "Power Silver",
-                        "description": "This is a description"
+                        "title": "V²P.pATX-200W►Plugged into Mother Board",
+                        "description": "V²P.pATX-200W plugged into Mini-ITX Motherboard"
                     }
                 ],
                 "Datasheet": [
