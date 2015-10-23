@@ -4644,40 +4644,64 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top-Whole.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top-Whole.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top.jpg",
+                        "title": "",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg",
+                        "title": "",
+                        "description": ""
                     }
                 ],
                 "Datasheet": [
