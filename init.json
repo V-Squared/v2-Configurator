@@ -3629,27 +3629,27 @@
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/GeneralInformation4.jpg",
                         "title": "ViDock PCIe►Design",
-                        "description": "Elegant form combined with quality materials, such as Silicone feet and Aluminum case. {ML call me when you snap shot this one}"
+                        "description": "Elegant form combined with quality materials, such as Silicone feet and Aluminum case."
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S.jpg",
                         "title": "ViDock PCIe S►Size",
-                        "description": "Compact PCIe Expansion Box. Connect full size PCIe cards to small PCs or share expensive cards with several Computer."
+                        "description": "Small PCIe Expansion Box, yet supports full sized double bracket PCIe Cards."
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Front.jpg",
                         "title": "ViDock PCIe►S vs L",
-                        "description": "S Version fits cards up to 9.5\" / 240 mm, L Version fits all lengths of PCIe cards."
+                        "description": "Your PCIe card gets its dedicated airflow for cooling. This makes your PC more quiet and cooler, which will extend its lifespan"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Rear.jpg",
                         "title": "ViDock GPU►Size",
-                        "description": "The bigger size of ViDock GPU is used to support oversized GPU Cards and big ATX Power Supplies"
+                        "description": "Easy access to all connectors"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S-Top.jpg",
                         "title": "ViDock PCIe►Design",
-                        "description": "Elegant form combined with quality materials, such as Silicone feet and Aluminum case. {ML call me when you snap shot this one}"
+                        "description": "Simply Elegant"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU.jpg",
@@ -4953,63 +4953,48 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W",
+                        "description": "Standard Power Brick. You may be able to use a brick you already have. See Advice."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Top.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W►AC Connection",
+                        "description": "Standard 2 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W►Size Comparison",
+                        "description": ""
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-cable.jpg",
+                        "title": "Adapter SilverV²P.12V-48W►Standard DC Connector",
+                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W",
+                        "description": "Standard Power Brick. You may be able to use a brick you already have. See Advice."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W►AC Connection",
+                        "description": "Standard 3 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Top.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-ruler.jpg",
+                        "title": "V²P.12V-120W►Size Comparison",
+                        "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-cable.jpg",
+                        "title": "V²P.12V-120W►Standard DC Connector",
+                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Rear.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-cable.jpg",
+                        "title": "V²P.12V-120W►Standard DC Connector",
+                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     }
                 ]
             },
