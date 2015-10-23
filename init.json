@@ -3379,7 +3379,7 @@
                         "description": "The two wires only bring in 12V DC, which the many power circuits turn into many power rails, directly soldered to the ATX connector, doing away with bulky cables."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Rear.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-120W-Motherboard.jpg",
                         "title": "V²P.pATX-120W►Plugged into Mother Board",
                         "description": "V²P.pATX-120W plugged into Mini-ITX Motherboard"
                     },
@@ -3399,7 +3399,7 @@
                         "description": "The two wires only bring in 12V DC, which the many power circuits turn into many power rails, directly soldered to the ATX connector, doing away with bulky cables."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Rear.jpg",
+                        "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Motherboard.jpg",
                         "title": "V²P.pATX-200W►Plugged into Mother Board",
                         "description": "V²P.pATX-200W plugged into Mini-ITX Motherboard"
                     }
