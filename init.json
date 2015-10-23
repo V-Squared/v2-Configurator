@@ -3286,13 +3286,15 @@
                         "name": "V²P.pATX-120W",
                         "id": "ID-24",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-120W.jpg",
-                        "value": 29
+                        "value": 29,
+                        "tag": "12V DC Input to ATX Power Supply. 120W. Very small!"
                     },
                     {
                         "name": "V²P.pATX-200W",
                         "id": "ID-25",
                         "img": "images/expansion/config/ViCase/ViCase-Power/V²P.pATX-180W.jpg",
-                        "value": 49
+                        "value": 49,
+                        "tag": "12V DC Input to ATX Power Supply. 200W. Very small!"
                     }
                 ],
                 "TableHeading": [
@@ -3353,12 +3355,20 @@
                 ],
                 "Advice": [
                     {
+                        "heading": "How to squeeze ATX Power into a Mini Computer",
+                        "content": "ViCase fits Mini-ITX Desktop Mother Boards, which in turn fit Desktop ATX Power Supplies. Trouble is, these power supplies are big. Heck, even the ATX cables are so big. The ATX cables alone fill the ViCase housing leaving no space for anything else. The solution are Pico ATX Power Supplies. The power supply itself is made tiny by using modern, high efficiency, high density (read expensive) power circuits. And the space consuming cables are done away completely, buy soldering the power supply PCB directly to the ATX connector. Problem solved. Unfortunately you now need two Power Supplies: 1) AC/DC Adapter 2) Pico ATX Power aka ViCase-Power. This makes the power supply of the Mini Computer more expensive versus a standard Desktop. In turn you get a much smaller and much more quiet PC."
+                    },
+                    {
                         "heading": "V²P.pATX-120W",
-                        "content": "Choose V²P.pATX-120W for CPUs up to 65W TDP and no GPU."
+                        "content": "Choose V²P.pATX-120W for CPUs up to 65W TDP and no GPU. Please note that SATA Power Distribution is handled by ViCase. See its data sheet for more details."
                     },
                     {
                         "heading": "V²P.pATX-200W",
-                        "content": "Choose V²P.pATX-200W if you want to use a GPU or a CPU with more power than 65W TDP."
+                        "content": "Choose V²P.pATX-200W if you want to use a GPU or a CPU with more power than 65W TDP. Please note that SATA Power Distribution is handled by ViCase. See its data sheet for more details."
+                    },
+                    {
+                        "heading": "None",
+                        "content": "Short answer: If you buy a ViCase, you must buy a ViCase-Power. Long answer: Sadly, Pico Power Supplies are not standardized yet. We will contribute such a (missing) standard as part of our V² Open Standard initiative to provide you (in the long run) with the option to buy your Pico Power Supply freely with choices from many vendors. Until then, you will need to buy a ViCase-Power with us, because it is custom made to fit the ViCase and its IO Panel."
                     }
                 ],
                 "Gallery": [
