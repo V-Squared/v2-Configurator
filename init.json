@@ -3216,63 +3216,63 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W",
+                        "description": "This is a descriptionStandard Power Brick. You may be able to use a brick you already have. See Advice."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W►AC Connection",
+                        "description": "Standard 2 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Top.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
+                        "title": "V²P.12V-48W►Size Comparison",
+                        "description": ""
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "title": "Adapter SilverV²P.12V-48W►Standard DC Connector",
+                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W",
+                        "description": "Standard Power Brick. You may be able to use a brick you already have. See Advice."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W►AC Connection",
+                        "description": "Standard 3 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Top.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W►Size Comparison",
+                        "description": ""
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "title": "V²P.12V-120W►Standard DC Connector",
+                        "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240.jpg",
-                        "title": "Adapter Black",
-                        "description": "This is a description"
+                        "title": "V²P.12V-240W-Center►Powerful yet Silent",
+                        "description": "240W is powerful enough for a big CPU and GPU. Yet we could design it without a fan, using a complete Aluminum Housing as large heat sink."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Rear.jpg",
-                        "title": "Adapter Red",
-                        "description": "This is a description"
+                        "title": "V²P.12V-240W-Center►Save and Clean",
+                        "description": "The integrated Surge Protection keeps your Computer and Displays save. Thanks to the build in power distribution you will reduce a lot of cable mess."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-Front.jpg",
-                        "title": "Adapter Cyan",
-                        "description": "This is a description"
+                        "title": "V²P.12V-240W-Center►Elegant Design",
+                        "description": "This is a descriptionSimple design with high quality Aluminum housing, sandblasted and anodized to match ViCase, ViStand and ViDock."
                     },
                     {
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
-                        "title": "Adapter Silver",
-                        "description": "This is a description"
+                        "title": "Adapter SilverV²P.12V-240W-Center►Standard DC Connector",
+                        "description": "This is a description5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     }
                 ]
             },
