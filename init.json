@@ -3085,7 +3085,7 @@
                             "#chapter-2-section-6-Button-1"
                         ],
                         "value": 0,
-                        "tag": "48W 12V AC/DC adapter with AC Cable"
+                        "tag": "Use the AC/DC Adapter you already have. See Details & Gallery"
                     },
                     {
                         "name": "12V/75W-Already-Owned",
@@ -3095,28 +3095,28 @@
                             "#chapter-2-section-6-Button-1"
                         ],
                         "value": 0,
-                        "tag": "75W 12V AC/DC adapter with AC Cable"
+                        "tag": "Use the AC/DC Adapter you already have. See Details & Gallery"
                     },
                     {
                         "name": "12V/120W-Already-Owned",
                         "id": "ID-144",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0,
-                        "tag": "120W 12V AC/DC adapter with AC Cable"
+                        "tag": "Use the AC/DC Adapter you already have. See Details & Gallery"
                     },
                     {
                         "name": "12V/150W-Already-Owned",
                         "id": "ID-145",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0,
-                        "tag": "150W 12V AC/DC adapter with AC Cable"
+                        "tag": "Use the AC/DC Adapter you already have. See Details & Gallery"
                     },
                     {
                         "name": "12V/200W-Already-Owned",
                         "id": "ID-146",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-180W-90P.jpg",
                         "value": 0,
-                        "tag": "200W 12V AC/DC adapter with AC Cable"
+                        "tag": "Use the AC/DC Adapter you already have. See Details & Gallery"
                     }
                 ],
                 "TableHeading": [
