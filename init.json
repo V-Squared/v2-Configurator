@@ -4644,6 +4644,29 @@
                 ],
                 "Gallery": [
                     {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
+                    },
+                    "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg"
+                    },
+                    {},
+                    {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg"
                     },
                     {
@@ -4654,30 +4677,6 @@
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     }
                 ],
                 "Datasheet": [
@@ -5339,7 +5338,8 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "MoBo Feature"
+                        "name": "MoBo Feature",
+                        "class": "table-left-title"
                     },
                     {
                         "name": "Entry Level"
