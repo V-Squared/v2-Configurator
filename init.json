@@ -3050,7 +3050,7 @@
                     {
                         "name": "V²P.12V-48W-AC-Cable",
                         "id": "ID-166",
-                        "img": "",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/2Pin-AC-Cable.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -3060,7 +3060,7 @@
                     {
                         "name": "V²P.12V-120W-AC-Cable",
                         "id": "ID-167",
-                        "img": "",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/3Pin-AC-Cable.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -3070,7 +3070,7 @@
                     {
                         "name": "V²P.12V-240W-AC-Cable",
                         "id": "ID-168",
-                        "img": "",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/3Pin-AC-Cable.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
