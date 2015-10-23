@@ -4320,7 +4320,7 @@
                         "name": "V²A.Card",
                         "id": "ID-30",
                         "img": "images/expansion/config/ViDock/V2A-Adapter/V2A-card.jpg",
-                        "tag": "x1 PCIe cable. Connects ViDock G6 to PC with ExpressCard Port",
+                        "tag": "x1 PCIe Add In Card. Add V²A.Card Port to connect  ViDock",
                         "value": 19
                     }
                 ],
@@ -4359,7 +4359,7 @@
                         ]
                     },
                     {
-                        "title": "Low Profile (Mini)",
+                        "title": "Low Profile(Mini & Ultra)",
                         "row": [
                             "Yes",
                             "Yes"
