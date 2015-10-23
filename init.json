@@ -3230,12 +3230,12 @@
                         "description": "Standard 2 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Top.jpg",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Side.jpg",
                         "title": "V²P.12V-48W►Size Comparison",
                         "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-Side.jpg",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-cable.jpg",
                         "title": "Adapter SilverV²P.12V-48W►Standard DC Connector",
                         "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
@@ -3250,12 +3250,12 @@
                         "description": "Standard 3 Pin AC Connector. If you already own a spare AC cable, choose the option without A/C cable to save your money and our planet's resources."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-Top.jpg",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-ruler.jpg",
                         "title": "V²P.12V-120W►Size Comparison",
                         "description": ""
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-side.jpg",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-cable.jpg",
                         "title": "V²P.12V-120W►Standard DC Connector",
                         "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     },
@@ -3275,7 +3275,7 @@
                         "description": "Simple design with high quality Aluminum housing, sandblasted and anodized to match ViCase, ViStand and ViDock."
                     },
                     {
-                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-240-side.jpg",
+                        "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-48-cable.jpg",
                         "title": "Adapter SilverV²P.12V-240W-Center►Standard DC Connector",
                         "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
                     }
