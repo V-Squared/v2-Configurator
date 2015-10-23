@@ -4698,63 +4698,63 @@
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg",
-                        "title": "V²C►Size Comparison",
-                        "description": "Left to right: V²C.Nano, V²C.Mini, V²C.Card, USB"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg",
-                        "title": "V²C►All Host Ports",
-                        "description": "Left to right: PCI Express, Mini PCI Express, ExpressCard, Thunderbolt, V²C.Nano, V²C.Mini, V²C.Card"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg",
-                        "title": "V²C►Micro: One size fits all",
-                        "description": "Every V²C cable uses the V²C.Micro connector on the Target Side. It fits all V² Expansion / Docking Stations Products, such as ViDock."
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg",
-                        "title": "V²C►Future",
-                        "description": "After the ViDock Campaign reaches the corresponding Stretch Goals we will launch Indiegogo Campaigns for Thunderbolt and WiGig Adapters."
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg",
-                        "title": "V²C.Nano►Connector ",
+                        "title": "V²C.Nano►Connector",
                         "description": "Very small connector to connect your PC with x4 PCIe connection to your PCIe Expansion Box / Docking Station."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg",
                         "title": "V²C.Nano►Cable",
                         "description": "V²C.Nano connects to your Computer, V²C.Micro connects to your ViDock"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg",
                         "title": "V²C.Nano►Top View",
                         "description": "Top view of V²C.Nano Connector"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg",
                         "title": "V²C.Nano►Inserted in PCIe Adapter",
                         "description": "V²A.Nano Adapter interfaces a V²C.Nano cable to any PC with x4 PCIe Slot."
                     },
                     {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg",
+                        "title": "V²C.Mini►Connector",
+                        "description": "Backwards compatible connector to fit into Mother Boards of existing All-In-One, Budget Desktops and Mini Computers."
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
+                        "title": "V²C.Mini►Cable",
+                        "description": "V²C.Mini connects to the Computer, V²C.Micro connects to the ViDock"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg",
+                        "title": "V²C.Mini►Screw Mount",
+                        "description": "Two screws will fasten the V²C.Mini connector to the corresponding Bay on your Mother Board."
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg",
+                        "title": "V²C.Mini►Inserted in Mother Board",
+                        "description": "V²C.Mini cable inserted in Mini PCI Express Bay of a Mother Board inside of a Computer."
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg",
                         "title": "V²C.Card►Connector",
-                        "description": "Backwards compatible connector to fit into Mother Boards of existing All-In-One, Budget Desktops and Mini Computers."
+                        "description": "Backwards compatible connector to fit into an ExpressCard Slot or V²C.Card Port."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top-Whole.jpg",
                         "title": "V²C.Card►Cable",
-                        "description": "V²C.Mini connects to the Computer, V²C.Micro connects to the ViDock"
+                        "description": "V²C.Card connects to the Computer, V²C.Micro connects to the ViDock"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top.jpg",
-                        "title": "V²C.Card►Top View",
-                        "description": "Top view of V²C.Mini Connector"
+                        "title": "V²C.Card►ExpressCard Compatible",
+                        "description": "The Dual Function design allows deep insertion into an ExpressCard slot or shallow insertion in an V²C.Card Port as shown in the next image."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg",
-                        "title": "V²C.Card►Inserted",
-                        "description": "V²C.Mini connector inserted in Mini PCI Express Slot of the Mother Board inside the housing of your computer."
+                        "title": "V²C.Card►Inserted in PCIe Adapter",
+                        "description": "V²A.Card Adapter interfaces a V²C.Card cable to any PC with x1 PCIe Slot."
                     }
                 ],
                 "Datasheet": [
@@ -5096,51 +5096,31 @@
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/blank.jpg",
-                        "title": "V²B►Size",
-                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
+                        "title": "V²B►Open Source",
+                        "description": "V²B.IO-2 will be published Open Source ongithub.com/V-Squared by the time these boards are shipping. Other boards will be Open Source by the time the corresponding Stretch Goals are met. "
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/General2.jpg",
-                        "title": "V²B►Size",
-                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/blank.jpg",
-                        "title": "V²B►Size",
-                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1.jpg",
-                        "title": "V²B►Size",
-                        "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1-Top.jpg",
-                        "title": "V²B►Open Source",
-                        "description": "V²B.IO-2 will be published Open Source ongithub.com/V-Squared by the time these boards are shipping. Other boards will be Open Source by the time the corresponding Stretch Goals are met."
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size2.jpg",
                         "title": "V²B►Arduino",
                         "description": "The V²B.MCU is an Arduino compatible Hybrid IC. Circuit and Firmware will be published in Open Source when corresponding Stretch Goal is met"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1+V2B-IO-1.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/blank.jpg",
                         "title": "V²B►Fritzing & KiCAD",
                         "description": "IO PCBs are 2 Layer made in Fritzing and KiCAD, MoBo PCB is made in 4 Layer in KiCAD. This makes it easy and low cost to customize your own PCBs"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1.jpg",
                         "title": "V²B.Mobo-1",
                         "description": "x4 PCIe Expansion Motherboard with V² Power Management MCU"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1-side.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1-Top.jpg",
                         "title": "V²B.Mobo-1►Open PCIe Slot",
                         "description": "The open x4 PCIe slot allows insertion of x8 and x16 PCIe Cards."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1-Top.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size2.jpg",
                         "title": "V²B.Mobo-1►V²C.Micro",
                         "description": "The standardized V²C.Micro connector is compatible with all V²C cables. → V²C (Cables)."
                     },
@@ -5150,24 +5130,44 @@
                         "description": "The standardized V²C.IO connector interfaces to different IO PCBs, such as V²B.IO-1, V²B.IO-2 or your custom design."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2.jpg",
-                        "title": "V²B.IO-1",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1.jpg",
+                        "title": "V²B.Mobo-1",
                         "description": "IO Board for V²C.P1 (12V DC Jack)"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2-Top-side.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1-side.jpg",
                         "title": "V²B.IO-1►Standard Bracket",
                         "description": "Standardized bracket for IO Panel of Low Profile PCIe Expansion Boxes"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2-Top.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1-Top.jpg",
                         "title": "V²B.IO-1►Standard V²P1 Power",
                         "description": "Power provided by standardized 12V 10 A DC Jack"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1+V2B-IO-2.jpg",
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1+V2B-IO-1.jpg",
                         "title": "V²B.IO-1►Inserted in Mobo-1",
                         "description": "IO-1 PCB inserted in Mother Board"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2.jpg",
+                        "title": "V²B.IO-2",
+                        "description": "IO Board for ATX-24P Power"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2-Top-side.jpg",
+                        "title": "V²B.IO-2►Standard Bracket",
+                        "description": "Standardized bracket for IO Panel of Desktop sized PCIe Expansion Boxes"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-2-Top.jpg",
+                        "title": "V²B.IO-2►Standard ATX Power",
+                        "description": "Power provided by standardized ATX 24 Pin Power connector"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-Mobo-1+V2B-IO-2.jpg",
+                        "title": "V²B.IO-2►Inserted in Mobo-1",
+                        "description": "IO-2 PCB inserted in Mother Board"
                     }
                 ],
                 "Datasheet": [
