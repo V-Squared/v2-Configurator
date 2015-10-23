@@ -2077,23 +2077,23 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Black.jpg",
-                        "title": "Color Black",
-                        "description": "This is a description"
+                        "title": "ViCase-Black",
+                        "description": "Black Top Cover, Anodized and Sandblasted Aluminum"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Red.jpg",
-                        "title": "Color Red",
-                        "description": "This is a description"
+                        "title": "ViCase-Red",
+                        "description": "Red Top Cover, Anodized and Sandblasted Aluminum"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Cyan.jpg",
-                        "title": "Color Cyan",
-                        "description": "This is a description"
+                        "title": "ViCase-Cyan",
+                        "description": "Cyan Top Cover, Anodized and Sandblasted Aluminum"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Color/Gallery/Color-Silver.jpg",
-                        "title": "Color Silver",
-                        "description": "This is a description"
+                        "title": "ViCase-Silver",
+                        "description": "Silver Top Cover, Anodized and Sandblasted Aluminum"
                     }
                 ],
                 "Datasheet": [
