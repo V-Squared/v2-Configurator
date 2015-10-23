@@ -5342,10 +5342,7 @@
                         "name": "MoBo Feature"
                     },
                     {
-                        "name": "Entry AMD"
-                    },
-                    {
-                        "name": "Entry Intel"
+                        "name": "Entry Level"
                     },
                     {
                         "name": "Mid Range"
@@ -5360,8 +5357,7 @@
                         "row": [
                             "MSI AM1",
                             "H81M-ITX",
-                            "H97M-ITX/ac",
-                            "Z97E-ITX/ac"
+                            "Z170M-ITX/ac"
                         ]
                     },
                     {
@@ -5369,14 +5365,12 @@
                         "row": [
                             "MSI",
                             "ASRock",
-                            "ASRock",
                             "ASRock"
                         ]
                     },
                     {
                         "title": "MoBo►Form Factor",
                         "row": [
-                            "Mini-ITX",
                             "Mini-ITX",
                             "Mini-ITX",
                             "Mini-ITX"
@@ -5387,24 +5381,21 @@
                         "row": [
                             "N/A (*1)",
                             "H81",
-                            "H97",
                             "Z97"
                         ]
                     },
                     {
                         "title": "MoBo►Price",
                         "row": [
-                            "$30",
-                            "$56",
-                            "$90",
-                            "$130"
+                            "$35",
+                            "$55",
+                            "$129"
                         ]
                     },
                     {
                         "title": "CPU►intel/AMD",
                         "row": [
                             "AMD",
-                            "Intel",
                             "Intel",
                             "Intel"
                         ]
@@ -5423,14 +5414,12 @@
                         "row": [
                             "AM1 (*2)",
                             "LGA 1150 (*3)",
-                            "LGA 1150",
-                            "LGA 1150"
+                            "LGA 1151 (*4)"
                         ]
                     },
                     {
                         "title": "CPU►Overclock",
                         "row": [
-                            "No",
                             "No",
                             "No",
                             "Yes"
@@ -5441,7 +5430,6 @@
                         "row": [
                             "No",
                             "No",
-                            "Yes",
                             "Yes"
                         ]
                     },
@@ -5450,7 +5438,6 @@
                         "row": [
                             "No",
                             "No",
-                            "Yes",
                             "Yes"
                         ]
                     },
@@ -5459,17 +5446,7 @@
                         "row": [
                             "2",
                             "2",
-                            "5",
-                            "6"
-                        ]
-                    },
-                    {
-                        "title": "Disk►M2",
-                        "row": [
-                            "No",
-                            "No",
-                            "No",
-                            "Yes"
+                            "4"
                         ]
                     },
                     {
@@ -5477,14 +5454,20 @@
                         "row": [
                             "32 GB",
                             "16 GB",
-                            "16 GB",
-                            "16 GB"
+                            "32 GB"
+                        ]
+                    },
+                    {
+                        "title": "Mem►Type",
+                        "row": [
+                            "DDR3",
+                            "DDR3",
+                            "DDR4"
                         ]
                     },
                     {
                         "title": "Mem►Speed",
                         "row": [
-                            "1600 MHz",
                             "1600 MHz",
                             "1600 MHz",
                             "3200 MHz"
@@ -5495,7 +5478,6 @@
                         "row": [
                             "No",
                             "No",
-                            "Yes",
                             "Yes"
                         ]
                     },
@@ -5504,15 +5486,13 @@
                         "row": [
                             "Yes",
                             "No",
-                            "Yes (*4)",
-                            "Yes (*4)"
+                            "Yes (*5)"
                         ]
                     },
                     {
                         "title": "I/O►Qty USB ports",
                         "row": [
                             "4",
-                            "6",
                             "6",
                             "6"
                         ]
@@ -5522,15 +5502,13 @@
                         "row": [
                             "3",
                             "3",
-                            "3",
                             "3"
                         ]
                     },
                     {
-                        "title": "Display►UHD (*5) Support",
+                        "title": "Display►UHD (*6) Support",
                         "row": [
                             "UHD@30Hz",
-                            "1080p@60Hz",
                             "1080p@60Hz",
                             "UHD@60Hz"
                         ]
