@@ -3612,6 +3612,26 @@
                 ],
                 "Gallery": [
                     {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/GeneralInformation1.jpg",
+                        "title": "ViDock PCIe S►Size",
+                        "description": "Compact PCIe Expansion Box. Connect full size PCIe cards to small PCs or share expensive cards with several Computer."
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/GeneralInformation2.jpg",
+                        "title": "ViDock PCIe►S vs L",
+                        "description": "S Version fits cards up to 9.5\" / 240 mm, L Version fits all lengths of PCIe cards."
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/GeneralInformation3.jpg",
+                        "title": "ViDock GPU►Size",
+                        "description": "The bigger size of ViDock GPU is used to support oversized GPU Cards and big ATX Power Supplies"
+                    },
+                    {
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/GeneralInformation4.jpg",
+                        "title": "ViDock PCIe►Design",
+                        "description": "Elegant form combined with quality materials, such as Silicone feet and Aluminum case. {ML call me when you snap shot this one}"
+                    },
+                    {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-S.jpg",
                         "title": "ViDock PCIe S►Size",
                         "description": "Compact PCIe Expansion Box. Connect full size PCIe cards to small PCs or share expensive cards with several Computer."
@@ -3632,32 +3652,12 @@
                         "description": "Elegant form combined with quality materials, such as Silicone feet and Aluminum case. {ML call me when you snap shot this one}"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L.jpg",
-                        "title": "ViDock PCIe",
-                        "description": "Small PCIe Expansion Box, yet supports full sized double bracket PCIe Cards."
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Front.jpg",
-                        "title": "ViDock PCIe►Cooling",
-                        "description": "Your PCIe card gets its dedicated airflow for cooling. This makes your PC more quiet and cooler, which will extend its lifespan"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Rear.jpg",
-                        "title": "ViDock PCIe►I/O Panel",
-                        "description": "Easy access to all connectors"
-                    },
-                    {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-PCle-L-Top.jpg",
-                        "title": "ViDock PCIe►Elegant",
-                        "description": "Simply Elegant"
-                    },
-                    {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU.jpg",
                         "title": "ViDock-GPU / ViDock-GPU-Cheapo",
                         "description": "ViDock-GPU and ViDock-GPU-Cheapo share the exact same design and differ only in the materials. For more information → Advice"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Front.jpg",
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Top.jpg",
                         "title": "ViDock-GPU►Elegant",
                         "description": "Simply Elegant Design"
                     },
@@ -3667,7 +3667,7 @@
                         "description": "Bring-Your-Own ATX Power supply, placed inside the ViDock GPU housing (left) to power the GPU card (right)"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Top.jpg",
+                        "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Front.jpg",
                         "title": "ViDock-GPU►Elegant Access",
                         "description": "You can lift off the snap on lid for instant access to your PCIe card."
                     }
