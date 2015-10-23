@@ -3299,7 +3299,7 @@
                 ],
                 "TableHeading": [
                     {
-                        "name": "power title1Feature",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
@@ -3318,31 +3318,17 @@
                         ]
                     },
                     {
-                        "title": "Size [mm]",
+                        "title": "Max CPU TDP",
                         "row": [
-                            "35 x 56 x 15",
-                            "38 x 56 x 15"
+                            "65W",
+                            "95W"
                         ]
                     },
                     {
-                        "title": "ATX ",
+                        "title": "Max GPU TDP ",
                         "row": [
-                            "24 Pins",
-                            "24 Pins"
-                        ]
-                    },
-                    {
-                        "title": "Motherboard Power",
-                        "row": [
-                            "4 Pins",
-                            "4 Pins"
-                        ]
-                    },
-                    {
-                        "title": "Efficiency",
-                        "row": [
-                            "92%",
-                            "92%"
+                            "-",
+                            "75W"
                         ]
                     },
                     {
@@ -3411,6 +3397,99 @@
                         "image": "images/expansion/config/ViCase/ViCase-Power/Gallery/V²P.pATX-180W-Rear.jpg",
                         "title": "Power Silver",
                         "description": "This is a description"
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "V²P.pATX-120W",
+                                "class": "active"
+                            },
+                            {
+                                "name": "V²P.pATX-200W"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Max Power",
+                                        "class": "",
+                                        "row": [
+                                            "120 W"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size [mm]",
+                                        "class": "",
+                                        "row": [
+                                            "35 x 56 x 15"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ATX",
+                                        "class": "",
+                                        "row": [
+                                            "24 Pins"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Motherboard Power",
+                                        "class": "",
+                                        "row": [
+                                            "4 Pins"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Efficiency",
+                                        "class": "",
+                                        "row": [
+                                            "92%"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "title": "Max Power",
+                                        "class": "",
+                                        "row": [
+                                            "200 W"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size [mm]",
+                                        "class": "",
+                                        "row": [
+                                            "38 x 56 x 15"
+                                        ]
+                                    },
+                                    {
+                                        "title": "ATX",
+                                        "class": "",
+                                        "row": [
+                                            "24 Pins"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Motherboard Power",
+                                        "class": "",
+                                        "row": [
+                                            "4 Pins"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Efficiency",
+                                        "class": "",
+                                        "row": [
+                                            "92%"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
