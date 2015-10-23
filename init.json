@@ -4630,6 +4630,10 @@
                 ],
                 "Advice": [
                     {
+                        "heading": "Your benefit to use V² (TM) Cables",
+                        "content": "Today there is no standard connector to connect a PCIe Expansion Box or Docking Station to your PC. This puts you at the risk that by the time you buy a new computer, it will have another connector and you are forced to buy a new PCIe Expansion Box as well. Instead all V² cables have one standardized V²C.Micro connector, compatible with all V² Expansion products, such as ViDock. Using the different V²Cables and V² Adapters you can connect to: PCI Express (TM), Mini PCI Express (TM), ExpressCard (TM), Thunderbolt (TM), V²C.Nano (TM), V²C.Mini (TM), V²C.Card (TM). Support for more connections such as WiGig is in development. This means if your next computer has a different connector, all you need to do is to buy a different V² Cable or Adapter and you can keep your PCIe Expansion Box / Docking Station."
+                    },
+                    {
                         "heading": "V²C.Nano",
                         "content": "The default choice of cable to connect your ViDock G6 to your PC with V²A.Nano port. V²C.Nano is the latest V²C Technology with a fast x4 PCIe connection."
                     },
@@ -4640,68 +4644,96 @@
                     {
                         "heading": "V²C.Card",
                         "content": "Choose V²C.Card to connect ViDock G6 to your Notebook with an ExpressCard Slot, or if your PC only has a x1 PCIe Slot and you use V²A.Card. ExpressCard is an older PCIe connector with a x1 connection. It will be sufficient for most GPU application when paired with an nVidia GTX card or for Audio DSP cards or RAID for up to 5 drives."
+                    },
+                    {
+                        "heading": "How to connect Thunderbolt?",
+                        "content": "Sonnet Technologies offer a Thunderbolt to ExpressCard Adapter by the name of Sonnet Echo ExpressCard. It is available world wide. It works with V²C.Card. When we reach the Stretch Goal of the ViDock Campaign we will launch another campaign for a low cost Thunderbolt Adapter."
+                    },
+                    {
+                        "heading": "Trademarks",
+                        "content": "V², V²A, V²B, V²C, V²D, V²E, V²P are Trademarks of the V² Movement. Usage will be made available Open Source with the ViDock / V² Campaigns reaching the corresponding Stretch Goals || ViDock, ViCase are Trademarks of Village Tronic || USB and ExpressCard are trademarks of USB-IF || PCI Express, Mini PCI Express are trademarks of PCI-SIG || Thunderbolt is a Trademark of Intel."
                     }
                 ],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C►Size Comparison",
+                        "description": "Left to right: V²C.Nano, V²C.Mini, V²C.Card, USB"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C►All Host Ports",
+                        "description": "Left to right: PCI Express, Mini PCI Express, ExpressCard, Thunderbolt, V²C.Nano, V²C.Mini, V²C.Card {ML, call me when you make this image}"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C►Micro: One size fits all",
+                        "description": "Every V²C cable uses the V²C.Micro connector on the Target Side. It fits all V² Expansion / Docking Stations Products, such as ViDock."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C►Future",
+                        "description": "After the ViDock Campaign reaches the corresponding Stretch Goals we will launch Indiegogo Campaigns for Thunderbolt and WiGig Adapters."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Nano►Connector ",
+                        "description": "Very small connector to connect your PC with x4 PCIe connection to your PCIe Expansion Box / Docking Station."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Nano►Cable",
+                        "description": "V²C.Nano connects to your Computer, V²C.Micro connects to your ViDock"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Nano►Top View",
+                        "description": "Top view of V²C.Nano Connector"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Nano►Inserted in PCIe Adapter",
+                        "description": "V²A.Nano Adapter interfaces a V²C.Nano cable to any PC with x4 PCIe Slot."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Card►Connector",
+                        "description": "Backwards compatible connector to fit into Mother Boards of existing All-In-One, Budget Desktops and Mini Computers."
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top-Whole.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Card►Cable",
+                        "description": "V²C.Mini connects to the Computer, V²C.Micro connects to the ViDock"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-Top.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Card►Top View",
+                        "description": "Top view of V²C.Mini Connector"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg",
-                        "title": "",
-                        "description": ""
+                        "title": "V²C.Card►Inserted",
+                        "description": "V²C.Mini connector inserted in Mini PCI Express Slot of the Mother Board inside the housing of your computer."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²C.Mini►Connector",
+                        "description": "Backwards compatible connector to fit into an ExpressCard Slot or V²C.Card Port."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²C.Mini►Cable",
+                        "description": "V²C.Card connects to the Computer, V²C.Micro connects to the ViDock"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²C.Mini►ExpressCard Compatible",
+                        "description": "The Dual Function design allows deep insertion into an ExpressCard slot or shallow insertion in an V²C.Card Port as shown in the next image."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²C.Mini►Inserted in PCIe Adapter",
+                        "description": "V²A.Card Adapter interfaces a V²C.Card cable to any PC with x1 PCIe Slot."
                     }
                 ],
                 "Datasheet": [
