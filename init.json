@@ -4682,17 +4682,17 @@
                         "description": "Left to right: V²C.Nano, V²C.Mini, V²C.Card, USB"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size2.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size4.jpg",
                         "title": "V²C►All Host Ports",
                         "description": "Left to right: PCI Express, Mini PCI Express, ExpressCard, Thunderbolt, V²C.Nano, V²C.Mini, V²C.Card"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size3.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size2.jpg",
                         "title": "V²C►Micro: One size fits all",
                         "description": "Every V²C cable uses the V²C.Micro connector on the Target Side. It fits all V² Expansion / Docking Stations Products, such as ViDock."
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size4.jpg",
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/Connection&Size3.jpg",
                         "title": "V²C►Future",
                         "description": "After the ViDock Campaign reaches the corresponding Stretch Goals we will launch Indiegogo Campaigns for Thunderbolt and WiGig Adapters."
                     },
