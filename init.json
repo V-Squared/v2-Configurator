@@ -3048,8 +3048,38 @@
                         "tag": "240W Power Center: Power + Surge Protection + Power Distribution"
                     },
                     {
+                        "name": "V²P.12V-48W-AC-Cable",
+                        "id": "ID-166",
+                        "img": "",
+                        "Child_Name": [
+                            "#chapter-2-section-6-Button-1"
+                        ],
+                        "value": 13,
+                        "tag": "48W 12V AC/DC adapter with AC Cable"
+                    },
+                    {
+                        "name": "V²P.12V-120W-AC-Cable",
+                        "id": "ID-167",
+                        "img": "",
+                        "Child_Name": [
+                            "#chapter-2-section-6-Button-1"
+                        ],
+                        "value": 35,
+                        "tag": "120W 12V AC/DC adapter with AC Cable"
+                    },
+                    {
+                        "name": "V²P.12V-240W-AC-Cable",
+                        "id": "ID-168",
+                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
+                        "Child_Name": [
+                            "#chapter-2-section-6-Button-1"
+                        ],
+                        "value": 65,
+                        "tag": "240W 12V AC/DC Power Center with AC Cable"
+                    },
+                    {
                         "name": "12V/48W-Already-Owned",
-                        "id": "ID-21",
+                        "id": "ID-169",
                         "img": "images/expansion/config/ViCase/AC-DC-Adapter/V²P.12V-48W-90P.jpg",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
