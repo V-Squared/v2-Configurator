@@ -4755,26 +4755,6 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card-connect.jpg",
                         "title": "V²C.Card►Inserted",
                         "description": "V²C.Mini connector inserted in Mini PCI Express Slot of the Mother Board inside the housing of your computer."
-                    },
-                    {
-                        "image": "",
-                        "title": "V²C.Mini►Connector",
-                        "description": "Backwards compatible connector to fit into an ExpressCard Slot or V²C.Card Port."
-                    },
-                    {
-                        "image": "",
-                        "title": "V²C.Mini►Cable",
-                        "description": "V²C.Card connects to the Computer, V²C.Micro connects to the ViDock"
-                    },
-                    {
-                        "image": "",
-                        "title": "V²C.Mini►ExpressCard Compatible",
-                        "description": "The Dual Function design allows deep insertion into an ExpressCard slot or shallow insertion in an V²C.Card Port as shown in the next image."
-                    },
-                    {
-                        "image": "",
-                        "title": "V²C.Mini►Inserted in PCIe Adapter",
-                        "description": "V²A.Card Adapter interfaces a V²C.Card cable to any PC with x1 PCIe Slot."
                     }
                 ],
                 "Datasheet": [
