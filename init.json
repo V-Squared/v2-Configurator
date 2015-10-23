@@ -4650,22 +4650,23 @@
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top-Whole.jpg"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
                     },
                     {
-                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-Top.jpg"
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Nano-connect.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini.jpg"
                     },
-                    "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg",
+                    {
+                        "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini--Top-Whole.jpg"
+                    },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-Top.jpg"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg"
                     },
-                    {},
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg"
                     },
