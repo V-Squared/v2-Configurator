@@ -5001,35 +5001,35 @@
                     {
                         "name": "V²B.Mobo-1",
                         "id": "ID-141",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/V2B-Boards/Mobo-1.jpg",
                         "tag": "x4 PCIe Expansion Motherboard with V² Power Management MCU",
                         "value": 15
                     },
                     {
                         "name": "V²B.IO-1",
                         "id": "ID-170",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/V2B-Boards/V²B.IO-1.jpg",
                         "tag": "IO Board for V²C.P1 (12V DC Jack)",
                         "value": 15
                     },
                     {
                         "name": "V²B.IO-2",
                         "id": "ID-171",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/V2B-Boards/V²B.IO-2.jpg",
                         "tag": "IO Board for ATX-24P Power",
                         "value": 15
                     },
                     {
                         "name": "V²B.Mobo-1 + V²B.IO-1",
                         "id": "ID-172",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/V2B-Boards/V²B.Mobo-1+V²B.IO-1.jpg",
                         "tag": "Same PCB Kit as in ViDock-PCIe",
                         "value": 29
                     },
                     {
                         "name": "V²B.Mobo-1 + V²B.IO-2",
                         "id": "ID-173",
-                        "img": "",
+                        "img": "images/expansion/config/ViDock/V2B-Boards/V²B.Mobo-1+V²B.IO-2.jpg",
                         "tag": "Same PCB Kit as in ViDock-GPU",
                         "value": 29
                     }
@@ -5091,7 +5091,7 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/General1.jpg",
-                        "title": "V²B►Size",
+                        "title": "V²B►Boards",
                         "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
                     },
                     {
