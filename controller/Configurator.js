@@ -126,9 +126,9 @@ app.controller('myCtrl', function($scope, $http) {
    }
 
    $scope.Preview = function() {
-    var caseSize = $scope.cart["2. ViCase"]["ViCase Size"].lastclicked;
-    var FormFactor = $scope.cart["1. Wizard"]["Form Factor"].lastclicked;
-    $scope.Display_Number = $scope.cart["1. Wizard"]["Number of Displays"].lastclicked;
+    var caseSize = $scope.cart["2. ViCase (Finish)"]["ViCase Size"].lastclicked;
+    var FormFactor = $scope.cart["1. Wizard (Under Construction)"]["Form Factor"].lastclicked;
+    $scope.Display_Number = $scope.cart["1. Wizard (Under Construction)"]["Number of Displays"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     
@@ -222,14 +222,14 @@ app.controller('myCtrl', function($scope, $http) {
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
-        cart.vtcost = cart["2. ViCase"].cost + cart["3. ViDock"].cost;
+        cart.vtcost = cart["2. ViCase (Finish)"].cost + cart["3. ViDock (Finish)"].cost;
 
         $('.chicken').remove();
         //this should be done in a loop
-        cart.thirdprtycost = cart["5. Accessories"].cost + cart["4. PC Parts"].cost;
+        cart.thirdprtycost = cart["5. Accessories (Under Construction)"].cost + cart["4. PC Parts (Under Construction)"].cost;
 
-        cart.vtcount = cart["2. ViCase"].count + cart ["3. ViDock"].count;
-        cart.thirdprtycount = cart["4. PC Parts"].count + cart["5. Accessories"].count;
+        cart.vtcount = cart["2. ViCase (Finish)"].count + cart ["3. ViDock (Finish)"].count;
+        cart.thirdprtycount = cart["4. PC Parts (Under Construction)"].count + cart["5. Accessories (Under Construction)"].count;
         console.log(cart.vtcount);
     }
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
