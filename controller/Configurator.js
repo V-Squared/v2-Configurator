@@ -126,7 +126,7 @@ app.controller('myCtrl', function($scope, $http) {
    }
 
    $scope.Preview = function() {
-    var caseSize = $scope.cart["2. ViCase (Finish)"]["ViCase Size"].lastclicked;
+    var caseSize = $scope.cart["2. ViCase (Finished)"]["ViCase Size"].lastclicked;
     var FormFactor = $scope.cart["1. Wizard (Under Construction)"]["Form Factor"].lastclicked;
     $scope.Display_Number = $scope.cart["1. Wizard (Under Construction)"]["Number of Displays"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
@@ -222,13 +222,13 @@ app.controller('myCtrl', function($scope, $http) {
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
-        cart.vtcost = cart["2. ViCase (Finish)"].cost + cart["3. ViDock (Finish)"].cost;
+        cart.vtcost = cart["2. ViCase (Finished)"].cost + cart["3. ViDock (Finished)"].cost;
 
         $('.chicken').remove();
         //this should be done in a loop
         cart.thirdprtycost = cart["5. Accessories (Under Construction)"].cost + cart["4. PC Parts (Under Construction)"].cost;
 
-        cart.vtcount = cart["2. ViCase (Finish)"].count + cart ["3. ViDock (Finish)"].count;
+        cart.vtcount = cart["2. ViCase (Finished)"].count + cart ["3. ViDock (Finished)"].count;
         cart.thirdprtycount = cart["4. PC Parts (Under Construction)"].count + cart["5. Accessories (Under Construction)"].count;
         console.log(cart.vtcount);
     }
