@@ -5761,52 +5761,40 @@
                 "part": "proc",
                 "yourChoice": [
                     {
-                        "name": "Intel Celeron G1840",
+                        "name": "Sempron 2650",
                         "id": "ID-42",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-Celeron.png",
-                        "value": 50
+                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
+                        "value": 31
                     },
                     {
-                        "name": "Intel Pentium G3240",
+                        "name": "Athlon 5350",
                         "id": "ID-43",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-Pentium.jpg",
-                        "value": 89
+                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
+                        "value": 54
                     },
                     {
-                        "name": "Intel Core i3-4350T",
+                        "name": "Pentium-G3250",
                         "id": "ID-44",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i3.png",
-                        "value": 169
+                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-Pentium.jpg",
+                        "value": 57
                     },
                     {
-                        "name": "Intel Core i5-4690T",
+                        "name": "i3-4160",
                         "id": "ID-45",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i5.png",
-                        "value": 249
+                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i3.png",
+                        "value": 125
                     },
                     {
-                        "name": "Intel Core i7-4790T",
+                        "name": "i5-6500",
                         "id": "ID-46",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i7.png",
-                        "value": 349
+                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i5.png",
+                        "value": 205
                     },
                     {
-                        "name": "AMD Processor 1",
+                        "name": "i7-6700K",
                         "id": "ID-47",
-                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
-                        "value": 25
-                    },
-                    {
-                        "name": "AMD Processor 2",
-                        "id": "ID-48",
-                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
-                        "value": 100
-                    },
-                    {
-                        "name": "AMD Processor 3",
-                        "id": "ID-49",
-                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
-                        "value": 150
+                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i7.png",
+                        "value": 360
                     }
                 ],
                 "Advice": [],
