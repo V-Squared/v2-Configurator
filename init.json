@@ -5816,240 +5816,254 @@
                         "class": "table-left-title"
                     },
                     {
-                        "name": "Entry Level"
+                        "name": "Entry CPU Value"
                     },
                     {
-                        "name": "Mid Range"
+                        "name": "Entry CPU Performance"
                     },
                     {
-                        "name": "Mid Range"
+                        "name": "Mid CPU Value"
                     },
                     {
-                        "name": "High End"
+                        "name": "Mid CPU Performance"
                     },
                     {
-                        "name": "Extreme"
+                        "name": "High CPU Value"
+                    },
+                    {
+                        "name": "High CPU Performance"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "Model►Name",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Sempron 2650",
+                            "Athlon 5350",
+                            "Pentium-G3250",
+                            "i3-4160",
+                            "i5-6500",
+                            "i7-6700K"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Model►Brand",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "AMD",
+                            "AMD",
+                            "Intel",
+                            "Intel",
+                            "Intel",
+                            "Intel"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Model►Series",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Sempron",
+                            "Athlon",
+                            "Pentium",
+                            "Core i3",
+                            "Core i5",
+                            "Core i7"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Model►Core Name",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Kabini",
+                            "Kabini",
+                            "Haswell",
+                            "Haswell",
+                            "Skylake",
+                            "Skylake"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Model►# of Cores",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Dual-Core",
+                            "Quad-Core",
+                            "Dual-Core",
+                            "Dual-Core",
+                            "Quad-Core",
+                            "Quad-Core"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►Clock",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "1.4 GHz",
+                            "2.05 GHz",
+                            "3.2 GHz",
+                            "3.6 GHz",
+                            "3.2 GHz",
+                            "4.0 GHz"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►L2 Cache",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "1MB",
+                            "2MB",
+                            "2 x 256KB",
+                            "2 x 256KB",
+                            "4 x 256KB",
+                            "4 x 256KB"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►L3 Cache",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "None",
+                            "None",
+                            "3MB",
+                            "3MB",
+                            "6MB shared",
+                            "8MB shared"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►CPU Bench",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            900,
+                            2589,
+                            3341,
+                            5041,
+                            7050,
+                            11000
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►GPU Bench",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            280,
+                            361,
+                            "-",
+                            546,
+                            1128,
+                            1128
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►Quick Video",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►Max Resolution",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "2560 x 1600",
+                            "2560 x 1600",
+                            "2560 x 1600",
+                            "4096 x 2304",
+                            "4096 x 2304",
+                            "4096 x 2304"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Perf►Overclocking",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Yes",
+                            "Yes",
+                            "-",
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Misc►Socket",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "AM1",
+                            "AM1",
+                            "LGA 1150",
+                            "LGA 1150",
+                            "LGA1151",
+                            "LGA1151"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Misc►Power TDP",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "25W",
+                            "25W",
+                            "53W",
+                            "54W",
+                            "65W",
+                            "91W"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Misc►Boxed Cooler",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Included",
+                            "Included",
+                            "Included",
+                            "Included",
+                            "Included",
+                            "Not included"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Mem►Max Size",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "32 GB",
+                            "32 GB",
+                            "64 GB",
+                            "64 GB"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Mem►Type",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "DDR3",
+                            "DDR3",
+                            "DDR3-1333, DDR3L-1333 @ 1.5V",
+                            "DDR3-1333/1600, DDR3L-1333/1600 @ 1.5",
+                            "DDR4-1866/2133, DDR3L-1333/1600 @ 1.35V",
+                            "DDR4-1866/2133, DDR3L-1333/1600 @ 1.35V"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Mem►Speed",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            1333,
+                            1600,
+                            "DDR3-1333, DDR3L-1333",
+                            "DDR3-1333/1600, DDR3L-1333/1600",
+                            "DDR4-1866/2133, DDR3L-1333/1600",
+                            "DDR4-1866/2133, DDR3L-1333/1600"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Disk►Hybrid Disk",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Disk►RAID5",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
-                        ]
-                    },
-                    {
-                        "title": "",
-                        "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "Yes",
+                            "Yes"
                         ]
                     }
                 ],
