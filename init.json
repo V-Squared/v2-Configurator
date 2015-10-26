@@ -5443,7 +5443,7 @@
                 "part": "motherboard",
                 "yourChoice": [
                     {
-                        "name": "Entry AMD",
+                        "name": "Entry Motherboard",
                         "id": "ID-38",
                         "img": "images/expansion/config/Third-party/MotherBoard/MoBo-AMD-Shade-Entry.png",
                         "Child_Name": [
@@ -5458,22 +5458,7 @@
                         "value": 35
                     },
                     {
-                        "name": "Entry Intel",
-                        "id": "ID-39",
-                        "img": "images/expansion/config/Third-party/MotherBoard/MoBo-Entry-Intel.png",
-                        "Child_Name": [
-                            "#chapter-3-section-1-Button-6",
-                            "#chapter-3-section-1-Button-7",
-                            "#chapter-3-section-1-Button-8",
-                            "#chapter-3-section-2-Button-4",
-                            "#chapter-3-section-2-Button-5",
-                            "#chapter-3-section-2-Button-6",
-                            "#chapter-3-section-2-Button-7"
-                        ],
-                        "value": 55
-                    },
-                    {
-                        "name": "Mid Range",
+                        "name": "Mid Motherboard",
                         "id": "ID-40",
                         "img": "images/expansion/config/Third-party/MotherBoard/MoBo-Mid-Intel.png",
                         "Child_Name": [
@@ -5488,7 +5473,7 @@
                         "value": 96
                     },
                     {
-                        "name": "High End",
+                        "name": "High Motherboard",
                         "id": "ID-41",
                         "img": "images/expansion/config/Third-party/MotherBoard/MoBo-High-Intel.png",
                         "Child_Name": [
@@ -5709,82 +5694,62 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-IO.jpg",
-                        "title": "Entry AMD",
+                        "title": "Entry Motherboard",
                         "description": "MSI AM1 (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-Top.jpg",
-                        "title": "Entry AMD",
+                        "title": "Entry Motherboard",
                         "description": "MSI AM1 (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-Bottom.jpg",
-                        "title": "Entry AMD",
+                        "title": "Entry Motherboard",
                         "description": "MSI AM1 (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-Accessory.jpg",
-                        "title": "Entry AMD",
+                        "title": "Entry Motherboard",
                         "description": "MSI AM1 (picture courtesy www.newegg.com)"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-Intel-IO.jpg",
-                        "title": "Entry Intel",
-                        "description": "ASRock H81M-ITX (picture courtesy www.newegg.com)"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-Intel-Top.jpg",
-                        "title": "Entry Intel",
-                        "description": "ASRock H81M-ITX (picture courtesy www.newegg.com)"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-Intel-Bottom.jpg",
-                        "title": "Entry Intel",
-                        "description": "ASRock H81M-ITX (picture courtesy www.newegg.com)"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-Intel-Accessory.jpg",
-                        "title": "Entry Intel",
-                        "description": "ASRock H81M-ITX (picture courtesy www.newegg.com)"
-                    },
-                    {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-IO.jpg",
-                        "title": "MidRange",
+                        "title": "Mid Motherboard",
                         "description": "ASRock H97M-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Top.jpg",
-                        "title": "MidRange",
+                        "title": "Mid Motherboard",
                         "description": "ASRock H97M-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Bottom.jpg",
-                        "title": "MidRange",
+                        "title": "Mid Motherboard",
                         "description": "ASRock H97M-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Accessory.jpg",
-                        "title": "MidRange",
+                        "title": "Mid Motherboard",
                         "description": "ASRock H97M-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-IO.jpg",
-                        "title": "HighEnd",
+                        "title": "High Motherboard",
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Top.jpg",
-                        "title": "HighEnd",
+                        "title": "High Motherboard",
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Bottom.jpg",
-                        "title": "HighEnd",
+                        "title": "High Motherboard",
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Accessory.jpg",
-                        "title": "HighEnd",
+                        "title": "High Motherboard",
                         "description": "ASRock Z97E-ITX/ac (picture courtesy www.newegg.com)"
                     }
                 ],
