@@ -6406,9 +6406,6 @@
                     }
                 ],
                 "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Datasheet": [],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
@@ -6422,7 +6419,8 @@
                     {
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
                     }
-                ]
+                ],
+                "Datasheet": []
             }
         ]
     },
