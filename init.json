@@ -6215,8 +6215,48 @@
                     }
                 ],
                 "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
+                "TableHeading": [
+                    {
+                        "name": "Memory Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "DDR3"
+                    },
+                    {
+                        "name": "DDR4"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Perf►Speed(MHz)",
+                        "row": [
+                            1600,
+                            2133
+                        ]
+                    },
+                    {
+                        "title": "Perf►Overclock Speed(MHz)",
+                        "row": [
+                            1600,
+                            3200
+                        ]
+                    },
+                    {
+                        "title": "Perf►Max Size",
+                        "row": [
+                            "16 GB",
+                            "32 GB"
+                        ]
+                    },
+                    {
+                        "title": "Misc►MoBo",
+                        "row": [
+                            "Entry&Mid",
+                            "High"
+                        ]
+                    }
+                ],
                 "Gallery": [],
                 "Datasheet": []
             },
