@@ -6258,7 +6258,56 @@
                     }
                 ],
                 "Gallery": [],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.kingston.com/us/memory/search/PartNumber/Default.aspx?PartId=KVR16N11S6/2 \" _blank \">2 GB DDR3</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gskill.com/en/product/f3-12800cl9d-4gbrl \" target=\" _blank \">4 GB DDR3</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gskill.com/en/product/f3-12800cl9d-8gbrl  \" target=\" _blank \">8 GB DDR3</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gskill.com/en/product/f3-1600c9d-16gxm \" target=\" _blank \">16 GB DDR3</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.crucial.com/ProductDisplay?urlRequestType=Base&catalogId=10151&categoryId=&productId=134025&urlLangId=-1&langId=-1&top_category=&parent_category_rn=&storeId=10151 \" target=\" _blank \">4 GB DDR4</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gskill.com/en/product/f4-2400c15d-8gvr \" target=\" _blank \">8 GB DDR4</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gskill.com/en/product/f4-3200c16d-16gvk \" _blank \">16 GB DDR4</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" _blank \">32 GB DDR4</a>"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "url": "images/expansion/config/mSATA-SSD.gif",
