@@ -5755,13 +5755,25 @@
                 ],
                 "Datasheet": [
                     {
-                        "button": [
+                        "tables": [
                             {
-                                "name": "<a href=\" https://http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1I</a>",
-                                "class": "active"
-                            },
-                            {
-                                "name": ""
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\" https://http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MIS-AM1I</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "35 x 56 x 15"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "24 Pins"
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
