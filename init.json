@@ -6265,7 +6265,7 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.kingston.com/us/memory/search/PartNumber/Default.aspx?PartId=KVR16N11S6/2 \" _blank \">2 GB DDR3</a>"
+                                            "<a href=\"http://www.kingston.com/us/memory/search/?partid=kvr16n11s6/2 \" target=\" _blank \">2 GB DDR3</a>"
                                         ]
                                     },
                                     {
@@ -6300,7 +6300,7 @@
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" _blank \">32 GB DDR4</a>"
+                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" _blank \">32GB DDR4</a>"
                                         ]
                                     }
                                 ]
