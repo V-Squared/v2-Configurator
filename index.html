@@ -13,6 +13,7 @@
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-sanitize.min.js"></script>
     <script type="text/javascript" src="controller/Configurator.js"></script>
 </head>
 
@@ -128,7 +129,7 @@
                                                         <tbody>
                                                             <tr ng-repeat="hi in Section.TableBody">
                                                                 <td class="table-left-title">{{hi.title}}</td>
-                                                                <td ng-repeat="rows in hi.row track by $index">{{rows}}</td>
+                                                                <td ng-repeat="rows in hi.row track by $index" ng-bind-html="rows"></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -193,7 +194,7 @@
                                                             <tbody>
                                                                 <tr ng-repeat="tablerow in table.table" class="{{tablerow.class}}">
                                                                     <td class="table-left-title">{{tablerow.title}}</td>
-                                                                    <td ng-repeat="row in tablerow.row track by $index">{{row}}</td>
+                                                                    <td ng-repeat="row in tablerow.row track by $index" ng-bind-html="row"></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>

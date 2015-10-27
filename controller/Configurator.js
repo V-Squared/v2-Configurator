@@ -1,4 +1,4 @@
-var app = angular.module('configApp', []);
+var app = angular.module('configApp', ['ngSanitize']);
 
 app.directive('navbar',function() {
     return {

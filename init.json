@@ -269,7 +269,7 @@
                     {
                         "title": "Size (Liters)",
                         "row": [
-                            "3L",
+                            "<a href=\" https://www.google.com \" target=\" _blank \">3L</a>",
                             "5L",
                             "5L",
                             "7L"
@@ -506,7 +506,7 @@
                                         "title": "Motherboard",
                                         "class": "",
                                         "row": [
-                                            "Mini-ITX Form Factor"
+                                            "<a href=\" https://google.com \" target=\" _blank \">Mini-ITX Form Factor</a>"
                                         ]
                                     },
                                     {
