@@ -6158,52 +6158,60 @@
                 "part": "RAM",
                 "yourChoice": [
                     {
-                        "name": "Intel 2 GB DDR3",
+                        "name": "2 GB DDR3",
                         "id": "ID-50",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 60
+                        "value": 13,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "Intel 4 GB DDR3",
+                        "name": "4 GB DDR3",
                         "id": "ID-51",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 120
+                        "value": 28,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "Intel 8 GB DDR3",
+                        "name": "8 GB DDR3",
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 240
+                        "value": 47,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "Intel 16 GB DDR3",
+                        "name": "16 GB DDR33",
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 300
+                        "value": 80,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "AMD 2 GB DDR3",
+                        "name": "4 GB DDR4",
                         "id": "ID-54",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 50
+                        "value": 27,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "AMD 4 GB DDR3",
+                        "name": "8 GB DDR4",
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 100
+                        "value": 54,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "AMD 8 GB DDR3",
+                        "name": "16 GB DDR4",
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 200
+                        "value": 135,
+                        "tag": "tagline"
                     },
                     {
-                        "name": "AMD 16 GB DDR3",
+                        "name": "32 GB DDR4",
                         "id": "ID-57",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 300
+                        "value": 255,
+                        "tag": "tagline"
                     }
                 ],
                 "Advice": [],
