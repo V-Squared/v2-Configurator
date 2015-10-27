@@ -5755,15 +5755,13 @@
                 ],
                 "Datasheet": [
                     {
-                        "tables": [
+                        "button": [
                             {
-                                "table": [
-                                    {
-                                        "raw": [
-                                            "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
-                                        ]
-                                    }
-                                ]
+                                "name": "<a href=\" https://http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1I</a>",
+                                "class": "active"
+                            },
+                            {
+                                "name": ""
                             }
                         ]
                     }
