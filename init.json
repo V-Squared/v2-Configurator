@@ -6316,33 +6316,91 @@
                 "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "yourChoice": [
                     {
-                        "name": "Samsung SSD 840 120 GB",
+                        "name": "SSD SATA3 120GB",
                         "id": "ID-58",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 120
+                        "value": 42,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "Samsung SSD 840 250 GB",
+                        "name": "SSD mSATA 120GB",
                         "id": "ID-59",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 250
+                        "value": 69,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "Samsung SSD 840 500 GB",
+                        "name": "SSD SATA3 250GB",
                         "id": "ID-60",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 500
+                        "value": 100,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "Samsung SSD 840 1TB GB",
+                        "name": "SSD mSATA 256GB",
                         "id": "ID-61",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 1000
+                        "value": 230,
+                        "tag": "tag-line"
+                    },
+                    {
+                        "name": "SSD SATA3 500GB",
+                        "id": "ID-181",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "value": 182,
+                        "tag": "tag-line"
+                    },
+                    {
+                        "name": "SSD mSATA 480GB",
+                        "id": "ID-182",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "value": 279,
+                        "tag": "tag-line"
+                    },
+                    {
+                        "name": "SSD SATA3 1TB",
+                        "id": "ID-183",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "value": 360,
+                        "tag": "tag-line"
+                    },
+                    {
+                        "name": "SSD mSATA 1TB",
+                        "id": "ID-184",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "value": 363,
+                        "tag": "tag-line"
                     }
                 ],
                 "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
+                "TableHeading": [
+                    {
+                        "name": "Boot Disk Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "mSATA"
+                    },
+                    {
+                        "name": "SATA3"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Misc►Adapter",
+                        "row": [
+                            "Need",
+                            "No Need"
+                        ]
+                    },
+                    {
+                        "title": "Misc►Size",
+                        "row": [
+                            "1600one-eighth the size of 2.5\"\n",
+                            "2.5\""
+                        ]
+                    }
+                ],
                 "Gallery": [],
                 "Datasheet": []
             },
@@ -6352,45 +6410,68 @@
                 "part": "SSD-1",
                 "yourChoice": [
                     {
-                        "name": "HDD 2.5' 7509 GB",
+                        "name": "HDD 2.5\" 2TB Green",
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": 60
+                        "value": 119,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "HDD 2.5' 1TB GB",
+                        "name": "HDD 3.5\" 4TB Green",
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
-                        "value": 100
+                        "value": 132,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "HDD 2.5' 2TB GB",
+                        "name": "HDD 3.5\" 4TB Red",
                         "id": "ID-64",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-2TB.jpg",
-                        "value": 120
+                        "value": 149,
+                        "tag": "tag-line"
                     },
                     {
-                        "name": "HDD 3.5' 4TB black GB",
+                        "name": "HDD 3.5\" 4TB Black",
                         "id": "ID-65",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
-                        "value": 250
-                    },
-                    {
-                        "name": "HDD 3.5' 4TB red GB",
-                        "id": "ID-66",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
-                        "value": 500
-                    },
-                    {
-                        "name": "HDD 3.5' 4TB green GB",
-                        "id": "ID-67",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
-                        "value": 1000
+                        "value": 199,
+                        "tag": "tag-line"
                     }
                 ],
                 "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
+                "TableHeading": [
+                    {
+                        "name": "Data Disk Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "Green"
+                    },
+                    {
+                        "name": "Red"
+                    },
+                    {
+                        "name": "Black"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Perf►RPM",
+                        "row": [
+                            "IntelliPower",
+                            "IntelliPower",
+                            "7200 RPM"
+                        ]
+                    },
+                    {
+                        "title": "Misc►Features",
+                        "row": [
+                            "1600Low power consumption and quiet",
+                            "Small NAS System",
+                            "Inspiring performance"
+                        ]
+                    }
+                ],
                 "Gallery": [],
                 "Datasheet": []
             },
