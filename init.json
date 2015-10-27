@@ -5754,9 +5754,35 @@
                     }
                 ],
                 "Datasheet": [
-                    [
-                        "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
-                    ]
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "",
+                                        "class": "",
+                                        "row": [
+                                            "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
+                                        ]
+                                    },
+                                    {
+                                        "title": "",
+                                        "class": "",
+                                        "row": [
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "title": "",
+                                        "class": "",
+                                        "row": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             {
