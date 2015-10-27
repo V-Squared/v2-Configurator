@@ -5759,10 +5759,9 @@
                             {
                                 "table": [
                                     {
-                                        "title": "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
-                                    },
-                                    {
-                                        "title": "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
+                                        "raw": [
+                                            "<a href=\" http://www.msi.com/product/motherboard/AM1I.html#hero-overview \" target=\" _blank \">MSI-AM1</a>"
+                                        ]
                                     }
                                 ]
                             }
