@@ -6295,12 +6295,12 @@
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f4-3200c16d-16gvk \" _blank \">16 GB DDR4</a>"
+                                            "<a href=\"http://www.gskill.com/en/product/f4-3200c16d-16gvk \" target=\" _blank \">16 GB DDR4</a>"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" _blank \">32GB DDR4</a>"
+                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" target=\" _blank \">32 GB DDR4</a>"
                                         ]
                                     }
                                 ]
