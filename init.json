@@ -6501,7 +6501,43 @@
                         "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
                     }
                 ],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "ViCase-mSATA",
+                                "class": "active"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "57 x 46 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Adapter",
+                                        "class": "",
+                                        "row": [
+                                            "mSATA to Sata3"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Support SSD Size",
+                                        "class": "",
+                                        "row": [
+                                            "50.8 x 29.8 x 3.6 mm mSATA SSD"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
