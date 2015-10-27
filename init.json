@@ -5821,7 +5821,6 @@
                         "value": 360
                     }
                 ],
-                "Advice": [],
                 "TableHeading": [
                     {
                         "name": "CPU Feature",
@@ -6077,6 +6076,32 @@
                             "Yes",
                             "Yes"
                         ]
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Sempron 2650",
+                        "content": "Choose this CPU if you are looking for the lowest cost or for the lowest power consumption. You can even turn off one of the two cores and the whole system will use 6W only at full load. Ideal for a general purpose low cost PC or for a presentation PC, such as a large size 28\" picture frame to replace an A2 printer or presentation displays in meeting rooms, lobby, hotels, etc. The very low power consumption allows the use of a passive cooler, which makes this PC completely maintenance free and literally silent when paired with an SSD. Performance will feel like a decent tablet. Recommended OS Ubuntu. It also may serve as a streaming PC for Gaming or Video. Be aware that in some countries an Intel Celeron CPU is lower cost and at the same time faster."
+                    },
+                    {
+                        "heading": "Athlon 5350",
+                        "content": ""
+                    },
+                    {
+                        "heading": "Pentium-G3250",
+                        "content": "The Pentium G3250 is 400% faster than the Sempron-2650. Office Apps will feel snappy. Power Consumption is also about 300% higher. This CPU uses the LGA 1150 socket, used by most current shipping Intel CPUs, up to the very fast i7-4790. This means you can dramatically upgrade your CPU performance at a later time."
+                    },
+                    {
+                        "heading": "i3-4160",
+                        "content": "Another 50% faster in CPU performance than the Pentium. The integrated GPU is also significantly faster and you can play games such as Minecraft. For most Video Editing purpose the integrated GPU is sufficient. E.g. we edited our Indiegogo Pitch Video on this CPU w/o GPU. This CPU uses the same LGA 1150 socket with the benefits described above."
+                    },
+                    {
+                        "heading": "i5-6500",
+                        "content": "This is a Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often higher performance for you money by investing into a PCIe Add In Card of the type corresponding to your application. The i5-6500 CPU comes with the newly released LGA 1151 socket with the key benefit to support DDR4, which at the same price is twice as fast as DDR3. Also current DDR4 motherboards support larger memory size of up to 32 GB."
+                    },
+                    {
+                        "heading": "i7-6700K",
+                        "content": "Choose this CPU if you are looking for the Ultimate in CPU performance."
                     }
                 ],
                 "Gallery": [],
