@@ -55,8 +55,8 @@ app.controller('myCtrl', function($scope, $http) {
       setTimeout(function(){
        $($("#"+galid).find(".item")[0]).addClass("active");
      	 $("#"+galid).carousel({
-        interval: 0,
-        pause:true
+        interval: false,
+        pause:'hover'
        });
 
          var children = $('.GalleryThumbNail > .thumb');
