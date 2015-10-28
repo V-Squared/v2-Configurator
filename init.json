@@ -4557,7 +4557,7 @@
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side.jpg",
                         "title": "V²A.Nano►Size",
-                        "description": "Back to Front: PCIe GPU Card, V²A.Card, V²A.Nano"
+                        "description": "Back to Front: Standard Profile PCIe GPU Card, Low Profile PCIe GPU Card, Low Profile V²A.Card, Ultra Low Profile V²A.Nano"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-2-panel.jpg",
@@ -4577,7 +4577,7 @@
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-Nano-side.jpg",
                         "title": "V²A.Card►Size",
-                        "description": "Back to Front: PCIe GPU Card, V²A.Card, V²A.Nano"
+                        "description": "Back to Front: Standard Profile PCIe GPU Card, Low Profile PCIe GPU Card, Low Profile V²A.Card, Ultra Low Profile V²A.Nano"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2A-Adapter/Gallery/V2A-card-2-panel.jpg",
