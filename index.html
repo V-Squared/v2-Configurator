@@ -149,8 +149,8 @@
                                         <!-- Gallery/Carousel  -->
                                              <div ng-if="Section.Gallery">
                                                 <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link"><i class="fa fa-play"></i> Gallery</h4>
-                                                <div class="collapsable readmore_area" ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index)" style="display: none;">
-                                                    <div id="{{'section-'+chapterIndex+'-gallary-'+$index}}" class="carousel slide" data-ride="carousel">
+                                                <div class="collapsable readmore_area" style="display: none;">
+                                                    <div id="{{'section-'+chapterIndex+'-gallary-'+$index}}" ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index)" class="carousel slide" data-ride="carousel">
                                                         <div class="carousel-inner">
                                                             <div ng-repeat="gallery in Section.Gallery" class="item">
                                                                 <h4 style="font-weight:600;color:#bbb">{{gallery.title}}</h4>
