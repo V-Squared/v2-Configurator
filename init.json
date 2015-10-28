@@ -5520,7 +5520,7 @@
                     {
                         "title": "MoBo►Name",
                         "row": [
-                            "MSI-AM1",
+                            "MSI-AM1I",
                             "H81M-ITX",
                             "Z170M-ITX/ac"
                         ]
@@ -6412,7 +6412,56 @@
                     }
                 ],
                 "Gallery": [],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.silicon-power.com/product/product_detail.php?currlang=utf8&main=17&sub=48&pro=179&type=sp#a_1 \" target=\" _blank \">SSD SATA3 120GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.kingston.com/us/memory/search/?partid=sms200s3/120g \" target=\" _blank \">SSD mSATA 120GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E250B/AM  \" target=\" _blank \">SSD SATA3 250GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.goplextor.com/Product/Detail/M5M#/Spec \" target=\" _blank \">SSD mSATA 256GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E500B/AM \" target=\" _blank \">SSD SATA3 500GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.crucial.com/usa/en/storage-ssd-m500 \" target=\" _blank \">SSD mSATA 480GB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E1T0B/AM \" target=\" _blank \">SSD SATA3 1TB</a>"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-M5E1T0BW \" target=\" _blank \">SSD mSATA 1TB</a>"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "url": "images/expansion/config/SSD.png",
