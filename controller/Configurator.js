@@ -126,9 +126,9 @@ app.controller('myCtrl', function($scope, $http) {
    }
 
    $scope.Preview = function() {
-    var caseSize = $scope.cart["2. ViCase (Finished)"]["ViCase Size"].lastclicked;
-    var FormFactor = $scope.cart["1. Wizard (Under Construction)"]["Form Factor"].lastclicked;
-    $scope.Display_Number = $scope.cart["1. Wizard (Under Construction)"]["Number of Displays"].lastclicked;
+    var caseSize = $scope.cart["2. Mini Case (Ready)"]["ViCase Size"].lastclicked;
+    var FormFactor = $scope.cart["1. Wizard (Half-Done)"]["Form Factor"].lastclicked;
+    $scope.Display_Number = $scope.cart["1. Wizard (Half-Done)"]["Number of Displays"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     
