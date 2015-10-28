@@ -5101,7 +5101,7 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/General1.jpg",
-                        "title": "V²B►Boards",
+                        "title": "V²B►Size",
                         "description": "Left to right: V²B.Mobo-1, V²B.IO-1, V²B.IO-2"
                     },
                     {
@@ -5141,7 +5141,7 @@
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2B-Boards/Gallery/V2B-IO-1.jpg",
-                        "title": "V²B.Mobo-1",
+                        "title": "V²B.IO-1",
                         "description": "IO Board for V²C.P1 (12V DC Jack)"
                     },
                     {
