@@ -6736,7 +6736,7 @@
                             "#ID-11"
                         ],
                         "tag": "Add Parallel Port for CNC Machine or old Printer",
-                        "value": 0
+                        "value": 15
                     }
                 ],
                 "Advice": [
