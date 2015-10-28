@@ -6577,16 +6577,61 @@
                 "Advice": [],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA.jpg",
+                        "title": "ViCase-mSATA",
+                        "description": "mSATA to SATA3 adapter, you can use mSATA SSD in ViCase with this adapter"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Side.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Side.jpg",
+                        "title": "ViCase-mSATA►Optimize space Design",
+                        "description": "No space waste for the PCB design"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top.jpg",
+                        "title": "ViCase-mSATA►Connectors",
+                        "description": "Standard mSATA connector for the mSATA SSD, Standard SATA connector for connecting to Sata port of the MoBo"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg"
+                        "image": "images/expansion/config/Third-party/ViCase-mSATA/Gallery/ViCase-mSATA-Top-invert.jpg",
+                        "title": "ViCase-mSATA►SSD Plug In",
+                        "description": "This adapter support 50.8 x 29.8 x 3.6 mm mSATA SSD"
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "ViCase-mSATA",
+                                "class": "active"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "57 x 46 mm"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Adapter",
+                                        "class": "",
+                                        "row": [
+                                            "mSATA to Sata3"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Support SSD Size",
+                                        "class": "",
+                                        "row": [
+                                            "50.8 x 29.8 x 3.6 mm mSATA SSD"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
