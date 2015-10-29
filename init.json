@@ -5713,16 +5713,6 @@
                         "description": "MSI-AM1I Internal IO connector"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-Bottom.jpg",
-                        "title": "",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-Accessory.jpg",
-                        "title": "",
-                        "description": ""
-                    },
-                    {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-IO.jpg",
                         "title": "Mid Motherboard►Rear IO",
                         "description": "H81M-ITX Rear IO Panel"
@@ -5733,16 +5723,6 @@
                         "description": "H81M-ITX Internal IO connector"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Bottom.jpg",
-                        "title": "",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Accessory.jpg",
-                        "title": "",
-                        "description": ""
-                    },
-                    {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-IO.jpg",
                         "title": "High Motherboard►Rear IO",
                         "description": "GA-Z170N-Gaming 5 Rear IO Panel"
@@ -5751,16 +5731,6 @@
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Top.jpg",
                         "title": "High Motherboard►Top View",
                         "description": "GA-Z170N-Gaming 5 Internal IO connector"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Bottom.jpg",
-                        "title": "",
-                        "description": ""
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Accessory.jpg",
-                        "title": "",
-                        "description": ""
                     }
                 ],
                 "Datasheet": [
