@@ -6252,10 +6252,12 @@
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
+                                            "DDR3 2GB",
                                             "DDR4 4GB"
-                                        ],
-                                        "class": ""
+                                        ]
                                     },
                                     {
                                         "title": "DDR3 4GB",
