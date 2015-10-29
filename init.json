@@ -5767,42 +5767,42 @@
                     {
                         "name": "Entry CPU Value",
                         "id": "ID-42",
-                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/AMD-entry-value.jpg",
                         "value": 31,
                         "tag": "AMD - Entry Level"
                     },
                     {
                         "name": "Entry CPU Performance",
                         "id": "ID-43",
-                        "img": "images/expansion/config/Third-party/Processor/AMD-CPU.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/AM-entry-performance.jpg",
                         "value": 54,
                         "tag": "tagline-missing"
                     },
                     {
                         "name": "Mid CPU Value",
                         "id": "ID-44",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-Pentium.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value.jpg",
                         "value": 57,
                         "tag": "Intel - Mid Range"
                     },
                     {
                         "name": "Mid CPU Performance",
                         "id": "ID-45",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i3.png",
+                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-performance.jpg",
                         "value": 125,
                         "tag": "Fast Mid Range"
                     },
                     {
                         "name": "High CPU Value",
                         "id": "ID-46",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i5.png",
+                        "img": "images/expansion/config/Third-party/Processor/high-value.jpg",
                         "value": 205,
                         "tag": "High End"
                     },
                     {
                         "name": "High CPU Performance",
                         "id": "ID-47",
-                        "img": "images/expansion/config/Third-party/Processor/Intel-CPU-i7.png",
+                        "img": "images/expansion/config/Third-party/Processor/High-performance.jpg",
                         "value": 360,
                         "tag": "Extreme"
                     }
