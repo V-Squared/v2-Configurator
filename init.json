@@ -6150,56 +6150,56 @@
                         "id": "ID-50",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 13,
-                        "tag": "tagline"
+                        "tag": "1 x 2GB Kingston 1600"
                     },
                     {
                         "name": "4 GB DDR3",
                         "id": "ID-51",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 28,
-                        "tag": "tagline"
+                        "value": 27,
+                        "tag": "2 x 2GB Crucial 1600"
                     },
                     {
                         "name": "8 GB DDR3",
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 47,
-                        "tag": "tagline"
+                        "value": 38,
+                        "tag": "2 x 4GB G.SKILL 1600"
                     },
                     {
                         "name": "16 GB DDR33",
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
-                        "value": 80,
-                        "tag": "tagline"
+                        "value": 78,
+                        "tag": "2 x 8GB G.SKILL 1600"
                     },
                     {
                         "name": "4 GB DDR4",
                         "id": "ID-54",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 27,
-                        "tag": "tagline"
+                        "tag": "1 x 4GB Crucial 2400"
                     },
                     {
                         "name": "8 GB DDR4",
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 54,
-                        "tag": "tagline"
+                        "tag": "2 x 4GB G.SKILL 2400"
                     },
                     {
                         "name": "16 GB DDR4",
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 135,
-                        "tag": "tagline"
+                        "tag": "2 x 8GB G.SKILL 3200"
                     },
                     {
                         "name": "32 GB DDR4",
                         "id": "ID-57",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 255,
-                        "tag": "tagline"
+                        "tag": "2 x 16GB CORSAIR 2400"
                     }
                 ],
                 "Advice": [],
@@ -6248,55 +6248,76 @@
                 "Gallery": [],
                 "Datasheet": [
                     {
+                        "button": [
+                            {
+                                "name": "ViCase-Tiny",
+                                "class": "active"
+                            },
+                            {
+                                "name": "ViCase-Mini"
+                            }
+                        ],
                         "tables": [
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.kingston.com/us/memory/search/?partid=kvr16n11s6/2 \" target=\" _blank \">2 GB DDR3</a>"
+                                            "DDR3 2GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f3-12800cl9d-4gbrl \" target=\" _blank \">4 GB DDR3</a>"
+                                            "DDR3 4GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f3-12800cl9d-8gbrl  \" target=\" _blank \">8 GB DDR3</a>"
+                                            "DDR3 8GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f3-1600c9d-16gxm \" target=\" _blank \">16 GB DDR3</a>"
+                                            "DDR3 16GB"
                                         ]
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "tables": [
+                            },
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.crucial.com/ProductDisplay?urlRequestType=Base&catalogId=10151&categoryId=&productId=134025&urlLangId=-1&langId=-1&top_category=&parent_category_rn=&storeId=10151 \" target=\" _blank \">4 GB DDR4</a>"
+                                            "DDR3 2GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f4-2400c15d-8gvr \" target=\" _blank \">8 GB DDR4</a>"
+                                            "DDR3 4GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f4-3200c16d-16gvk \" target=\" _blank \">16 GB DDR4</a>"
+                                            "DDR3 8GB"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r \" target=\" _blank \">32 GB DDR4</a>"
+                                            "DDR3 16GB"
                                         ]
                                     }
                                 ]
