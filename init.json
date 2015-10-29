@@ -5747,17 +5747,20 @@
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI-AM1I</a>"
+                                            "Entry Motherboard",
+                                            "Mid CPUMotherboard",
+                                            "High CPUMotherboard"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.asrock.com/mb/Intel/H81M-ITX/\" target=\" _blank \">H81M-ITX</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
+                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI-AM1I</a>",
+                                            "<a href=\"http://www.asrock.com/mb/Intel/H81M-ITX/\" target=\" _blank \">H81M-ITX</a>",
                                             "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5529#ov \" target=\" _blank \">GA-Z170N-Gaming 5 (rev. 1.0)</a>"
                                         ]
                                     }
@@ -5805,14 +5808,14 @@
                         "id": "ID-46",
                         "img": "images/expansion/config/Third-party/Processor/high-value.jpg",
                         "value": 205,
-                        "tag": "High End"
+                        "tag": "Intel -High End"
                     },
                     {
                         "name": "High CPU Performance",
                         "id": "ID-47",
                         "img": "images/expansion/config/Third-party/Processor/High-performance.jpg",
                         "value": 360,
-                        "tag": "Extreme"
+                        "tag": "Intel -Extreme"
                     }
                 ],
                 "TableHeading": [
@@ -5865,12 +5868,12 @@
                     {
                         "title": "Model►Series",
                         "row": [
-                            "Sempron",
-                            "Athlon",
-                            "Pentium",
-                            "Core i3",
-                            "Core i5",
-                            "Core i7"
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819113367\" target=\" _blank \">Sempron 2650</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819113364\" target=\" _blank \">Athlon 5350</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117449 \" target=\" _blank \">Pentium-G3250</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117447&cm_re=i3-4160-_-19-117-447-_-Product \" target=\" _blank \">i3-4160</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117563&cm_re=i5-6500-_-19-117-563-_-Product \" target=\" _blank \">i5-6500</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117559&cm_re=i7-6700K-_-19-117-559-_-Product \" target=\" _blank \">i7-6700K</a>"
                         ]
                     },
                     {
