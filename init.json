@@ -5726,7 +5726,7 @@
                         "description": "H81M-ITX Rear IO Panel"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/ASRock-H81M-ITX-Pannel.jpg",
+                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/ASRock-H81M-ITX-Top.jpg",
                         "title": "Mid Motherboard►Rear IO",
                         "description": "H81M-ITX Internal IO connector"
                     },
@@ -5748,7 +5748,7 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MIS-AM1I</a>"
+                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI-AM1I</a>"
                                         ]
                                     },
                                     {
