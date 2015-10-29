@@ -6248,76 +6248,35 @@
                 "Gallery": [],
                 "Datasheet": [
                     {
-                        "button": [
-                            {
-                                "name": "ViCase-Tiny",
-                                "class": "active"
-                            },
-                            {
-                                "name": "ViCase-Mini"
-                            }
-                        ],
                         "tables": [
                             {
                                 "table": [
                                     {
-                                        "title": "",
+                                        "title": "DDR3 2GB",
                                         "class": "",
                                         "row": [
-                                            "DDR3 2GB"
+                                            "DDR4 4GB"
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "DDR3 4GB",
                                         "class": "",
                                         "row": [
-                                            "DDR3 4GB"
+                                            "DDR4 8GB"
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "DDR3 8GB",
                                         "class": "",
                                         "row": [
-                                            "DDR3 8GB"
+                                            "DDR4 16GB"
                                         ]
                                     },
                                     {
-                                        "title": "",
+                                        "title": "DDR3 16GB",
                                         "class": "",
                                         "row": [
-                                            "DDR3 16GB"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            "DDR3 2GB"
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            "DDR3 4GB"
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            "DDR3 8GB"
-                                        ]
-                                    },
-                                    {
-                                        "title": "",
-                                        "class": "",
-                                        "row": [
-                                            "DDR3 16GB"
+                                            "DDR4 32GB"
                                         ]
                                     }
                                 ]
