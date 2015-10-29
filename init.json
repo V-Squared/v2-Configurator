@@ -5786,14 +5786,14 @@
                         "name": "Entry CPU Performance",
                         "id": "ID-43",
                         "img": "images/expansion/config/Third-party/Processor/AM-entry-performance.jpg",
-                        "value": 54,
+                        "value": 50,
                         "tag": "tagline-missing"
                     },
                     {
                         "name": "Mid CPU Value",
                         "id": "ID-44",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value.jpg",
-                        "value": 57,
+                        "value": 58,
                         "tag": "Intel - Mid Range"
                     },
                     {
@@ -5807,14 +5807,14 @@
                         "name": "High CPU Value",
                         "id": "ID-46",
                         "img": "images/expansion/config/Third-party/Processor/high-value.jpg",
-                        "value": 205,
+                        "value": 200,
                         "tag": "Intel -High End"
                     },
                     {
                         "name": "High CPU Performance",
                         "id": "ID-47",
                         "img": "images/expansion/config/Third-party/Processor/High-performance.jpg",
-                        "value": 360,
+                        "value": 370,
                         "tag": "Intel -Extreme"
                     }
                 ],
