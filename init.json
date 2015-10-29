@@ -6146,56 +6146,56 @@
                 "part": "RAM",
                 "yourChoice": [
                     {
-                        "name": "2 GB DDR3",
+                        "name": "DDR3 2GB",
                         "id": "ID-50",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 13,
                         "tag": "1 x 2GB Kingston 1600"
                     },
                     {
-                        "name": "4 GB DDR3",
+                        "name": "DDR3 4GB",
                         "id": "ID-51",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 27,
                         "tag": "2 x 2GB Crucial 1600"
                     },
                     {
-                        "name": "8 GB DDR3",
+                        "name": "DDR3 8GB",
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 38,
                         "tag": "2 x 4GB G.SKILL 1600"
                     },
                     {
-                        "name": "16 GB DDR33",
+                        "name": "DDR3 16GB",
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 78,
                         "tag": "2 x 8GB G.SKILL 1600"
                     },
                     {
-                        "name": "4 GB DDR4",
+                        "name": "DDR4 4GB",
                         "id": "ID-54",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 27,
                         "tag": "1 x 4GB Crucial 2400"
                     },
                     {
-                        "name": "8 GB DDR4",
+                        "name": "DDR4 8GB",
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 54,
                         "tag": "2 x 4GB G.SKILL 2400"
                     },
                     {
-                        "name": "16 GB DDR4",
+                        "name": "DDR4 16GB",
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 135,
                         "tag": "2 x 8GB G.SKILL 3200"
                     },
                     {
-                        "name": "32 GB DDR4",
+                        "name": "DDR4 32GB",
                         "id": "ID-57",
                         "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
                         "value": 255,
