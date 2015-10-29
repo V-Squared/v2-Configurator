@@ -6255,29 +6255,40 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "DDR3 2GB",
-                                            "DDR4 4GB"
+                                            "DDR3",
+                                            "DDR4"
                                         ]
                                     },
                                     {
-                                        "title": "DDR3 4GB",
+                                        "title": "",
                                         "class": "",
                                         "row": [
-                                            "DDR4 8GB"
+                                            "2GB",
+                                            "4GB"
                                         ]
                                     },
                                     {
-                                        "title": "DDR3 8GB",
+                                        "title": "",
                                         "class": "",
                                         "row": [
-                                            "DDR4 16GB"
+                                            "4GB",
+                                            "8GB"
                                         ]
                                     },
                                     {
-                                        "title": "DDR3 16GB",
+                                        "title": "",
                                         "class": "",
                                         "row": [
-                                            "DDR4 32GB"
+                                            "8GB",
+                                            "16GB"
+                                        ]
+                                    },
+                                    {
+                                        "title": "",
+                                        "class": "",
+                                        "row": [
+                                            "16GB",
+                                            "32GB"
                                         ]
                                     }
                                 ]
