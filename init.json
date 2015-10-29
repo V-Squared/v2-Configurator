@@ -6270,7 +6270,11 @@
                                         "row": [
                                             "<a href=\"http://www.gskill.com/en/product/f3-1600c9d-16gxm \" target=\" _blank \">16 GB DDR3</a>"
                                         ]
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
                                     {
                                         "row": [
                                             "<a href=\"http://www.crucial.com/ProductDisplay?urlRequestType=Base&catalogId=10151&categoryId=&productId=134025&urlLangId=-1&langId=-1&top_category=&parent_category_rn=&storeId=10151 \" target=\" _blank \">4 GB DDR4</a>"
