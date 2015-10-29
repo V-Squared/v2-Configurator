@@ -5711,7 +5711,7 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/Entry-AMD-IO.jpg",
+                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MSI-AM1I-Pannel.jpg",
                         "title": "Entry Motherboard►Rear IO",
                         "description": "MSI-AM1I Rear IO Panel"
                     },
@@ -5721,23 +5721,13 @@
                         "description": "MSI-AM1I Internal IO connector"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-IO.jpg",
+                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/ASRock-H81M-ITX-Pannel.jpg",
                         "title": "Mid Motherboard►Rear IO",
-                        "description": "H81M-ITX Rear IO Panel"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MidRange-Top.jpg",
-                        "title": "Mid Motherboard►Top View",
-                        "description": "H81M-ITX Internal IO connector"
-                    },
-                    {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-IO.jpg",
-                        "title": "High Motherboard►Rear IO",
                         "description": "GA-Z170N-Gaming 5 Rear IO Panel"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/HighEnd-Top.jpg",
-                        "title": "High Motherboard►Top View",
+                        "image": "images/expansion/config/Third-party/MotherBoard/Gallery/ASRock-H81M-ITX-Top.jpg",
+                        "title": "Mid Motherboard►Top View",
                         "description": "GA-Z170N-Gaming 5 Internal IO connector"
                     }
                 ],
