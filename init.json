@@ -5498,7 +5498,7 @@
                             "#chapter-3-section-2-Button-2",
                             "#chapter-3-section-2-Button-3"
                         ],
-                        "value": 129
+                        "value": 165
                     }
                 ],
                 "TableHeading": [
@@ -5579,7 +5579,7 @@
                         "row": [
                             "AM1 (*2)",
                             "LGA 1150 (*3)",
-                            "LGA 1151 (4)"
+                            "LGA 1151 (*4)"
                         ]
                     },
                     {
