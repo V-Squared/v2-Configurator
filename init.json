@@ -5452,12 +5452,13 @@
                 "name": "Motherboard",
                 "part": "motherboard",
                 "TableTag": [
-                    "(*1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed.",
-                    "(*2) AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet.",
-                    "(*3) All current intel Desktop CPU use this socket from entry level to high end, except the very latest ones",
-                    "(*4) Brand new CPU socket, just released in second half of 2015",
-                    "(*5) The mPCIe socket is occupied with included WLan module",
-                    "(*6) UHD Is one form of 4K Display resolution of 3940x2160 pixels size"
+                    "(1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed.",
+                    "(2) AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet.",
+                    "(3) All current intel Desktop CPU use this socket from entry level to high end, except the very latest ones",
+                    "(4) Brand new CPU socket, just released in second half of 2015",
+                    "(5) Accelerate your HD with your SSD (very useful)",
+                    "(6) The mPCIe socket is occupied with included WLan module",
+                    "(7) 1080p = 1920 x 1080. UHD Is one form of 4K Display resolution of 3940x2160 pixels size. This is the common format of 4K displays. There is a slightly bigger one used in Cinema. The ASRock Z170-ITX/ac can drive that one too!"
                 ],
                 "yourChoice": [
                     {
@@ -5511,8 +5512,8 @@
                             "#chapter-3-section-2-Button-3"
                         ],
                         "value": 165,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846",
-                        "tag": "GIGABYTE- GA-Z170N-Gaming 5 (rev. 1.0)"
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650",
+                        "tag": "Z170-ITX/ac"
                     }
                 ],
                 "TableHeading": [
@@ -5536,7 +5537,7 @@
                         "row": [
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759\" target=\" _blank \">AM1I</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813157451\" target=\" _blank \">H81M-ITX</a>",
-                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846\" target=\" _blank \">GA-Z170N-Gaming 5 (rev. 1.0)</a>"
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650\" target=\" _blank \">Z170-ITX/ac</a>"
                         ]
                     },
                     {
@@ -5544,7 +5545,7 @@
                         "row": [
                             "MSI",
                             "ASRock",
-                            "GIGABYTE"
+                            "ASRock"
                         ]
                     },
                     {
@@ -5580,20 +5581,11 @@
                         ]
                     },
                     {
-                        "title": "CPU►Max Benchmark",
-                        "row": [
-                            "-",
-                            "-",
-                            "-",
-                            "-"
-                        ]
-                    },
-                    {
                         "title": "CPU►Socket Name",
                         "row": [
-                            "AM1 (*2)",
-                            "LGA 1150 (*3)",
-                            "LGA 1151 (*4)"
+                            "AM1 (2)",
+                            "LGA 1150 (3)",
+                            "LGA 1151 (4)"
                         ]
                     },
                     {
@@ -5605,7 +5597,7 @@
                         ]
                     },
                     {
-                        "title": "Disk►Hybrid Disk",
+                        "title": "Disk►SSD Cache (5)",
                         "row": [
                             "No",
                             "No",
@@ -5629,6 +5621,14 @@
                         ]
                     },
                     {
+                        "title": "Disk►NVME►M.2",
+                        "row": [
+                            "-",
+                            "-",
+                            "1"
+                        ]
+                    },
+                    {
                         "title": "Mem►Max size",
                         "row": [
                             "32 GB",
@@ -5649,19 +5649,11 @@
                         "row": [
                             "1600 MHz",
                             "1600 MHz",
-                            "3333MHz(O.C.)"
+                            "2133 MHz"
                         ]
                     },
                     {
-                        "title": "I/O►M.2",
-                        "row": [
-                            "No",
-                            "No",
-                            "Yes"
-                        ]
-                    },
-                    {
-                        "title": "I/O►WLan",
+                        "title": "I/O►WiFi Lan",
                         "row": [
                             "No",
                             "No",
@@ -5671,33 +5663,41 @@
                     {
                         "title": "I/O►mPCIe socket",
                         "row": [
-                            "Yes(*5)",
+                            "Yes",
                             "No",
-                            "No"
+                            "Yes(6)"
                         ]
                     },
                     {
-                        "title": "I/O►Qty USB ports",
+                        "title": "I/O►Qty USB 2 ports",
                         "row": [
-                            "4",
-                            "6",
-                            "5"
-                        ]
-                    },
-                    {
-                        "title": "Display►Qty Ports",
-                        "row": [
-                            "3",
-                            "3",
+                            "2",
+                            "2",
                             "2"
                         ]
                     },
                     {
-                        "title": "Display►UHD (*6) Support",
+                        "title": "I/O►Qty USB 3 ports",
+                        "row": [
+                            "2",
+                            "4",
+                            "6"
+                        ]
+                    },
+                    {
+                        "title": "Display►Digital Ports",
+                        "row": [
+                            2,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "title": "Display►Resolution (7)",
                         "row": [
                             "UHD@30Hz",
                             "1080p@60Hz",
-                            "UHD@24 Hz"
+                            "UHD@60 Hz"
                         ]
                     }
                 ],
