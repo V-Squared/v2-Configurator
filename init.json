@@ -5579,10 +5579,10 @@
                     {
                         "title": "CPU►Max Benchmark",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "-"
                         ]
                     },
                     {
@@ -5791,42 +5791,42 @@
                         "id": "ID-42",
                         "img": "images/expansion/config/Third-party/Processor/AMD-entry-value.jpg",
                         "value": 31,
-                        "tag": "AMD - Entry Level"
+                        "tag": "AMD - Sempron 2650"
                     },
                     {
                         "name": "Entry CPU Performance",
                         "id": "ID-43",
                         "img": "images/expansion/config/Third-party/Processor/AMD-entry-performance.jpg",
                         "value": 50,
-                        "tag": "tagline-missing"
+                        "tag": "AMD - Athlon 5350"
                     },
                     {
                         "name": "Mid CPU Value",
                         "id": "ID-44",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
                         "value": 58,
-                        "tag": "Intel - Mid Range"
+                        "tag": "Pentium-G3250"
                     },
                     {
                         "name": "Mid CPU Performance",
                         "id": "ID-45",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-performance.jpg",
                         "value": 125,
-                        "tag": "Fast Mid Range"
+                        "tag": "Intel - i3-4160"
                     },
                     {
                         "name": "High CPU Value",
                         "id": "ID-46",
                         "img": "images/expansion/config/Third-party/Processor/high-value.jpg",
                         "value": 200,
-                        "tag": "Intel -High End"
+                        "tag": "Intel - i5-6500"
                     },
                     {
                         "name": "High CPU Performance",
                         "id": "ID-47",
                         "img": "images/expansion/config/Third-party/Processor/High-performance.jpg",
                         "value": 370,
-                        "tag": "Intel -Extreme"
+                        "tag": "Intel - i7-6700K"
                     }
                 ],
                 "TableHeading": [
