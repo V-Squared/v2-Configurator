@@ -6611,6 +6611,50 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "Kingston - SSDNow V300 Series - SV300S37A/120G"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Samsung - 850 EVO- MZ-75E250B/AM"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Samsung - 850 EVO - MZ-7KE512BW"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Samsung - 850 EVO - MZ-75E1T0B/AM"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Samsung - 950 Pro - MZ-V5P256BW"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Samsung - 950 Pro - MZ-V5P512BW"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Intel - 750 - SSDPEDMW400G4X1"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "Intel - 750 - SSDPEDMW800G4X1"
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
