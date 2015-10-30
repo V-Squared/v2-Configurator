@@ -5805,7 +5805,7 @@
                         "id": "ID-44",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
                         "value": 58,
-                        "tag": "Pentium-G3250"
+                        "tag": "Intel - Pentium-G3250"
                     },
                     {
                         "name": "Mid CPU Performance",
@@ -6114,22 +6114,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/Third-party/Processor/amd-sempron.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/amd-sempron.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Processor/amd-athlon.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/amd-athlon.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Processor/Pentium-G3250.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/Pentium-G3250.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Processor/i3.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i3.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Processor/i5-6500.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i5-6500.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Processor/i7-6700K.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i7-6700K.jpg"
                     }
                 ],
                 "Datasheet": [
