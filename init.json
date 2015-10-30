@@ -6093,7 +6093,7 @@
                     },
                     {
                         "heading": "Athlon 5350",
-                        "content": ""
+                        "content": "This is the speed upgrade for the Entry Level System. It is 3 x faster than the Sempron-2650 and almost as fast as the Pentium-G3250. This CPU will give you a very snappy Office / General Purpose PC. The power budget is still very small with 25W in total, which leads to additional savings in power supply and CPU cooler. Bear in mind that this is the fastest CPU that you can plug into the Entry Motherboard. If you plan on growing the performance of your PC, then you will be better served with the Mid Range Motherboard. But if you are looking for lowest cost, low power consumption HTPC / Office PC, this is the best value — with quite a margin."
                     },
                     {
                         "heading": "Pentium-G3250",
@@ -6114,22 +6114,34 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/Third-party/Processor/amd-sempron.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/amd-sempron.jpg",
+                        "title": "Entry CPU Value",
+                        "description": "AMD - Sempron 2650. Lowest Cost / Lowest Power Consumption CPU. Ideal for presentation system."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/amd-athlon.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/amd-athlon.jpg",
+                        "title": "Entry CPU Performance",
+                        "description": "AMD - Athlon 5350. Good Value for General Purpose / Office PC or HTPC. Also very low power consumption."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/Pentium-G3250.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/Pentium-G3250.jpg",
+                        "title": "Mid CPU Value",
+                        "description": "Intel - Pentium-G3250. General Purpose / Office PC or HTPC. Not as low power consumption as Athlon 5350, but thanks to socket 1150 it gives you room to grow."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/i3.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i3.jpg",
+                        "title": "Mid CPU Performance",
+                        "description": "Intel - i3-4160. Very fast general purpose CPU."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/i5-6500.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i5-6500.jpg",
+                        "title": "High CPU Value",
+                        "description": "Intel - i5-6500. High End CPU for demanding work, such as Gaming or Creative Work."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/i7-6700K.jpg"
+                        "image": "images/expansion/config/Third-party/Processor/i7-6700K.jpg",
+                        "title": "High CPU Performance",
+                        "description": "Intel i7-6700K. The fastest CPU you can put into a Mini / All-In-One PC. Enough horse power for even the most demanding apps."
                     }
                 ],
                 "Datasheet": [
@@ -6280,16 +6292,16 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/Third-party/Memory/4g-ddr4.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/4g-ddr4.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Memory/Gallery2.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/Gallery2.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Memory/2g-ddr3-with-heatsink.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/2g-ddr3-with-heatsink.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Memory/DDR4-Dual-sticks-red-color-high-with-cooler.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/DDR4-Dual-sticks-red-color-high-with-cooler.jpg"
                     }
                 ],
                 "Datasheet": [
