@@ -5901,12 +5901,12 @@
                     {
                         "title": "Model►# of Cores",
                         "row": [
-                            "Dual-Core",
-                            "Quad-Core",
-                            "Dual-Core",
-                            "Dual-Core",
-                            "Quad-Core",
-                            "Quad-Core"
+                            "Dual <br>-Core",
+                            "Quad <br>-Core",
+                            "Dual <br>-Core",
+                            "Dual <br>-Core",
+                            "Quad <br>-Core",
+                            "Quad <br>-Core"
                         ]
                     },
                     {
@@ -5925,10 +5925,10 @@
                         "row": [
                             "1MB",
                             "2MB",
-                            "2 x 256KB",
-                            "2 x 256KB",
-                            "4 x 256KB",
-                            "4 x 256KB"
+                            "2 <br>x 256KB",
+                            "2 <br>x 256KB",
+                            "4 <br>x 256KB",
+                            "4 <br>x 256KB"
                         ]
                     },
                     {
