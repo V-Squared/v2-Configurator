@@ -211,6 +211,7 @@
                 "part": "case-size",
                 "slide": "slide1",
                 "noNone": true,
+                "TableTag":["Test"],
                 "yourChoice": [
                     {
                         "name": "ViCase-Tiny",
