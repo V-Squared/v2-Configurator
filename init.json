@@ -5739,12 +5739,12 @@
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/GA-Z170N-Gaming 5-(rev. 1.0)-pannel.jpg",
                         "title": "High Motherboard►Rear IO",
-                        "description": "GA-Z170N-Gaming 5 Rear IO Panel"
+                        "description": "Z170-ITX/ac Rear IO Panel"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/GA-Z170N-Gaming 5-(rev. 1.0)-topview.jpg",
                         "title": "High Motherboard►Top View",
-                        "description": "GA-Z170N-Gaming 5 Internal IO connector"
+                        "description": "Z170-ITX/ac Internal IO connector"
                     }
                 ],
                 "Datasheet": [
