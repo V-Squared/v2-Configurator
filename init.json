@@ -5796,14 +5796,14 @@
                     {
                         "name": "Entry CPU Performance",
                         "id": "ID-43",
-                        "img": "images/expansion/config/Third-party/Processor/AM-entry-performance.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/AMD-entry-performance.jpg",
                         "value": 50,
                         "tag": "tagline-missing"
                     },
                     {
                         "name": "Mid CPU Value",
                         "id": "ID-44",
-                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
                         "value": 58,
                         "tag": "Intel - Mid Range"
                     },
