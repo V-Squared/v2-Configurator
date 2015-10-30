@@ -5703,24 +5703,16 @@
                 ],
                 "Advice": [
                     {
-                        "heading": "Entry AMD",
-                        "content": "Choose this motherboard if lowest power consumption is most important. You have CPU choices of 12 and 25W. The lowest Intel CPU choice is 35W. But since the Motherboard chip is integrated in AMD AM1 and not integrated in Intel CPUs your power consumption comparison is 12W versus 48W. Keep in mind though that maximum performance of Entry AMD line is limited to about the performance level of a tablet. In some countries Entry AMD is half the cost for motherboard and CPU when compared to Entry Intel. In other countries the cost is the same."
+                        "heading": "Entry Level Motherboard",
+                        "content": "Choose this motherboard if lowest power consumption and / or lowest cost is most important. You have CPU choices of 12 and 25W. The lowest Intel CPU choice is 35 W. But since the Motherboard chip is integrated in AMD AM1 and not integrated in Intel CPUs your power consumption comparison is 12 W versus 48W. Keep in mind though that maximum performance of Entry AMD line is limited to about the performance level of a tablet. In some countries Entry AMD is half the cost for motherboard and CPU when compared to Entry Intel. In other countries the cost is the same. This motherboard directly supports UHD = 4k Display. Only at 30 Hz, but will be sufficient for high end picture frame. Paired with ViCase Tiny you get a Mini or All-In-One PC of lowest cost, lowest power consumption with good looks. Using standard Desktop components will allow you to upgrade only parts when needed and keep it operational for decades to come. The very low power consumption allows for passive cooling and makes this PC practically maintenance free."
                     },
                     {
-                        "heading": "About Intel MotherBoards",
-                        "content": "Intel CPUs span the range from entry level (Celeron) to High End (i7), all using the same socket LGA 1150. This means you can start with an entry level CPU and upgrade your CPU later. All selected motherboards feature the LGA 1150, as such they all can take the i7 CPU. What makes a difference in motherboard features are the performance of connected accessories. Such as how many disks, RAID, maximum memory clock, etc. This motherboard directly supports UHD = 4k Display. Only at 30 Hz, but will be sufficient for high end picture frame."
+                        "heading": "Mid Range Motherboard",
+                        "content": "Lowest cost Intel Motherboard. Comes with all basic features to build a mid range PC with a fast SSD Boot Disk and if needed a second Data Disk for more space @ better cost. Great foundation for a mid range PC, including decent gaming when paired with a GPU. The LGA 1150 CPU socket supports a huge range of intel CPU up to the very fast i7 Quad Core 4790. This means you will have plenty of room to upgrade your CPU later if so desired. You can build computer with this motherboard that will be snappy at everything you throw at them, except for high end demanding applications."
                     },
                     {
-                        "heading": "Entry Intel",
-                        "content": "Lowest cost Intel Motherboard. Comes with all basic features, such as 2 Disks, 16 MHz DDR3. 3 Display supported, resolution up to HD = 1920 x 1080 @ 60Hz"
-                    },
-                    {
-                        "heading": "Mid Range Intel",
-                        "content": "All features if Entry Intel plus step up features: Much faster Disk performance by supporting RAID 5 and Hybrid Disk. Build in high speed WiFi. "
-                    },
-                    {
-                        "heading": "High End Intel",
-                        "content": "All features if Entry Intel plus step up features: Double Memory Speed, Support for Overclocking, Support for UHD Displays = 3840 x 2160 @ 60Hz."
+                        "heading": "High End Motherboard",
+                        "content": "Choose this board if you are looking for ultimate performance. Lets break it down into sections: 1) Disks: Very high performing RAID 5 Controller. We use this in the high end configurations to give you very large Data Disks at speed levels similar to SSD and security even beyond. 2) NVME-M2: This port is 600% faster than SATA 3. A dramatic improvement. 3) 32 GB DDR4. You can use more memory and it is 40% faster than DDR3. 4) New CPU Socket 1151: It gives you all these cool features and makes your board future proof. 5) Integrated 4K Display support: Connect the latest 4K display without the need to add a GPU card. 6) Build in WiFi. 7) If you are looking for the fastest PC possible, choose this board with confidence. ViCase comes with the matching CPU cooling solution, so you can run even the biggest CPU at 100% load all the time without thermal throttling. The V²Configurator has high end configurations to turn all these extras into a much faster computer for you."
                     }
                 ],
                 "Gallery": [
