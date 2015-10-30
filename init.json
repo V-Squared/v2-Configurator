@@ -211,7 +211,6 @@
                 "part": "case-size",
                 "slide": "slide1",
                 "noNone": true,
-                "TableTag":["Test"],
                 "yourChoice": [
                     {
                         "name": "ViCase-Tiny",
@@ -5452,6 +5451,7 @@
                 "url": "images/expansion/config/mainBoard.jpg",
                 "name": "Motherboard",
                 "part": "motherboard",
+                "TableTag":["Test"],
                 "yourChoice": [
                     {
                         "name": "Entry Motherboard",
