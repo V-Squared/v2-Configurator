@@ -6181,56 +6181,56 @@
                     {
                         "name": "DDR3 2GB",
                         "id": "ID-50",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/2g-ddr31.jpg",
                         "value": 13,
                         "tag": "1 x 2GB Kingston 1600"
                     },
                     {
                         "name": "DDR3 4GB",
                         "id": "ID-51",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/4-DDR3.jpg",
                         "value": 27,
                         "tag": "2 x 2GB Crucial 1600"
                     },
                     {
                         "name": "DDR3 8GB",
                         "id": "ID-52",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/8-DDR3.jpg",
                         "value": 38,
                         "tag": "2 x 4GB G.SKILL 1600"
                     },
                     {
                         "name": "DDR3 16GB",
                         "id": "ID-53",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/16-DDR3.jpg",
                         "value": 78,
                         "tag": "2 x 8GB G.SKILL 1600"
                     },
                     {
                         "name": "DDR4 4GB",
                         "id": "ID-54",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/4-DDR4.jpg",
                         "value": 27,
                         "tag": "1 x 4GB Crucial 2400"
                     },
                     {
                         "name": "DDR4 8GB",
                         "id": "ID-55",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/8-DDR4.jpg",
                         "value": 54,
                         "tag": "2 x 4GB G.SKILL 2400"
                     },
                     {
                         "name": "DDR4 16GB",
                         "id": "ID-56",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/16-DDR4.jpg",
                         "value": 135,
                         "tag": "2 x 8GB G.SKILL 3200"
                     },
                     {
                         "name": "DDR4 32GB",
                         "id": "ID-57",
-                        "img": "images/expansion/config/Third-party/Memory/Memory.jpg",
+                        "img": "images/expansion/config/Third-party/Memory/32-DDR4.jpg",
                         "value": 255,
                         "tag": "2 x 16GB CORSAIR 2400"
                     }
