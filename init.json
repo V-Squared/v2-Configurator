@@ -5786,6 +5786,7 @@
                         "id": "ID-42",
                         "img": "images/expansion/config/Third-party/Processor/AMD-entry-value.jpg",
                         "value": 31,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819113367",
                         "tag": "AMD - Sempron 2650"
                     },
                     {
@@ -5793,6 +5794,7 @@
                         "id": "ID-43",
                         "img": "images/expansion/config/Third-party/Processor/AMD-entry-performance.jpg",
                         "value": 50,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819113364",
                         "tag": "AMD - Athlon 5350"
                     },
                     {
@@ -5800,6 +5802,7 @@
                         "id": "ID-44",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
                         "value": 58,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117449",
                         "tag": "Intel - Pentium-G3250"
                     },
                     {
@@ -5807,6 +5810,7 @@
                         "id": "ID-45",
                         "img": "images/expansion/config/Third-party/Processor/Mid-CPU-performance.jpg",
                         "value": 125,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117447&cm_re=i3-4160-_-19-117-447-_-Product",
                         "tag": "Intel - i3-4160"
                     },
                     {
@@ -5814,6 +5818,7 @@
                         "id": "ID-46",
                         "img": "images/expansion/config/Third-party/Processor/high-value.jpg",
                         "value": 200,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117563&cm_re=i5-6500-_-19-117-563-_-Product",
                         "tag": "Intel - i5-6500"
                     },
                     {
@@ -5821,6 +5826,7 @@
                         "id": "ID-47",
                         "img": "images/expansion/config/Third-party/Processor/High-performance.jpg",
                         "value": 370,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117559&cm_re=i7-6700K-_-19-117-559-_-Product",
                         "tag": "Intel - i7-6700K"
                     }
                 ],
@@ -6190,6 +6196,7 @@
                         "id": "ID-50",
                         "img": "images/expansion/config/Third-party/Memory/2g-ddr31.jpg",
                         "value": 13,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820239850",
                         "tag": "1 x 2GB Kingston 1600"
                     },
                     {
@@ -6197,6 +6204,7 @@
                         "id": "ID-51",
                         "img": "images/expansion/config/Third-party/Memory/4-DDR3.jpg",
                         "value": 27,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148758",
                         "tag": "2 x 2GB Crucial 1600"
                     },
                     {
@@ -6204,6 +6212,7 @@
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR3.jpg",
                         "value": 38,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231546",
                         "tag": "2 x 4GB G.SKILL 1600"
                     },
                     {
@@ -6211,6 +6220,7 @@
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR3.jpg",
                         "value": 78,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231558",
                         "tag": "2 x 8GB G.SKILL 1600"
                     },
                     {
@@ -6218,6 +6228,7 @@
                         "id": "ID-54",
                         "img": "images/expansion/config/Third-party/Memory/4-DDR4.jpg",
                         "value": 27,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148862",
                         "tag": "1 x 4GB Crucial 2400"
                     },
                     {
@@ -6225,6 +6236,7 @@
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR4.jpg",
                         "value": 54,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231886",
                         "tag": "2 x 4GB G.SKILL 2400"
                     },
                     {
@@ -6232,6 +6244,7 @@
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR4.jpg",
                         "value": 135,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231902",
                         "tag": "2 x 8GB G.SKILL 3200"
                     },
                     {
@@ -6239,6 +6252,7 @@
                         "id": "ID-57",
                         "img": "images/expansion/config/Third-party/Memory/32-DDR4.jpg",
                         "value": 255,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820233866",
                         "tag": "2 x 16GB CORSAIR 2400"
                     }
                 ],
@@ -6361,6 +6375,7 @@
                         "id": "ID-58",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 50,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820721107&cm_re=SV300S37A%2f120G-_-20-721-107-_-Product",
                         "tag": "Kingston - SSDNow V300 Series - SV300S37A/120G"
                     },
                     {
@@ -6368,6 +6383,7 @@
                         "id": "ID-59",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 96,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
                         "tag": "Samsung - 850 EVO- MZ-75E250B/AM"
                     },
                     {
@@ -6375,6 +6391,7 @@
                         "id": "ID-60",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 173,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02DV8166",
                         "tag": "Samsung - 850 EVO - MZ-7KE512BW"
                     },
                     {
@@ -6382,6 +6399,7 @@
                         "id": "ID-61",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 366,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA12K2GN1593",
                         "tag": "Samsung - 850 EVO - MZ-75E1T0B/AM"
                     },
                     {
@@ -6389,6 +6407,7 @@
                         "id": "ID-181",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 200,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820147466",
                         "tag": "Samsung - 950 Pro - MZ-V5P256BW"
                     },
                     {
@@ -6396,6 +6415,7 @@
                         "id": "ID-182",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 350,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820147467",
                         "tag": "Samsung - 950 Pro - MZ-V5P512BW"
                     },
                     {
@@ -6403,6 +6423,7 @@
                         "id": "ID-183",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 370,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820167359",
                         "tag": "Intel - 750 - SSDPEDMW400G4X1"
                     },
                     {
@@ -6410,6 +6431,7 @@
                         "id": "ID-184",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
                         "value": 700,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820167361",
                         "tag": "Intel - 750 - SSDPEDMW800G4X1"
                     }
                 ],
