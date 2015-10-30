@@ -5451,7 +5451,9 @@
                 "url": "images/expansion/config/mainBoard.jpg",
                 "name": "Motherboard",
                 "part": "motherboard",
-                "TableTag":["Test"],
+                "TableTag": [
+                    "(*1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed.(*2) AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet.(*3) All current intel Desktop CPU use this socket from entry level to high end, except the very latest ones(*4) Brand new CPU socket, just released in second half of 2015(*5) The mPCIe socket is occupied with included WLan module(*6) UHD Is one form of 4K Display resolution of 3940x2160 pixels size"
+                ],
                 "yourChoice": [
                     {
                         "name": "Entry Motherboard",
