@@ -6572,85 +6572,49 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820721107&cm_re=SV300S37A%2f120G-_-20-721-107-_-Product \" target=\" _blank \">SATA3 2.5\" SSD 120GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241 \" target=\" _blank \">SATA3 2.5\" SSD 250GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02DV8166 \" target=\" _blank \">SATA3 2.5\" SSD 500GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA12K2GN1593 \" target=\" _blank \">SATA3 2.5\" SSD 1TB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820147466 \" target=\" _blank \">NVME M.2 SSD 256 GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820147467 \" target=\" _blank \">NVME M.2 SSD 512 GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820167359 \" target=\" _blank \">NVME PCIe SSD 400 GB</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820167361 \" target=\" _blank \">NVME PCIe SSD 800 GB</a>"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820721107&cm_re=SV300S37A%2f120G-_-20-721-107-_-Product \" target=\" _blank \">SATA3 2.5\" SSD 120GB</a>",
                                             "Kingston - SSDNow V300 Series - SV300S37A/120G"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241 \" target=\" _blank \">SATA3 2.5\" SSD 250GB</a>",
                                             "Samsung - 850 EVO- MZ-75E250B/AM"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02DV8166 \" target=\" _blank \">SATA3 2.5\" SSD 500GB</a>",
                                             "Samsung - 850 EVO - MZ-7KE512BW"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=9SIA12K2GN1593 \" target=\" _blank \">SATA3 2.5\" SSD 1TB</a>",
                                             "Samsung - 850 EVO - MZ-75E1T0B/AM"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820147466 \" target=\" _blank \">NVME M.2 SSD 256 GB</a>",
                                             "Samsung - 950 Pro - MZ-V5P256BW"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820147467 \" target=\" _blank \">NVME M.2 SSD 512 GB</a>",
                                             "Samsung - 950 Pro - MZ-V5P512BW"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820167359 \" target=\" _blank \">NVME PCIe SSD 400 GB</a>",
                                             "Intel - 750 - SSDPEDMW400G4X1"
                                         ]
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820167361 \" target=\" _blank \">NVME PCIe SSD 800 GB</a>",
                                             "Intel - 750 - SSDPEDMW800G4X1"
                                         ]
                                     }
