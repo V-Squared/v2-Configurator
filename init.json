@@ -6545,16 +6545,24 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery1.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery1.jpg",
+                        "title": "Size",
+                        "description": "Left to Right: Apple & Ruler, NVME-PCIe, 3.5\" Disk, 2.5\" Disk, mSATA Module, M.2 Module"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery2.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery2.jpg",
+                        "title": "SATA3 SSD 2.5\"",
+                        "description": "A 2.5\" SSD with SATA 3 connector."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery3.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery3.jpg",
+                        "title": "NVME-M.2 SSD",
+                        "description": "A M.2 SSD Module. This one is with NVME and as such 4 x faster than the identical looking module with SATA 3. So be aware! To use it your Motherboard need to have a M.2 Slot"
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery4.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery4.jpg",
+                        "title": "NVME-PCIe SSD",
+                        "description": "A SSD in the PCIe Add In Card form factor. You need a motherboard to support NVME so you can boot from this card."
                     }
                 ],
                 "Datasheet": [
