@@ -5465,7 +5465,8 @@
                             "#chapter-3-section-2-Button-6",
                             "#chapter-3-section-2-Button-7"
                         ],
-                        "value": 35
+                        "value": 35,
+                        "tag": "MSI-AM1I"
                     },
                     {
                         "name": "Mid Motherboard",
@@ -5480,7 +5481,8 @@
                             "#chapter-3-section-2-Button-6",
                             "#chapter-3-section-2-Button-7"
                         ],
-                        "value": 55
+                        "value": 55,
+                        "tag": "ASRock-H81M-ITX"
                     },
                     {
                         "name": "High Motherboard",
@@ -5498,7 +5500,8 @@
                             "#chapter-3-section-2-Button-2",
                             "#chapter-3-section-2-Button-3"
                         ],
-                        "value": 165
+                        "value": 165,
+                        "tag": "GIGABYTE- GA-Z170N-Gaming 5 (rev. 1.0)"
                     }
                 ],
                 "TableHeading": [
@@ -5520,7 +5523,7 @@
                     {
                         "title": "MoBo►Name",
                         "row": [
-                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759\" target=\" _blank \">MSI-AM1I</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759\" target=\" _blank \">AM1I</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813157451\" target=\" _blank \">H81M-ITX</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846\" target=\" _blank \">GA-Z170N-Gaming 5 (rev. 1.0)</a>"
                         ]
@@ -5759,7 +5762,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI-AM1I</a>",
+                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">AM1I</a>",
                                             "<a href=\"http://www.asrock.com/mb/Intel/H81M-ITX/\" target=\" _blank \">H81M-ITX</a>",
                                             "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5529#ov \" target=\" _blank \">GA-Z170N-Gaming 5 (rev. 1.0)</a>"
                                         ]
