@@ -5474,6 +5474,7 @@
                             "#chapter-3-section-2-Button-7"
                         ],
                         "value": 35,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759",
                         "tag": "MSI-AM1I"
                     },
                     {
@@ -5490,6 +5491,7 @@
                             "#chapter-3-section-2-Button-7"
                         ],
                         "value": 55,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813157451",
                         "tag": "ASRock-H81M-ITX"
                     },
                     {
@@ -5509,6 +5511,7 @@
                             "#chapter-3-section-2-Button-3"
                         ],
                         "value": 165,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846",
                         "tag": "GIGABYTE- GA-Z170N-Gaming 5 (rev. 1.0)"
                     }
                 ],
@@ -6550,16 +6553,16 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/Third-party/Boot-Disk/Gallery1.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery1.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Boot-Disk/Gallery2.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery2.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Boot-Disk/Gallery3.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery3.jpg"
                     },
                     {
-                        "image":"images/expansion/config/Third-party/Boot-Disk/Gallery4.jpg"
+                        "image": "images/expansion/config/Third-party/Boot-Disk/Gallery4.jpg"
                     }
                 ],
                 "Datasheet": [
