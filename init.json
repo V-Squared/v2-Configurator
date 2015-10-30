@@ -5535,7 +5535,7 @@
                     {
                         "title": "MoBo►Name",
                         "row": [
-                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759\" target=\" _blank \">AM1I</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759\" target=\" _blank \">MSI AM1</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813157451\" target=\" _blank \">H81M-ITX</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813157650\" target=\" _blank \">Z170-ITX/ac</a>"
                         ]
@@ -5559,7 +5559,7 @@
                     {
                         "title": "MoBo►Chip",
                         "row": [
-                            "N/A (*1)",
+                            "N/A (1)",
                             "H81",
                             "Z170"
                         ]
