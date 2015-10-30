@@ -6318,60 +6318,60 @@
                 "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "yourChoice": [
                     {
-                        "name": "SSD SATA3 120GB",
+                        "nam": "SATA3 2.5\" SSD 120GB",
                         "id": "ID-58",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 42,
-                        "tag": "tag-line"
+                        "value": 50,
+                        "tag": "Kingston - SSDNow V300 Series - SV300S37A/120G"
                     },
                     {
-                        "name": "SSD mSATA 120GB",
+                        "name": "SATA3 2.5\" SSD 250GB",
                         "id": "ID-59",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 69,
-                        "tag": "tag-line"
+                        "value": 96,
+                        "tag": "Samsung - 850 EVO- MZ-75E250B/AM"
                     },
                     {
-                        "name": "SSD SATA3 250GB",
+                        "name": "SATA3 2.5\" SSD 500GB",
                         "id": "ID-60",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 100,
-                        "tag": "tag-line"
+                        "value": 173,
+                        "tag": "Samsung - 850 EVO - MZ-7KE512BW"
                     },
                     {
-                        "name": "SSD mSATA 256GB",
+                        "name": "SATA3 2.5\" SSD 1TB",
                         "id": "ID-61",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 230,
-                        "tag": "tag-line"
+                        "value": 366,
+                        "tag": "Samsung - 850 EVO - MZ-75E1T0B/AM"
                     },
                     {
-                        "name": "SSD SATA3 500GB",
+                        "name": "NVME M.2 SSD 256 GB",
                         "id": "ID-181",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 182,
-                        "tag": "tag-line"
+                        "value": 200,
+                        "tag": "Samsung - 950 Pro - MZ-V5P256BW"
                     },
                     {
-                        "name": "SSD mSATA 480GB",
+                        "name": "NVME M.2 SSD 512 GB",
                         "id": "ID-182",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 279,
-                        "tag": "tag-line"
+                        "value": 350,
+                        "tag": "Samsung - 950 Pro - MZ-V5P512BW"
                     },
                     {
-                        "name": "SSD SATA3 1TB",
+                        "name": "NVME PCIe SSD 400 GB",
                         "id": "ID-183",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 360,
-                        "tag": "tag-line"
+                        "value": 370,
+                        "tag": "Intel - 750 - SSDPEDMW400G4X1"
                     },
                     {
-                        "name": "SSD mSATA 1TB",
+                        "name": "NVME PCIe SSD 800 GB",
                         "id": "ID-184",
                         "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
-                        "value": 363,
-                        "tag": "tag-line"
+                        "value": 700,
+                        "tag": "Intel - 750 - SSDPEDMW800G4X1"
                     }
                 ],
                 "Advice": [],
