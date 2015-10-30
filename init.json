@@ -6381,7 +6381,7 @@
                     },
                     {
                         "heading": "Why a fast Boot-Disk is so important?",
-                        "content": "The responsiveness of your computer depends on the responsiveness of the disk which your Operating Systems uses to boot. Faster Boot Disk will make your PC feel to you much faster.Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower."
+                        "content": "2.Installer defaults will assume that your Boot-Disk is the fastest disk in your system and will put caches on the Boot-Disk. If your Boot-Disk is not the fastest disk, by default your Apps will run slower."
                     },
                     {
                         "heading": "Entry Level and Mid Range",
