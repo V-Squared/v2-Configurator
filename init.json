@@ -5511,7 +5511,7 @@
                             "#chapter-3-section-2-Button-3"
                         ],
                         "value": 165,
-                        "link": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846\" target=\" _blank \">",
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813128846",
                         "tag": "GIGABYTE- GA-Z170N-Gaming 5 (rev. 1.0)"
                     }
                 ],
