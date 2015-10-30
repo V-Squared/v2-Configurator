@@ -6278,7 +6278,20 @@
                         ]
                     }
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image":"images/expansion/config/Third-party/Memory/4g-ddr4.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/Memory/Gallery2.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/Memory/2g-ddr3-with-heatsink.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Third-party/Memory/DDR4-Dual-sticks-red-color-high-with-cooler.jpg"
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
