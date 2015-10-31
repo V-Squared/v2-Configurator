@@ -6797,28 +6797,6 @@
                         "tag": "tag-line"
                     }
                 ],
-                "Advice": [
-                    {
-                        "heading": "2.5\" for home use",
-                        "content": "2.5\" are more quiet and use less power. Capacities of up to 1 TB are sufficient for most home use."
-                    },
-                    {
-                        "heading": "Red for higher reliability",
-                        "content": "Western Digital Red are disks for NAS and RAID. They are significantly more reliable than standard disks. They only cost a small premium and they last much longer. They are available in 2.5\" and 3.5\". We only use WD Red in our own PCs, even in single HDD configurations."
-                    },
-                    {
-                        "heading": "3.5\" on capacities > 1 TB",
-                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Mini has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
-                    },
-                    {
-                        "heading": "3.5\" on higher reliability",
-                        "content": "3.5\" are not more reliable than 2.5\" if you compare the same class of disks. But in 3.5\" you can"
-                    },
-                    {
-                        "heading": "3.5\" when using RAID",
-                        "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)\n"
-                    }
-                ],
                 "TableHeading": [
                     {
                         "name": "Feature",
@@ -6864,6 +6842,28 @@
                 "TableTag": [
                     "(1) Extremely tight tolerances reduce vibration and thus increase life span of drive",
                     "(2) 1 Mio hours = 11 years if the drive is on 24/7"
+                ],
+                "Advice": [
+                    {
+                        "heading": "2.5\" for home use",
+                        "content": "2.5\" are more quiet and use less power. Capacities of up to 1 TB are sufficient for most home use."
+                    },
+                    {
+                        "heading": "Red for higher reliability",
+                        "content": "Western Digital Red are disks for NAS and RAID. They are significantly more reliable than standard disks. They only cost a small premium and they last much longer. They are available in 2.5\" and 3.5\". We only use WD Red in our own PCs, even in single HDD configurations."
+                    },
+                    {
+                        "heading": "3.5\" on capacities > 1 TB",
+                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Mini has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
+                    },
+                    {
+                        "heading": "NAS and Enterprise Class for higher reliability",
+                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Mini has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
+                    },
+                    {
+                        "heading": "3.5\" when using RAID",
+                        "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)\n"
+                    }
                 ],
                 "Gallery": [],
                 "Datasheet": [
@@ -6938,7 +6938,7 @@
                         "tag": "3 drives WD Red - Net size: 10TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 6TB (12TB)",
+                        "name": "3x 3.5\" Red 6TB (12TB)",
                         "id": "ID-227",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
                         "value": 750,
@@ -6985,34 +6985,6 @@
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
                         "value": 1290,
                         "tag": "3 drives WD Re - Net size: 12TB"
-                    },
-                    {
-                        "name": "",
-                        "id": "ID-22",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": "",
-                        "tag": ""
-                    },
-                    {
-                        "name": "",
-                        "id": "ID-22",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": "",
-                        "tag": ""
-                    },
-                    {
-                        "name": "",
-                        "id": "ID-22",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": "",
-                        "tag": ""
-                    },
-                    {
-                        "name": "",
-                        "id": "ID-22",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": "",
-                        "tag": ""
                     }
                 ],
                 "Advice": [
@@ -7078,7 +7050,7 @@
                         ]
                     },
                     {
-                        "title": "5 Years",
+                        "title": "Noise",
                         "row": [
                             "Quiet",
                             "Quiet",
