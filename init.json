@@ -5476,7 +5476,7 @@
                         ],
                         "value": 35,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16813130759",
-                        "tag": "MSI-AM1I"
+                        "tag": "MSI-AM1"
                     },
                     {
                         "name": "Mid Motherboard",
@@ -5719,12 +5719,12 @@
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MSI-AM1I-Pannel.jpg",
                         "title": "Entry Motherboard►Rear IO",
-                        "description": "MSI-AM1I Rear IO Panel"
+                        "description": "MSI-AM1 Rear IO Panel"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/MSI-AM1I-Top.jpg",
                         "title": "Entry Motherboard►Top View",
-                        "description": "MSI-AM1I Internal IO connector"
+                        "description": "MSI-AM1 Internal IO connector"
                     },
                     {
                         "image": "images/expansion/config/Third-party/MotherBoard/Gallery/ASRock-H81M-ITX-Pannel.jpg",
@@ -5765,7 +5765,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI AM1I</a>",
+                                            "<a href=\"http://www.msi.com/product/motherboard/AM1I.html\" target=\" _blank \">MSI AM1</a>",
                                             "<a href=\"http://www.asrock.com/mb/Intel/H81M-ITX/\" target=\" _blank \">ASRock-H81M-ITX</a>",
                                             "<a href=\"http://www.asrock.com/mb/Intel/Fatal1ty%20Z170%20Gaming-ITXac/ \" target=\" _blank \">ASRock-Z170-ITX/ac</a>"
                                         ]
