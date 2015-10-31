@@ -6696,105 +6696,105 @@
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 43,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 500 MB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" Blue 1 TB",
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 60,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" Red 1TB",
                         "id": "ID-64",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 70,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "3.5\" Green 1TB",
                         "id": "ID-65",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 50,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 1 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 2TB",
                         "id": "ID-204",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 79,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 2 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 3TB",
                         "id": "ID-205",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 93,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 3 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 4TB",
                         "id": "ID-206",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 132,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 4 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 5TB",
                         "id": "ID-207",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 175,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 5 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 6TB",
                         "id": "ID-208",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 223,
-                        "tag": "tag-line"
+                        "tag": "Consumer Class Storage 6 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 1TB",
                         "id": "ID-209",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 65,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 1 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 2TB",
                         "id": "ID-210",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 90,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 2 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 3TB",
                         "id": "ID-211",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 110,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 3 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 4TB",
                         "id": "ID-212",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 150,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 4 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 5TB",
                         "id": "ID-213",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 195,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 5 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 6TB",
                         "id": "ID-214",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
                         "value": 250,
-                        "tag": "tag-line"
+                        "tag": "Workhorse Storage 6 TB for ViCase-Ultra"
                     }
                 ],
                 "TableHeading": [
