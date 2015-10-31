@@ -231,12 +231,10 @@
                     </div>
                     <hr>
                     <div class="Total-price">
-                        <div ng-click="toggle($event)">
-                            <h4 style="color:#AFAFAF"><i class="fa fa-play fa-rotate-90"></i> Total Cost</h4>
+                        <div ng-click="toggle($event,true)">
+                            <h4 style="color:#AFAFAF"><i class="fa fa-play fa-rotate-90"></i> Total Cost <span style="float:right;">${{cart.cost}}</span></h4>
                         </div>
                         <div class="collapsable">
-                            <p style="float:right;">${{cart.cost}}</p>
-                            <hr style="clear:both;">
                             <p style="font-size:11px">This is the total cost of your PC. Bear in mind that most likely most parts are from 3rd Party and that the costs we listed are guide pricing in USA as of November 2015. Cost in your country or at another time may vary.</p>
                         </div>
                     </div>

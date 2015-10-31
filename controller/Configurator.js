@@ -161,12 +161,18 @@ app.controller('myCtrl', function($scope, $http) {
     }
 
 
-    $scope.toggle = function($event) { //accordions
+    $scope.toggle = function($event,state) { //accordions
         var panel = $($event.currentTarget).next(".collapsable");
         var endstate = $(panel).slideToggle("fast", function() {
             if ($(panel).is(':visible')) {
+                if(state) {
+                  $($event.currentTarget).find('span').show();
+                }
                 $($event.currentTarget).find("i").addClass("fa-rotate-90");
-            } else {
+              } else {
+                if(state) {
+                  $($event.currentTarget).find('span').hide();
+                }
                 $($event.currentTarget).find("i").removeClass("fa-rotate-90");
             }
 
