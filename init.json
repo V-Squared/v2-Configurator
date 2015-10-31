@@ -6990,7 +6990,7 @@
                 "Advice": [
                     {
                         "heading": "Why RAID 5 is cool",
-                        "content": "A 3 Disk RAID5 is twice as fast than a single disk. Ideal for demanding applications. And you data is much safer. Hard drives do fail. If you have a RAID 5 system you do not need to worry about it. Even if a hard disk fails, you can continue working. No data has been lost due to the redundancy. Swap out the bad drive with a good one and you are safe again."
+                        "content": "A 3 Disk RAID5 is twice as fast than a single disk. Ideal for demanding applications. And your data is much safer. Hard drives do fail. If you have a RAID 5 system you do not need to worry about it. Even if a hard disk fails, you can continue working. No data has been lost due to the redundancy. Swap out the bad drive with a good one and you are safe again."
                     },
                     {
                         "heading": "RAID features of ViCase Ultra",
