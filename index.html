@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/angular-sanitize.min.js"></script>
     <script type="text/javascript" src="controller/Configurator.js"></script>
@@ -165,7 +165,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="clearfix">
-                                                        <div id="{{'section-'+chapterIndex+'-gallary-'+$index+'thumb'}}"  ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index+'thumb')" class="carousel slide">
+                                                        <div data-interval="false" id="{{'section-'+chapterIndex+'-gallary-'+$index+'thumb'}}"  ng-init="initGallery('section-'+chapterIndex+'-gallary-'+$index+'thumb')" class="carousel slide">
                                                             <div class="carousel-inner">
                                                                 <div ng-repeat="gallery in Section.Gallery" ng-if="$index%4==0" class="item">
                                                                   <div data-target="{{'#section-'+chapterIndex+'-gallary-'+$parent.$parent.$index}}" data-slide-to="{{$index}}" class="thumb"><img ng-src="{{Section.Gallery[$index].image}}"></div>
