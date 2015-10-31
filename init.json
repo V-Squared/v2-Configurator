@@ -6694,105 +6694,105 @@
                     {
                         "name": "2.5\" Blue 500 GB",
                         "id": "ID-62",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
                         "value": 43,
                         "tag": "Consumer Class Storage 500 MB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" Blue 1 TB",
                         "id": "ID-63",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
                         "value": 60,
                         "tag": "Consumer Class Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" Red 1TB",
                         "id": "ID-64",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
                         "value": 70,
                         "tag": "Workhorse Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "3.5\" Green 1TB",
                         "id": "ID-65",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 50,
                         "tag": "Consumer Class Storage 1 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 2TB",
                         "id": "ID-204",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 79,
                         "tag": "Consumer Class Storage 2 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 3TB",
                         "id": "ID-205",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 93,
                         "tag": "Consumer Class Storage 3 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 4TB",
                         "id": "ID-206",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 132,
                         "tag": "Consumer Class Storage 4 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 5TB",
                         "id": "ID-207",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 175,
                         "tag": "Consumer Class Storage 5 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Green 6TB",
                         "id": "ID-208",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 223,
                         "tag": "Consumer Class Storage 6 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 1TB",
                         "id": "ID-209",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 65,
                         "tag": "Workhorse Storage 1 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 2TB",
                         "id": "ID-210",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 90,
                         "tag": "Workhorse Storage 2 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 3TB",
                         "id": "ID-211",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 110,
                         "tag": "Workhorse Storage 3 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 4TB",
                         "id": "ID-212",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 150,
                         "tag": "Workhorse Storage 4 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 5TB",
                         "id": "ID-213",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 195,
                         "tag": "Workhorse Storage 5 TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" Red 6TB",
                         "id": "ID-214",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 250,
                         "tag": "Workhorse Storage 6 TB for ViCase-Ultra"
                     }
@@ -6905,84 +6905,84 @@
                     {
                         "name": "3x 3.5\" Red 1TB (2TB)",
                         "id": "ID-222",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 195,
                         "tag": "3 drives WD Red - Net size: 2TB"
                     },
                     {
                         "name": "3x 3.5\" Red 2TB (4TB)",
                         "id": "ID-223",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 270,
                         "tag": "3 drives WD Red - Net size: 4TB"
                     },
                     {
                         "name": "3x 3.5\" Red 3TB (6TB)",
                         "id": "ID-224",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 330,
                         "tag": "3 drives WD Red - Net size: 6TB"
                     },
                     {
                         "name": "3x 3.5\" Red 4TB (8TB)",
                         "id": "ID-225",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 450,
                         "tag": "3 drives WD Red - Net size: 8TB"
                     },
                     {
                         "name": "3x 3.5\" Red 5TB (10TB)",
                         "id": "ID-226",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 585,
                         "tag": "3 drives WD Red - Net size: 10TB"
                     },
                     {
                         "name": "3x 3.5\" Red 6TB (12TB)",
                         "id": "ID-227",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 750,
                         "tag": "3 drives WD Red - Net size: 12TB"
                     },
                     {
                         "name": "3x 3.5\" Re 1TB (2TB)",
                         "id": "ID-228",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 285,
                         "tag": "3 drives WD Re - Net size: 2TB"
                     },
                     {
                         "name": "3x 3.5\" Re 2TB (4TB)",
                         "id": "ID-229",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 360,
                         "tag": "3 drives WD Re - Net size: 4TB"
                     },
                     {
                         "name": "3x 3.5\" Re 3TB (6TB)",
                         "id": "ID-230",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 520,
                         "tag": "3 drives WD Re - Net size: 6TB"
                     },
                     {
                         "name": "3x 3.5\" Re 4TB (8TB)",
                         "id": "ID-231",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 660,
                         "tag": "3 drives WD Re - Net size: 8TB"
                     },
                     {
                         "name": "3x 3.5\" Re 5TB (10TB)",
                         "id": "ID-232",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 900,
                         "tag": "3 drives WD Re - Net size: 10TB"
                     },
                     {
                         "name": "3x 3.5\" Re 6TB (12TB)",
                         "id": "ID-233",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 1290,
                         "tag": "3 drives WD Re - Net size: 12TB"
                     }
