@@ -3022,9 +3022,9 @@
         "name": "4. Power (Ready)",
         "data": [
             {
-                "name": "AC / DC Adapter",
+                "name": "V²P.12V AC / DC Adapter",
                 "url": "",
-                "part": "AC-DC_Adapter",
+                "part": "V²P.12V AC / DC Adapter",
                 "slide": "slide7",
                 "yourChoice": [
                     {
@@ -3292,9 +3292,9 @@
                 ]
             },
             {
-                "name": "ViCase Power",
+                "name": "V²P.pATX Pico ATX Power",
                 "url": "",
-                "part": "vicase-power",
+                "part": "V²P.pATX Pico ATX Power",
                 "slide": "slide5",
                 "yourChoice": [
                     {
