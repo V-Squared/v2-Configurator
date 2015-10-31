@@ -6373,7 +6373,7 @@
                     {
                         "name": "SATA3 2.5\" SSD 120GB",
                         "id": "ID-58",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon1V2.jpg",
                         "value": 50,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820721107&cm_re=SV300S37A%2f120G-_-20-721-107-_-Product",
                         "tag": "Kingston - SSDNow V300 Series - SV300S37A/120G"
@@ -6381,7 +6381,7 @@
                     {
                         "name": "SATA3 2.5\" SSD 250GB",
                         "id": "ID-59",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
                         "value": 96,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
                         "tag": "Samsung - 850 EVO- MZ-75E250B/AM"
@@ -6389,7 +6389,7 @@
                     {
                         "name": "SATA3 2.5\" SSD 500GB",
                         "id": "ID-60",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon3V1.jpg",
                         "value": 173,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02DV8166",
                         "tag": "Samsung - 850 EVO - MZ-7KE512BW"
@@ -6397,7 +6397,7 @@
                     {
                         "name": "SATA3 2.5\" SSD 1TB",
                         "id": "ID-61",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon8V2.jpg",
                         "value": 366,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA12K2GN1593",
                         "tag": "Samsung - 850 EVO - MZ-75E1T0B/AM"
@@ -6405,7 +6405,7 @@
                     {
                         "name": "NVME M.2 SSD 256 GB",
                         "id": "ID-181",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon4V1.jpg",
                         "value": 200,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820147466",
                         "tag": "Samsung - 950 Pro - MZ-V5P256BW"
@@ -6413,7 +6413,7 @@
                     {
                         "name": "NVME M.2 SSD 512 GB",
                         "id": "ID-182",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon5V1.jpg",
                         "value": 350,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820147467",
                         "tag": "Samsung - 950 Pro - MZ-V5P512BW"
@@ -6421,7 +6421,7 @@
                     {
                         "name": "NVME PCIe SSD 400 GB",
                         "id": "ID-183",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon6V1.jpg",
                         "value": 370,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820167359",
                         "tag": "Intel - 750 - SSDPEDMW400G4X1"
@@ -6429,7 +6429,7 @@
                     {
                         "name": "NVME PCIe SSD 800 GB",
                         "id": "ID-184",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/mSATA.jpg",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
                         "value": 700,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820167361",
                         "tag": "Intel - 750 - SSDPEDMW800G4X1"
