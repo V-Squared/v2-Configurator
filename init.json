@@ -6224,28 +6224,20 @@
                         "tag": "2 x 8GB G.SKILL 1600"
                     },
                     {
-                        "name": "DDR4 4GB",
-                        "id": "ID-54",
-                        "img": "images/expansion/config/Third-party/Memory/4-DDR4.jpg",
-                        "value": 27,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148862",
-                        "tag": "1 x 4GB Crucial 2400"
-                    },
-                    {
                         "name": "DDR4 8GB",
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR4.jpg",
-                        "value": 54,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231886",
-                        "tag": "2 x 4GB G.SKILL 2400"
+                        "value": 53,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148864",
+                        "tag": "2 x 4GB Crucial 2400"
                     },
                     {
                         "name": "DDR4 16GB",
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR4.jpg",
-                        "value": 135,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231902",
-                        "tag": "2 x 8GB G.SKILL 3200"
+                        "value": 108,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820104530",
+                        "tag": "2 x 8GB Hyber-X 3200"
                     },
                     {
                         "name": "DDR4 32GB",
@@ -6360,7 +6352,7 @@
                                         "class": "",
                                         "row": [
                                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820239850\" target=\" _blank \">2GB</a>",
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820148862\" target=\" _blank \">4GB</a>"
+                                            "-"
                                         ]
                                     },
                                     {
@@ -6368,7 +6360,7 @@
                                         "class": "",
                                         "row": [
                                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820148758\" target=\" _blank \">4GB</a>",
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820231886\" target=\" _blank \">8GB</a>"
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820148864\" target=\" _blank \">8GB</a>"
                                         ]
                                     },
                                     {
@@ -6376,7 +6368,7 @@
                                         "class": "",
                                         "row": [
                                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820231546\" target=\" _blank \">8GB</a>",
-                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820231902\" target=\" _blank \">16GB</a>"
+                                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16820104531\" target=\" _blank \">16GB</a>"
                                         ]
                                     },
                                     {
