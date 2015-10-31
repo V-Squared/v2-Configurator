@@ -5798,20 +5798,20 @@
                         "tag": "AMD - Athlon 5350"
                     },
                     {
-                        "name": "Mid CPU Value",
-                        "id": "ID-44",
-                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
-                        "value": 58,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117449",
-                        "tag": "Intel - Pentium-G3250"
-                    },
-                    {
-                        "name": "Mid CPU Performance",
+                        "name": "Mid CPU Value",
                         "id": "ID-45",
-                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-performance.jpg",
+                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-value1.jpg",
                         "value": 125,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819117447&cm_re=i3-4160-_-19-117-447-_-Product",
                         "tag": "Intel - i3-4160"
+                    },
+                    {
+                        "name": "Mid CPU Performance",
+                        "id": "ID-44",
+                        "img": "images/expansion/config/Third-party/Processor/Mid-CPU-performance.jpg",
+                        "value": 195,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16819116897",
+                        "tag": "Intel - i5-4570S"
                     },
                     {
                         "name": "High CPU Value",
@@ -5860,8 +5860,8 @@
                         "row": [
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819113367\" target=\" _blank \">Sempron 2650</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819113364\" target=\" _blank \">Athlon 5350</a>",
-                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117449 \" target=\" _blank \">Pentium <br>-G3250</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117447&cm_re=i3-4160-_-19-117-447-_-Product \" target=\" _blank \">i3-4160</a>",
+                            "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819116897 \" target=\" _blank \">i5-4570S</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117563&cm_re=i5-6500-_-19-117-563-_-Product \" target=\" _blank \">i5-6500</a>",
                             "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16819117559&cm_re=i7-6700K-_-19-117-559-_-Product \" target=\" _blank \">i7-6700K</a>"
                         ]
@@ -5882,8 +5882,8 @@
                         "row": [
                             "Sempron",
                             "Athlon",
-                            "Pentium",
                             "Core i3",
+                            "Core i5",
                             "Core i5",
                             "Core i7"
                         ]
@@ -5905,7 +5905,7 @@
                             "Dual <br>-Core",
                             "Quad <br>-Core",
                             "Dual <br>-Core",
-                            "Dual <br>-Core",
+                            "Quad <br>-Core",
                             "Quad <br>-Core",
                             "Quad <br>-Core"
                         ]
@@ -5915,8 +5915,8 @@
                         "row": [
                             "1.4 GHz",
                             "2.05 GHz",
-                            "3.2 GHz",
                             "3.6 GHz",
+                            "2.9 GHz",
                             "3.2 GHz",
                             "4.0 GHz"
                         ]
@@ -5927,7 +5927,7 @@
                             "1MB",
                             "2MB",
                             "2 <br>x 256KB",
-                            "2 <br>x 256KB",
+                            "4 <br>x 256KB",
                             "4 <br>x 256KB",
                             "4 <br>x 256KB"
                         ]
@@ -5948,8 +5948,8 @@
                         "row": [
                             900,
                             2589,
-                            3341,
                             5041,
+                            6621,
                             7050,
                             11000
                         ]
@@ -5959,8 +5959,8 @@
                         "row": [
                             280,
                             361,
-                            "-",
                             546,
+                            "-",
                             1128,
                             1128
                         ]
@@ -5981,7 +5981,7 @@
                         "row": [
                             "2560 <br>x 1600",
                             "2560 <br>x 1600",
-                            "2560 <br> x 1600",
+                            "4096 <br>x 2304",
                             "4096 <br>x 2304",
                             "4096 <br>x 2304",
                             "4096 <br> x 2304"
@@ -5992,7 +5992,7 @@
                         "row": [
                             "Yes",
                             "Yes",
-                            "-",
+                            "Yes",
                             "Yes",
                             "Yes",
                             "Yes"
@@ -6014,8 +6014,8 @@
                         "row": [
                             "25W",
                             "25W",
-                            "53W",
                             "54W",
+                            "65W",
                             "65W",
                             "91W"
                         ]
@@ -6097,12 +6097,12 @@
                         "content": "This is the speed upgrade for the Entry Level System. It is 3 x faster than the Sempron-2650 and almost as fast as the Pentium-G3250. This CPU will give you a very snappy Office / General Purpose PC. The power budget is still very small with 25W in total, which leads to additional savings in power supply and CPU cooler. Bear in mind that this is the fastest CPU that you can plug into the Entry Motherboard. If you plan on growing the performance of your PC, then you will be better served with the Mid Range Motherboard. But if you are looking for lowest cost, low power consumption HTPC / Office PC, this is the best value — with quite a margin."
                     },
                     {
-                        "heading": "Pentium-G3250",
-                        "content": "The Pentium G3250 is 400% faster than the Sempron-2650. Office Apps will feel snappy. Power Consumption is also about 300% higher. This CPU uses the LGA 1150 socket, used by most current shipping Intel CPUs, up to the very fast i7-4790. This means you can dramatically upgrade your CPU performance at a later time."
+                        "heading": "i3-4160",
+                        "content": "The i3 is about twice the speed than the Athlon 5350. Also GPU performance is another mark up. Now you can play games such as Minecraft or work with more demanding Apps. E.g. most Video Editing up to 1080p will be fine. E.g. we edited our Indiegogo Pitch Video on this CPU w/o GPU. This CPU uses the same LGA 1150 socket. This means you can replace this CPU at a later time even with an i5 or i7 Quad Core. Enough room to grow. Pairing the i3 with the GTX-750 will be your entry ticket to the world of high end gaming."
                     },
                     {
-                        "heading": "i3-4160",
-                        "content": "Another 50% faster in CPU performance than the Pentium. The integrated GPU is also significantly faster and you can play games such as Minecraft. For most Video Editing purpose the integrated GPU is sufficient. E.g. we edited our Indiegogo Pitch Video on this CPU w/o GPU. This CPU uses the same LGA 1150 socket with the benefits described above."
+                        "heading": "i5-4570S",
+                        "content": "This is another mark up. Besides faster CPU score via Quad Core also get Hyper-V, ideal if you plan to run virtual machines. This CPU is also powerful enough to drive bigger GPU cards that GTX 750, such as the GTX 970."
                     },
                     {
                         "heading": "i5-6500",
@@ -6284,33 +6284,52 @@
                 ],
                 "TableBody": [
                     {
-                        "title": "Perf►Speed(MHz)",
+                        "title": "Speed(MHz)",
                         "row": [
                             1600,
                             2133
                         ]
                     },
                     {
-                        "title": "Perf►Overclock Speed(MHz)",
+                        "title": "Overclock Speed(MHz)",
                         "row": [
                             1600,
                             3200
                         ]
                     },
                     {
-                        "title": "Perf►Max Size",
+                        "title": "Max Mem Size in ITX MoBo",
                         "row": [
                             "16 GB",
                             "32 GB"
                         ]
                     },
                     {
-                        "title": "Misc►MoBo",
+                        "title": "MoBo Class",
                         "row": [
-                            "Entry&Mid",
+                            "Entry & Mid",
                             "High"
                         ]
+                    },
+                    {
+                        "title": "Profile (1)",
+                        "row": [
+                            "Low",
+                            "Low"
+                        ]
+                    },
+                    {
+                        "title": "ViCase CPU Cooler",
+                        "row": [
+                            "Cooler-L (2)",
+                            "Cooler-XL (3)"
+                        ]
                     }
+                ],
+                "TableTag": [
+                    "(1) Memory Modules come with Low Profile and High Profile. Since we use DDR3 in cost sensitive Entry and Mid Range configurations and DDR4 in performance demanding High End Builds, we chose all DDR3 modules to be Low Profile and all DDR4 Modules to be High Profile",
+                    "(2) ViCase-Cooler-L is a very cost efficient design without heat pipes. It does not allow space for High Profile Memory Modules.",
+                    "(3) ViCase-Cooler-XL uses 5 heat pipes. This not only makes it a very powerful CPU cooler, but the design also made space for High Profile Memory modules."
                 ],
                 "Gallery": [
                     {
