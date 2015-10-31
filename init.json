@@ -6903,38 +6903,143 @@
                 "part": "SSD-1",
                 "yourChoice": [
                     {
-                        "name": "HDD 2.5\" 2TB Green",
-                        "id": "ID-62",
+                        "name": "3x 3.5\" Red 1TB (2TB)",
+                        "id": "ID-222",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
-                        "value": 200,
-                        "tag": "tag-line"
+                        "value": 195,
+                        "tag": "3 drives WD Red - Net size: 2TB"
                     },
                     {
-                        "name": "HDD 3.5\" 4TB Green",
-                        "id": "ID-63",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
-                        "value": 201,
-                        "tag": "tag-line"
+                        "name": "3x 3.5\" Red 2TB (4TB)",
+                        "id": "ID-223",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 270,
+                        "tag": "3 drives WD Red - Net size: 4TB"
                     },
                     {
-                        "name": "HDD 3.5\" 4TB Red",
-                        "id": "ID-64",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-2TB.jpg",
-                        "value": 202,
-                        "tag": "tag-line"
+                        "name": "3x 3.5\" Red 3TB (6TB)",
+                        "id": "ID-224",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 330,
+                        "tag": "3 drives WD Red - Net size: 6TB"
                     },
                     {
-                        "name": "HDD 3.5\" 4TB Black",
-                        "id": "ID-65",
-                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-black.jpg",
-                        "value": 203,
-                        "tag": "tag-line"
+                        "name": "3x 3.5\" Red 4TB (8TB)",
+                        "id": "ID-225",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 450,
+                        "tag": "3 drives WD Red - Net size: 8TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Red 5TB (10TB)",
+                        "id": "ID-226",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 585,
+                        "tag": "3 drives WD Red - Net size: 10TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 6TB (12TB)",
+                        "id": "ID-227",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 750,
+                        "tag": "3 drives WD Red - Net size: 12TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 1TB (2TB)",
+                        "id": "ID-228",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 285,
+                        "tag": "3 drives WD Re - Net size: 2TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 2TB (4TB)",
+                        "id": "ID-229",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 360,
+                        "tag": "3 drives WD Re - Net size: 4TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 3TB (6TB)",
+                        "id": "ID-230",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 520,
+                        "tag": "3 drives WD Re - Net size: 6TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 4TB (8TB)",
+                        "id": "ID-231",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 660,
+                        "tag": "3 drives WD Re - Net size: 8TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 5TB (10TB)",
+                        "id": "ID-232",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 900,
+                        "tag": "3 drives WD Re - Net size: 10TB"
+                    },
+                    {
+                        "name": "3x 3.5\" Re 6TB (12TB)",
+                        "id": "ID-233",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": 1290,
+                        "tag": "3 drives WD Re - Net size: 12TB"
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-22",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": "",
+                        "tag": ""
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-22",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": "",
+                        "tag": ""
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-22",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": "",
+                        "tag": ""
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-22",
+                        "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
+                        "value": "",
+                        "tag": ""
                     }
                 ],
-                "Advice": [],
+                "Advice": [
+                    {
+                        "heading": "Why RAID 5 is cool",
+                        "content": "A 3 Disk RAID5 is twice as fast than a single disk. Ideal for demanding applications. And you data is much safer. Hard drives do fail. If you have a RAID 5 system you do not need to worry about it. Even if a hard disk fails, you can continue working. No data has been lost due to the redundancy. Swap out the bad drive with a good one and you are safe again."
+                    },
+                    {
+                        "heading": "RAID features of ViCase Ultra",
+                        "content": "ViCase Ultra is designed from ground up for 3.5\" RAID. The RAID drives are placed in a dedicated stream of cold air. We use an ultra low noise 80 mm fan, which is thermal regulated by the drive temperature. The drives itself are placed within a sound silencer. Now you can enjoy the speed and safety of RAID 5 without the problems of hot drives or a loud work computer."
+                    },
+                    {
+                        "heading": "Red, the ideal RAID drive",
+                        "content": "Western Digital Red has become the standard drives for NAS / RAID configurations. They are designed to operate 24/7, they run relatively cool and quiet and still have descent performance. We have put Western Digital as an example for a typical desktop drive and you can see in several critical features it is not up to the task."
+                    },
+                    {
+                        "heading": "Re, the high performance, ultra reliable",
+                        "content": "The Re drives are faster and even more reliable. Consequently they are also more expensive. Due to higher speed they also run more loud and more hot. This disadvantage is mostly mitigated when used in ViCase Ultra → RAID features of ViCase Ultra"
+                    },
+                    {
+                        "heading": "Do NOT use desktop drives in RAID",
+                        "content": "Desktop drives are build for a workload of about 2 hours per day. Who uses RAID uses their disks in general at least 9 hours / day. Desktop drives simply will fail to early, as they are not build for long working hours. Another difference is that desktop drives are designed to be the only disk in a case. The difference is vibration, which will significantly shorten the lifespan of a Disk. RAID drives are designed to higher specs to avoid vibration in the first place and higher class RAID drives even have active vibration cancellation. Also desktop may be recognized as bad even when they are still good when used in a RAID due to different time out standards of desktop drives versus RAID drives. In shorty. do NOT use desktop drives in a RAID. If you are on budget, Western Digital RED are about the same cost as quality desktop drives and they work beautifully in RAID."
+                    }
+                ],
                 "TableHeading": [
                     {
-                        "name": "Data Disk Feature",
+                        "name": "Feature",
                         "class": "table-left-title"
                     },
                     {
@@ -6944,26 +7049,103 @@
                         "name": "Red"
                     },
                     {
-                        "name": "Black"
+                        "name": "Re"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "Perf►RPM",
+                        "title": "Hours / day",
                         "row": [
-                            "IntelliPower",
-                            "IntelliPower",
-                            "7200 RPM"
+                            "2h/day",
+                            "24h/day",
+                            "24h/day"
                         ]
                     },
                     {
-                        "title": "Misc►Features",
+                        "title": "Time Between Failure",
                         "row": [
-                            "Low power consumption and quiet",
-                            "Small NAS System",
-                            "Inspiring performance"
+                            "N/A",
+                            "1 Mio h",
+                            "2 Mio h"
+                        ]
+                    },
+                    {
+                        "title": "Warranty",
+                        "row": [
+                            "2 Years",
+                            "3 Years",
+                            "5 Years"
+                        ]
+                    },
+                    {
+                        "title": "5 Years",
+                        "row": [
+                            "Quiet",
+                            "Quiet",
+                            "Loud"
+                        ]
+                    },
+                    {
+                        "title": "Heat Development",
+                        "row": [
+                            "Cool",
+                            "Cool",
+                            "Hot"
+                        ]
+                    },
+                    {
+                        "title": "RPM",
+                        "row": [
+                            5400,
+                            5400,
+                            7200
+                        ]
+                    },
+                    {
+                        "title": "Data Transfer @ 6 TB",
+                        "row": [
+                            "175 MB/s",
+                            "175 MB/s",
+                            "225 MB/s"
+                        ]
+                    },
+                    {
+                        "title": "Workload",
+                        "row": [
+                            "N/A",
+                            "N/A",
+                            "550 TB / Year"
+                        ]
+                    },
+                    {
+                        "title": "Vibration Reduction (1) ",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Vibration Protection RAFF (2)",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "RAID time out (3)",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes"
                         ]
                     }
+                ],
+                "TableTag": [
+                    "(1) Extremely tight tolerances reduce vibration and thus increase life span of drive. Western Digital calls this: 3D Active Balance Plus",
+                    "(2) RAFF is short for Rotary Acceleration Feed Forward and means that multiple axis accelerator sense vibration and a dedicated electronic create active vibration cancellation, to compensate for vibration caused by fans or other drives. This technology is very effective and one reason for the extended life span / reliability of the Re drives.",
+                    "(3) A RAID controller requires a time out of under 7 seconds to avoid that a good drive is accidentally marked as bad one"
                 ],
                 "Gallery": [],
                 "Datasheet": [
