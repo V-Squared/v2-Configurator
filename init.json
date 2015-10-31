@@ -6256,7 +6256,28 @@
                         "tag": "2 x 16GB CORSAIR 2400"
                     }
                 ],
-                "Advice": [],
+                "Advice": [
+                    {
+                        "heading": "Avoid collision of Memory Module with CPU Cooler",
+                        "content": "Memory Modules come with Low Profile and High Profile. Low Profile will work with ViCase-Cooler-L. High Profile Modules may collide with the Cooler-L, depending on your Motherboard layout. As always, if you do not want to be troubled with such details, use the Wizard of the V²Configurator. All our ready made configurations using High Profile Memory Modules use the ViCase-Cooler-XL to ensure conflict free assembly for you. Its more expensive design based on heat pipes allows for larger memory modules. To make life simple, all DDR3 memory modules we selected are Low Profile and all DDR4 Modules are High Profile. This makes for straight forward paring: DDR3 with ViCase-Cooler-L and DDR4 with ViCase-Cooler-XL."
+                    },
+                    {
+                        "heading": "Always use two Memory Modules",
+                        "content": "Each Memory Module is 64 Bit. Today's CPUs have a 128 Bit memory connection. For this reason two Memory Modules will give you twice the memory speed than only one module. In other words when choosing memory for your Motherboard, always use two modules of the same kind to benefit from double speed. This is called Dual-channel memory architecture. All our ready made configurations use two Memory Modules, except for the lowest entry level configuration where lower cost was more important than speed."
+                    },
+                    {
+                        "heading": "Memory for Entry Level",
+                        "content": "Choose a single Memory Module of 2 GB DDR3 for Entry Level systems if cost is paramount. For $14 more you get 4 GB and twice the memory bandwidth, which is good value for money. Choose 1600 MHz over 1333, because it is faster and when shopping carefully you can find the 1600 MHz for the same price."
+                    },
+                    {
+                        "heading": "Memory for Mid Range",
+                        "content": "Choose 4 GB DDR3 in 2 x 2GB Modules @ 1600 MHz if you run standard applications. If you run virtual machines, go for 8 GB. More memory is always better, but there is also hitting the ceiling with very diminished returns on your investment. If in doubt, check respective forums of your app and ask around how much memory they are using."
+                    },
+                    {
+                        "heading": "Memory for High End",
+                        "content": "Choose 8 GB DDR4 in 2 x 4GB Modules @ 2133 MHz when you run most demanding Apps. Also consult with the documentation of your App, they may recommend more. More memory is always better, but there is also hitting the ceiling with very diminished returns on your investment. If in doubt, check respective forums of your app and ask around how much memory they are using. If you are running demanding apps in virtual machines you may want to start with 16 GB."
+                    }
+                ],
                 "TableHeading": [
                     {
                         "name": "Memory Feature",
@@ -6301,16 +6322,24 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/Third-party/Memory/4g-ddr4.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/4g-ddr4.jpg",
+                        "title": "Single Low Profile DDR3 Module",
+                        "description": "A single module is half speed versus two modules. Only use a single Module when you are in the tightest of budgets. Smallest size available is 2 GB."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Memory/Gallery2.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/Gallery2.jpg",
+                        "title": "Twin Low Profile DDR3 Module",
+                        "description": "The standard configuration for most computer. Smallest size available for Mini-ITX is 4 GB (2x2GB), the largest size is 16 GB."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Memory/2g-ddr3-with-heatsink.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/2g-ddr3-with-heatsink.jpg",
+                        "title": "Twin Low Profile DDR4 Module",
+                        "description": "The mechanical difference is the key is to the right side off center. Smallest size is 8 GB via 2 x 4 GB Modules. A heat spreader will increase life expectancy."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Memory/DDR4-Dual-sticks-red-color-high-with-cooler.jpg"
+                        "image": "images/expansion/config/Third-party/Memory/DDR4-Dual-sticks-red-color-high-with-cooler.jpg",
+                        "title": "Twin High Profile DDR4 Module",
+                        "description": "Higher profile provides more PCB space for memory chips and more space for the heat sink. Higher profile may not be compatible with ViCase-Cooler-L, but the ViCase-Cooler-XL will always be compatible."
                     }
                 ],
                 "Datasheet": [
