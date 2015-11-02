@@ -221,7 +221,7 @@
                     <h1>Summary</h1>
                         <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='ID-1'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount'">
-                           <h4 class="collapse-summary-heading" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{cart[chapters].name}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
+                           <h4 class="collapse-summary-heading fake-link" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{cart[chapters].name}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
                            <div class="collapsable">
                               <span   ng-repeat="(sections, svalue) in cart[chapters]">
                               <div ng-if="cart[chapters][sections].lastclicked != 'None'"><span>{{cart[chapters][sections].lastclicked}} </span><span style="float:right" ng-if="cart[chapters][sections].cost != 0 && cart[chapters][sections].cost != null">${{cart[chapters][sections].cost}}</span></div>
@@ -231,7 +231,7 @@
                     </div>
                     <hr>
                     <div class="Total-price">
-                        <div ng-click="toggle($event,true)">
+                        <div ng-click="toggle($event,true)" class="fake-link">
                             <h4 style="color:#AFAFAF"><i class="fa fa-play fa-rotate-90"></i> Total Cost <span style="float:right;display:none">${{cart.cost}}</span></h4>
                         </div>
                         <div class="collapsable" style="display:none">
