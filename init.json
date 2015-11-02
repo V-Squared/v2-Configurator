@@ -7545,17 +7545,20 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://images.nvidia.com/content/quadro/product-literature/data-sheets/13720_DS_NV_Quadro_K420_Aug25_US_NV_HR.pdf \" target=\" _blank \">nVidia Quadro K420</a>"
+                                            "<a href=\"http://images.nvidia.com/content/quadro/product-literature/data-sheets/13720_DS_NV_Quadro_K420_Aug25_US_NV_HR.pdf \" target=\" _blank \">nVidia Quadro K420</a>",
+                                            "Lowest cost entry ticket into Workstation 3D"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://international.download.nvidia.com/quadro/product-literature/data-sheets/DS-NV-Quadro-K620-JUL24-US-NV-r-HR.pdf \" target=\" _blank \">nVidia Quadro K620</a>"
+                                            "<a href=\"http://international.download.nvidia.com/quadro/product-literature/data-sheets/DS-NV-Quadro-K620-JUL24-US-NV-r-HR.pdf \" target=\" _blank \">nVidia Quadro K620</a>",
+                                            "Standard choice for Workstation 3D"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://images.nvidia.com/content/pdf/quadro/data-sheets/DS_NV_Quadro_K1200_FEB15_NV_US_HR.pdf \" target=\" _blank \">nVidia Quadro K1200</a>"
+                                            "<a href=\"http://images.nvidia.com/content/pdf/quadro/data-sheets/DS_NV_Quadro_K1200_FEB15_NV_US_HR.pdf \" target=\" _blank \">nVidia Quadro K1200</a>",
+                                            "4 Displays, 4 GB GDDR5, 512 Cores. High End Workstation 3D"
                                         ]
                                     }
                                 ]
