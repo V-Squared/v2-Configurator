@@ -147,7 +147,7 @@
                                             <div class="collapsable readmore_area" style="display: none;">
                                                 <div ng-repeat="advice in Section.Advice">
                                                     <h4 style="color:#bbb;font-weight:600;">{{advice.heading}}</h4>
-                                                    <p>{{advice.content}}</p>
+                                                    <p ng-bind-html="advice.content"></p>
                                                 </div>
                                             </div>
                                         </div>
