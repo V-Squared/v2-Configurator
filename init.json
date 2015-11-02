@@ -7219,51 +7219,156 @@
                 "part": "OS",
                 "yourChoice": [
                     {
-                        "name": "Windows 7 Home Premium 150.00 32/64",
+                        "name": "Windows 10 Home OEM",
                         "id": "ID-68",
-                        "img": "images/expansion/config/Accessories/OS/windows-7-logo.png",
-                        "value": "150"
-                    },
-                    {
-                        "name": "Windows 7 Professional 200.00 32/64",
-                        "id": "ID-69",
-                        "img": "images/expansion/config/Accessories/OS/windows-7-logo.png",
-                        "value": "250"
-                    },
-                    {
-                        "name": "Windows 8.1 32/64",
-                        "id": "ID-70",
-                        "img": "images/expansion/config/Accessories/OS/windows-8-logo.png",
-                        "value": "250"
-                    },
-                    {
-                        "name": "Windows 8.1 Pro 32/64",
-                        "id": "ID-71",
-                        "img": "images/expansion/config/Accessories/OS/windows-8-logo.png",
-                        "value": "350"
-                    },
-                    {
-                        "name": "Windows 10",
-                        "id": "ID-72",
                         "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
-                        "value": 1
+                        "value": "100",
+                        "tagline": "OS for home use and High End gaming"
                     },
                     {
-                        "name": "free - Linux Ubuntu 14.04 32/64",
+                        "name": "Windows 10 Home Full",
+                        "id": "ID-69",
+                        "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
+                        "value": "120",
+                        "tagline": "Same as above, but with support"
+                    },
+                    {
+                        "name": "Windows 10 Pro OEM",
+                        "id": "ID-70",
+                        "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
+                        "value": "140",
+                        "tagline": "OS for business"
+                    },
+                    {
+                        "name": "Windows 10 Pro Full ",
+                        "id": "ID-71",
+                        "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
+                        "value": "200",
+                        "tagline": "Same as above, but with support"
+                    },
+                    {
+                        "name": "Ubuntu 14.04.3 LTS",
                         "id": "ID-73",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
-                        "value": "0"
+                        "value": "0",
+                        "tagline": "Zero Cost. Ideal for standard work"
                     },
                     {
-                        "name": "free - Linux Ubuntu 15.04 32/64",
+                        "name": "Ubuntu 15.10",
                         "id": "ID-74",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
-                        "value": "0"
+                        "value": "0",
+                        "tagline": "Zero Cost. Ideal for Steam Gaming"
                     }
                 ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
+                "Advice": [
+                    {
+                        "heading": "32 / 64 Bit",
+                        "content": "If your PC has less than 3 GB choose 32 Bit, if more than 3 GB choose 64 Bit. We only have one 2 GB configuration for the absolute lowest cost PC."
+                    },
+                    {
+                        "heading": "Windows or Linux",
+                        "content": "It depends on which Applications you want to run. If all your Apps are available on Linux, then choose Linux due to its lower cost. Windows also still has the edge for graphics card driver support or support for very special hardware. In terms of usability both are close and fun to use."
+                    },
+                    {
+                        "heading": "Windows OEM or Windows Full",
+                        "content": "You most likely want the OEM Edition, due to its lower cost. You qualify as you build your PC yourself. The license includes that you can continuously upgrade your PC, this includes changing of Motherboard & CPU as well as hard disk. The OEM Version is the same product but without support. In our experience we could solve all our support problems by researching the web for solutions. Your mileage may vary.\n"
+                    },
+                    {
+                        "heading": "Windows Home or Business",
+                        "content": "In general you will want Home Edition for home use and Business Edition for business use. To save cost you always can use the Home Edition for business use. You need to check if you are OK with the features that you loose. →Microsoft►Which Windows is right for you"
+                    },
+                    {
+                        "heading": "Which version of Ubuntu",
+                        "content": "You will always want to choose between two versions: 1) The newest out there 2) The latest LTS. LTS stands for Long Term Support. For normal use this is sufficient, recommended and the most stable one. The latest version instead is of course the latest and greatest, including the latest bugs. Choose this Version if you are the more adventurous type or choose it to have better support for GPUs or other newest hardware. → Ubuntu►Wiki►Releases"
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "10 OEM Home"
+                    },
+                    {
+                        "name": "10 Full Home"
+                    },
+                    {
+                        "name": "10 OEM Pro"
+                    },
+                    {
+                        "name": "10 Full Pro"
+                    },
+                    {
+                        "name": "Ubuntu"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Home Features",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Business Features",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Open Source",
+                        "row": [
+                            "No",
+                            "No",
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Free of cost",
+                        "row": [
+                            "No",
+                            "No",
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Pro Support",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "No",
+                            "Yes",
+                            "No"
+                        ]
+                    },
+                    {
+                        "title": "Move OS other PC (1)",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    "(1) If you build a new PC you need to buy a new Windows OEM Version, but you can use the same OS if you bought the Full Edition. However, upgrading your PC with the OEM Edition is allowed."
+                ],
                 "Gallery": [],
                 "Datasheet": []
             },
