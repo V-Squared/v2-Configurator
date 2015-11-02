@@ -6125,14 +6125,14 @@
                         "description": "AMD - Athlon 5350. Good Value for General Purpose / Office PC or HTPC. Also very low power consumption."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/Pentium-G3250.jpg",
+                        "image": "images/expansion/config/Third-party/Processor/i3.jpg",
                         "title": "Mid CPU Value",
-                        "description": "Intel - Pentium-G3250. General Purpose / Office PC or HTPC. Not as low power consumption as Athlon 5350, but thanks to socket 1150 it gives you room to grow."
+                        "description": "Intel - i3-4160: Very fast general purpose CPU. Drives GPU's like GTX 750."
                     },
                     {
-                        "image": "images/expansion/config/Third-party/Processor/i3.jpg",
+                        "image": "images/expansion/config/Third-party/Processor/i5-6500.jpg",
                         "title": "Mid CPU Performance",
-                        "description": "Intel - i3-4160. Very fast general purpose CPU."
+                        "description": "Intel - i5-4570S: Extremely fast CPU for most demanding Apps or Virtualization. Drives the biggest GPUs, such as GTX 980 and cohorts."
                     },
                     {
                         "image": "images/expansion/config/Third-party/Processor/i5-6500.jpg",
