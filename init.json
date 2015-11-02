@@ -5735,6 +5735,10 @@
                     {
                         "heading": "High End Motherboard",
                         "content": "Choose this board if you are looking for ultimate performance. Lets break it down into sections: 1) Disks: Very high performing RAID 5 Controller. We use this in the high end configurations to give you very large Data Disks at speed levels similar to SSD and security even beyond. 2) NVME-M2: This port is 600% faster than SATA 3. A dramatic improvement. 3) 32 GB DDR4. You can use more memory and it is 40% faster than DDR3. 4) New CPU Socket 1151: It gives you all these cool features and makes your board future proof. 5) Integrated 4K Display support: Connect the latest 4K display without the need to add a GPU card. 6) Build in WiFi. 7) If you are looking for the fastest PC possible, choose this board with confidence. ViCase comes with the matching CPU cooling solution, so you can run even the biggest CPU at 100% load all the time without thermal throttling. The V²Configurator has high end configurations to turn all these extras into a much faster computer for you."
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"??? target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a> "
                     }
                 ],
                 "Gallery": [
