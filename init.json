@@ -6300,6 +6300,10 @@
                     {
                         "heading": "Memory for High End",
                         "content": "Choose 8 GB DDR4 in 2 x 4GB Modules @ 2133 MHz when you run most demanding Apps. Also consult with the documentation of your App, they may recommend more. More memory is always better, but there is also hitting the ceiling with very diminished returns on your investment. If in doubt, check respective forums of your app and ask around how much memory they are using. If you are running demanding apps in virtual machines you may want to start with 16 GB."
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://www.baidu.com/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
                 "TableHeading": [
