@@ -6453,7 +6453,7 @@
                     },
                     {
                         "name": "SATA RAID 0 SSD 500 GB",
-                        "id": "ID-260",
+                        "id": "ID-270",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
                         "value": 192,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
@@ -6461,7 +6461,7 @@
                     },
                     {
                         "name": "SATA RAID 1 SSD 250 GB",
-                        "id": "ID-261",
+                        "id": "ID-271",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
                         "value": 192,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
