@@ -275,8 +275,8 @@
           </div>
           <div class="modal-body clearfix">
             <div ng-repeat="(chapters, cvalue) in cart">
-                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='3. ViDock'&&chapters!='2. ViCase'&&chapters!='1. Ready Configs' && chapters!='thirdprtycount' && chapters!='vtcount'">
-                    <h4>{{chapters}} <span class="info-color float-right">${{cart[chapters].cost}}</span></h4>
+                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='ID-2'&&chapters!='ID-3'&&chapters!='ID-1' && chapters!='ID-4' && chapters!='ID-5' && chapters!='thirdprtycount' && chapters!='vtcount'">
+                    <h4>{{cart[chapters].name}} <span class="info-color float-right">${{cart[chapters].cost}}</span></h4>
                     <div ng-repeat="(sections, svalue) in cart[chapters]"><a class="checkout-list" ng-href="{{cart[chapters][sections].lastclickedLink}}">{{cart[chapters][sections].lastclicked}}</a><span style="float:right" ng-if="cart[chapters][sections].cost != 0 && cart[chapters][sections].cost != null">${{cart[chapters][sections].cost}}</span></div>
                 </div>
             </div>
@@ -299,8 +299,8 @@
           </div>
           <div class="modal-body clearfix">
             <div ng-repeat="(chapters, cvalue) in cart">
-                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='4. PC Parts'&&chapters!='5. Accessories'&&chapters!='1. Ready Configs' && chapters!='thirdprtycount' && chapters!='vtcount'">
-                    <h4>{{chapters}} <span class="theme-color float-right">${{cart[chapters].cost}}</span></h4>
+                <div ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count'&&chapters!='ID-6'&&chapters!='ID-7'&&chapters!='ID-1' && chapters!='thirdprtycount' && chapters!='vtcount'">
+                    <h4>{{cart[chapters].name}} <span class="theme-color float-right">${{cart[chapters].cost}}</span></h4>
                     <div ng-repeat="(sections, svalue) in cart[chapters]"><a class="checkout-list" ng-href="{{cart[chapters][sections].lastclickedLink}}">{{cart[chapters][sections].lastclicked}}</a><span style="float:right" ng-if="cart[chapters][sections].cost != 0 && cart[chapters][sections].cost != null">${{cart[chapters][sections].cost}}</span></div>
                 </div>
             </div>

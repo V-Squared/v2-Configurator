@@ -149,7 +149,7 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
             $scope.cart[chapterIndex][SectionIndex]["lastclickedChildren"] = null;
             $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
-            $scope.cart[chapterIndex].name = SectionName;
+            $scope.cart[chapterIndex][SectionIndex].name = SectionName;
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
@@ -226,7 +226,7 @@ app.controller('myCtrl', function($scope, $http) {
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
-        cart.vtcost = cart["ID-2"].cost + cart["ID-3"].cost + cart["ID-5"].cost + cart["ID-5"].cost;
+        cart.vtcost = cart["ID-2"].cost + cart["ID-3"].cost + cart["ID-4"].cost + cart["ID-5"].cost;
 
         //alert(cart.vtcost);
 
@@ -234,7 +234,7 @@ app.controller('myCtrl', function($scope, $http) {
         //this should be done in a loop
         cart.thirdprtycost = cart["ID-6"].cost + cart["ID-7"].cost;
 
-        cart.vtcount = cart["ID-2"].count + cart["ID-3"].count + cart["ID-5"].count + cart["ID-5"].count;
+        cart.vtcount = cart["ID-2"].count + cart["ID-3"].count + cart["ID-4"].count + cart["ID-5"].count;
         cart.thirdprtycount = cart["ID-6"].count + cart["ID-7"].count;
         console.log(cart.vtcount);
     }
