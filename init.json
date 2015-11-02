@@ -7427,23 +7427,23 @@
                 "Advice": [
                     {
                         "heading": "Game or Workstation GPU",
-                        "content": "You get what is printed on the Box: Workstation GPUs come with driver for professional Apps, such as SolidWorks, Adobe Creative Cloud and cohorts. You can use Workstation GPUs for gaming, but if all you want to do is gaming than Game Graphics card will give you much more performance for games for your money."
+                        "content": "You get what is printed on the Box: Workstation GPUs come with driver for professional Apps, such as SolidWorks, Adobe Creative Cloud and cohorts. You can use Workstation GPUs for gaming, but if all you want to do is gaming , you may want to purchase a GeForce Graphics Card that will give you much more performance for games for your money."
                     },
                     {
                         "heading": "Hacking a Game GPU into a Workstation Card",
-                        "content": "There are hacks out there so that you can use a Game GPU as a Workstation GPU. We did that for us and it worked for us. But there are no guarantees and no support of course. And it might take you some hours to find and try different hacks. The safe and professional way is to use Workstation Cards for your professional Apps."
+                        "content": "There are hacks out there so that you can use a Game GPU as a Workstation GPU. We did that for us and it worked for us, but there are no guarantees and no support for choosing this path. This also requires additional time finding and trying different hacks. The safe and professional way is to use Workstation Cards for your professional Apps."
                     },
                     {
                         "heading": "K420",
-                        "content": "If you are on a budget, this is your entry ticket into Workstation Graphics for under $100"
+                        "content": "If you are on a budget, this is your entry ticket into Workstation Graphics for under $100."
                     },
                     {
                         "heading": "K620",
-                        "content": "This card is the default choice for Workstation. With 384 Cores and 2 GB of memory it is fast enough for most work"
+                        "content": "This card is the default choice for Workstation. With 384 Cores and 2 GB of memory it is fast enough for most work."
                     },
                     {
                         "heading": "K1200",
-                        "content": "This is a high end card with 512 CUDA cores, 4 GB of very fast GDDR5 it will make your professional Apps fly. You also can drive 4 Displays and each Display can be 4K @ 60 Hz."
+                        "content": "This is a high end card with 512 CUDA cores, 4 GB of very fast GDDR5 that will make your professional Apps fly. You also can drive 4 Displays and each Display can be 4K @ 60 Hz."
                     },
                     {
                         "heading": "Notes on complaints in reviews",
