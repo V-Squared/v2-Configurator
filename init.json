@@ -6946,23 +6946,33 @@
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800026.pdf \" target=\" _blank \">HDD 2.5\" 2TB Green</a>"
+                                            "",
+                                            "Blue",
+                                            "Green",
+                                            "Red"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800026.pdf \" target=\" _blank \">HDD 3.5\" 4TB Green</a>"
+                                            "2.5\" ",
+                                            "<a href=\"http://www.amd.com/en-gb/products/processors/desktop/sempron\" target=\" _blank \">Sempron 2650</a>",
+                                            "-",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">Red 1TB</a>"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800002.pdf \" target=\" _blank \">HDD 3.5\" 4TB Red</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-771434.pdf \" target=\" _blank \">HDD 3.5\" 4TB Black</a>"
+                                            "3.5\" ",
+                                            "-",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">Green 1TB-6TB</a>",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">Red 1TB-6TB</a>"
                                         ]
                                     }
                                 ]
