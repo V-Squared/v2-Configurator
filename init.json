@@ -7591,6 +7591,148 @@
                 ]
             },
             {
+                "url": "",
+                "name": "Game GPU",
+                "id": "ID-284",
+                "part": "Game GPU",
+                "yourChoice": [
+                    {
+                        "name": "AMD R7-250 (XFX)",
+                        "id": "ID-285",
+                        "img": "",
+                        "value": "85",
+                        "link": "http://www.amazon.com/XFX-R7-250/dp/B00H5DJDL2/",
+                        "tag": "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                    },
+                    {
+                        "name": "nVidia GTX 750 (Gigabyte) Ti",
+                        "id": "ID-286",
+                        "img": "",
+                        "value": "125",
+                        "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
+                        "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                    },
+                    {
+                        "name": "nVidia GTX 970 (MSI)",
+                        "id": "ID-287",
+                        "img": "",
+                        "value": "350",
+                        "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
+                        "tag": "High End GPU Card with outstanding quality"
+                    },
+                    {
+                        "name": "nVidia GTX 980 (PNY)",
+                        "id": "ID-288",
+                        "img": "",
+                        "value": "499",
+                        "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
+                        "tag": "Ultra High END GPU Card"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Game or Workstation GPU",
+                        "content": "You get what is printed on the Box: Workstation GPUs come with driver for professional Apps, such as SolidWorks, Adobe Creative Cloud and cohorts. You can use Workstation GPUs for gaming, but if all you want to do is gaming , you may want to purchase a GeForce Graphics Card that will give you much more performance for games for your money."
+                    },
+                    {
+                        "heading": "Hacking a Game GPU into a Workstation Card",
+                        "content": "There are hacks out there so that you can use a Game GPU as a Workstation GPU. We did that for us and it worked for us, but there are no guarantees and no support for choosing this path. This also requires additional time finding and trying different hacks. The safe and professional way is to use Workstation Cards for your professional Apps."
+                    },
+                    {
+                        "heading": "K420",
+                        "content": "If you are on a budget, this is your entry ticket into Workstation Graphics for under $100."
+                    },
+                    {
+                        "heading": "K620",
+                        "content": "This card is the default choice for Workstation. With 384 Cores and 2 GB of memory it is fast enough for most work."
+                    },
+                    {
+                        "heading": "K1200",
+                        "content": "This is a high end card with 512 CUDA cores, 4 GB of very fast GDDR5 that will make your professional Apps fly. You also can drive 4 Displays and each Display can be 4K @ 60 Hz."
+                    },
+                    {
+                        "heading": "Notes on complaints in reviews",
+                        "content": "All complaints we have seen were about the lack of Full Profile bracket. This is irrelevant when using ViCase. You only need the included Low Profile bracket."
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "R7-250"
+                    },
+                    {
+                        "name": "GTX 750 Ti"
+                    },
+                    {
+                        "name": "GTX 970"
+                    },
+                    {
+                        "name": "GTX 980"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Recommended CPU",
+                        "row": [
+                            "i3",
+                            "i3",
+                            "i5",
+                            "i5/i7"
+                        ]
+                    },
+                    {
+                        "title": "Digital Display Ports",
+                        "row": [
+                            2,
+                            4,
+                            4,
+                            5
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://images.nvidia.com/content/quadro/product-literature/data-sheets/13720_DS_NV_Quadro_K420_Aug25_US_NV_HR.pdf \" target=\" _blank \">nVidia Quadro K420</a>",
+                                            "Lowest cost entry ticket into Workstation 3D"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://international.download.nvidia.com/quadro/product-literature/data-sheets/DS-NV-Quadro-K620-JUL24-US-NV-r-HR.pdf \" target=\" _blank \">nVidia Quadro K620</a>",
+                                            "Standard choice for Workstation 3D"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://images.nvidia.com/content/pdf/quadro/data-sheets/DS_NV_Quadro_K1200_FEB15_NV_US_HR.pdf \" target=\" _blank \">nVidia Quadro K1200</a>",
+                                            "4 Displays, 4 GB GDDR5, 512 Cores. High End Workstation 3D"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.nvidia.com/object/quadro-desktop-gpus.html#\" target=\" _blank \">Quadro Workstation Cards</a>",
+                                            "Overview Page to all Data Sheets. Use this URL to find the data sheet in case the URL to the data sheet below is broken."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Display Size",
                 "url": "",
                 "id": "ID-32",
