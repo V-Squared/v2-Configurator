@@ -6762,105 +6762,105 @@
                 "id": "ID-29",
                 "yourChoice": [
                     {
-                        "name": "2.5\" Blue 500 GB",
+                        "name": "2.5\"WD Blue 500 GB",
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
                         "value": 43,
                         "tag": "Consumer Class Storage 500 MB for ViCase-Tiny / Mini"
                     },
                     {
-                        "name": "2.5\" Blue 1 TB",
+                        "name": "2.5\"WD Blue 1 TB",
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-750GB.jpg",
                         "value": 60,
                         "tag": "Consumer Class Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
-                        "name": "2.5\" Red 1TB",
+                        "name": "2.5\"WD Red 1TB",
                         "id": "ID-64",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-1TB.jpg",
                         "value": 70,
                         "tag": "Workhorse Storage 1 TB for ViCase-Tiny / Mini"
                     },
                     {
-                        "name": "3.5\" Green 1TB",
+                        "name": "3.5\"WD Green 1TB",
                         "id": "ID-65",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 50,
                         "tag": "Consumer Class Storage 1 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Green 2TB",
+                        "name": "3.5\"WD Green 2TB",
                         "id": "ID-204",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 79,
                         "tag": "Consumer Class Storage 2 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Green 3TB",
+                        "name": "3.5\"WD Green 3TB",
                         "id": "ID-205",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 93,
                         "tag": "Consumer Class Storage 3 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Green 4TB",
+                        "name": "3.5\"WD Green 4TB",
                         "id": "ID-206",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 132,
                         "tag": "Consumer Class Storage 4 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Green 5TB",
+                        "name": "3.5\"WD Green 5TB",
                         "id": "ID-207",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 175,
                         "tag": "Consumer Class Storage 5 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Green 6TB",
+                        "name": "3.5\"WD Green 6TB",
                         "id": "ID-208",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-green.jpg",
                         "value": 223,
                         "tag": "Consumer Class Storage 6 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 1TB",
+                        "name": "3.5\"WD Red 1TB",
                         "id": "ID-209",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 65,
                         "tag": "Workhorse Storage 1 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 2TB",
+                        "name": "3.5\"WD Red 2TB",
                         "id": "ID-210",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 90,
                         "tag": "Workhorse Storage 2 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 3TB",
+                        "name": "3.5\"WD Red 3TB",
                         "id": "ID-211",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 110,
                         "tag": "Workhorse Storage 3 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 4TB",
+                        "name": "3.5\"WD Red 4TB",
                         "id": "ID-212",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 150,
                         "tag": "Workhorse Storage 4 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 5TB",
+                        "name": "3.5\"WD Red 5TB",
                         "id": "ID-213",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 195,
                         "tag": "Workhorse Storage 5 TB for ViCase-Ultra"
                     },
                     {
-                        "name": "3.5\" Red 6TB",
+                        "name": "3.5\"WD Red 6TB",
                         "id": "ID-214",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 250,
@@ -6873,10 +6873,10 @@
                         "class": "table-left-title"
                     },
                     {
-                        "name": "Blue/Green"
+                        "name": "WD Blue/Green"
                     },
                     {
-                        "name": "Red"
+                        "name": "WD Red"
                     }
                 ],
                 "TableBody": [
@@ -6885,6 +6885,13 @@
                         "row": [
                             "2 Years",
                             "3 Years"
+                        ]
+                    },
+                    {
+                        "title": "Class",
+                        "row": [
+                            "Consumer",
+                            "Professional"
                         ]
                     },
                     {
@@ -6924,15 +6931,15 @@
                     },
                     {
                         "heading": "3.5\" on capacities > 1 TB",
-                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Mini has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
+                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Ultra has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
                     },
                     {
                         "heading": "NAS and Enterprise Class for higher reliability",
                         "content": "NAS Disks are dramatically more reliable than Consumer Disks. Western Digital has the Red Product Family. They work equally as well when used as a single drive or when used in a RAID. Consumer disks are build for a workload of about 2 hours per day, whereas RED is build and guaranteed for a workload of 24/7. If you use your computer longer than 2 hours / day, be sure to use Red. And if you want even better reliability, enterprise class disks have even higher reliability. For more information, please see the next chapter → Data Disk (RAID)"
                     },
                     {
-                        "heading": "3.5\" when using RAID",
-                        "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)\n"
+                        "heading": "Consider RAID for large Data Storage",
+                        "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)"
                     },
                     {
                         "heading": "",
