@@ -6,7 +6,7 @@
             {
                 "name": "Field of Application",
                 "url": "",
-                "id":"ID-8",
+                "id": "ID-8",
                 "yourChoice": [
                     {
                         "name": "Gaming",
@@ -80,7 +80,7 @@
             {
                 "name": "Use",
                 "url": "",
-                "id":"ID-9",
+                "id": "ID-9",
                 "part": "vicase-performance",
                 "slide": "slide-performance",
                 "yourChoice": [
@@ -145,7 +145,7 @@
             {
                 "name": "Form Factor",
                 "url": "",
-                "id":"ID-10",
+                "id": "ID-10",
                 "yourChoice": [
                     {
                         "name": "Mini",
@@ -173,7 +173,7 @@
             {
                 "name": "Number of Displays",
                 "url": "",
-                "id":"ID-11",
+                "id": "ID-11",
                 "noNone": true,
                 "yourChoice": [
                     {
@@ -198,7 +198,7 @@
             },
             {
                 "name": "Preview",
-                "id":"ID-12"
+                "id": "ID-12"
             },
             {
                 "name": "Save and Load My Config",
@@ -213,7 +213,7 @@
         "data": [
             {
                 "name": "ViCase Size",
-                "id":"ID-13",
+                "id": "ID-13",
                 "url": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
                 "part": "case-size",
                 "slide": "slide1",
@@ -2040,7 +2040,7 @@
                 "url": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
                 "part": "vicase-color",
                 "noNone": true,
-                "id":"ID-14",
+                "id": "ID-14",
                 "slide": "slide2",
                 "yourChoice": [
                     {
@@ -2146,7 +2146,7 @@
             {
                 "name": "ViCase Cooler",
                 "url": "",
-                "id":"ID-15",
+                "id": "ID-15",
                 "part": "cooler",
                 "slide": "slide6",
                 "yourChoice": [
@@ -2447,7 +2447,7 @@
             {
                 "name": "ViCase All-In-One",
                 "url": "",
-                "id":"ID-16",
+                "id": "ID-16",
                 "part": "vicase-placement",
                 "slide": "slide3",
                 "NoneID": "ID-130",
@@ -2887,7 +2887,7 @@
             {
                 "name": "ViCase Access",
                 "url": "",
-                "id":"ID-17",
+                "id": "ID-17",
                 "part": "vicase-access",
                 "slide": "slide4",
                 "NoneID": "ID-131",
@@ -3032,8 +3032,7 @@
     },
     {
         "name": "4. Power (Ready)",
-        "id": "ID-4",
-        "id":"ID-18",
+        "id": "ID-18",
         "data": [
             {
                 "name": "V²P.12V AC / DC Adapter",
@@ -3308,7 +3307,7 @@
             {
                 "name": "V²P.pATX Pico ATX Power",
                 "url": "",
-                "id":"ID-19",
+                "id": "ID-19",
                 "part": "V²P.pATX Pico ATX Power",
                 "slide": "slide5",
                 "yourChoice": [
@@ -3531,7 +3530,7 @@
         "data": [
             {
                 "name": "ViDock",
-                "id":"ID-20",
+                "id": "ID-20",
                 "url": "",
                 "part": "SFF",
                 "yourChoice": [
@@ -4482,7 +4481,7 @@
             {
                 "name": "V²A (Adapter)",
                 "url": "",
-                "id":"ID-21",
+                "id": "ID-21",
                 "part": "VA",
                 "yourChoice": [
                     {
@@ -4612,7 +4611,7 @@
             {
                 "name": "V²C (Cables)",
                 "url": "",
-                "id":"ID-22",
+                "id": "ID-22",
                 "part": "v2c-cables",
                 "yourChoice": [
                     {
@@ -4904,7 +4903,7 @@
             {
                 "name": "V²P (Power)",
                 "url": "",
-                "id":"ID-23",
+                "id": "ID-23",
                 "part": "ac-adapter",
                 "yourChoice": [
                     {
@@ -5026,7 +5025,7 @@
             {
                 "name": "V²B (Boards)",
                 "url": "",
-                "id":"ID-24",
+                "id": "ID-24",
                 "part": "V²B-Boards",
                 "yourChoice": [
                     {
@@ -5473,7 +5472,7 @@
                 "url": "images/expansion/config/mainBoard.jpg",
                 "name": "Motherboard",
                 "part": "motherboard",
-                "id":"ID-25",
+                "id": "ID-25",
                 "TableTag": [
                     "(1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed.",
                     "(2) AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet.",
@@ -5802,7 +5801,7 @@
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
                 "name": "Processor(CPU)",
-                "id":"ID-26",
+                "id": "ID-26",
                 "part": "proc",
                 "yourChoice": [
                     {
@@ -6213,7 +6212,7 @@
             {
                 "url": "images/expansion/config/RAM.png",
                 "name": "Memory (RAM)",
-                "id":"ID-27",
+                "id": "ID-27",
                 "part": "RAM",
                 "yourChoice": [
                     {
@@ -6433,7 +6432,7 @@
                 "url": "images/expansion/config/mSATA-SSD.gif",
                 "name": "Boot Disk",
                 "part": "mSATA",
-                "id":"ID-28",
+                "id": "ID-28",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "yourChoice": [
                     {
@@ -6451,6 +6450,22 @@
                         "value": 96,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
                         "tag": "Samsung - 850 EVO- MZ-75E250B/AM"
+                    },
+                    {
+                        "name": "SATA RAID 0 SSD 500 GB",
+                        "id": "ID-260",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
+                        "value": 192,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
+                        "tag": "2x Samsung - 850 EVO- MZ-75E250B/AM"
+                    },
+                    {
+                        "name": "SATA RAID 1 SSD 250 GB",
+                        "id": "ID-261",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
+                        "value": 192,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=9SIA2W02CZ2241",
+                        "tag": "2x Samsung - 850 EVO- MZ-75E250B/AM"
                     },
                     {
                         "name": "SATA3 2.5\" SSD 500GB",
@@ -6519,11 +6534,11 @@
                     },
                     {
                         "heading": "High End",
-                        "content": "The next higher performance is NVME M.2. For twice the cost you get about 300 ... 400% speed increase over SSD. This is not a bad deal and over time the cost for fast M.2 shall drop further. Bear in mind that this only works well with latest high end motherboards and latest OS and requires extra care during installation. When the time comes we will provide a How-To Video on YouTube."
+                        "content": "You have two choices for higher performance of SATA3 SSD: 1) RAID 0 of two SATA3 SSD. This will double the speed and capacity. Alternatively choose NVME M.2. For twice the cost you get about 300 ... 400% speed increase over SSD or 150 ... 200% of speed over RAID0 SSD. Bear in mind that this only works well with latest high end motherboards and latest OS and requires extra care during installation. When the time comes we will provide a How-To Video on YouTube."
                     },
                     {
                         "heading": "High Performance Server",
-                        "content": "Consumer M.2 modules overheat when loaded with the workload of a server and they also do not support that kind of workload. This is where the 750 Series from Intel fits in. In terms of IO Operations even faster than NVME M.2 modules and designed for the heavy load in a Server."
+                        "content": "Consumer M.2 modules overheat when loaded with the workload of a server and they also do not support that kind of workload. This is where the 750 Series from Intel fits in. In terms of IO Operations even faster than NVME M.2 modules and designed for the heavy load in a Server. In case you want to build a system with even more reliability, you can choose SSD RAID 1 for a redundant boot disk and choose the NVME-PCIe as Data Disk."
                     },
                     {
                         "heading": "Recommendations on capacities",
@@ -6672,6 +6687,18 @@
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 0 SSD 500 GB</a>",
+                                            "2x Samsung - 850 EVO- MZ-75E250B/AM"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 1 SSD 250 GB</a>",
+                                            "2x Samsung - 850 EVO- MZ-75E250B/AM"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
                                             "<a href=\"http://www.samsung.com/us/computer/memory-storage/MZ-75E500B/AM\" target=\" _blank \">SATA3 2.5\" SSD 500GB</a>",
                                             "Samsung - 850 EVO - MZ-7KE512BW"
                                         ]
@@ -6716,7 +6743,7 @@
                 "url": "images/expansion/config/SSD.png",
                 "name": "Data Disk (Single)",
                 "part": "SSD-1",
-                "id":"ID-29",
+                "id": "ID-29",
                 "yourChoice": [
                     {
                         "name": "2.5\" Blue 500 GB",
@@ -6928,7 +6955,7 @@
                 "url": "images/expansion/config/SSD.png",
                 "name": "Data Disk (RAID)",
                 "part": "SSD-1",
-                "id":"ID-30",
+                "id": "ID-30",
                 "yourChoice": [
                     {
                         "name": "3x 3.5\" Red 1TB (2TB)",
@@ -7188,7 +7215,7 @@
             {
                 "url": "images/expansion/config/windows-7-logo.png",
                 "name": "OS",
-                "id":"ID-31",
+                "id": "ID-31",
                 "part": "OS",
                 "yourChoice": [
                     {
@@ -7243,7 +7270,7 @@
             {
                 "name": "Display Size",
                 "url": "",
-                "id":"ID-32",
+                "id": "ID-32",
                 "noNone": true,
                 "yourChoice": [
                     {
