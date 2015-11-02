@@ -7250,14 +7250,14 @@
                         "name": "Ubuntu 14.04.3 LTS",
                         "id": "ID-73",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
-                        "value": "0",
+                        "value": "$0",
                         "tag": "Zero Cost. Ideal for standard work"
                     },
                     {
                         "name": "Ubuntu 15.10",
                         "id": "ID-74",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
-                        "value": "0",
+                        "value": "$0",
                         "tag": "Zero Cost. Ideal for Steam Gaming"
                     }
                 ],
