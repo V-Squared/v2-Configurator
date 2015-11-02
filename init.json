@@ -6138,6 +6138,10 @@
                     {
                         "heading": "i7-6700K",
                         "content": "Choose this CPU if you are looking for the Ultimate in CPU performance."
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://www.baidu.com/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
                 "Gallery": [
@@ -6547,6 +6551,10 @@
                     {
                         "heading": "Recommendations on capacities",
                         "content": "For a regular PC running Windows 10 or Ubuntu and a bunch of Apps 120 GB will be fine. If your budget is not too tight for $50 US more you get 250 GB and have some room to grow. If you store a lot of Photos / Movies / Songs you will need more space. However, for these data a slower HDD will do in most cases and gives you more space for your money. For more information → Data Disk."
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://www.baidu.com/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
                 "TableHeading": [
@@ -6921,6 +6929,10 @@
                     {
                         "heading": "3.5\" when using RAID",
                         "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)\n"
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://www.baidu.com/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
                 "Gallery": [],
@@ -7066,6 +7078,10 @@
                     {
                         "heading": "Do NOT use desktop drives in RAID",
                         "content": "Desktop drives are build for a workload of about 2 hours per day. Who uses RAID uses their disks in general at least 9 hours / day. Desktop drives simply will fail to early, as they are not build for long working hours. Another difference is that desktop drives are designed to be the only disk in a case. The difference is vibration, which will significantly shorten the lifespan of a Disk. RAID drives are designed to higher specs to avoid vibration in the first place and higher class RAID drives even have active vibration cancellation. Also desktop may be recognized as bad even when they are still good when used in a RAID due to different time out standards of desktop drives versus RAID drives. In shorty. do NOT use desktop drives in a RAID. If you are on budget, Western Digital RED are about the same cost as quality desktop drives and they work beautifully in RAID."
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://www.baidu.com/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
                 "TableHeading": [
