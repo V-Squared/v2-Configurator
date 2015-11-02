@@ -131,7 +131,7 @@ app.controller('myCtrl', function($scope, $http) {
     console.log($scope.Display_Number);
    }
  
-    $scope.initIndex = function(chapterIndex, SectionIndex, item) {
+    $scope.initIndex = function(chapterIndex,chapterName, SectionIndex, item) {
         //console.log(arguments);
 
         //chapterIndex = chapter
@@ -142,6 +142,7 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex] = {};
             $scope.cart[chapterIndex].cost = 0; //chapter cost
             $scope.cart[chapterIndex].count = 0; //chapter cost
+            $scope.cart[chapterIndex].name = chapterName;
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex] = {};

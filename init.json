@@ -1,11 +1,12 @@
 ﻿[
     {
         "name": "1. Wizard (Half-Done)",
-        "id": "150",
+        "id": "ID-1",
         "data": [
             {
                 "name": "Field of Application",
                 "url": "",
+                "id":"ID-8",
                 "yourChoice": [
                     {
                         "name": "Gaming",
@@ -79,6 +80,7 @@
             {
                 "name": "Use",
                 "url": "",
+                "id":"ID-9",
                 "part": "vicase-performance",
                 "slide": "slide-performance",
                 "yourChoice": [
@@ -143,6 +145,7 @@
             {
                 "name": "Form Factor",
                 "url": "",
+                "id":"ID-10",
                 "yourChoice": [
                     {
                         "name": "Mini",
@@ -170,6 +173,7 @@
             {
                 "name": "Number of Displays",
                 "url": "",
+                "id":"ID-11",
                 "noNone": true,
                 "yourChoice": [
                     {
@@ -193,7 +197,8 @@
                 ]
             },
             {
-                "name": "Preview"
+                "name": "Preview",
+                "id":"ID-12"
             },
             {
                 "name": "Save and Load My Config",
@@ -204,9 +209,11 @@
     },
     {
         "name": "2. Mini Case (Ready)",
+        "id": "ID-2",
         "data": [
             {
                 "name": "ViCase Size",
+                "id":"ID-13",
                 "url": "images/expansion/config/ViCase/Icon/ViCase-Tiny-142x80.jpg",
                 "part": "case-size",
                 "slide": "slide1",
@@ -2033,6 +2040,7 @@
                 "url": "images/expansion/config/ViCase/Icon/ViCase-Color-Black-142x80.jpg",
                 "part": "vicase-color",
                 "noNone": true,
+                "id":"ID-14",
                 "slide": "slide2",
                 "yourChoice": [
                     {
@@ -2138,6 +2146,7 @@
             {
                 "name": "ViCase Cooler",
                 "url": "",
+                "id":"ID-15",
                 "part": "cooler",
                 "slide": "slide6",
                 "yourChoice": [
@@ -2433,10 +2442,12 @@
     },
     {
         "name": "3. All-In-One Converter (Ready)",
+        "id": "ID-3",
         "data": [
             {
                 "name": "ViCase All-In-One",
                 "url": "",
+                "id":"ID-16",
                 "part": "vicase-placement",
                 "slide": "slide3",
                 "NoneID": "ID-130",
@@ -2876,6 +2887,7 @@
             {
                 "name": "ViCase Access",
                 "url": "",
+                "id":"ID-17",
                 "part": "vicase-access",
                 "slide": "slide4",
                 "NoneID": "ID-131",
@@ -3020,6 +3032,8 @@
     },
     {
         "name": "4. Power (Ready)",
+        "id": "ID-4",
+        "id":"ID-18",
         "data": [
             {
                 "name": "V²P.12V AC / DC Adapter",
@@ -3294,6 +3308,7 @@
             {
                 "name": "V²P.pATX Pico ATX Power",
                 "url": "",
+                "id":"ID-19",
                 "part": "V²P.pATX Pico ATX Power",
                 "slide": "slide5",
                 "yourChoice": [
@@ -3512,9 +3527,11 @@
     },
     {
         "name": "5. PCIe Expansion (Ready)",
+        "id": "ID-5",
         "data": [
             {
                 "name": "ViDock",
+                "id":"ID-20",
                 "url": "",
                 "part": "SFF",
                 "yourChoice": [
@@ -4465,6 +4482,7 @@
             {
                 "name": "V²A (Adapter)",
                 "url": "",
+                "id":"ID-21",
                 "part": "VA",
                 "yourChoice": [
                     {
@@ -4594,6 +4612,7 @@
             {
                 "name": "V²C (Cables)",
                 "url": "",
+                "id":"ID-22",
                 "part": "v2c-cables",
                 "yourChoice": [
                     {
@@ -4885,6 +4904,7 @@
             {
                 "name": "V²P (Power)",
                 "url": "",
+                "id":"ID-23",
                 "part": "ac-adapter",
                 "yourChoice": [
                     {
@@ -5006,6 +5026,7 @@
             {
                 "name": "V²B (Boards)",
                 "url": "",
+                "id":"ID-24",
                 "part": "V²B-Boards",
                 "yourChoice": [
                     {
@@ -5446,11 +5467,13 @@
     },
     {
         "name": "6. PC Parts (Half-Done)",
+        "id": "ID-6",
         "data": [
             {
                 "url": "images/expansion/config/mainBoard.jpg",
                 "name": "Motherboard",
                 "part": "motherboard",
+                "id":"ID-25",
                 "TableTag": [
                     "(1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed.",
                     "(2) AM1 CPU have by far lowest cost and power consumption. But maximum performance is limited to about same performance as a high end tablet.",
@@ -5779,6 +5802,7 @@
             {
                 "url": "images/expansion/config/Intel-CPU.jpg",
                 "name": "Processor(CPU)",
+                "id":"ID-26",
                 "part": "proc",
                 "yourChoice": [
                     {
@@ -6189,6 +6213,7 @@
             {
                 "url": "images/expansion/config/RAM.png",
                 "name": "Memory (RAM)",
+                "id":"ID-27",
                 "part": "RAM",
                 "yourChoice": [
                     {
@@ -6408,6 +6433,7 @@
                 "url": "images/expansion/config/mSATA-SSD.gif",
                 "name": "Boot Disk",
                 "part": "mSATA",
+                "id":"ID-28",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "yourChoice": [
                     {
@@ -6690,6 +6716,7 @@
                 "url": "images/expansion/config/SSD.png",
                 "name": "Data Disk (Single)",
                 "part": "SSD-1",
+                "id":"ID-29",
                 "yourChoice": [
                     {
                         "name": "2.5\" Blue 500 GB",
@@ -6901,6 +6928,7 @@
                 "url": "images/expansion/config/SSD.png",
                 "name": "Data Disk (RAID)",
                 "part": "SSD-1",
+                "id":"ID-30",
                 "yourChoice": [
                     {
                         "name": "3x 3.5\" Red 1TB (2TB)",
@@ -7155,10 +7183,12 @@
     },
     {
         "name": "7. Accessories (Half-Done)",
+        "id": "ID-7",
         "data": [
             {
                 "url": "images/expansion/config/windows-7-logo.png",
                 "name": "OS",
+                "id":"ID-31",
                 "part": "OS",
                 "yourChoice": [
                     {
@@ -7213,6 +7243,7 @@
             {
                 "name": "Display Size",
                 "url": "",
+                "id":"ID-32",
                 "noNone": true,
                 "yourChoice": [
                     {
