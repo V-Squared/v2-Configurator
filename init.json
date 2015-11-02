@@ -6912,7 +6912,7 @@
                     },
                     {
                         "heading": "NAS and Enterprise Class for higher reliability",
-                        "content": "If you need to store more than 1 TB of data, then it is time to switch to 3.5\". Nothing beats 3.5\" HDD when storing large amount of data at low cost. ViCase Ultra has space for 3 disks 3.5\". In addition it has a special airflow design to keep your disks cool. To offset the higher noise of 3.5\" disks the ViCase Mini has a HDD silencer. These features make ViCase Ultra more expensive, but you save the money with the lower cots per TB on 3.5\" disks. Please note that you can place ViCase Ultra behind your Display and out of sight. As such the larger size is not relevant, as you would not see it anyways."
+                        "content": "NAS Disks are dramatically more reliable than Consumer Disks. Western Digital has the Red Product Family. They work equally as well when used as a single drive or when used in a RAID. Consumer disks are build for a workload of about 2 hours per day, whereas RED is build and guaranteed for a workload of 24/7. If you use your computer longer than 2 hours / day, be sure to use Red. And if you want even better reliability, enterprise class disks have even higher reliability. For more information, please see the next chapter → Data Disk (RAID)"
                     },
                     {
                         "heading": "3.5\" when using RAID",
