@@ -7570,6 +7570,12 @@
                                             "<a href=\"http://images.nvidia.com/content/pdf/quadro/data-sheets/DS_NV_Quadro_K1200_FEB15_NV_US_HR.pdf \" target=\" _blank \">nVidia Quadro K1200</a>",
                                             "4 Displays, 4 GB GDDR5, 512 Cores. High End Workstation 3D"
                                         ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.nvidia.com/object/quadro-desktop-gpus.html#\" target=\" _blank \"> Use this URL to find the data sheet in case the URL to the data sheet below is broken.</a>",
+                                            "Overview Page to all Data Sheets. Use this URL to find the data sheet in case the URL to the data sheet below is broken."
+                                        ]
                                     }
                                 ]
                             }
