@@ -7223,42 +7223,42 @@
                         "id": "ID-68",
                         "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
                         "value": "100",
-                        "tagline": "OS for home use and High End gaming"
+                        "tag": "OS for home use and High End gaming"
                     },
                     {
                         "name": "Windows 10 Home Full",
                         "id": "ID-69",
                         "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
                         "value": "120",
-                        "tagline": "Same as above, but with support"
+                        "tag": "Same as above, but with support"
                     },
                     {
                         "name": "Windows 10 Pro OEM",
                         "id": "ID-70",
                         "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
                         "value": "140",
-                        "tagline": "OS for business"
+                        "tag": "OS for business"
                     },
                     {
                         "name": "Windows 10 Pro Full ",
                         "id": "ID-71",
                         "img": "images/expansion/config/Accessories/OS/windows-10-logo.png",
                         "value": "200",
-                        "tagline": "Same as above, but with support"
+                        "tag": "Same as above, but with support"
                     },
                     {
                         "name": "Ubuntu 14.04.3 LTS",
                         "id": "ID-73",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
                         "value": "0",
-                        "tagline": "Zero Cost. Ideal for standard work"
+                        "tag": "Zero Cost. Ideal for standard work"
                     },
                     {
                         "name": "Ubuntu 15.10",
                         "id": "ID-74",
                         "img": "images/expansion/config/Accessories/OS/linux-utanbu.jpg",
                         "value": "0",
-                        "tagline": "Zero Cost. Ideal for Steam Gaming"
+                        "tag": "Zero Cost. Ideal for Steam Gaming"
                     }
                 ],
                 "Advice": [
