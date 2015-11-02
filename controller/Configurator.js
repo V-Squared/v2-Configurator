@@ -122,16 +122,16 @@ app.controller('myCtrl', function($scope, $http) {
    }
 
    $scope.Preview = function() {
-    var caseSize = $scope.cart["2. Mini Case (Ready)"]["ViCase Size"].lastclicked;
-    var FormFactor = $scope.cart["1. Wizard (Half-Done)"]["Form Factor"].lastclicked;
-    $scope.Display_Number = $scope.cart["1. Wizard (Half-Done)"]["Number of Displays"].lastclicked;
+    var caseSize = $scope.cart["ID-2"]["ID-13"].lastclicked;
+    var FormFactor = $scope.cart["ID-1"]["ID-10"].lastclicked;
+    $scope.Display_Number = $scope.cart["ID-1"]["ID-11"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     
     console.log($scope.Display_Number);
    }
  
-    $scope.initIndex = function(chapterIndex,chapterName, SectionIndex, item) {
+    $scope.initIndex = function(chapterIndex,chapterName, SectionIndex,SectionName, item) {
         //console.log(arguments);
 
         //chapterIndex = chapter
@@ -149,6 +149,7 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
             $scope.cart[chapterIndex][SectionIndex]["lastclickedChildren"] = null;
             $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
+            $scope.cart[chapterIndex].name = SectionName;
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
@@ -225,14 +226,16 @@ app.controller('myCtrl', function($scope, $http) {
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
-        cart.vtcost = cart["2. ViCase (Finished)"].cost + cart["3. ViDock (Finished)"].cost;
+        cart.vtcost = cart["ID-2"].cost + cart["ID-3"].cost + cart["ID-5"].cost + cart["ID-5"].cost;
+
+        //alert(cart.vtcost);
 
         $('.chicken').remove();
         //this should be done in a loop
-        cart.thirdprtycost = cart["5. Accessories (Under Construction)"].cost + cart["4. PC Parts (Under Construction)"].cost;
+        cart.thirdprtycost = cart["ID-6"].cost + cart["ID-7"].cost;
 
-        cart.vtcount = cart["2. ViCase (Finished)"].count + cart ["3. ViDock (Finished)"].count;
-        cart.thirdprtycount = cart["4. PC Parts (Under Construction)"].count + cart["5. Accessories (Under Construction)"].count;
+        cart.vtcount = cart["ID-2"].count + cart["ID-3"].count + cart["ID-5"].count + cart["ID-5"].count;
+        cart.thirdprtycount = cart["ID-6"].count + cart["ID-7"].count;
         console.log(cart.vtcount);
     }
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options

@@ -43,7 +43,7 @@
                         <div style="display:none" class="panel-body collapsable" ng-init="chapterIndex=$index" id="chapter-{{$index}}">
                             <div id="ViCase" class="configirator-section" ng-repeat="Section in Chapter.data" ng-init="sectionIndex=$index">
                                 <div class="col-sm-2 ">
-                                    <img ng-if="cart[Chapter.name][Section.name].lastclickedImg" ng-src="{{cart[Chapter.name][Section.name].lastclickedImg}}">
+                                    <img ng-if="cart[Chapter.id][Section.id].lastclickedImg" ng-src="{{cart[Chapter.id][Section.id].lastclickedImg}}">
                                 </div>
                                 <!--
                                Chapter = chapters
@@ -58,7 +58,7 @@
                                             <div ng-if="Section.name=='Field of Application'">
                                                 <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase">
                                                     <label>
-                                                        <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,true)"> 
+                                                        <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,true)"> 
                                                         {{ choice.name }}
                                                     </label>
                                                 </div>
@@ -73,7 +73,7 @@
                                                 <div ng-if="Section.name == 'Form Factor'">
                                                     <div ng-repeat="choice in Section.yourChoice">
                                                     <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.name,choice)" ng-click="readyConfig($event,false);radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="readyConfig($event,false);radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
                                                     </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Preview'">
@@ -107,11 +107,11 @@
                                             <!--Normal Choice-->
                                             <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
-                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.name,choice)" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span style="padding-right:10px;">{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value}}</span></span> <span style="color:#bbb;">{{choice.tag}}</span>  </label>
+                                                    <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span style="padding-right:10px;">{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value}}</span></span> <span style="color:#bbb;">{{choice.tag}}</span>  </label>
                                             </div>
                                             <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.name,Section.name,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>
@@ -234,7 +234,7 @@
                         <div ng-click="toggle($event,true)">
                             <h4 style="color:#AFAFAF"><i class="fa fa-play fa-rotate-90"></i> Total Cost <span style="float:right;">${{cart.cost}}</span></h4>
                         </div>
-                        <div class="collapsable">
+                        <div class="collapsable" style="display:none">
                             <p style="font-size:11px">This is the total cost of your PC. Bear in mind that most likely most parts are from 3rd Party and that the costs we listed are guide pricing in USA as of November 2015. Cost in your country or at another time may vary.</p>
                         </div>
                     </div>
