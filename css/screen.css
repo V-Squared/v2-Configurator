@@ -616,6 +616,10 @@ input[type="radio"]:disabled + span[type="button"]{
 .collapse-summary:nth-of-type(4) .collapse-summary-heading{
 	color:#3491CE;
 }
+.collapse-summary:nth-of-type(4) .collapse-summary-heading {
+	padding-bottom:10px;
+	border-bottom:1px solid #EEE;
+}
 .collapse-summary:nth-of-type(5) .collapse-summary-heading,
 .collapse-summary:nth-of-type(6) .collapse-summary-heading{
 	color:#5bc0de;
