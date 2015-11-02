@@ -7373,6 +7373,148 @@
                 "Datasheet": []
             },
             {
+                "url": "",
+                "name": "Workstation GPU",
+                "id": "ID-280",
+                "part": "Workstation GPU",
+                "yourChoice": [
+                    {
+                        "name": "nVidia Quadro K420",
+                        "id": "ID-281",
+                        "img": "",
+                        "value": "90",
+                        "tag": "Lowest cost entry ticket into Workstation 3D"
+                    },
+                    {
+                        "name": "nVidia Quadro K620",
+                        "id": "ID-282",
+                        "img": "",
+                        "value": "160",
+                        "tag": "Standard choice for Workstation 3D"
+                    },
+                    {
+                        "name": "nVidia Quadro K1200",
+                        "id": "ID-283",
+                        "img": "",
+                        "value": "299",
+                        "tag": " 4 Displays, 4 GB GDDR5, 512 Cores. High End Workstation 3D"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Game or Workstation GPU",
+                        "content": "You get what is printed on the Box: Workstation GPUs come with driver for professional Apps, such as SolidWorks, Adobe Creative Cloud and cohorts. You can use Workstation GPUs for gaming, but if all you want to do is gaming than Game Graphics card will give you much more performance for games for your money."
+                    },
+                    {
+                        "heading": "Hacking a Game GPU into a Workstation Card",
+                        "content": "There are hacks out there so that you can use a Game GPU as a Workstation GPU. We did that for us and it worked for us. But there are no guarantees and no support of course. And it might take you some hours to find and try different hacks. The safe and professional way is to use Workstation Cards for your professional Apps."
+                    },
+                    {
+                        "heading": "K420",
+                        "content": "If you are on a budget, this is your entry ticket into Workstation Graphics for under $100"
+                    },
+                    {
+                        "heading": "K620",
+                        "content": "This card is the default choice for Workstation. With 384 Cores and 2 GB of memory it is fast enough for most work"
+                    },
+                    {
+                        "heading": "K1200",
+                        "content": "This is a high end card with 512 CUDA cores, 4 GB of very fast GDDR5 it will make your professional Apps fly. You also can drive 4 Displays and each Display can be 4K @ 60 Hz."
+                    },
+                    {
+                        "heading": "Notes on complaints in reviews",
+                        "content": "All complaints we have seen were about the lack of Full Profile bracket. This is irrelevant when using ViCase. You only need the included Low Profile bracket."
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "K420"
+                    },
+                    {
+                        "name": "K620"
+                    },
+                    {
+                        "name": "K1200"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Thermal Design Power TDP",
+                        "row": [
+                            "41W",
+                            "45W",
+                            "45W"
+                        ]
+                    },
+                    {
+                        "title": "Quadro GPU",
+                        "row": [
+                            "K420",
+                            "K620",
+                            "K1200"
+                        ]
+                    },
+                    {
+                        "title": "CUDA Cores",
+                        "row": [
+                            192,
+                            384,
+                            512
+                        ]
+                    },
+                    {
+                        "title": "Memory",
+                        "row": [
+                            "1 GB",
+                            "2 GB",
+                            "4 GB"
+                        ]
+                    },
+                    {
+                        "title": "Memory Type",
+                        "row": [
+                            "DDR3",
+                            "DDR3",
+                            "DDR5"
+                        ]
+                    },
+                    {
+                        "title": "Display Ports",
+                        "row": [
+                            2,
+                            2,
+                            4
+                        ]
+                    },
+                    {
+                        "title": "Displays @ 4K @ 60 Hz",
+                        "row": [
+                            1,
+                            1,
+                            4
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    "All cards are Low Profile and fit into ViCase Mini and ViCase Ultra"
+                ],
+                "Gallery": [],
+                "Datasheet": []
+            },
+            {
                 "name": "Display Size",
                 "url": "",
                 "id": "ID-32",
