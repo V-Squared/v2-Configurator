@@ -7111,16 +7111,24 @@
                         "class": "table-left-title"
                     },
                     {
-                        "name": "Green"
+                        "name": "WD Green"
                     },
                     {
-                        "name": "Red"
+                        "name": "WD Red"
                     },
                     {
-                        "name": "Re"
+                        "name": "WD Re"
                     }
                 ],
                 "TableBody": [
+                    {
+                        "title": "Class",
+                        "row": [
+                            "Consumer",
+                            "Professional",
+                            "Enterprise"
+                        ]
+                    },
                     {
                         "title": "Hours / day",
                         "row": [
@@ -7213,7 +7221,7 @@
                 "TableTag": [
                     "(1) Extremely tight tolerances reduce vibration and thus increase life span of drive. Western Digital calls this: 3D Active Balance Plus",
                     "(2) RAFF is short for Rotary Acceleration Feed Forward and means that multiple axis accelerator sense vibration and a dedicated electronic create active vibration cancellation, to compensate for vibration caused by fans or other drives. This technology is very effective and one reason for the extended life span / reliability of the Re drives.",
-                    "(3) A RAID controller requires a time out of under 7 seconds to avoid that a good drive is accidentally marked as bad one"
+                    "(3) A RAID controller requires a time out of under 7 seconds to avoid that a good drive is accidentally marked as bad one. One of many reasons not to use consumer drives such as WD Green in RAID configurations."
                 ],
                 "Gallery": [],
                 "Datasheet": [
