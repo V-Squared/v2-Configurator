@@ -6879,34 +6879,6 @@
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
                         "value": 700,
                         "tag": "Intel - 750 - High Performance Server"
-                    },
-                    {
-                        "name": "NVME PCIe SSD 800 GB",
-                        "id": "ID-291",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
-                        "value": 700,
-                        "tag": "Intel - 750 - High Performance Server"
-                    },
-                    {
-                        "name": "NVME PCIe SSD 800 GB",
-                        "id": "ID-291",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
-                        "value": 700,
-                        "tag": "Intel - 750 - High Performance Server"
-                    },
-                    {
-                        "name": "NVME PCIe SSD 800 GB",
-                        "id": "ID-291",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
-                        "value": 700,
-                        "tag": "Intel - 750 - High Performance Server"
-                    },
-                    {
-                        "name": "NVME PCIe SSD 800 GB",
-                        "id": "ID-291",
-                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
-                        "value": 700,
-                        "tag": "Intel - 750 - High Performance Server"
                     }
                 ],
                 "TableHeading": [
@@ -7002,7 +6974,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "",
+                                            "Intel",
                                             "WD Blue",
                                             "WD Green",
                                             "WD Red"
@@ -7012,20 +6984,20 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "2.5\" ",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=800#Tab3\" target=\" _blank \">500GB - 1TB</a>",
+                                            "NVME PCIe SSD 400 GB ",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=800#Tab3\" target=\" _blank \">2.5\"  500GB - 1TB</a>",
                                             "-",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1TB</a>"
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">2.5\"  1TB</a>"
                                         ]
                                     },
                                     {
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "3.5\" ",
+                                            "NVME PCIe SSD 800 GB",
                                             "-",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">1TB - 6TB</a>",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1TB - 6TB</a>"
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">3.5\"  1TB - 6TB</a>",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">3.5\"  1TB - 6TB</a>"
                                         ]
                                     }
                                 ]
