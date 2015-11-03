@@ -6531,7 +6531,7 @@
                 "Advice": [
                     {
                         "heading": "SSD vs HDD for Boot Disk",
-                        "content": "In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $50 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article ???How to choose your Data Disk???"
+                        "content": "In terms of speeding up a PC, nothing beats value for money over using an SSD. As such all our Ready Made Configuration use SSD as Boot Disk. At small sizes SSD are even lower cost than HDD. For $50 US you can get a 120 GB SSD. Enough space for boot disk and and work data. If however you want to store large amounts of data, say photos, videos, etc..., then we recommend your Data to be stored on a second HDD for cost reasons. Using RAID 5 technology, you can make HDD quite save and fast. More about that in the Article <a href=\"https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/How-to-choose-the-Data-Disks \" target=\" _blank \">How to choose your Data Disk</a>"
                     },
                     {
                         "heading": "Why a fast Boot-Disk is so important?",
