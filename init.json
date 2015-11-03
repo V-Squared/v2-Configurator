@@ -7230,23 +7230,19 @@
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800026.pdf \" target=\" _blank \">HDD 2.5\" 2TB Green</a>"
+                                            "WD Red",
+                                            "WD Re"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800026.pdf \" target=\" _blank \">HDD 3.5\" 4TB Green</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-800002.pdf \" target=\" _blank \">HDD 3.5\" 4TB Red</a>"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-771434.pdf \" target=\" _blank \">HDD 3.5\" 4TB Black</a>"
+                                            " <a href=\"http://www.wdc.com/en/products/products.aspx?id=580#Tab3\" target=\" _blank \">1TB - 6TB</a>",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3\" target=\" _blank \">1TB - 6TB</a>"
                                         ]
                                     }
                                 ]
