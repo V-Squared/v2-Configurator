@@ -7791,15 +7791,23 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg",
+                        "title": "ViCase-Parallel",
+                        "description": "PCIe Parallel Port Add In Card for CNC machines. Low Profile PCIe Bracket. Fits in ViCase-Mini or ViCase-Ultra"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg",
+                        "title": "ViCase-Parallel►DB-25",
+                        "description": "D-Sub 25 pin aka DB-25 Pin port provides the signals to the CNC machine"
                     },
                     {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg"
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg",
+                        "title": "ViCase-Parallel►Rear View",
+                        "description": ""
                     },
                     {
+                        "title": "ViCase-Parallel►Top View",
+                        "description": "",
                         "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
                     }
                 ],
