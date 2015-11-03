@@ -6995,84 +6995,84 @@
                 "id": "ID-30",
                 "yourChoice": [
                     {
-                        "name": "3x 3.5\" Red 1TB (2TB)",
+                        "name": "3x 3.5\" WD Red 1TB (2TB)",
                         "id": "ID-222",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 195,
                         "tag": "3 drives WD Red - Net size: 2TB"
                     },
                     {
-                        "name": "3x 3.5\" Red 2TB (4TB)",
+                        "name": "3x 3.5\" WD Red 2TB (4TB)",
                         "id": "ID-223",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 270,
                         "tag": "3 drives WD Red - Net size: 4TB"
                     },
                     {
-                        "name": "3x 3.5\" Red 3TB (6TB)",
+                        "name": "3x 3.5\" WD Red 3TB (6TB)",
                         "id": "ID-224",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 330,
                         "tag": "3 drives WD Red - Net size: 6TB"
                     },
                     {
-                        "name": "3x 3.5\" Red 4TB (8TB)",
+                        "name": "3x 3.5\" WD Red 4TB (8TB)",
                         "id": "ID-225",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 450,
                         "tag": "3 drives WD Red - Net size: 8TB"
                     },
                     {
-                        "name": "3x 3.5\" Red 5TB (10TB)",
+                        "name": "3x 3.5\" WD Red 5TB (10TB)",
                         "id": "ID-226",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 585,
                         "tag": "3 drives WD Red - Net size: 10TB"
                     },
                     {
-                        "name": "3x 3.5\" Red 6TB (12TB)",
+                        "name": "3x 3.5\" WD Red 6TB (12TB)",
                         "id": "ID-227",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 750,
                         "tag": "3 drives WD Red - Net size: 12TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 1TB (2TB)",
+                        "name": "3x 3.5\" WD Re 1TB (2TB)",
                         "id": "ID-228",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 285,
                         "tag": "3 drives WD Re - Net size: 2TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 2TB (4TB)",
+                        "name": "3x 3.5\" WD Re 2TB (4TB)",
                         "id": "ID-229",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 360,
                         "tag": "3 drives WD Re - Net size: 4TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 3TB (6TB)",
+                        "name": "3x 3.5\" WD Re 3TB (6TB)",
                         "id": "ID-230",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 520,
                         "tag": "3 drives WD Re - Net size: 6TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 4TB (8TB)",
+                        "name": "3x 3.5\" WD Re 4TB (8TB)",
                         "id": "ID-231",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 660,
                         "tag": "3 drives WD Re - Net size: 8TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 5TB (10TB)",
+                        "name": "3x 3.5\" WD Re 5TB (10TB)",
                         "id": "ID-232",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 900,
                         "tag": "3 drives WD Re - Net size: 10TB"
                     },
                     {
-                        "name": "3x 3.5\" Re 6TB (12TB)",
+                        "name": "3x 3.5\" WD Re 6TB (12TB)",
                         "id": "ID-233",
                         "img": "images/expansion/config/Third-party/Data-Disk/HDD-4TB-red.jpg",
                         "value": 1290,
@@ -7090,7 +7090,7 @@
                     },
                     {
                         "heading": "Red, the ideal RAID drive",
-                        "content": "Western Digital Red has become the standard drives for NAS / RAID configurations. They are designed to operate 24/7, they run relatively cool and quiet and still have descent performance. We have put Western Digital as an example for a typical desktop drive and you can see in several critical features it is not up to the task."
+                        "content": "Western Digital Red has become the standard drives for NAS / RAID configurations. They are designed to operate 24/7, they run relatively cool and quiet and still have descent performance. We have put Western Digital Blue as an example for a typical consumer desktop drive and you can see in several critical features it is not up to the task of a RAID drive."
                     },
                     {
                         "heading": "Re, the high performance, ultra reliable",
