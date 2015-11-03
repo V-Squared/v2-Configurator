@@ -6243,17 +6243,17 @@
                         "name": "DDR3 8GB",
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR3.jpg",
-                        "value": 38,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231546",
-                        "tag": "2 x 4GB G.SKILL 1600"
+                        "value": 45,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148544",
+                        "tag": "2 x 4GB Crucial 1600"
                     },
                     {
                         "name": "DDR3 16GB",
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR3.jpg",
-                        "value": 78,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231558",
-                        "tag": "2 x 8GB G.SKILL 1600"
+                        "value": 80,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231606",
+                        "tag": "2 x 8GB G.SKILL  1600"
                     },
                     {
                         "name": "DDR4 8GB",
@@ -6422,7 +6422,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f3-1600c9d-8gab\" target=\" _blank \">8GB</a>",
+                                            "<a href=\"http://www.crucial.com/ProductDisplay?urlRequestType=Base&catalogId=10151&categoryId=&productId=11335&urlLangId=-1&langId=-1&top_category=&parent_category_rn=&storeId=10151\" target=\" _blank \">8GB</a>",
                                             "<a href=\"http://www.kingston.com/us/memory/search/?partid=hx421c14fbk2/16\" target=\" _blank \">16GB</a>"
                                         ]
                                     },
@@ -6430,7 +6430,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gskill.com/en/product/f3-1600c10d-16gao\" target=\" _blank \">16GB</a>",
+                                            "<a href=\"http://www.gskill.com/en/product/f3-1600c9d-16gar\" target=\" _blank \">16GB</a>",
                                             "<a href=\"http://www.corsair.com/en-us/vengeance-lpx-32gb-2x16gb-ddr4-dram-2400mhz-c14-memory-kit-red-cmk32gx4m2a2400c14r\" target=\" _blank \">32GB</a>"
                                         ]
                                     }
