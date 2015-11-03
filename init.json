@@ -6984,7 +6984,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "NVME PCIe SSD 400 GB ",
+                                            "<a href=\"http://ark.intel.com/products/86740/Intel-SSD-750-Series-400GB-12-Height-PCIe-3_0-20nm-MLC#@specifications\" target=\" _blank \">NVME PCIe SSD 400 GB </a>",
                                             "<a href=\"http://www.wdc.com/en/products/products.aspx?id=800#Tab3\" target=\" _blank \">2.5\"  500GB - 1TB</a>",
                                             "-",
                                             "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">2.5\"  1TB</a>"
@@ -6994,7 +6994,7 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "NVME PCIe SSD 800 GB",
+                                            "<a href=\"http://ark.intel.com/products/88744/Intel-SSD-750-Series-800GB-12-Height-PCIe-3_0-x4-20nm-MLC#@specifications\" target=\" _blank \">NVME PCIe SSD 800 GB</a>",
                                             "-",
                                             "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">3.5\"  1TB - 6TB</a>",
                                             "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">3.5\"  1TB - 6TB</a>"
