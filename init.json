@@ -6867,7 +6867,7 @@
                         "tag": "Workhorse Storage 6TB for ViCase-Ultra"
                     },
                     {
-                        "name": "NVME PCIe SSD 400 GB",
+                        "name": "NVME PCIe SSD 400 GB-1",
                         "id": "ID-290",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon6V1.jpg",
                         "value": 370,
