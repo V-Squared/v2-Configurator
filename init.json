@@ -6865,6 +6865,20 @@
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon10V1.jpg",
                         "value": 250,
                         "tag": "Workhorse Storage 6TB for ViCase-Ultra"
+                    },
+                    {
+                        "name": "NVME PCIe SSD 400 GB",
+                        "id": "ID-290",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon6V1.jpg",
+                        "value": 370,
+                        "tag": "Intel - 750 - High Performance Server"
+                    },
+                    {
+                        "name": "NVME PCIe SSD 800 GB",
+                        "id": "ID-291",
+                        "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
+                        "value": 700,
+                        "tag": "Intel - 750 - High Performance Server"
                     }
                 ],
                 "TableHeading": [
@@ -6940,6 +6954,10 @@
                     {
                         "heading": "Consider RAID for large Data Storage",
                         "content": "When you need larger capacities you may want to consider RAID5. A 3 Disk RAID 5 system will double the transfer speed of your HDD and it will make your data more safe. Even if one disk fails completely you still have all your data due to the redundancy of RAID5. For more information see the next Chapter → Data Disk (RAID)"
+                    },
+                    {
+                        "heading": "NVME-PCIe Intel 750",
+                        "content": "The ideal Disk for High Performance High Workload Database or Web Server. Two options of 400 and 800 GB. Used in high reliability Server configuration that boots from two SATA SSD in RAID 1. For more information, please see the previous Section: \"Boot Disk\"."
                     },
                     {
                         "heading": "",
