@@ -6964,7 +6964,28 @@
                         "content": "If you want more Advice on this topic, please check out the Article in our<a href=\"https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/\" target=\" _blank \">\"V² How to DIY Mini PC\"\" Series.</a>"
                     }
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "Size",
+                        "description": "Left to right: NVME-PCIe, 3.5\" and 2.5\""
+                    },
+                    {
+                        "image": "",
+                        "title": "WD Blue / Red 2.5\"",
+                        "description": "Fit all ViCase. Capacities up to 1 TB. Choose Blue if your PC is on less than average 2 hours / day, otherwise choose Red."
+                    },
+                    {
+                        "image": "",
+                        "title": "WD Green / Red 3.5\"",
+                        "description": "Only fit ViCase-Ultra. Capacities 1 ... 6 TB. Choose Green if your PC is on less than average 2 hours / day, otherwise choose Red."
+                    },
+                    {
+                        "image": "",
+                        "title": "NVME-PCIe",
+                        "description": "Extremely fast SSD. Choose for high workload Server Data Disk when it has a RAID 1 SSD Boot Disk."
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
