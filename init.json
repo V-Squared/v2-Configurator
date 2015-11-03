@@ -7731,7 +7731,40 @@
                     ""
                 ],
                 "Gallery": [],
-                "Datasheet": []
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
+                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
+                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
+                                            "High End GPU Card with outstanding quality"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
+                                            "Ultra High END GPU Card"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "ViCase-Parallel",
