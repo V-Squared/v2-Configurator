@@ -6762,14 +6762,14 @@
                 "id": "ID-29",
                 "yourChoice": [
                     {
-                        "name": "2.5\" WD Blue 500 GB",
+                        "name": "2.5\" WD Blue 500GB",
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon1.jpg",
                         "value": 43,
                         "tag": "Consumer Class Storage 500 MB for ViCase-Tiny / Mini"
                     },
                     {
-                        "name": "2.5\" WD Blue 1 TB",
+                        "name": "2.5\" WD Blue 1TB",
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon2.jpg",
                         "value": 60,
@@ -6957,9 +6957,9 @@
                                         "class": "",
                                         "row": [
                                             "",
-                                            "Blue",
-                                            "Green",
-                                            "Red"
+                                            "WD Blue",
+                                            "WD Green",
+                                            "WD Red"
                                         ]
                                     },
                                     {
@@ -6967,9 +6967,9 @@
                                         "class": "",
                                         "row": [
                                             "2.5\" ",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=770#Tab3\" target=\" _blank \">500 GB-1TB</a>",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=800#Tab3\" target=\" _blank \">500 GB-1 TB</a>",
                                             "-",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1TB</a>"
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1 TB</a>"
                                         ]
                                     },
                                     {
@@ -6978,8 +6978,8 @@
                                         "row": [
                                             "3.5\" ",
                                             "-",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">1TB-6TB</a>",
-                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1TB-6TB</a>"
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=780#Tab3\" target=\" _blank \">1 TB-6 TB</a>",
+                                            "<a href=\"http://www.wdc.com/en/products/products.aspx?id=810#Tab3 \" target=\" _blank \">1 TB-6 TB</a>"
                                         ]
                                     }
                                 ]
