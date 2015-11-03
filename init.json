@@ -6464,7 +6464,7 @@
                         "tag": "Samsung - 850 EVO- MZ-75E250B/AM"
                     },
                     {
-                        "name": "SATA RAID 0 SSD 500 GB",
+                        "name": "SATA RAID 0 SSD 500GB",
                         "id": "ID-270",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
                         "value": 192,
@@ -6472,7 +6472,7 @@
                         "tag": "2x Samsung - 850 EVO- MZ-75E250B/AM"
                     },
                     {
-                        "name": "SATA RAID 1 SSD 250 GB",
+                        "name": "SATA RAID 1 SSD 250GB",
                         "id": "ID-271",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon2V2.jpg",
                         "value": 192,
@@ -6496,7 +6496,7 @@
                         "tag": "Samsung - 850 EVO - MZ-75E1T0B/AM"
                     },
                     {
-                        "name": "NVME M.2 SSD 256 GB",
+                        "name": "NVME M.2 SSD 256GB",
                         "id": "ID-181",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon4V1.jpg",
                         "value": 200,
@@ -6504,7 +6504,7 @@
                         "tag": "Samsung - 950 Pro - MZ-V5P256BW"
                     },
                     {
-                        "name": "NVME M.2 SSD 512 GB",
+                        "name": "NVME M.2 SSD 512GB",
                         "id": "ID-182",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon5V1.jpg",
                         "value": 350,
@@ -6512,7 +6512,7 @@
                         "tag": "Samsung - 950 Pro - MZ-V5P512BW"
                     },
                     {
-                        "name": "NVME PCIe SSD 400 GB",
+                        "name": "NVME PCIe SSD 400GB",
                         "id": "ID-183",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon6V1.jpg",
                         "value": 370,
@@ -6520,7 +6520,7 @@
                         "tag": "Intel - 750 - SSDPEDMW400G4X1"
                     },
                     {
-                        "name": "NVME PCIe SSD 800 GB",
+                        "name": "NVME PCIe SSD 800GB",
                         "id": "ID-184",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
                         "value": 700,
@@ -6703,13 +6703,13 @@
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 0 SSD 500 GB</a>",
+                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 0 SSD 500GB</a>",
                                             "2x Samsung - 850 EVO- MZ-75E250B/AM"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 1 SSD 250 GB</a>",
+                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-75E250B/AM \" target=\" _blank \">SATA RAID 1 SSD 250GB</a>",
                                             "2x Samsung - 850 EVO- MZ-75E250B/AM"
                                         ]
                                     },
@@ -6727,25 +6727,25 @@
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-V5P256BW \" target=\" _blank \">NVME M.2 SSD 256 GB</a>",
+                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-V5P256BW \" target=\" _blank \">NVME M.2 SSD 256GB</a>",
                                             "Samsung - 950 Pro - MZ-V5P256BW"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-V5P512BW\" target=\" _blank \">NVME M.2 SSD 512 GB</a>",
+                                            "<a href=\"http://www.samsung.com/us/support/owners/product/MZ-V5P512BW\" target=\" _blank \">NVME M.2 SSD 512GB</a>",
                                             "Samsung - 950 Pro - MZ-V5P512BW"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://ark.intel.com/products/86740/Intel-SSD-750-Series-400GB-12-Height-PCIe-3_0-20nm-MLC#@specifications \" target=\" _blank \">NVME PCIe SSD 400 GB</a>",
+                                            "<a href=\"http://ark.intel.com/products/86740/Intel-SSD-750-Series-400GB-12-Height-PCIe-3_0-20nm-MLC#@specifications \" target=\" _blank \">NVME PCIe SSD 400GB</a>",
                                             "Intel - 750 - SSDPEDMW400G4X1"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://ark.intel.com/products/88744/Intel-SSD-750-Series-800GB-12-Height-PCIe-3_0-x4-20nm-MLC#@specifications \" target=\" _blank \">NVME PCIe SSD 800 GB</a>",
+                                            "<a href=\"http://ark.intel.com/products/88744/Intel-SSD-750-Series-800GB-12-Height-PCIe-3_0-x4-20nm-MLC#@specifications \" target=\" _blank \">NVME PCIe SSD 800GB</a>",
                                             "Intel - 750 - SSDPEDMW800G4X1"
                                         ]
                                     }
