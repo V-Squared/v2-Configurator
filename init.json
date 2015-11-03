@@ -7262,7 +7262,23 @@
                     "(2) RAFF is short for Rotary Acceleration Feed Forward and means that multiple axis accelerator sense vibration and a dedicated electronic create active vibration cancellation, to compensate for vibration caused by fans or other drives. This technology is very effective and one reason for the extended life span / reliability of the Re drives.",
                     "(3) A RAID controller requires a time out of under 7 seconds to avoid that a good drive is accidentally marked as bad one. One of many reasons not to use consumer drives such as WD Green in RAID configurations."
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "Size",
+                        "description": "Left to Right: 3 x 3.5\" versus 1 Disk. 3 Disk RAID will take about 450% of the space than a single Disk when making space for airflow to keep the disks cool, such as when mounted in ViCase-Ultra"
+                    },
+                    {
+                        "image": "",
+                        "title": "3 Disk RAID 5 WD Red",
+                        "description": "The sweet spot of RAID. Very reliable, affordable cost, up to 350 MB/s when using 6 TB drives."
+                    },
+                    {
+                        "image": "",
+                        "title": "3 Disk RAID 5 WD Re",
+                        "description": "High End RAID. Extremely reliable. Data Rate up to 450 MB/s when using 6 TB drives."
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
