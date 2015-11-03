@@ -6766,105 +6766,105 @@
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon1.jpg",
                         "value": 43,
-                        "tag": "Consumer Class Storage 500 MB for ViCase-Tiny / Mini"
+                        "tag": "Consumer Class Storage 500MB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" WD Blue 1TB",
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon2.jpg",
                         "value": 60,
-                        "tag": "Consumer Class Storage 1 TB for ViCase-Tiny / Mini"
+                        "tag": "Consumer Class Storage 1TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "2.5\" WD Red 1TB",
                         "id": "ID-64",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon3.jpg",
                         "value": 70,
-                        "tag": "Workhorse Storage 1 TB for ViCase-Tiny / Mini"
+                        "tag": "Workhorse Storage 1TB for ViCase-Tiny / Mini"
                     },
                     {
                         "name": "3.5\" WD Green 1TB",
                         "id": "ID-65",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon4.jpg",
                         "value": 50,
-                        "tag": "Consumer Class Storage 1 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 1TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 2TB",
                         "id": "ID-204",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon5.jpg",
                         "value": 79,
-                        "tag": "Consumer Class Storage 2 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 2TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 3TB",
                         "id": "ID-205",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon6.jpg",
                         "value": 93,
-                        "tag": "Consumer Class Storage 3 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 3TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 4TB",
                         "id": "ID-206",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon4.jpg",
                         "value": 132,
-                        "tag": "Consumer Class Storage 4 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 4TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 5TB",
                         "id": "ID-207",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon5.jpg",
                         "value": 175,
-                        "tag": "Consumer Class Storage 5 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 5TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 6TB",
                         "id": "ID-208",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon6.jpg",
                         "value": 223,
-                        "tag": "Consumer Class Storage 6 TB for ViCase-Ultra"
+                        "tag": "Consumer Class Storage 6TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 1TB",
                         "id": "ID-209",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon7.jpg",
                         "value": 65,
-                        "tag": "Workhorse Storage 1 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 1TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 2TB",
                         "id": "ID-210",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon8.jpg",
                         "value": 90,
-                        "tag": "Workhorse Storage 2 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 2TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 3TB",
                         "id": "ID-211",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon9.jpg",
                         "value": 110,
-                        "tag": "Workhorse Storage 3 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 3TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 4TB",
                         "id": "ID-212",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon10.jpg",
                         "value": 150,
-                        "tag": "Workhorse Storage 4 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 4TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 5TB",
                         "id": "ID-213",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon11.jpg",
                         "value": 195,
-                        "tag": "Workhorse Storage 5 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 5TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Red 6TB",
                         "id": "ID-214",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon12.jpg",
                         "value": 250,
-                        "tag": "Workhorse Storage 6 TB for ViCase-Ultra"
+                        "tag": "Workhorse Storage 6TB for ViCase-Ultra"
                     }
                 ],
                 "TableHeading": [
