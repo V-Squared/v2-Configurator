@@ -7734,37 +7734,6 @@
                 "Datasheet": []
             },
             {
-                "name": "Display Size",
-                "url": "",
-                "id": "ID-32",
-                "noNone": true,
-                "yourChoice": [
-                    {
-                        "name": "19 \"",
-                        "img": "",
-                        "id": "ID-88",
-                        "value": 0
-                    },
-                    {
-                        "name": "22 \"",
-                        "img": "",
-                        "id": "ID-89",
-                        "value": 0
-                    },
-                    {
-                        "name": "27 \"",
-                        "img": "",
-                        "id": "ID-90",
-                        "value": 0
-                    }
-                ],
-                "Advice": [],
-                "tableHeading": [],
-                "TableBody": [],
-                "Gallery": [],
-                "Datasheet": []
-            },
-            {
                 "name": "ViCase-Parallel",
                 "yourChoice": [
                     {
