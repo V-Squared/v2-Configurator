@@ -7844,16 +7844,16 @@
                         "name": "USB DVD Drive",
                         "id": "ID-",
                         "img": "",
-                        "value": "?",
-                        "link": "",
+                        "value": 23,
+                        "link": "http://www.amazon.com/SAMSUNG-Ultra-Slim-SE-208GB-RSBD-compatible/dp/B00MLXA1HG",
                         "tag": "Optical Disc DVD Drive. Place easy accessible"
                     },
                     {
                         "name": "USB BluRay Drive",
                         "id": "ID-",
                         "img": "",
-                        "value": "???",
-                        "link": "",
+                        "value": 74,
+                        "link": "http://www.amazon.com/SAMSUNG-SE-506CB-RSBD-Blu-ray-External/dp/B00JJGFRIQ",
                         "tag": "Optical Disc BluRay Drive. Place easy accessible"
                     }
                 ],
@@ -7906,6 +7906,11 @@
                         "image": "",
                         "title": "Optical Drive►Easy Connection",
                         "description": "Only one USB cable is needed to connect the Optical Drive to ViCase"
+                    },
+                    {
+                        "image": "",
+                        "title": "Optical Drive►Good use of space",
+                        "description": "The two drives we suggest are front loading. So you can put ViCase Access on top."
                     }
                 ],
                 "Datasheet": [
@@ -7915,8 +7920,8 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "",
-                                            ""
+                                            "DVD drive",
+                                            "BluRay drive"
                                         ]
                                     }
                                 ]
