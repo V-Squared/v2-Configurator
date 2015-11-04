@@ -6264,7 +6264,7 @@
                         "id": "ID-50",
                         "img": "images/expansion/config/Third-party/Memory/2g-ddr31.jpg",
                         "value": 13,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820239850",
+                        "link": "http://www.amazon.com/Kingston-1600MHz-2GB/dp/B00HV6V5TG",
                         "tag": "1 x 2GB Kingston 1600"
                     },
                     {
@@ -6272,7 +6272,7 @@
                         "id": "ID-51",
                         "img": "images/expansion/config/Third-party/Memory/4-DDR3.jpg",
                         "value": 27,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148758",
+                        "link": "http://www.amazon.com/Crucial-DDR3-1600-2x2GB/dp/B006YG88YY",
                         "tag": "2 x 2GB Crucial 1600"
                     },
                     {
@@ -6280,7 +6280,7 @@
                         "id": "ID-52",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR3.jpg",
                         "value": 45,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148544",
+                        "link": "http://www.amazon.com/Crucial-Ballistix-DDR3-1600-2x4GB/dp/B006WAGGUK",
                         "tag": "2 x 4GB Crucial 1600"
                     },
                     {
@@ -6288,7 +6288,7 @@
                         "id": "ID-53",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR3.jpg",
                         "value": 80,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820231606",
+                        "link": "http://www.amazon.com/Crucial-Ballistix-DDR3-1600-2x8GB/dp/B006WAGGUK",
                         "tag": "2 x 8GB G.SKILL  1600"
                     },
                     {
@@ -6296,7 +6296,7 @@
                         "id": "ID-55",
                         "img": "images/expansion/config/Third-party/Memory/8-DDR4.jpg",
                         "value": 53,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820148864",
+                        "link": "http://www.amazon.com/Crucial-DDR4-2400-2x4GB/dp/B00MTSWEQE",
                         "tag": "2 x 4GB Crucial 2400"
                     },
                     {
@@ -6304,7 +6304,7 @@
                         "id": "ID-56",
                         "img": "images/expansion/config/Third-party/Memory/16-DDR4.jpg",
                         "value": 108,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820104530",
+                        "link": "http://www.amazon.com/Kingston-DDR4-2666-2x8GB/dp/B013H7QYEI/",
                         "tag": "2 x 8GB Hyber-X 2666"
                     },
                     {
@@ -6312,7 +6312,7 @@
                         "id": "ID-57",
                         "img": "images/expansion/config/Third-party/Memory/32-DDR4.jpg",
                         "value": 255,
-                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16820233866",
+                        "link": "http://www.amazon.com/CORSAIR-DDR4-2400MHz-2x16GB/dp/B014JESOQE",
                         "tag": "2 x 16GB CORSAIR 2400"
                     }
                 ],
