@@ -7446,6 +7446,10 @@
                     {
                         "heading": "Which version of Ubuntu",
                         "content": "You will always want to choose between two versions: 1) The newest out there 2) The latest LTS. LTS stands for Long Term Support. For normal use this is sufficient, recommended and the most stable one. The latest version instead is of course the latest and greatest, including the latest bugs. Choose this Version if you are the more adventurous type or choose it to have better support for GPUs or other newest hardware. <a href=\"https://wiki.ubuntu.com/Releases\" target=\" _blank \">→ Ubuntu►Wiki►Releases</a>"
+                    },
+                    {
+                        "heading": "",
+                        "content": "If you want more Advice on this topic, please check out the Article → V²►How to DIY Mini PC►<a href=\"https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/How-to-choose-the-right-OS\" target=\" _blank \">How to choose the right OS</a>"
                     }
                 ],
                 "TableHeading": [
