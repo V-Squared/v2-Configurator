@@ -7920,8 +7920,8 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "DVD drive",
-                                            "BluRay drive"
+                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-208GB&productName=DVD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">DVD drive</a>",
+                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-506CB&productName=BD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">BluRay drive</a>"
                                         ]
                                     }
                                 ]
@@ -8166,7 +8166,7 @@
                 "name": "ViCase-Parallel",
                 "yourChoice": [
                     {
-                        "name": "ViCase Parallel Port",
+                        "name": "ViCase Parallel",
                         "id": "ID-155",
                         "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
                         "link": "",
