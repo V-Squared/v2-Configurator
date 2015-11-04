@@ -7548,7 +7548,7 @@
                     {
                         "name": "AMD R7-250 (XFX)",
                         "id": "ID-285",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon1.jpg",
                         "value": "85",
                         "link": "http://www.amazon.com/XFX-R7-250/dp/B00H5DJDL2/",
                         "tag": "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
@@ -7556,7 +7556,7 @@
                     {
                         "name": "nVidia GTX 750 (Gigabyte) Ti",
                         "id": "ID-286",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon2.jpg",
                         "value": "125",
                         "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
                         "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
@@ -7564,7 +7564,7 @@
                     {
                         "name": "nVidia GTX 970 (MSI)",
                         "id": "ID-287",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon3.jpg",
                         "value": "350",
                         "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
                         "tag": "High End GPU Card with outstanding quality"
@@ -7572,7 +7572,7 @@
                     {
                         "name": "nVidia GTX 980 (PNY)",
                         "id": "ID-288",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon4.jpg",
                         "value": "499",
                         "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
                         "tag": "Ultra High END GPU Card"
@@ -7664,7 +7664,7 @@
                     {
                         "name": "nVidia Quadro K420",
                         "id": "ID-281",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Work-GPU/Icon1.jpg",
                         "value": "90",
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16814133561",
                         "tag": "Lowest cost entry ticket into Workstation 3D"
@@ -7672,7 +7672,7 @@
                     {
                         "name": "nVidia Quadro K620",
                         "id": "ID-282",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Work-GPU/Icon2.jpg",
                         "value": "160",
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16814133560",
                         "tag": "Standard choice for Workstation 3D"
@@ -7680,7 +7680,7 @@
                     {
                         "name": "nVidia Quadro K1200",
                         "id": "ID-283",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Work-GPU/Icon3.jpg",
                         "value": "299",
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16814133587",
                         "tag": " 4 Displays, 4 GB GDDR5, 512 Cores. High End Workstation 3D"
@@ -7841,7 +7841,7 @@
                     {
                         "name": "USB DVD Drive",
                         "id": "ID-501",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/DVD-drive/Icon1.jpg",
                         "value": 23,
                         "link": "http://www.amazon.com/SAMSUNG-Ultra-Slim-SE-208GB-RSBD-compatible/dp/B00MLXA1HG",
                         "tag": "Optical Disc DVD Drive. Place easy accessible"
@@ -7849,7 +7849,7 @@
                     {
                         "name": "USB BluRay Drive",
                         "id": "ID-502",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/DVD-drive/Icon2.jpg",
                         "value": 74,
                         "link": "http://www.amazon.com/SAMSUNG-SE-506CB-RSBD-Blu-ray-External/dp/B00JJGFRIQ",
                         "tag": "Optical Disc BluRay Drive. Place easy accessible"
