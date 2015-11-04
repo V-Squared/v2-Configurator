@@ -8053,18 +8053,18 @@
                 "part": "",
                 "yourChoice": [
                     {
-                        "name": "",
+                        "name": "ViCase-Remote",
                         "id": "ID-",
                         "img": "",
-                        "value": "",
+                        "value": 9,
                         "link": "",
-                        "tag": ""
+                        "tag": "ontrol ViCase from the distance, just like a TV or Stereo"
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "You deserve to be lazy sometimes",
+                        "content": "If you never used a remote with your PC you are in for a treat. Listen to your Music with a headset on your couch and adjust volume or skip to the next song without getting up. Works equally as well to control your media player, such as VLC or cohorts. Works with Windows and Linux. Additional to Media Control, you get Mouse Control and Power On / Off and a set of function keys as you can see in the Gallery."
                     }
                 ],
                 "TableHeading": [
@@ -8086,7 +8086,28 @@
                 "TableTag": [
                     ""
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "ViCase-Remote►Size",
+                        "description": "We like its size. Not too small to be hard to use and not too big to be hard to store."
+                    },
+                    {
+                        "image": "",
+                        "title": "ViCase-Remote►Two spare batteries",
+                        "description": "Don't worry about spare batteries, we included plenty."
+                    },
+                    {
+                        "image": "",
+                        "title": "ViCase-Remote►Good keyboard layout",
+                        "description": "You can use the Remote without looking."
+                    },
+                    {
+                        "image": "",
+                        "title": "ViCase-Remote►Tough",
+                        "description": "This Remote is light and sturdy. We dropped ours many times and it still works."
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
