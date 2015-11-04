@@ -6801,7 +6801,8 @@
                         "name": "2.5\" WD Blue 500GB",
                         "id": "ID-62",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon4V1.jpg",
-                        "value": 43,
+                        "value": 40,
+                        "link": "http://www.amazon.com/dp/B00C9TECFO/",
                         "tag": "Consumer Class Storage 500GB for ViCase-Tiny / Mini"
                     },
                     {
@@ -6809,6 +6810,7 @@
                         "id": "ID-63",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon5V1.jpg",
                         "value": 60,
+                        "link": "http://www.amazon.com/dp/B00C9TEBJQ/",
                         "tag": "Consumer Class Storage 1TB for ViCase-Tiny / Mini"
                     },
                     {
@@ -6816,6 +6818,7 @@
                         "id": "ID-64",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon3V1.jpg",
                         "value": 70,
+                        "link": "http://www.amazon.com/Red-Mobile-Hard-Disk-Drive/dp/B00EHBES1U/ref=sr_1_2?s=pc&ie=UTF8&qid=1446608505&sr=1-2&keywords=WD+red+1TB",
                         "tag": "Workhorse Storage 1TB for ViCase-Tiny / Mini"
                     },
                     {
@@ -6823,6 +6826,7 @@
                         "id": "ID-65",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon1V1.jpg",
                         "value": 50,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 1TB for ViCase-Ultra"
                     },
                     {
@@ -6830,27 +6834,31 @@
                         "id": "ID-204",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon11V1.jpg",
                         "value": 79,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 2TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 3TB",
                         "id": "ID-205",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon12V1.jpg",
-                        "value": 93,
+                        "value": 85,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 3TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 4TB",
                         "id": "ID-206",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon13V1.jpg",
-                        "value": 132,
+                        "value": 125,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 4TB for ViCase-Ultra"
                     },
                     {
                         "name": "3.5\" WD Green 5TB",
                         "id": "ID-207",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon14V1.jpg",
-                        "value": 175,
+                        "value": 185,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 5TB for ViCase-Ultra"
                     },
                     {
@@ -6858,6 +6866,7 @@
                         "id": "ID-208",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon15V1.jpg",
                         "value": 223,
+                        "link": "http://www.amazon.com/dp/B006GDVREI/",
                         "tag": "Consumer Class Storage 6TB for ViCase-Ultra"
                     },
                     {
