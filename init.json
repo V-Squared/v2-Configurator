@@ -8180,7 +8180,7 @@
                     {
                         "name": "ViCase-Remote",
                         "id": "ID-519",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Remote/Icon1.jpg",
                         "value": 9,
                         "link": "",
                         "tag": "ontrol ViCase from the distance, just like a TV or Stereo"
@@ -8213,22 +8213,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery1.jpg",
                         "title": "ViCase-Remote►Size",
                         "description": "We like its size. Not too small to be hard to use and not too big to be hard to store."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery2.jpg",
                         "title": "ViCase-Remote►Two spare batteries",
                         "description": "Don't worry about spare batteries, we included plenty."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery3.jpg",
                         "title": "ViCase-Remote►Good keyboard layout",
                         "description": "You can use the Remote without looking."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery4.jpg",
                         "title": "ViCase-Remote►Tough",
                         "description": "This Remote is light and sturdy. We dropped ours many times and it still works."
                     }
