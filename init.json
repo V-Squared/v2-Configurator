@@ -3371,7 +3371,7 @@
                 "Advice": [
                     {
                         "heading": "How to squeeze ATX Power into a Mini Computer",
-                        "content": "ViCase fits Mini-ITX Desktop Mother Boards, which in turn fit Desktop ATX Power Supplies. Trouble is, these power supplies are big. Heck, even the ATX cables are so big. The ATX cables alone fill the ViCase housing leaving no space for anything else. The solution are Pico ATX Power Supplies. The power supply itself is made tiny by using modern, high efficiency, high density (read expensive) power circuits. And the space consuming cables are done away completely, buy soldering the power supply PCB directly to the ATX connector. Problem solved. Unfortunately you now need two Power Supplies: 1) AC/DC Adapter 2) Pico ATX Power aka ViCase-Power. This makes the power supply of the Mini Computer more expensive versus a standard Desktop. In turn you get a much smaller and much more quiet PC."
+                        "content": "ViCase fits Mini-ITX Desktop Mother Boards, which in turn fit Desktop ATX Power Supplies. Trouble is, these power supplies are big. Heck, even the ATX cables are so big. The ATX cables alone fill the ViCase housing leaving no space for anything else. The solution are Pico ATX Power Supplies. The power supply itself is made tiny by using modern, high efficiency, high density (read expensive) power circuits. And the space consuming cables are done away completely, by soldering the power supply PCB directly to the ATX connector. Problem solved. Unfortunately you now need two Power Supplies: 1) AC/DC Adapter 2) Pico ATX Power aka ViCase-Power. This makes the power supply of the Mini Computer more expensive versus a standard Desktop. In turn you get a much smaller and much more quiet PC."
                     },
                     {
                         "heading": "V²P.pATX-120W",
@@ -3585,19 +3585,55 @@
                     {
                         "title": "Case Material",
                         "row": [
-                            "Alu",
-                            "Alu",
-                            "Alu",
+                            "Aluminum",
+                            "Aluminum",
+                            "Aluminum",
                             "Plastic"
                         ]
                     },
                     {
-                        "title": "PCIe Card Length",
+                        "title": "Size in Liters",
                         "row": [
-                            " < 240 mm / 9.5\"",
-                            "all lengths",
-                            "< 240 mm / 9.5\"",
-                            "< 240 mm / 9.5\""
+                            2,
+                            2.5,
+                            10,
+                            10
+                        ]
+                    },
+                    {
+                        "title": "Fits over-sized GPU coolers",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Short PCIe Cards",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Long PCIe Cards",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Oversized PCIe Cards",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
@@ -4762,7 +4798,7 @@
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Mini-connect.jpg",
                         "title": "V²C.Mini►Inserted in Mother Board",
-                        "description": "V²C.Mini cable inserted in Mini PCI Express Bay of a Mother Board inside of a Computer."
+                        "description": "V²C.Mini cable inserted into Mini PCI Express Bay of a Mother Board inside of a Computer"
                     },
                     {
                         "image": "images/expansion/config/ViDock/V2C-Cables/Gallery/V2C-Card.jpg",
