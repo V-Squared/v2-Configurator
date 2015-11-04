@@ -7091,6 +7091,7 @@
                         "id": "ID-222",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon16V1.jpg",
                         "value": 195,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 2TB"
                     },
                     {
@@ -7098,6 +7099,7 @@
                         "id": "ID-223",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon17V1.jpg",
                         "value": 270,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 4TB"
                     },
                     {
@@ -7105,6 +7107,7 @@
                         "id": "ID-224",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon18V1.jpg",
                         "value": 330,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 6TB"
                     },
                     {
@@ -7112,6 +7115,7 @@
                         "id": "ID-225",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon20V1.jpg",
                         "value": 450,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 8TB"
                     },
                     {
@@ -7119,6 +7123,7 @@
                         "id": "ID-226",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon21V1.jpg",
                         "value": 585,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 10TB"
                     },
                     {
@@ -7126,6 +7131,7 @@
                         "id": "ID-227",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon22V1.jpg",
                         "value": 750,
+                        "link": "",
                         "tag": "3 drives WD Red - Net size: 12TB"
                     },
                     {
@@ -7133,6 +7139,7 @@
                         "id": "ID-228",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon23V1.jpg",
                         "value": 285,
+                        "link": "http://www.amazon.com/Western-Digital-Cache-Enterprise-WD1003FBYZ/dp/B00D38U4GQ/keywords=WD+Re+1TB",
                         "tag": "3 drives WD Re - Net size: 2TB"
                     },
                     {
@@ -7140,6 +7147,7 @@
                         "id": "ID-229",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon24V1.jpg",
                         "value": 360,
+                        "link": "",
                         "tag": "3 drives WD Re - Net size: 4TB"
                     },
                     {
@@ -7147,6 +7155,7 @@
                         "id": "ID-230",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon25V1.jpg",
                         "value": 520,
+                        "link": "",
                         "tag": "3 drives WD Re - Net size: 6TB"
                     },
                     {
@@ -7154,6 +7163,7 @@
                         "id": "ID-231",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon26V1.jpg",
                         "value": 660,
+                        "link": "",
                         "tag": "3 drives WD Re - Net size: 8TB"
                     },
                     {
@@ -7161,6 +7171,7 @@
                         "id": "ID-232",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon27V1.jpg",
                         "value": 900,
+                        "link": "",
                         "tag": "3 drives WD Re - Net size: 10TB"
                     },
                     {
@@ -7168,6 +7179,7 @@
                         "id": "ID-233",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon28V1.jpg",
                         "value": 1290,
+                        "link": "",
                         "tag": "3 drives WD Re - Net size: 12TB"
                     }
                 ],
