@@ -7468,8 +7468,124 @@
                 ],
                 "TableTag": [
                     "(1) If you build a new PC you need to buy a new Windows OEM Version, but you can use the same OS if you bought the Full Edition. However, upgrading your PC with the OEM Edition is allowed."
+                ]
+            },
+            {
+                "url": "",
+                "name": "Game GPU",
+                "id": "ID-284",
+                "part": "Game GPU",
+                "yourChoice": [
+                    {
+                        "name": "AMD R7-250 (XFX)",
+                        "id": "ID-285",
+                        "img": "",
+                        "value": "85",
+                        "link": "http://www.amazon.com/XFX-R7-250/dp/B00H5DJDL2/",
+                        "tag": "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                    },
+                    {
+                        "name": "nVidia GTX 750 (Gigabyte) Ti",
+                        "id": "ID-286",
+                        "img": "",
+                        "value": "125",
+                        "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
+                        "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                    },
+                    {
+                        "name": "nVidia GTX 970 (MSI)",
+                        "id": "ID-287",
+                        "img": "",
+                        "value": "350",
+                        "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
+                        "tag": "High End GPU Card with outstanding quality"
+                    },
+                    {
+                        "name": "nVidia GTX 980 (PNY)",
+                        "id": "ID-288",
+                        "img": "",
+                        "value": "499",
+                        "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
+                        "tag": "Ultra High END GPU Card"
+                    }
                 ],
-                "Datasheet": []
+                "Advice": [],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "R7-250"
+                    },
+                    {
+                        "name": "GTX 750 Ti"
+                    },
+                    {
+                        "name": "GTX 970"
+                    },
+                    {
+                        "name": "GTX 980"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Recommended CPU",
+                        "row": [
+                            "i3",
+                            "i3",
+                            "i5",
+                            "i5/i7"
+                        ]
+                    },
+                    {
+                        "title": "Digital Display Ports",
+                        "row": [
+                            2,
+                            4,
+                            4,
+                            5
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
+                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
+                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
+                                            "High End GPU Card with outstanding quality"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
+                                            "Ultra High END GPU Card"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "url": "",
@@ -7641,123 +7757,6 @@
                                         "row": [
                                             "<a href=\"http://www.nvidia.com/object/quadro-desktop-gpus.html#\" target=\" _blank \">Quadro Workstation Cards</a>",
                                             "Overview Page to all Data Sheets. Use this URL to find the data sheet in case the URL to the data sheet below is broken."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "url": "",
-                "name": "Game GPU",
-                "id": "ID-284",
-                "part": "Game GPU",
-                "yourChoice": [
-                    {
-                        "name": "AMD R7-250 (XFX)",
-                        "id": "ID-285",
-                        "img": "",
-                        "value": "85",
-                        "link": "http://www.amazon.com/XFX-R7-250/dp/B00H5DJDL2/",
-                        "tag": "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
-                    },
-                    {
-                        "name": "nVidia GTX 750 (Gigabyte) Ti",
-                        "id": "ID-286",
-                        "img": "",
-                        "value": "125",
-                        "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
-                        "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
-                    },
-                    {
-                        "name": "nVidia GTX 970 (MSI)",
-                        "id": "ID-287",
-                        "img": "",
-                        "value": "350",
-                        "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
-                        "tag": "High End GPU Card with outstanding quality"
-                    },
-                    {
-                        "name": "nVidia GTX 980 (PNY)",
-                        "id": "ID-288",
-                        "img": "",
-                        "value": "499",
-                        "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
-                        "tag": "Ultra High END GPU Card"
-                    }
-                ],
-                "Advice": [],
-                "TableHeading": [
-                    {
-                        "name": "Features",
-                        "class": "table-left-title"
-                    },
-                    {
-                        "name": "R7-250"
-                    },
-                    {
-                        "name": "GTX 750 Ti"
-                    },
-                    {
-                        "name": "GTX 970"
-                    },
-                    {
-                        "name": "GTX 980"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "Recommended CPU",
-                        "row": [
-                            "i3",
-                            "i3",
-                            "i5",
-                            "i5/i7"
-                        ]
-                    },
-                    {
-                        "title": "Digital Display Ports",
-                        "row": [
-                            2,
-                            4,
-                            4,
-                            5
-                        ]
-                    }
-                ],
-                "TableTag": [
-                    ""
-                ],
-                "Gallery": [],
-                "Datasheet": [
-                    {
-                        "tables": [
-                            {
-                                "table": [
-                                    {
-                                        "row": [
-                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
-                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
-                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
-                                            "High End GPU Card with outstanding quality"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
-                                            "Ultra High END GPU Card"
                                         ]
                                     }
                                 ]
