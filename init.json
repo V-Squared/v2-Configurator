@@ -6966,22 +6966,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery1.jpg",
                         "title": "Size",
                         "description": "Left to right: NVME-PCIe, 3.5\" and 2.5\""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery2.jpg",
                         "title": "WD Blue / Red 2.5\"",
                         "description": "Fit all ViCase. Capacities up to 1 TB. Choose Blue if your PC is on less than average 2 hours / day, otherwise choose Red."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery3.jpg",
                         "title": "WD Green / Red 3.5\"",
                         "description": "Only fit ViCase-Ultra. Capacities 1 ... 6 TB. Choose Green if your PC is on less than average 2 hours / day, otherwise choose Red."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery4.jpg",
                         "title": "NVME-PCIe",
                         "description": "Extremely fast SSD. Choose for high workload Server Data Disk when it has a RAID 1 SSD Boot Disk."
                     }
@@ -7264,17 +7264,17 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery5.jpg",
                         "title": "Size",
                         "description": "Left to Right: 3 x 3.5\" versus 1 Disk. 3 Disk RAID will take about 450% of the space than a single Disk when making space for airflow to keep the disks cool, such as when mounted in ViCase-Ultra"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery6.jpg",
                         "title": "3 Disk RAID 5 WD Red",
                         "description": "The sweet spot of RAID. Very reliable, affordable cost, up to 350 MB/s when using 6 TB drives."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/Data-Disk/Gallery/Gallery7.jpg",
                         "title": "3 Disk RAID 5 WD Re",
                         "description": "High End RAID. Extremely reliable. Data Rate up to 450 MB/s when using 6 TB drives."
                     }
