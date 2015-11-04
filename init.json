@@ -6874,6 +6874,7 @@
                         "id": "ID-209",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon2v1.jpg",
                         "value": 65,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 1TB for ViCase-Ultra"
                     },
                     {
@@ -6881,6 +6882,7 @@
                         "id": "ID-210",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon6V1.jpg",
                         "value": 90,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 2TB for ViCase-Ultra"
                     },
                     {
@@ -6888,6 +6890,7 @@
                         "id": "ID-211",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon7V1.jpg",
                         "value": 110,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 3TB for ViCase-Ultra"
                     },
                     {
@@ -6895,6 +6898,7 @@
                         "id": "ID-212",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon8V1.jpg",
                         "value": 150,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 4TB for ViCase-Ultra"
                     },
                     {
@@ -6902,6 +6906,7 @@
                         "id": "ID-213",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon9V1.jpg",
                         "value": 195,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 5TB for ViCase-Ultra"
                     },
                     {
@@ -6909,6 +6914,7 @@
                         "id": "ID-214",
                         "img": "images/expansion/config/Third-party/Data-Disk/Icon10V1.jpg",
                         "value": 250,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Workhorse Storage 6TB for ViCase-Ultra"
                     },
                     {
@@ -6916,6 +6922,7 @@
                         "id": "ID-290",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon6V1.jpg",
                         "value": 370,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Intel - 750 - High Performance Server"
                     },
                     {
@@ -6923,6 +6930,7 @@
                         "id": "ID-291",
                         "img": "images/expansion/config/Third-party/Boot-Disk/Icon7V1.jpg",
                         "value": 700,
+                        "link": "http://www.amazon.com/Red-Desktop-Hard-Disk-Drive/dp/B008JJLXO6/ref=sr_1_1?s=pc&ie=UTF8&qid=1446609433&sr=1-1&keywords=WD+Red+1TB",
                         "tag": "Intel - 750 - High Performance Server"
                     }
                 ],
