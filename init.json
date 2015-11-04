@@ -7766,6 +7766,329 @@
                 ]
             },
             {
+                "url": "",
+                "name": "Optical Drives",
+                "id": "ID-",
+                "part": "Optical Drives",
+                "yourChoice": [
+                    {
+                        "name": "USB DVD Drive",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "?",
+                        "link": "",
+                        "tag": "Optical Disc DVD Drive. Place easy accessible"
+                    },
+                    {
+                        "name": "USB BluRay Drive",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "???",
+                        "link": "",
+                        "tag": "Optical Disc BluRay Drive. Place easy accessible"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "USB DVD Optical Drive",
+                        "content": "Choose this option if you need to play DVDs with your ViCase PC. The external drive allows placement with convenient access for All-In-One configurations where ViCase is placed behind the Display."
+                    },
+                    {
+                        "heading": "USB BluRay Optical Drive",
+                        "content": "Choose this option if you need to play BluRay Discs with your ViCase PC. The external drive allows placement with convenient access for All-In-One configurations where ViCase is placed behind the Display."
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "Optical Drive►Size",
+                        "description": "Optical Drive Size comparison. DVD and BluRay Drive do not differ in size."
+                    },
+                    {
+                        "image": "",
+                        "title": "Optical Drive►HTPC",
+                        "description": "In this example the ViCase is behind the TV, yet the Optical Drive is easily accessible in the front."
+                    },
+                    {
+                        "image": "",
+                        "title": "Optical Drive►All-In-One",
+                        "description": "In this example the ViCase is behind the Display, yet the Optical Drive is easily accessible in the front."
+                    },
+                    {
+                        "image": "",
+                        "title": "Optical Drive►Easy Connection",
+                        "description": "Only one USB cable is needed to connect the Optical Drive to ViCase"
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "name": "Backup Drive",
+                "id": "ID-",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "name": "NAS Sever",
+                "id": "ID-",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "name": "ViCase-Remote",
+                "id": "ID-",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "name": "WiFi",
+                "id": "ID-",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "ViCase-Parallel",
                 "yourChoice": [
                     {
