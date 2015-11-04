@@ -7620,7 +7620,6 @@
                 "TableTag": [
                     ""
                 ],
-                "Gallery": [],
                 "Datasheet": [
                     {
                         "tables": [
@@ -7798,7 +7797,6 @@
                 "TableTag": [
                     "All cards are Low Profile and fit into ViCase Mini and ViCase Ultra"
                 ],
-                "Gallery": [],
                 "Datasheet": [
                     {
                         "tables": [
@@ -7837,12 +7835,12 @@
             {
                 "url": "",
                 "name": "Optical Drives",
-                "id": "ID-",
+                "id": "ID-500",
                 "part": "Optical Drives",
                 "yourChoice": [
                     {
                         "name": "USB DVD Drive",
-                        "id": "ID-",
+                        "id": "ID-501",
                         "img": "",
                         "value": 23,
                         "link": "http://www.amazon.com/SAMSUNG-Ultra-Slim-SE-208GB-RSBD-compatible/dp/B00MLXA1HG",
@@ -7850,7 +7848,7 @@
                     },
                     {
                         "name": "USB BluRay Drive",
-                        "id": "ID-",
+                        "id": "ID-502",
                         "img": "",
                         "value": 74,
                         "link": "http://www.amazon.com/SAMSUNG-SE-506CB-RSBD-Blu-ray-External/dp/B00JJGFRIQ",
@@ -7933,12 +7931,12 @@
             {
                 "url": "",
                 "name": "Backup Drive",
-                "id": "ID-",
+                "id": "ID-503",
                 "part": "",
                 "yourChoice": [
                     {
                         "name": "",
-                        "id": "ID-",
+                        "id": "ID-504",
                         "img": "",
                         "value": "",
                         "link": "",
@@ -7991,12 +7989,12 @@
             {
                 "url": "",
                 "name": "NAS Sever",
-                "id": "ID-",
+                "id": "ID-514",
                 "part": "",
                 "yourChoice": [
                     {
                         "name": "Eco 4 Bay RAID5",
-                        "id": "ID-",
+                        "id": "ID-515",
                         "img": "",
                         "value": 389,
                         "link": "http://www.amazon.com/DS414j/dp/B00K6PCTCG/",
@@ -8004,7 +8002,7 @@
                     },
                     {
                         "name": "Pro 4 Bay RAID5",
-                        "id": "ID-",
+                        "id": "ID-516",
                         "img": "",
                         "value": 600,
                         "link": "http://www.amazon.com/DS415-plus/dp/B00IKTSSIO",
@@ -8012,7 +8010,7 @@
                     },
                     {
                         "name": "Pro 8 Bay RAID5",
-                        "id": "ID-",
+                        "id": "ID-517",
                         "img": "",
                         "value": 961,
                         "link": "http://www.amazon.com/DS1815/dp/B00P3RPMEO/",
@@ -8179,12 +8177,12 @@
             {
                 "url": "",
                 "name": "ViCase-Remote",
-                "id": "ID-",
+                "id": "ID-518",
                 "part": "",
                 "yourChoice": [
                     {
                         "name": "ViCase-Remote",
-                        "id": "ID-",
+                        "id": "ID-519",
                         "img": "",
                         "value": 9,
                         "link": "",
@@ -8258,12 +8256,12 @@
             {
                 "url": "",
                 "name": "WiFi",
-                "id": "ID-",
+                "id": "ID-529",
                 "part": "",
                 "yourChoice": [
                     {
                         "name": "",
-                        "id": "ID-",
+                        "id": "ID-530",
                         "img": "",
                         "value": "",
                         "link": "",
