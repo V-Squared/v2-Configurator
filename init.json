@@ -208,7 +208,7 @@
         ]
     },
     {
-        "name": "2. Mini Case (Ready)",
+        "name": "2. Mini Case",
         "id": "ID-2",
         "data": [
             {
@@ -2441,7 +2441,7 @@
         ]
     },
     {
-        "name": "3. All-In-One Converter (Ready)",
+        "name": "3. All-In-One Converter",
         "id": "ID-3",
         "data": [
             {
@@ -3031,7 +3031,7 @@
         ]
     },
     {
-        "name": "4. Power (Ready)",
+        "name": "4. Power",
         "id": "ID-4",
         "data": [
             {
@@ -3525,7 +3525,7 @@
         ]
     },
     {
-        "name": "5. PCIe Expansion (Ready)",
+        "name": "5. PCIe Expansion",
         "id": "ID-5",
         "data": [
             {
@@ -5501,7 +5501,7 @@
         ]
     },
     {
-        "name": "6. PC Parts (Half-Done)",
+        "name": "6. PC Parts",
         "id": "ID-6",
         "data": [
             {
@@ -7616,9 +7616,6 @@
                             5
                         ]
                     }
-                ],
-                "TableTag": [
-                    ""
                 ],
                 "Datasheet": [
                     {
