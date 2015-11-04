@@ -7995,40 +7995,169 @@
                 "part": "",
                 "yourChoice": [
                     {
-                        "name": "",
+                        "name": "Eco 4 Bay RAID5",
                         "id": "ID-",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 389,
+                        "link": "http://www.amazon.com/DS414j/dp/B00K6PCTCG/",
+                        "tag": "DS414j Budget NAS by Synology"
+                    },
+                    {
+                        "name": "Pro 4 Bay RAID5",
+                        "id": "ID-",
+                        "img": "",
+                        "value": 600,
+                        "link": "http://www.amazon.com/DS415-plus/dp/B00IKTSSIO",
+                        "tag": "DS415+ Professional NAS by Synology"
+                    },
+                    {
+                        "name": "Pro 8 Bay RAID5",
+                        "id": "ID-",
+                        "img": "",
+                        "value": 961,
+                        "link": "http://www.amazon.com/DS1815/dp/B00P3RPMEO/",
+                        "tag": "DS1815+ Professional NAS by Synology"
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "When your Data are important",
+                        "content": "A RAID5 NAS keeps your Data safe. Even when a hard disk fails, all is well. Swap out the bad drive and life goes on without any interruption or lost data. One step safer is to use a RAID5 system in your workstation -- such as ViCase-Ultra -- and make sequential backups on your NAS. And the highest level of safety is to have two NAS in two locations. So if one location is lost, be it by thief or higher force, then you still have your data safe in another location. A Synologyt NAS is very simple to setup. If your Data is important you should keep it safe. Life happens. Give yourself peace of mind."
+                    },
+                    {
+                        "heading": "Why we recommend Synology",
+                        "content": "Synology has very easy to use software for setup and configuration. Virus protection is integrated. The documentation is very easy to find and understand. You easy to can see for yourself when you click the links in Data Sheets below."
+                    },
+                    {
+                        "heading": "RAID5 with 4 or 8 Disks 3.5\"",
+                        "content": "When you want to protect your Data, RAID5 is the only way to go. And due to cost and available storage size 3.5\" is the only choice."
+                    },
+                    {
+                        "heading": "WD Red",
+                        "content": "We recommend wholeheartedly WD Red for NAS. Re is overkill. You can not benefit from the speed, but you will have more problems as they get more hot. You already have RAID 5, so if a disk fails you can replace it without loss of data. For more information why WD Red for RAID and what they cost, see our Section: V²Configurator►6. PC Parts►Data Disk (RAID)"
+                    },
+                    {
+                        "heading": "Connect via USB3 or LAN?",
+                        "content": "LAN supports long distance but only 90 MB/s. USB3 is much faster with 450 MB/s but your cable can only be 5m long. Also see the next chapter if speed is important for you."
+                    },
+                    {
+                        "heading": "How important is speed?",
+                        "content": "It depends on your use case. If you work on your data on the Server, then speed is very important. If your data are on your local drives and you use the NAS for backup, then speed is not important. Backups will be made sequential and in the background and you will feel no difference whether your NAS has a high or slow data transfer rate. In general it is recommended to work on your data locally and use the NAS for backup. This is the fastest and safest way of working."
                     }
                 ],
                 "TableHeading": [
                     {
                         "name": "Features",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": "DS414j",
+                        "class": ""
+                    },
+                    {
+                        "name": "DS415+",
+                        "class": ""
+                    },
+                    {
+                        "name": "DS1815+",
+                        "class": ""
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "CPU",
                         "row": [
-                            "",
-                            "",
-                            ""
+                            "1.2 GHz Dual",
+                            "2.4 GHz Quad",
+                            "2.4 GHz Quad"
+                        ]
+                    },
+                    {
+                        "title": "Memory",
+                        "row": [
+                            "512 MB",
+                            "2 GB",
+                            "2 GB"
+                        ]
+                    },
+                    {
+                        "title": "Virtualization",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Transfer Speed",
+                        "row": [
+                            "90 MB/s",
+                            "220 MB/s",
+                            "430 MB/s"
+                        ]
+                    },
+                    {
+                        "title": "Bays",
+                        "row": [
+                            4,
+                            4,
+                            8
+                        ]
+                    },
+                    {
+                        "title": "Max Capacity",
+                        "row": [
+                            "24 TB",
+                            "24 TB",
+                            "48 TB (1)"
                         ]
                     }
                 ],
                 "TableTag": [
-                    ""
+                    "(1) The capacity can be further expanded. See Data Sheet."
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "DiskStation Manager",
+                        "description": "Synology DiskStation Manager is a sleek Browser based OS, making managing your NAS a breeze"
+                    },
+                    {
+                        "image": "",
+                        "title": "The most compatible sharing",
+                        "description": "Enjoy seamless files sharing across Windows®, Mac®, and Linux®"
+                    },
+                    {
+                        "image": "",
+                        "title": "Effective backup solution",
+                        "description": "The NAS serves as a centralized backup target. Use sequential backups and you are even protected against yourself when you accidentally deleted something important."
+                    },
+                    {
+                        "image": "",
+                        "title": "Ensuring business continuity",
+                        "description": "Uninterrupted availability. Server downtime, theft or other disasters will not harm your data."
+                    },
+                    {
+                        "image": "",
+                        "title": "DS414j",
+                        "description": "Your Entry Ticket for low cost reliable RAID5 NAS Media Server and Backup"
+                    },
+                    {
+                        "image": "",
+                        "title": "DS415+",
+                        "description": "Pro RAID5 NAS. Step up feature is double speed and Virtualization"
+                    },
+                    {
+                        "image": "",
+                        "title": "DS1815+",
+                        "description": "High End RAID5 NAS. Step up feature is more bays doubling capacity to 48 TB and also double transfer speed."
+                    },
+                    {
+                        "image": "",
+                        "title": "WD Red",
+                        "description": "This disk is made for RAID5 / NAS."
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
@@ -8036,8 +8165,9 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "",
-                                            ""
+                                            "<a href=\"https://www.synology.com/en-us/products/DS414j\" target=\" _blank \">Eco 4 Bay RAID5</a>",
+                                            "<a href=\"https://www.synology.com/en-us/products/DS415+\" target=\" _blank \">Pro 4 Bay RAID5</a>",
+                                            "<a href=\"https://www.synology.com/en-us/products/DS1815+\" target=\" _blank \">Pro 8 Bay RAID5</a>"
                                         ]
                                     }
                                 ]
