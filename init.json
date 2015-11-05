@@ -7586,7 +7586,36 @@
                         "tag": "Ultra High END GPU Card"
                     }
                 ],
-                "Advice": [],
+                "Advice": [
+                    {
+                        "heading": "Importance of choosing the right GPU",
+                        "content": "If your Use case is Gaming or Creative Design then the GPU is possibly the most expensive part in your PC, because it has the biggest value for money to make your PC fast for your Use Case. We took great care in choosing 5 GPU models covering the range form entry level to High End and match them with a proper CPU, optimized for each budget slot."
+                    },
+                    {
+                        "heading": "Is a Workstation GPU better for you?",
+                        "content": "If your Use Case is Creative Work you may want to check out the Workstation GPUs. They might suit your needs better than the Game GPUs. Please see the Section \"Workstation GPUs\" in the Configurator for more details."
+                    },
+                    {
+                        "heading": "Low Profile fit in ViCase-Mini / ViCase-Ultra",
+                        "content": "Most of our recommended GPU cards are Low Profile. As such they fit directly into ViCase-Mini and ViCase-Ultra. Keeping your PC very tiny, belying their performance."
+                    },
+                    {
+                        "heading": "Full Profile fit in ViDock GPU with optimized cooling",
+                        "content": "Only the three highest end GPUs, the GTX 960, 970 and 980 are Full Profile Cards. As such they need ViDock GPU to connect them to ViCase. Having a separate case for the GPU has the advantage of a much better airflow design, keeping all your PC parts cooler to prevent premature aging and at the same time keeping your PC more quiet versus a single case Desktop. ViCase + ViDock is a two case solution that is smaller, quieter, cooler and more modular versus a single case desktop."
+                    },
+                    {
+                        "heading": "Choosing optimum CPU for GPU",
+                        "content": "If you want to over-ride the suggestions of the ready made configurations in the Wizard of the V²Configurator, then keep in mind to choose a CPU that matches the performance needs of your GPU. For more details, please refer to our comparison table."
+                    },
+                    {
+                        "heading": "Guru 3D is a great GPU review resource",
+                        "content": "If you want to dig in and find the exact best GPU for you, thenhttp://www.guru3d.com is a great place. They review pretty much every major GPU card and they do it in incredible detail. → http://www.guru3d.com"
+                    },
+                    {
+                        "heading": "Cards with more than 4 GB Memory",
+                        "content": "If you use the GPU card for rendering, you may want a card with 6 or 8 GB. They are available and easy to find on www.amazon.com andwww.newegg.com. Consult with your 3D Rendering application or ask in respective forums how much memory you need."
+                    }
+                ],
                 "TableHeading": [
                     {
                         "name": "Features",
@@ -7599,6 +7628,9 @@
                         "name": "GTX 750 Ti"
                     },
                     {
+                        "name": "GTX 960"
+                    },
+                    {
                         "name": "GTX 970"
                     },
                     {
@@ -7609,8 +7641,9 @@
                     {
                         "title": "Recommended CPU",
                         "row": [
+                            "Athlon / i3",
                             "i3",
-                            "i3",
+                            "i5",
                             "i5",
                             "i5/i7"
                         ]
@@ -7620,9 +7653,134 @@
                         "row": [
                             2,
                             4,
+                            5,
                             4,
                             5
                         ]
+                    },
+                    {
+                        "title": "Memory Size",
+                        "row": [
+                            "2GB",
+                            "2GB",
+                            "2GB",
+                            "4GB",
+                            "4GB"
+                        ]
+                    },
+                    {
+                        "title": "Memory Type",
+                        "row": [
+                            "DDR3",
+                            "GDDR5",
+                            "GDDR5",
+                            "GDDR5",
+                            "GDDR5"
+                        ]
+                    },
+                    {
+                        "title": "Height",
+                        "row": [
+                            "Low",
+                            "Low",
+                            "High",
+                            "High",
+                            "High"
+                        ]
+                    },
+                    {
+                        "title": "Power TDP",
+                        "row": [
+                            "75W",
+                            "60W",
+                            "120W",
+                            "145W",
+                            "165W"
+                        ]
+                    },
+                    {
+                        "title": "CUDA Cores",
+                        "row": [
+                            "-",
+                            640,
+                            1024,
+                            1664,
+                            2048
+                        ]
+                    },
+                    {
+                        "title": "Power PCIe Aux",
+                        "row": [
+                            "-",
+                            "-",
+                            "1x 8-Pins",
+                            "1x 8-pins 1x 6-pins",
+                            "2x 6-pins"
+                        ]
+                    },
+                    {
+                        "title": "3DMark11",
+                        "row": [
+                            2700,
+                            5700,
+                            10400,
+                            15800,
+                            18700
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    "3DMark11 ... 1000: Weak gaming performance. Suitable for office and photo applications, but not for modern games.",
+                    "3DMark11 ... 2000: Average performance. Most games are playable on low or medium settings",
+                    "3DMark11 ... 3000: Good performance. All games will run with recommended settings in HD resolutions",
+                    "3DMark11 ... 5000+: Excellent Performance. Most games will run with max. Settings. Usually Good value for money",
+                    "3DMark11 10,000+: Best of the best. Runs everything you throw at it on max settings. Powerful enough to drive 3 displays in HD for surround gaming"
+                ],
+                "Gallery": [
+                    {
+                        "image": "Size",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 750 in ViCase Mini open, no sides",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 750 in ViCase Mini closed, Rear view, see bracket",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 980 in ViDock GPU",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "R7-250",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 750 Ti",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 960",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 970",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "GTX 980",
+                        "description": ""
                     }
                 ],
                 "Datasheet": [
@@ -7640,6 +7798,80 @@
                                         "row": [
                                             "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
                                             "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
+                                            "High End GPU Card for High End Gaming"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
+                                            "High End GPU Card with outstanding quality"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
+                                            "Ultra High END GPU Card"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
+                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
+                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
+                                            "High End GPU Card for High End Gaming"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
+                                            "High End GPU Card with outstanding quality"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
+                                            "Ultra High END GPU Card"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
+                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
+                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
+                                            "High End GPU Card for High End Gaming"
                                         ]
                                     },
                                     {
