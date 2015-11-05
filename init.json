@@ -7562,6 +7562,14 @@
                         "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
                     },
                     {
+                        "name": "nvidia GTX 960 (EVGA)",
+                        "id": "ID-555",
+                        "img": "",
+                        "value": "190",
+                        "link": "http://www.amazon.com/EVGA-960/dp/B00SC6HAS4/",
+                        "tag": "High End GPU Card for High End Gaming"
+                    },
+                    {
                         "name": "nVidia GTX 970 (MSI)",
                         "id": "ID-287",
                         "img": "images/expansion/config/Accessories/Game-GPU/Icon3.jpg",
