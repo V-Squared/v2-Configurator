@@ -8282,25 +8282,6 @@
                         "content": "If you never used a remote with your PC you are in for a treat. Listen to your Music with a headset on your couch and adjust volume or skip to the next song without getting up. Works equally as well to control your media player, such as VLC or cohorts. Works with Windows and Linux. Additional to Media Control, you get Mouse Control and Power On / Off and a set of function keys as you can see in the Gallery."
                     }
                 ],
-                "TableHeading": [
-                    {
-                        "name": "Features",
-                        "class": "table-left-title"
-                    }
-                ],
-                "TableBody": [
-                    {
-                        "title": "",
-                        "row": [
-                            "",
-                            "",
-                            ""
-                        ]
-                    }
-                ],
-                "TableTag": [
-                    ""
-                ],
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery1.jpg",
@@ -8325,13 +8306,41 @@
                 ],
                 "Datasheet": [
                     {
+                        "button": [
+                            {
+                                "name": "ViCase-Remote",
+                                "class": "active"
+                            }
+                        ],
                         "tables": [
                             {
                                 "table": [
                                     {
+                                        "title": "Driver",
+                                        "class": "",
                                         "row": [
-                                            "",
-                                            ""
+                                            "No"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Plug and play",
+                                        "class": "",
+                                        "row": [
+                                            "Yes"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Interface",
+                                        "class": "",
+                                        "row": [
+                                            "USB"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "12*5*1 cm"
                                         ]
                                     }
                                 ]
