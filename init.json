@@ -7841,7 +7841,7 @@
                         "img": "images/expansion/config/Accessories/DVD-drive/Icon1.jpg",
                         "value": 23,
                         "link": "http://www.amazon.com/SAMSUNG-Ultra-Slim-SE-208GB-RSBD-compatible/dp/B00MLXA1HG",
-                        "tag": "Optical Disc DVD Drive. Place easy accessible"
+                        "tag": "Optical Disc DVD Read / Write Drive. Samsung SE-208GB"
                     },
                     {
                         "name": "USB BluRay Drive",
@@ -7849,7 +7849,7 @@
                         "img": "images/expansion/config/Accessories/DVD-drive/Icon2.jpg",
                         "value": 74,
                         "link": "http://www.amazon.com/SAMSUNG-SE-506CB-RSBD-Blu-ray-External/dp/B00JJGFRIQ",
-                        "tag": "Optical Disc BluRay Drive. Place easy accessible"
+                        "tag": "Optical Disc BluRay Read / Write Drive. Samsung SE-506CB"
                     }
                 ],
                 "Advice": [
@@ -7860,26 +7860,50 @@
                     {
                         "heading": "USB BluRay Optical Drive",
                         "content": "Choose this option if you need to play BluRay Discs with your ViCase PC. The external drive allows placement with convenient access for All-In-One configurations where ViCase is placed behind the Display."
+                    },
+                    {
+                        "heading": "Single USB Cable Connection",
+                        "content": "A single cable connection is much more convenient than to deal with another power adapter and additional DC cable. Both drives we suggested are single cable connection."
+                    },
+                    {
+                        "heading": "Tray Type / Front Loading",
+                        "content": "There are two loading types: Top Loading and Front Loading. We choose Front Loading because you can place ViCase Access on top, minimizing clutter on your desk."
                     }
                 ],
                 "TableHeading": [
                     {
                         "name": "Features",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": "USB DVD Drive"
+                    },
+                    {
+                        "name": "USB BluRay Drive"
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "Read & Write CD",
                         "row": [
-                            "",
-                            "",
-                            ""
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Read & Write DVD",
+                        "row": [
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Read & Write BD",
+                        "row": [
+                            "No",
+                            "Yes"
                         ]
                     }
-                ],
-                "TableTag": [
-                    ""
                 ],
                 "Gallery": [
                     {
@@ -7906,17 +7930,45 @@
                         "image": "images/expansion/config/Accessories/DVD-drive/Gallery/Gallery5.jpg",
                         "title": "Optical Drive►Good use of space",
                         "description": "The two drives we suggest are front loading. So you can put ViCase Access on top."
+                    },
+                    {
+                        "image": "images/expansion/config/Accessories/DVD-drive/Gallery/Gallery5.jpg",
+                        "title": "USB DVD Drive",
+                        "description": "Samsung SE-208GB"
+                    },
+                    {
+                        "image": "images/expansion/config/Accessories/DVD-drive/Gallery/Gallery5.jpg",
+                        "title": "USB BluRay Drive",
+                        "description": "Samsung SE-506CB"
                     }
                 ],
-                "User Manual": [
+                "Data Sheet": [
                     {
                         "tables": [
                             {
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-208GB&productName=DVD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">DVD drive</a>",
-                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-506CB&productName=BD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">BluRay drive</a>"
+                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-208GB&productName=DVD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">User Manual DVD drive</a>",
+                                            "Optical Disc DVD Read / Write Drive. Samsung SE-208GB"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.tsstodd.com/eng/Products/Spec/?functionvalue=view&parent_idx=4414&level_idx=4527\" target=\" _blank \">Data Sheet DVD drive</a>",
+                                            "Optical Disc DVD Read / Write Drive. Samsung SE-208GB"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.tsstodd.com/eng/support/manual/?functionvalue=view&model=SE-506CB&productName=BD-Writer%20Slim%20External&searchText=&pTop=0&mTop=0\" target=\" _blank \">User Manual BluRay drive</a>",
+                                            "Optical Disc BluRay Read / Write Drive. Samsung SE-506CB"
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "<a href=\"http://www.tsstodd.com/eng/Products/Spec/?functionvalue=view&parent_idx=4489&level_idx=4521\" target=\" _blank \">Data Sheet BluRay drive</a>",
+                                            "Optical Disc BluRay Read / Write Drive. Samsung SE-506CB"
                                         ]
                                     }
                                 ]
