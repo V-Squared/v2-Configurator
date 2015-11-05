@@ -7932,40 +7932,130 @@
                 "part": "",
                 "yourChoice": [
                     {
-                        "name": "",
+                        "name": "External USB 3 Drive 2TB",
                         "id": "ID-504",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 85,
+                        "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
+                        "tag": "Seagate Expansion external Hard Drive"
+                    },
+                    {
+                        "name": "External USB 3 Drive 3TB",
+                        "id": "ID-505",
+                        "img": "",
+                        "value": 108,
+                        "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
+                        "tag": "Seagate Expansion external Hard Drive"
+                    },
+                    {
+                        "name": "External USB 3 Drive 4TB",
+                        "id": "ID-506",
+                        "img": "",
+                        "value": 120,
+                        "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
+                        "tag": "Seagate Expansion external Hard Drive"
+                    },
+                    {
+                        "name": "External USB 3 Drive 5TB",
+                        "id": "ID-507",
+                        "img": "",
+                        "value": 136,
+                        "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
+                        "tag": "Seagate Expansion external Hard Drive"
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "So much better than nothing",
+                        "content": "Having an external drive for backup is so much better than nothing. Hard drives fail. If you have no backup you will be buggered. An external drive is the most easy solution and delivers a lot of safety for little money and effort. These drives are cheap and do not have high durability. As such disconnect them and power them off when not in use. For higher reliability use two drives. Alternate the backup. This way you still have a backup in case something went wrong in the last backup or one of the two drives got damaged or stolen."
+                    },
+                    {
+                        "heading": "Choosing external drive over one drive cloud server",
+                        "content": "I could find no specs on what hard drive would be installed. As such there is no specs on MTBF, expected on time or any other reliability information. This does not bode well that a reliable drive will be inside. Consumer drivers that are on all the time fail quite frequently, which is not a good idea for your backup drive. As such we do not recommend the one drive cloud servers, but rather an external drive that is disconnected and powered off when not in use. If you want the convenience of an always on server for backups, then consider a 4 Disk RAID5. It is not cheap, but dramatically more safe."
+                    },
+                    {
+                        "heading": "Make backing up a habit",
+                        "content": "E.g. plug in and power on your drive and start the sequential backup software before you go to lunch. This way you will not forget it. A good schedule is to backup once a day and on the week end you swap the drive at another location. This way you are protected against two more troubles. One is that if one location gets damaged then your data is still safe in the alternate location. The other one is that one drive could go bad or you could make a mistake when backing up thus damaging the data."
                     }
                 ],
                 "TableHeading": [
                     {
-                        "name": "Features",
+                        "name": "Threat to your data",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": "No Backup",
+                        "class": ""
+                    },
+                    {
+                        "name": "1 Drive 1 place",
+                        "class": ""
+                    },
+                    {
+                        "name": "2 Drives 2 Places",
+                        "class": ""
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "Your PC dies",
                         "row": [
-                            "",
-                            "",
-                            ""
+                            "lost",
+                            "safe",
+                            "safe"
+                        ]
+                    },
+                    {
+                        "title": "Accidental deletion today",
+                        "row": [
+                            "lost",
+                            "safe",
+                            "safe"
+                        ]
+                    },
+                    {
+                        "title": "Accidental deletion yesterday (1)",
+                        "row": [
+                            "lost",
+                            "safe",
+                            "safe"
+                        ]
+                    },
+                    {
+                        "title": "External Drive dies",
+                        "row": [
+                            "lost",
+                            "lost",
+                            "safe"
+                        ]
+                    },
+                    {
+                        "title": "Your location dies",
+                        "row": [
+                            "lost",
+                            "lost",
+                            "safe"
+                        ]
+                    },
+                    {
+                        "title": "You screw up backup",
+                        "row": [
+                            "N/A",
+                            "lost",
+                            "safe"
                         ]
                     }
                 ],
                 "TableTag": [
-                    ""
+                    "(1) Say you are on a weekly rotation cycle. In this case you still can recover your file on the second drive if the file is old enough to be backed up with last weeks backup."
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "Seagate Expansion external USB3 Drive",
+                        "description": "Your entry ticket to have backups. Up to 5 TB. Use two drives alternating per week stored in two locations for best safety."
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
@@ -8290,7 +8380,13 @@
                 "TableTag": [
                     ""
                 ],
-                "Gallery": [],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    }
+                ],
                 "Datasheet": [
                     {
                         "tables": [
