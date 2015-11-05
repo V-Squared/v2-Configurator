@@ -8115,7 +8115,8 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.seagate.com/support/external-hard-drives/desktop-hard-drives/expansion-desktop/#specs\" target=\" _blank \">External USB 3 Drive</a>"
+                                            "<a href=\"http://www.seagate.com/support/external-hard-drives/desktop-hard-drives/expansion-desktop/#specs\" target=\" _blank \">External USB 3 Drive</a>",
+                                            "Seagate Expansion external Hard Drive"
                                         ]
                                     }
                                 ]
@@ -8302,8 +8303,34 @@
                                     {
                                         "row": [
                                             "<a href=\"https://www.synology.com/en-us/products/DS414j\" target=\" _blank \">Eco 4 Bay RAID5</a>",
+                                            "DS414j Budget NAS by Synology"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
                                             "<a href=\"https://www.synology.com/en-us/products/DS415+\" target=\" _blank \">Pro 4 Bay RAID5</a>",
-                                            "<a href=\"https://www.synology.com/en-us/products/DS1815+\" target=\" _blank \">Pro 8 Bay RAID5</a>"
+                                            "DS415+ Professional NAS by Synology"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "DS1815+ Professional NAS by Synology"
                                         ]
                                     }
                                 ]
@@ -8503,7 +8530,20 @@
                                     {
                                         "row": [
                                             "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Rosewill Highgain N300</a>",
-                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200pce-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0ghz-300-mbps-2-4-ghz-wi-fi-data-rates-pci-e-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>"
+                                            "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
                                         ]
                                     }
                                 ]
