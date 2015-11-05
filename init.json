@@ -7738,8 +7738,8 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "Size",
-                        "title": "",
+                        "image": "",
+                        "title": "Size",
                         "description": ""
                     },
                     {
@@ -7789,101 +7789,45 @@
                             {
                                 "table": [
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
-                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
+                                            "R7-250",
+                                            "GTX 750 Ti",
+                                            "GTX 960",
+                                            "GTX 970",
+                                            "GTX 980"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
-                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                                            "<a href=\"http://www.amd.com/en-gb/products/graphics/desktop/r7#\" target=\" _blank \">GPU Maker</a>",
+                                            "<a href=\"http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-750-ti/specifications\" target=\" _blank \">GPU Maker</a>",
+                                            "<a href=\"http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-960/specifications\" target=\" _blank \">GPU Maker</a>",
+                                            "<a href=\"http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-970/specifications\" target=\" _blank \">GPU Maker</a>",
+                                            "<a href=\"http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-980/specifications\" target=\" _blank \">GPU Maker</a>"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
-                                            "High End GPU Card for High End Gaming"
+                                            "Performance",
+                                            "<a href=\"http://www.amd.com/en-us/products/processors/desktop/athlon\" target=\" _blank \">Athlon 5350</a>",
+                                            "<a href=\"http://ark.intel.com/products/75044/Intel-Core-i5-4570S-Processor-6M-Cache-up-to-3_60-GHz \" target=\" _blank \">i5-4570S</a>",
+                                            "<a href=\"http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz \" target=\" _blank \">i7-6700K</a>"
                                         ]
                                     },
                                     {
+                                        "title": "",
+                                        "class": "",
                                         "row": [
-                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
-                                            "High End GPU Card with outstanding quality"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
-                                            "Ultra High END GPU Card"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "row": [
-                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
-                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
-                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
-                                            "High End GPU Card for High End Gaming"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
-                                            "High End GPU Card with outstanding quality"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
-                                            "Ultra High END GPU Card"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "table": [
-                                    {
-                                        "row": [
-                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4 \" target=\" _blank \">AMD R7-250 (XFX)</a>",
-                                            "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160&kw=GV-N75TOC-2GL#ov\" target=\" _blank \">nVidia GTX 750 (Gigabyte) Ti</a>",
-                                            "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"？？？\" target=\" _blank \">nvidia GTX 960 (EVGA)</a>",
-                                            "High End GPU Card for High End Gaming"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"http://www.msi.com/product/graphics-card/GTX-970-GAMING-100ME.html#hero-overview \" target=\" _blank \">nVidia GTX 970 (MSI)</a>",
-                                            "High End GPU Card with outstanding quality"
-                                        ]
-                                    },
-                                    {
-                                        "row": [
-                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">nVidia GTX 980 (PNY)</a>",
-                                            "Ultra High END GPU Card"
+                                            "Performance",
+                                            "<a href=\"http://www.amd.com/en-us/products/processors/desktop/athlon\" target=\" _blank \">Athlon 5350</a>",
+                                            "<a href=\"http://ark.intel.com/products/75044/Intel-Core-i5-4570S-Processor-6M-Cache-up-to-3_60-GHz \" target=\" _blank \">i5-4570S</a>",
+                                            "<a href=\"http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz \" target=\" _blank \">i7-6700K</a>"
                                         ]
                                     }
                                 ]
