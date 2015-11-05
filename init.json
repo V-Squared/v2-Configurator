@@ -8273,7 +8273,7 @@
                         "img": "images/expansion/config/Accessories/Remote/Icon1.jpg",
                         "value": 9,
                         "link": "",
-                        "tag": "ontrol ViCase from the distance, just like a TV or Stereo"
+                        "tag": "Control ViCase from the distance, just like a TV or Stereo"
                     }
                 ],
                 "Advice": [
@@ -8347,44 +8347,92 @@
                 "part": "",
                 "yourChoice": [
                     {
-                        "name": "",
+                        "name": "WiFi Single Band",
                         "id": "ID-530",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 20,
+                        "link": "http://www.amazon.com/WiFi-Single/dp/B004BV4JXI/",
+                        "tag": "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
+                    },
+                    {
+                        "name": "WiFi Dual Band",
+                        "id": "ID-531",
+                        "img": "",
+                        "value": 42,
+                        "link": "http://www.amazon.com/WiFi-Dual/dp/B00K3TJ9A0/",
+                        "tag": "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "Free placement with cradle",
+                        "content": "Trouble free WiFi is all about good reception. At 2.4 and 5 GHz wireless reception is not equal in each spot. Moving around the Antenna while looking at the reception bar will allow you to find a spot with better reception and thus enjoy higher speed. We choose these two models because their design with cradle and cable allow you to place the Antenna freely, independent from where your PC happens to be."
+                    },
+                    {
+                        "heading": "Single or Dual Band",
+                        "content": "Single Band means that data transfer happens on the 2.4 GHz Band. Dual Band can transfer data on two bands: 2.4 GHz and 5.0 GHz. If you are living in a not so densely populated space then Single Band should be fine. If however you life in an apartment of a high rise, it is possible that the Single Band is full and you will have speed issues. The higher band is not used as much as it is newer. Having two bands will increase chances for your router to find space for your transmission and as such you will have better chances on speed in with a Dual Band solution."
                     }
                 ],
                 "TableHeading": [
                     {
                         "name": "Features",
                         "class": "table-left-title"
+                    },
+                    {
+                        "name": "N300",
+                        "class": ""
+                    },
+                    {
+                        "name": "AC1200",
+                        "class": ""
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "Bands",
                         "row": [
-                            "",
-                            "",
-                            ""
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "title": "Max Speed",
+                        "row": [
+                            "300 Mbps",
+                            "867 Mbps"
+                        ]
+                    },
+                    {
+                        "title": "Access Point (1)",
+                        "row": [
+                            "No",
+                            "Yes"
                         ]
                     }
                 ],
                 "TableTag": [
-                    ""
+                    "(1) You can set up a WiFi Hot Spot"
                 ],
                 "Gallery": [
                     {
                         "image": "",
-                        "title": "",
-                        "description": ""
+                        "title": "WiFi Single Band►Single Antenna",
+                        "description": "The Single Antenna and lower speed of 300 Mbps allows for the low cost. Still fast enough for most use."
+                    },
+                    {
+                        "image": "",
+                        "title": "WiFi Single Band►Free Placement",
+                        "description": "Thanks to the cradle plus cable you are free to place the Antenna in the spot with the best reception"
+                    },
+                    {
+                        "image": "",
+                        "title": "WiFi Dual Band►Dual Antenna",
+                        "description": "One Antenna for each Band. More robust reception and faster speed"
+                    },
+                    {
+                        "image": "",
+                        "title": "WiFi Dual Band►Free Placement",
+                        "description": "Thanks to the cradle plus cable you are free to place the Antenna in the spot with the best reception"
                     }
                 ],
                 "Datasheet": [
@@ -8394,8 +8442,8 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "",
-                                            ""
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Data Sheet Rosewill Highgain N300</a>",
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200pce-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0ghz-300-mbps-2-4-ghz-wi-fi-data-rates-pci-e-interface-1.html\" target=\" _blank \">Data Sheet Rosewill Highgain AC1200</a>"
                                         ]
                                     }
                                 ]
