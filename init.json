@@ -7613,7 +7613,7 @@
                     },
                     {
                         "heading": "Cards with more than 4 GB Memory",
-                        "content": "If you use the GPU card for rendering, you may want a card with 6 or 8 GB. They are available and easy to find on <a href=\"http://www.newegg.com/\" target=\" _blank \"> www.amazon.com</a> and <a href=\"http://www.amazon.com/\" target=\" _blank \"> www.amazon.com</a>. Consult with your 3D Rendering application or ask in respective forums how much memory you need."
+                        "content": "If you use the GPU card for rendering, you may want a card with 6 or 8 GB. They are available and easy to find on <a href=\"http://www.newegg.com/\" target=\" _blank \"> www.newegg.com</a> and <a href=\"http://www.amazon.com/\" target=\" _blank \"> www.amazon.com</a>. Consult with your 3D Rendering application or ask in respective forums how much memory you need."
                     }
                 ],
                 "TableHeading": [
