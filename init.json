@@ -7559,7 +7559,7 @@
                         "img": "images/expansion/config/Accessories/Game-GPU/Icon2.jpg",
                         "value": "125",
                         "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
-                        "tag": " Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
+                        "tag": "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
                     },
                     {
                         "name": "nvidia GTX 960 (EVGA)",
@@ -7575,7 +7575,7 @@
                         "img": "images/expansion/config/Accessories/Game-GPU/Icon3.jpg",
                         "value": "350",
                         "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
-                        "tag": "High End GPU Card with outstanding quality"
+                        "tag": "High End GPU Card, powerful enough for 3 Display surround gaming"
                     },
                     {
                         "name": "nVidia GTX 980 (PNY)",
@@ -7583,7 +7583,7 @@
                         "img": "images/expansion/config/Accessories/Game-GPU/Icon4.jpg",
                         "value": "499",
                         "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
-                        "tag": "Ultra High END GPU Card"
+                        "tag": "GTX 980 cards are the best of the best"
                     }
                 ],
                 "Advice": [
@@ -7609,11 +7609,11 @@
                     },
                     {
                         "heading": "Guru 3D is a great GPU review resource",
-                        "content": "If you want to dig in and find the exact best GPU for you, thenhttp://www.guru3d.com is a great place. They review pretty much every major GPU card and they do it in incredible detail. → http://www.guru3d.com"
+                        "content": "If you want to dig in and find the exact best GPU for you, then <a href=\"http://www.guru3d.com/\" target=\" _blank \">http://www.guru3d.com</a>http://www.guru3d.com is a great place. They review pretty much every major GPU card and they do it in incredible detail.→ <a href=\"http://www.guru3d.com/\" target=\" _blank \"> http://www.guru3d.com</a>"
                     },
                     {
                         "heading": "Cards with more than 4 GB Memory",
-                        "content": "If you use the GPU card for rendering, you may want a card with 6 or 8 GB. They are available and easy to find on www.amazon.com andwww.newegg.com. Consult with your 3D Rendering application or ask in respective forums how much memory you need."
+                        "content": "If you use the GPU card for rendering, you may want a card with 6 or 8 GB. They are available and easy to find on <a href=\"http://www.newegg.com/\" target=\" _blank \"> www.amazon.com</a> and <a href=\"http://www.amazon.com/\" target=\" _blank \"> www.amazon.com</a>. Consult with your 3D Rendering application or ask in respective forums how much memory you need."
                     }
                 ],
                 "TableHeading": [
@@ -7814,20 +7814,22 @@
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "Performance",
-                                            "<a href=\"http://www.amd.com/en-us/products/processors/desktop/athlon\" target=\" _blank \">Athlon 5350</a>",
-                                            "<a href=\"http://ark.intel.com/products/75044/Intel-Core-i5-4570S-Processor-6M-Cache-up-to-3_60-GHz \" target=\" _blank \">i5-4570S</a>",
-                                            "<a href=\"http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz \" target=\" _blank \">i7-6700K</a>"
+                                            "<a href=\"http://xfxforce.com/en-us/products/amd-radeon-r7-200-series/amd-radeon-r7-250-core-edition-r7-250a-clf4\" target=\" _blank \">Card Maker</a>",
+                                            "<a href=\"http://www.gigabyte.com/products/product-page.aspx?pid=5160#ov\" target=\" _blank \">Card Maker</a>",
+                                            "<a href=\"http://www.evga.com/Products/Product.aspx?pn=02G-P4-2966-KR\" target=\" _blank \">Card Maker</a>",
+                                            "<a href=\"http://us.msi.com/product/vga/GTX-970-GAMING-100ME.html#hero-specification\" target=\" _blank \">Card Maker</a>",
+                                            "<a href=\"https://www.pny.com/gtx-980-4096mb-gddr5-pci-e_3_0?sku=VCGGTX9804XPB-CG\" target=\" _blank \">Card Maker</a>"
                                         ]
                                     },
                                     {
                                         "title": "",
                                         "class": "",
                                         "row": [
-                                            "Performance",
-                                            "<a href=\"http://www.amd.com/en-us/products/processors/desktop/athlon\" target=\" _blank \">Athlon 5350</a>",
-                                            "<a href=\"http://ark.intel.com/products/75044/Intel-Core-i5-4570S-Processor-6M-Cache-up-to-3_60-GHz \" target=\" _blank \">i5-4570S</a>",
-                                            "<a href=\"http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz \" target=\" _blank \">i7-6700K</a>"
+                                            "<a href=\"http://www.futuremark.com/hardware/gpu/AMD+Radeon+R7+250/review\" target=\" _blank \">3D Mark</a>",
+                                            "<a href=\"http://www.futuremark.com/hardware/gpu/NVIDIA+GeForce+GTX+750+Ti/review\" target=\" _blank \">3D Mark</a>",
+                                            "<a href=\"http://www.futuremark.com/hardware/gpu/NVIDIA+GeForce+GTX+960/review\" target=\" _blank \">3D Mark</a>",
+                                            "<a href=\"http://www.futuremark.com/hardware/gpu/NVIDIA+GeForce+GTX+970/review\" target=\" _blank \">3D Mark</a>",
+                                            "<a href=\"http://www.futuremark.com/hardware/gpu/NVIDIA+GeForce+GTX+980/review\" target=\" _blank \">3D Mark</a>"
                                         ]
                                     }
                                 ]
