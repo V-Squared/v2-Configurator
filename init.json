@@ -8314,6 +8314,7 @@
                                     },
                                     {
                                         "row": [
+                                            "<a href=\"https://www.synology.com/en-us/products/DS1815+\" target=\" _blank \">Pro 8 Bay RAID5</a>",
                                             "DS1815+ Professional NAS by Synology"
                                         ]
                                     }
@@ -8513,13 +8514,14 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Rosewill Highgain N300</a>",
-                                            "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200pce-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0ghz-300-mbps-2-4-ghz-wi-fi-data-rates-pci-e-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
+                                            "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Rosewill Highgain N300</a>",
+                                            "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
                                         ]
                                     }
                                 ]
