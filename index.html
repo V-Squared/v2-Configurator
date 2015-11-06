@@ -59,7 +59,8 @@
                                                 <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase">
                                                     <label>
                                                         <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,true)"> 
-                                                        {{ choice.name }}
+                                                        {{ choice.name }}<br>
+                                                        <span ng-if="choice.name != 'Gaming'">(not finished)</span>
                                                     </label>
                                                 </div>
                                             </div>
