@@ -97,10 +97,11 @@
                 "slide": "slide-performance",
                 "yourChoice": [
                     {
-                        "name": "Game Entry",
+                        "name": "Online Gaming Mini",
                         "img": "",
                         "id": "ID-80",
                         "for": "Entry",
+                        "tag": "Gaming PC with fast enough CPU to play demanding online games. This is a full PC with 120 GB SSD and very fast boot time and enough horse power for regular office work or even HD video editing.",
                         "value": 0
                     },
                     {
