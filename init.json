@@ -7554,7 +7554,7 @@
                     {
                         "name": "AMD R7-250 (XFX)",
                         "id": "ID-285",
-                        "img": "images/expansion/config/Accessories/Game-GPU/Icon1.jpg",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon1V1.jpg",
                         "value": "85",
                         "link": "http://www.amazon.com/XFX-R7-250/dp/B00H5DJDL2/",
                         "tag": "Your Entry Ticket GPU to High End Gaming. Fits ViCase Mini"
@@ -7562,7 +7562,7 @@
                     {
                         "name": "nVidia GTX 750 Ti (Gigabyte)",
                         "id": "ID-286",
-                        "img": "images/expansion/config/Accessories/Game-GPU/Icon2.jpg",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon2V1.jpg",
                         "value": "125",
                         "link": "http://www.amazon.com/GTX-750-Ti/dp/B00MW8NXAW",
                         "tag": "Good Mid Range GPU for High End Gaming. Fits ViCase Mini"
@@ -7570,7 +7570,7 @@
                     {
                         "name": "nvidia GTX 960 (EVGA)",
                         "id": "ID-555",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon3V1.jpg",
                         "value": "190",
                         "link": "http://www.amazon.com/EVGA-960/dp/B00SC6HAS4/",
                         "tag": "High End GPU Card for High End Gaming"
@@ -7578,7 +7578,7 @@
                     {
                         "name": "nVidia GTX 970 (MSI)",
                         "id": "ID-287",
-                        "img": "images/expansion/config/Accessories/Game-GPU/Icon3.jpg",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon4V1.jpg",
                         "value": "350",
                         "link": "http://www.amazon.com/MSI-GTX-970/dp/B00TPLKR7Q",
                         "tag": "High End GPU Card, powerful enough for 3 Display surround gaming"
@@ -7586,7 +7586,7 @@
                     {
                         "name": "nVidia GTX 980 (PNY)",
                         "id": "ID-288",
-                        "img": "images/expansion/config/Accessories/Game-GPU/Icon4.jpg",
+                        "img": "images/expansion/config/Accessories/Game-GPU/Icon5V1.jpg",
                         "value": "499",
                         "link": "http://www.amazon.com/PNY-GTX-980/dp/B00NH5ZN4S/",
                         "tag": "GTX 980 cards are the best of the best"
@@ -8178,7 +8178,7 @@
                     {
                         "name": "External USB 3 Drive 2TB",
                         "id": "ID-504",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/backup/Icon1.jpg",
                         "value": 85,
                         "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
                         "tag": "Seagate Expansion external Hard Drive"
@@ -8186,7 +8186,7 @@
                     {
                         "name": "External USB 3 Drive 3TB",
                         "id": "ID-505",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/backup/Icon2.jpg",
                         "value": 108,
                         "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
                         "tag": "Seagate Expansion external Hard Drive"
@@ -8194,7 +8194,7 @@
                     {
                         "name": "External USB 3 Drive 4TB",
                         "id": "ID-506",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/backup/Icon3.jpg",
                         "value": 120,
                         "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
                         "tag": "Seagate Expansion external Hard Drive"
@@ -8202,7 +8202,7 @@
                     {
                         "name": "External USB 3 Drive 5TB",
                         "id": "ID-507",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/backup/Icon4.jpg",
                         "value": 136,
                         "link": "http://www.amazon.com/Seagate-Expansion/dp/B00TKFEEBW/",
                         "tag": "Seagate Expansion external Hard Drive"
@@ -8295,7 +8295,7 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/backup/Gallery/2-nexpansion-desk-left-400x400.jpg",
                         "title": "Seagate Expansion external USB3 Drive",
                         "description": "Your entry ticket to have backups. Up to 5 TB. Use two drives alternating per week stored in two locations for best safety."
                     }
@@ -8467,17 +8467,17 @@
                         "description": "Uninterrupted availability. Server downtime, theft or other disasters will not harm your data."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon5.jpg",
                         "title": "DS414j",
                         "description": "Your Entry Ticket for low cost reliable RAID5 NAS Media Server and Backup"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon6.jpg",
                         "title": "DS415+",
                         "description": "Pro RAID5 NAS. Step up feature is double speed and Virtualization"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon7.jpg",
                         "title": "DS1815+",
                         "description": "High End RAID5 NAS. Step up feature is more bays doubling capacity to 48 TB and also double transfer speed."
                     },
