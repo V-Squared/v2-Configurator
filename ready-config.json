@@ -13,7 +13,7 @@
 		"Solid-Gaming-AiO-Steam-Portable":["#ID-2","#ID-4","#ID-10","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-74","#ID-286"],
 		"High-End-Gaming-AiO":["#ID-2","#ID-4","#ID-9","#ID-29","#ID-31","#ID-34","#ID-40","#ID-44","#ID-51","#ID-58","#ID-68","#ID-555"],
 		"Surround-Gaming-AiO":["#ID-2","#ID-4","#ID-9","#ID-29","#ID-31","#ID-34","#ID-40","#ID-44","#ID-51","#ID-58","#ID-68","#ID-287"],
-		"Ultimate-Gaming-AiO": ["#ID-87","#ID-2","#ID-4","#ID-10","#ID-28","#ID-31","#ID-34","#ID-41","#ID-47","#ID-56","#ID-181","#ID-68","#ID-288"]
+		"Ultimate-Gaming-AiO":  ["#ID-2","#ID-4","#ID-10","#ID-28","#ID-31","#ID-34","#ID-41","#ID-47","#ID-56","#ID-181","#ID-68","#ID-288"]
 	},
 	"Form_Factor": {
 		"sample1":["#ID-130","#ID-131"],
