@@ -7983,6 +7983,17 @@
                         ]
                     }
                 ],
+                "Gallery": [
+                    {
+                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery1.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery2.jpg"
+                    },
+                    {
+                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery3.jpg"
+                    }
+                ],
                 "TableTag": [
                     "All cards are Low Profile and fit into ViCase Mini and ViCase Ultra"
                 ],
