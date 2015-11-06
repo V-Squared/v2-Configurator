@@ -105,52 +105,180 @@
                         "value": 0
                     },
                     {
-                        "name": "Game High",
+                        "name": "Entry Gaming Mini",
                         "img": "",
                         "id": "ID-81",
                         "for": "High",
                         "value": 0
                     },
                     {
-                        "name": "Game eXtreme",
+                        "name": "Solid Gaming Mini",
                         "img": "",
                         "id": "ID-82",
                         "for": "Entry",
                         "value": 0
                     },
                     {
-                        "name": "Game Server",
+                        "name": "Solid Gaming AiO",
                         "img": "",
                         "id": "ID-83",
                         "for": "High",
                         "value": 0
                     },
                     {
-                        "name": "Home Theater Entry",
+                        "name": "Solid Gaming AiO-Steam",
                         "img": "",
                         "id": "ID-84",
                         "for": "Entry",
                         "value": 0
                     },
                     {
-                        "name": "Home Theater High",
+                        "name": "*High End Gaming AiO",
                         "img": "",
                         "id": "ID-85",
                         "for": "High",
                         "value": 0
                     },
                     {
-                        "name": "Home Theater eXtreme",
+                        "name": "Surround Gaming AiO",
                         "img": "",
                         "id": "ID-86",
                         "for": "Entry",
                         "value": 0
                     },
                     {
-                        "name": "Home Theater Server",
+                        "name": "4K Gaming AiO",
                         "img": "",
                         "id": "ID-87",
                         "for": "High",
+                        "value": 0
+                    },
+                    {
+                        "name": "Streaming AiO",
+                        "img": "",
+                        "id": "ID-88",
+                        "for": "",
+                        "tag": "Sempron",
+                        "value": 0
+                    },
+                    {
+                        "name": "Streaming & Gaming AiO",
+                        "img": "",
+                        "id": "ID-89",
+                        "for": "",
+                        "tag": "Athlon + R7-250",
+                        "value": 0
+                    },
+                    {
+                        "name": "Stand Alone Fun AiO",
+                        "img": "",
+                        "id": "ID-90",
+                        "for": "",
+                        "tag": "Ultra + 3 TB + GTX 750",
+                        "value": 0
+                    },
+                    {
+                        "name": "Virtual A2 Photo Printer",
+                        "img": "",
+                        "id": "ID-91",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Streaming Presentation AiO",
+                        "img": "",
+                        "id": "ID-92",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Stand alone Presentation Mini",
+                        "img": "",
+                        "id": "ID-93",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Entry Mini",
+                        "img": "",
+                        "id": "ID-94",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Entry AiO",
+                        "img": "",
+                        "id": "ID-95",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Mid Mini",
+                        "img": "",
+                        "id": "ID-96",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "Mid AiO",
+                        "img": "",
+                        "id": "ID-97",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "High Mini",
+                        "img": "",
+                        "id": "ID-98",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "High AiO",
+                        "img": "",
+                        "id": "ID-99",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "CAD Workstation AiO",
+                        "img": "",
+                        "id": "ID-103",
+                        "for": "",
+                        "tag": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "High End SQL & Web Server",
+                        "img": "",
+                        "id": "ID-104",
+                        "for": "",
+                        "tag": "i5 Quad + 450k IOPS",
+                        "value": 0
+                    },
+                    {
+                        "name": "High End Data Server",
+                        "img": "",
+                        "id": "ID-106",
+                        "for": "",
+                        "tag": "i5 Quad + 9 TB RAID5",
+                        "value": 0
+                    },
+                    {
+                        "name": "High End SQL & DATA Server",
+                        "img": "",
+                        "id": "ID-107",
+                        "for": "",
+                        "tag": "",
                         "value": 0
                     }
                 ],
