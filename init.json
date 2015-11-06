@@ -227,8 +227,26 @@
                         "name": "3-Displays",
                         "id": "ID-102",
                         "value": 0,
-                        "tag": "Surround gaming on 3 displays is a lot of fun",
+                        "tag": "Surround gaming on 3 displays is a lot of fun. Working on a High End work station like Trading, CAD or Software Development is more productive with 3 Displays.",
                         "img": "images/expansion/config/Wizard/DIsplays/Icon3.jpg"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "One Display is low cost but may not be most productive",
+                        "content": "For a long time one display was the default configuration for a computer. In many cases this is however no longer the most efficient configuration. The cost of adding another 22\" Display is now $70 US only. For work this gives you one display for research and reference and another display to work. More space will make your more productive. It is the same as if you need to work on a tiny table or you get a big one. More space is more productive."
+                    },
+                    {
+                        "heading": "When to choose one 4K Display over two middle sized",
+                        "content": "4K Displays still come at a significant premium. But in case you work on Photo Editing or 4K Video Editing, they are worth every penny. By seeing much more details of your Photos / Videos you can work faster yet still ensures that your focus is spot on without the time consuming zoom in and out."
+                    },
+                    {
+                        "heading": "When to choose two or more Middle sized over one big 4K Display",
+                        "content": "For most scenarios you simply need more space to be more productive or have more fun. As such two 22\" Displays may still be significantly cheaper than one 28\" 4k display, yet offer you more space. As such they are the more economic and productive choice. Heck for the same money you may even get three 22\" Displays, have even more space and when it is time to have you can enjoy Surround gaming on 3 Displays"
+                    },
+                    {
+                        "heading": "When to choose On-board Graphics and when a GPU card",
+                        "content": "In general for work the on-board graphics will be fast enough. If you do Video Editing then go with an i3 and its integrated GPU will be up to the task, unless you use Adobe Premiere or you edit 4K. In such cases go with a GPU. Please check out the Accessories of the V²Configurator. They contain a good selection of Workstation and Game GPUs."
                     }
                 ]
             },
