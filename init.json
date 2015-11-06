@@ -7745,48 +7745,48 @@
                 "Gallery": [
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery6.jpg",
-                        "title": "Size",
-                        "description": ""
+                        "title": "Game GPU►Size",
+                        "description": "Back to Front: Full Profile + Double Bracket card, Low Profile + Double Bracket card, Low Profile + Single Bracket card"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery7.jpg",
-                        "title": "GTX 750 in ViCase Mini open, no sides",
-                        "description": ""
+                        "title": "Game GPU►GTX 750 Ti fit in ViCase Mini",
+                        "description": "GTX 750 Ti fit in ViCase Mini"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
-                        "title": "GTX 750 in ViCase Mini closed, Rear view, see bracket",
-                        "description": ""
+                        "title": "Game GPU►Real view",
+                        "description": "ViCase Mini real view with GTX 750 Ti"
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Rear.jpg",
-                        "title": "GTX 980 in ViDock GPU",
-                        "description": ""
+                        "title": "Game GPU►GTX 980 in ViDock GPU",
+                        "description": "Rear view of ViCase GPU with GTX 980 inserted"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery1.jpg",
-                        "title": "R7-250",
-                        "description": ""
+                        "title": "Game GPU►R7-250",
+                        "description": "Your entry ticket into High End Gaming. Plays most games in 720p resolution in default settings"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery3.jpg",
-                        "title": "GTX 750 Ti",
-                        "description": ""
+                        "title": "Game GPU►GTX 750 Ti",
+                        "description": "Solid card for High End gaming. Plays most games in 1080p resolution in default settings."
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery2.jpg",
-                        "title": "GTX 960",
-                        "description": ""
+                        "title": "Game GPU►GTX 960",
+                        "description": "Plays most games in 1080 resolution with all quality settings maxed out or 3 displays in default quality settings"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery4.jpg",
-                        "title": "GTX 970",
-                        "description": ""
+                        "title": "Game GPU►GTX 970",
+                        "description": "The ultimate card. Plays in 4k on all games. On most games you can even max out the quality settings in this resolution"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery5.jpg",
-                        "title": "GTX 980",
-                        "description": ""
+                        "title": "Game GPU►GTX 980",
+                        "description": "The ultimate game card or render engine."
                     }
                 ],
                 "Datasheet": [
