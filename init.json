@@ -152,6 +152,24 @@
                         "for": "High",
                         "value": 0
                     }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Optimized Use Cases for each Field of Application",
+                        "content": "Our team of experts has assembled optimized custom builds for various Use Cases for each Field of Application. The parts are carefully selected to deliver a balance of performance for each use case, which in terms gives you the most speed for your money."
+                    },
+                    {
+                        "heading": "Compact Advice in the Tag Line",
+                        "content": "Each Configuration comes with very compact Advice right to the button to help you making the right choice."
+                    },
+                    {
+                        "heading": "Detailed Configuration Data in Summary",
+                        "content": "Every part that makes your custom built is listed in Summary. On a big screen the Summary is shown to the right of the V²Configuration Pane. On a small screen you can find it on the bottom of the page."
+                    },
+                    {
+                        "heading": "You can change Form Factor for every Config",
+                        "content": "We have baked in the Form Factor into the ready made configurations for your convenience. With just two clicks your computer is completely build for you. That said, you can easily change your Form Factor, say change a Mini to an All-In-One or vice versa. Just open the chapter \"3. All-In-One Converter\" and the Configurator will guide you when making your choices to better suit your needs or match your Display's features."
+                    }
                 ]
             },
             {
@@ -221,7 +239,17 @@
             {
                 "name": "Save and Load My Config",
                 "url": "",
-                "slide": "save-config"
+                "slide": "save-config",
+                "Advice": [
+                    {
+                        "heading": "Pause and continue my configuration session",
+                        "content": "Say you worked on your configuration and you want to continue at another time. Just save your work by pressing the \"Save My Config\" Button and follow its simple instructions. When you are ready to continue press the \"Load My Config\" Button, follow its instructions and you can continue your configuration where you left off."
+                    },
+                    {
+                        "heading": "Sharing your configuration to get feedback",
+                        "content": "If you are the type who asks friends for advice or post questions in forums or simply ask us in comments on our Indiegogo Campaign, then this feature is for you. The V²Configurator makes it very simple to share your config: 1. Press the \"Save My Config\" Button, 2. Press the \"Copy My Config to Clipboard\" Button, 3. Paste your config into your post. This is how a configuration could look like:"
+                    }
+                ]
             }
         ]
     },
