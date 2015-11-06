@@ -152,20 +152,23 @@
                         "id": "ID-120",
                         "for": "sample1",
                         "value": 0,
+                        "tag": "Tiny PC that is quiet and does not take much space",
                         "img": ""
                     },
                     {
-                        "name": "All-In-One",
+                        "name": "All-In-One-VESA",
                         "id": "ID-121",
                         "for": "sample2",
                         "value": 0,
+                        "tag": "Hide your Mini PC behind your Display with VESA Mount",
                         "img": ""
                     },
                     {
-                        "name": "Mini-Behind-Display",
+                        "name": "All-In-One-Any",
                         "id": "ID-122",
                         "for": "sample3",
                         "value": 0,
+                        "tag": "Hide your Mini PC behind your Display. Works with any Display",
                         "img": ""
                     }
                 ]
@@ -180,18 +183,21 @@
                         "name": "1-Display",
                         "id": "ID-100",
                         "value": 0,
+                        "tag": "The default choice",
                         "img": ""
                     },
                     {
                         "name": "2-Displays",
                         "id": "ID-101",
                         "value": 0,
+                        "tag": "Nothing increases your productivity more than working with 2 Displays",
                         "img": ""
                     },
                     {
                         "name": "3-Displays",
                         "id": "ID-102",
                         "value": 0,
+                        "tag": "Surround gaming on 3 displays is a lot of fun",
                         "img": ""
                     }
                 ]
