@@ -8616,7 +8616,7 @@
                         "img": "images/expansion/config/Accessories/WiFI/Icon1.jpg",
                         "value": 20,
                         "link": "http://www.amazon.com/WiFi-Single/dp/B004BV4JXI/",
-                        "tag": "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
+                        "tag": "Entry Ticket WiFi, reliable 300 MBps, Rosewill N300"
                     },
                     {
                         "name": "WiFi Dual Band",
@@ -8624,7 +8624,7 @@
                         "img": "images/expansion/config/Accessories/WiFI/Icon2.jpg",
                         "value": 42,
                         "link": "http://www.amazon.com/WiFi-Dual/dp/B00K3TJ9A0/",
-                        "tag": "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
+                        "tag": "Fast Dual Band WiFi, reliable 867Mbps, Rosewill AC1200"
                     }
                 ],
                 "Advice": [
@@ -8706,14 +8706,14 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200ube2-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0-ghz-300-mbps-2-4-ghz-wi-fi-data-rates-usb-3-0-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
-                                            "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Rosewill Highgain N300</a>",
+                                            "Entry Ticket WiFi, reliable 300 MBps, Rosewill N300"
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-n180ube-wireless-n300-wi-fi-adapter-ieee-802-11-b-g-n-2t2r-up-to-300-mbps-data-rates-usb-2-0-cradle-5-dbi-high-power-antenna-1.html\" target=\" _blank \">Rosewill Highgain N300</a>",
-                                            "Entry Ticket WiFi, reliable 300 MBps, Rosewill AC1200"
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200ube2-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0-ghz-300-mbps-2-4-ghz-wi-fi-data-rates-usb-3-0-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
+                                            "Fast Dual Band WiFi, reliable 867Mbps, Rosewill AC1200"
                                         ]
                                     }
                                 ]
