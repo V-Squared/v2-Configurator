@@ -165,7 +165,7 @@
                         "for": "sample1",
                         "value": 0,
                         "tag": "Tiny PC that is quiet and does not take much space",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon1.jpg"
                     },
                     {
                         "name": "All-In-One-VESA",
@@ -173,7 +173,7 @@
                         "for": "sample2",
                         "value": 0,
                         "tag": "Hide your Mini PC behind your Display with VESA Mount",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon2.jpg"
                     },
                     {
                         "name": "All-In-One-Any",
@@ -181,7 +181,7 @@
                         "for": "sample3",
                         "value": 0,
                         "tag": "Hide your Mini PC behind your Display. Works with any Display",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon3.jpg"
                     }
                 ]
             },
