@@ -265,7 +265,7 @@
                     },
                     {
                         "heading": "Sharing your configuration to get feedback",
-                        "content": "If you are the type who asks friends for advice or post questions in forums or simply ask us in comments on our Indiegogo Campaign, then this feature is for you. The V²Configurator makes it very simple to share your config: 1. Press the \"Save My Config\" Button, 2. Press the \"Copy My Config to Clipboard\" Button, 3. Paste your config into your post. This is how a configuration could look like:"
+                        "content": "If you are the type who asks friends for advice or post questions in forums or simply ask us in comments on our Indiegogo Campaign, then this feature is for you. The V²Configurator makes it very simple to share your config: 1. Press the \"Save My Config\" Button, 2. Press the \"Copy My Config to Clipboard\" Button, 3. Paste your config into your post. This is how a configuration could look like:[\"#ID-81\",\"#ID-2\",\"#ID-5\",\"#ID-15\",\"#ID-9\", \"#ID-12\",\"#ID-20\",\"#ID-25\",\"#ID-26\",\"#ID-30\", \"#ID-38\",\"#ID-42\",\"#ID-68\"]"
                     }
                 ]
             }
