@@ -7781,7 +7781,7 @@
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery4.jpg",
                         "title": "Game GPU►GTX 970",
-                        "description": "The ultimate card. Plays in 4k on all games. On most games you can even max out the quality settings in this resolution"
+                        "description": "Plays in 4k on all games. On most games you can even max out the quality settings in this resolution"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery5.jpg",
@@ -7981,17 +7981,6 @@
                             "",
                             ""
                         ]
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery1.jpg"
-                    },
-                    {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery2.jpg"
-                    },
-                    {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery3.jpg"
                     }
                 ],
                 "TableTag": [
