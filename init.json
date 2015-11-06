@@ -97,12 +97,14 @@
                         "img": "",
                         "id": "ID-81",
                         "for": "Budget-Gaming-Mini",
+                        "tag":"This is your entry ticket into High End Gaming with a PCIe GPU Card. Most titles will play at decent frame rates in HD resolution in default settings. This is also a full PC with 120 GB SSD and very fast boot time and enough horse power for regular office work or fast video editing. The LINUX OS will be fun to use and is ideal to play all Titles on Steam made for LINUX. If you want to play Windows Titles, you need to add Windows OS. This can also double as HTPC.",
                         "value": 0
                     },
                     {
                         "name": "Solid Gaming Mini Steam",
                         "img": "",
                         "id": "ID-82",
+                        "tag":"Intel i3 CPU plus nVidia GTX 750 Ti will provide solid gaming horse power for lots of fun. A serious upgrade from a game station. This is a powerful PC with 120 GB SSD. Any office work or most demanding applications will be very snappy. Same when doubling as HTPC.",
                         "for": "Solid-Gaming-Mini-Steam",
                         "value": 0
                     },
@@ -110,13 +112,16 @@
                         "name": "Solid Gaming AiO Steam",
                         "img": "",
                         "id": "ID-83",
+                        "tag":"Same as above, with the step up feature of All-In-One by means of mounting the Mini behind the Display with VESA mount that you already have. If your Display has no VESA mount, you can choose the ViCase-Stand option for $6 more.",
                         "for": "Solid-Gaming-AiO-Steam",
                         "value": 0
                     },
                     {
                         "name": "Solid Gaming AiO Windows",
                         "img": "",
+                        "tag":"Same as above with step up feature of added Windows Home. This opens up more game titles.",
                         "id": "ID-84",
+                        "tag":"",
                         "for": "Solid-Gaming-AiO-Windows",
                         "value": 0
                     },
@@ -124,6 +129,7 @@
                         "name": "Solid Gaming AiO Steam Portable",
                         "img": "",
                         "id": "ID-550",
+                        "tag":"Same configuration as \"Solid Gaming AiO Steam\" with the step up feature ViCase Stand, making for a portable All-In-One with comfortable carry grip. Recommended Display are the modern very light full HD 22\" Display with VESA mount. Ideal to bring your rig to a LAN Party.",
                         "for": "Solid-Gaming-AiO-Steam-Portable",
                         "value": 0
                     },
@@ -131,6 +137,7 @@
                         "name": "High End Gaming AiO",
                         "img": "",
                         "id": "ID-85",
+                        "tag":"High End Gaming PC with Intel i5 CPU + nVidia GTX 960. Almost all games will play in high fps in full HD with all quality settings maxed out. All-In-One by means of mounting the Mini behind the Display with VESA mount that you already have. If your Display has no VESA mount, you can choose the ViCase-Stand option for $6 more. For more AiO options, check out the All-In-One Converter in the Configurator. In case you wonder why no power is selected, the ATX PSU in the ViDock GPU will feed power to ViDock-Mini. So be sure to choose large enough ATX Power Supply with at least 500W. The Dual housing design provides better cooling combined with a quieter noise level versus a single Desktop Case. Plus they are much smaller too!",
                         "for": "High-End-Gaming-AiO",
                         "value": 0
                     },
@@ -138,6 +145,7 @@
                         "name": "Surround Gaming AiO",
                         "img": "",
                         "id": "ID-86",
+                        "tag":"Ultra High End Gaming with Intel i5 CPU + nVidia GTX 970. Enough GPU power to play games with 3 Displays in surround gaming. In case you wonder why no power is selected, the ATX PSU in the ViDock GPU will feed power to ViDock-Mini. So be sure to choose large enough ATX Power Supply with at least 500W.",
                         "for": "Surround-Gaming-AiO",
                         "value": 0
                     },
@@ -145,6 +153,7 @@
                         "name": "Ultimate Gaming AiO",
                         "img": "",
                         "id": "ID-87",
+                        "tag":"If money is no issue, than this is the Gaming All-In-One that you want. i7 Quad Core 4 GHz unlocked, Motherboard unlocked for overclocking, 16 GB DDR4 memory and of course GTX 980. Booting and loading of scenes is 400% faster due to high end NVME M.2 SSD.",
                         "for": "Ultimate-Gaming-AiO",
                         "value": 0
                     }

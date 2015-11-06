@@ -67,7 +67,7 @@
                                             <div ng-if="Section.name=='Use'">
                                                 <div style="display:none" class="readyConfig" ng-repeat="choice in Section.yourChoice">
                                                     <label>
-                                                    <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span></label>
+                                                    <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span> <span style="color:#bbb;">{{choice.tag}}</span></label>
                                                 </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Form Factor'">
