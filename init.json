@@ -8441,22 +8441,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "expansion/config/Accessories/NAS/Gallery/Icon1.jpg",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon1.jpg",
                         "title": "DiskStation Manager",
                         "description": "Synology DiskStation Manager is a sleek Browser based OS, making managing your NAS a breeze"
                     },
                     {
-                        "image": "expansion/config/Accessories/NAS/Gallery/Icon2.jpg",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon2.jpg",
                         "title": "The most compatible sharing",
                         "description": "Enjoy seamless files sharing across Windows®, Mac®, and Linux®"
                     },
                     {
-                        "image": "expansion/config/Accessories/NAS/Gallery/Icon3.jpg",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon3.jpg",
                         "title": "Effective backup solution",
                         "description": "The NAS serves as a centralized backup target. Use sequential backups and you are even protected against yourself when you accidentally deleted something important."
                     },
                     {
-                        "image": "expansion/config/Accessories/NAS/Gallery/Icon4.jpg",
+                        "image": "images/expansion/config/Accessories/NAS/Gallery/Icon4.jpg",
                         "title": "Ensuring business continuity",
                         "description": "Uninterrupted availability. Server downtime, theft or other disasters will not harm your data."
                     },
