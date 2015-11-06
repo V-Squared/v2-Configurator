@@ -7746,17 +7746,17 @@
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery6.jpg",
                         "title": "Game GPU►Size",
-                        "description": "Back to Front: Full Profile + Double Bracket card, Low Profile + Double Bracket card, Low Profile + Single Bracket card"
+                        "description": "Back to Front: Full Profile + Double Bracket card (fits in ViDock GPU), Low Profile + Double Bracket card (fits in ViCase Mini / Ultra), Low Profile + Single Bracket card (fits in ViCase Mini / Ultra)"
                     },
                     {
                         "image": "images/expansion/config/Accessories/Game-GPU/Gallery/Gallery7.jpg",
                         "title": "Game GPU►GTX 750 Ti fit in ViCase Mini",
-                        "description": "GTX 750 Ti fit in ViCase Mini"
+                        "description": "ViCase Mini shown with sides and top removed. To the left side you can see the GTX 750 Ti inserted."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Size/Gallery/ViCase-Mini-Standard-Rear.jpg",
                         "title": "Game GPU►Real view",
-                        "description": "ViCase Mini real view with GTX 750 Ti"
+                        "description": "ViCase Mini rear view with GTX 750 Ti inserted."
                     },
                     {
                         "image": "images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU-Rear.jpg",
@@ -8706,7 +8706,7 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200pce-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0ghz-300-mbps-2-4-ghz-wi-fi-data-rates-pci-e-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
+                                            "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200ube2-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0-ghz-300-mbps-2-4-ghz-wi-fi-data-rates-usb-3-0-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
                                             "Fast Dual Band WiFi, reliable 867Mbps, Rosewill N300"
                                         ]
                                     },
