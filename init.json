@@ -203,14 +203,14 @@
                         "id": "ID-101",
                         "value": 0,
                         "tag": "Nothing increases your productivity more than working with 2 Displays",
-                        "img": "images/expansion/config/Wizard/DIsplays/Icon1.jpg"
+                        "img": "images/expansion/config/Wizard/DIsplays/Icon2.jpg"
                     },
                     {
                         "name": "3-Displays",
                         "id": "ID-102",
                         "value": 0,
                         "tag": "Surround gaming on 3 displays is a lot of fun",
-                        "img": "images/expansion/config/Wizard/DIsplays/Icon1.jpg"
+                        "img": "images/expansion/config/Wizard/DIsplays/Icon3.jpg"
                     }
                 ]
             },
