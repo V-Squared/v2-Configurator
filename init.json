@@ -184,21 +184,21 @@
                         "id": "ID-100",
                         "value": 0,
                         "tag": "The default choice",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/DIsplays/Icon1.jpg"
                     },
                     {
                         "name": "2-Displays",
                         "id": "ID-101",
                         "value": 0,
                         "tag": "Nothing increases your productivity more than working with 2 Displays",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/DIsplays/Icon2.jpg"
                     },
                     {
                         "name": "3-Displays",
                         "id": "ID-102",
                         "value": 0,
                         "tag": "Surround gaming on 3 displays is a lot of fun",
-                        "img": ""
+                        "img": "images/expansion/config/Wizard/DIsplays/Icon3.jpg"
                     }
                 ]
             },
