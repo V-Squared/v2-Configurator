@@ -8320,7 +8320,7 @@
                     {
                         "name": "Eco 4 Bay RAID5",
                         "id": "ID-515",
-                        "img": "images/expansion/config/Accessories/NAS/Icon1V1.jpg",
+                        "img": "images/expansion/config/Accessories/NAS/Icon2V1.jpg",
                         "value": 389,
                         "link": "http://www.amazon.com/DS414j/dp/B00K6PCTCG/",
                         "tag": "DS414j Budget NAS by Synology"
@@ -8328,7 +8328,7 @@
                     {
                         "name": "Pro 4 Bay RAID5",
                         "id": "ID-516",
-                        "img": "images/expansion/config/Accessories/NAS/Icon2V1.jpg",
+                        "img": "images/expansion/config/Accessories/NAS/Icon1V1.jpg",
                         "value": 600,
                         "link": "http://www.amazon.com/DS415-plus/dp/B00IKTSSIO",
                         "tag": "DS415+ Professional NAS by Synology"
