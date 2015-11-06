@@ -69,11 +69,23 @@
                 "Advice": [
                     {
                         "heading": "Getting more speed for your money",
-                        "content": "Different application simply demand for different computer builds. It is not as simple as choose a bigger CPU and more RAM for a bigger app such as Video Editing. You also need to consider other components, such as Disk RAIDS or GPUs. A computer architect expert knows how to balance the performance of all computer parts to give you the best speed for your money. This is exactly the value of ViCase with its V²Configurator. Our team of experts and community members has developed 30+ Configurations tailed for corresponding Use Cases."
+                        "content": "Different application simply demand for different computer builds. It is not as simple as choose a bigger CPU and more RAM for a bigger app such as Video Editing. You also need to consider other components, such as Disk RAIDS or GPUs. A computer architect expert knows how to balance the performance of all computer parts to give you the best speed for your money. This is exactly the value of ViCase with its V²Configurator. Our team of experts and community members has developed 30+ Configurations exactly customized for your Use Case. Something an Off The Shelf Standard PC just can not deliver."
                     },
                     {
-                        "heading": "How the V²Configurator works",
-                        "content": "You configure your PC in the left Pane \"Configuration\". The right pane \"Summary\" shows you a complete list of all parts that make up your PC. On the bottom of Summary you find two check out buttons. One for parts you will buy with us and one for Off the Shelf computer parts you buy with 3rd. Party. You begin configuration by walking through the \"Wizard\" making choices how you will use your computer and the wizard will build a custom configuration optimized for you. Preview shows you how your finished computer will look with a front and rear view. Your Computer Configuration is divided into the 4 Categories: ViCase, ViDock, PC Parts and Accessories. You can unfold each Category and dive into more details of its parts. You also can make changes and further customize your PC. When you are happy with the configuration you check out your parts using the two checkout buttons."
+                        "heading": "Create a full custom build with just two mouse clicks",
+                        "content": "You configure your PC in the left Pane \"Configuration\": 1) Choose your Field of Application 2) Choose your Use Case. || In Preview you can inspect how your custom build looks like"
+                    },
+                    {
+                        "heading": "Straight forward check out",
+                        "content": "Under the \"Summary\" Pane to the right side you find two check out buttons: \"Checkout Village\" and \"Checkout 3rd Party\". When pressed you see your basket. Each item is shown with a link. Pressing it brings you to the respective item in the corresponding online shop. Our items are Perks in our Indiegogo Campaign, giving you extra saving over what they will cost in our online shop."
+                    },
+                    {
+                        "heading": "Buy 3rd party items in the shop of your choice",
+                        "content": "You can of course use the links to the items in Amazon and Newegg as a reference and find the same parts in your favorite shop."
+                    },
+                    {
+                        "heading": "Tune your Custom Build",
+                        "content": "In case you want to dig in and maybe choose a faster CPU, more memory, bigger disks etc, you can easily do that by unfolding the corresponding chapters. For every part you can find comparison tables, advice, gallery images and links to more information right at your finger tips. Saving you a lot of time searching the internet to find answers."
                     }
                 ]
             },
@@ -184,21 +196,21 @@
                         "id": "ID-100",
                         "value": 0,
                         "tag": "The default choice",
-                        "img": "images/expansion/config/Wizard/DIsplays/Icon1.jpg"
+                        "img": ""
                     },
                     {
                         "name": "2-Displays",
                         "id": "ID-101",
                         "value": 0,
                         "tag": "Nothing increases your productivity more than working with 2 Displays",
-                        "img": "images/expansion/config/Wizard/DIsplays/Icon2.jpg"
+                        "img": ""
                     },
                     {
                         "name": "3-Displays",
                         "id": "ID-102",
                         "value": 0,
                         "tag": "Surround gaming on 3 displays is a lot of fun",
-                        "img": "images/expansion/config/Wizard/DIsplays/Icon3.jpg"
+                        "img": ""
                     }
                 ]
             },
@@ -7394,6 +7406,7 @@
                         "id": "ID-68",
                         "img": "images/expansion/config/Accessories/OS/Icon1v1.jpg",
                         "value": "100",
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16832588521&cm_re=Windows_10_Home_OEM-_-32-416-892-_-Product",
                         "tag": "OS for home use and High End gaming"
                     },
                     {
@@ -7401,6 +7414,7 @@
                         "id": "ID-69",
                         "img": "images/expansion/config/Accessories/OS/Icon2v1.jpg",
                         "value": "120",
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16832588506&cm_re=Windows_10_Home_Full-_-32-588-506-_-Product",
                         "tag": "Same as above, but with support"
                     },
                     {
@@ -7408,6 +7422,7 @@
                         "id": "ID-70",
                         "img": "images/expansion/config/Accessories/OS/Icon3v1.jpg",
                         "value": "140",
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16832588491&cm_re=Windows_10_Pro_OEM-_-32-588-491-_-Product",
                         "tag": "OS for business"
                     },
                     {
@@ -7415,6 +7430,7 @@
                         "id": "ID-71",
                         "img": "images/expansion/config/Accessories/OS/Icon4v1.jpg",
                         "value": "200",
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16832588507&cm_re=Windows_10_Pro_Full-_-32-588-507-_-Product",
                         "tag": "Same as above, but with support"
                     },
                     {
@@ -7985,13 +8001,19 @@
                 ],
                 "Gallery": [
                     {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery1.jpg"
+                        "image": "images/expansion/config/Accessories/Work-GPU/Gallery/Gallery1.jpg",
+                        "title": "nVidia Quadro K420",
+                        "description": "Lowest cost entry ticket into Workstation 3D. Fits directly into ViCase Mini / Ultra. Drives two Displays, each up to 4K."
                     },
                     {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery2.jpg"
+                        "image": "images/expansion/config/Accessories/Work-GPU/Gallery/Gallery2.jpg",
+                        "title": "nVidia Quadro K620",
+                        "description": "Standard choice for Workstation 3D. Fits directly into ViCase Mini / Ultra. Drives two Displays, each up to 4K."
                     },
                     {
-                        "image":"images/expansion/config/Accessories/Work-GPU/Gallery/Gallery3.jpg"
+                        "image": "images/expansion/config/Accessories/Work-GPU/Gallery/Gallery3.jpg",
+                        "title": "nVidia Quadro K1200",
+                        "description": "High End Workstation Graphics. 512 CUDA cores with 4 GB GDDR5 will make your apps fly. Fits directly into ViCase Mini / Ultra. Drives 4 Displays, each up to 4K."
                     }
                 ],
                 "TableTag": [
