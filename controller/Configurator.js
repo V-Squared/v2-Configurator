@@ -39,8 +39,10 @@ app.controller('myCtrl', function($scope, $http) {
     });
     $http.get('ready-config.json').then(function(res) {
            $scope.config = res.data;
-           console.log(res.data.A1)
+           //console.log(res.data.A1)
        });
+
+    $scope.loadConfigField = "test";
 
     $scope.cart = {
         count: 0,
@@ -51,7 +53,7 @@ app.controller('myCtrl', function($scope, $http) {
         thirdprtycount: 0
     }; //this is the magic model,  as the data changes angular.js auto updated the HTML so you don't have to
     $scope.initGallery=function(galid){//inits the gallary
-      //console.log("startging" +galid);
+      ////console.log("startging" +galid);
       setTimeout(function(){
        $($("#"+galid).find(".item")[0]).addClass("active");
 
@@ -77,7 +79,7 @@ app.controller('myCtrl', function($scope, $http) {
                 var stuff = $(this).attr('id');
                 var id = '#' + stuff;
                 config.push(id);
-                console.log(config);
+                //console.log(config);
             }
         });
         //config.splice(0,1);
@@ -97,9 +99,9 @@ app.controller('myCtrl', function($scope, $http) {
        setTimeout(function() {
           $(".panel:not(:first)").find(".None").each(function() {//Reset App     
                $(this).trigger("click");
-               console.log($scope.counter);
+               //console.log($scope.counter);
                if ($scope.counter <= 1) {//once everything is set to none then start ready now
-                   console.log("run now!");
+                   //console.log("run now!");
                    angular.forEach(runitem, function(value, index) {
                            $(value).trigger("click");
                    });
@@ -119,7 +121,37 @@ app.controller('myCtrl', function($scope, $http) {
      }
 
 
+
    }
+
+   $scope.loadConfig = function(test) {
+
+      var runitem = test.replace(/"/g,'');
+
+      console.log(runitem);
+
+       runitem = runitem.split(',');
+
+      console.log(runitem);
+      alert(runitem);
+
+        $scope.counter = $(".panel:not(:first)").find(".None").length;
+        setTimeout(function() {
+           $(".panel:not(:first)").find(".None").each(function() {//Reset App     
+                $(this).trigger("click");
+                //alert($scope.counter);
+                //console.log($scope.counter);
+                if ($scope.counter <= 1) {//once everything is set to none then start ready now
+                    //console.log("run now!");
+                    angular.forEach(runitem, function(value, index) {
+                            $(value).trigger("click");
+                            //alert('test');
+                    });
+                }
+                --$scope.counter;
+            });
+        }, 0, false);
+     }
 
    $scope.Preview = function() {
     var caseSize = $scope.cart["ID-2"]["ID-13"].lastclicked;
@@ -128,11 +160,11 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     
-    console.log($scope.Display_Number);
+    //console.log($scope.Display_Number);
    }
  
     $scope.initIndex = function(chapterIndex,chapterName, SectionIndex,SectionName, item) {
-        //console.log(arguments);
+        ////console.log(arguments);
 
         //chapterIndex = chapter
         //SectionIndex = Section
@@ -156,10 +188,10 @@ app.controller('myCtrl', function($scope, $http) {
         }
         $scope.cart[chapterIndex][SectionIndex]["data"][item.name] = item.value;
  
+        ////console.log($scope.cart);
+
+
         //console.log($scope.cart);
-
-
-        console.log($scope.cart);
     }
 
 
@@ -185,8 +217,8 @@ app.controller('myCtrl', function($scope, $http) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
     $scope.radioClick = function(button,chapter, section,Child_Name,state) {
-      //console.log(Child_Name);
-        console.log(arguments);
+      ////console.log(Child_Name);
+        //console.log(arguments);
         cart = $scope.cart,
         chap = $scope.cart[chapter],
         sec = $scope.cart[chapter][section];
@@ -236,7 +268,7 @@ app.controller('myCtrl', function($scope, $http) {
 
         cart.vtcount = cart["ID-2"].count + cart["ID-3"].count + cart["ID-4"].count + cart["ID-5"].count;
         cart.thirdprtycount = cart["ID-6"].count + cart["ID-7"].count;
-        console.log(cart.vtcount);
+        //console.log(cart.vtcount);
     }
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
 
@@ -301,7 +333,7 @@ app.controller('myCtrl', function($scope, $http) {
           if (!$(this).is(':checked')) {
               alert('test2');
               var disableButtons = $(this).data('child');
-              console.log(disableButtons);
+              //console.log(disableButtons);
               angular.forEach(disableButtons, function(value, index) {
                   //alert('test');
                   $(value).prop("disabled", false);

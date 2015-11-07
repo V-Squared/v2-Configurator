@@ -97,7 +97,8 @@
                                                     </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Save and Load My Config'">
-                                                    <button class="btn btn-primary" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button>
+                                                    <button class="btn btn-success" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button><br>
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#loadModal">Load Config</button>
                                                 </div>
 
                                             
@@ -314,6 +315,24 @@
             <div class="float-right">
                 <h4 class="theme-color">${{cart.vtcost}}</h4>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="loadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Load Config</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <input type="text" ng-model="loadConfigField">
+            <button class="btn btn-primary" ng-click="loadConfig(loadConfigField)">Load Config</button>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
