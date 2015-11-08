@@ -97,8 +97,11 @@
                                                     </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Save and Load My Config'">
-                                                    <button class="btn btn-success" ng-click="makeJSON()"> <i class="fa fa-cart-arrow-down"></i> Save My Config</button><br>
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#loadModal">Load Config</button>
+                                                    <div class="row">
+                                                    <div class="col-sm-3">
+                                                    <button class="btn btn-success" ng-click="makeJSON()" data-toggle="modal" data-target="#SaveModal"> <i class="fa fa-clipboard"></i> Save My Config</button></div>
+                                                    <div class="col-sm-3">
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#loadModal"><i class="fa fa-upload"></i> Load Config &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button></div></div>
                                                 </div>
 
                                             
@@ -111,7 +114,7 @@
                                                 <label>
                                                     <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span style="padding-right:10px;">{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value}}</span></span> <span style="color:#bbb;">{{choice.tag}}</span>  </label>
                                             </div>
-                                            <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview'" ng-class="{'displayNone' : Section.noNone == true}">
+                                            <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
@@ -331,8 +334,25 @@
             <h4 class="modal-title" id="myModalLabel">Load Config</h4>
           </div>
           <div class="modal-body clearfix">
-            <input type="text" ng-model="loadConfigField">
-            <button class="btn btn-primary" ng-click="loadConfig(loadConfigField)">Load Config</button>
+            <textarea style="width: 565px; height: 74px;display:block;" type="text" ng-model="loadConfigField" placeholder="Place Config Here"></textarea><br>
+            <button style="float:right" class="btn btn-primary" ng-click="loadConfig(loadConfigField)">Load Config</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="modal fade" id="SaveModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Save Config</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <textarea style="width: 565px; height: 74px;display:block;" type="text" ng-model="saveConfigField"></textarea>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

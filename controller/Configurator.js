@@ -42,7 +42,7 @@ app.controller('myCtrl', function($scope, $http) {
            //console.log(res.data.A1)
        });
 
-    $scope.loadConfigField = "test";
+    $scope.loadConfigField = "";
 
     $scope.cart = {
         count: 0,
@@ -83,9 +83,7 @@ app.controller('myCtrl', function($scope, $http) {
             }
         });
         //config.splice(0,1);
-        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify(config)),
-            "_blank");
-        something.focus();
+        $scope.saveConfigField = config;
     }
    $scope.readyConfig = function($event,state) {
 
@@ -126,14 +124,14 @@ app.controller('myCtrl', function($scope, $http) {
 
    $scope.loadConfig = function(test) {
 
-      var runitem = test.replace(/"/g,'');
+      var runitem = test.replace(/[\[\]"]+/g,'')
 
       console.log(runitem);
 
-       runitem = runitem.split(',');
+      runitem = runitem.split(',');
 
       console.log(runitem);
-      alert(runitem);
+      //alert(runitem);
 
         $scope.counter = $(".panel:not(:first)").find(".None").length;
         setTimeout(function() {
