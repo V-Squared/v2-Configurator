@@ -152,9 +152,9 @@ app.controller('myCtrl', function($scope, $http) {
      }
 
    $scope.Preview = function() {
-    var caseSize = $scope.cart["ID-2"]["ID-13"].lastclicked;
-    var FormFactor = $scope.cart["ID-1"]["ID-10"].lastclicked;
-    $scope.Display_Number = $scope.cart["ID-1"]["ID-11"].lastclicked;
+    var caseSize = $scope.cart["ID-2"]["SID-13"].lastclicked;
+    var FormFactor = $scope.cart["ID-1"]["SID-10"].lastclicked;
+    $scope.Display_Number = $scope.cart["ID-1"]["SID-11"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
     
@@ -224,8 +224,11 @@ app.controller('myCtrl', function($scope, $http) {
         if (sec["lastclicked"] != button.name) { //if different item clicked
             if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
 
-                state == false ? $scope.enableButton(sec.lastclickedChildren,false) : $scope.enableButton(sec.lastclickedChildren,true);
-                 //enable old buttons
+                if(state == 'disable button') {
+                  $scope.enableButton(sec.lastclickedChildren,false);
+                } else if(state == 'hide button') {
+                  $scope.enableButton(sec.lastclickedChildren,true);
+                }
                 cart.count--; //remove old count
                 chap.count--; //remove old chapter count
 
@@ -251,7 +254,14 @@ app.controller('myCtrl', function($scope, $http) {
             sec.lastclickedLink = button.link;
             sec.cost = button.value;
 
-            state == false ? $scope.disableButton(Child_Name,false) : $scope.disableButton(Child_Name,true);
+            if (state == 'disable button') {
+              $scope.disableButton(Child_Name,'disable button');
+            } else if (state == 'hide button') {
+              alert('test success');
+              $scope.disableButton(Child_Name,'hide button');
+            } else {
+              $scope.disableButton(Child_Name,'hide section');
+            }
             
         }
 
@@ -271,25 +281,38 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.disabledButtons=[];//this is a counter to handle cases where a button is disabled by multiple options
 
     $scope.disableButton = function(button,state) {
-        if(state == true){
-          $('.readyConfig').show();
-        }
+     if(state == 'hide button'){
+      $('.readyConfig').show();
+     } else if (state == 'hide section') {
+      $('.configirator-section').show();
+     }
+
         angular.forEach(button, function(value) {
-          if(state == false) {
+          //alert('test');
+
+          if(state == 'hide button'){
+            $(value).closest('div').hide();
+            return;
+          }
+
+          if(state == 'hide section') {
+            $(value).hide();
+            return;
+          }
+
+
            if($(value).is(':checked')) { 
                 //alert("uncheck "+value);
                setTimeout(function() {
                    $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
                    $(value).closest(".configirator-section").find('.col-sm-2').append('<img title="Top of the morning to y ladies" class="chicken" src="images/expansion/Attention-Phoenix-Sign-tbg-h80px.png">');
-              },0,false); 
+              },0,false);
+
            }
-         }
-           if(state == false) {
-            $(value).prop('disabled',true);
-           } else {
-            //alert(value);
-            $(value).closest('div').hide();
-           }
+
+           $(value).prop('disabled',true);
+
+           
             //alert("disable "+value);
          
           if(typeof $scope.disabledButtons[value] == 'undefined' ){//as buttons get disabled count how many options are disabling them
