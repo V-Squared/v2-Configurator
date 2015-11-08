@@ -462,7 +462,7 @@
             "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon1.jpg"
           },
           {
-            "name": "All-In-One-VESA",
+            "name": "All-In-One",
             "id": "ID-121",
             "for": "sample2",
             "value": 0,
@@ -470,7 +470,7 @@
             "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon2.jpg"
           },
           {
-            "name": "All-In-One-Any",
+            "name": "Mini-Behind-Display",
             "id": "ID-122",
             "for": "sample3",
             "value": 0,
