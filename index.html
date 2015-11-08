@@ -65,10 +65,10 @@
                                                 </div>
                                             </div>
                                             <!-- readyconfig -->
-                                            <div ng-if="Section.name=='Use'">
+                                            <div ng-if="Section.name=='Gaming Custom PC'">
                                                 <div style="display:none" class="readyConfig" ng-repeat="choice in Section.yourChoice">
                                                     <label>
-                                                    <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span> <span style="color:#bbb;">{{choice.tag}}</span></label>
+                                                    <input type="radio" ng-click="readyConfig($event,true)" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{choice.name}}</span> <span style="color:#bbb;" ng-bind-html="choice.tag"></span></label>
                                                 </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Form Factor'">
@@ -110,11 +110,11 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
+                                            <div ng-if="Section.name!='Gaming Custom PC' && Section.name!='Field of Application' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
                                                     <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span style="padding-right:10px;">{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value}}</span></span> <span style="color:#bbb;">{{choice.tag}}</span>  </label>
                                             </div>
-                                            <div ng-if="Section.name!='Use' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
+                                            <div ng-if="Section.name!='Gaming Custom PC' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,false)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
@@ -335,6 +335,8 @@
           </div>
           <div class="modal-body clearfix">
             <textarea style="width: 565px; height: 74px;display:block;" type="text" ng-model="loadConfigField" placeholder="Place Config Here"></textarea><br>
+            <p style="color:#AFAFAF"><i class="fa fa-question-circle" style="color:#f3950f"></i> Configurations can be saved or shared. Paste your configuration in the Text Area above and press the "Load Config" Button. This will load the configuration of the Text Area - overwriting your current one. If you first want to save the current configuration simply use the "Save My Config" button. This is one example how a configuration looks like:<br>
+            ID-87,#ID-2,#ID-4,#ID-10,#ID-28,#ID-31,#ID-34,#ID-41,#ID-47</p>
             <button style="float:right" class="btn btn-primary" ng-click="loadConfig(loadConfigField)">Load Config</button>
           </div>
           <div class="modal-footer">
@@ -353,6 +355,7 @@
           </div>
           <div class="modal-body clearfix">
             <textarea style="width: 565px; height: 74px;display:block;" type="text" ng-model="saveConfigField"></textarea>
+            <p style="color:#AFAFAF"><i style="color:#f3950f" class="fa fa-question-circle"></i> This is your configuration. Copy it to your clipboard. Now you can either 1) paste it into an email, forum or our Indiegogo Campaign Comments section to get help or advice 2) save it in a text document so you can load it later to continue your session</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

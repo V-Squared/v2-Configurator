@@ -5,15 +5,12 @@
 		"#ID-5"
 		],
 		"High":["#ID-2","#ID-5","#ID-9","#ID-12","#ID-15","#ID-20","#ID-25","#ID-26","#ID-30","#ID-38","#ID-42","#ID-68"],
-		"Online-Gaming-Mini":["#ID-1","#ID-4","#ID-18","#ID-24","#ID-38","#ID-43","#ID-51","#ID-58","#ID-74"],
-		"Budget-Gaming-Mini": ["#ID-2","#ID-4","#ID-19","#ID-24","#ID-38","#ID-43","#ID-51","#ID-58","#ID-74","#ID-285"],
-		"Solid-Gaming-Mini-Steam":["#ID-2","#ID-4","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-74","#ID-286"],
-		"Solid-Gaming-AiO-Steam":["#ID-2","#ID-4","#ID-9","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-74","#ID-286"],
-		"Solid-Gaming-AiO-Windows":["#ID-2","#ID-4","#ID-9","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-68","#ID-286"],
-		"Solid-Gaming-AiO-Steam-Portable":["#ID-2","#ID-4","#ID-10","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-74","#ID-286"],
-		"High-End-Gaming-AiO":["#ID-2","#ID-4","#ID-9","#ID-29","#ID-31","#ID-34","#ID-40","#ID-44","#ID-51","#ID-58","#ID-68","#ID-555"],
-		"Surround-Gaming-AiO":["#ID-2","#ID-4","#ID-9","#ID-29","#ID-31","#ID-34","#ID-40","#ID-44","#ID-51","#ID-58","#ID-68","#ID-287"],
-		"Ultimate-Gaming-AiO":  ["#ID-2","#ID-4","#ID-10","#ID-28","#ID-31","#ID-34","#ID-41","#ID-47","#ID-56","#ID-181","#ID-68","#ID-288"]
+		"ViCase-Browser-Gaming-PC":["#ID-1","#ID-4","#ID-18","#ID-24","#ID-38","#ID-43","#ID-51","#ID-58","#ID-74"],
+		"ViCase-Budget-Gaming-PC": ["#ID-2","#ID-4","#ID-19","#ID-24","#ID-38","#ID-43","#ID-51","#ID-58","#ID-74","#ID-285"],
+		"ViCase-Standard-Gaming-PC":["#ID-82","#ID-2","#ID-4","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-74","#ID-286"],
+		"ViCase-High-End-Gaming-PC":["#ID-85","#ID-2","#ID-4","#ID-9","#ID-29","#ID-31","#ID-34","#ID-40","#ID-44","#ID-51","#ID-58","#ID-68","#ID-555"],
+		"ViCase-Ultra-Gaming-PC":["#ID-2","#ID-4","#ID-9","#ID-20","#ID-25","#ID-40","#ID-45","#ID-51","#ID-58","#ID-68","#ID-287"],
+		"ViCase-Ultimate-Gaming-PC":["#ID-87","#ID-2","#ID-4","#ID-10","#ID-28","#ID-31","#ID-34","#ID-41","#ID-47","#ID-56","#ID-181","#ID-68","#ID-288"]
 	},
 	"Form_Factor": {
 		"sample1":["#ID-130","#ID-131"],

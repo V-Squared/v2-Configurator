@@ -78,102 +78,313 @@
                 ]
             },
             {
-                "name": "Use",
+                "name": "Gaming Custom PC",
                 "url": "",
                 "id": "ID-9",
                 "part": "vicase-performance",
+                "TableTag": [
+                    "(1) All Motherboard IO is integrated into AM1 CPU. Thus no MoBo Chip needed."
+                ],
                 "slide": "slide-performance",
                 "yourChoice": [
                     {
-                        "name": "Online Gaming Mini",
+                        "name": "ViCase Browser Gaming PC",
                         "img": "",
                         "id": "ID-80",
-                        "for": "Online-Gaming-Mini",
-                        "tag": "Gaming PC with fast enough CPU to play demanding online games. This is a full PC with 120 GB SSD and very fast boot time and enough horse power for regular office work or even HD video editing.",
+                        "for": "ViCase-Browser-Gaming-PC",
+                        "tag": "- $279 Lowest Budget Gaming and full PC",
                         "value": 0
                     },
                     {
-                        "name": "Budget Gaming Mini Steam",
+                        "name": "ViCase Budget Gaming PC",
                         "img": "",
                         "id": "ID-81",
-                        "for": "Budget-Gaming-Mini",
-                        "tag":"This is your entry ticket into High End Gaming with a PCIe GPU Card. Most titles will play at decent frame rates in HD resolution in default settings. This is also a full PC with 120 GB SSD and very fast boot time and enough horse power for regular office work or fast video editing. The LINUX OS will be fun to use and is ideal to play all Titles on Steam made for LINUX. If you want to play Windows Titles, you need to add Windows OS. This can also double as HTPC.",
+                        "for": "ViCase-Budget-Gaming-PC",
+                        "tag":"- $394 Your entry ticket to a Custom Build Game PC",
                         "value": 0
                     },
                     {
-                        "name": "Solid Gaming Mini Steam",
+                        "name": "ViCase Standard Gaming PC",
                         "img": "",
                         "id": "ID-82",
-                        "tag":"Intel i3 CPU plus nVidia GTX 750 Ti will provide solid gaming horse power for lots of fun. A serious upgrade from a game station. This is a powerful PC with 120 GB SSD. Any office work or most demanding applications will be very snappy. Same when doubling as HTPC.",
-                        "for": "Solid-Gaming-Mini-Steam",
+                        "tag":"- $579 Plays most games in HD in recommended settings",
+                        "for": "ViCase-Standard-Gaming-PC",
                         "value": 0
                     },
                     {
-                        "name": "Solid Gaming AiO Steam",
+                        "name": "ViCase High End Gaming PC",
                         "img": "",
                         "id": "ID-83",
-                        "tag":"Same as above, with the step up feature of All-In-One by means of mounting the Mini behind the Display with VESA mount that you already have. If your Display has no VESA mount, you can choose the ViCase-Stand option for $6 more.",
-                        "for": "Solid-Gaming-AiO-Steam",
+                        "tag":"- $786 Plays games with all settings maxed out",
+                        "for": "ViCase-High-End-Gaming-PC",
                         "value": 0
                     },
                     {
-                        "name": "Solid Gaming AiO Windows",
+                        "name": "ViCase Ultra Gaming PC",
                         "img": "",
-                        "tag":"Same as above with step up feature of added Windows Home. This opens up more game titles.",
+                        "tag":"- $946 - Even faster. Can drive 3 Displays in high quality",
                         "id": "ID-84",
-                        "tag":"Same as above with step up feature of added Windows Home. This opens up more game titles.",
-                        "for": "Solid-Gaming-AiO-Windows",
+                        "tag":" - $946 Same as above with step up feature of added Windows Home. This opens up more game titles.",
+                        "for": "ViCase-Ultra-Gaming-PC",
                         "value": 0
                     },
                     {
-                        "name": "Solid Gaming AiO Steam Portable",
+                        "name": "ViCase Ultimate Gaming PC",
                         "img": "",
                         "id": "ID-550",
-                        "tag":"Same configuration as \"Solid Gaming AiO Steam\" with the step up feature ViCase Stand, making for a portable All-In-One with comfortable carry grip. Recommended Display are the modern very light full HD 22\" Display with VESA mount. Ideal to bring your rig to a LAN Party.",
-                        "for": "Solid-Gaming-AiO-Steam-Portable",
-                        "value": 0
-                    },
-                    {
-                        "name": "High End Gaming AiO",
-                        "img": "",
-                        "id": "ID-85",
-                        "tag":"High End Gaming PC with Intel i5 CPU + nVidia GTX 960. Almost all games will play in high fps in full HD with all quality settings maxed out. All-In-One by means of mounting the Mini behind the Display with VESA mount that you already have. If your Display has no VESA mount, you can choose the ViCase-Stand option for $6 more. For more AiO options, check out the All-In-One Converter in the Configurator. In case you wonder why no power is selected, the ATX PSU in the ViDock GPU will feed power to ViDock-Mini. So be sure to choose large enough ATX Power Supply with at least 500W. The Dual housing design provides better cooling combined with a quieter noise level versus a single Desktop Case. Plus they are much smaller too!",
-                        "for": "High-End-Gaming-AiO",
-                        "value": 0
-                    },
-                    {
-                        "name": "Surround Gaming AiO",
-                        "img": "",
-                        "id": "ID-86",
-                        "tag":"Ultra High End Gaming with Intel i5 CPU + nVidia GTX 970. Enough GPU power to play games with 3 Displays in surround gaming. In case you wonder why no power is selected, the ATX PSU in the ViDock GPU will feed power to ViDock-Mini. So be sure to choose large enough ATX Power Supply with at least 500W.",
-                        "for": "Surround-Gaming-AiO",
-                        "value": 0
-                    },
-                    {
-                        "name": "Ultimate Gaming AiO",
-                        "img": "",
-                        "id": "ID-87",
-                        "tag":"If money is no issue, than this is the Gaming All-In-One that you want. i7 Quad Core 4 GHz unlocked, Motherboard unlocked for overclocking, 16 GB DDR4 memory and of course GTX 980. Booting and loading of scenes is 400% faster due to high end NVME M.2 SSD.",
-                        "for": "Ultimate-Gaming-AiO",
+                        "tag":"- $1707 Make everybody green of envy!",
+                        "for": "ViCase-Ultimate-Gaming-PC",
                         "value": 0
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "Optimized Use Cases for each Field of Application",
-                        "content": "Our team of experts has assembled optimized custom builds for various Use Cases for each Field of Application. The parts are carefully selected to deliver a balance of performance for each use case, which in terms gives you the most speed for your money."
+                        "heading": "Who is the ViCase Gaming PC for",
+                        "content": "You are a technically interested person or you know someone to help you. You want a small, beautiful and powerful custom build PC with the key Field of Application being Gaming. Since ViCase PC is a standard PC you can of course do all other things with it. That being said, all parts have been chosen to deliver the best gaming experience for your money. You do not need to have DIY Custom PC experience. The V²Configurator will create an optimized configuration for you that works. When your PC arrives in parts, you will follow our instruction Videos on how to assemble your ViCase PC. If you can use a screw driver and follow instructions in a video you will be fine and reward yourself with a Gaming Rig that is beautiful, powerful, upgradeable and may have features important for you that you can not find elsewhere."
                     },
                     {
-                        "heading": "Compact Advice in the Tag Line",
-                        "content": "Each Configuration comes with very compact Advice right to the button to help you making the right choice."
+                        "heading": "ViCase Gaming PC versus Gaming Console",
+                        "content": "Gaming Consoles are great for non technical people to bring the gaming fun into the living room. They are easy to set up, easy to use, small build and beautiful design to not upset the living room atmosphere. But they are also a closed system. In case you are (or becoming) a technical person you may be already hitting against these limitations. This is where the ViCase Gaming PC comes in. It takes the small size and beautiful looks of the Gaming Consoles, but it is an open system, inviting you to expand it in any direction you please. Once you get your ViCase Gaming PC to work, you will be rewarded with significantly better gaming graphics and higher FPS."
                     },
                     {
-                        "heading": "Detailed Configuration Data in Summary",
-                        "content": "Every part that makes your custom built is listed in Summary. On a big screen the Summary is shown to the right of the V²Configuration Pane. On a small screen you can find it on the bottom of the page."
+                        "heading": "ViCase Gaming PC versus Gaming Desktop PC",
+                        "content": "Custom Build Game PCs are the holy grail of Gaming. They deliver the most amazing Gaming Graphics and thus the most immersive experience. But they are big and you need to be a geek to configure and assemble it. This is where ViCase Gaming PC comes in. You can build a full Gaming PC with power GPU Add In Card in a very small case. And the V²Configurator makes configuration a two mouse click affair: Choose Gaming in Field of Application and then pick the most expensive ViCase Gaming PC you can afford :-)"
                     },
                     {
-                        "heading": "You can change Form Factor for every Config",
-                        "content": "We have baked in the Form Factor into the ready made configurations for your convenience. With just two clicks your computer is completely build for you. That said, you can easily change your Form Factor, say change a Mini to an All-In-One or vice versa. Just open the chapter \"3. All-In-One Converter\" and the Configurator will guide you when making your choices to better suit your needs or match your Display's features."
+                        "heading": "ViCase Open Custom PC versus Closed Systems",
+                        "content": "A closed system will be: 1) Easy to install and set up. 2) Maybe lower cost 3) Limited for high end gaming 4) Not much upgradeable if at all. || The ViCase Custom Gaming PC will be: 1) relatively easy to install and set up 2) Maybe higher cost 3) No limit to high end gaming 4) As upgradeable as can be."
+                    },
+                    {
+                        "heading": "All-In-One Gaming PC",
+                        "content": "One of the things that set the ViCase Gaming PC apart from other Custom Gaming PCs is its ability that you can convert it into an All-In-One PC. We have three different methods, each with different features and cost, that go even beyond what you would expect from a typical All-In-One. For more information explore the \"3. All-In-One Converter\" Chapter in the V²Configurator."
+                    },
+                    {
+                        "heading": "All-In-One Gaming PC with Carry Grip",
+                        "content": "Gaming is so much more fun when the experience is shared with your friends. This is why LAN Parties are so much fun. With ViCase you can build an All-In-One that has a carry grip and even a shelf to hold your keyboard. Just place ViCase All-In-One on a table, plug in power, power it on, take the keyboard out of the shelf and you are ready to kill. And since this is so easy, you can even carry your Game PC to another room if this is where your friends and family are."
+                    },
+                    {
+                        "heading": "Ubuntu, Windows 10, Steam OS or all",
+                        "content": "1) Ubuntu is very stable and as much fun to use as Windows 10. But its GPU driver support is not as good. Depending on the game you are playing you may experience same speed or it may be noticeably slower. If you play on Ubuntu, you would buy your games on Steam. The biggest draw back is that not all game titles are available on Linux. 2) Windows 10 is the save choice. All titles available and best GPU drivers. Only drawback is that it will set you back $100 US. So you always can start with Ubuntu, invest the $100 into 3 games that play on it and upgrade to Windows 10 later. 3) SteamOS will be a game changer. Pun intended. One day in the future GPUs under SteamIOS will have same FPS than under Windows. And all Titles will be available under SteamOS too. Today - however - SteamOS is in beta. It has one thing going for it that is the support of its cool game pad. 4) You can of course install more than one OS and enjoy the different strengths of each."
+                    },
+                    {
+                        "heading": "Typical Upgrades",
+                        "content": "1) More Memory, 2) Faster CPU 3) Faster / Bigger Disk 4) Bigger / Better Case. For any of these unfold the corresponding Chapter and Section below in the Configurator and adjust to your liking."
+                    },
+                    {
+                        "heading": "Windows 10 Upgrade",
+                        "content": "We chose Ubuntu on the cost sensitive configurations. It shaves off $100 US which you may prefer to invest into 3 ... 5 Game titles on Steam that do run on Ubuntu. If after some time you itch for this big game that is only available on Windows 10, than it maybe time for an upgrade. Good thing is that you can add to your ViCase Gaming PC whenever extra cash comes in :-)"
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name":"Feature"
+                    },
+                    {
+                        "name":"Browser"
+                    },
+                    {
+                        "name":"Budget"
+                    },
+                    {
+                        "name":"Standard"
+                    },
+                    {
+                        "name":"High"
+                    },
+                    {
+                        "name":"Ultra"
+                    },
+                    {
+                        "name":"Ultimate"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title":"CPU►Model",
+                        "row":[
+                            "Athlon 5350",
+                            "Athlon 5350",
+                            "i3-4160",
+                            "i5-4570S",
+                            "i5-4570S",
+                            "i7-6700K"
+                        ]
+                    },
+                    {
+                        "title":"CPU►Bench (1)",
+                        "row":[
+                            "2600",
+                            "2600",
+                            "5000",
+                            "6600",
+                            "7050",
+                            "11000"
+                        ]
+                    },
+                    {
+                        "title":"CPU►Overclocking",
+                        "row":[
+                            "No",
+                            "No",
+                            "No",
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title":"CPU►Mem►Size",
+                        "row": [
+                            "4 GB",
+                            "4 GB",
+                            "4 GB",
+                            "4 GB",
+                            "8 GB",
+                            "16 GB"
+                        ]
+                    },
+                    {
+                        "title":"CPU►Mem►Type",
+                        "row": [
+                            "DDR3",
+                            "DDR3",
+                            "DDR3",
+                            "DDR3",
+                            "DDR3",
+                            "DDR4"
+                        ]
+                    },
+                    {
+                        "title":"GPU►Model",
+                        "row": [
+                            "Integrated",
+                            "R7-250",
+                            "GTX 750Ti",
+                            "GTX 960",
+                            "GTX 970",
+                            "GTX 980"
+                        ]
+                    },
+                    {
+                        "title":"GPU►Benchmark (2)",
+                        "row": [
+                            "360",
+                            "2700",
+                            "5700",
+                            "10400",
+                            "15800",
+                            "18700"
+                        ]
+                    },
+                    {
+                        "title":"GPU►Mem►Size",
+                        "row":[
+                            "1 GB",
+                            "2 GB",
+                            "2 GB",
+                            "2 GB",
+                            "4 GB",
+                            "4 GB"
+                        ]
+                    },
+                    {
+                        "title":"GPU►Mem►Type",
+                        "row":[
+                            "shared",
+                            "DDR3",
+                            "GDDR5",
+                            "GDDR5",
+                            "GDDR5",
+                            "GDDR5"
+                        ]
+                    },
+                    {
+                        "title":"Boot Disk►Size",
+                        "row":[
+                            "120 GB",
+                            "120 GB",
+                            "120 GB",
+                            "120 GB",
+                            "250 GB",
+                            "250 GB"
+                        ]
+                    },
+                    {
+                        "title":"Boot Disk►Speed",
+                        "row": [
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s",
+                            "2.2 GB/s"
+                        ]
+                    },
+                    {
+                        "title":"Data Disk►Size",
+                        "row":[
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ]
+                    },
+                    {
+                        "title":"Data Disk►Speed",
+                        "row":[
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ]
+                    },
+                    {
+                        "title":"OS",
+                        "row":[
+                            "Ubuntu",
+                            "Ubuntu",
+                            "Ubuntu",
+                            "Windows 10",
+                            "Windows 10",
+                            "Windows 10"
+                        ]
+                    },
+                    {
+                        "title":"ViCase",
+                        "row": [
+                            "-",
+                            "-",
+                            "-",
+                            "GPU Cheapo",
+                            "GPU Cheapo",
+                            "GPU"
+                        ]
+                    },
+                    {
+                        "title":"Power Supply",
+                        "row":[
+                            "48W",
+                            "120W",
+                            "240 W",
+                            "500W",
+                            "500W",
+                            "500W"
+                        ]
+                    },
+                    {
+                        "title":"CPU Cooler",
+                        "row":[
+                            "boxed",
+                            "boxed",
+                            "boxed",
+                            "boxed",
+                            "boxed",
+                            "Cooler-L"
+                        ]
                     }
                 ]
             },
