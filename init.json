@@ -386,6 +386,48 @@
                             "Cooler-L"
                         ]
                     }
+                ],
+                "Gallery":[
+                    {
+                        "title":"Living Room All-In-One Gaming PC",
+                        "image":"images/expansion/config/Wizard/Gaming/All-In-One-Conversion-4-v1.jpg",
+                        "description":"ViCase Gaming PC will not change your Living Room at all, it is invisibly placed behind your TV or inside the shelf"
+                    },
+                    {
+                        "title":"All-In-One Gaming PC",
+                        "image":"images/expansion/config/Wizard/Gaming/AIO-1.jpg",
+                        "description":"Finally an All-In-One PC with Desktop GPU performance that is upgradeable."
+                    },
+                    {
+                        "title":"Surround All-In-One Gaming PC",
+                        "image":"images/expansion/config/Wizard/Gaming/AIO-3.jpg",
+                        "description":"3 Display surround gaming is great fun. ViCase All-In-One makes it good looking too!"
+                    },
+                    {
+                        "title":"Mini Gaming PC",
+                        "image":"images/expansion/config/Wizard/Gaming/AIO-Rear-1.jpg",
+                        "description":"ViCase Mini is so small and cute, that you may prefer place it beside your display :-)"
+                    },
+                    {
+                        "title":"Size",
+                        "image":"images/expansion/config/Wizard/Gaming/ViCase-Overview-1.jpg",
+                        "description":"Left to Right: Apple, ViCase Tiny, ViCase Mini, ViCase GPU"
+                    },
+                    {
+                        "title":"ViCase Tiny",
+                        "image":"images/expansion/config/Wizard/Gaming/ViCase-Tiny-Standard-Front.jpg",
+                        "description":"Case for ViCase Gaming PC Model: Browser"
+                    },
+                    {
+                        "title":"ViCase Mini",
+                        "image":"images/expansion/config/Wizard/Gaming/ViCase-Mini-Standard-Front.jpg",
+                        "description":"Case for ViCase Gaming PC Models: Budget, Standard, High, Ultra, Ultimate"
+                    },
+                    {
+                        "title":"ViDock GPU",
+                        "image":"images/expansion/config/ViDock/ViDock/Gallery/ViDock-GPU.jpg",
+                        "description":"GPU Expansion when using the very big GPU Add-In-Cards, such as GTX 980."
+                    }
                 ]
             },
             {
