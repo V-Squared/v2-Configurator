@@ -355,6 +355,17 @@
                     },
                     {
                         "title":"ViCase",
+                        "row":[
+                            "Tiny",
+                            "Mini",
+                            "Mini",
+                            "Mini",
+                            "Mini",
+                            "Mini"
+                        ]
+                    }
+                    {
+                        "title":"ViDock",
                         "row": [
                             "-",
                             "-",
