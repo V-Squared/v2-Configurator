@@ -26,7 +26,7 @@
                             section.id = section.id.replace('SID-','');
 
                             $scope.sectionIdList.push({name:section.name,id:parseInt(section.id)});
-                            $scope.sectionNumber
+                            $scope.sectionNumber++;
                         }
     		    		angular.forEach(section.yourChoice, function(choice) {
     		    			if(choice.id) {
