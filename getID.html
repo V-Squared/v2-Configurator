@@ -14,10 +14,20 @@
     		    //console.log($scope.data);
     		    $scope.buttonIdList = [];
 
+                $scope.sectionIdList = [];
+
     		    $scope.buttonNumber = 0;
+
+                $scope.sectionNumber = 0;
 
     		    angular.forEach($scope.data,function(chapter) {
     		    	angular.forEach(chapter.data,function(section) {
+                        if(section.id) {
+                            section.id = section.id.replace('SID-','');
+
+                            $scope.sectionIdList.push({name:section.name,id:parseInt(section.id)});
+                            $scope.sectionNumber
+                        }
     		    		angular.forEach(section.yourChoice, function(choice) {
     		    			if(choice.id) {
 	    		    			console.log(choice.id);
@@ -39,5 +49,8 @@
 		<li ng-repeat="buttonId in buttonIdList | orderBy:'-id'">{{buttonId.id}} - {{buttonId.name}}</li>
 	</ul>
 	<h2>section {{sectionNumber}}</h2>
+    <ul>
+        <li ng-repeat="sectionId in sectionIdList | orderBy:'-id'">{{sectionId.id}} - {{sectionId.name}}</li>
+    </ul>
 </body>
 </html>
