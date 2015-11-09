@@ -7865,7 +7865,7 @@
                     {
                         "name": "SteamOS Beta",
                         "id": "ID-75",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/OS/Icon7v1.jpg",
                         "value": 0,
                         "tag": "Beta Version. Supports the Steam Game Controller."
                     }
