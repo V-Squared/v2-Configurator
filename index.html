@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-9" id="configurator">
-                    <h1 id="check-me-out" class="clearfix">V²Configuration <span class="float-right" data-toggle="modal" data-target=""><i data-toggle="tooltip" data-placement="top" title="Help" class="fa fa-question-circle useCase"></i></span></h1>
+                    <h1 id="check-me-out" class="clearfix">V²Configuration <span class="float-right" data-toggle="modal" data-target="#ConfigurationHelp"><i data-toggle="tooltip" data-placement="top" title="Help" class="fa fa-question-circle useCase"></i></span></h1>
                     <div ng-repeat="Chapter in data" class="panel panel-default">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
@@ -222,8 +222,8 @@
                 </div>
                 <!--               sidebar -->
                 <div class="col-md-4 col-lg-3">
-                    <div class="price-sidebar" data-spy="affix" data-offset-top="560">
-                    <h1>Summary</h1>
+                    <div class="price-sidebar" data-spy="affix" data-toggle="modal" data-target="#SummaryHelp" data-offset-top="560">
+                    <h1>Summary <span class="float-right"><i class="fa fa-question-circle useCase" data-toggle="tooltip" data-placement="top" title="Help"></i></span></h1>
                         <div class="collapse-summary" ng-repeat="(chapters, cvalue) in cart" ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount' && chapters!='ID-1'">
                             <span ng-if="chapters!='thirdprtycost'&&chapters!='vtcost'&&chapters!='cost'&&chapters!='count' && chapters!='thirdprtycount' && chapters!='vtcount'">
                            <h4 class="collapse-summary-heading fake-link" ng-click="toggle($event)" ><i class="fa fa-play fa-rotate-90"></i> {{cart[chapters].name}} <span style="float:right">${{cart[chapters].cost}}</span></h4>
@@ -364,7 +364,7 @@
       </div>
     </div>
 
-     <div class="modal fade" id="SaveModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+     <div class="modal fade" id="ConfigurationHelp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
@@ -376,6 +376,38 @@
             <p>The left pane of the V²Configurator assists you in making choices which in turn will create your Custom PC's Configuration.</p>
             <h2>First choose your Field of Application</h2>
             <p>Navigate to Field of Application. 1) Unfold Wizard, 2) Unfold "Field of Application</p>
+            <h2>For more Information read Advice</h2>
+            <p>Within the "Field of Application" unfold Advice and it will guide you on how to proceed. In fact every section that you unfold contains Advice, ready at your fingertip in case you need it.</p>
+            <h2>If there is a Triangle you can unfold it</h2>
+            <p>Its kind of like Easter Eggs. We have hidden a lot of goodies. Click the triangle to unfold.</p>
+            <h2>Navigate by unfolding and collapsing</h2>
+            <p>By unfolding you dig deeper. You can unfold as many Chapters, Sections and Sub Sections as you like. When collapsing the parent the Configurator will remember the state of folding for its children. In case you get lost, collapse and scroll up to reach the top level, from where you can dig down again.</p>
+            <h2>Color Code</h2>
+            <p>The 1. Chapter (Orange) is the Wizard. With a few clicks you determine the broad strokes of your configuration. Chapter 2 ... 5 are the Parts provided by us (Blue). Chapter 6 ... 7 (Cyan) contain the parts provided by Third Parties, such as Amazon / Newegg or your favorite shop for PC parts.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="SummaryHelp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Help V²Configuration</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <h2>V²Summary Pane</h2>
+            <p>This Pane shows all your parts which your Custom PC will be made off. On a wide screen it is shown to the right. On a small screen to the bottom of the page.</p>
+            <h2>Sub-Summaries</h2>
+            <p>For you convenience the costs are grouped. Each group can be unfolded or collapsed to assist your overview.</p>
+            <h2>Total Cost</h2>
+            <p>Total cost is shown on the bottom. Please read the disclaimer when unfolded to avoid any confusion.</p>
+            <h2>Check Out</h2>
+            <p>Pressing the Checkout Button opens the Checkout Window, which list all items. When clicking the item a new tab opens with its online shop page. Within the "Checkout Village Parts" window all links will open our parts on Indiegogo. Within the "Checkout Third Party" Window all links will open the respective 3rd Party Parts on Amazon or Newegg. We have no association with either shop. You are welcome to buy the same or similar part in another shop of your preference.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
