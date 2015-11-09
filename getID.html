@@ -21,7 +21,9 @@
     		    		angular.forEach(section.yourChoice, function(choice) {
     		    			if(choice.id) {
 	    		    			console.log(choice.id);
-	    		    			$scope.buttonIdList.push(choice.id)
+                                choice.id = choice.id.replace('ID-','');
+
+	    		    			$scope.buttonIdList.push({name:choice.name,id:parseInt(choice.id)});
 	    		    			$scope.buttonNumber++;
 	    		    		}
     		    		});
@@ -34,7 +36,7 @@
 <body ng-app="idApp" ng-controller="idController">
 	<h2>button {{buttonNumber}}</h2>
 	<ul>
-		<li ng-repeat="buttonId in buttonIdList track by $index | number">{{buttonId}}</li>
+		<li ng-repeat="buttonId in buttonIdList | orderBy:'-id'">{{buttonId.id}} - {{buttonId.name}}</li>
 	</ul>
 	<h2>section {{sectionNumber}}</h2>
 </body>

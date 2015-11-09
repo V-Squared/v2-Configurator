@@ -31,8 +31,9 @@ app.directive('datasheet',function() {
 
 
 app.controller('myCtrl', function($scope, $http) {
-    //this can be pulled and put into a angular service
+    $('[data-toggle="tooltip"]').tooltip();
 
+    //this can be pulled and put into a angular service
 
     $http.get('init.json').then(function(res) {
         $scope.data = res.data;

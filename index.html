@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-9" id="configurator">
-                    <h1 id="check-me-out">Configuration</h1>
+                    <h1 id="check-me-out" class="clearfix">V²Configuration <span class="float-right" data-toggle="modal" data-target=""><i data-toggle="tooltip" data-placement="top" title="Help" class="fa fa-question-circle useCase"></i></span></h1>
                     <div ng-repeat="Chapter in data" class="panel panel-default">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
@@ -356,6 +356,26 @@
           <div class="modal-body clearfix">
             <textarea style="width: 565px; height: 74px;display:block;" type="text" ng-model="saveConfigField"></textarea>
             <p style="color:#AFAFAF"><i style="color:#f3950f" class="fa fa-question-circle"></i> This is your configuration. Copy it to your clipboard. Now you can either 1) paste it into an email, forum or our Indiegogo Campaign Comments section to get help or advice 2) save it in a text document so you can load it later to continue your session</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="modal fade" id="SaveModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Help V²Configuration</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <h2>V²Configuration Pane</h2>
+            <p>The left pane of the V²Configurator assists you in making choices which in turn will create your Custom PC's Configuration.</p>
+            <h2>First choose your Field of Application</h2>
+            <p>Navigate to Field of Application. 1) Unfold Wizard, 2) Unfold "Field of Application</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
