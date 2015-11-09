@@ -5629,21 +5629,6 @@
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
                         "tag": "Use the AC Adapter you already have",
                         "value": 0
-                    },
-                    {
-                        "name": "ATX-PSU-650W-3rd-Party",
-                        "id": "ID-153",
-                        "img": "",
-                        "tag": "650W Quiet PSU for ViDock GPU",
-                        "link": "http://www.amazon.com/EVGA-ATX-650W/dp/B00K85X2AW",
-                        "value": ""
-                    },
-                    {
-                        "name": "ATX-PSU-Already-Owned",
-                        "id": "ID-154",
-                        "img": "",
-                        "tag": "Use the ATX Power Supply you already have",
-                        "value": ""
                     }
                 ],
                 "TableHeading": [
@@ -5658,7 +5643,7 @@
                         "name": "120W"
                     },
                     {
-                        "name": "ATX-650W"
+                        "name": "ATX-650W (2)"
                     }
                 ],
                 "TableBody": [
@@ -5696,7 +5681,8 @@
                     }
                 ],
                 "TableTag": [
-                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination."
+                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination.",
+                    "(2) Select the ATX Power Supply in Chapter 6. PC Parts"
                 ],
                 "Advice": [
                     {
@@ -5714,6 +5700,14 @@
                     {
                         "heading": "12V/120W-Already-Owned",
                         "content": "Choose 12V/120W-Already-Owned if you already own a 12V / 120W AC/DC Adapter, e.g. from a ViDock G3 or higher. If you own the 150W or 200W ViDock Adapter, they will work too. 120W is powerful enough for GPU cards that do not require an additional PCIe Aux Power cable. In case you use a 3rd Party Adapter, make sure it has a 5.5 / 2.5 mm Ø DC Jack and Minus is on the outside Ring."
+                    },
+                    {
+                        "heading": "ATX-PSU-650W-EVGA-Gold",
+                        "content": "The selected EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply is of very high quality. The EVGA even gives 10 year warranty. It is very quiet. Thanks to its modular cable design you will have very clean wiring inside your ViDock. This power supply is strong enough to also power ViCase in all possible configurations, if you choose to use the V²P.μATX Power option."
+                    },
+                    {
+                        "heading": "ATX-PSU-Already-Owned",
+                        "content": "Choose this option if you already own an ATX Power Supply. Make sure its power ratings is up to what your GPU is drawing."
                     }
                 ],
                 "Gallery": [
@@ -5756,6 +5750,26 @@
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-cable.jpg",
                         "title": "V²P.12V-120W►Standard DC Connector",
                         "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Size",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►How it looks",
+                        "description": "EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply"
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Power Connection",
+                        "description": "This is a modular power supply. You only plug in the power cables you need. This will keep the inside of your ViDock tidy"
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Power Cables",
+                        "description": "The included Power Cables"
                     }
                 ]
             },
@@ -8069,6 +8083,92 @@
                                 ]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "ATX PSU",
+                "url": "",
+                "id": "SID-",
+                "part": "ATX PSU",
+                "yourChoice": [
+                    {
+                        "name": "ATX-PSU-650W-3rd-Party",
+                        "id": "ID-153",
+                        "img": "",
+                        "tag": "650W Quiet PSU for ViDock GPU",
+                        "link": "http://www.amazon.com/EVGA-ATX-650W/dp/B00K85X2AW",
+                        "value": 75
+                    },
+                    {
+                        "name": "ATX-PSU-Already-Owned",
+                        "id": "ID-154",
+                        "img": "",
+                        "tag": "Use the ATX Power Supply you already have",
+                        "value": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "48W"
+                    },
+                    {
+                        "name": "120W"
+                    },
+                    {
+                        "name": "ATX-650W (2)"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Power for x1 or x4 Cards",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power for x8 or x16 Cards",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power for PCIe Aux (1)",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power for ViDock + ViCase",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination.",
+                    "(2) Select the ATX Power Supply in Chapter 6. PC Parts"
+                ],
+                "Advice": [
+                    {
+                        "heading": "ATX-PSU-650W-EVGA-Gold",
+                        "content": "The selected EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply is of very high quality. The EVGA even gives 10 year warranty. It is very quiet. Thanks to its modular cable design you will have very clean wiring inside your ViDock. This power supply is strong enough to also power ViCase in all possible configurations, if you choose to use the V²P.μATX Power option."
+                    },
+                    {
+                        "heading": "ATX-PSU-Already-Owned",
+                        "content": "Choose this option if you already own an ATX Power Supply. Make sure its power ratings is up to what your GPU is drawing."
                     }
                 ]
             }
