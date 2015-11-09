@@ -5393,13 +5393,30 @@
                         "name": "12V/48W-Already-Owned",
                         "id": "ID-151",
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-120W.jpg",
+                        "tag": "Use the AC Adapter you already have",
                         "value": 0
                     },
                     {
                         "name": "12V/120W-Already-Owned",
                         "id": "ID-152",
                         "img": "images/expansion/config/ViDock/V2P-Power/V²P.pATX-180W.jpg",
+                        "tag": "Use the AC Adapter you already have",
                         "value": 0
+                    },
+                    {
+                        "name": "ATX-PSU-650W-3rd-Party",
+                        "id": "ID-153",
+                        "img": "",
+                        "tag": "650W Quiet PSU for ViDock GPU",
+                        "link": "http://www.amazon.com/EVGA-ATX-650W/dp/B00K85X2AW",
+                        "value": ""
+                    },
+                    {
+                        "name": "ATX-PSU-Already-Owned",
+                        "id": "ID-154",
+                        "img": "",
+                        "tag": "Use the ATX Power Supply you already have",
+                        "value": ""
                     }
                 ],
                 "TableHeading": [
@@ -5412,6 +5429,9 @@
                     },
                     {
                         "name": "120W"
+                    },
+                    {
+                        "name": "ATX-650W"
                     }
                 ],
                 "TableBody": [
@@ -5428,7 +5448,26 @@
                             "No",
                             "Yes"
                         ]
+                    },
+                    {
+                        "title": "Power for PCIe Aux (1)",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "Power for ViDock + ViCase",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
                     }
+                ],
+                "TableTag": [
+                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination."
                 ],
                 "Advice": [
                     {
