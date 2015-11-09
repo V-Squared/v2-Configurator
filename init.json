@@ -6602,7 +6602,7 @@
                     },
                     {
                         "heading": "i5-6500",
-                        "content": "This is a Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often higher performance for you money by investing into a PCIe Add In Card of the type corresponding to your application. The i5-6500 CPU comes with the newly released LGA 1151 socket with the key benefit to support DDR4, which at the same price is twice as fast as DDR3. Also current DDR4 motherboards support larger memory size of up to 32 GB."
+                        "content": "This is the latest generation of Quad Core CPU. Choose this CPU for High End Gaming, Video Editing, Audio Editing, Photo Editing, 3D Design or other very demanding applications. Instead of going all the way to an i7 Quad Core you often get higher performance for your money by investing into a PCIe Add In Card of the type corresponding to your application. The i5-6500 CPU comes with the newly released LGA 1151 socket with the key benefit to support DDR4. DDR4 memory clock starts today at 2133 MHz, versus 1600 MHz of DDR3. Yet you will not see today faster memory transfer rates in real life. This is because the CAS timing is more relaxed as with DDR3 memory. Surely this will change in the future. However, there is one benefit that you can enjoy instantly. DDR4 will allow in an ITX motherboard 32 GB, whereas DDR3 will max out at 16 GB!"
                     },
                     {
                         "heading": "i7-6700K",
