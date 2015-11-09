@@ -5445,6 +5445,7 @@
                         "title": "Power for x1 or x4 Cards",
                         "row": [
                             "Yes",
+                            "Yes",
                             "Yes"
                         ]
                     },
@@ -5452,6 +5453,7 @@
                         "title": "Power for x8 or x16 Cards",
                         "row": [
                             "No",
+                            "Yes",
                             "Yes"
                         ]
                     },
