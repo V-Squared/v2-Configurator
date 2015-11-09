@@ -550,29 +550,29 @@
                 "id": "SID-100",
                 "TableHeading": [
                     {
-                        "name":"Features",
-                        "class":"table-left-title"
+                        "name": "Features",
+                        "class": "table-left-title"
                     },
                     {
-                        "name":"Tiny HT"
+                        "name": "Tiny HT"
                     },
                     {
-                        "name":"Home Theater"
+                        "name": "Home Theater"
                     },
                     {
-                        "name":"Server"
+                        "name": "Server"
                     },
                     {
-                        "name":"Big Game"
+                        "name": "Big Game"
                     },
                     {
-                        "name":"Ultimate Fun"
+                        "name": "Ultimate Fun"
                     }
                 ],
-                "TableBody":[
+                "TableBody": [
                     {
-                        "title":"Home Theater Features",
-                        "class":"tableHeading",
+                        "title": "Home Theater Features",
+                        "class": "tableHeading",
                         "row": [
                             "",
                             "",
@@ -582,7 +582,7 @@
                         ]
                     },
                     {
-                        "title":"Form Factor",
+                        "title": "Form Factor",
                         "row": [
                             "Mini",
                             "AiO",
@@ -592,7 +592,7 @@
                         ]
                     },
                     {
-                        "title":"Large Storage (1)",
+                        "title": "Large Storage (1)",
                         "row": [
                             "-",
                             "-",
@@ -602,8 +602,8 @@
                         ]
                     },
                     {
-                        "title":"PC Gaming",
-                        "row":[
+                        "title": "PC Gaming",
+                        "row": [
                             "No",
                             "No",
                             "No",
@@ -612,7 +612,7 @@
                         ]
                     },
                     {
-                        "title":"Remote Control",
+                        "title": "Remote Control",
                         "row": [
                             "Yes",
                             "Yes",
@@ -622,7 +622,7 @@
                         ]
                     },
                     {
-                        "title":"Optical Drive",
+                        "title": "Optical Drive",
                         "row": [
                             "-",
                             "DVD",
@@ -632,9 +632,9 @@
                         ]
                     },
                     {
-                        "title":"PC Features",
-                        "class":"tableHeading",
-                        "row":[
+                        "title": "PC Features",
+                        "class": "tableHeading",
+                        "row": [
                             "",
                             "",
                             "",
@@ -645,39 +645,39 @@
                 ]
             },
             {
-                "name":"Presentation",
-                "Config":true,
-                "id":"SID-102"
+                "name": "Presentation",
+                "Config": true,
+                "id": "SID-102"
             },
             {
-                "name":"Photo & Video Editing",
-                "Config":true,
-                "id":"SID-103"
+                "name": "Photo & Video Editing",
+                "Config": true,
+                "id": "SID-103"
             },
             {
-                "name":"3D & Creative Design",
-                "Config":true,
-                "id":"SID-104"
+                "name": "3D & Creative Design",
+                "Config": true,
+                "id": "SID-104"
             },
             {
-                "name":"Audio Editing",
-                "Config":true,
-                "id":"SID-105"
+                "name": "Audio Editing",
+                "Config": true,
+                "id": "SID-105"
             },
             {
-                "name":"Office & General PC",
-                "Config":true,
-                "id":"SID-106"
+                "name": "Office & General PC",
+                "Config": true,
+                "id": "SID-106"
             },
             {
-                "name":"Server & NAS",
-                "Config":true,
-                "id":"SID-107"
+                "name": "Server & NAS",
+                "Config": true,
+                "id": "SID-107"
             },
             {
-                "name":"CNC & Industrial",
-                "Config":true,
-                "id":"SID-108"
+                "name": "CNC & Industrial",
+                "Config": true,
+                "id": "SID-108"
             },
             {
                 "name": "Form Factor",
@@ -807,7 +807,7 @@
                         "id": "ID-2",
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "value": 89,
-                        "tag": "Mini-ITX Case: up to i7Quad, 4 Disks, PCIe Slot with GPU Support"
+                        "tag": "up to i7Quad, 2 Disks, PCIe Slot with GPU Support"
                     },
                     {
                         "name": "ViCase-Mini-Value",
