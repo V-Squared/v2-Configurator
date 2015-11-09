@@ -3867,6 +3867,93 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "V²P.pATX Pico ATX Power",
+                "url": "",
+                "id": "SID-76",
+                "part": "V²P.pATX Pico ATX Power",
+                "slide": "slide5",
+                "yourChoice": [
+                    {
+                        "name": "V²P.μATX-200W",
+                        "id": "ID-77",
+                        "img": "",
+                        "value": 19,
+                        "tag": "Provide Power to ViCase from ViDock GPU"
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Feature",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "V²P.pATX-200W"
+                    },
+                    {
+                        "name": "V²P.μATX-200W"
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "Power",
+                        "row": [
+                            "200W",
+                            "200W"
+                        ]
+                    },
+                    {
+                        "title": "Cost",
+                        "row": [
+                            "$49 + $59 = $108",
+                            "$19"
+                        ]
+                    },
+                    {
+                        "title": "Works without ViDock GPU",
+                        "row": [
+                            "Yes",
+                            "No"
+                        ]
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "How does it work",
+                        "content": "ATX power supplies are designed to power the PC Mainboard and the PCIe Add In GPU Card. ViDock GPU contains a regular ATX power supply to power its PCIe Add In GPU Card. V²P.μATX-200W is a kit of PCBs and cables that connects the power of the ATX power supply inside ViDock GPU to the Mini-ITX Mainboard in ViCase. On the plus side this method provides significant cost savings over using V²P.pATX-200W + V²P.12V-240W-Center. On the downside you only can use your ViCase with ViDock."
+                    },
+                    {
+                        "heading": "When not to use V²P.μATX-200W",
+                        "content": "If you want to be able to use your ViCase without ViDock you need an independent power supply, such as V²P.pATX-200W + V²P.12V-240W-Center. Reasons could be that you want to share ViDock GPU with other PCs or that you want to build a portable All-In-One PC."
+                    },
+                    {
+                        "heading": "When to use V²P.μATX-200W",
+                        "content": "If you always want to use your PC with ViDock connected than use V²P.μATX-200W. It provides significant cost savings! In this configuration the ATX power supply works exactly like in a regular Desktop PC, despite that you are using two housings instead of one. That said, each housing is designed with an optimized airflow, providing better cooling at a lower noise level when compared to the standard single Desktop housing."
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "V²P.μATX-200W",
+                        "description": "Standard ATX-24p connector that will provide power to the Mini-ITX Mainboard in ViCase"
+                    },
+                    {
+                        "image": "",
+                        "title": "V²P.μATX-200W►ATX Mother Board Connector",
+                        "description": "24 Pins contain all the many power rail that a Desktop Mother Board needs to work."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²P.pATX-200W►How it works",
+                        "description": "24 Wires connect to the V²C.P3 connector of ViCase, which in turn connects to the V²C.P3 connector in ViDock, which in turn connects to ATX PSU in ViDock."
+                    },
+                    {
+                        "image": "",
+                        "title": "V²P.μATX-200W►Plugged into Mother Board",
+                        "description": "V²P.μATX-200W plugged into Mini-ITX Motherboard"
+                    }
+                ]
             }
         ]
     },
