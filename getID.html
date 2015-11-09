@@ -22,7 +22,7 @@
 
     		    angular.forEach($scope.data,function(chapter) {
     		    	angular.forEach(chapter.data,function(section) {
-                        if(section.id) {
+                        if(section.name) {
                             section.id = section.id.replace('SID-','');
 
                             $scope.sectionIdList.push({name:section.name,id:parseInt(section.id)});
