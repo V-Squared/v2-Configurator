@@ -8137,7 +8137,7 @@
                     {
                         "name": "ATX-PSU-650W-3rd-Party",
                         "id": "ID-153",
-                        "img": "",
+                        "img": "images/expansion/config/Third-party/ATX/Icon1.jpg",
                         "tag": "650W Quiet PSU for ViDock GPU",
                         "link": "http://www.amazon.com/EVGA-ATX-650W/dp/B00K85X2AW",
                         "value": 75
