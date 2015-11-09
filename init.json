@@ -12,7 +12,14 @@
                         "name": "Gaming",
                         "Child_Name": [
                             "#SID-100",
-                            "#SID-101"
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
                         ],
                         "img": "",
                         "value": 0
@@ -22,43 +29,127 @@
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
-                            "#SID-101"
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
                         ],
                         "value": 0
                     },
                     {
                         "name": "Presentation",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "Photo & Video Editing",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "3D & Creative Design",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "Audio Editing",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-106",
+                            "#SID-107",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "Office & General PC",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-107",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "Server & NAS",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-108"
+                        ],
                         "value": 0
                     },
                     {
                         "name": "CNC & Industrial",
                         "img": "",
+                        "Child_Name": [
+                            "#SID-9",
+                            "#SID-100",
+                            "#SID-101",
+                            "#SID-102",
+                            "#SID-103",
+                            "#SID-104",
+                            "#SID-105",
+                            "#SID-106",
+                            "#SID-107"
+                        ],
                         "value": 0
                     }
                 ],
@@ -457,6 +548,41 @@
                 "name": "Home Theater",
                 "Config": true,
                 "id": "SID-100"
+            },
+            {
+                "name":"Presentation",
+                "Config":true,
+                "id":"SID-102"
+            },
+            {
+                "name":"Photo & Video Editing",
+                "Config":true,
+                "id":"SID-103"
+            },
+            {
+                "name":"3D & Creative Design",
+                "Config":true,
+                "id":"SID-104"
+            },
+            {
+                "name":"Audio Editing",
+                "Config":true,
+                "id":"SID-105"
+            },
+            {
+                "name":"Office & General PC",
+                "Config":true,
+                "id":"SID-106"
+            },
+            {
+                "name":"Server & NAS",
+                "Config":true,
+                "id":"SID-107"
+            },
+            {
+                "name":"CNC & Industrial",
+                "Config":true,
+                "id":"SID-108"
             },
             {
                 "name": "Form Factor",
