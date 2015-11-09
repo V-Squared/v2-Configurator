@@ -11,7 +11,8 @@
                     {
                         "name": "Gaming",
                         "Child_Name": [
-                            "#SID-100"
+                            "#SID-100",
+                            "#SID-101"
                         ],
                         "img": "",
                         "value": 0
@@ -20,7 +21,8 @@
                         "name": "Home Theater",
                         "img": "",
                         "Child_Name": [
-                            "#SID-9"
+                            "#SID-9",
+                            "#SID-101"
                         ],
                         "value": 0
                     },
