@@ -550,6 +550,10 @@
                 "id": "SID-100",
                 "TableHeading": [
                     {
+                        "name":"Features",
+                        "class":"table-left-title"
+                    },
+                    {
                         "name":"Tiny HT"
                     },
                     {
