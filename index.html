@@ -132,7 +132,7 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr ng-repeat="hi in Section.TableBody">
+                                                            <tr ng-repeat="hi in Section.TableBody" class="{{hi.class}}">
                                                                 <td class="table-left-title">{{hi.title}}</td>
                                                                 <td ng-repeat="rows in hi.row track by $index" ng-bind-html="rows"></td>
                                                             </tr>

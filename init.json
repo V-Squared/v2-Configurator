@@ -547,7 +547,98 @@
             {
                 "name": "Home Theater",
                 "Config": true,
-                "id": "SID-100"
+                "id": "SID-100",
+                "TableHeading": [
+                    {
+                        "name":"Tiny HT"
+                    },
+                    {
+                        "name":"Home Theater"
+                    },
+                    {
+                        "name":"Server"
+                    },
+                    {
+                        "name":"Big Game"
+                    },
+                    {
+                        "name":"Ultimate Fun"
+                    }
+                ],
+                "TableBody":[
+                    {
+                        "title":"Home Theater Features",
+                        "class":"tableHeading",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title":"Form Factor",
+                        "row": [
+                            "Mini",
+                            "AiO",
+                            "AiO",
+                            "AiO",
+                            "AiO"
+                        ]
+                    },
+                    {
+                        "title":"Large Storage (1)",
+                        "row": [
+                            "-",
+                            "-",
+                            "3TB",
+                            "-",
+                            "3TB"
+                        ]
+                    },
+                    {
+                        "title":"PC Gaming",
+                        "row":[
+                            "No",
+                            "No",
+                            "No",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title":"Remote Control",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title":"Optical Drive",
+                        "row": [
+                            "-",
+                            "DVD",
+                            "DVD",
+                            "-",
+                            "BluRay"
+                        ]
+                    },
+                    {
+                        "title":"PC Features",
+                        "class":"tableHeading",
+                        "row":[
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    }
+                ]
             },
             {
                 "name":"Presentation",
