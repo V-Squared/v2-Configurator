@@ -4444,7 +4444,7 @@
                     {
                         "name": "V²P.μATX-200W",
                         "id": "ID-77",
-                        "img": "",
+                        "img": "images\\expansion\\config\\ViDock\\pATX",
                         "value": 19,
                         "tag": "Provide Power to ViCase from ViDock GPU"
                     }
