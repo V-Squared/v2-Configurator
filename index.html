@@ -110,11 +110,11 @@
                                             <!--Choice = radio buttons-->
 
                                             <!--Normal Choice-->
-                                            <div ng-if="Section.Config == false && Section.name!='Field of Application' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
+                                            <div ng-if="Section.Config != true && Section.name!='Field of Application' && Section.name != 'Form Factor'" ng-repeat="choice in Section.yourChoice">
                                                 <label>
                                                     <input buttondir class="normal-radio" type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button')" data-child="{{ choice.Child_Name }}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}"><span type="button"></span><span style="padding-right:10px;">{{choice.name}}<span ng-if="choice.value!= 0"> - ${{choice.value}}</span></span> <span style="color:#bbb;">{{choice.tag}}</span>  </label>
                                             </div>
-                                            <div ng-if="Section.name!='Gaming Custom PC' && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
+                                            <div ng-if="Section.Config != true && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
                                                     <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None');choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button')" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
