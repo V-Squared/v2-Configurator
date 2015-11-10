@@ -570,7 +570,7 @@
                         "img": "",
                         "id": "ID-35",
                         "for": "ViCase-Big-Space-HT-PC",
-                        "tag": "Home Theater, Server and full PC",
+                        "tag": "$??? - Home Theater, Server and full PC",
                         "value": 0
                     },
                     {
@@ -578,7 +578,7 @@
                         "img": "",
                         "id": "ID-36",
                         "for": "ViCase-Big-Game-HT-PC",
-                        "tag": "Home Theater and Game PC",
+                        "tag": "$??? - Home Theater and Game PC",
                         "value": 0
                     },
                     {
@@ -602,7 +602,7 @@
                         "name": "Home Theater"
                     },
                     {
-                        "name": "Server"
+                        "name": "Big Space"
                     },
                     {
                         "name": "Big Game"
@@ -676,6 +676,146 @@
                     {
                         "title": "PC Features",
                         "class": "tableHeading",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "CPU►Model",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
                         "row": [
                             "",
                             "",
