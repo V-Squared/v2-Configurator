@@ -695,7 +695,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "CPU►Bench (2",
                         "row": [
                             "",
                             "",
@@ -705,7 +705,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "CPU►Overclocking",
                         "row": [
                             "",
                             "",
@@ -715,7 +715,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "CPU►Mem►Size",
                         "row": [
                             "",
                             "",
@@ -725,7 +725,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "CPU►Mem►Type",
                         "row": [
                             "",
                             "",
@@ -735,7 +735,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "GPU►Model",
                         "row": [
                             "",
                             "",
@@ -745,7 +745,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "GPU►Benchmark (3)",
                         "row": [
                             "",
                             "",
@@ -755,7 +755,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "GPU►Mem►Size",
                         "row": [
                             "",
                             "",
@@ -765,7 +765,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "GPU►Mem►Type",
                         "row": [
                             "",
                             "",
@@ -775,7 +775,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Boot Disk►Size",
                         "row": [
                             "",
                             "",
@@ -785,7 +785,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Boot Disk►Speed",
                         "row": [
                             "",
                             "",
@@ -795,7 +795,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Data Disk►Size",
                         "row": [
                             "",
                             "",
@@ -805,7 +805,7 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Data Disk►Speed",
                         "row": [
                             "",
                             "",
@@ -815,7 +815,78 @@
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "OS",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "ViCase Features",
+                        "class": "tableHeading",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "ViCase",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "ViDock",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "ViCase VESA",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "ViCase Access",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "Power Supply",
+                        "row": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "CPU Cooler",
                         "row": [
                             "",
                             "",
