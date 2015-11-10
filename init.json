@@ -8509,6 +8509,28 @@
                         "heading": "ATX-PSU-Already-Owned",
                         "content": "Choose this option if you already own an ATX Power Supply. Make sure its power ratings is up to what your GPU is drawing."
                     }
+                ],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Size",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►How it looks",
+                        "description": "EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply"
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Power Connection",
+                        "description": "This is a modular power supply. You only plug in the power cables you need. This will keep the inside of your ViDock tidy"
+                    },
+                    {
+                        "image": "",
+                        "title": "ATX-650W►Power Cables",
+                        "description": "The included Power Cables"
+                    }
                 ]
             }
         ]
