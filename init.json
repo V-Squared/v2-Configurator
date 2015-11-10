@@ -6089,26 +6089,6 @@
                         "image": "images/expansion/config/ViCase/AC-DC-Adapter/Gallery/12W-120-cable.jpg",
                         "title": "V²P.12V-120W►Standard DC Connector",
                         "description": "5.5 mm Ø outside ring, 2.5 mm Ø hole, Minus on outside ring. We use the same DC Jack for all Products since ViDock G3"
-                    },
-                    {
-                        "image": "",
-                        "title": "ATX-650W►Size",
-                        "description": ""
-                    },
-                    {
-                        "image": "",
-                        "title": "ATX-650W►How it looks",
-                        "description": "EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply"
-                    },
-                    {
-                        "image": "",
-                        "title": "ATX-650W►Power Connection",
-                        "description": "This is a modular power supply. You only plug in the power cables you need. This will keep the inside of your ViDock tidy"
-                    },
-                    {
-                        "image": "",
-                        "title": "ATX-650W►Power Cables",
-                        "description": "The included Power Cables"
                     }
                 ]
             },
@@ -8442,7 +8422,7 @@
                     {
                         "name": "ATX-PSU-Already-Owned",
                         "id": "ID-154",
-                        "img": "",
+                        "img": "images/expansion/config/Third-party/ATX/Icon1.jpg",
                         "tag": "Use the ATX Power Supply you already have",
                         "value": ""
                     }
