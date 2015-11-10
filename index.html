@@ -59,7 +59,7 @@
                                                 <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'hide section')">
                                                     <label>
                                                         <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)"> 
-                                                        <p ng-bind-html="choice.name"></p>
+                                                        <p class="text-center" ng-bind-html="choice.name"></p>
                                                     </label>
                                                 </div>
                                             </div>

@@ -654,3 +654,6 @@ input[type="radio"]:disabled + span[type="button"]{
 .displayNone {
 	display:none;
 }
+#configurator {
+	margin-top: 20px;
+}
