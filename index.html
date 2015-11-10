@@ -56,9 +56,10 @@
                                         <h4 ng-click="toggle($event)" class="fake-link readmore_button block-link open"><i class="fa fa-play fa-rotate-90"></i> Your Choice</h4>
                                         <div class="readmore_area show-first open radio_button collapsable">
                                             <div ng-if="Section.name=='Field of Application'">
-                                                <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase">
+                                                <div ng-repeat="choice in Section.yourChoice" class="col-sm-4 well useCase" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'hide section')">
                                                     <label>
-                                                        <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'hide section')" ng-bind-html="choice.name"> 
+                                                        <input type="radio" name="{{Chapter.name + Section.name}}" style="display:none" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)"> 
+                                                        <p ng-bind-html="choice.name"></p>
                                                     </label>
                                                 </div>
                                             </div>
