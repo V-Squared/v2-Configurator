@@ -687,141 +687,141 @@
                     {
                         "title": "CPU►Model",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Athlon 5350",
+                            "Athlon 5350",
+                            "Athlon 5350",
+                            "i3-4160",
+                            "i3-4160"
                         ]
                     },
                     {
-                        "title": "CPU►Bench (2",
+                        "title": "CPU►Bench (2)",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            2600,
+                            2600,
+                            2600,
+                            5000,
+                            5000
                         ]
                     },
                     {
                         "title": "CPU►Overclocking",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "No",
+                            "No",
+                            "No",
+                            "No",
+                            "No"
                         ]
                     },
                     {
                         "title": "CPU►Mem►Size",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "4GB",
+                            "4GB",
+                            "4GB",
+                            "4GB",
+                            "4GB"
                         ]
                     },
                     {
                         "title": "CPU►Mem►Type",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "DDR3",
+                            "DDR3",
+                            "DDR3",
+                            "DDR3",
+                            "DDR3"
                         ]
                     },
                     {
                         "title": "GPU►Model",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "GTX 750 Ti",
+                            "GTX 750 Ti"
                         ]
                     },
                     {
                         "title": "GPU►Benchmark (3)",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            5700,
+                            5700
                         ]
                     },
                     {
                         "title": "GPU►Mem►Size",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "2GB",
+                            "2GB"
                         ]
                     },
                     {
                         "title": "GPU►Mem►Type",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "-",
+                            "-",
+                            "GDDR5",
+                            "GDDR5"
                         ]
                     },
                     {
                         "title": "Boot Disk►Size",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "120 GB",
+                            "120 GB",
+                            "120 GB",
+                            "120 GB",
+                            "120 GB"
                         ]
                     },
                     {
                         "title": "Boot Disk►Speed",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s",
+                            "450 MB/s"
                         ]
                     },
                     {
                         "title": "Data Disk►Size",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "3TB",
+                            "3TB",
+                            "-",
+                            "-"
                         ]
                     },
                     {
                         "title": "Data Disk►Speed",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "-",
+                            "170 MB/s",
+                            "170 MB/s",
+                            "-",
+                            "-"
                         ]
                     },
                     {
                         "title": "OS",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Ubuntu",
+                            "Ubuntu",
+                            "Ubuntu",
+                            "Ubuntu",
+                            "Ubuntu"
                         ]
                     },
                     {
@@ -838,61 +838,61 @@
                     {
                         "title": "ViCase",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Tiny",
+                            "Mini-Value",
+                            "Ultra",
+                            "Mini",
+                            "Ultra"
                         ]
                     },
                     {
                         "title": "ViDock",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "No",
+                            "No",
+                            "No ",
+                            "No",
+                            "No"
                         ]
                     },
                     {
                         "title": "ViCase VESA",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "No",
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
                         "title": "ViCase Access",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "No",
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     },
                     {
                         "title": "Power Supply",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "48W",
+                            "120W ",
+                            "120W ",
+                            "240W",
+                            "240W"
                         ]
                     },
                     {
                         "title": "CPU Cooler",
                         "row": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "boxed",
+                            "Cooler-L",
+                            "Cooler-L",
+                            "Cooler-L",
+                            "Cooler-L"
                         ]
                     }
                 ],
