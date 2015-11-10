@@ -4444,7 +4444,7 @@
                     {
                         "name": "V²P.μATX-200W",
                         "id": "ID-77",
-                        "img": "images\\expansion\\config\\ViDock\\pATX",
+                        "img": "images/expansion/config/ViDock/pATX/Icon1.jpg",
                         "value": 19,
                         "tag": "Provide Power to ViCase from ViDock GPU"
                     }
@@ -4500,22 +4500,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/ViDock/pATX/Gallery/Gallery1.jpg",
                         "title": "V²P.μATX-200W",
                         "description": "Standard ATX-24p connector that will provide power to the Mini-ITX Mainboard in ViCase"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/ViDock/pATX/Gallery/Gallery2.jpg",
                         "title": "V²P.μATX-200W►ATX Mother Board Connector",
                         "description": "24 Pins contain all the many power rail that a Desktop Mother Board needs to work."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/ViDock/pATX/Gallery/Gallery3.jpg",
                         "title": "V²P.pATX-200W►How it works",
                         "description": "24 Wires connect to the V²C.P3 connector of ViCase, which in turn connects to the V²C.P3 connector in ViDock, which in turn connects to ATX PSU in ViDock."
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/ViDock/pATX/Gallery/Gallery4.jpg",
                         "title": "V²P.μATX-200W►Plugged into Mother Board",
                         "description": "V²P.μATX-200W plugged into Mini-ITX Motherboard"
                     }
