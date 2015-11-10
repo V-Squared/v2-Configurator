@@ -25,7 +25,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Home Theater",
+                        "name": "Home Theater (half done)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -41,7 +41,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Presentation",
+                        "name": "Presentation (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -57,7 +57,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Photo & Video Editing",
+                        "name": "Photo & Video Editing (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -73,7 +73,7 @@
                         "value": 0
                     },
                     {
-                        "name": "3D & Creative Design",
+                        "name": "3D & Creative Design (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -89,7 +89,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Audio Editing",
+                        "name": "Audio Editing (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -105,7 +105,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Office & General PC",
+                        "name": "Office & General PC (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -121,7 +121,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Server & NAS",
+                        "name": "Server & NAS (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -137,7 +137,7 @@
                         "value": 0
                     },
                     {
-                        "name": "CNC & Industrial",
+                        "name": "CNC & Industrial (release on Mon )",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -8439,7 +8439,7 @@
                         "name": "120W"
                     },
                     {
-                        "name": "ATX-650W (2)"
+                        "name": "ATX-650W"
                     }
                 ],
                 "TableBody": [
@@ -8477,8 +8477,7 @@
                     }
                 ],
                 "TableTag": [
-                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination.",
-                    "(2) Select the ATX Power Supply in Chapter 6. PC Parts"
+                    "(1) GPU cards have additional PCIe Aux connector. They come in 6 Pin or 8 Pin and there can be two of them in any combination. We chose an ATX PSU that provides the proper connection for every combination."
                 ],
                 "Advice": [
                     {
