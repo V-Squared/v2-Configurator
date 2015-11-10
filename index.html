@@ -140,7 +140,7 @@
                                                     </table>
                                                     <div ng-if="Section.TableTag">
                                                         <ul>
-                                                            <li style="font-size:11;" ng-repeat="Tag in Section.TableTag">{{Tag}}</li>
+                                                            <li ng-bind-html="Tag" style="font-size:11;" ng-repeat="Tag in Section.TableTag"></li>
                                                         </ul>
                                                     </div>
                                                 </div>
