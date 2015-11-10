@@ -8492,22 +8492,22 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/ATX/Gallery/Gallery1.jpg",
                         "title": "ATX-650W►Size",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/ATX/Gallery/Gallery2.jpg",
                         "title": "ATX-650W►How it looks",
                         "description": "EVGA SuperNOVA 650 G1 80+ GOLD, 650W ATX Power Supply"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/ATX/Gallery/Gallery3.jpg",
                         "title": "ATX-650W►Power Connection",
                         "description": "This is a modular power supply. You only plug in the power cables you need. This will keep the inside of your ViDock tidy"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Third-party/ATX/Gallery/Gallery4.jpg",
                         "title": "ATX-650W►Power Cables",
                         "description": "The included Power Cables"
                     }
