@@ -684,6 +684,92 @@
                             ""
                         ]
                     }
+                ],
+                "TableTag": [
+                    "These are idea configurations. You can change any parts in the Configurator",
+                    "(1) You can easily add up to 12 TB of integrated storage. Just choose the corresponding Data Disks in the chapter PC Parts ",
+                    "(2) CPU Benchmark as per <a href=\"https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4160+%40+3.60GHz\" target=\" _blank \">PassMark's CPU Benchmarks</a>",
+                    "(3) 3D Benchmark as per Futuremark's GPU Benchmarks <a href=\"http://www.futuremark.com/hardware/gpu/NVIDIA+GeForce+GTX+750+Ti/review\" target=\" _blank \">Futuremark's GPU Benchmarks</a>"
+                ],
+                "Advice": [
+                    {
+                        "heading": "Who is the ViCase Home Theater PC for",
+                        "content": "You are a technically interested person or you know someone to help you. You want a small, beautiful, powerful and extremely quiet custom build PC with the key Field of Application being Home Theater PC. Since ViCase PC is a standard PC you can of course do all other things with it. That being said, all parts have been chosen to deliver the best Home Theater and Fun experience for your money, with the special option to include a full Game PC and Server. You do not need to have DIY Custom PC experience. The V²Configurator will create an optimized configuration for you that works. When your PC arrives in parts, you will follow our instruction Videos on how to assemble your ViCase PC. If you can use a screw driver and follow instructions in a video you will be fine and reward yourself with a Home Theater PC that is beautiful, powerful, upgradeable and may have features important to you that you can not find elsewhere."
+                    },
+                    {
+                        "heading": "Quiet, Small, Beautiful",
+                        "content": "All ViCase Home Theater PCs are designed with great care to be whisper quiet. No hum or buzzing will distract you when you listen to your music or watch a movie. The beautiful and small design matches your living room atmosphere."
+                    },
+                    {
+                        "heading": "Fast & Full PC Advantage",
+                        "content": "All models are full PCs, fast CPU, fast RAM, fast Boot SSD. Some models have very large and high quality Data Disks and a descent Game GPU card. The performance is very different from a stripped down Home Theater PC appliance. You get a full custom build PC of high quality that you can expand or upgrade in every which way and whenever you want to. This is particular useful since technologies for the Home Theater PC are still emerging, just look at SteamOS beta to mention only one. Now you easily can stay up to date."
+                    },
+                    {
+                        "heading": "Full All-In-One Package",
+                        "content": "All Home Theater PCs (except for Tiny HT) come with full All-In-One package. Make your PC disappear completely, yet at the same time have full access to its ports, controls and optical drive. Check out the Gallery, Comparison Table and the All-In-One Conversion Chapter for more details."
+                    },
+                    {
+                        "heading": "Integrated Server Model",
+                        "content": "The models Server and Ultimate Fun come with big Storage integrated in the form of 3.5\" Hard Disk(s). This means you do not need to set up an additional server. The suggested 3TB is plenty of space for your music, movie collection and your own family photos and movies. You can expand to up to 12 TB."
+                    },
+                    {
+                        "heading": "Integrated Game PC Model",
+                        "content": "Game PC quality and frame rates in your living room. The i3 or i5 + GTX 750Ti is a dramatic step up to game consoles. Yet ViCase gives you the small size, nice design and low noise."
+                    },
+                    {
+                        "heading": "Stand Alone Fun PC",
+                        "content": "Home Theater PC, Server and Custom Build Game PC All-In-One tiny ViCase."
+                    },
+                    {
+                        "heading": "Ubuntu or Windows",
+                        "content": "Ubuntu and Windows 10 are both fun to use and up to the task. Ubuntu is free of cost. Windows 10 is recommended if you want to play the heavy shooter PC Games. For more advice, check out the \"OS\" Section in the Chapter \"Accessories\"."
+                    },
+                    {
+                        "heading": "Backup your Family Life",
+                        "content": "If you do not have a Backup Solution yet, check out \"Backup Drive\" and \"NAS Server\" in the Chapter \"Accessories\". There are options for save, affordable and easy to implement backups or the luxury all automated one."
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "title": "Living Room All-In-One Gaming PC",
+                        "image": "",
+                        "description": "ViCase Gaming PC will not change your Living Room at all, it is invisibly placed behind your TV or inside the shelf, yet you have access to controls, ports and optical disk drive."
+                    },
+                    {
+                        "title": "All-In-One Gaming PC",
+                        "image": "",
+                        "description": "Finally an All-In-One PC with Desktop GPU that can play the latest PC games in highest settings and is upgradeable."
+                    },
+                    {
+                        "title": "Surround All-In-One Gaming PC",
+                        "image": "",
+                        "description": "3 Display surround gaming is great fun. ViCase All-In-One makes it good looking too!"
+                    },
+                    {
+                        "title": "Mini Gaming PC",
+                        "image": "",
+                        "description": "ViCase Mini is so small and cute, that you may prefer place it beside your display :-)"
+                    },
+                    {
+                        "title": "Size",
+                        "image": "",
+                        "description": "Left to Right: Coke Can, ViCase Tiny, ViCase Mini, ViCase Ultra"
+                    },
+                    {
+                        "title": "ViCase Tiny",
+                        "image": "",
+                        "description": "Case for ViCase HTPC Model: Tiny"
+                    },
+                    {
+                        "title": "ViCase Mini",
+                        "image": "",
+                        "description": "Case for ViCase HTPC Model: Home Theater, Big Game"
+                    },
+                    {
+                        "title": "ViCase Ultra",
+                        "image": "",
+                        "description": "Case for ViCase HTPC Model: Big Space, Ultimate Fun"
+                    }
                 ]
             },
             {
