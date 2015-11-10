@@ -9,7 +9,7 @@
                 "id": "SID-8",
                 "yourChoice": [
                     {
-                        "name": "Gaming<br>&nbsp",
+                        "name": "Gaming<br>  ",
                         "Child_Name": [
                             "#SID-100",
                             "#SID-101",
@@ -25,7 +25,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Home Theater (half done)",
+                        "name": "Home Theater<br> ",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -41,7 +41,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Presentation (release on Mon )",
+                        "name": "Presentation<br>release on Nov. 16th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -57,7 +57,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Photo & Video Editing (release on Wed )",
+                        "name": "Photo & Video Editing<br>release on Nov. 18th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -73,7 +73,7 @@
                         "value": 0
                     },
                     {
-                        "name": "3D & Creative Design (release on Fir )",
+                        "name": "3D & Creative Design<br>release on Nov. 20th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -89,7 +89,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Audio Editing (release on Mon )",
+                        "name": "Audio Editing<br>release on Nov. 23th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -105,7 +105,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Office & General PC (release on Wed )",
+                        "name": "Office & General PC<br>release on Nov. 25th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -121,7 +121,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Server & NAS (release on Fir )",
+                        "name": "Server & NAS<br>release on Nov. 27th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -137,7 +137,7 @@
                         "value": 0
                     },
                     {
-                        "name": "CNC & Industrial (release on Mon )",
+                        "name": "CNC & Industrial<br>release on Nov. 30th",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
