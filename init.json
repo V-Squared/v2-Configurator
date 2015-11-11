@@ -3080,14 +3080,14 @@
                         "id": "ID-15",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-M160x90.jpg",
                         "value": 29,
-                        "tag": "Active CPU Cooler, 55W TDP with thermal cycling"
+                        "tag": "Active CPU Cooler, 65W TDP with thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-L",
                         "id": "ID-16",
                         "img": "images/expansion/config/ViCase/ViCase-Cooler/ViCase-Cooler-L-90P.jpg",
                         "value": 19,
-                        "tag": "Active CPU Cooler, 88W TDP without thermal cycling"
+                        "tag": "Active CPU Cooler, 65W TDP without thermal cycling"
                     },
                     {
                         "name": "ViCase-Cooler-XL",
@@ -3290,7 +3290,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M.jpg",
                         "title": "Cooler M",
-                        "description": "Active CPU Cooler. 55W TDP. Supports Intel Mid Range CPUs in ViCase-Tiny"
+                        "description": "Active CPU Cooler. 65W TDP. Supports Intel Mid Range CPUs in ViCase Tiny"
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-M-Bottom.jpg",
@@ -3310,7 +3310,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L.jpg",
                         "title": "Cooler L",
-                        "description": "Active CPU Cooler. 65W TDP recommended. Supports Intel Mid Range CPUs in ViCase Mini without thermal cycling and yet remains virtually inaudible."
+                        "description": "Active CPU Cooler. 65W TDP without cycling. Supports Intel Mid Range CPUs in ViCase Mini without thermal cycling and yet remains virtually inaudible."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-L-Bottom.jpg",
@@ -3330,7 +3330,7 @@
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL.jpg",
                         "title": "Cooler XL",
-                        "description": "Active CPU Cooler. 95W TDP recommended. Supports Intel High End CPUs in ViCase-Mini without thermal cycling and yet remains quiet."
+                        "description": "Active CPU Cooler. 100W TDP recommended. Supports Intel High End CPUs in ViCase Mini without thermal cycling and yet remains quiet."
                     },
                     {
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Bottom.jpg",
