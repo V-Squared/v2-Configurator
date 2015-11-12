@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-9" id="configurator">
                     <h1 id="check-me-out" class="clearfix">V²Configuration <span class="float-right" data-toggle="modal" data-target="#ConfigurationHelp"><i data-toggle="tooltip" data-placement="top" title="Help" class="fa fa-question-circle useCase"></i></span></h1>
-                    <div ng-repeat="Chapter in data" class="panel panel-default">
+                    <div ng-repeat="Chapter in data" class="panel panel-default {{Chapter.class}}">
                         <div ng-click="toggle($event)" class="panel-heading con-fig-header">
                             <h2><i class="fa fa-play"></i> {{Chapter.name}}</h2>
                         </div>

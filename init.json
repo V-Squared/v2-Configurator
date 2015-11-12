@@ -6,6 +6,7 @@
             {
                 "name": "Field of Application",
                 "url": "",
+                "class":"Wizard",
                 "id": "SID-8",
                 "yourChoice": [
                     {
@@ -1121,6 +1122,7 @@
     {
         "name": "2. Mini Case",
         "id": "ID-2",
+        "class":"Normal",
         "data": [
             {
                 "name": "ViCase Size",
@@ -3354,6 +3356,7 @@
     {
         "name": "3. All-In-One Converter",
         "id": "ID-3",
+        "class":"Normal",
         "data": [
             {
                 "name": "ViCase All-In-One",
@@ -3944,6 +3947,7 @@
     {
         "name": "4. Power",
         "id": "ID-4",
+        "class":"Normal",
         "data": [
             {
                 "name": "V²P.12V AC / DC Adapter",
@@ -4526,6 +4530,7 @@
     {
         "name": "5. PCIe Expansion",
         "id": "ID-5",
+        "class":"Normal",
         "data": [
             {
                 "name": "ViDock",
@@ -6537,6 +6542,7 @@
     {
         "name": "6. PC Parts",
         "id": "ID-6",
+        "class":"Normal",
         "data": [
             {
                 "url": "images/expansion/config/mainBoard.jpg",
@@ -8517,6 +8523,7 @@
     {
         "name": "7. Accessories",
         "id": "ID-7",
+        "class":"Normal",
         "data": [
             {
                 "url": "images/expansion/config/windows-7-logo.png",

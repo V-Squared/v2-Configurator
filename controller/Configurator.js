@@ -75,7 +75,7 @@ app.controller('myCtrl', function($scope, $http) {
 
         var config = [];
 
-        $('#configurator input[type=radio]:checked').each(function(i) {
+        $('.Normal input[type=radio]:checked').each(function(i) {
             if(!$(this).hasClass('None') && $(this).attr('id') != undefined) {
                 var stuff = $(this).attr('id');
                 var id = '#' + stuff;
