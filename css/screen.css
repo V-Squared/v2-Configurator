@@ -657,3 +657,6 @@ input[type="radio"]:disabled + span[type="button"]{
 #configurator {
 	margin-top: 20px;
 }
+Chapter,Section {
+	display: block;
+}

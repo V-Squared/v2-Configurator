@@ -1134,7 +1134,28 @@
                 "yourChoice": [
                     {
                         "name": "ViCase-Tiny",
+                        "Main":true,
                         "id": "ID-1",
+                        "Extra": [
+                            {
+                                "name":"Tiny",
+                                "link":"https://www.google.com",
+                                "price":79,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird Tiny",
+                                "link":"https://www.google.com",
+                                "price":59,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature Tiny",
+                                "link":"https://www.google.com",
+                                "price":59,
+                                "Discount":40
+                            }
+                        ],
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Tiny-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "Child_Name": [
@@ -1146,24 +1167,87 @@
                     {
                         "name": "ViCase-Mini",
                         "id": "ID-2",
+                        "Main":true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "value": 89,
+                        "Extra": [
+                            {
+                                "name":"Mini",
+                                "link":"https://www.google.com",
+                                "price":89,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird Mini",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature Mini",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            }
+                        ],
                         "tag": "up to i7Quad, 2 Disks, PCIe Slot with GPU Support"
                     },
                     {
                         "name": "ViCase-Mini-Value",
                         "id": "ID-146",
+                        "Main":true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 59,
+                        "Extra": [
+                            {
+                                "name":"Mini Value",
+                                "link":"https://www.google.com",
+                                "price":59,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird Mini Value",
+                                "link":"https://www.google.com",
+                                "price":49,
+                                "Discount":30
+                            },
+                            {
+                                "name":"Early Signature Mini Value",
+                                "link":"https://www.google.com",
+                                "price":49,
+                                "Discount":30
+                            }
+                        ],
                         "tag": "ViCase-Mini, but all inside parts made of plastic"
                     },
                     {
                         "name": "ViCase-Ultra",
                         "id": "ID-3",
+                        "Main":true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 99,
+                        "Extra": [
+                            {
+                                "name":"Ultra",
+                                "link":"https://www.google.com",
+                                "price":99,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird Ultra",
+                                "link":"https://www.google.com",
+                                "price":79,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature Ultra",
+                                "link":"https://www.google.com",
+                                "price":79,
+                                "Discount":40
+                            }
+                        ],
                         "tag": "Mini-ITX Case: up to i7Quad, 8 Disks, PCIe Slot with GPU Support"
                     }
                 ],
@@ -4536,11 +4620,33 @@
                 "name": "ViDock",
                 "id": "SID-20",
                 "url": "",
+                "Main":true,
                 "part": "SFF",
                 "yourChoice": [
                     {
                         "name": "ViDock-PCIe-S",
                         "id": "ID-26",
+                        "Main":true,
+                        "Extra": [
+                            {
+                                "name":"ViDock-PCIe-S",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird ViDock-PCIe-S",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature ViDock-PCIe-S",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            }
+                        ],
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
                         "value": "69",
                         "tag": "Modular PCIe Expansion Box for short PCIe Cards. Aluminum Case."
@@ -4548,13 +4654,55 @@
                     {
                         "name": "ViDock-PCIe-L",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
+                        "Main":true,
                         "id": "ID-27",
+                        "Extra": [
+                            {
+                                "name":"ViDock-PCIe-L",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird ViDock-PCIe-L",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature ViDock-PCIe-L",
+                                "link":"https://www.google.com",
+                                "price":69,
+                                "Discount":40
+                            }
+                        ],
                         "value": "69",
                         "tag": "Modular PCIe Expansion Box for long PCIe Cards. Aluminum Case."
                     },
                     {
                         "name": "ViDock-GPU",
                         "id": "ID-28",
+                        "Main":true,
+                        "Extra": [
+                            {
+                                "name":"ViDock-GPU",
+                                "link":"https://www.google.com",
+                                "price":99,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird ViDock-GPU",
+                                "link":"https://www.google.com",
+                                "price":99,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature ViDock-GPU",
+                                "link":"https://www.google.com",
+                                "price":99,
+                                "Discount":40
+                            }
+                        ],
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
                         "value": "99",
                         "tag": "Modular PCIe Expansion Box for GPU Cards. Aluminum Case."
@@ -4562,8 +4710,29 @@
                     {
                         "name": "ViDock-GPU-Cheapo",
                         "id": "ID-29",
+                        "Main":true,
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
                         "value": "49",
+                        "Extra": [
+                            {
+                                "name":"ViDock-GPU-Cheapo",
+                                "link":"https://www.google.com",
+                                "price":49,
+                                "Discount":20
+                            },
+                            {
+                                "name":"Early Bird ViDock-GPU-Cheapo",
+                                "link":"https://www.google.com",
+                                "price":49,
+                                "Discount":40
+                            },
+                            {
+                                "name":"Early Signature ViDock-GPU-Cheapo",
+                                "link":"https://www.google.com",
+                                "price":49,
+                                "Discount":40
+                            }
+                        ],
                         "tag": "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
                     }
                 ],

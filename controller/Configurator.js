@@ -1,4 +1,4 @@
-var app = angular.module('configApp', ['ngSanitize']);
+var app = angular.module('configApp', ['ngSanitize','ngAnimate']);
 
 app.directive('navbar',function() {
     return {
@@ -29,9 +29,83 @@ app.directive('datasheet',function() {
   }
 });
 
+app.directive('uibCollapse',function($animate) {
+  return {
+    restrict:'A',
+    link: function(scope,element,attrs) {
+
+      var duration = (attrs.duration || '0.2s');
+
+      var padding = attrs.padding;
+
+      function expand () {
+        //I use dom to insert class instead of ng-class
+        //is because ng-animate will also add the animate pre-fix to the class
+        //if I use ng-class
+        element
+          .css({paddingBottom:padding,paddingTop:padding})
+          .addClass('collapsing')
+          .removeClass('collapse')
+
+        $animate.addClass(element,'in',{
+          to:{height: element[0].scrollHeight + 'px'},
+          duration:duration
+        }).then(expandDone);
+      }
+
+      function expandDone () {
+        element
+          .addClass('collapse')
+          .removeClass('collapsing')
+          .css({height:'auto'});
+      }
+
+      function collapse () {
+        if (!element.hasClass('collapse') && !element.hasClass('in')) {
+          return collapseDone();
+        }
+
+        //CAUTION : Must define css before adding class or weird things
+        //will happen
+
+        element
+          .css({height: element[0].scrollHeight + 'px',paddingBottom: '0',paddingTop: '0'})
+          .addClass('collapsing')
+          .removeClass('collapse');
+
+
+        $animate.removeClass(element,'in', {
+          to:{height: '0'},
+          duration:duration
+        }).then(collapseDone);
+      }
+
+      function collapseDone () {
+        element
+          .addClass('collapse')
+          .removeClass('collapsing')
+          .css('height','0');
+
+      }
+
+      scope.$watch(attrs.uibCollapse,function(newCollapse) {
+        if(newCollapse) {
+          collapse();
+        } else {
+          expand();
+        }
+      })
+    }
+  }
+});
+
 
 app.controller('myCtrl', function($scope, $http) {
     $('[data-toggle="tooltip"]').tooltip();
+
+    $scope.ChapterCollapse = true;
+    $scope.SectionCollapse = true;
+    $scope.ChoiceCollapse = false;
 
     //this can be pulled and put into a angular service
 
@@ -96,7 +170,7 @@ app.controller('myCtrl', function($scope, $http) {
 
        $scope.counter = $(".panel:not(:first)").find(".None").length;
        setTimeout(function() {
-          $(".panel:not(:first)").find(".None").each(function() {//Reset App     
+          $(".panel:not(:first)").find(".None").each(function() {//Reset App
                $(this).trigger("click");
                //console.log($scope.counter);
                if ($scope.counter <= 1) {//once everything is set to none then start ready now
@@ -136,7 +210,7 @@ app.controller('myCtrl', function($scope, $http) {
 
         $scope.counter = $(".panel:not(:first)").find(".None").length;
         setTimeout(function() {
-           $(".panel:not(:first)").find(".None").each(function() {//Reset App     
+           $(".panel:not(:first)").find(".None").each(function() {//Reset App
                 $(this).trigger("click");
                 //alert($scope.counter);
                 //console.log($scope.counter);
@@ -158,16 +232,18 @@ app.controller('myCtrl', function($scope, $http) {
     $scope.Display_Number = $scope.cart["ID-1"]["SID-11"].lastclicked;
     $scope.img1 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Front.jpg";
     $scope.img2 = caseSize + "-" + FormFactor + "-" + $scope.Display_Number + "-Rear.jpg";
-    
+
     //console.log($scope.Display_Number);
    }
- 
-    $scope.initIndex = function(chapterIndex,chapterName, SectionIndex,SectionName, item) {
+
+    $scope.initIndex = function(chapterIndex,chapterName, SectionIndex,SectionName, item, group) {
         ////console.log(arguments);
 
         //chapterIndex = chapter
         //SectionIndex = Section
         //values = radio button
+
+        //alert(group);
 
         if (typeof $scope.cart[chapterIndex] === 'undefined') {
             $scope.cart[chapterIndex] = {};
@@ -180,13 +256,14 @@ app.controller('myCtrl', function($scope, $http) {
             $scope.cart[chapterIndex][SectionIndex]["lastclicked"] = null;
             $scope.cart[chapterIndex][SectionIndex]["lastclickedChildren"] = null;
             $scope.cart[chapterIndex][SectionIndex]["cost"] = 0;
+            $scope.cart[chapterIndex][SectionIndex]["group"] = group;
             $scope.cart[chapterIndex][SectionIndex].name = SectionName;
         }
         if (typeof $scope.cart[chapterIndex][SectionIndex]["data"] === 'undefined') {
             $scope.cart[chapterIndex][SectionIndex]["data"] = {}; //this is what the checkboxes bind to
         }
         $scope.cart[chapterIndex][SectionIndex]["data"][item.name] = item.value;
- 
+
         ////console.log($scope.cart);
 
 
@@ -212,16 +289,144 @@ app.controller('myCtrl', function($scope, $http) {
         });
     }
 
+    $scope.ViCaseProducts = [];
+    $scope.ViCaseMain = [];
+    $scope.ViCaseProductsTotal = 0;
+    $scope.ViDockMain = [];
+    $scope.ViDockProducts = [];
+    $scope.ViDockProductsTotal = 0;
+
+
+    function getProductArray (button,group,chapterPosition,sectionPosition) {
+
+      var productArray = [];
+      var mainArray = [];
+      var total = 0;
+
+      chapterPosition = parseInt(chapterPosition);
+
+      if(chapterPosition > 0 && chapterPosition < 4 ) {
+        productArray = $scope.ViCaseProducts;
+        mainArray = $scope.ViCaseMain;
+        total = $scope.ViCaseProductsTotal;
+      }
+
+      if(chapterPosition == 4){
+        productArray = $scope.ViDockProducts;
+        mainArray = $scope.ViDockMain;
+        total = $scope.ViDockProductsTotal;
+      }
+
+      //button stuff
+      var id = button.id,
+          name = button.name,
+          price = button.value;
+
+
+      //add new group button
+      var addProductKind = true;
+
+      //delete last button in group variable
+      var cutProductNumber = 0;
+      var cutProductNumberState = false;
+
+      //position
+      var chapterPosition  = chapterPosition.toString(),
+      sectionPosition = sectionPosition.toString();
+
+      var position = chapterPosition + sectionPosition;
+
+      position = parseInt(position);
+
+      if(button.Main) {
+
+        for(var i = 0; i < mainArray.length; i++) {
+
+          if(id == mainArray[i].id) {
+            addProductKind = false;
+          }
+
+          if(group == mainArray[i].group) {
+            cutProductNumber = i;
+            cutProductNumberState = true;
+          }
+
+          if(cutProductNumberState) {
+            mainArray.splice(cutProductNumber,3);
+            cutProductNumberState = false;
+          }
+
+        }
+
+        for (var i = 0; i < button.Extra.length; i++) {
+          if(addProductKind) {
+            mainArray.push({
+              id:id,
+              name:name,
+              price:button.Extra[i].price,
+              group:group,
+              position:position,
+              PerkName:button.Extra[i].name,
+              PerkLink:button.Extra[i].link,
+              Discount:button.Extra[i].Discount
+            });
+          }
+        };
+
+        console.debug(mainArray);
+
+        return;
+      }
+
+
+      for(var i = 0; i < productArray.length; i++) {
+
+        //if the same button
+        if(id == productArray[i].id) {
+          addProductKind = false;
+        }
+        //if same group
+        if(group == productArray[i].group) {
+          cutProductNumber = i;
+          cutProductNumberState = true;
+          productArray.splice(i,1);
+          
+          total-=price;
+        }
+
+      }
+
+      //delete the prevois button in the same group
+
+      //add new button for section
+      if(addProductKind) {
+        productArray.push({id:id,name:name,price:price,group:group,position:position});
+      }
+      total+=price;
+
+
+      if(chapterPosition > 1  && chapterPosition < 4) {
+        $scope.ViCaseProductsTotal = total;
+      }
+
+      if(chapterPosition == 4){
+        $scope.ViDockProductsTotal = total;
+      }
+
+      console.debug($scope.ViCaseProducts);
+    }
+
     $scope.priceToNum = function(value) {
         return Number(value.toString().replace(/[^0-9\.]+/g, ""));
     }
-    $scope.radioClick = function(button,chapter, section,Child_Name,state) {
+    $scope.radioClick = function(button,chapter, section,Child_Name,state,group,chapterPosition,sectionPosition) {
       ////console.log(Child_Name);
         //console.log(arguments);
         cart = $scope.cart,
         chap = $scope.cart[chapter],
         sec = $scope.cart[chapter][section];
-        
+        //alert(position);
+
         if (sec["lastclicked"] != button.name) { //if different item clicked
             if (sec["lastclicked"] != null && sec["lastclicked"] != "None") { //if not first selection
 
@@ -241,7 +446,6 @@ app.controller('myCtrl', function($scope, $http) {
 
                 button.value = $scope.priceToNum(button.value);
 
-
                 cart.count++; //add back count
                 chap.count++; //add back count
 
@@ -255,6 +459,12 @@ app.controller('myCtrl', function($scope, $http) {
             sec.lastclickedLink = button.link;
             sec.cost = button.value;
 
+            if(state != 'hide section') {
+            getProductArray(button,group,chapterPosition,sectionPosition);
+          }
+
+            //console.log($scope.cart);
+
             if (state == 'disable button') {
               $scope.disableButton(Child_Name,'disable button');
             } else if (state == 'hide button') {
@@ -263,7 +473,7 @@ app.controller('myCtrl', function($scope, $http) {
             } else {
               $scope.disableButton(Child_Name,'hide section');
             }
-            
+
         }
 
         //recalulate 3rd party cost, this can be refactored by adding a type to each radio button village vs 3rd party.
@@ -302,7 +512,7 @@ app.controller('myCtrl', function($scope, $http) {
           }
 
 
-           if($(value).is(':checked')) { 
+           if($(value).is(':checked')) {
                 //alert("uncheck "+value);
                setTimeout(function() {
                    $(value).closest(".readmore_area").children().last().find("input").trigger( "click" );//find None option in that section and click it
@@ -313,9 +523,9 @@ app.controller('myCtrl', function($scope, $http) {
 
            $(value).prop('disabled',true);
 
-           
+
             //alert("disable "+value);
-         
+
           if(typeof $scope.disabledButtons[value] == 'undefined' ){//as buttons get disabled count how many options are disabling them
             $scope.disabledButtons[value]=1
           }else{
@@ -325,12 +535,12 @@ app.controller('myCtrl', function($scope, $http) {
     }
 
     $scope.enableButton = function(button,state) {
-         //$scope.cart[chapterIndex][SectionIndex]["lastclicked"]     
-         
+         //$scope.cart[chapterIndex][SectionIndex]["lastclicked"]
+
          angular.forEach(button, function(value, index) {
                  if($scope.disabledButtons[value]>1){
                    //alert(value+ " Remains disabled for now");
-                   $scope.disabledButtons[value]-=1; 
+                   $scope.disabledButtons[value]-=1;
                  }else{
                   $scope.disabledButtons[value]=0;
                  // alert("enable "+value);
@@ -341,14 +551,14 @@ app.controller('myCtrl', function($scope, $http) {
                  } else {
                   $(value).closest('div').show();
                  }
-                  
+
                   //alert(value);//$(value).find('span').removeClass('ghost');
                  }
-                 
-                 
-           			
+
+
+
          });
-      
+
       /*
          $('.well').each(function() {
           //Find the radio button that is not checked
