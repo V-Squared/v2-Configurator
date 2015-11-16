@@ -269,11 +269,11 @@
                     </div>
                     <hr>
                     <div class="row">
-                    <div class="col-sm-7">
-                        <button style="display:block" data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Checkout<br>Indiegogo</button>
+                    <div class="col-sm-6">
+                        <button style="display:block;width:100%" data-toggle="modal" data-target="#VillageModal" class="btn btn-primary checkout"><i class="fa fa-cart-arrow-down"></i> Indiegogo<br>Checkout</button>
                     </div>
-                    <div class="col-sm-5" id="right-button-column">
-                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> 3rd Party</button>
+                    <div class="col-sm-6">
+                        <button style="width:100%" data-toggle="modal" data-target="#ThirdPartyModal" class="btn btn-info checkout"> <i class="fa fa-cart-arrow-down"></i> Third Party<br>Checkout</button>
                     </div>
                     </div>
                      <div class="clearfix"></div>
@@ -324,7 +324,7 @@
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Indiegogo Check Out of ViCase and ViDock <span data-toggle="modal" data-target="#villageHelp" class="pull-right fake-link"><i class="fa fa-question-circle"></i></span></h4>
+            <h4 class="modal-title" id="myModalLabel">Indiegogo Check Out of ViCase and ViDock <span data-toggle="modal" data-target="#villageHelp" class="pull-right fake-link" style="padding-right:10px;"><i class="fa fa-question-circle"></i></span></h4>
           </div>
           <div class="modal-body clearfix">
             <!--<div ng-repeat="(chapters, cvalue) in cart">
@@ -342,8 +342,8 @@
             <table class="table table-striped">
                 <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Perk</th>
+                    <th>ViCase Model</th>
+                    <th>Perk discount option</th>
                     <th>Ship Date</th>
                     <th>Price</th>
                     <th>Discount</th>
@@ -365,7 +365,7 @@
             <table class="table table-striped">
             <thead>
               <tr>
-                <th>Product</th>
+                <th>ViCase Model</th>
                 <th>Ship Date</th>
                 <th>Price</th>
               </tr>
@@ -393,8 +393,8 @@
             <table class="table table-striped">
              <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Perk</th>
+                    <th>ViDock Model</th>
+                    <th>Perk discount option</th>
                     <th>Ship Date</th>
                     <th>Price</th>
                     <th>Discount</th>
@@ -404,7 +404,7 @@
                 <tr ng-repeat="product in ViDockMain | orderBy : '-name'">
                     <td>{{product.name}}</td>
                     <td><a ng-href="{{product.PerkLink}}">{{product.PerkName}}</a></td>
-                    <td>June 2016</td>
+                    <td>September 2016</td>
                     <td>${{product.price}}</td>
                     <td>${{product.Discount}}</td>
                 </tr>
@@ -418,7 +418,7 @@
             <table class="table table-striped">
              <thead>
               <tr>
-                <th>Product</th>
+                <th>ViDock Model</th>
                 <th>Ship Date</th>
                 <th>Price</th>
               </tr>
@@ -426,7 +426,7 @@
                <tbody>
               <tr ng-repeat="product in ViDockProducts | orderBy : '-position' : true" ng-if="product.name != 'None'">
                 <td>{{product.name}}</td>
-                <td>May 2016</td>
+                <td>September 2016</td>
                 <td>${{product.price}}</td>
               </tr>
               <tr>
@@ -540,17 +540,19 @@
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Help V²Summary</h4>
+            <h4 class="modal-title" id="myModalLabel">Help Indiegogo Checkout</h4>
           </div>
           <div class="modal-body clearfix">
-            <h2>V²Summary Pane</h2>
-            <p>This Pane shows all your parts which your Custom PC will be made off. On a wide screen it is shown to the right. On a small screen to the bottom of the page.</p>
-            <h2>Sub-Summaries</h2>
-            <p>For you convenience the costs are grouped. Each group can be unfolded or collapsed to assist your overview.</p>
-            <h2>Total Cost</h2>
-            <p>Total cost is shown on the bottom. Please read the disclaimer when unfolded to avoid any confusion.</p>
-            <h2>Check Out</h2>
-            <p>Pressing the Checkout Button opens the Checkout Window, which list all items. When clicking the item a new tab opens with its online shop page. Within the "Checkout Village Parts" window all links will open our parts on Indiegogo. Within the "Checkout Third Party" Window all links will open the respective 3rd Party Parts on Amazon or Newegg. We have no association with either shop. You are welcome to buy the same or similar part in another shop of your preference.</p>
+            <h2>What is an Indiegogo Checkout?</h2>
+            <p>Indiegogo is the leading world wide fundraising site. In our case it helps us to raise the funds to put ViCase and ViDock into production. You configured your ViCase / ViDock. In this Indiegogo Checkout window you will click the links to the corresponding perks on the corresponding Indiegogo Campaign to back the perk.</p>
+            <h2>Why put ViCase & ViDock on Indiegogo?</h2>
+            <p>Indiegogo with its community helps ViCase and ViDock to gain popularity. In turn more people back the campaign. In turn our production benefit from economy of scale. Larger production leads to lower production costs, which we pass on to you. In turn you enjoy much lower pricing for our products on Indiegogo.</p>
+            <h2>How to check out ViCase</h2>
+            <p>You see three options of Perks for your ViCase in the column "Perk Discount Option". Each with a link to the corresponding Perk on the ViCase Campaign. Click on link to the Perk of your choice. The Perk will open in a new Tab. Now you are in the Indiegogo Perk Check out. Simply follow its instructions.</p>
+            <h2>How to check out ViCase Extras</h2>
+            <p>In case you selected ViCase Extras, repeat the same procedure. To simplify your life we listed all items in the table "ViCase Extra Perk and we computed the Total Cost of all ViCase Extra Items. You can pay for them clicking on the link "ViCase Extra Perk". Enter the Total Cost of ViCase Extra into the "Gift" field of that perk and follow the Indiegogo procedure.</p>
+            <h2>How to check out ViDock</h2>
+            <p>Until Dec.7. the Indiegogo ViDock Early Bird Campaign is only in preview mode. Only after we publish the campaign on Dec.7. you can back</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
