@@ -3548,6 +3548,94 @@
                         ]
                     }
                 ]
+            },
+            {
+                "url": "",
+                "name": "ViCase-Remote",
+                "id": "SID-518",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "ViCase-Remote",
+                        "id": "ID-519",
+                        "img": "images/expansion/config/Accessories/Remote/Icon1.jpg",
+                        "value": 9,
+                        "link": "",
+                        "tag": "Control ViCase from the distance, just like a TV or Stereo"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "You deserve to be lazy sometimes",
+                        "content": "If you never used a remote with your PC you are in for a treat. Listen to your Music with a headset on your couch and adjust volume or skip to the next song without getting up. Works equally as well to control your media player, such as VLC or cohorts. Works with Windows and Linux. Additional to Media Control, you get Mouse Control and Power On / Off and a set of function keys as you can see in the Gallery."
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery1.jpg",
+                        "title": "ViCase-Remote►Size",
+                        "description": "We like its size. Not too small to be hard to use and not too big to be hard to store."
+                    },
+                    {
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery2.jpg",
+                        "title": "ViCase-Remote►Two spare batteries",
+                        "description": "Don't worry about spare batteries, we included plenty."
+                    },
+                    {
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery3.jpg",
+                        "title": "ViCase-Remote►Good keyboard layout",
+                        "description": "You can use the Remote without looking."
+                    },
+                    {
+                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery4.jpg",
+                        "title": "ViCase-Remote►Tough",
+                        "description": "This Remote is light and sturdy. We dropped ours many times and it still works."
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "ViCase-Remote",
+                                "class": "active"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Driver",
+                                        "class": "",
+                                        "row": [
+                                            "No"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Plug and play",
+                                        "class": "",
+                                        "row": [
+                                            "Yes"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Interface",
+                                        "class": "",
+                                        "row": [
+                                            "USB"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Size",
+                                        "class": "",
+                                        "row": [
+                                            "120*50*10 mm"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -9965,94 +10053,6 @@
                                         "row": [
                                             "<a href=\"https://www.synology.com/en-us/products/DS1815+\" target=\" _blank \">Pro 8 Bay RAID5</a>",
                                             "DS1815+ Professional NAS by Synology"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "url": "",
-                "name": "ViCase-Remote",
-                "id": "SID-518",
-                "part": "",
-                "yourChoice": [
-                    {
-                        "name": "ViCase-Remote",
-                        "id": "ID-519",
-                        "img": "images/expansion/config/Accessories/Remote/Icon1.jpg",
-                        "value": 9,
-                        "link": "",
-                        "tag": "Control ViCase from the distance, just like a TV or Stereo"
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "You deserve to be lazy sometimes",
-                        "content": "If you never used a remote with your PC you are in for a treat. Listen to your Music with a headset on your couch and adjust volume or skip to the next song without getting up. Works equally as well to control your media player, such as VLC or cohorts. Works with Windows and Linux. Additional to Media Control, you get Mouse Control and Power On / Off and a set of function keys as you can see in the Gallery."
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery1.jpg",
-                        "title": "ViCase-Remote►Size",
-                        "description": "We like its size. Not too small to be hard to use and not too big to be hard to store."
-                    },
-                    {
-                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery2.jpg",
-                        "title": "ViCase-Remote►Two spare batteries",
-                        "description": "Don't worry about spare batteries, we included plenty."
-                    },
-                    {
-                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery3.jpg",
-                        "title": "ViCase-Remote►Good keyboard layout",
-                        "description": "You can use the Remote without looking."
-                    },
-                    {
-                        "image": "images/expansion/config/Accessories/Remote/Gallery/Gallery4.jpg",
-                        "title": "ViCase-Remote►Tough",
-                        "description": "This Remote is light and sturdy. We dropped ours many times and it still works."
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "ViCase-Remote",
-                                "class": "active"
-                            }
-                        ],
-                        "tables": [
-                            {
-                                "table": [
-                                    {
-                                        "title": "Driver",
-                                        "class": "",
-                                        "row": [
-                                            "No"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Plug and play",
-                                        "class": "",
-                                        "row": [
-                                            "Yes"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Interface",
-                                        "class": "",
-                                        "row": [
-                                            "USB"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Size",
-                                        "class": "",
-                                        "row": [
-                                            "120*50*10 mm"
                                         ]
                                     }
                                 ]
