@@ -342,18 +342,10 @@ app.controller('myCtrl', function($scope, $http) {
 
         for(var i = 0; i < mainArray.length; i++) {
 
-          if(id == mainArray[i].id) {
-            addProductKind = false;
-          }
+          var arrayItem = mainArray[i];
 
-          if(group == mainArray[i].group) {
-            cutProductNumber = i;
-            cutProductNumberState = true;
-          }
-
-          if(cutProductNumberState) {
-            mainArray.splice(cutProductNumber,3);
-            cutProductNumberState = false;
+          if(mainArray[i].group == group) {
+            mainArray.splice(i,3);
           }
 
         }
@@ -388,9 +380,6 @@ app.controller('myCtrl', function($scope, $http) {
         var thisArrayItem = productArray[i];
 
         //if the same button
-        if(id == thisArrayItem.id) {
-          addProductKind = false;
-        }
 
         console.log(thisArrayItem);
         //if same group
@@ -411,6 +400,8 @@ app.controller('myCtrl', function($scope, $http) {
 
       if(chapterPosition > 0 && chapterPosition < 4) {
         $scope.ViCaseProductsTotal = total;
+        $scope.ViCaseProducts = productArray;
+
       }
 
       if(chapterPosition == 4){
