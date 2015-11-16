@@ -383,6 +383,8 @@ app.controller('myCtrl', function($scope, $http) {
 
       for(var i = 0; i < productArray.length; i++) {
 
+        //I must declare this variable because I can't access
+        //the item in if statement
         var thisArrayItem = productArray[i];
 
         //if the same button

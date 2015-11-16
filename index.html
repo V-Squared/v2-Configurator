@@ -323,7 +323,7 @@
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Checkout Village Parts (<span>{{cart.vtcount}} items</span>)</h4>
+            <h4 class="modal-title" id="myModalLabel">Checkout Village Parts <span data-toggle="modal" data-target="#villageHelp" class="pull-right fake-link"><i class="fa fa-question-circle"></i></span></h4>
           </div>
           <div class="modal-body clearfix">
             <!--<div ng-repeat="(chapters, cvalue) in cart">
@@ -511,6 +511,30 @@
     </div>
 
     <div class="modal fade" id="SummaryHelp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Help V²Summary</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <h2>V²Summary Pane</h2>
+            <p>This Pane shows all your parts which your Custom PC will be made off. On a wide screen it is shown to the right. On a small screen to the bottom of the page.</p>
+            <h2>Sub-Summaries</h2>
+            <p>For you convenience the costs are grouped. Each group can be unfolded or collapsed to assist your overview.</p>
+            <h2>Total Cost</h2>
+            <p>Total cost is shown on the bottom. Please read the disclaimer when unfolded to avoid any confusion.</p>
+            <h2>Check Out</h2>
+            <p>Pressing the Checkout Button opens the Checkout Window, which list all items. When clicking the item a new tab opens with its online shop page. Within the "Checkout Village Parts" window all links will open our parts on Indiegogo. Within the "Checkout Third Party" Window all links will open the respective 3rd Party Parts on Amazon or Newegg. We have no association with either shop. You are welcome to buy the same or similar part in another shop of your preference.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="villageHelp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
