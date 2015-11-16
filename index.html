@@ -82,7 +82,8 @@
                                                 <div ng-if="Section.name == 'Form Factor'">
                                                     <div ng-repeat="choice in Section.yourChoice">
                                                     <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="readyConfig($event,false);radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button')" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{::choice.name}}</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,choice)" ng-click="readyConfig($event,false);radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button')" for="{{choice.for}}" id="{{choice.id}}" name="{{Chapter.name + Section.name}}" value="{{choice.value}}"><span type="button"></span><span data-toggle="tooltip" data-placement="right">{{::choice.name}}</span>
+                                                    <span style="color:#bbb;">{{::choice.tag}}</span></label>
                                                     </div>
                                                 </div>
                                                 <div ng-if="Section.name == 'Preview'">
@@ -323,7 +324,7 @@
         <div class="modal-content">
           <div class="modal-header" id="VillageHeader">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
-            <h4 class="modal-title" id="myModalLabel">Checkout Village Parts <span data-toggle="modal" data-target="#villageHelp" class="pull-right fake-link"><i class="fa fa-question-circle"></i></span></h4>
+            <h4 class="modal-title" id="myModalLabel">Indiegogo Check Out of ViCase and ViDock <span data-toggle="modal" data-target="#villageHelp" class="pull-right fake-link"><i class="fa fa-question-circle"></i></span></h4>
           </div>
           <div class="modal-body clearfix">
             <!--<div ng-repeat="(chapters, cvalue) in cart">
