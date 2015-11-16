@@ -6,7 +6,7 @@
             {
                 "name": "Field of Application",
                 "url": "",
-                "class":"Wizard",
+                "class": "Wizard",
                 "id": "SID-8",
                 "yourChoice": [
                     {
@@ -1122,7 +1122,7 @@
     {
         "name": "2. Mini Case",
         "id": "ID-2",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "name": "ViCase Size",
@@ -1134,26 +1134,26 @@
                 "yourChoice": [
                     {
                         "name": "ViCase-Tiny",
-                        "Main":true,
+                        "Main": true,
                         "id": "ID-1",
                         "Extra": [
                             {
-                                "name":"Tiny",
-                                "link":"https://www.google.com",
-                                "price":79,
-                                "Discount":20
+                                "name": "Tiny",
+                                "link": "https://www.google.com",
+                                "price": 79,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird Tiny",
-                                "link":"https://www.google.com",
-                                "price":59,
-                                "Discount":40
+                                "name": "Early Bird Tiny",
+                                "link": "https://www.google.com",
+                                "price": 59,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature Tiny",
-                                "link":"https://www.google.com",
-                                "price":59,
-                                "Discount":40
+                                "name": "Early Signature Tiny",
+                                "link": "https://www.google.com",
+                                "price": 59,
+                                "Discount": 40
                             }
                         ],
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Tiny-142x801.jpg",
@@ -1167,27 +1167,27 @@
                     {
                         "name": "ViCase-Mini",
                         "id": "ID-2",
-                        "Main":true,
+                        "Main": true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "value": 89,
                         "Extra": [
                             {
-                                "name":"Mini",
-                                "link":"https://www.google.com",
-                                "price":89,
-                                "Discount":20
+                                "name": "Mini",
+                                "link": "https://www.google.com",
+                                "price": 89,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird Mini",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Bird Mini",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature Mini",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Signature Mini",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             }
                         ],
                         "tag": "up to i7Quad, 2 Disks, PCIe Slot with GPU Support"
@@ -1195,28 +1195,28 @@
                     {
                         "name": "ViCase-Mini-Value",
                         "id": "ID-146",
-                        "Main":true,
+                        "Main": true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Mni-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 59,
                         "Extra": [
                             {
-                                "name":"Mini Value",
-                                "link":"https://www.google.com",
-                                "price":59,
-                                "Discount":20
+                                "name": "Mini Value",
+                                "link": "https://www.google.com",
+                                "price": 59,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird Mini Value",
-                                "link":"https://www.google.com",
-                                "price":49,
-                                "Discount":30
+                                "name": "Early Bird Mini Value",
+                                "link": "https://www.google.com",
+                                "price": 49,
+                                "Discount": 30
                             },
                             {
-                                "name":"Early Signature Mini Value",
-                                "link":"https://www.google.com",
-                                "price":49,
-                                "Discount":30
+                                "name": "Early Signature Mini Value",
+                                "link": "https://www.google.com",
+                                "price": 49,
+                                "Discount": 30
                             }
                         ],
                         "tag": "ViCase-Mini, but all inside parts made of plastic"
@@ -1224,28 +1224,28 @@
                     {
                         "name": "ViCase-Ultra",
                         "id": "ID-3",
-                        "Main":true,
+                        "Main": true,
                         "img": "images/expansion/config/ViCase/ViCase-Size/ViCase-Ultra-142x801.jpg",
                         "link": "http://placekitten.com/200/300",
                         "value": 99,
                         "Extra": [
                             {
-                                "name":"Ultra",
-                                "link":"https://www.google.com",
-                                "price":99,
-                                "Discount":20
+                                "name": "Ultra",
+                                "link": "https://www.google.com",
+                                "price": 99,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird Ultra",
-                                "link":"https://www.google.com",
-                                "price":79,
-                                "Discount":40
+                                "name": "Early Bird Ultra",
+                                "link": "https://www.google.com",
+                                "price": 79,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature Ultra",
-                                "link":"https://www.google.com",
-                                "price":79,
-                                "Discount":40
+                                "name": "Early Signature Ultra",
+                                "link": "https://www.google.com",
+                                "price": 79,
+                                "Discount": 40
                             }
                         ],
                         "tag": "Mini-ITX Case: up to i7Quad, 8 Disks, PCIe Slot with GPU Support"
@@ -3440,7 +3440,7 @@
     {
         "name": "3. All-In-One Converter",
         "id": "ID-3",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "name": "ViCase All-In-One",
@@ -4031,7 +4031,7 @@
     {
         "name": "4. Power",
         "id": "ID-4",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "name": "V²P.12V AC / DC Adapter",
@@ -4614,37 +4614,37 @@
     {
         "name": "5. PCIe Expansion",
         "id": "ID-5",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "name": "ViDock",
                 "id": "SID-20",
                 "url": "",
-                "Main":true,
+                "Main": true,
                 "part": "SFF",
                 "yourChoice": [
                     {
                         "name": "ViDock-PCIe-S",
                         "id": "ID-26",
-                        "Main":true,
+                        "Main": true,
                         "Extra": [
                             {
-                                "name":"ViDock-PCIe-S",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":20
+                                "name": "ViDock-PCIe-S",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird ViDock-PCIe-S",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Bird ViDock-PCIe-S",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature ViDock-PCIe-S",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Signature ViDock-PCIe-S",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             }
                         ],
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-S.jpg",
@@ -4654,26 +4654,26 @@
                     {
                         "name": "ViDock-PCIe-L",
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-PCle-L.jpg",
-                        "Main":true,
+                        "Main": true,
                         "id": "ID-27",
                         "Extra": [
                             {
-                                "name":"ViDock-PCIe-L",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":20
+                                "name": "ViDock-PCIe-L",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird ViDock-PCIe-L",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Bird ViDock-PCIe-L",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature ViDock-PCIe-L",
-                                "link":"https://www.google.com",
-                                "price":69,
-                                "Discount":40
+                                "name": "Early Signature ViDock-PCIe-L",
+                                "link": "https://www.google.com",
+                                "price": 69,
+                                "Discount": 40
                             }
                         ],
                         "value": "69",
@@ -4682,25 +4682,25 @@
                     {
                         "name": "ViDock-GPU",
                         "id": "ID-28",
-                        "Main":true,
+                        "Main": true,
                         "Extra": [
                             {
-                                "name":"ViDock-GPU",
-                                "link":"https://www.google.com",
-                                "price":99,
-                                "Discount":20
+                                "name": "ViDock-GPU",
+                                "link": "https://www.google.com",
+                                "price": 99,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird ViDock-GPU",
-                                "link":"https://www.google.com",
-                                "price":99,
-                                "Discount":40
+                                "name": "Early Bird ViDock-GPU",
+                                "link": "https://www.google.com",
+                                "price": 99,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature ViDock-GPU",
-                                "link":"https://www.google.com",
-                                "price":99,
-                                "Discount":40
+                                "name": "Early Signature ViDock-GPU",
+                                "link": "https://www.google.com",
+                                "price": 99,
+                                "Discount": 40
                             }
                         ],
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU.jpg",
@@ -4710,27 +4710,27 @@
                     {
                         "name": "ViDock-GPU-Cheapo",
                         "id": "ID-29",
-                        "Main":true,
+                        "Main": true,
                         "img": "images/expansion/config/ViDock/ViDock/ViDock-GPU-Cheapo.jpg",
                         "value": "49",
                         "Extra": [
                             {
-                                "name":"ViDock-GPU-Cheapo",
-                                "link":"https://www.google.com",
-                                "price":49,
-                                "Discount":20
+                                "name": "ViDock-GPU-Cheapo",
+                                "link": "https://www.google.com",
+                                "price": 49,
+                                "Discount": 20
                             },
                             {
-                                "name":"Early Bird ViDock-GPU-Cheapo",
-                                "link":"https://www.google.com",
-                                "price":49,
-                                "Discount":40
+                                "name": "Early Bird ViDock-GPU-Cheapo",
+                                "link": "https://www.google.com",
+                                "price": 49,
+                                "Discount": 40
                             },
                             {
-                                "name":"Early Signature ViDock-GPU-Cheapo",
-                                "link":"https://www.google.com",
-                                "price":49,
-                                "Discount":40
+                                "name": "Early Signature ViDock-GPU-Cheapo",
+                                "link": "https://www.google.com",
+                                "price": 49,
+                                "Discount": 40
                             }
                         ],
                         "tag": "Modular PCIe Expansion Box for GPU Cards. Plastic Case."
@@ -6711,7 +6711,7 @@
     {
         "name": "6. PC Parts",
         "id": "ID-6",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "url": "images/expansion/config/mainBoard.jpg",
@@ -8692,7 +8692,7 @@
     {
         "name": "7. Accessories",
         "id": "ID-7",
-        "class":"Normal",
+        "class": "Normal",
         "data": [
             {
                 "url": "images/expansion/config/windows-7-logo.png",
@@ -10157,6 +10157,113 @@
                                         "class": "",
                                         "row": [
                                             "WCH382L"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "name": "HD Display",
+                "id": "SID-531",
+                "part": "",
+                "yourChoice": [
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    },
+                    {
+                        "name": "",
+                        "id": "ID-",
+                        "img": "",
+                        "value": "",
+                        "link": "",
+                        "tag": ""
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "",
+                        "content": ""
+                    }
+                ],
+                "TableHeading": [
+                    {
+                        "name": "Features",
+                        "class": "table-left-title"
+                    },
+                    {
+                        "name": "",
+                        "class": ""
+                    },
+                    {
+                        "name": "",
+                        "class": ""
+                    }
+                ],
+                "TableBody": [
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "row": [
+                            "",
+                            ""
+                        ]
+                    }
+                ],
+                "TableTag": [
+                    ""
+                ],
+                "Gallery": [
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "",
+                                            ""
                                         ]
                                     }
                                 ]
