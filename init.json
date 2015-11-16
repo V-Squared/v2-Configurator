@@ -42,7 +42,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Presentation<br>(release on Nov. 16th)",
+                        "name": "Presentation<br>(release on Nov. 18th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -58,7 +58,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Photo & Video Editing<br>(release on Nov. 18th)",
+                        "name": "Photo & Video Editing<br>(release on Nov. 20th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -74,7 +74,7 @@
                         "value": 0
                     },
                     {
-                        "name": "3D & Creative Design<br>(release on Nov. 20th)",
+                        "name": "3D & Creative Design<br>(release on Nov. 23th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -90,7 +90,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Audio Editing<br>(release on Nov. 23th)",
+                        "name": "Audio Editing<br>(release on Nov. 25th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -106,7 +106,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Office & General PC<br>(release on Nov. 25th)",
+                        "name": "Office & General PC<br>(release on Nov. 27th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -122,7 +122,7 @@
                         "value": 0
                     },
                     {
-                        "name": "Server & NAS<br>(release on Nov. 27th)",
+                        "name": "Server & NAS<br>(release on Nov. 30th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -138,7 +138,7 @@
                         "value": 0
                     },
                     {
-                        "name": "CNC & Industrial<br>(release on Nov. 30th)",
+                        "name": "CNC & Industrial<br>(release on Dec. 2th)",
                         "img": "",
                         "Child_Name": [
                             "#SID-9",
@@ -1029,7 +1029,7 @@
                         "id": "ID-120",
                         "for": "sample1",
                         "value": 0,
-                        "tag": "Tiny PC that is quiet and does not take much space",
+                        "tag": "Place your very small PC beside your Display",
                         "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon1.jpg"
                     },
                     {
@@ -1037,7 +1037,7 @@
                         "id": "ID-121",
                         "for": "sample2",
                         "value": 0,
-                        "tag": "Hide your Mini PC behind your Display with VESA Mount",
+                        "tag": "Convert your VESA Display with ViCase to an All-In-One.",
                         "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon2.jpg"
                     },
                     {
@@ -1045,8 +1045,22 @@
                         "id": "ID-122",
                         "for": "sample3",
                         "value": 0,
-                        "tag": "Hide your Mini PC behind your Display. Works with any Display",
+                        "tag": "Same looks as All-In-One. Works with any Display.",
                         "img": "images/expansion/config/Wizard/fORM-fACTOR/Icon3.jpg"
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "Mini",
+                        "content": "Choose Mini when you are looking for the lowest cost solution, or you simply like how ViCase looks and you do not want to hide it. Since it is very small it does not take much of your desk and all controls and I/O Ports are conveniently available."
+                    },
+                    {
+                        "heading": "All-In-One",
+                        "content": "Choose All-In-One if you want the looks and feel of an All-In-One PC. This is how it works: This configuration gives you ViCase-Stand. You mount your Display with VESA mount to it at the front. In the rear you mount your ViCase. In addition you connect ViCase Access to your ViCase and place it beside your Display foot. Now you have hidden your PC, yet you have convenient access to its controls, status LEDs and USB ports. You even get two features that a regular All-In-One PC does not have: 1) you can place your keyboard in the stand to make more space on your desk 2) you get a carry grip when bringing your All-In-One to a LAN party, class, balcony, etc ... || Please note that there might be a lower cost solution for your Display. You can explore it in the V²Configurator►All-In-One Converter►ViCase All-In-One. This option is called ViCase-VESA and it is only $3."
+                    },
+                    {
+                        "heading": "Mini-Behind-Display",
+                        "content": "Choose Mini-Behind-Display if you want the looks and feel of an All-In-One PC, but your Display has no VESA mount. It works very simple: ViCase-Feet make your ViCase standing up so it fits behind your Display placed out of sight. Connect the included ViCase Access to to your ViCase and place it beside your Display foot. Now you have hidden your PC, yet you have convenient access to its controls, status LEDs and USB ports."
                     }
                 ]
             },
@@ -3432,6 +3446,106 @@
                         "image": "images/expansion/config/ViCase/ViCase-Cooler/Gallery/ViCase-Cooler-XL-Top.jpg",
                         "title": "Cooler XL",
                         "description": "Top View. 120 mm fan allows high volume air flow at medium fan speed, keeping the fan noise quiet."
+                    }
+                ]
+            },
+            {
+                "name": "ViCase-Parallel",
+                "id": "SID-530",
+                "yourChoice": [
+                    {
+                        "name": "ViCase Parallel",
+                        "id": "ID-155",
+                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
+                        "link": "",
+                        "Child_Name": [
+                            "#ID-11"
+                        ],
+                        "tag": "Add Parallel Port for CNC Machine or old Printer",
+                        "value": 15
+                    }
+                ],
+                "Advice": [
+                    {
+                        "heading": "When to use ( CNC )",
+                        "content": "Use ViCase-Parallel to add a Parallel Port to ViCase-Mini or ViCase-Ultra to connect to devices that need a parallel port and they depend on proper timing of the signals. The most common example would be the use in combination with the CNC controller MACH3, MACH4 or LinuxCNC. We used ViCase-Parallel in ViCase to control our CNC machine that made the prototype housings for ViCase and ViDock."
+                    },
+                    {
+                        "heading": "When not to use",
+                        "content": "If you have on old style printer, then use a USB to Parallel Port Cable. They work great. You can buy them local and they cost less. And they do not block your PCIe Port."
+                    }
+                ],
+                "Gallery": [
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg",
+                        "title": "ViCase-Parallel",
+                        "description": "PCIe Parallel Port Add In Card for CNC machines. Low Profile PCIe Bracket. Fits in ViCase-Mini or ViCase-Ultra"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg",
+                        "title": "ViCase-Parallel►DB-25",
+                        "description": "D-Sub 25 pin aka DB-25 Pin port provides the signals to the CNC machine"
+                    },
+                    {
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg",
+                        "title": "ViCase-Parallel►Rear View",
+                        "description": ""
+                    },
+                    {
+                        "title": "ViCase-Parallel►Top View",
+                        "description": "",
+                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
+                    }
+                ],
+                "Datasheet": [
+                    {
+                        "button": [
+                            {
+                                "name": "ViCase-Parallel",
+                                "class": "active"
+                            }
+                        ],
+                        "tables": [
+                            {
+                                "table": [
+                                    {
+                                        "title": "Parallel Port Connector",
+                                        "class": "",
+                                        "row": [
+                                            "DB-25"
+                                        ]
+                                    },
+                                    {
+                                        "title": "PCIe Card",
+                                        "class": "",
+                                        "row": [
+                                            "x1 PCIe, Low Profile, Short Length"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Low Profile Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "Mounted as default. Compatible to ViCase-Mini-and Ultra"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Standard Profile Bracket",
+                                        "class": "",
+                                        "row": [
+                                            "Included. You can easily change it. Needed if you want to use ViCase-Parallel in a standard Desktop"
+                                        ]
+                                    },
+                                    {
+                                        "title": "Chip",
+                                        "class": "",
+                                        "row": [
+                                            "WCH382L"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -10057,106 +10171,6 @@
                                         "row": [
                                             "<a href=\"http://www.rosewill.com/rosewill-rnx-ac1200ube2-dual-band-wireless-ac1200-adapter-ieee-802-11ac-a-b-g-n-up-to-867-mbps-5-0-ghz-300-mbps-2-4-ghz-wi-fi-data-rates-usb-3-0-interface-1.html\" target=\" _blank \">Rosewill Highgain AC1200</a>",
                                             "Fast Dual Band WiFi, reliable 867Mbps, Rosewill AC1200"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "SID-530",
-                "name": "ViCase-Parallel",
-                "yourChoice": [
-                    {
-                        "name": "ViCase Parallel",
-                        "id": "ID-155",
-                        "img": "images/expansion/config/ViCase/ViCase-Parallel-Port/ViCase-Parallel-Port.jpg",
-                        "link": "",
-                        "Child_Name": [
-                            "#ID-11"
-                        ],
-                        "tag": "Add Parallel Port for CNC Machine or old Printer",
-                        "value": 15
-                    }
-                ],
-                "Advice": [
-                    {
-                        "heading": "When to use ( CNC )",
-                        "content": "Use ViCase-Parallel to add a Parallel Port to ViCase-Mini or ViCase-Ultra to connect to devices that need a parallel port and they depend on proper timing of the signals. The most common example would be the use in combination with the CNC controller MACH3, MACH4 or LinuxCNC. We used ViCase-Parallel in ViCase to control our CNC machine that made the prototype housings for ViCase and ViDock."
-                    },
-                    {
-                        "heading": "When not to use",
-                        "content": "If you have on old style printer, then use a USB to Parallel Port Cable. They work great. You can buy them local and they cost less. And they do not block your PCIe Port."
-                    }
-                ],
-                "Gallery": [
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port.jpg",
-                        "title": "ViCase-Parallel",
-                        "description": "PCIe Parallel Port Add In Card for CNC machines. Low Profile PCIe Bracket. Fits in ViCase-Mini or ViCase-Ultra"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-Front.jpg",
-                        "title": "ViCase-Parallel►DB-25",
-                        "description": "D-Sub 25 pin aka DB-25 Pin port provides the signals to the CNC machine"
-                    },
-                    {
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-left.jpg",
-                        "title": "ViCase-Parallel►Rear View",
-                        "description": ""
-                    },
-                    {
-                        "title": "ViCase-Parallel►Top View",
-                        "description": "",
-                        "image": "images/expansion/config/ViCase/ViCase-Parallel-Port/Gallery/ViCase-Parallel-Port-side-right.jpg"
-                    }
-                ],
-                "Datasheet": [
-                    {
-                        "button": [
-                            {
-                                "name": "ViCase-Parallel",
-                                "class": "active"
-                            }
-                        ],
-                        "tables": [
-                            {
-                                "table": [
-                                    {
-                                        "title": "Parallel Port Connector",
-                                        "class": "",
-                                        "row": [
-                                            "DB-25"
-                                        ]
-                                    },
-                                    {
-                                        "title": "PCIe Card",
-                                        "class": "",
-                                        "row": [
-                                            "x1 PCIe, Low Profile, Short Length"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Low Profile Bracket",
-                                        "class": "",
-                                        "row": [
-                                            "Mounted as default. Compatible to ViCase-Mini-and Ultra"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Standard Profile Bracket",
-                                        "class": "",
-                                        "row": [
-                                            "Included. You can easily change it. Needed if you want to use ViCase-Parallel in a standard Desktop"
-                                        ]
-                                    },
-                                    {
-                                        "title": "Chip",
-                                        "class": "",
-                                        "row": [
-                                            "WCH382L"
                                         ]
                                     }
                                 ]
