@@ -10188,7 +10188,7 @@
                     {
                         "name": "ViewSonic 22\"",
                         "id": "ID-39",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Display/Icon1.jpg",
                         "value": 120,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824116649",
                         "tag": "Good 22\" Budget Display with VESA (VA2246M-LED)"
@@ -10196,7 +10196,7 @@
                     {
                         "name": "BenQ 24\"",
                         "id": "ID-48",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Display/Icon2.jpg",
                         "value": 140,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824014377",
                         "tag": "Good 24\" Display with VESA & Speaker (GL2460HM)"
@@ -10204,7 +10204,7 @@
                     {
                         "name": "Asus 24\"",
                         "id": "ID-49",
-                        "img": "",
+                        "img": "images/expansion/config/Accessories/Display/Icon3.jpg",
                         "value": 180,
                         "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824236335",
                         "tag": "Excellent 24\" Display with VESA, IPS & Speaker (VN248H-P)"
