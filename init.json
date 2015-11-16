@@ -4093,7 +4093,7 @@
                     {
                         "name": "V²P.12V-240W-AC-Cable",
                         "id": "ID-168",
-                        "img": "images/expansion/config/ViCase/AC-DC-Adapter/3Pin-AC-Cable.jpg",
+                        "img": "images/expansion/config/Power/Icon1",
                         "Child_Name": [
                             "#chapter-2-section-6-Button-1"
                         ],
@@ -10344,62 +10344,62 @@
                 ],
                 "Gallery": [
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery11",
                         "title": "ViewSonic 22\"►Front View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery13",
                         "title": "ViewSonic 22\"►Side View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery12",
                         "title": "ViewSonic 22\"►Rear View",
                         "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery10",
                         "title": "ViewSonic 22\"►Connector View",
                         "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery5",
                         "title": "BenQ 24\"►Front View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery7",
                         "title": "BenQ 24\"►Side View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery6",
                         "title": "BenQ 24\"►Rear View",
                         "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery8",
                         "title": "BenQ 24\"►Connector View",
                         "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery2",
                         "title": "Asus 24\"►Front View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery4",
                         "title": "Asus 24\"►Side View",
                         "description": ""
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery3",
                         "title": "Asus 24\"►Rear View",
                         "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
                     },
                     {
-                        "image": "",
+                        "image": "images/expansion/config/Accessories/Display/Gallery/Gallery1",
                         "title": "Asus 24\"►Connector View",
                         "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
                     }
