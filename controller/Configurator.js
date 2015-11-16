@@ -378,20 +378,23 @@ app.controller('myCtrl', function($scope, $http) {
         return;
       }
 
+      total+=price;
+
 
       for(var i = 0; i < productArray.length; i++) {
 
+        var thisArrayItem = productArray[i];
+
         //if the same button
-        if(id == productArray[i].id) {
+        if(id == thisArrayItem.id) {
           addProductKind = false;
         }
+
+        console.log(thisArrayItem);
         //if same group
-        if(group == productArray[i].group) {
-          cutProductNumber = i;
-          cutProductNumberState = true;
+        if(group == thisArrayItem.group) {
           productArray.splice(i,1);
-          
-          total-=price;
+          total-=thisArrayItem.price;
         }
 
       }
@@ -402,10 +405,9 @@ app.controller('myCtrl', function($scope, $http) {
       if(addProductKind) {
         productArray.push({id:id,name:name,price:price,group:group,position:position});
       }
-      total+=price;
 
 
-      if(chapterPosition > 1  && chapterPosition < 4) {
+      if(chapterPosition > 0 && chapterPosition < 4) {
         $scope.ViCaseProductsTotal = total;
       }
 
