@@ -135,7 +135,7 @@
                                             </div>
                                             <div ng-if="Section.Config != true && Section.name!='Field of Application' && Section.name != 'Form Factor' && Section.name != 'Preview' && Section.id != 'ID-556'" ng-class="{'displayNone' : Section.noNone == true}">
                                                 <label>
-                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None',Chapter.name + Section.name,chapterIndex,sectionIndex);choice.name = 'None'" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button',Chapter.name + Section.name,chapterIndex,sectionIndex)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
+                                                    <input type="radio" ng-init="initIndex(Chapter.id,Chapter.name,Section.id,Section.name,'None',Chapter.name + Section.name,chapterIndex,sectionIndex);choice.name = 'None';choice.value = 0" data-child="{{ choice.Child_Name }}" id="{{Section.NoneID}}" ng-click="radioClick(choice,Chapter.id,Section.id,choice.Child_Name,'disable button',Chapter.name + Section.name,chapterIndex,sectionIndex)" class="None" name="{{Chapter.name + Section.name}}" value="0"><span type="button"></span><span>None</span></label>
                                             </div>
                                             <!--End Normal Choice-->
                                         </div>

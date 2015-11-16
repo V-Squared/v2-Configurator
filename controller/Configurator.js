@@ -309,12 +309,14 @@ app.controller('myCtrl', function($scope, $http) {
         productArray = $scope.ViCaseProducts;
         mainArray = $scope.ViCaseMain;
         total = $scope.ViCaseProductsTotal;
+        total = parseInt(total);
       }
 
       if(chapterPosition == 4){
         productArray = $scope.ViDockProducts;
         mainArray = $scope.ViDockMain;
         total = $scope.ViDockProductsTotal;
+        total = parseInt(total);
       }
 
       //button stuff
@@ -399,13 +401,13 @@ app.controller('myCtrl', function($scope, $http) {
 
 
       if(chapterPosition > 0 && chapterPosition < 4) {
-        $scope.ViCaseProductsTotal = total;
+        $scope.ViCaseProductsTotal = parseInt(total);
         $scope.ViCaseProducts = productArray;
 
       }
 
       if(chapterPosition == 4){
-        $scope.ViDockProductsTotal = total;
+        $scope.ViDockProductsTotal = parseInt(total);
       }
 
       console.debug($scope.ViCaseProducts);
