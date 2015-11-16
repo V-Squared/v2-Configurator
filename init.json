@@ -10172,34 +10172,58 @@
                 "part": "",
                 "yourChoice": [
                     {
-                        "name": "",
-                        "id": "ID-",
+                        "name": "ViewSonic 22\"",
+                        "id": "ID-39",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 120,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824116649",
+                        "tag": "Good 22\" Budget Display with VESA (VA2246M-LED)"
                     },
                     {
-                        "name": "",
-                        "id": "ID-",
+                        "name": "BenQ 24\"",
+                        "id": "ID-48",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 140,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824014377",
+                        "tag": "Good 24\" Display with VESA & Speaker (GL2460HM)"
                     },
                     {
-                        "name": "",
-                        "id": "ID-",
+                        "name": "Asus 24\"",
+                        "id": "ID-49",
                         "img": "",
-                        "value": "",
-                        "link": "",
-                        "tag": ""
+                        "value": 180,
+                        "link": "http://www.newegg.com/Product/Product.aspx?Item=N82E16824236335",
+                        "tag": "Excellent 24\" Display with VESA, IPS & Speaker (VN248H-P)"
                     }
                 ],
                 "Advice": [
                     {
-                        "heading": "",
-                        "content": ""
+                        "heading": "22\"",
+                        "content": "Choose 22\" when you want a smaller display or when you are on a budget."
+                    },
+                    {
+                        "heading": "24\"",
+                        "content": "The default choice for Full HD resolution, aka 1080p aka 1920 x 1080."
+                    },
+                    {
+                        "heading": "Should I go 4K ?",
+                        "content": "4K Displays cost a significant premium. You get 400% more pixels for 400% more money. But your display size will increase only slightly from 24\" to 28\". This means your pixel density will increase a lot, which will be very beneficial if: 1) you work a lot with text and you want your text to look sharper 2) you work a lot with photos of at least 8 MP resolution 3) you edit / watch a lot of 4K movies."
+                    },
+                    {
+                        "heading": "IPS",
+                        "content": "Choose IPS when other people with watch the Display with you at the same time. IPS is a new technology which increases the viewing angle without color shift. Meaning a person to the side sees the same thing as a person in front of the display. If you are the only user, you will most likely see no difference to the older and lower cost technology."
+                    },
+                    {
+                        "heading": "Analog / D-Sub / VGA",
+                        "content": "Do not use this connection. It reduces image quality. Nowadays all displays and motherboards have digital connection. Use those for better image quality at the same cost"
+                    },
+                    {
+                        "heading": "HDMI, DVI, Display port",
+                        "content": "All are all digital connectors and all deliver a high quality image to the Display. With the proper cable you can convert one connector to another. Say your motherboard has a DVI connector and your Display has Display Port, then you still can make a connection using a DVI to Display Port cable."
+                    },
+                    {
+                        "heading": "Build In Speaker",
+                        "content": "They are very convenient and significantly reduce the mess on your table. They become mandatory in case you want to use your Disply with ViCase-Stand in order to carry your All-In-One."
                     }
                 ],
                 "TableHeading": [
@@ -10208,45 +10232,176 @@
                         "class": "table-left-title"
                     },
                     {
-                        "name": "",
+                        "name": "ViewSonic 22",
                         "class": ""
                     },
                     {
-                        "name": "",
+                        "name": "BenQ 24",
+                        "class": ""
+                    },
+                    {
+                        "name": "Asus 24",
                         "class": ""
                     }
                 ],
                 "TableBody": [
                     {
-                        "title": "",
+                        "title": "Size",
                         "row": [
-                            "",
-                            ""
+                            "22\"",
+                            "24\"",
+                            "24\""
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "Resolution",
                         "row": [
-                            "",
-                            ""
+                            "1920 x 1080",
+                            "1920 x 1080",
+                            "1920 x 1080"
                         ]
                     },
                     {
-                        "title": "",
+                        "title": "ViCase-Vesa (1)",
                         "row": [
-                            "",
-                            ""
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "ViCase-Stand (2)",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "LED Backlight (3)",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "IPS(4)",
+                        "row": [
+                            "No",
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "D-Sub(5)",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "title": "HDMI(6)",
+                        "row": [
+                            "No",
+                            "Yes",
+                            "Yes ( 2 x )"
+                        ]
+                    },
+                    {
+                        "title": "DVI(6)",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "No"
+                        ]
+                    },
+                    {
+                        "title": "Display Port(6)",
+                        "row": [
+                            "No",
+                            "No",
+                            "No"
+                        ]
+                    },
+                    {
+                        "title": "Speaker",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     }
                 ],
                 "TableTag": [
-                    ""
+                    "(1) Yes means this display is compatible to ViCase-VESA, which is a $3 ViCase-Extra Accessory that converts your Display into an All-In-One by mounting ViCase to your Display.",
+                    "(2) Yes means this Display is compatible to ViCase-Stand, which is a $49 luxury All-In-One Converter. It also gives you a keyboard shelf to store your keyboard when not in use or in transport and a carry grip to carry the entire unit of PC + Display + Power Supply + Keyboard.",
+                    "(3) LED backlight delivers more even light, it has a longer lifespan and is more environmentally friendly versus the traditional fluorescent light",
+                    "(4) IPS is a newer Display technology which allows wider viewing angles. If you frequently use your display with more than one person, it will show a significant difference. If you are the only user you might not see a difference.",
+                    "(5) D-Sub connector is used for the old analog VGA connection. The image on the screen will not be as sharp as with digital connection and you might see other distortions. As such, try to avoid to use VGA / D-Sub connection.",
+                    "(6) HDMI, DVI, Display port are all digital connectors and all deliver a high quality image to the Display. With the proper cable you can convert one connector to another. Say your motherboard has a DVI connector and your Display has Display Port, then you still can make a connection using a DVI to Display Port cable."
                 ],
                 "Gallery": [
                     {
                         "image": "",
-                        "title": "",
+                        "title": "ViewSonic 22\"►Front View",
                         "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "ViewSonic 22\"►Side View",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "ViewSonic 22\"►Rear View",
+                        "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
+                    },
+                    {
+                        "image": "",
+                        "title": "ViewSonic 22\"►Connector View",
+                        "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
+                    },
+                    {
+                        "image": "",
+                        "title": "BenQ 24\"►Front View",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "BenQ 24\"►Side View",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "BenQ 24\"►Rear View",
+                        "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
+                    },
+                    {
+                        "image": "",
+                        "title": "BenQ 24\"►Connector View",
+                        "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
+                    },
+                    {
+                        "image": "",
+                        "title": "Asus 24\"►Front View",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "Asus 24\"►Side View",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "Asus 24\"►Rear View",
+                        "description": "The VESA mount is available when the Display foot is mounted, making this Display compatible to ViCase-VESA"
+                    },
+                    {
+                        "image": "",
+                        "title": "Asus 24\"►Connector View",
+                        "description": "This kind of connector placement is important to be compatible with ViCase-VESA and ViCase-Stand"
                     }
                 ],
                 "Datasheet": [
@@ -10256,14 +10411,17 @@
                                 "table": [
                                     {
                                         "row": [
-                                            "",
-                                            ""
+                                            "ViewSonic VA2246M-LED Black 22\""
                                         ]
                                     },
                                     {
                                         "row": [
-                                            "",
-                                            ""
+                                            "BenQ GL2460HM Black 24\""
+                                        ]
+                                    },
+                                    {
+                                        "row": [
+                                            "ASUS VN248H-P Slim Bezel Black 23.8\""
                                         ]
                                     }
                                 ]
