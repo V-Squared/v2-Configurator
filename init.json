@@ -1287,7 +1287,7 @@
                     {
                         "title": "Size (Liters)",
                         "row": [
-                            "<a href=\" https://www.google.com \" target=\" _blank \">3L</a>",
+                            "3L",
                             "5L",
                             "5L",
                             "7L"
@@ -1321,15 +1321,6 @@
                         ]
                     },
                     {
-                        "title": "Modular Expansion",
-                        "row": [
-                            "Yes",
-                            "Yes",
-                            "Yes",
-                            "Yes"
-                        ]
-                    },
-                    {
                         "title": "ViCase-Access Plus",
                         "row": [
                             "Yes",
@@ -1348,7 +1339,7 @@
                         ]
                     },
                     {
-                        "title": "MAX CPU Power",
+                        "title": "max CPU Power",
                         "row": [
                             "55W",
                             "95W",
@@ -1357,39 +1348,57 @@
                         ]
                     },
                     {
-                        "title": "mSATA Disk",
+                        "title": "max GPU Power",
                         "row": [
-                            "Up to 2",
-                            "Up to 4",
-                            "Up to 4",
-                            "Up to 2"
+                            0,
+                            "75W",
+                            "75W",
+                            "75W"
                         ]
                     },
                     {
-                        "title": "2.5'",
+                        "title": "Number of 2.5\" Bays",
                         "row": [
-                            "Up to 2",
-                            "Up to 3",
-                            "Up to 3",
-                            "Up to 8"
+                            2,
+                            2,
+                            2,
+                            2
                         ]
                     },
                     {
-                        "title": "3.5'",
+                        "title": "Number of 3.5\" Bays",
                         "row": [
-                            "-",
-                            "-",
-                            "-",
-                            "Up to 3"
+                            0,
+                            0,
+                            0,
+                            3
                         ]
                     },
                     {
-                        "title": "PCIe Slot",
+                        "title": "PCIe Slot Heigth",
                         "row": [
                             "Ultra Low Profile",
                             "Low Profile",
                             "Low Profile",
                             "Low Profile"
+                        ]
+                    },
+                    {
+                        "title": "PCIe Slot Width",
+                        "row": [
+                            "Single",
+                            "Double",
+                            "Double",
+                            "Double"
+                        ]
+                    },
+                    {
+                        "title": "Modular PCIe Expansion",
+                        "row": [
+                            "Yes",
+                            "Yes",
+                            "Yes",
+                            "Yes"
                         ]
                     }
                 ],
@@ -1524,7 +1533,7 @@
                                         "title": "Motherboard",
                                         "class": "",
                                         "row": [
-                                            "<a href=\" https://google.com \" target=\" _blank \">Mini-ITX Form Factor</a>"
+                                            "Mini-ITX Form Factor"
                                         ]
                                     },
                                     {
