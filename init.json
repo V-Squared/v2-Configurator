@@ -1339,7 +1339,7 @@
                         ]
                     },
                     {
-                        "title": "max CPU Power",
+                        "title": "max CPU Power TDP",
                         "row": [
                             "55W",
                             "95W",
@@ -1348,7 +1348,7 @@
                         ]
                     },
                     {
-                        "title": "max GPU Power",
+                        "title": "max GPU Power TDP",
                         "row": [
                             0,
                             "75W",
@@ -1375,7 +1375,7 @@
                         ]
                     },
                     {
-                        "title": "PCIe Slot Heigth",
+                        "title": "PCIe Slot Height",
                         "row": [
                             "Ultra Low Profile",
                             "Low Profile",
