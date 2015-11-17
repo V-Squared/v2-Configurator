@@ -665,4 +665,12 @@ Chapter,Section {
 }
 .masthead-list p{
 	text-align: left;
+
+}
+.masthead-list {
+	padding-top: 80px;
+}
+.masthead a {
+	color:#FFF;
+	text-decoration: underline;
 }
