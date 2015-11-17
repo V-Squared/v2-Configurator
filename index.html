@@ -383,7 +383,8 @@
               </tbody>
             </table>
 
-            <p>Pay ViCase Extras cost with: <a href="javascript:void(0);">ViCase Extra Perk in the Gift Field</a>.</p>
+            <p>Step 1: Pay ViCase Extras cost with: <a href="javascript:void(0);">ViCase Extra Perk</a> in the Gift Field.</p>
+            <p>Step 2: Send us an email following <a href="" data-toggle="modal" data-target="#VillageModalEmail">these instructions</a> with your configuration</p>
 
             </div>
 
@@ -553,6 +554,49 @@
             <p>In case you selected ViCase Extras, repeat the same procedure. To simplify your life we listed all items in the table "ViCase Extra Perk and we computed the Total Cost of all ViCase Extra Items. You can pay for them clicking on the link "ViCase Extra Perk". Enter the Total Cost of ViCase Extra into the "Gift" field of that perk and follow the Indiegogo procedure.</p>
             <h2>How to check out ViDock</h2>
             <p>Until Dec.7. the Indiegogo ViDock Early Bird Campaign is only in preview mode. Only after we publish the campaign on Dec.7. you can back</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="VillageModalEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="VillageHeader">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i style="color:#FFF" class="fa fa-times fa-inverse"></i></span></button>
+            <h4 class="modal-title" id="myModalLabel">Send an email to sales@villagetronic.com with a copy of the text below:</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <div style="margin-bottom:40px;">
+            <h3>ViCase Extra Perk of <a href="javascript:void(0);">ViCase Campaign</a></h3>
+            <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ViCase Model</th>
+                <th>Ship Date</th>
+                <th>Price</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr ng-repeat="product in ViCaseProducts | orderBy : '-position' : true" ng-if="product.name != 'None'">
+                <td>{{product.name}}</td>
+                <td>May 2016</td>
+                <td>${{product.price}}</td>
+              </tr>
+              <tr>
+                  <td colspan="2">Total Cost of ViCase Extra</td>
+                  <td>${{ViCaseProductsTotal}}</td>
+              </tr>
+              </tbody>
+            </table>
+
+
+            </div>
+
+            <textarea ng-model="SaveExtra" style="width: 565px; height: 74px;display:block;"></textarea>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
