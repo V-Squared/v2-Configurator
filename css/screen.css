@@ -663,3 +663,6 @@ Chapter,Section {
 .modal-header .close {
 	margin-top: 0;
 }
+.masthead-list p{
+	text-align: left;
+}
