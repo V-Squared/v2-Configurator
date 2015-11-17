@@ -1152,7 +1152,7 @@
                         "id": "ID-1",
                         "Extra": [
                             {
-                                "name": "Tiny",
+                                "name": "Indiegogo Tiny",
                                 "link": "https://www.google.com",
                                 "price": 79,
                                 "Discount": 20
@@ -1186,7 +1186,7 @@
                         "value": 89,
                         "Extra": [
                             {
-                                "name": "Mini",
+                                "name": "Indiegogo Mini",
                                 "link": "https://www.google.com",
                                 "price": 89,
                                 "Discount": 20
@@ -1215,7 +1215,7 @@
                         "value": 59,
                         "Extra": [
                             {
-                                "name": "Mini Value",
+                                "name": "Indiegogo Mini Value",
                                 "link": "https://www.google.com",
                                 "price": 59,
                                 "Discount": 20
@@ -1223,14 +1223,14 @@
                             {
                                 "name": "Early Bird Mini Value",
                                 "link": "https://www.google.com",
-                                "price": 49,
-                                "Discount": 30
+                                "price": 39,
+                                "Discount": 40
                             },
                             {
                                 "name": "Early Signature Mini Value",
                                 "link": "https://www.google.com",
-                                "price": 49,
-                                "Discount": 30
+                                "price": 39,
+                                "Discount": 40
                             }
                         ],
                         "tag": "ViCase-Mini, but all inside parts made of plastic"
@@ -1244,7 +1244,7 @@
                         "value": 99,
                         "Extra": [
                             {
-                                "name": "Ultra",
+                                "name": "Indiegogo Ultra",
                                 "link": "https://www.google.com",
                                 "price": 99,
                                 "Discount": 20
