@@ -47,7 +47,7 @@ body {
 }
 img {
 	display:block;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 ::selection {
@@ -267,7 +267,8 @@ ul.navbar-nav a:hover{
 	margin-bottom:0;
 }
 .masthead {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 10px;
 }
 @media (min-width: 768px){
 	.masthead h1{
@@ -665,10 +666,10 @@ Chapter,Section {
 }
 .masthead-list p{
 	text-align: left;
-
+	margin:0;
 }
 .masthead-list {
-	padding-top: 80px;
+	padding-top: 60px;
 }
 .masthead a {
 	color:#FFF;
