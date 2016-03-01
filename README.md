@@ -6,7 +6,10 @@ All development happens on Forks on Developer's Repository. Every evening (China
 ### Hosts our Demo Version
 The code of this branch automatically makes for → [Demo of V²Configurator on GitHub Pages](http://v-squared.github.io/v2-Configurator/). This is why the name of this branch is gh-page, as in short for [GitHub Pages](https://pages.github.com/).
 
-## Developed Features
+## Part of the ViPC Project
+ViPC are a set of open source projects to to create and publish Know How to help you to either build yourself or to buy a modular, upgradeable Mini or All-In-One Computer, made from Desktop parts. For more information → [ViPC Community Project](https://github.com/V-Squared/v2-How-to-DIY-Mini-PC/wiki/ViPC-Community-Project)
+
+## V²Configurator Features
 - Assist Shop visitors in Configurations
 - Part Dependencies (customizable without coding)
 - Lightweight (HTML5 + CSS3 + JS)
